@@ -1,0 +1,3022 @@
+Sorcerian FAQ/Guide (DOS)
+April 6, 2006 v1.1
+dammit9x at hotmail dot com
+
+Copyright 2006
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+                        In times beyond memory, people
+                      fought for their lives in a world
+                      where monsters and magicians held
+                     sway in places of power and mystery.
+
+                      In those days, heroic adventurers
+                     went forth on perilous journeys to
+                     prove their courage against their
+                        foes in battles to the death.
+
+                         They were called .........
+
+                                 SORCERIAN
+
+                      Copyright (c) 1987,1990  FALCOM
+                      Copyright (c) 1990 SIERRA ON-LINE
+ 
+
+ABOUT SORCERIAN
+
+  Sorcerian debuted in 1987 for the PC-8801, an old PC produced by NEC. (For 
+reference, this was the same year Zelda was released on NES.) It featured what 
+today are considered standard elements in any action-RPG video game: customiz-
+able parties, a dynamic statistic and level-up system, upgradable equipment, 
+and plenty of dungeon-crawling challenges. Later addon packs brought new 
+features (such as the sound test) and many new scenarios to the original. Since 
+then it has been ported to many platforms, including Windows, Sega Mega Drive 
+(Genesis) and Dreamcast, NEC PC Engine (Turbo Grafx) and even mobile phone. 
+The Mega Drive port is notable because it had only 10 scenarios, but all were 
+unique to that version. Many soundtracks and art collections have been 
+released. However, it has never been well known in the West due to a lack of 
+interest in foreign markets on the part of Falcom.
+  Sorcerian was only ported to English speakers once. In 1990, a version was 
+translated and distributed in North America by Sierra On-Line for the Microsoft 
+DOS platform. That is the version for which this FAQ was written. The DOS 
+version has the 15 original missions, along with the game improvements brought 
+by the 1988 Utility pack. It is probably a faithful port of one of the versions 
+for NEC PC. However, it lacks the mission packs that were available for other 
+PC systems (which increased the number of scenarios to 50) and is technically 
+inferior to later versions such as the Turbo CD. It is the only option for 
+English speakers though.
+
+  It is of note that Sorcerian is part 5 of Falcom's "Dragon Slayer" series, a 
+collection of games related only by fantasy theme:
+
+      I.    Dragon Slayer
+      II.   Xanadu (includes the familiar Faxanadu for NES)
+      III.  Romancia
+      IV.   Dragon Slayer Chapter IV
+      V.    Sorcerian
+      VI.   Dragon Slayer Legend of Heroes
+      VII.  Lord Monarch
+      VIII. The Legend of Xanadu
+
+***************************************
+TABLE OF CONTENTS
+
+I. GAMEPLAY GUIDE
+  1. CONTROLS
+  2. MAIN MENU
+  3. CHARACTER GENERATION
+  4. CHARACTER PARAMETERS
+  5. CHARACTER OCCUPATIONS
+  6. TOWN MENU
+  7. TIPS FOR BEGINNERS
+  8. SAVE HACKING
+
+II. WALKTHROUGH
+  CONVENTIONS
+  1-1. THE STOLEN SCEPTER
+  2-1. MASTER OF THE DARK MARSH
+  3-1. THE GARDEN OF THE GODS (3 character limit)
+  1-2. THE LOST TALISMAN
+  2-2. THE DRAGON KING (3 character limit)
+  3-2. THE CAVERNS OF ICE
+  1-3. LUCIFER'S FLOODGATE
+  2-3. RIDDLE OF THE RED JEWEL
+  3-3. THE CURSE OF MEDUSA (3 character limit)
+  1-4. THE CURSED OASIS
+  2-4. THE DARK MAGICIAN (3 character limit)
+  3-4. THE MISSING MAGICIAN
+  1-5. THE TOWER OF THIEVES
+  2-5. THE CURSED SHIP (3 character limit)
+  3-5. THE WATER OF LIFE
+
+III. TABLES
+  1. "MAGIC"
+  2. "HERBS"
+  3. "CHART"
+
+CLOSING
+***************************************
+
+I. GAMEPLAY GUIDE
+
+  1. CONTROLS
+
+Menu & Town Controls:
+Arrow keys/Number keypad = Move cursor
+Z/Enter = Choose/Yes
+X/Space = Cancel/No
+Ctrl-Q    Immediately quit program
+
+Scenario (Combat) Controls:
+Arrow keys/Number keypad = Move & Jump; Use Up to search, use items, etc.
+Shift + move keys = Sprint; You can only sprint for a few seconds at a time
+Z/Enter = Magic
+X/Space = Attack
+
+F1        View control help
+F2        Toggle music
+F4        Toggle SFX
+F5        Save ("quicksave")
+F7        Load ("quickload")
+C         Change character order (Very important)
+E         View equipment and select magic; Use potions
+I         View treasure and exp found so far
+M         Monster information (The party leader must have monster knowledge.)
+P         View stats
+S         Set speed (5=normal)
+T         Toggle pause
+Capslock  Toggle popup HP/MP window
+Ctrl-Q    Immediately quit program
+
+A joystick or gamepad also works, if installed.
+The stick/directional pad functions as the arrow keys/number keypad.
+Buttons 1 and 2 function as Z/Enter and X/Space, respectively.
+
+
+
+  2. MAIN MENU
+
+START ADVENTURE: First choose one of the 3 available mission suites, then 
+ choose one of the 5 missions. In general, the difficulty increases from the 
+ 1st to 5th mission. Scenarios can be repeated, and taken in any order. 
+ (Although it may be impossible to complete if the party is too weak.) A party 
+ must first be organized.
+
+ADVANCE TIME: Passes one year.
+
+VIEW PARTY: View the status of party members. A party must first be organized.
+
+VIEW CHARACTER: Same as VIEW PARTY but works with disbanded members instead.
+
+ORGANIZE PARTY: Choose up to four members to be in a party. A member must be 
+ fully equipped in order to join. Some scenarios only allow parties with up to 
+ 3 members, because you will be joined by an NPC.
+
+CREATE CHARACTER: Begin character generation process. (See below.)
+ The maximum number of characters is 10.
+
+DISBAND PARTY: Un-organizes a party, if one exists.
+
+REMOVE CHARACTER: Permanently deletes a character.
+
+GO TO TOWN: Characters can do business in town. The party must be disbanded.
+
+CHANGE OCCUPATION: Choose a different job for a character, which determines the 
+ annual income, exp, and stat modifications. The available jobs depend on the 
+ class, age, and sex of the character.
+
+SAVE CHARACTERS: Save the state of all characters to one of slots from 1-9.
+ The save files are created in the directory ./USER/ and are named SAVE# where 
+ # is 0-9. There is a sample set of characters provided in slot 0, which can't 
+ be overwritten. Of course, you can copy, rename and remove save files through 
+ your filesystem.
+
+LOAD CHARACTERS: Load character state from one of 10 slots from 0-9.
+
+QUIT (CTRL-Q)
+
+FIGHT DRAGON: Starts a mini-scenario in which you must fight some powerful 
+ dragons. This option only appears if all members of the organized party have 
+ completed all 5 scenarios of one of the mission suites.
+
+   The dragons can deal damage extremely fast and can take a lot of damage in 
+ return. The dragons you fight are:
+ -pair of Hydras (from 1-1. THE STOLEN SCEPTER)  
+ -Blue Dragon (from 2-4. THE DARK MAGICIAN)
+ -Vadis (from 2-2. THE DRAGON KING; remember to attack tail-first)
+ -a unique Red Dragon
+
+   Some of your abilities are disabled for this scenario. You cannot:
+ -Sprint (shift key)
+ -See monster info (M key)
+ -See inventory (I key)
+ -Save or Load
+ -Leave the level
+
+   The only way to leave is to win, and there is no exp or treasure reward.
+
+
+  3. CHARACTER GENERATION
+
+  After entering a name, you need to choose a race and sex; These determine the 
+initial stats of the character:
+
+     Fighter       |  Wizard        |  Dwarf         |  Elf           
+     Male  Female  |  Male  Female  |  Male  Female  |  Male  Female  
+STR     8     7    |    -3    -4    |    10     9    |     0    -1    
+INT     0     0    |    10     9    |   -10    -9    |     4     5    
+PRT     9     8    |     6     5    |    10     9    |     7     6    
+MGR     4     5    |     9    10    |     7     8    |     6     7    
+VIT     8     7    |     5     5    |    10     9    |     6     5    
+DEX     4     5    |     5     6    |     8     9    |     7     7    
+KRM     2     3    |     3     4    |     2     2    |     5     6    
+
+  Characters get a random number of bonus points from 3-5. Select a stat and 
+deduct points with Space and increase with Enter. To discourage excessively 
+specialized characters, reducing a stat below its initial value costs two 
+points per single bonus point yielded. Stats cannot be reduced beyond 0 or 
+increased beyond 10, which is the maximum for level 0 characters.
+  Bonus points can also be gained by aging the character; each increment yields 
+one point. (See the below table on Age for information on increments.) Aging a 
+character should be considered a handicap, as stats can be gained faster (in 
+game years) by training. The initial stats are largely trivial for this reason.
+  More important is the racial makeup of the party. Fighters and Wizards live 
+the shortest but level the fastest, while the opposite is true of Elves. (See 
+section below.) Further, the Fighters and Dwarves equip weapons, armor and 
+shields, while Wizards and Elves wear staffs, robes and rings. This is 
+important because the treasures found in the scenarios can only be used by some 
+characters.
+  All characters start with no items, at level 0 with 0 exp and 50 gold.
+
+
+  4. CHARACTER PARAMETERS
+
+HP  Determines how much damage a character can take. In scenarios, HP can be 
+    regenerated by standing still and not using weapons or magic for awhile.
+MP  All spells except the version of Flame on the Wooden Cane cost MP to cast. 
+    When not full, MP constantly regenerates. Max HP and MP depend on level.
+
+STR (Strength) Determines weapon damage;
+    characters with STR 0 or less cannot swing weapons
+INT (Intelligence) Determines magic damage;
+    characters with INT 0 or less cannot use magic
+PRT (Protection) Reduces damage from physical attacks
+MGR (Magic resistance) Reduces damage from magic attacks
+VIT (Vitality) Required to open doors; only the party leader needs it
+DEX (Dexterity) Helps avoid traps; only the party leader needs it;
+    Not necessary with Traps knowledge.
+KRM (Karma) Reduces exp required for level-up; lowers cost of goods and 
+    services in town; reduces time required to enchant items with magic; 
+    determines disposition of store owners; decreases annual income; plays a 
+    role in whether the character can be resurrected at the Temple
+MAX (Maximum) Determines how high stats can go. The negative of MAX is the 
+    minimum value. Enchantments can bring the stats above the maximum.
+    MAX depends on level.
+
+Scenario number    Required VIT to open doors
+1                   5
+2                  10
+3                  15
+4                  20
+5                  25
+
+Character's KRM    Alignment    Enchantment time     Proprietor's appearance
+16 and above       "Good"       1 year               Beaming with eyes closed
+-15 to 15          "Neutral"    3 years              Ordinary
+-16 and below      "Evil"       5 years              Strongly displeased
+
+Level: Level determines the character's max HP and MP, and the MAX stats.
+
+  Max HP = 200 x level, except for 100 HP at level 0
+  Max MP = 25 x (2 + level) up to 250 at level 8
+  MAX stats = 5 x (2 + level) up to 50 at level 8
+
+The exp required to reach the next level is:
+
+  exp = N x (1 + current level) x (100 - KRM)
+
+where is N is 2 for Fighters and Wizards, 3 for Dwarves, and 6 for Elves.
+  Note that level-ups do not occur automatically, but must be recieved from the 
+Throne Room in town. The exp needed to level up is deducted from the amount 
+shown in the status screen when the level-up occurs. This means that the shown 
+exp is less than the total earned exp.
+
+Knowledge: There are four Knowledge skills learned at the Training field.
+  Items: The character can Appraise items found in scenarios.
+  Traps: The character defeats all traps when leading the party.
+  Monsters: Get information on monsters with the M key when leading the party.
+  Herbs: If the character uses a potion and has the herbs necessary to make 
+    another potion of the same type, then the herbs are spent and another 
+    potion is created. This makes it possible to use potions multiple times.
+
+-Characters can learn more than one of the Knowledge skills.
+-Getting hit by a Memory Loss trap causes all Knowledge to be lost.
+
+The inventory is arranged like this:
+
+Item no.  Type                   Color
+1         Arm or Staff           Bright
+2         Armor or Robe          Bright
+3         Shield or Ring         Bright
+4         Potion                 Bright
+5         Equipment or potion    Dim
+6         Equipment or potion    Dim
+
+  The bright colored items are active (equipped). In scenarios, they can be 
+used to cast magic and affect stats if they are enchanted. To equip a backup 
+item, select the equipped item of the same type and press Enter. Press Enter 
+over the item to drink it or make it activate its magic, when the magic button 
+is pressed in combat. You can also choose to use no magic.
+  Note that using potions gives the benefit to the entire party. However, items 
+and gold cannot be passed between characters.
+
+Age chart:
+                  Increment     Young    Middle-aged     Old
+Fighter/Wizard            2     16-39          40-59     60+
+Dwarf                     4     16-59          60-99    100+
+Elf                       9     16-99        100-199    200+
+
+  Characters start at age 16 (or higher, if you choose) and naturally get older 
+as time passes. The races have different life spans and enter middle and old 
+age at different times. The races are also aged by different amounts if you 
+wish to gain additional stat points during character generation. (This is the 
+increment.) Age is responsible for the character portait and affects which jobs 
+can be taken. Old characters lose one point per year in a random stat, and have 
+a random chance of permanently dying each year.
+  If an old character passes away, you have the option of creating a replace-
+ment character of the same race but either sex. This new character has all of 
+the belongings and even stats of the deceased, but starts at level 0 with 0 exp 
+and thus is limited to MAX 10. Presumably the replacement is a descendant.
+  Age can be reversed: The Rejuvenate spell, which costs 200 MP, reduces the 
+age of the party leader by 1 year, and stats by 3, for each casting. 
+  There is also a way to achieve immortality, in which the character's age 
+never increases, stats don't atrophy due to old age, and spontaneous death 
+never occurs. (See the Magician entry in the Town Menu section.) Due to the 
+stat penalty for Rejuvenation, it really should not be used except on immortal 
+characters.
+
+  At the bottom is the character's Occupation. The available jobs depend on 
+race, sex, age and stats. Every year spent working causes a character to 
+undergo changes to the stats (within the bounds MAX) and gain a specific amount 
+of exp and annual income. (See section below for details.) These things occur 
+only when the character is not organized in a party and not in the midst of 
+training. For example, if a character sells off his equipment at the end of a 
+scenario (which would cause him to be disbanded), or is completing the second 
+year of training, the annual changes do apply.
+  If with the passage of time a character no longer qualifies for a job (e.g., 
+due to aging) he will be "dismissed" (fired) and reverts to Farmer.
+  Jobs are mostly just for gradually raising stats, but in one mission, 2-2, 
+certain jobs are required complete the objectives.
+
+
+  5. CHARACTER OCCUPATIONS
+
+Adapted from: http://homepage2.nifty.com/tkdate/Pc88_98/job/job1.html
+
+  This table lists each job along with the allowed races, ages and sexes that 
+can take the job. The first row of stats show what the required stats are to 
+take the job. The second row shows the changes that occur to the stats each 
+year, along with annual income and exp earned.
+  Note that all jobs offer an annual net gain of 1 point to stats. Annual 
+income given is for a character with 0 KRM. Higher KRM will DECREASE the income.
+
+Occupation         Race  Age  Sex  STR INT PRT MGR VIT DEX KRM  Gold  Exp
+FARMER             FWDE  YMO  MF
+                                                    +1            10   50
+DRIVER             F D   YMO  MF                         2
+                                        -2          +2  +1         5   55
+WRITER              W E    O  M         20
+                                    -1  +2                        10   50
+SPINNER              D   YMO   F                         3
+                                    -1                  +2         6   54
+SINGER             FW E  YM    F                             1
+                                                +1      -1  +1     6   54
+THIEF              FWDE  YMO  MF                        -5
+                                                        +2  -1    20   40
+PRIEST              W    YMO  MF         3                   0
+                                    -2  +1                  +2     2   58
+MERCHANT           FW E  YMO  MF        -5
+                                    -1  +2                        12   48
+SAILOR             F D   YM   M                      3
+                                        -2          +2  +1         8   52
+FIGHTER            F DE  Y    MF    -4
+                                    +2  -1  +1      -1            15   45   
+CLOWN               W E  Y    MF                         1   0
+                                    -2                  +1  +2     5   55
+BARBER*             WD     O  MF        15              18
+                                                        +1        10   50
+COOK                W E  YMO  MF        -3               1
+                                                        +1         4   56
+HUNTER             F DE  YMO  M     -3
+                                    +2  -1                        10   50
+SHAMAN              W E  YMO  M                  1           0
+                                    -1          +2      -1  +1    15   45
+EXORCIST            W    YMO  M          4       3
+                                    -1  +1      +2      -1        10   50
+SPY                FW E  YM   M    -10       1          -5
+                                        -2  +2          +1        20   40
+DOCTOR             FW E  YMO  M          8
+                                    -2  +2              +1        16   44
+NURSE              FW E  YMO   F        -5                   1
+                                    -1  +1              -1  +2     8   52
+BAKER              FW E  YMO  MF        -5
+                                    -1  +1              +1         5   55
+
+Occupation         Race  Age  Sex  STR INT PRT MGR VIT DEX KRM  Gold  Exp
+FISHERMAN          F D   YM   MF                     2
+                                        -1          +2             8   52
+CARPENTER          F D   YMO  M        -15           3
+                                            +1      +1  -1         8   52
+SCULPTOR           FWDE    O  MF        10
+                                                        +1        15   45
+BLACKSMITH         F D   YMO  M        -15           3
+                                        +1          +2  -2         8   52
+PHARMACIST         FW E   MO  MF        10
+                                    -1  +2                         8   52
+WOODCUTTER         F D   YM   M                      3
+                                    +2  -1          +1  -1         6   54
+MISSIONARY          W    YMO  MF         3                   0
+                                    -1  +1                  +1     2   58
+MORTICIAN          FW      O  M
+                                                        +1         3   57
+BODY GUARD         F DE  Y    M     -3       1
+                                    +2  -1  +1          -1        15   45
+MINSTREL            W E  YMO  M         -3                   0
+                                    -2  +2                  +1     8   52
+ALCHEMIST           W    YMO  M          4
+                                    -2  +3                         6   54
+WINE MAKER         FWDE  YM   MF
+                                                    +2  -1         4   56
+MERCENARY          F DE  YM   M     -3       1
+                                    +1  -2  +2      +1  -1         8   52
+GRINDER            F D   YM   MF                     2
+                                        -1          +2             4   56
+BEGGAR             FWDE  YMO  MF
+                                            +1          +1  -1     8   52
+DANCER                E  Y     F                         3   1
+                                    -1                      +2     8   52
+FLORIST            FW E  YMO   F        -5
+                                                        +1         4   56
+LOCKSMITH            D    MO  MF                        15
+                                                        +1         6   54
+MIDWIFE            FW     MO   F         5               8
+                                    -1  +1              -1  +2    12   48
+TAILOR              WDE  YMO   F                         2
+                                    -1                  +2        10   50
+
+Occupation         Race  Age  Sex  STR INT PRT MGR VIT DEX KRM  Gold  Exp
+FORTUNE-TELLER      W E  YMO  MF        -3
+                                    -2  +1      +2                 6   54
+MINE WORKER        F D   YM   M                      3
+                                        -1          +2            10   50
+FABRIC MAKER        WDE  YMO   F       -15
+                                                            +1     5   55
+TRANSLATOR           DE  YMO  MF       -15
+                                        +2              -1        12   48
+CHARCOAL BURNER    F D   YMO  MF                     2
+                                        -1          +2             4   56
+BAMBOO WORKER        D     O  MF                        20
+                                    -1                  +2        12   48
+FERRY MAN          FW    YM   M                      1
+                                                    +2  -1         8   52
+HERB PICKER         W E  YMO  MF        -3               1
+                                    -1              +2             6   54
+SHEPHERD BOY       FWDE  Y    MF
+                                        -1          +2             8   52
+GRAVE KEEPER       FWDE    O  M
+                                            +1                     3   57
+HOUSEKEEPER        FWDE  YMO   F
+                                                            +1     6   54
+HORSE TRAINER        DE   M   MF
+                                        +1  +1          -1        10   50
+JEWELRY ARTIST       D     O  MF                        20
+                                    -1                  +2        15   45
+BASKET MAKER       F D     O  MF                        18
+                                                        +1         8   52
+STONE MASON          D   YM   MF                     3
+                                        -1          +2             8   52
+SHOE MAKER         F DE    O  MF         5              15
+                                    -1  +2                         6   54
+STUFFED TOY MAKER  F D     O  MF                        18
+                                    -1                  +2         8   52
+BOWMAKER, BOWYER   F  E    O  MF        15              18
+                                    -2  +1              +2        10   50
+CHEESE MAKER       F D   YMO   F
+                                    -1      +1      +1             6   54
+HAIR DRESSER       FWDE   MO   F                         8
+                                                            +1     6   54
+* Evidently, "Barber" was a mistranslation of "Paper maker."
+
+
+  6. TOWN MENU
+
+WEAPON SHOP: Here you can buy basic equipment. There is no selection--only the 
+ basic goods are available. Fighters and Dwarves take a weapon, armor and 
+ shield while Wizards and Elves take a rod, robe and ring.
+   However, it should be noted that the Wizard and Elf equipment can cast 
+ spells, even though they are unenchanted. Enchanting these goods will cause 
+ the free spell to disappear.
+
+Wooden Cane    Special weak version of Flame which costs no MP to cast
+Cotton Robe    Shield
+Crystal Ring   Heal
+
+MAGICIAN
+
+ENCHANT THIS ITEM: You can imbue your equipment with magic of any of the 7 gods.
+ The purpose is to increase the wearer's stats and to impart magic spells. 
+ The boost to the stats takes place immediately, but imbuing the spell takes a 
+ number of years. (See KRM discussion above.) Each character can only have one 
+ piece worked on at a time.
+
+ The base cost of enchantment, prior to KRM adjustment, is:
+
+     Cost in gold = 10 x (1 + Sum of existing enchantments)
+
+   Wearing an enchanted item increases your stats, and it is possible to go 
+ beyond the maximum in this way. (However, the effect only takes place during 
+ scenarios, which means that KRM bonuses cannot be exploited.) Each god 
+ increases a particular stat, (see the Elder section for details) and the item 
+ can be enchanted multiple times by the same god, but complications arise when 
+ one or more gods are present on the item when it is enchanted.
+   No interference: There is no heterogenous enchantment on the item. This 
+ includes the case of an unenchanted item. The result is simply to add +1 to 
+ the god in question.
+   Single interference: There is one heterogenous enchantment. Most combina-
+ tions give the ordinary result (indicated by the . in the tables below), but 
+ some have unusual effects. The following two tables are equivalent; the top 
+ shows changes made to the initial state (indicated by + and -) while the 
+ bottom instead shows the final state, assuming the initial state had 1 level 
+ of the prior god. An X indicates a loss of the prior god with no gain.
+
+(Prior enchantment is vertical on the left, added is horizontal on the top.)
+         Mars    Mercury    Jupiter       Moon        Sun      Venus     Saturn
+Ma          .          .   -Ma +2Ju          .   -Ma +2Su          .          .
+Me   -Me +2Sa          .          .   -Me +2Mo          .        -Me          .
+Ju          .        +Ma          .          .          .          .        -Ju
+Mo        -Mo          .          .          .  -Mo+Su+Ve          .          .
+Su          .  +Me-Su+Ve          .          .          .        +Ju          .
+Ve   +2Ma -Ve          .  +Ju+Mo-Ve          .          .          .  +Ma-Ve+Sa
+Sa        +Sa          .          .          .          .          .          .
+
+Table adapted from: http://homepage2.nifty.com/tkdate/Pc88_98/town/esther.html
+     Ma   Me   Ju   Mo   Su   Ve   Sa
+Ma    .    .  Ju2    .  Su2    .    .
+Me  Sa2    .    .  Mo2    .    X    .
+Ju    . MaJu    .    .    .    .    X
+Mo    X    .    .    . SuVe    .    .
+Su    . MeVe    .    .    . JuSu    .
+Ve  Ma2    . JuMo    .    .    . MaSa
+Sa  Sa2    .    .    .    .    .    .
+
+    Multiple inferference: There is more than one heterogenous enchantment. 
+  These are handled on a case by case basis in the table below. This assumes 
+  you are starting with 1 each of the prior enchantments. Note that the table 
+  can be partially predicted by superposing the results from multiple single 
+  interference enchantments. (i.e. regard them as simultaneous)
+
+Table adapted from: http://homepage2.nifty.com/tkdate/Pc88_98/town/esther.html
+        Prior:  Added:        Change:   Result:  Net:
+. Me. Mo. . .       Ma     -Me-Mo+2Sa       Sa2     0
+. Me. . . Ve.       Ma  +Ma-Me-Ve+2Sa    Ma Sa2    +1
+. Me. . . . Sa      Ma        -Me+2Sa       Sa3    +1
+. . . Mo. Ve.       Ma      +Ma-Mo-Ve        Ma    -1
+. . . Mo. . Sa      Ma         -Mo+Sa       Sa2     0
+. . . . . VeSa      Ma      +Ma-Ve+Sa    Ma Sa2    +1
+. Me. Mo. Ve.       Ma  -Me-Mo-Ve+2Sa       Sa2    -1
+. Me. Mo. . Sa      Ma     -Me-Mo+2Sa       Sa3     0
+. Me. . . VeSa      Ma  +Ma-Me-Ve+2Sa    Ma Sa3    +1
+. . . Mo. VeSa      Ma      -Mo-Ve+Sa       Sa2    -1
+. Me. Mo. VeSa      Ma  -Me-Mo-Ve+2Sa       Sa3    -1
+. . Ju. Su. .       Me      +Ma-Su+Ve  Ma Ju Ve    +1
+Ma. . . . Ve.       Ju  -Ma+2Ju+Mo-Ve    Ju2 Mo    +1
+Ma. . Mo. . .       Su  -Ma-Mo+2Su+Ve    Su2 Ve    +1
+. Me. . Su. .       Ve         -Me+Ju     Ju Su     0
+. . Ju. . Ve.       Sa      -Ju-Ve+Ma        Ma    -1
+
+   As for maximum enchantment, the limit seems to be 3 for any god if done 
+ directly and 5 if done indirectly (via single or double interference). 
+ However, many treasures can be found with initial levels above these limits.
+
+Examples:
+Prior enchantment:     Magician adds:                Result:    Net:
+         (nothing)                 +X                     X1      +1
+                X3                 +X                     X3       0
+               Ma1             +Venus                Ma1 Ve1      +1
+               Me1             +Venus              (nothing)      -1
+               Su2           +Mercury            Me1 Su1 Ve1      +1
+           Ma3 Ju3           +Jupiter                Ma2 Ju5      +1
+       Me3 Ju3 Ve4              +Mars    Ma1 Me2 Ju3 Ve3 Sa2      +1
+
+   Here is a more involved example, starting from scratch and producing a 
+Dragon Slayer item:
+
+Add:     Result:
+Ma x3    Ma3 .   .   .   .   .   .
+Su x3    .   .   .   .   Su5 .   .
+Ma x3    Ma3 .   .   .   Su5 .   .
+Mo x3    Ma3 .   .   Mo3 Su5 .   .
+Sa x3    Ma3 .   .   Mo3 Su5 .   Sa3
+Me x3    Ma3 Me3 .   Mo3 Su2 Ve3 Sa3
+Ju x1    Ma2 Me3 Ju2 Mo4 Su2 Ve2 Sa3
+
+It's possible to keep going from there, but you get the idea.
+
+REMOVE A SPELL: Cures a curse, same as Un-curse potion.
+
+RESURRECT THE DEAD: Raises a dead character for a fee. Another character must 
+ do this on the dead one's behalf. This costs a fee, which depends of the 
+ deceased character's age, level, and time dead, and is unaffected by KRM.
+   The resurrection has a chance of failure, which increases as the years go by 
+ and also depends on the age of the deceased, with young characters having the 
+ best outlook, and Old the worst.
+
+Tables adapted from: http://homepage2.nifty.com/tkdate/Pc88_98/town/esther.html
+
+                  Chance of resurrection
+Years dead   YOUNG      MIDDLE-AGED  OLD
+1-3          100%       100%         100%
+4-9          90%        80%          50%
+10-19        80%        60%          20%
+20-29        70%        30%          10%
+
+   Failure to resurrect obliterates the character. Successful revival, on the 
+ other hand, confers various side effects depending on the age and time dead.
+
+                          Side effect of resurrection
+Years dead   YOUNG             MIDDLE-AGED       OLD
+4-9          none              Random stat -1    Max HP -20%
+10-19        Random stat -1    Max HP -20%       Negative stats set to 0
+20-29        Max HP -20%       Age -10 years     Immortality
+
+   Immortality means the character will no longer increase in age and will not 
+ perish from old age. The age can still be decreased by the Rejuvenate spell.
+
+GIVE ME BACK ITEM: Takes back the item being enchanted. If you interrupt the 
+ process before it's done the god's bonus still remains--in other words, that 
+ part is added instantly. The spell, however, will not be ready. Instead it 
+ will be present as a locked spell.
+
+
+HERBALIST SHOP
+
+PLEASE PREPARE THESE HERBS: Select herbs in the character's inventory with 
+ which to make a potion. See the CHARTS section for all formulas.
+
+I WANT TO BUY A POTION: Buy a premade potion. The pre-KRM costs are:
+Heal          20
+Resurrect     50
+Cure          20
+Melt          20
+Un-Curse      20
+Stone-Flesh   20
+Senility      10
+Still        100
+
+
+TEMPLE
+
+Adapted from: http://homepage2.nifty.com/tkdate/Pc88_98/town/temple.html
+
+I WANT TO MAKE A CONFESSION and I WILL DONATE 20 GOLD
+   Doing both in one year will raise KRM by 1 point, but only if it is negative.
+ This only works once per year.
+
+I WANT TO PRAY
+   This affects a character's ability to resurrect a dead comrade with the 
+ option below. A character's prayer count is tracked in the save file; Praying 
+ more than once a year offers no additional benefit. 
+
+RESURRECT THE DEAD
+   This option can raise a dead member with no chance of failure and no side 
+ effects. However, certain conditions, which are not entirely known at this 
+ time, must be met. Aside from the supplicant's prayer count, the KRM of 
+ deceased also plays an apparent role.
+
+
+ELDER'S HOUSE: The Elder will appraise any piece of equipment (not potions) for 
+ a fee. The cost is the same as what the magician charges for enchantments. 
+ This tells you the enchantment level for each of the seven gods and what 
+ spell effect it has, if any, when equipped.  Although the Elder correctly 
+ identifies the gods, he mixes up most of the bonus effects that the gods give:
+
+Enchantment    Bonus (Elder)    Bonus (actual)
+Mars               INT              STR
+Mercury            STR              INT
+Jupiter            MGR              PRT
+Moon               PRT              MGR
+Sun                DEX              VIT
+Venus              VIT              DEX
+Saturn             KRM              KRM
+
+   If there is a locked spell on the item the Elder offers to release it, for a 
+ high price.
+   The elder will also offer a magic formula as part of the deal.
+ See the CHARTS section for all formulas.
+
+
+THRONE ROOM: Once you have enough exp to level up, you must go to the king to 
+ make it happen. The king also informs you how many exp you need to advance to 
+ the next level.
+
+
+TRAINING FIELD: Here you can enter training to boost your stats or to gain 
+ Knowledge. Training programs last 2 years and cost a small fee. You cannot 
+ train to boost a stat if you are at your current maximum for that stat.
+
+Master Weapons: +5 STR
+Master Magic: +5 INT
+Master Defense: +5 PRT
+Magic Escapes: +5 MGR
+Gain Vitality: +5 VIT
+Trap Escapes: +5 DEX
+Conversational Skills: +5 KRM
+Study Items: Gain Items Knowledge
+Study Traps: Gain Traps Knowledge
+Study Monsters: Gain Monsters Knowledge
+Study Use of Herbs: Gain Herbs Knowledge
+
+
+MUSICIAN FIELD: This is a Sound Test. You can hear any of the 59 music tracks.
+
+
+  7. TIPS FOR BEGINNERS
+General:
+-Since you control the stats, you can make a strong party out of any combin-
+ation of characters, even 4 of the same race.
+-To get started quickly, use the prefab party. (load slot 0)
+-If the battles are too hard, train.
+-If the battles are too easy, stop training.
+-KRM is good to raise early for elves since it speeds up the leveling process.
+-Give characters healing, restoration, and resurrection items to avoid trouble 
+later. Potions are good; Spells on your equipment is better.
+-Since one inventory slot is reserved exclusively for potions, there's no 
+reason not to carry at least one potion.
+-Do not feel the need to put Dragon Slayer on every item. (It's not as good as 
+you think.) Most treasures found in the scenarios have good spells on them.
+-An inexpensive way to unlock latent spells is to apply a single enchantment 
+(one that doesn't change the configuration of the gods) and wait for the 
+enchantment to finish.
+
+Tactics:
+-If you can, use a gamepad. Even better, bind the keyboard keys to the gamepad.
+-Change character order as needed. You will want to put different characters 
+ in front depending on the situation. Your Trap man should be the one opening 
+ doors, for example.
+-The sprint key (Shift) is of extreme importance. Use it to save time, escape 
+ monsters, make difficult jumps easier, and keep up with fast-moving bosses.
+-Bosses tend to be magic resistant. Therefore it's wise to some bring characters
+ who are good with weapons.
+-On the other hand magic is very convenient for defense, support, and dealing 
+ with regular monsters. In particular, the Flame spell on the Wooden Cane can 
+ dispatch monsters on the early levels easily.
+-Characters with the most HP should be the the damage buffers for the weaker 
+ characters. As such, one should go in the front and another, to a lesser 
+ extent, should go in the back because these are the most vulnerable positions.
+-Defensive spells with a fixed radius work best if the caster is in the second 
+ position.
+-In order to win exp for fighting regular monsters, you have to keep fighting 
+ until all in the area are dead. This may be impossible if new monsters are 
+ showing up faster than you can kill them.
+-Save and load the game with F5 and F7. Each scenario has one save slot in the 
+ ./USER/ directory named SV##0, where the first # is the mission suite number 
+ minus 1 and the second # is the scenario number minus 1. As with the Main Menu 
+ saves, you can always manage these files from outside the game.
+
+Treasure hunting:
+-Monsters do not give good rewards for killing them. Thus it is often best to 
+ avoid fighting. Do not underestimate the value of defensive spells for this 
+ reason.
+-Some sites need to be persistently searched to yield treasure.
+-Much of the useful treasure (namely equipment) won't show up until the main 
+ objective is completed. Search for it before leaving the level.
+-A rapid method for accumulating gold is to load up on items in town, enter 
+ a scenario, find at least one treasure, leave and sell everything (see below).
+
+End of level process: (Saving before leaving the level is recommended, in case 
+you make a mistake in the following procedures.)
+
+-First, if you have an item that can be given to the king as Tribute, you 
+choose whether to give it. Some Tribute items are useful (to you) as equipment.
+-Each character is awarded the exp you earned during the level.
+-You get a gold bonus, 1/10 of the exp, which is added to the gold pool.
+-If you found at least one item you can DIVIDE/SELL/APPRAISE the item(s).
+
+DIVIDE: Gives the item to one of the members. Tools (items with no use) cannot 
+ be divided. Items cannot be given to characters who can't use or carry them. 
+ If more than one character can take items, they will be given first to the 
+ member closest to the front of the party. (You can control this by choosing 
+ the order in which you Divide them.)
+SELL: Sells the item. The price is 5 x (1 + sum of enchantments), which is 
+ quite low, and yields only 5 gold for tools.
+APPRAISE: A character with Items Knowledge can determine what use, enchantments 
+ and spell the item has. This is the same as the identification function that 
+ the Elder performs in town, but it costs nothing and can only be done during 
+ this phase. You cannot unlock latent spells with this skill.
+Sell personal items: You can also sell items of individual members. The sell 
+ price in this case is enormous, particularly for armor. This is by far the 
+ fastest way to get money. The gold from these personal sales goes directly to 
+ the character who sold the item, not the pool.
+
+-The proceeds from any sold treasures go into the gold pool.
+-When everything is finished, the gold is distributed among the characters.
+-Any treasure that is not divided or sold is forfeited.
+
+
+  8. SAVE HACKING
+
+  Not quite hacking. You are limited to viewing only due to the implementation 
+of an anti-tampering checksum at the end of the save file. You will not be able 
+to load the edited save file unless you also generate the matching checksum. 
+Nevertheless, the save file is a valuable source of information. The offsets 
+below correspond to the character in the first position of the non-party 
+roster; the party roster is at the front of the file.
+
+Parameter            Offset
+
+Max MP               0x0405
+Max stat limit       0x0406
+Gold                 0x040B-040C
+Exp                  0x040E-040F
+Age                  0x0414
+Level                0x0417
+Stats (STR..KRM)     0x0418-041E
+Name                 0x0420-042A
+Max HP               0x042C-042D
+Prayer count         0x0431
+Donation status      0x0439
+Item name            0x0440-044C
+Item enchantments    0x0450-045D
+Next item            add 0x0020
+
+Next character       add 0x0100
+
+Security checksum    0x0FFE-0FFF
+
+
+II. WALKTHROUGH
+
+  CONVENTIONS
+
+*    Entrance and exit of the level
+___  Floors
+|    Vertical walls, stairs, ropes, waterways etc. Two-way travel is possible.
+^    Indicates a one-way drop.
+[00] Rectangular door; Match up the numbers to see what leads where.
+(00) Roundish hole in the wall; Functions as door. Some holes are small.
+<00> One-way travel that leads to >00<
+>00< One-way travel that leads from <00> and cannot be entered
+-    Links adjacent areas. (Only used in scenario 5.)
+x    Small letters are treasures, switches, etc. See the notes.
+H    Hyssop
+L    Lavender
+G    Sage
+S    Savory
+V    Verbena
+?    Random herb(s)
+
+  The numbering of the doors is the order you can follow to get from beginning 
+to end; however, since some levels do not require you to pass through every 
+door, and many doors need to be passed through more than once, and there is 
+more than one route through most scenarios, this is clearly not intended to be 
+a rigid order. More important is the sequence of events, because triggers, such 
+as throwing a switch, will need to be activated before other triggers become 
+available. It is not possible to get stuck--for example by using up a tool or 
+forgetting to pick one up, or going out of the order that the guide says. 
+There's always a way to proceed. The only way to really get stuck is by losing 
+an important character (e.g. your boss-killer or door opener)
+  Every scenario has at least two objectives; these will be the chief exp 
+earners for your characters. Since you can usually leave the level whenever 
+you want, it's up to you (and the preparation of your characters) how many you 
+want to do.
+  There will be no mention of monsters and no discussion on fighting bosses. 
+Some bosses require special procedures, which are always mentioned as part of 
+the story.
+
+  There are no plans to make maps for the other scenarios, because I have 
+found full-color, animated maps at:
+http://homepage2.nifty.com/tkdate/Pc88_98/scenario/scenario.html
+This site also deserves credit for the location of most of the hidden treasures.
+
+
+  1-1. THE STOLEN SCEPTER
+
+*___a>07<          >04<               (12)__f         [06]______d_____<07>
+  ^                 ^                      ^
+  |__[01]__(08)    c|__[05]    >21<__[05]__|__[06]      (13)__>10<__[11]
+
+
+[01]__[03]__[02]__[22]    b__[02]    [03]__<04>    (08)__[09]e__n__[24]
+
+
+[09]__<10>    [11]__(12)    g[14]__(13)    [14]____[15]    [15]__[19]__h__[16]
+
+
+[16]__[17i]__p    [17]__[18]    [19]__k__[20]    [24]__o__S     [62]__[63]w
+
+[23]________m    [20]_
+           |          ^
+  [18]__j  q__r?      |__<21>    [22]__[23]l
+
+a Get the Blue Ball to open the way downward.
+b Goran is here.
+  Talk to him twice at any time and he'll tell you what you need to do next.
+c One of the Crystals is in the lower left corner, among the spikes.
+d Touch the blue switch (torch) to make door [11] appear below.
+e Insert the Blue Ball to open door [09].
+  You will need to come back for it at some point before getting the jewel.
+f The other Crystal is in one of the holes.
+g Get the Jar with Water here.
+h Drop your crystals into the empty jars to drain the acid-flooded room.
+i This door has an Anti-Magic trap.
+j Touch the gray switch to release the jewel. The acid must be drained first.
+k Put some water in the jar here to remove the barrier in the acid drip room.
+l Insert the Blue Ball to open door [23].
+m Taking the Jewel from this demon statue sets off a Memory Loss trap.
+  The gray switch must be pushed before you can take it.
+n Insert the Jewel into the demon statue to open door [24]. (Optional)
+o The Herb is guarded by a couple of Hydras. (250 exp)
+p Insert the Jewel into the demon statue to clear the way to the Scepter.
+q This blockage is opened by the previous note.
+r The Scepter is in a chest guarded by a bunch of orks.
+  Keep searching it to get a Long Sword and an herb.
+  Now proceed to exit the stage. After passing through door <07>, but before 
+  leaving, go back to room [02] to find Goran's Axe.
+
+Summary of Treasure:
+                   Use   Enchantment         Spell
+Savory            Herb
+Random            Herb
+Jewel             Tool
+Crystal x2        Tool
+Jar with Water    Tool
+Blue Ball         Ring   Ju4,Su4,Ve4         Resurrect
+Long Sword         Arm   Ma2,Su2             Flame (locked)
+Goran's Axe        Arm   Ma3                 none
+Scepter            Rod   Me1,Ve1             Peace
+
+Sidequest         Kill the Hydras                240 exp
+Tribute           Give the Scepter               200 exp
+
+
+  2-1. MASTER OF THE DARK MARSH
+-Find Leeza (the frog princess) and talk to her until she asks you to get the 
+Cauldron. (You have to put back the Wolfsbane, Mandragora and Beehive if you 
+already picked them up.)
+-Get the Cauldron, bring it back, and put it on the stove.
+-Leeza will ask you to collect the Wolfsbane, Mandragora and Beehive.
+-The Wolfsbane and Mandragora are in the caves.
+-The Beehive is behind a sealed door which needs the Moonstone and Bloodstone 
+to open.
+-The Moonstone and Bloodstone are on opposite sides of the maze, guarded by 
+stone sentinels who say something different from the others. To get rid of the 
+guard, talk to him, leave the area, and come back to find him gone.
+-Get the Jack's Flame.
+-Talk to Frajiore. (Optionally, fight him for 250 XP.)
+-Talk to Leeza and keep talking till she asks you to make the potion. Use the 
+flame and do it. Then give it to her.
+-Find the Coin of Joy in a chest near the exit of the level. Give it away at 
+the treasure screen for 200 exp (optional).
+
+Usable treasures: none
+
+Sidequest         Kill Frajiore                          250 exp
+Tribute           Give the Coin of Happiness             200 exp
+
+
+  3-1. THE GARDEN OF THE GODS (3 character limit)
+-One of the houses has a Red Seed.
+-Proceed all the way to the right past the mountains until a god stops you.
+-Return to the first house and the man gives you wine.
+-Give it to the god and he'll open the gate, but Jupiter throws you out.
+-As you approach town, you'll drop the seed.
+-Leave and come back until a giant vine has grown. Climb it.
+-Find Hephaestos and he'll give you a task.
+-Bring him a Seed of Flame from Apollo he'll give you Golden Wine.
+-Give it to Dionysius and he'll tell you about the Red Fruit.
+-Get the fruit from the vine and bring it to Apollo. You'll get 20 gold...
+-Talk to Venus, then find Anna on the second level.
+-Bring Anna to get the Silver Harp, then let her play it for Zeus. (250 exp)
+-On the way back through the mountains, find the Shield in the leftmost crevice.
+-Talk to the wine man, then fight Adana. (250 exp) You'll get the Bracelet.
+-The wine man, and also the shopkeeper, will give you 10 gold.
+-Search the temple for 100 gold.
+-Return the Bracelet to Zeus. (200 gold, 50 exp, optional)
+
+Usable treasures:
+Bracelet          Ring   Me1,Mo1,Su1,Sa1     Barrier
+Shield          Shield   Ju4                 none
+
+Main objective    Allay Zeus's wrath                     250 exp
+Main objective    Kill Adana                             250 exp
+Sidequest         Give the Bracelet to Zeus     200 gold, 50 exp
+
+
+  1-2. THE LOST TALISMAN
+
+          ______b______             _[13m]    [13]__n
+         |             |           |
+*__(01)__|_(23)   (02)_|__[03]__l__|__(14)
+                                |
+                    [12]__[17]__|y            [12]__>11<__k__>27<
+
+
+(01)__a    c__(02)    [03]__[04]_d?    S_[24u]__[04]__e__<05>
+
+
+[21]__[09i]_h_[08i]__[07]_V    (07)__>05<__[06f]__[18]__[20r]__[19p]_V
+
+
+[06]__g    [08]__j    [09]__(10j)    [10]__<11>    [14]__[15]__[25]
+
+
+[17]__[18]    [19]__q    [20]__s    [21]__t__[22]    [23]__[22]
+
+
+[24]__v    [25]__w    <27>__x__>26<    o_<26>__[16]    [16]__[15]
+
+a At the center of the shrine, the forest god will give you the Gold Pedestal.
+b Fight a battle with giants under the tree to get the Emerald Ring.
+c Get a Jar of Sap here.
+d Use the statue to open [04], setting off a Stoned trap.
+  Search the statue again to get the herb.
+e Fight Destru here, and get the Diamond Staff (but 0 exp) after beating him.
+f This door requires the Emerald Ring to open.
+g Use the Jar of Sap to wake the man and unlock the talisman (and Sand Maribo).
+h The wall can be easily lowered (from either side) by examining the wall 
+  twice, then going into the nearby room and examining the sand trapdoor twice.
+i These doors have Anti Magic traps.
+j Sand trapdoors. You can pass through [10] once the sand is clear.
+k Ria is here. She will be your helper on this level.
+  For now she wants you to save her uncle in the cabin.
+l Climbing up the well will cause you to drop the Gold Pedestal.
+  Going back down to search for it will eventually reveal hidden door [16],
+  and simultaneously unlock [17].
+  You cannot go DOWN the well from the surface until dropping the pedestal.
+m You can force door [13] by examining twice, but only after talking to Ria.
+n Uncle is here.
+o The Dungeon Key is here after saving Uncle the first time, but you won't find 
+  it until you to talk to Ria again.
+p Requires Diamond Staff AND Dungeon Key to open.
+q Rescue Uncle again. He'll give you the Shrine Key.
+r Requires Diamond Staff to open; this door has a Frozen trap.
+s Get back the Gold Pedestal and place your Dungeon Key to keep the door open.
+t Fight the Sand Maribo here, if you woke the old man. (500 exp, Optional)
+u Requires the Shrine Key to open.
+v Here is the Talisman. You can't get it unless you have the Gold Pedestal and 
+  have woken the old man.
+w Drop the Talisman into the bottomless pit. You can't leave with the Talisman!
+x It is possible to pass through the ceiling trap room, but only once, only 
+  after getting the Gold Pedestal, only before talking to Ria, and only from 
+  the direction of the guard post!
+y After the main objective is complete, you can find the Fog Robe at the bottom 
+  of the well.
+
+Summary of Treasure:
+                   Use   Enchantment         Spell
+Verbena x2        Herb
+Savory            Herb
+Random            Herb
+Jar of Sap        Tool
+Dungeon Key       Tool
+Shrine Key        Tool
+Gold Pedestal     Tool
+Emerald Ring      Ring   Mo6                 none
+Diamond Staff      Rod   Me5,Su2             Gas Cloud (locked)
+Fog Robe          Robe   Me3,Mo4             Fog Bank
+
+Sidequest         Kill the Sand Maribo           500 exp
+Main objective    Destroy the Talisman           500 exp
+
+
+  2-2. THE DRAGON KING (3 character limit)
+-Try the pressure plates in the pool of water until you press them all down.
+-The man in the cave will let you through the gate if you pushed the plates.
+-Talk to the fairy Lili with a Fortune-Teller and you'll get the Golden Key.
+-Talk to the ill priest in town with a Doctor or Nurse to heal him.
+-Show the Golden Key to the healed priest and get the Hermit's Robe.
+-Talk to the man with the ill wife with a Doctor or Nurse to heal her. You get 
+the Wise Man's Cane.
+-Talk to the priest in the far right building to get the Tree Medicine.
+-In the next area, enter the first open building and enter the far left house 
+from underneath.
+-Give the medicine to the pig and get the Scroll.
+-Use the Wise Man's Cane to open the barrier just before the volcano.
+-Use the Golden Key to open the gate inside the cave. This frees Bibi.
+-Bring the robe to the reunited Lili & Bibi to power it up.
+-Bring the enchanted robe to king Caliph to heal him.
+-Princess Serina can now be freed from the prison past the throne room.
+-Escort Serina to the first building in the map. (100 gold, 500 exp)
+-Also recieve the Necklace from the princess as reward.
+-With the Hermit's Robe, you can dive into the volcano.
+-If Serina is rescued, the old man at the bottom gives you the Dragon Slayer.
+-If Serina is rescued, the other old man can use your Wise Man's Cane to bridge 
+the path to Vadis. (You can get it back by asking the old man again.)
+-If you have the Dragon Slayer, Vadis can be killed. (600 exp)
+-Treasures are now available:
+  *Talk to Caliph for the Sacred Shield.
+  *Talk to the king for another 100 gold.
+
+Usable treasures:
+Wise Man's Cane    Rod   Me4,Ju3,Ve1         Sleep
+Hermit's Robe     Robe   Ju4,Mo2,Ve1,Sa2     Weaken (locked)
+Necklace          Ring   Ju2,Mo2,Su2,Ve2     Protect
+Sacred Shield   Shield   Ju6,Mo2             Anti-Magic (locked)
+
+Main objective    Rescue Princess Serina       100 gold, 500 exp
+Sidequest         Kill Vadis                   600 exp
+
+
+  3-2. THE CAVERNS OF ICE
+-Where the path splits, keep going left.
+-Get the lever in the lowest room, and note what the skeleton's message says.
+-Find the 'ANGEL' sign and get one of the letters.
+-Find the 'HELL' sign and use your letter.
+-The ice under the 'DEMON' sign is now melted and you can swim down.
+-In the A B C room, take the doors in the order the skeleton's message said.
+-In the pipe room, turn off the flames.
+-Back in the icicle room, climb the now-frozen waterfalls.
+-Get one of the letters from the 'EVOKE' sign.
+-Touch the letter V to make a hidden door appear; go in it.
+-Kill Sokuram and get a letter from the now-changed sign in his room.
+-Find Kahzeh and use your letters to free her. She'll give Tears of the Wind.
+-Treasures are now available:
+  *Shield: Bottom of the Demon/God lake
+  *Robe: Pipe room
+  *Armor: Skeleton in the room where you got the lever
+-Past Kahzeh's room you can fight Ekim (500 exp, optional)
+
+Usable treasures:
+Armor            Armor   Ju9                 none
+Robe              Robe   Ju3,Mo4,Ve1         Exorcism
+Shield          Shield   Ju6,Su2             Heal (locked)
+
+Sidequest         Kill Ekim                              500 exp
+Tribute           Give the Tears of the Wind             400 exp
+
+
+  1-3. LUCIFER'S FLOODGATE
+
+     L__[14h]_                        [16i]_[17]_[15]
+              |
+*__[01]__[02]_|    [01]__a    [02]_b_[03]       [06]_[03]_[04]_______[05]_[18]_L
+
+
+[04]_c_[21]    [05]__d    [07]__[06]    [12]_b_[13]    [13]__g__G__S__s
+
+
+ [07]______                                     (08)_fL   (09)_f
+           |_
+[24p]_[23]   |__e(08)_(09)_(10)_(11)__[12]_L    (10)_f    (11)_f
+
+
+[15]__[14]    [16]_j_[23]    [17]__k    [18]__[19]    [19]___[20l]    [20]__m
+
+
+G_[21]___[22n]    [22]__o    r[25]__[24]    q__[25]__q
+
+a Get White Powder here. You can come back for more when you use it.
+b There's a message in the torch here.
+c Flip the switch (torch) here to unlock the rod in room [05].
+d Read both torch messages and try pushing the rods. Eventually you will get a 
+  message while leaving the room to try the second rod from the right. You may 
+  have to come in and out and mess with the rods for awhile to trigger this.
+e These caves were covered by the waterfalls and revealed by pushing the rod.
+f These torches require a White Powder to extinguish.
+  Only the torch in room (10) has the Rafael Sword.
+g One of the islands has the Gabriel Sword, and islands beyond have herbs.
+  If you kill the Krakens here, you get 2000 exp.
+h This door requires the Rafael Sword to open. There is an Anti-Magic trap.
+i This door requires the Gabriel Sword to open.
+j Flip the switch (torch) here to reveal door [17].
+k Line up the dim blocks with the flashing blocks to reveal the Silver Sword.
+l This door requires the Gabriel Sword AND the Silver Sword to open.
+  It has a Frozen trap.
+m This torch needs two White Powders to extinguish and gives the Michael Sword.
+n This door requires the Michael Sword to open.
+o Line up the dim blocks with the flashing blocks to reveal the Crystal Sword.
+p This door requires the Michael Sword to open.
+q Place the Silver and Crystal Swords to open the floodgate. (1000 exp)
+  You can retrieve all 5 swords on the way back to the exit.
+r Sprint-jump off one of the stairs to get up behind the torch and find the Ice 
+  Robe. The Silver and Crystal Swords must be placed for it to be there.
+s After the main objective is complete, search in the back corner of the lake 
+  to find the Armor Plate.
+
+Summary of Treasure:
+                   Use   Enchantment         Spell
+Lavender x3       Herb
+Sage x2           Herb
+Savory            Herb
+White Powder      Tool
+Rafael Sword       Arm   Ma6,Sa4             Death Arrow (locked)
+Michael Sword      Arm   Ma7,Sa3             Death Arrow (locked)
+Gabriel Sword      Arm   Ma8,Sa2             Death Arrow (locked)
+Crystal Sword      Arm   Ju6,Su8             Heal
+Silver Sword       Arm   Su7,Ve7             Cure
+Ice Robe          Robe   Me3,Ju3,Mo3,Su3,Sa2 Ice Wall
+Armor Plate      Armor   Ju12                none
+
+
+Sidequest         Kill the krakens               2000 exp
+Main objective    Open the floodgate             1000 exp
+
+
+  2-3. RIDDLE OF THE RED JEWEL
+-The first hut visible from the start has an elf who'll give you a Fairy Tears. 
+(There's another Fairy Tears already placed in one of the fairy bridge slots.)
+-When you find a tall hut with a door on the lower level that you can't enter, 
+go in the top door and wipe out the silkworms. Now you can enter the lower door.
+-The elf (Teto) will give you a letter.
+-In the lower right corner of the forest, dig down into the dark spot.
+-The elf (Nift) will let you pass if you have the letter.
+-Deactivate the magic elevator.
+-Enter the hut that the elevator was blocking.
+-The elf inside will tell you something important.
+-Now, if you search the nest at the far left of the second level you'll find a 
+Fairy Tears.
+-At this point the elf in the hidden room over one of the fairy bridges will be 
+willing to help you. Talk to him until he tells you to go to the scales.
+-The scales are now unbalanced, allowing you to get into the room on the right.
+-Kill the moth. (1000 exp)
+-The scales will now go the other way. In the other room is the Red Jewel.
+-Bring the jewel to the hut on the right side of the first level and wash it.
+-Treasures are now available:
+  *Hero's Shield: In the deep grass by the elevator machine
+  *Rod of Light: Bird's nest at the right side of the top level
+  *Magic Armor: In the silkworm room
+  *Robe: Bird's nest where you found the Fairy Tears
+
+
+Usable treasures:
+Rod of Light       Rod   Mo2,Ve10            Lightning
+Magic Armor      Armor   Ma1,Ju8,Ve2,Sa1     Death Sound
+Robe              Robe   Mo6,Su1,Ve4,Sa3     Demoralize (locked)
+Hero's Shield   Shield   Ma2,Ju10,Mo1,Su1    Add to Life (locked)
+Yellow Jewel      Ring   Ju6,Mo2,Ve6         Become Air (locked)
+
+Main objective    Kill the Giant Moth                   1000 exp
+Tribute           Give the Yellow Jewel                 1000 exp
+
+
+  3-3. THE CURSE OF MEDUSA (3 character limit)
+-Head to the right until you reach a rock wall and a hole in the ground.
+-Go down the hole and head to the left until you see the Medusa, then run away.
+-Go to the right, get the Mirror Shield, and continue until the rope is offered.
+-Climb the rope and meet Anna, who joins you.
+-Return to the petrified people and get the Antidote from the master (Arumos).
+-Enter the cave and go right until you see Medusa, then leave.
+-Head back across the bridge and there is now a hole in the big tree.
+-Talk to the people down the hole, then return to either medusa cave.
+-The span between the caves is now accessible; get the Blue Cord there.
+-Climb up Anna's rope and head right to the spring. Use the Blue Cord.
+-Finally, you can kill Medusa (1000 exp)
+-Try to leave the level and Anna leaves you.
+-Keep going left and get attacked by Medusa's Head.
+-Kill it and get the Medusa's Head item.
+-Treasures are now available:
+  *Ring of Power: In the fireplace of the first house.
+  *Armor: Dead end past the bottom of Anna's rope.
+  *Laurel Rod: Left of middle region of Anna's rope.
+  *Angel's Robe: Dead end past the spring where you used the Blue Cord.
+
+Usable treasures:
+Laurel Rod         Rod   Ma1,Me7,Ju3,Su1     Bolt
+Armor            Armor   Ju10,Su2,Ve2        Resurrect (locked)
+Angel's Robe      Robe   Mo5,Ve2,Sa7         Binding
+Ring of Power     Ring   Ju7,Mo1,Su6         Turn Spell (locked)
+Medusa's Head   Shield   Ju7,Mo4,Sa1         Stone Touch
+
+Main objective    Kill Medusa                           1000 exp
+Tribute           Give Medusa's Head                    1000 exp
+
+
+  1-4. THE CURSED OASIS
+Note: There are no actual doors in the level, so VIT 20 is not required.
+
+*_j_(01)    (01)___m___(02)    G_(02)__(03)    (03)__[04]    [06]__[05]
+
+
+[10b]__[09]    [09]__[08]    a__[07]    [26k]__i__[08]_[07]_[12]_[14]__[06]
+
+
+[05]_    [25]        [11]       [10]          _____[27]          _[18]
+     |_   ^           |_____c_____|    o__l__|                 _|
+[15]___|__|__[04]       [30] [28]              G_d_[11]    g__|___[19]
+
+
+[18]__[17]    [17]__[16]    [16]_f_[15]    [12]__[13]    [13]__e    [14]__e
+
+
+[19]__[20]__[21]    [21]__[22]    [22]__[23]__[24]    [20]__h?    [23]__h?
+
+
+   [25]                 [28]                                [30]
+     |                   |                                    |
+[24]_|    [27]__[26]     |_[29]    [29]__n    [31]__n    [31]_|
+
+
+a Battle Ruwen and his dragon here. The dragon cannot be hurt, only the wizard.
+  (1500 exp, Optional)
+b Go down the well.
+c Press down on the center blocks to change the walls and navigate this room.
+d There's unlimited Oil in this storeroom but you can only carry 1 at a time.
+e Oil the winches (with Fatigue traps) in rooms [13] and [14] to lower the cage.
+f If you turned both winches the cage will already be lowered and opened.
+g Once Kiala is free, talk to Olvana and get the Glasses to see in the dark.
+h This room is dark and requires Glasses. Examine the jar until you turn it.
+  Jar [20] has a Spell trap, [23] has a Poison Gas trap.
+  The herbs in these rooms can only be gotten once both jars are turned.
+i If you turned the jars the "Holy Water" should now be accessible.
+j Kiala points out that your "Holy Water" is actually Acid.
+  When you have the Acid, go back to the kitchen. Olvana asks for Oasis Herbs.
+  Get the Oasis Herbs from Kiala and bring them back to Olvana.
+k This door is not accessible until Olvana has the Oasis Herbs.
+l Your progress is blocked by a door. Talk to Olvana to learn about the key.
+m Examine one of the tall background pillars around the center to find the 
+  Magic Key. You can't get it until Olvana tells you about it. 
+  Use the key on the door at m.
+n Use Oil to turn the jar. You must use the Magic Key before you can do this.
+  Jar [29] has a Poison Gas trap, [31] has a Spell trap.
+o If you turned both jars you can reach the real Holy Water now.
+  Bring it back to Kiala for 50 gold and 1500 exp.
+
+Summary of Treasure:
+                   Use   Enchantment         Spell
+Sage x2           Herb
+Random            Herb
+Oil               Tool
+Glasses           Tool
+Magic Key         Tool
+Oasis Herbs       Tool
+Acid              Tool
+Holy Water        Tool
+
+Sidequest         Kill Ruwen                     1500 exp
+Main objective    Purify the oasis               50g, 1500 exp
+
+
+  2-4. THE DARK MAGICIAN (3 character limit)
+-Take the hidden door to the left of the waterfall.
+-Fight a battle with Dark Stalkers to get the Dungeon Keys.
+-Now you can unlock the upper door past the waterfall.
+-Find Orsa in the first cell. He'll join you.
+-Back in the room before the waterfall, in the first cell go to the odd wall 
+and push up on it to find a door.
+-Get the Moon Stone, then find the teleport room.
+-Place the Moon Stone on the right-hand altar and teleport. (Katino)
+-Get the Star Stone.
+-Push down between the gold pillars.
+-At the altars, teleport with the Star Stone but without the Moon Stone. (Dios)
+-Push the stone button to lower the pyramid.
+-At the altars, teleport with both stones. (Barus)
+-Kill the Blue Dragon (1500 exp, Optional)
+-If you kill the dragon, you can also get the Steel Sword from the corner.
+-Teleport with Katino again and return to the now-lowered pyramid.
+-Through the door on the top of the pyramid is the room with the Sun Stone.
+(The barrier in front of it is gone if you pressed between the gold pillars.)
+-Treasures are now available:
+  *Quartz Shield: In the room with the stone button (Dios)
+  *Fire Rod: In the pool of fire (Katino)
+  *Silver Armor: Between the gold pillars (Katino)
+(You can only get these after getting the Sun Stone but before killing Ghedis.)
+-With the Sun Stone in hand you can now fight Ghedis. Find him through the 
+lower door past the waterfall. (1500 exp)
+
+Usable treasures:
+Steel Sword        Arm   Ma8,Ju1,Su6,Ve2     Sun Ray (locked)
+Silver Armor     Armor   Ju9,Mo5,Su1,Ve2     Protect (locked)
+Quartz Shield   Shield   Ju10,Mo4,Ve2        Become Air (locked)
+Fire Rod           Rod   Me8,Mo2,Su6         Fire Fox
+
+Sidequest         Kill the Blue Dragon                  1500 exp
+Main objective    Kill Ghedis                           1500 exp
+
+
+  3-4. THE MISSING MAGICIAN
+-Proceed until you reach a room with red/brown sludge at the bottom. Get the 
+Flame Crystal from the sludge.
+-Go down one level and examine the spinning orb to find out how to stop it. Use 
+the four small orbs to make it stop spinning.
+-With that done, go back up one level and get the Red Gemstone from the orb.
+-At the lava level, use the Red Gemstone in the slot to open the gate.
+-In the sub-lava area, free the fairy (Kaji) with the Flame Crystal and get the 
+Energy Rod. Retrieve your crystal.
+-Head right from Kaji to fight the Fire Demon. (1500 exp, optional)
+-If you kill the demon look for the Chain Mail in the corner.
+-With the Energy Rod you can open the gate in the sub-lava region, which leads 
+to the Morning Star.
+-Now smash two spinning orbs: one near the beginning of the level and another 
+on the middle tower level.
+-Insert the Flame Crystal to unlock the gate at the left of the lava level.
+-The magician is now reachable. (1500 exp)
+-Treasures are now available:
+  *Sacred Robe: Over the second grinding column at the beginning of the level
+(You have to use a Fly potion to reach the robe.)
+  *Jade Ring: Search the first hole that was generating ogres
+
+Usable treasures:
+Morning Star       Arm   Ma8,Me6,Su2,Ve2     Meteor (locked)
+Energy Rod         Rod   Me6,Mo2,Su10,Ve1    Fist of Air (locked)
+Jade Ring         Ring   Me1,Ju5,Mo6,Ve4     Flame Burst (locked)
+Sacred Robe       Robe   Ma1,Mo8,Su3,Sa5     Fire Wall
+Chain Mail       Armor   Ju12,Ve3            Ascension (locked)
+
+Sidequest         Kill the Fire Demon                   1500 exp
+Main objective    Free the Magician                     1500 exp
+
+
+  1-5. THE TOWER OF THIEVES
+
+[47]___[27]   [27]_     y____[47]
+     |             |
+>26<_|             |____[28]   __-_[28]_
+                              ^         |
+<26>_         [29]_          ____-______|_-_[29]
+     |             |                  -
+     |_[25]        |_[30]             |__-__[30]   _[31o]  [31]____-__p__
+                                      |           |                   ^
+      _[25]                     ___-__|__-____-___|                   ^
+     |                                -                               ^
+[24]_|       [45]_                    |__-__[48]       [48]__z-____-__^__
+                  |                   |                               ^
+                  |_[46]    [45]___-__|__-____-___x                   ^
+                                      -                               ^
+   __-_______[46]   __f[15]__   [15]__|  i__[18]  [18h]___[24]        ^
+  |                                   |                 |             ^
+w?|  [17]_g__[16]  [16]___[13]  [13]__|__d              |_[17]        ^
+                        |                                             ^
+                   [12]_|                                _[12]        ^
+                                                        |             ^
+[10]__[14]__[11]  [14]__e   c__[09]  [09]___[10]   [11]_|             ^
+                                          |                           ^
+    a__-____-____[06]  [08]__[06]_   [08]_|                           ^
+                                  |                                   ^
+      _[04]  [04]____[05]    [05]_|                                   ^
+     |                                                                ^
+[03]_|    [03]__[19]_   [19]_                                         ^
+                     |       |                                        ^
+      _[02]     [02]_|       |____<20j>  <21l>__>20<__k__             ^
+     |                                                                ^
+[01]_|  [07]___[01]  [07]_    >21<                                   <32>
+             |            |    ^
+*____-__[22]_|            |____|b   [22]_
+                                         |
+                              [23]__n    |____[23m]
+
+
+            _[43]          >32<                  [43]_
+           |                ^                         |
+    [39]_  |_[42]   [41]_   ^      [40]__[42]__[41]   |_[44]
+         |               |  ^
+[36]__   |___[33]_       |__^  [44]_[35]_    [35]_      _s_   u_
+      |           |      |               |        |    |   |    |
+      -           -      -               -        |____|   |_t__|
+      |           |______|               |
+      |             |    |               |
+      -             -    -               -   r__[34]  [34]_q__[33]
+      |         ____|    |_______________|
+      |        |                             [38]__         [38]__
+      -        -                                   |              ^
+      |________|                    v__[37]  [37]__|__[36]  [39]__|__[40]
+
+a Get the Jug here.
+b Fill the jug with wine.
+c The man needs 3 loads of wine before you can get the key.
+d Talk to the elevator operator, Oram.
+e If you go back and talk to Zorak, then Oram will cooperate.
+f There's a man in this room. Murder him and take his Pass.
+g You need the Pass to get by the guard.
+h You need the Key to get open this door.
+i You can carry the Red or Blue ball, but not both at once.
+j You need the Red Ball to open this gate. You do NOT need to go through it. 
+  And if you do, the Red Ball will be returned to its starting place.
+k Poison Gas trap guarding nothing.
+l Press the wall to open it.
+m You need the Red Ball to open this gate.
+n Talk to Baron here.
+o You need the Blue Ball to open this door.
+p Talk to princess Zeyna; If you talked to Baron, you will get sent to the 
+  dungeon by Garok.
+q You can fight the Shadow Dragon here. (2000 exp, Optional)
+r This is one room of the puzzle. (Hint: You can press the plates.)
+s This is the other part of the puzzle. Approach the skeleton to read how to do 
+  it. The solution is at the end of this section.
+  Also examine the skeleton carefully to get the Mark.
+t You can't pass here until the puzzle is solved.
+u Pressing this plate opens the escape tunnel in room [37].
+v If you haven't solved the puzzle yet, this man is no help. 
+  And if you already did, you still have to let him have the Pass.
+  (The escape tunnel behind him leads back to the 'winefall'.)
+w There are 3 random herbs in the pots.
+x Talk to Kuore to get another Pass.
+  You need it to interrupt the ceremony at the chapel. (site a)
+y Watch the scene at the pinnacle of the castle. You can't kill it yet.
+  Talk to Kuore again.
+z Get past the sleeping man and press the wall to fall back into the dungeon.
+  (You must have the Mark to do this. If you don't, you have to go back down 
+  via the princess' room and make a round trip just to get the Mark.)
+  Return to site s and search carefully for Garateen.
+  Now return to site x and battle the demon.
+
+Summary of Treasure:
+                   Use   Enchantment         Spell
+Jug with Wine
+Random x3         Herb
+Pass              Tool
+Mark              Tool
+Key               Tool
+Red Ball          Tool
+Blue Ball         Tool
+Garateen           Arm   Ma10,Ju3,Su6,Ve3    Sun Ray
+
+Sidequest         Defeat the Shadow Dragon         2000 exp
+Main objective    Slay the Major Demon             2000 exp
+
+Solution to the puzzle:
+Press down the right-hand plate in the room past the dragon (the western room).
+Press down both plates in the room with the skeleton.
+
+
+  2-5. THE CURSED SHIP (3 character limit)
+-Find the rooms of the sailors (Jeremiah, Andrew, Ezekiel) and talk to them.
+-Go to the crow's nest on the middle mast. Night falls. Get the St. Elmo's Fire 
+from the end of the boom. (It doesn't show up in the inventory.)
+-Find the room of Jacob, the murder victim.
+-Search the desk to get the Hatchway Key.
+-Find the door that your key unlocks, and if you have the fire, you should be 
+able to see in there.
+-At the end of the hold, try to catch the macaw.
+-Back on deck, catch the macaw at the end of the boom of the middle mast.
+-Bring the bird to Tom, and he will join you.
+-Escort Tom (aka Joshua) off the ship. (500 exp)
+-Talk to Jeremiah and Ezekiel. Then check the empty room below Andrew's room.
+-Check Ezekiel's room to find it empty. Find him in the crow's nest.
+-Check Jeremiah's room to find it empty. Find him in Jacob's room.
+-Go to the middle of the room below Andrew's to hear a sound.
+-Go to the room where you used the Hatchway Key to find Ezekiel.
+-Go back to find a body. Search it for the Desk Key.
+-Use it in Jeremiah's room to read the diary.
+-At the left end of the hold where you found the body, search to find a door.
+-Go in to find the Bloody Axe.
+-Tell the captain who the real killer is, and show the evidence. (500 exp)
+-Go to the middle of the room below Andrew's and the ship will move.
+-On the island, move all the way to the right to trigger some events.
+-Now go to the left and talk to someone to receive the Cabin Key.
+-Back on the ship, unlock Lucas's room and the desk to get the Auger.
+-Head back to the hatchway room, and talk to someone you meet on the way.
+-Use the Auger on the barrel in the upper left of the hatchway room to get the 
+Holy Water.
+-Go back to the island, using the Holy Water on the way.
+-On the island, fight the Archdemon. (2000 exp)
+-Climb the rear (left) mast and the Golden Bottle will fall down.
+
+Usable treasures: none
+
+Main objective    Escort Tom to safety                   500 exp
+Main objective    Discover who the murderer is           500 exp
+Main objective    Kill the Archdemon                    2000 exp
+Tribute           Give the Golden Bottle                1000 exp
+
+
+  3-5. THE WATER OF LIFE
+-Take the first hole to fight the Pillar Demons (2000 exp, optional)
+-In the large chamber dripping slime (stomach) take the Fighter's Arm.
+-Navigate the guts until you find the cask. Here you and the arm part ways, and 
+you recieve the Tuning Fork.
+-When you find a room with a tuning fork on the right, a blue orb on a colored 
+ornament in the middle, and a slot on the left, if you use your tuning fork 
+there, you hear a tone. Doing this unlocks the door with the same tone. Each of 
+these doors leads to a Crystal Valve. You need to retrieve your fork each time 
+to reuse it. However, you have to get them in a specific order or the door 
+doesn't get unlocked.
+-First place the fork in the room with the green ornament (loud tone), and get 
+the valve from the room above the acid lake.
+-To get back up from the stomach, you must take the muscle elevator. The 
+elevator needs to be activated before each use by pushing the eye in the 
+similar-looking room in the guts.
+-Place the valve in the heart, which is in the upper-right part of the level.
+-Use the fork in the room with the blue ornament (unclear tone). If this is 
+done and you placed the previous valve, the door to the next valve should be 
+unlocked. Get it.
+-Now arrange the valves in the heart so the left one is placed but the right 
+one is removed.
+-Place the fork in the room with the yellow ornament (clear tone). The door to 
+the last valve is unlocked if you did this and arranged the valves correctly.
+-Get the last valve and bring it back to the heart. Make only the middle slot 
+occupied. This opens the path to the water but closes some holes.
+-Treasure is now available: Check the far side of the acid lake for the Gladius.
+-You will need to get to the Water of Life room by way of the clear tone door.
+-Once you have the water, a Potion is available where the cask is.
+-Remove all the valves from the heart to lower a barrier blocking the exit.
+
+Here is a table to help understand the locked doors and corresponding valves:
+Order   Ornament color      Tone   Position in heart   Arrange like this
+  1st            Green      Loud               Right           O   O   X
+  2nd             Blue   Unclear                Left           X   O   O
+  3rd           Yellow     Clear              Middle           O   X   O
+
+Usable treasures:
+Potion          Potion                       Identical to Resurrect potion
+Gladius            Arm   Ma10,Me1,Ju1,
+                            Mo1,Su5,Ve1,Sa3  Dragonslayer
+
+Sidequest         Kill the Pillar Demons                2000 exp
+Tribute           Water of Life                         2000 exp
+
+
+III. TABLES
+
+  The following information was provided as 3 text files with the game. They 
+have been left unmodified. Credit goes to someone calling himself Greybeard for 
+providing them.
+
+  1. "MAGIC"
+
+                                  INTRODUCTION
+
+In this book are written the secret principles which have been handed down from
+generation to generation in our Sorcerian household.As you hold this book in
+your hands,remember that you are a descendant of the Sorcerians.
+
+In times long past, the Sorcerians servedthe Gods of the seven planets and
+controlled many magical powers. In those times we lived among the Gods and never
+died. We were almost like gods ourselves.
+
+Long ages ago, as mortals count time, evil beings who opposed the will of Heaven
+escaped from captivity and came to make their home among the people of the earth
+At that time we acquired a new purpose; our ancestors were sent to earth by the
+Gods to annihilate the evil ones.
+
+But the earth is not like Heaven. Here the flame of life burns quickly,and they
+realized it would be impossible to destroy the evil in one generation. Thus the
+Sorcerians established themselves on earth as mortal beings and handed down 
+their sacred purpose from generation to generation.
+
+When you have read this book, you who have inherited our blood must make a
+decision; deny your Sorcerian heritage and live as normal mortals, or become a
+Sorcerian adventurer, striving to achieve your ancestors' purpose and doing all
+you can to destroy the evil forces of the five elements that will array them-
+selves against you.
+
+The evil ones use powerful magic and the once-godlike Sorcerians are now only
+humans whose power is limited. Therefore you must learn the secrets of magic 
+which have been handed down through the generations.
+
+Even though you are a Sorcerian, magic is not easy to control.It is a demanding
+art which taxes your whole body, mind and spirit. You should realize that unless
+your entire being has been trained, you will accomplish little but an early 
+death. Many techniques of might and magic must be perfected by the true ad-
+venturer if the adventure is to achieve its purpose.
+
+Before you embark on an adventure, choose companions whose desires and goals are
+like yours, and who are likewise trained in the disciplines of body, mind and 
+spirit. When you have such a group, united in determination and purpose, go     
+forth and battle the powers of evil as we have been ordained to do. And may the
+protection of the Gods go with you.
+
+
+
+
+                        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                        ³THE GODS OF THE SEVEN PLANETS³
+                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+THE SUN
+ÄÄÄÄÄÄÄ
+The Sun, as the source of all life, controls the power of life, vitality,
+creativity, and regeneration.
+
+Sun magic is the power of creation. When combined with Mars, it is destruction.
+Sun magic also gives strength and vitality.
+
+THE MOON
+ÄÄÄÄÄÄÄÄ
+As the moon drives away darkness, her magic has power over beings of the dark. 
+As she reflects the light of the Sun, her magic also reflects other magics. As
+she controls the tides,so does her magic control the element of water. 
+
+Moon magic gives resistance against magic spells.
+
+MERCURY
+ÄÄÄÄÄÄÄ
+Mercury is the God in charge of intelligence, language and communication.He is
+also the God of speed and movement, and controlsthe power of the wind.
+
+Mercury magic bestows intelligence and the power of magical offense.
+
+VENUS
+ÄÄÄÄÄ
+Venusis the Goddess of harmony, balance and peace.Hers is the power to avoid
+confrontation.
+
+Venus magic is essential for any sort of purification.She can unite the warring
+powers of other gods, and bestow dexterity.
+
+MARS
+ÄÄÄÄ
+Mars is the God of battle, destruction and fire. Mars magic has the ability to
+combine the magic of other Gods into a strong destructive force.
+
+Mars' power is the power of offense.
+
+JUPITER
+ÄÄÄÄÄÄÄ
+Jupiter is the God of justice, wisdom and luck.His power is second only to the 
+Sun,and grows stronger when combined with sun Magic.
+
+Jupiter magic gives the power of healing and revival, and increases vitality.
+
+SATURN
+ÄÄÄÄÄÄ
+Saturn is the God of darkness,destruction and death.He controls the forces of
+the earth.
+
+Saturn magic is an important offensive force
+
+
+
+                        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                        ³MONSTERS OF THE FIVE ELEMENTS³
+                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+The elements which make up all life on Earth and in Heaven are earth, fire,
+water, AIR and spirit. All enemies you will enconter have their being in
+one of these elements.
+
+EARTH ELEMENT MONSTERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Every mortal thing that walks or crawls on the ground belongs to the earth
+element. This includes humans and humanoid monsters. Ground-dwelling animals
+also belong to this element.
+
+FIRE ELEMENT MONSTERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Those creatures born from heat and flame belong to the fire element. They
+frequently resemble fire in some way. Fire element monsters dislike water in
+any form.
+
+WATER ELEMENT MONSTERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Anything made of liquid, jelly or slime belongs to the water element. Monsters
+which inhabit the water are also water element creatures. All such creatures
+hate fire.
+
+AIR ELEMENT MONSTERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Creatures that fly upon the wind belong to the air element. Most air element
+monsters are invisible, but may attack by means of wind, such as a tornado.
+
+SPIRIT ELEMENT MONSTERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Spirits and other non-physical cretures belong to the spirit element. Skeletons
+and Mummies are also sky creatures, since they have no real physical existence
+in our world.
+
+                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                      ³ON THE EFFECTS AND USES OF MAGIC.³
+                      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+The magics available to you can be made into 120 different spells, by combining
+the powers of the seven planets. The full knowledge of this cannot be written 
+here, for fear of this book falling into the wrong hands. However, here are
+three keys to guide you in your study of the uses of magic:
+
+                                 THE FIRST KEY
+                                 ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Magic may be locked into an item, such as a weapon or some other personal item.
+A person versed in enchantments can perform this task, granting powers to your
+possessions.
+
+The powers of the seven Gods combine in different ways, and not all of the Gods 
+work well together, so care must be taken in combining the powers of the planets
+
+Magic can also be infused into potions made from the five sacred herbs. An 
+herbalist knows how to prepare herbs properly to bring out their magic powers.
+
+                                THE SECOND KEY
+                                ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Since all magic is granted by the seven Gods, magic spells are characterized by
+those things governed by the Gods whose magic is being called upon. Some magics
+will be more effective than others against certain enemies, because of the 
+nature of the enemy and the nature of the magic. The character of the enemy can
+be known by knowing its origins; the character of the magic can be known by
+observing its effects.
+
+Great care must be taken not to use the magic of one element against a creature
+of that same element, for fear of strengthening your enemy rather than 
+weakening it.
+
+                                THE THIRD KEY
+                                ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+The strongest and most powerful magics are those which partake of the powers of 
+the most Gods. These are the best magics for defeating enemies of the spirit
+element.
+
+                           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                           ³ THE FIVE SACRED HERBS ³
+                           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+VERBENA
+ÄÄÄÄÄÄÄ
+Verbena has been used in traditional magic ceremonies since ancient times. It is
+sometimes found growing in ruins and deserted places.
+
+LAVENDER
+ÄÄÄÄÄÄÄÄ
+Since ancient times, Lavender has been used as a pain-killer and a sleeping
+medicine. It is often found in the woods.
+
+SAGE
+ÄÄÄÄ
+Sage hasthe power to neutralize poisons. It grows mostly in the desert.
+
+HYSSOP
+ÄÄÄÄÄÄ
+Since Hyssop is the symbol of the Gods, it has the power to purify mind, body,
+and spirit. It grows in the high mountains.
+
+SAVORY
+ÄÄÄÄÄÄ
+The power of savory relates to vitality and life. It grows on wet land by banks
+of marshes.
+
+
+
+  2. "HERBS"
+                                Herbal Potions
+                                ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Herbs show their power only when made into potions by one who knows this art. An
+herbalist is specially trained to prepare these potions.
+
+                           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                           ³ THE FIVE SACRED HERBS ³
+                           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+VERBENA
+ÄÄÄÄÄÄÄ
+Verbena has been used in traditional magic ceremonies since ancient times. It is
+sometimes found growing in ruins and deserted places.
+
+LAVENDER
+ÄÄÄÄÄÄÄÄ
+Since ancient times, Lavender has been used as a pain-killer and a sleeping
+medicine. It is often found in the woods.
+
+SAGE
+ÄÄÄÄ
+Sage hasthe power to neutralize poisons. It grows mostly in the desert.
+
+HYSSOP
+ÄÄÄÄÄÄ
+Since Hyssop is the symbol of the Gods, it has the power to purify mind, body,
+and spirit. It grows in the high mountains.
+
+SAVORY
+ÄÄÄÄÄÄ
+The power of savory relates to vitality and life. It grows on wet land by banks
+of marshes.
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û              ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                Û
+Û              ³ Magic Spells Made from the Five Sacred Herbs ³                Û
+Û              ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                Û
+Û Spell:  .....AIRSBANE                                                        Û
+Û Effect: .....Sends a storm to disperse air monsters.                         Û
+Û Components: .Verbana, Sage, Hyssop, Savory                                   Û
+Û                                                                              Û
+Û Spell:  .....ANTI-MAGIC                                                      Û
+Û Effect: .....Protects against all monsters.                                  Û
+Û Components: .Verbana, Savory                                                 Û
+Û                                                                              Û
+Û Spell:  .....BECOME AIR                                                      Û
+Û Effect: .....Enables you to pass through air monsters.                       Û
+Û Components: .Lavender, Savory                                                Û
+Û                                                                              Û
+Û Spell:  .....CURE                                                            Û
+Û Effect: .....Reverses the effect of poisons.                                 Û
+Û Components: .Verbena                                                         Û
+Û                                                                              Û
+Û Spell:  .....DEATHBOLT                                                       Û
+Û Effect: .....Defeats creatures of the earth, fire, water and air elements.   Û
+Û Components: .Sage, Savory, Hyssop                                            Û
+Û                                                                              Û
+Û Spell:  .....EARTH CHAIN                                                     Û
+Û Effect: .....Stops the motion of earth monsters.                             Û
+Û Components: .Verbena, Lavender, Sage                                         Û
+Û                                                                              Û
+Û Spell:  .....EARTHSBANE                                                      Û
+Û Effect: .....Dissolves earth monsters.                                       Û
+Û Components: .Lavender, Savory, Hyssop, Sage                                  Û
+Û                                                                              Û
+Û Spell:  .....FIRE WALL                                                       Û
+Û Effect: .....Protects you from earth and water monsters.                     Û
+Û Components: .Verbena, Hyssop                                                 Û
+Û                                                                              Û
+Û Spell:  .....FIRESBANE                                                       Û
+Û Effect: .....Destroys monsters of the fire element.                          Û
+Û Components: .Verbena, Lavender, Hyssop, Savory                               Û
+Û                                                                              Û
+Û Spell:  .....FLY                                                             Û
+Û Effect: .....Gives the power of flight.                                      Û
+Û                                                                              Û
+Û Components: .Verbena, Hyssop, Lavender, Savory, Sage                         Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:  .....FOG BANK                                                        Û
+Û Effect: .....Summons a fog to protect you from earth and fire monsters.      Û
+Û Components: .Sage, Hyssop                                                    Û
+Û                                                                              Û
+Û Spell:  .....HEAL                                                            Û
+Û Effect: .....Summons the powers of the Gods to renew vitality.               Û
+Û Components: .Sage                                                            Û
+Û                                                                              Û
+Û Spell:  .....ICE STORM                                                       Û
+Û Effect: .....Freezes earth, water and air monsters.                          Û
+Û Components: .Lavender, Sage, Savory                                          Û
+Û                                                                              Û
+Û Spell:  .....ICE WALL                                                        Û
+Û Effect: .....Protects against earth, fire and air monsters.                  Û
+Û Components: .Lavender, Sage                                                  Û
+Û                                                                              Û
+Û Spell:  .....INVINCIBLE                                                      Û
+Û Effect: .....Makes all enemies powerless against you.                        Û
+Û Components: .Sage, Savory                                                    Û
+Û                                                                              Û
+Û Spell:  .....MELT                                                            Û
+Û Effect: .....Creates warmth to revive one who has been frozen.               Û
+Û Components: .Lavender                                                        Û
+Û                                                                              Û
+Û Spell:  .....METEOR                                                          Û
+Û Effect: .....Calls stars down on enemies of the earth, fire, water and air.  Û
+Û Components: .Savory, Hyssop, Lavender                                        Û
+Û                                                                              Û
+Û Spell:  .....PROTECT                                                         Û
+Û Effect: .....Summon a shield of living metal to protect you from all monstersÛ
+Û Components: .Lavender, Hyssop                                                Û
+Û                                                                              Û
+Û Spell:  .....RESURRECT                                                       Û
+Û Effect: .....Restores life to a dead person.                                 Û
+Û Components: .Savory                                                          Û
+Û                                                                              Û
+Û Spell:  .....SENILITY                                                        Û
+Û Effect: .....Causes rapid aging in earth, fire, water and air monsters.      Û
+Û Components: .Verbena, Sage, Savory                                           Û
+Û                                                                              Û
+Û Spell:  .....SHIELD                                                          Û
+Û Effect: .....Gives protection from earth monsters.                           Û
+Û Components: .Verbena, Sage                                                   Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:  .....STOP                                                            Û
+Û Effect: .....Stops the motion of ONE spirit monster.                         Û
+Û Components: .Verbena, Lavender, Savory                                       Û
+Û                                                                              Û
+Û Spell:  .....SPIRITSBANE                                                     Û
+Û Effect: .....Purifies and destroys spirit element monsters.                  Û
+Û Components: .Verbena, Lavender, Sage, Savory                                 Û
+Û                                                                              Û
+Û Spell:  .....STILL                                                           Û
+Û Effect: .....Stops the motion of all monsters.                               Û
+Û Components: .Savory, Hyssop                                                  Û
+Û                                                                              Û
+Û Spell:  .....STILL AIR                                                       Û
+Û Effect: .....Stops the movement of ONE air monster.                          Û
+Û Components: .Verbena, Lavender, Hyssop                                       Û
+Û                                                                              Û
+Û Spell:  .....STILL FIRE                                                      Û
+Û Effect: .....Stops the movement of ONE fire monster.                         Û
+Û Components: .Lavender, Sage, Hyssop                                          Û
+Û                                                                              Û
+Û Spell:  .....STILL WATER                                                     Û
+Û Effect: .....Stops the movement of ONE water monster.                        Û
+Û Components: .Verbena, Sage, Hyssop                                           Û
+Û                                                                              Û
+Û Spell:  .....STONE FLESH                                                     Û
+Û Effect: .....Restores life to one who has been turned to stone.              Û
+Û Components: .Hyssop                                                          Û
+Û                                                                              Û
+Û Spell:  .....STONE TOUCH                                                     Û
+Û Effect: .....Turns earth monsters to stone.                                  Û
+Û Components: .Verbena, Hyssop, Savory                                         Û
+Û                                                                              Û
+Û Spell:  .....UN-CURSE                                                        Û
+Û Effect: .....Reverses a spell put on you by an enemy.                        Û
+Û Components: .Verbena, Lavender                                               Û
+Û                                                                              Û
+Û Spell:  .....WATERSBANE                                                      Û
+Û Effect: .....Uses fire to evaporate water monsters.                          Û
+Û Components: .Verbena, Lavender, Sage, Hyssop                                 Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                         ±±±±±±Ü  ±±Ü ±±Ü  ±±±±±±Ü                            Û
+Û                          ß±±Ûßß  ±±Û ±±Û  ±±Ûßßßß                            Û
+Û                           ±±Û    ±±±±±±Û  ±±±±±Ü                             Û
+Û                           ±±Û    ±±Ûß±±Û  ±±Ûßßß                             Û
+Û                           ±±Û    ±±Û ±±Û  ±±±±±±Ü                            Û
+Û                            ßß     ßß  ßß   ßßßßßß                            Û
+Û                                                                              Û
+Û                                                                              Û
+Û          ±±±±±Ü   ±±±±±±Ü  ±±±±±±Ü  ±±Ü ±±Ü       ±±±±±±Ü  ±±±±±±Ü           Û
+Û          ±±Ûß±±Û  ±±Ûß±±Û  ±±Ûß±±Û  ±±Û ±±Û       ±±Ûß±±Û  ±±Ûßßßß           Û
+Û          ±±±±±Ûß  ±±Û ±±Û  ±±Û ±±Û  ±±±±±Ûß       ±±Û ±±Û  ±±±±±Ü            Û
+Û          ±±Û ±±Ü  ±±Û ±±Û  ±±Û ±±Û  ±±Ûß±±Ü       ±±Û ±±Û  ±±Ûßßß            Û
+Û          ±±±±±Ûß  ±±±±±±Û  ±±±±±±Û  ±±Û ±±Û       ±±±±±±Û  ±±Û               Û
+Û           ßßßßß    ßßßßßß   ßßßßßß   ßß  ßß        ßßßßßß   ßß               Û
+Û                                                                              Û
+Û                                                                              Û
+Û   ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü ±±±±±±Ü ±±±ÜÜ ±±Ü ±±±±±±Ü ±±Ü ±±Ü ±±Ü ±±±±±±Ü    Û
+Û   ±±Ûß±±Û  ±±Ûßßßß  ±±Ûßßßß ±±Ûßßßß ±±Û±±Û±±Û ±±Ûßßßß ±±Û ±±Û ±±Û ±±Ûßßßß    Û
+Û   ±±Û ±±Û  ±±±±±Ü   ±±±±±Ü  ±±±±±Ü  ±±Û ß±±±Û ±±±±±±Ü ±±Û ±±Û ±±Û ±±±±±Ü     Û
+Û   ±±Û ±±Û  ±±Ûßßß   ±±Ûßßß  ±±Ûßßß  ±±Û   ±±Û  ßßß±±Û ±±Û  ±±±±Ûß ±±Ûßßß     Û
+Û   ±±±±±±Û  ±±Û      ±±Û     ±±±±±±Ü ±±Û   ±±Û ±±±±±±Û ±±Û   ±±Ûß  ±±±±±±Ü    Û
+Û    ßßßßßß   ßß       ßß      ßßßßßß  ßß    ßß  ßßßßßß  ßß    ßß    ßßßßßß    Û
+Û                                                                              Û
+Û                                                                              Û
+Û                  ±±±ÜÜ±±±Ü  ±±±±±±Ü  ±±±±±±Ü   ±±Ü  ±±±±±±Ü                  Û
+Û                  ±±Û±±Û±±Û  ±±Ûß±±Û  ±±Ûßßßß   ±±Û  ±±Ûßßßß                  Û
+Û                  ±±Û ßß±±Û  ±±±±±±Û  ±±Û±±±Ü   ±±Û  ±±Û                      Û
+Û                  ±±Û   ±±Û  ±±Û ±±Û  ±±Û ±±Û   ±±Û  ±±Û                      Û
+Û                  ±±Û   ±±Û  ±±Û ±±Û  ±±±±±±Û   ±±Û  ±±±±±±Ü                  Û
+Û                   ßß    ßß   ßß  ßß   ßßßßßß    ßß   ßßßßßß                  Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                         Û
+Û                         ³ MAGIC SPELLS FOR OFFENSE ³                         Û
+Û                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                         Û
+Û    The spells in this book are to be used for ATTACK. These spells can be    Û
+Û imparted to physical objects by one versed in the arts of enchantment. Each  Û
+Û spell combines the powers of two or more planetary Gods to achieve its effectÛ
+Û                                                                              Û
+Û Spell:.....ABSORB                                                            Û
+Û Effect:....Consumes the life energy of earth, fire, water and air monsters.  Û
+Û Powers: ...Mercury, Venus, Saturn, Jupiter                                   Û
+Û                                                                              Û
+Û Spell:.....ACID STORM                                                        Û
+Û Effect:....Creates acid to drive away earth monsters.                        Û
+Û Powers: ...Mars, Mercury, Jupiter, Saturn                                    Û
+Û                                                                              Û
+Û Spell:.....ACID BLAST                                                        Û
+Û Effect:....Dissolves earth, fire, water, and air monsters.                   Û
+Û Powers: ...Mercury, Jupiter, Moon, Sun, Saturn                               Û
+Û                                                                              Û
+Û Spell:.....AIR BLAST                                                         Û
+Û Effect:....Sends the powers of the air to eliminate earth, fire, water and   Û
+Û            spirit monsters.                                                  Û
+Û Powers: ...Mars, Mercury, Jupiter, Moon, Venus, Saturn                       Û
+Û                                                                              Û
+Û Spell:.....AIRSBANE                                                          Û
+Û Effect:....Enlists spirits of earth, fire, water and spirit to combat air.   Û
+Û Powers: ...Mercury, Jupiter, Moon, Sun, Venus, Saturn                        Û
+Û                                                                              Û
+Û Spell:.....ANGUISH                                                           Û
+Û Effect:....Gives excruciating pain to earth, fire, water and air monsters.   Û
+Û Powers:  ..Mars, Jupiter, Moon, Saturn                                       Û
+Û                                                                              Û
+Û Spell:.....ARROW STORM                                                       Û
+Û Effect:....Summons magical arrows to pierce all monsters.                    Û
+Û Powers:  ..Mercury, Sun, Venus, Saturn                                       Û
+Û                                                                              Û
+Û Spell:.....ASCENSION                                                         Û
+Û Effect:....Causes spirit monsters to leave the vicinity.                     Û
+Û Powers:  ..Jupiter, Venus                                                    Û
+Û                                                                              Û
+Û Spell:.....ASTRAL FIRE                                                       Û
+Û Effect:....Sends a sacred flame to burn spirit monsters.                     Û
+Û Powers:  ..Mercury, Moon, Venus, Saturn                                      Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:.....ASTRAL WAVE                                                       Û
+Û Effect:....Summons a powerful magic to destroy spirit monsters.              Û
+Û Powers:  ..Mars, Moon, Venus                                                 Û
+Û                                                                              Û
+Û Spell:.....BLAST BLADE                                                       Û
+Û Effect:....Summons a magic wind sword to cut earth monsters into pieces.     Û
+Û Powers:  ..Mars, Mercury, Moon, Venus, Saturn                                Û
+Û                                                                              Û
+Û Spell:.....BLAZE                                                             Û
+Û Effect:....Creates a wave of fire against earth, water and air monsters.     Û
+Û Powers:  ..Mars, Jupiter, Moon                                               Û
+Û                                                                              Û
+Û Spell:.....BOMBARD                                                           Û
+Û Effect:....Summons magic missiles to defeat all monsters.                    Û
+Û Powers:  ..Mercury, Jupiter, Moon, Sun, Venus                                Û
+Û                                                                              Û
+Û Spell:.....CORROSION                                                         Û
+Û Effect:....Speeds up aging of earth, fire, water and air monsters.           Û
+Û Powers:  ..Mercury, Moon, Saturn                                             Û
+Û                                                                              Û
+Û Spell:.....CRUSH                                                             Û
+Û Effect:....Crushes earth monsters.                                           Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon                                      Û
+Û                                                                              Û
+Û Spell:.....DEATH                                                             Û
+Û Effect:....Annihilates all monsters of earth, fire, water and air.           Û
+Û Powers:  ..Mars, Moon, Sun, Venus, Saturn                                    Û
+Û                                                                              Û
+Û Spell:.....DEATH ARROW                                                       Û
+Û Effect:....Creates magic arrows which poison earth, fire, water and air.     Û
+Û Powers:  ..Mars, Saturn                                                      Û
+Û                                                                              Û
+Û Spell:.....DEATHBOLT                                                         Û
+Û Effect:....Sends spirit flames to protect against earth, fire, water and air.Û
+Û Powers:  ..Mars, Jupiter, Moon, Sun, Venus                                   Û
+Û                                                                              Û
+Û Spell:.....DEATHSOUND                                                        Û
+Û Effect:....Creates high frequency sound waves to destroy earth, fire and     Û
+Û            water monsters.                                                   Û
+Û Powers:  ..Mars, Jupiter, Venus, Saturn                                      Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:.....DEATH TOUCH                                                       Û
+Û Effect:....Summons spirits to destroy earth, fire, wwater and air monsters.  Û
+Û Powers:  ..Mars, Mercury, Moon, Sun, Saturn                                  Û
+Û                                                                              Û
+Û Spell:.....DEEP FREEZE                                                       Û
+Û Effect:....Locks earth, fire and air monsters into pillars of ice.           Û
+Û Powers:  ..Mars, Mercury, Jupiter, Sun, Venus                                Û
+Û                                                                              Û
+Û Spell:.....DELUGE                                                            Û
+Û Effect:....Sends heavy rains against earth, fire and air monsters.           Û
+Û Powers:  ..Moon, Saturn                                                      Û
+Û                                                                              Û
+Û Spell:.....DRAGONSLAYER                                                      Û
+Û Effect:....Combines the powers of ALL the planets against dragons.           Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Sun, Venus, Saturn                  Û
+Û                                                                              Û
+Û Spell:.....EARTHSBANE                                                        Û
+Û Effect:....Combines the powers of fire, water and air against earth monsters.Û
+Û Powers:  ..Mars, Mercury, Jupiter, Sun, Venus, Saturn                        Û
+Û                                                                              Û
+Û Spell:.....ENGULF                                                            Û
+Û Effect:....Absorbs the power of spirit monsters.                             Û
+Û Powers:  ..Mercury, Jupiter, Moon, Venus, Saturn                             Û
+Û                                                                              Û
+Û Spell:.....ERADICATION                                                       Û
+Û Effect:....Brings strong magic to bear against all monsters.                 Û
+Û Powers:  ..Mars, Moon, Sun                                                   Û
+Û                                                                              Û
+Û Spell:.....EXPLOSION                                                         Û
+Û Effect:....Causes earth, fire, water and air monsters to explode.            Û
+Û Powers:  ..Mars, Jupiter, Sun, Saturn                                        Û
+Û                                                                              Û
+Û Spell:.....FIRE BLAST                                                        Û
+Û Effect:....Summons fire to destroy earth, water and air monsters.            Û
+Û Powers:  ..Mars, Mercury, Sun                                                Û
+Û                                                                              Û
+Û Spell:.....FIRE FOX                                                          Û
+Û Effect:....Summons a fire spirit to destroy earth, water and air monsters.   Û
+Û Powers:  ..Mercury, Moon, Sun                                                Û
+Û                                                                              Û
+Û Spell:.....FIRE STORM                                                        Û
+Û Effect:....Summons a fire spirit to defeat earth, water and air monsters.    Û
+Û Powers:  ..Mars, Mercury, Jupiter                                            Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:.....FIRESBANE                                                         Û
+Û Effect:....Summons spirits of earth, water, air and spirit to destroy fire.  Û
+Û Powers:  ..Mars, Jupiter, Moon, Sun, Venus, Saturn                           Û
+Û                                                                              Û
+Û Spell:.....FIREWORKS                                                         Û
+Û Effect:....Creates fireworks to use against earth, water and air.            Û
+Û Powers:  ..Mars, Mercury, Moon, Sun, Venus                                   Û
+Û                                                                              Û
+Û Spell:.....FIST OF AIR                                                       Û
+Û Effect:....Summons an invisible fist for fighting earth monsters.            Û
+Û Powers:  ..Mercury, Moon, Sun, Venus                                         Û
+Û                                                                              Û
+Û Spell:.....FLAME                                                             Û
+Û Effect:....Summons a fire spirit to burn earth, water and air monsters.      Û
+Û Powers:  ..Mars, Sun                                                         Û
+Û                                                                              Û
+Û Spell:.....FLAME BURST                                                       Û
+Û Effect:....Sends flames to burn up earth and water monsters.                 Û
+Û Powers:  ..Mercury, Jupiter, Moon, Venus                                     Û
+Û                                                                              Û
+Û Spell:.....FLASH FLOOD                                                       Û
+Û Effect:....Creates water to use against earth and fire monsters.             Û
+Û Powers:  ..Mars, Moon, Sun, Venus                                            Û
+Û                                                                              Û
+Û Spell:.....FREEZE                                                            Û
+Û Effect:....Summons extreme cold to freeze earth, water and air monsters.     Û
+Û Powers:  ..Mars, Sun, Saturn                                                 Û
+Û                                                                              Û
+Û Spell:.....GAS CLOUD                                                         Û
+Û Effect:....Creates a cloud of fire, water and air to defeat earth monsters.  Û
+Û Powers:  ..Mercury, Sun                                                      Û
+Û                                                                              Û
+Û Spell:.....GOD THUNDER                                                       Û
+Û Effect:....Calls down rage of the Gods against all monsters.                 Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Sun, Venus                          Û
+Û                                                                              Û
+Û Spell:.....HAMMER                                                            Û
+Û Effect:....Sends the hammer of the gods against earth, fire, water and air.  Û
+Û Powers:  ..Mars, Jupiter, Moon, Venus, Saturn                                Û
+Û                                                                              Û
+Û Spell:.....HOLY FLAME                                                        Û
+Û Effect:....Creates fire to battle earth, water and air creatures.            Û
+Û Powers:  ..Jupiter, Moon, Sun, Venus, Saturn                                 Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:.....ICY WIND                                                          Û
+Û Effect:....Creates a freezing wind to defeat earth and fire monsters.        Û
+Û Powers:  ..Mercury, Jupiter,, Moon, Saturn                                   Û
+Û                                                                              Û
+Û Spell:.....IGNITE                                                            Û
+Û Effect:....Creates balls of flame to send against earth, water and air.      Û
+Û Powers:  ..Mars, Mercury, Moon, Venus                                        Û
+Û                                                                              Û
+Û Spell:.....LIGHT CROSS                                                       Û
+Û Effect:....Gathers the powers of the gods to fight all monsters.             Û
+Û Powers:  ..Mars, Mercury, Jupiter, Venus                                     Û
+Û                                                                              Û
+Û Spell:.....LIGHTNING                                                         Û
+Û Effect:....Summons lightning against earth monsters.                         Û
+Û Powers:  ..Moon, Venus                                                       Û
+Û                                                                              Û
+Û Spell:.....METEOR                                                            Û
+Û Effect:....Summons star power to defeat earth, fire, water and air monsters. Û
+Û Powers:  ..Mars, Mercury, Sun, Venus                                         Û
+Û                                                                              Û
+Û Spell:.....NEEDLE                                                            Û
+Û Effect:....Summons magic needles to pierce earth monsters.                   Û
+Û Powers:  ..Mars, Moon                                                        Û
+Û                                                                              Û
+Û Spell:.....POISON                                                            Û
+Û Effect:....Poisons earth, fire, water and air monsters.                      Û
+Û Powers:  ..Mars, Mercury, Jupiter, Venus, Saturn                             Û
+Û                                                                              Û
+Û Spell:.....PROJECTILE                                                        Û
+Û Effect:....Creates magic projectiles to destroy earth monsters.              Û
+Û Powers:  ..Mercury, Moon, Venus                                              Û
+Û                                                                              Û
+Û Spell:.....PULSE STOP                                                        Û
+Û Effect:....Stops the hearts of earth monsters.                               Û
+Û Powers:  ..Mercury, Jupiter, Sun                                             Û
+Û                                                                              Û
+Û Spell:.....RAGE                                                              Û
+Û Effect:....Brings down the anger of the gods against all monsters.           Û
+Û Powers:  ..Mars, Mercury, Sun, Venus, Saturn                                 Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:.....ROCK RAIN                                                         Û
+Û Effect:....Causes a rain of rocks to fall from the sky on earth, fire, water Û
+Û   ......... and air monsters.                                                Û
+Û Powers:  ..Mars, Jupiter, Sun, Venus, Saturn                                 Û
+Û                                                                              Û
+Û Spell:.....SACRED FIRE                                                       Û
+Û Effect:....Summons a powerful fire to burn monsters of earth, water and air. Û
+Û Powers:  ..Mars, Mercury, Moon                                               Û
+Û                                                                              Û
+Û Spell:.....SPARKS                                                            Û
+Û Effect:....Sends fire to defeat earth, water and air monsters.               Û
+Û Powers:  ..Mars, Venus                                                       Û
+Û                                                                              Û
+Û Spell:.....SOUL BLAST                                                        Û
+Û Effect:....Causes spirit monsters to explode.                                Û
+Û Powers:  ..Mars, Jupiter, Moon, Sun, Saturn                                  Û
+Û                                                                              Û
+Û Spell:.....SPIRITSBANE                                                       Û
+Û Effect:....Sends the power of the Gods to neutralize monsters of the spirit  Û
+Û   .......... element.                                                        Û
+Û Powers:  ..Mars, Mercury, Moon, Sun, Venus, Saturn                           Û
+Û                                                                              Û
+Û Spell:.....SPIRIT CLAW                                                       Û
+Û Effect:....Sends the power of spirit against earth, fire,water and air.      Û
+Û Powers:  ..Mercury, Jupiter, Saturn                                          Û
+Û                                                                              Û
+Û Spell:.....SPIRIT FIRE                                                       Û
+Û Effect:....Sends a sacred flame to burn earth, water and air monsters.       Û
+Û Powers:  ..Mars, Mercury, Jupiter, Sun, Saturn                               Û
+Û                                                                              Û
+Û Spell:.....STAR BLADE                                                        Û
+Û Effect:....Creates a magic sword to use against all monsters.                Û
+Û Powers:  ..Mars, Jupiter, Saturn                                             Û
+Û                                                                              Û
+Û Spell:.....STAR FLAME                                                        Û
+Û Effect:....Calls down star power against earth, water and air monsters.      Û
+Û Powers:  ..Jupiter, Sun, Saturn                                              Û
+Û                                                                              Û
+Û Spell:.....STONE SPIRIT                                                      Û
+Û Effect:....Calls the spirits of the stones to defeat earth, fire, water and  Û
+Û    ........ air monsters.                                                    Û
+Û Powers:  ..Jupiter, Moon, Sun, Saturn                                        Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Spell:.....STONE TOUCH                                                       Û
+Û Effect:....Turns earth monsters to stone.                                    Û
+Û Powers:  ..Jupiter, Moon, Saturn                                             Û
+Û                                                                              Û
+Û Spell:.....STORM                                                             Û
+Û Effect:....Summons a storm to drive away earth and fire monsters.            Û
+Û Powers:  ..Mars, Mercury                                                     Û
+Û                                                                              Û
+Û Spell:.....STORM BLAST                                                       Û
+Û Effect:....Creates a sudden storm against earth,fire and air monsters.       Û
+Û Powers:  ..Mercury, Moon, Sun, Venus, Saturn                                 Û
+Û                                                                              Û
+Û Spell:.....SUFFOCATE                                                         Û
+Û Effect:....Asphyxiates earth monsters.                                       Û
+Û Powers:  ..Venus, Saturn                                                     Û
+Û                                                                              Û
+Û Spell:.....SUN RAY                                                           Û
+Û Effect:....Sends the lightof the sun to destroy all monsters.                Û
+Û Powers:  ..Mars, Jupiter, Sun, Venus                                         Û
+Û                                                                              Û
+Û Spell:.....THUNDER                                                           Û
+Û Effect:....Summons thunder against earth, fire, water and air monsters.      Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Sun                                 Û
+Û                                                                              Û
+Û Spell:.....THUNDERBOLT                                                       Û
+Û Effect:....Summons a bolt of sacred lightning against spirit monsters.       Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Saturn                              Û
+Û                                                                              Û
+Û Spell:.....TORNADO                                                           Û
+Û Effect:....Summons a whirlwind to destroy earth, fire and water monsters.    Û
+Û Powers:  ..Mercury, Jupiter, Sun, Saturn                                     Û
+Û                                                                              Û
+Û Spell:.....VICTORY                                                           Û
+Û Effect:....Strengthens the spirit against earth, fire, water and air monstersÛ
+Û Powers:  ..Mars, Mercury, Sun, Saturn                                        Û
+Û                                                                              Û
+Û Spell:.....WATERSBANE                                                        Û
+Û Effect:....Vaporizes water monsters.                                         Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Sun, Saturn                         Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                           ±±±±±±Ü ±±Ü ±±Ü ±±±±±±Ü                            Û
+Û                            ß±±Ûßß ±±Û ±±Û ±±Ûßßßß                            Û
+Û                             ±±Û   ±±±±±±Û ±±±±±Ü                             Û
+Û                             ±±Û   ±±Ûß±±Û ±±Ûßßß                             Û
+Û                             ±±Û   ±±Û ±±Û ±±±±±±Ü                            Û
+Û                              ßß   ßß  ßß   ßßßßßß                            Û
+Û                                                                              Û
+Û                                                                              Û
+Û           ±±±±±Ü   ±±±±±±Ü  ±±±±±±Ü  ±±Ü ±±Ü      ±±±±±±Ü  ±±±±±±Ü           Û
+Û           ±±Ûß±±Û  ±±Ûß±±Û  ±±Ûß±±Û  ±±Û ±±Û      ±±Ûß±±Û  ±±Ûßßßß           Û
+Û           ±±±±±Ûß  ±±Û ±±Û  ±±Û ±±Û  ±±±±±Ûß      ±±Û ±±Û  ±±±±±Ü            Û
+Û           ±±Û ±±Ü  ±±Û ±±Û  ±±Û ±±Û  ±±Ûß±±Ü      ±±Û ±±Û  ±±Ûßßß            Û
+Û           ±±±±±Ûß  ±±±±±±Û  ±±±±±±Û  ±±Û ±±Û      ±±±±±±Û  ±±Û               Û
+Û            ßßßßß    ßßßßßß   ßßßßßß   ßß  ßß       ßßßßßß   ßß               Û
+Û                                                                              Û
+Û                                                                              Û
+Û    ±±±±±Ü  ±±±±±±Ü ±±±±±±Ü ±±±±±±Ü ±±±ÜÜ ±±Ü ±±±±±±Ü ±±Ü ±±Ü ±±Ü ±±±±±±Ü     Û
+Û    ±±Ûß±±Û ±±Ûßßßß ±±Ûßßßß ±±Ûßßßß ±±Û±±Û±±Û ±±Ûßßßß ±±Û ±±Û ±±Û ±±Ûßßßß     Û
+Û    ±±Û ±±Û ±±±±±Ü  ±±±±±Ü  ±±±±±Ü  ±±Û ß±±±Û ±±±±±±Ü ±±Û ±±Û ±±Û ±±±±±Ü      Û
+Û    ±±Û ±±Û ±±Ûßßß  ±±Ûßßß  ±±Ûßßß  ±±Û   ±±Û  ßßß±±Û ±±Û  ±±±±Ûß ±±Ûßßß      Û
+Û    ±±±±±Ûß ±±±±±±Ü ±±Û     ±±±±±±Ü ±±Û   ±±Û ±±±±±±Û ±±Û   ±±Ûß  ±±±±±±Ü     Û
+Û     ßßßßß   ßßßßßß  ßß      ßßßßßß  ßß    ßß  ßßßßßß  ßß    ßß    ßßßßßß     Û
+Û                                                                              Û
+Û                                                                              Û
+Û                 ±±±ÜÜ±±±Ü  ±±±±±±Ü  ±±±±±±Ü   ±±Ü  ±±±±±±Ü                   Û
+Û                 ±±Û±±Û±±Û  ±±Ûß±±Û  ±±Ûßßßß   ±±Û  ±±Ûßßßß                   Û
+Û                 ±±Û ßß±±Û  ±±±±±±Û  ±±Û±±±Ü   ±±Û  ±±Û                       Û
+Û                 ±±Û   ±±Û  ±±Û ±±Û  ±±Û ±±Û   ±±Û  ±±Û                       Û
+Û                 ±±Û   ±±Û  ±±Û ±±Û  ±±±±±±Û   ±±Û  ±±±±±±Ü                   Û
+Û                  ßß    ßß   ßß  ßß   ßßßßßß    ßß   ßßßßßß                   Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                         Û
+Û                         ³ MAGIC SPELLS FOR OFFENSE ³                         Û
+Û                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                         Û
+Û  The spells in this book are to be used for DEFENSE. These spells can be     Û
+Û  imparted to physical objects by one versed in the arts of enchantment. Each Û
+Û  spell combines the powers of two or more planetary Gods to achieve its      Û
+Û  effect.                                                                     Û
+Û                                                                              Û
+Û Spell:.....ANTI-MAGIC                                                        Û
+Û Effect:....Neutralizes the magic powers of ALL monsters.                     Û
+Û Powers:  ..Jupiter, Moon                                                     Û
+Û                                                                              Û
+Û Spell:.....BARRIER                                                           Û
+Û Effect:....Creates a barrier of light to protect you from earth and water    Û
+Û      ...... creatures.                                                       Û
+Û Powers:  ..Mercury, Moon, Sun, Saturn                                        Û
+Û                                                                              Û
+Û Spell:.....BINDING                                                           Û
+Û Effect:....Binds ONE spirit element creature.                                Û
+Û Powers:  ..Moon, Venus, Saturn                                               Û
+Û                                                                              Û
+Û Spell:.....BLIND                                                             Û
+Û Effect:....Causes blindness to creatures of ALL elements.                    Û
+Û Powers:  ..Mars, Sun, Venus                                                  Û
+Û                                                                              Û
+Û Spell:.....BOLT                                                              Û
+Û Effect:....Frightens away earth, fire, water and air creatures.              Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Sun                                 Û
+Û                                                                              Û
+Û Spell:.....CONFUSION                                                         Û
+Û Effect:....Creates confusion and loss of intelligence in ALL monsters.       Û
+Û Powers:  ..Mercury, Saturn                                                   Û
+Û                                                                              Û
+Û Spell:.....DEMORALIZE                                                        Û
+Û Effect:....Causes monsters of ALL elements to run away from you              Û
+Û    ........ (also effective against magical creatures)                       Û
+Û Powers:  ..Moon, Sun, Venus, Saturn                                          Û
+Û                                                                              Û
+Û Spell:.....DISPEL                                                            Û
+Û Effect:....Removes a spell that has stopped your motion.                     Û
+Û Powers:  ..Mars, Jupiter, Moon, Venus                                        Û
+Û                                                                              Û
+Û Spell:.....EARTH CHAIN                                                       Û
+Û Effect:....Stops the movement of ONE earth element creature.                 Û
+Û Powers:  ..Sun, Saturn                                                       Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û Spell:.....EXORCISM                                                          Û
+Û Effect:....Banishes evil spirits from your body.                             Û
+Û Powers:  ..Moon, Sun, Venus                                                  Û
+Û                                                                              Û
+Û Spell:.....FEAR                                                              Û
+Û Effect:....Causes monsters of ALL elements to fear you.                      Û
+Û Powers:  ..Mars, Mercury, Jupiter, Moon, Venus                               Û
+Û                                                                              Û
+Û Spell:.....FIRE WALL                                                         Û
+Û Effect:....Sends a wall of flame against earth and water monsters.           Û
+Û Powers:  ..Mars, Moon, Sun, Saturn                                           Û
+Û                                                                              Û
+Û Spell:.....FOG BANK                                                          Û
+Û Effect:....Creates a magical fog that makes you invisible to earth and       Û
+Û    ........ fire monsters.                                                   Û
+Û Powers:  ..Mercury, Moon                                                     Û
+Û                                                                              Û
+Û Spell:.....FORGET                                                            Û
+Û Effect:....Causes monsters of ALL elements to wander aimlessly.              Û
+Û Powers:  ..Mars, Mercury, Venus                                              Û
+Û                                                                              Û
+Û Spell:.....GO MAD                                                            Û
+Û Effect:....Summons heavenly lights which drive earth, fire, water and air    Û
+Û    ........ monsters insane.                                                 Û
+Û Powers:  ..Mars, Mercury, Moon, Sun                                          Û
+Û                                                                              Û
+Û Spell:.....HOLY WATER                                                        Û
+Û Effect:....Weakens the powers of spirit element monsters.                    Û
+Û Powers:  ..Mercury, Jupiter, Moon                                            Û
+Û                                                                              Û
+Û Spell:.....HYPNOTIZE                                                         Û
+Û Effect:....Uses illusion against earth, fire, water and air monsters         Û
+Û    ........ causing them to wander away.                                     Û
+Û Powers:  ..Mars, Jupiter, Venus                                              Û
+Û                                                                              Û
+Û Spell:.....ICE WALL                                                          Û
+Û Effect:....Summons an ice spirit to form a shield against the elements of    Û
+Û    ........ earth, fire and air.                                             Û
+Û Powers:  ..Mercury, Jupiter, Moon, Sun                                       Û
+Û                                                                              Û
+Û Spell:.....ILLUSION                                                          Û
+Û Effect:....Weakens the powers of earth, fire, water and air creatures.       Û
+Û Powers:  ..Mars, Venus, Saturn                                               Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û Spell:.....INVINCIBLE                                                        Û
+Û Effect:....Makes you more powerful than enemies of ALL elements.             Û
+Û Powers:  ..Mercury, Jupiter, Sun, Venus                                      Û
+Û                                                                              Û
+Û Spell:.....NEGATE                                                            Û
+Û Effect:....Stops the flow of time and movement for ALL monsters              Û
+Û    ........ (also effective against magical creatures).                      Û
+Û Powers:  ..Mars, Mercury, Saturn                                             Û
+Û                                                                              Û
+Û Spell:.....PROTECT                                                           Û
+Û Effect:....Creates a living shield against monsters of ALL elements.         Û
+Û Powers:  ..Jupiter, Moon, Sun, Venus                                         Û
+Û                                                                              Û
+Û Spell:.....SHIELD                                                            Û
+Û Effect:....Creates a shield of power to protect from earth monsters.         Û
+Û Powers:  ..Moon, Sun                                                         Û
+Û                                                                              Û
+Û Spell:.....TURN SPELL                                                        Û
+Û Effect:....Combines the powers and protection of all the gods against        Û
+Û    .......  ALL monsters.                                                    Û
+Û Powers:  ..Jupiter, Moon, Sun                                                Û
+Û                                                                              Û
+Û Spell:.....PEACE                                                             Û
+Û Effect:....Calms monsters of ALL elements.                                   Û
+Û Powers:  ..Mercury, Venus                                                    Û
+Û                                                                              Û
+Û Spell:.....SAND STORM                                                        Û
+Û Effect:....Creates a storm which reduces the speed of earth, fire, water     Û
+Û    ........ and spirit creatures.                                            Û
+Û Powers:  ..Mercury, Jupiter                                                  Û
+Û                                                                              Û
+Û Spell:.....SCARE                                                             Û
+Û Effect:....Frightens away ALL monsters.                                      Û
+Û Powers:  ..Jupiter, Saturn                                                   Û
+Û                                                                              Û
+Û Spell:.....SENILITY                                                          Û
+Û Effect:....Causes premature aging and weakening of earth, fire, water and airÛ
+Û Powers:  ..Sun, Venus, Saturn                                                Û
+Û                                                                              Û
+Û Spell:.....SLEEP                                                             Û
+Û Effect:....Causes a magical sleep to fall upon earth, fire, water and air.   Û
+Û Powers:  ..Mercury, Jupiter, Venus                                           Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û Spell:.....SLOW                                                              Û
+Û Effect:....Reduces the speed of creatures of ALL elements, in relation to youÛ
+Û Powers:  ..Mercury, Jupiter, Sun, Venus, Saturn                              Û
+Û                                                                              Û
+Û Spell:.....SPELLBOUND                                                        Û
+Û Effect:....Binds creatures of ALL elements.                                  Û
+Û Powers:  ..Jupiter, Venus, Saturn                                            Û
+Û                                                                              Û
+Û Spell:.....STILL AIR                                                         Û
+Û Effect:....Stops the movement of ONE air monster.                            Û
+Û Powers:  ..Mercury, Sun, Saturn                                              Û
+Û                                                                              Û
+Û Spell:.....STILL FIRE                                                        Û
+Û Effect:....Stops the movement of ONE fire creature.                          Û
+Û Powers:  ..Mercury, Venus, Saturn                                            Û
+Û                                                                              Û
+Û Spell:.....STILL WATER                                                       Û
+Û Effect:....Stops the movement of ONE water creature.                         Û
+Û Powers:  ..Moon, Sun, Saturn                                                 Û
+Û                                                                              Û
+Û Spell:.....TIMIDITY                                                          Û
+Û Effect:....Frightens creatures of ALL elements.                              Û
+Û Powers:  ..Mars, Moon, Saturn                                                Û
+Û                                                                              Û
+Û Spell:.....TURN UNDEAD                                                       Û
+Û Effect:....Chases away creatures of the spirit element.                      Û
+Û Powers:  ..Mars, Jupiter                                                     Û
+Û                                                                              Û
+Û Spell:.....WEAKEN                                                            Û
+Û Effect:....Weakens the attack power of ALL monsters.                         Û
+Û Powers:  ..Jupiter, Moon, Venus, Saturn                                      Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                           ±±±±±±Ü ±±Ü ±±Ü ±±±±±±Ü                            Û
+Û                            ß±±Ûßß ±±Û ±±Û ±±Ûßßßß                            Û
+Û                             ±±Û   ±±±±±±Û ±±±±±Ü                             Û
+Û                             ±±Û   ±±Ûß±±Û ±±Ûßßß                             Û
+Û                             ±±Û   ±±Û ±±Û ±±±±±±Ü                            Û
+Û                              ßß   ßß  ßß   ßßßßßß                            Û
+Û                                                                              Û
+Û                                                                              Û
+Û           ±±±±±Ü   ±±±±±±Ü  ±±±±±±Ü  ±±Ü ±±Ü      ±±±±±±Ü  ±±±±±±Ü           Û
+Û           ±±Ûß±±Û  ±±Ûß±±Û  ±±Ûß±±Û  ±±Û ±±Û      ±±Ûß±±Û  ±±Ûßßßß           Û
+Û           ±±±±±Ûß  ±±Û ±±Û  ±±Û ±±Û  ±±±±±Ûß      ±±Û ±±Û  ±±±±±Ü            Û
+Û           ±±Û ±±Ü  ±±Û ±±Û  ±±Û ±±Û  ±±Ûß±±Ü      ±±Û ±±Û  ±±Ûßßß            Û
+Û           ±±±±±Ûß  ±±±±±±Û  ±±±±±±Û  ±±Û ±±Û      ±±±±±±Û  ±±Û               Û
+Û            ßßßßß    ßßßßßß   ßßßßßß   ßß  ßß       ßßßßßß   ßß               Û
+Û                                                                              Û
+Û                                                                              Û
+Û           ±±Ü ±±Ü  ±±±±±±Ü ±±±±±±Ü ±±Ü      ±±Ü ±±±ÜÜ ±±Ü  ±±±±±±Ü           Û
+Û           ±±Û ±±Û  ±±Ûßßßß ±±Ûß±±Û ±±Û      ±±Û ±±Û±±Û±±Û  ±±Ûßßßß           Û
+Û           ±±±±±±Û  ±±±±±Ü  ±±±±±±Û ±±Û      ±±Û ±±Û ß±±±Û  ±±Û±±±Ü           Û
+Û           ±±Ûß±±Û  ±±Ûßßß  ±±Û ±±Û ±±Û      ±±Û ±±Û   ±±Û  ±±Û ±±Û           Û
+Û           ±±Û ±±Û  ±±±±±±Ü ±±Û ±±Û ±±±±±±Ü  ±±Û ±±Û   ±±Û  ±±±±±±Û           Û
+Û            ßß  ßß   ßßßßßß  ßß  ßß  ßßßßßß   ßß  ßß    ßß   ßßßßßß           Û
+Û                                                                              Û
+Û                                                                              Û
+Û                  ±±±ÜÜ±±±Ü  ±±±±±±Ü  ±±±±±±Ü   ±±Ü  ±±±±±±Ü                  Û
+Û                  ±±Û±±Û±±Û  ±±Ûß±±Û  ±±Ûßßßß   ±±Û  ±±Ûßßßß                  Û
+Û                  ±±Û ßß±±Û  ±±±±±±Û  ±±Û±±±Ü   ±±Û  ±±Û                      Û
+Û                  ±±Û   ±±Û  ±±Û ±±Û  ±±Û ±±Û   ±±Û  ±±Û                      Û
+Û                  ±±Û   ±±Û  ±±Û ±±Û  ±±±±±±Û   ±±Û  ±±±±±±Ü                  Û
+Û                   ßß    ßß   ßß  ßß   ßßßßßß    ßß   ßßßßßß                  Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û Spell:.....ADD TO LIFE                                                       Û
+Û Effect:....Increases your life power for fighting powerful enemies.          Û
+Û Powers:  ..Mars, Jupiter, Moon, Sun                                          Û
+Û                                                                              Û
+Û Spell:.....CURE                                                              Û
+Û Effect:....Heals one who has been poisoned.                                  Û
+Û Powers:  ..Sun, Venus                                                        Û
+Û                                                                              Û
+Û Spell:.....GIVE VIGOR                                                        Û
+Û Effect:....Increases the power of one monster.                               Û
+Û Powers:  ..Mars, Mercury, Moon, Saturn                                       Û
+Û                                                                              Û
+Û Spell:.....HEAL                                                              Û
+Û Effect:....Brings back strength to one who is wounded.                       Û
+Û Powers:  ..Jupiter, Sun                                                      Û
+Û                                                                              Û
+Û Spell:.....MELT                                                              Û
+Û Effect:....Restores those who have been frozen.                              Û
+Û Powers:  ..Mars, Sun, Venus, Saturn                                          Û
+Û                                                                              Û
+Û Spell:.....REJUVENATE                                                        Û
+Û Effect:....Restores youth.                                                   Û
+Û Powers:  ..Mars, Jupiter, Sun                                                Û
+Û                                                                              Û
+Û Spell:.....RESURRECT                                                         Û
+Û Effect:....Revives those who have been killed.                               Û
+Û Powers:  ..Jupiter, Sun, Venus                                               Û
+Û                                                                              Û
+Û Spell:.....STONE FLESH                                                       Û
+Û Effect:....Returns life to those who have been turned to stone.              Û
+Û Powers:  ..Jupiter, Sun, Venus, Saturn                                       Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û                                                                              Û
+Û                           ±±±±±±Ü ±±Ü ±±Ü ±±±±±±Ü                            Û
+Û                            ß±±Ûßß ±±Û ±±Û ±±Ûßßßß                            Û
+Û                             ±±Û   ±±±±±±Û ±±±±±Ü                             Û
+Û                             ±±Û   ±±Ûß±±Û ±±Ûßßß                             Û
+Û                             ±±Û   ±±Û ±±Û ±±±±±±Ü                            Û
+Û                              ßß   ßß  ßß   ßßßßßß                            Û
+Û                                                                              Û
+Û                                                                              Û
+Û           ±±±±±Ü   ±±±±±±Ü  ±±±±±±Ü  ±±Ü ±±Ü      ±±±±±±Ü  ±±±±±±Ü           Û
+Û           ±±Ûß±±Û  ±±Ûß±±Û  ±±Ûß±±Û  ±±Û ±±Û      ±±Ûß±±Û  ±±Ûßßßß           Û
+Û           ±±±±±Ûß  ±±Û ±±Û  ±±Û ±±Û  ±±±±±Ûß      ±±Û ±±Û  ±±±±±Ü            Û
+Û           ±±Û ±±Ü  ±±Û ±±Û  ±±Û ±±Û  ±±Ûß±±Ü      ±±Û ±±Û  ±±Ûßßß            Û
+Û           ±±±±±Ûß  ±±±±±±Û  ±±±±±±Û  ±±Û ±±Û      ±±±±±±Û  ±±Û               Û
+Û            ßßßßß    ßßßßßß   ßßßßßß   ßß  ßß       ßßßßßß   ßß               Û
+Û                                                                              Û
+Û                                                                              Û
+Û   ±±±±±±Ü ±±±±±±Ü ±±±±±±Ü ±±±ÜÜ ±±Ü ±±±±±±Ü ±±±±±±Ü ±±±±±±Ü ±±±±±±Ü          Û
+Û    ß±±Ûßß ±±Ûß±±Û ±±Ûß±±Û ±±Û±±Û±±Û ±±Ûßßßß ±±Ûßßßß ±±Ûß±±Û ±±Ûß±±Û          Û
+Û     ±±Û   ±±±±±Ûß ±±±±±±Û ±±Û ß±±±Û ±±±±±±Ü ±±±±±Ü  ±±Û ±±Û ±±±±±Ûß  ±±±±±Ü  Û
+Û     ±±Û   ±±Ûß±±Ü ±±Û ±±Û ±±Û   ±±Û  ßßß±±Û ±±Ûßßß  ±±Û ±±Û ±±Ûß±±Ü    ßßßß  Û
+Û     ±±Û   ±±Û ±±Û ±±Û ±±Û ±±Û   ±±Û ±±±±±±Û ±±Û     ±±±±±±Û ±±Û ±±Û          Û
+Û      ßß    ßß  ßß  ßß  ßß  ßß    ßß  ßßßßßß  ßß      ßßßßßß  ßß  ßß          Û
+Û                                                                              Û
+Û                                                                              Û
+Û                ±±±ÜÜ±±±Ü ±±±±±±Ü ±±±±±±Ü ±±Ü ±±±±±±Ü ±±±ÜÜ ±±Ü               Û
+Û                ±±Û±±Û±±Û ±±Ûß±±Û  ß±±Ûßß ±±Û ±±Ûß±±Û ±±Û±±Û±±Û               Û
+Û                ±±Û ßß±±Û ±±±±±±Û   ±±Û   ±±Û ±±Û ±±Û ±±Û ß±±±Û               Û
+Û                ±±Û   ±±Û ±±Û ±±Û   ±±Û   ±±Û ±±Û ±±Û ±±Û   ±±Û               Û
+Û                ±±Û   ±±Û ±±Û ±±Û   ±±Û   ±±Û ±±±±±±Û ±±Û   ±±Û               Û
+Û                 ßß    ßß  ßß  ßß    ßß    ßß  ßßßßßß  ßß    ßß               Û
+Û                                                                              Û
+Û                                                                              Û
+Û                  ±±±ÜÜ±±±Ü  ±±±±±±Ü  ±±±±±±Ü   ±±Ü  ±±±±±±Ü                  Û
+Û                  ±±Û±±Û±±Û  ±±Ûß±±Û  ±±Ûßßßß   ±±Û  ±±Ûßßßß                  Û
+Û                  ±±Û ßß±±Û  ±±±±±±Û  ±±Û±±±Ü   ±±Û  ±±Û                      Û
+Û                  ±±Û   ±±Û  ±±Û ±±Û  ±±Û ±±Û   ±±Û  ±±Û                      Û
+Û                  ±±Û   ±±Û  ±±Û ±±Û  ±±±±±±Û   ±±Û  ±±±±±±Ü                  Û
+Û                   ßß    ßß   ßß  ßß   ßßßßßß    ßß   ßßßßßß                  Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û Spell:.....BECOME AIR                                                        Û
+Û Effect:....Causes you to be invisible to ALL monsters.                       Û
+Û Powers:  ..Jupiter, Moon, Venus                                              Û
+Û                                                                              Û
+Û Spell:.....EXIT                                                              Û
+Û Effect:....Returns you and your belongings to the city where you started.    Û
+Û Powers:  ..Mercury, Sun, Venus                                               Û
+Û                                                                              Û
+Û Spell:.....REDUCE LIFE                                                       Û
+Û Effect:....Reduces the life of one party member by half. Only used as a      Û
+Û    ........ last resort to free someone from a trap, so that they can be     Û
+Û    ........ revived later.                                                   Û
+Û Powers:  ..Mars, Mercury, Venus, Saturn                                      Û
+Û                                                                              Û
+Û Spell:.....TURN TO STONE                                                     Û
+Û Effect:....Changes the spell caster's body to a stone idol. Can not be       Û
+Û    ........ reversed by the one who cast it.                                 Û
+Û Powers:  ..Mars, Moon, Venus, Saturn                                         Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+  3. "CHART"
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±Ü  ±±±±±±Ü  ±±±ÜÜ ±±Ü Û
+Û±±Ûßßßß  ±±Ûß±±Û  ±±Ûß±±Û  ±±Ûßßßß  ±±Ûßßßß  ±±Ûß±±Û  ±±Û  ±±Ûß±±Û  ±±Û±±Û±±Û Û
+Û±±±±±±Ü  ±±Û ±±Û  ±±±±±Ûß  ±±Û      ±±±±±Ü   ±±±±±Ûß  ±±Û  ±±±±±±Û  ±±Û ß±±±Û Û
+Û ßßß±±Û  ±±Û ±±Û  ±±Ûß±±Ü  ±±Û      ±±Ûßßß   ±±Ûß±±Ü  ±±Û  ±±Û ±±Û  ±±Û   ±±Û Û
+Û±±±±±±Û  ±±±±±±Û  ±±Û ±±Û  ±±±±±±Ü  ±±±±±±Ü  ±±Û ±±Û  ±±Û  ±±Û ±±Û  ±±Û   ±±Û Û
+Û ßßßßßß   ßßßßßß   ßß  ßß   ßßßßßß   ßßßßßß   ßß  ßß  ßß    ßß  ßß   ßß    ßß Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û               ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±Ü      ±±Ü      ±±±±±±Ü           Û
+Û               ±±Ûßßßß  ±±Ûß±±Û  ±±Ûßßßß  ±±Û      ±±Û      ±±Ûßßßß           Û
+Û               ±±±±±±Ü  ±±±±±±Û  ±±±±±Ü   ±±Û      ±±Û      ±±±±±±Ü           Û
+Û                ßßß±±Û  ±±Ûßßßß  ±±Ûßßß   ±±Û      ±±Û       ßßß±±Û           Û
+Û               ±±±±±±Û  ±±Û      ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Û           Û
+Û                ßßßßßß   ßß       ßßßßßß   ßßßßßß   ßßßßßß   ßßßßßß           Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û               ±±±±±±Ü  ±±Ü ±±Ü  ±±±±±±Ü  ±±±±±±Ü  ±±±±±±Ü                    Û
+Û               ±±Ûßßßß  ±±Û ±±Û  ±±Ûß±±Û  ±±Ûß±±Û   ß±±Ûßß                    Û
+Û               ±±Û      ±±±±±±Û  ±±±±±±Û  ±±±±±Ûß    ±±Û                      Û
+Û               ±±Û      ±±Ûß±±Û  ±±Û ±±Û  ±±Ûß±±Ü    ±±Û                      Û
+Û               ±±±±±±Ü  ±±Û ±±Û  ±±Û ±±Û  ±±Û ±±Û    ±±Û                      Û
+Û                ßßßßßß  ßß  ßß    ßß  ßß   ßß  ßß     ßß                      Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Type                 Planets:           Herbs:                  Effect:      Û
+ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ
+Û D = Defensive        Ma = Mars          Hy = Hyssop             E = Earth    Û
+Û Hb = Herbal          Me = Mercury       La = Lavender           F = Fire     Û
+Û He = Healing         Ju = Jupiter       Sg = Sage               W = Water    Û
+Û O = Offensive        Mo = Moon          Sv = Savory             A = Air      Û
+Û T = Transform.       Su = Sun           Vb = Verbana            S = Spirit   Û
+Û                      Ve = Venus                                 M = Magic    Û
+Û                      Sa = Saturn                                             Û
+Û                                                                              Û
+Û Name                 Type               Powers                  Effective    Û
+ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ
+Û Absorb               O                  Me,Ve,Sa,Ju             E,F,W,A      Û
+Û Acid Blast           O                  Me,Ju,Mo,Su,Sa          E,F,W,A      Û
+Û Acid Storm           O                  Ma,Me,Ju,Sa             E            Û
+Û Add to Life          He                 Ma,Ju,Mo,Su             N/A          Û
+Û Air Blast            O                  Ma,Me,Ju,Mo,Ve,Sa       E,F,W,S+M    Û
+Û Airsbane             Hb                 Vb,Sg,Hy,Sv             A            Û
+Û                      O                  Me,Ju,Mo,Su,Ve,Sa       A            Û
+Û Anguish              O                  Ma,Ju,Mo,Sa             E,F,W,A      Û
+Û Anti-Magic           Hb                 Vb,Sv                   M            Û
+Û                      D                  Ju,Mo                   N/A          Û
+Û Arrow Storm          O                  Me,Su,Ve,Sa             All          Û
+Û Ascension            O                  Ju,Ve                   S            Û
+Û Astral Fire          O                  Me,Mo,Ve,Sa             S            Û
+Û Astral Wave          O                  Ma,Mo,Ve                S            Û
+Û Barrier              D                  Me,Mo,Su,Sa             E,W          Û
+Û Become Air           Hb                 La,Sv                   A            Û
+Û                      T                  Ju,Mo,Ve                N/A          Û
+Û Binding              D                  Mo,Ve,Sa                S            Û
+Û Blast Blade          O                  Ma,Me,Mo,Ve,Sa          E            Û
+Û Blaze                O                  Ma,Ju,Mo                E,W,A        Û
+Û Blind                D                  Ma,Su,Ve                All          Û
+Û Bolt                 D                  Ma,Me,Ju,Su             E,F,W,A      Û
+Û Bombard              O                  Me,Ju,Mo,Su,Ve          All          Û
+Û Confusion            D                  Me,Sa                   All          Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Name                 Type               Powers                  Effective    Û
+ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ
+Û Corrosion            O                  Me,Mo,Sa                E,F,W,A      Û
+Û Crush                O                  Ma,Me,Ju,Mo             E            Û
+Û Cure                 Hb                 Vb                      N/A          Û
+Û                      He                 Su,Ve                   N/A          Û
+Û Death                O                  Ma,Mo,Su,Ve,Sa          E,F,W,A      Û
+Û Death Arrow          O                  Ma,Sa                   E,F,W,A      Û
+Û Death Touch          O                  Ma,Me,Mo,Su,Sa          E,F,W,A      Û
+Û Deathbolt            Hb                 Sg,Sv,Hy                E,F,W,A      Û
+Û                      O                  Ma,Ju,Mo,Su,Ve          E,F,W,A      Û
+Û Deathsound           O                  Ma,Ju,Ve,Sa             E,F,W        Û
+Û Deep Freeze          O                  Ma,Me,Ju,Su,Ve          E,F,A        Û
+Û Deluge               O                  Mo,Sa                   E,F,A        Û
+Û Demoralize           D                  Mo,Su,Ve,Sa             All          Û
+Û Dispel               D                  Ma,Ju,Mo,Ve             M            Û
+Û Dragonslayer         O                  Ma,Me,Ju,Mo,Su,Ve,Sa    All          Û
+Û Earth Chain          Hb                 Vb,La,Sg                E            Û
+Û                      D                  Su,Sa                   E            Û
+Û Earthsbane           Hb                 La,Sv,Hy,Sg             E            Û
+Û                      O                  Ma,Me,Ju,Su,Ve,Sa       E            Û
+Û Engulf               O                  Me,Ju,Mo,Ve,Sa          S            Û
+Û Eradication          O                  Ma,Mo,Su                All          Û
+Û Exit                 T                  Me,Su,Ve                N/A          Û
+Û Exorcism             D                  Mo,Su,Ve                N/A          Û
+Û Explosion            O                  Ma,Ju,Su,Sa             E,F,W,A      Û
+Û Fear                 D                  Ma,Me,Ju,Mo,Ve          All          Û
+Û Fire Blast           O                  Ma,Me,Su                E,F,A        Û
+Û Fire Fox             O                  Me,Mo,Su                E,W,A        Û
+Û Fire Storm           O                  Ma,Me,Ju                E,W,A        Û
+Û Fire Wall            Hb                 Vb,Hy                   E,W          Û
+Û                      D                  Ma,Mo,Su,Sa             E,W          Û
+Û Firesbane            Hb                 Vb,La,Hy,Sv             F            Û
+Û                      O                  Ma,Ju,Mo,Su,Ve,Sa       F            Û
+Û Fireworks            O                  Ma,Me,Mo,Su,Ve          E,W,A        Û
+Û Fist Of Air          O                  Me,Mo,Su,Ve             E            Û
+Û Flame                O                  Ma,Su                   E,W,A        Û
+Û Flame Burst          O                  Me,Ju,Mo,Ve             E,W          Û
+Û Flash Flood          O                  Ma,Mo,Su,Ve             E,F          Û
+Û Fly                  Hb                 Vb,Hy,La,Sv,Sg          N/A          Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Name                 Type               Powers                  Effective    Û
+ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ
+Û Fog Bank             Hb                 Sg,Hy                   E,F          Û
+Û                      D                  Me,Mo                   E,F          Û
+Û Forget               D                  Ma,Me,Ve                All          Û
+Û                                                                              Û
+Û Freeze               O                  Ma,Su,Sa                E,W,A        Û
+Û Gas Cloud            O                  Me,Su                   E            Û
+Û Give Vigor           He                 Ma,Me,Mo,Sa             N/A          Û
+Û Go Mad               D                  Ma,Me,Mo,Su             E,F,W,A      Û
+Û God Thunder          O                  Ma,Me,Ju,Mo,Su,Ve       All          Û
+Û Hammer               O                  Ma,Ju,Mo,Ve,Sa          E,F,W,A      Û
+Û Heal                 Hb                 Sg                      N/A          Û
+Û                      He                 Ju,Su                   N/A          Û
+Û Holy Flame           O                  Ju,Mo,Su,Ve,Sa          E,W,A        Û
+Û Holy Water           D                  Me,Ju,Mo                S            Û
+Û Hypnotize            D                  Ma,Ju,Ve                E,F,W,A      Û
+Û Ice Storm            Hb                 La,Sg,Sv                E,W,A        Û
+Û Ice Wall             Hb                 La,Sg                   E,F,A        Û
+Û                      D                  Me,Ju,Mo,Su             E,F,A        Û
+Û Icy Wind             O                  Me,Ju,Mo,Sa             E,F          Û
+Û Ignite               O                  Ma,Me,Mo,Ve             E,W,A        Û
+Û Illusion             D                  Ma,Ve,Sa                E,F,W,A      Û
+Û Invincible           Hb                 Sg,Sv                   All          Û
+Û                      D                  Me,Ju,Su,Ve             All          Û
+Û Light Cross          O                  Ma,Me,Ju,Ve             All          Û
+Û Lightning            O                  Mo,Ve                   E            Û
+Û Melt                 Hb                 La                      N/A          Û
+Û                      He                 Ma,Su,Ve,Sa             N/A          Û
+Û Meteor               Hb                 Sv,Hy,La                E,F,W,A      Û
+Û                      O                  Ma,Me,Su,Ve             E,F,W,A      Û
+Û Needle               O                  Ma,Mo                   E            Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Name                 Type               Powers                  Effective    Û
+ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ
+Û Negate               D                  Ma,Me,Sa                All+M        Û
+Û Peace                D                  Me,Ve                   All          Û
+Û Poison               O                  Ma,Me,Ju,Ve,Sa          E,F,W,A      Û
+Û Projectile           O                  Me,Mo,Ve                E            Û
+Û Protect              Hb                 La,Hy                   All          Û
+Û                      D                  Ju,Mo,Su,Ve             All          Û
+Û Pulse Stop           O                  Me,Ju,Su                E            Û
+Û Rage                 O                  Ma,Me,Su,Ve,Sa          All          Û
+Û                                                                              Û
+Û Reduce Life          T                  Ma,Me,Ve,Sa             N/A          Û
+Û Rejuvinate           He                 Ma,Ju,Su                N/A          Û
+Û Resurrect            Hb                 Sv                      N/A          Û
+Û                      He                 Ju,Su,Ve                N/A          Û
+Û Rock Rain            O                  Ma,Ju,Su,Ve,Sa          E,F,W,A      Û
+Û Sacred Fire          O                  Ma,Me,Mo                E,W,A        Û
+Û Sand Storm           D                  Me,Ju                   E,F,W,S      Û
+Û Scare                D                  Ju,Sa                   All          Û
+Û Senility             Hb                 Vb,Sg,Sv                E,F,W,A      Û
+Û                      D                  Su,Ve,Sa                E,F,W,A      Û
+Û Shield               Hb                 Vb,Sg                   E            Û
+Û                      D                  Mo,Su                   E            Û
+Û Sleep                D                  Me,Ju,Ve                E,F,W,A      Û
+Û Slow                 D                  Me,Ju,Su,Ve,Sa          All          Û
+Û Soul Blast           O                  Ma,Ju,Mo,Su,Sa          S            Û
+Û Sparks               O                  Ma,Ve                   E,W,A        Û
+Û Spellbound           D                  Ju,Ve,Sa                All          Û
+Û Spirit Claw          O                  Me,Ju,Sa                E,F,W,A      Û
+Û Spirit Fire          O                  Ma,Me,Ju,Su,Sa          E,W,A        Û
+Û Spiritsbane          Hb                 Vb,La,Sg,Sv             S            Û
+Û                      O                  Ma,Me,Mo,Su,Ve,Sa       S            Û
+Û Star Blade           O                  Ma,Ju,Sa                All          Û
+Û Star Flame           O                  Ju,Su,Sa                E,W,A        Û
+Û Still                Hb                 Sv,Hy                   All          Û
+Û Still Air            Hb                 Vb,La,Hy                A            Û
+Û                      D                  Me,Su,Sa                A            Û
+Û Still Fire           Hb                 La,Sg,Hy                F            Û
+Û                      D                  Me,Ve,Sa                F            Û
+Û Still Water          Hb                 Vb,Sg,Hy                W            Û
+Û                      D                  Mo,Su,Sa                W            Û
+Û Stone Flesh          Hb                 Hy                      N/A          Û
+Û                      He                 Ju,Su,Ve,Sa             N/A          Û
+Û Stone Spirit         O                  Ju,Mo,Su,Sa             E,F,W,A      Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+ÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßÛ
+Û Name                 Type               Powers                  Effective    Û
+ÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ
+Û Stone Touch          Hb                 Vb,Hy,Sv                E            Û
+Û                      O                  Ju,Mo,Sa                E            Û
+Û                                                                              Û
+Û Stop                 Hb                 Vb,La,Sv                S            Û
+Û Storm                O                  Ma,Me                   E,F          Û
+Û Storm Blast          O                  Me,Mo,Su,Ve,Sa          E,F,A        Û
+Û Suffocate            O                  Ve,Sa                   E            Û
+Û Sun Ray              O                  Ma,Ju,Su,Ve             All          Û
+Û Thunder              O                  Ma,Me,Ju,Mo,Su          E,F,W,A      Û
+Û Thunderbolt          O                  Ma,Me,Ju,Mo,Sa          S            Û
+Û Timidity             D                  Ma,Mo,Sa                All          Û
+Û Tornado              O                  Me,Ju,Su,Sa             E,F,W        Û
+Û Turn Spell           D                  Ju,Mo,Su                All+M        Û
+Û Turn to Stone        T                  Ma,Mo,Ve,Sa             N/A          Û
+Û Turn Undead          D                  Ma,Ju                   S            Û
+Û Un-curse             Hb                 Vb,La                   N/A          Û
+Û Victory              O                  Ma,Me,Su,Sa             E,F,W,A      Û
+Û Watersbane           Hb                 Vb,La,Sg,Hy             W            Û
+Û                      O                  Ma,Me,Ju,Mo.Su,Sa       W            Û
+Û Weaken               D                  Ju,Mo,Ve,Sa             All          Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+Û                                                                              Û
+ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ
+
+
+For an alternative layout of the spells and herb combinations available, 
+including MP costs, visit
+http://homepage2.nifty.com/tkdate/Pc88_98/magic/magiclist1.html
+and
+http://homepage2.nifty.com/tkdate/Pc88_98/herb/herblist.html
+
+
+CLOSING
+
+  I hope this has been a valuable introduction to Sorcerian.
+
+http://homepage2.nifty.com/tkdate/index.html#MAIN
+  I am indebted to the authors of this website, where I found a tremendous 
+amount of information on the game mechanics and hidden treasures in the 
+scenarios. Refer to the citations in the text to find what information was 
+borrowed in the making of this FAQ.
+
+  Also I owe "greybeard" for uploading the charts to the now-defunct HOTU.
+
+  Aside from the citations given from the aforementioned website, and the text 
+files from the manual given in section III, this document is my own work. Any 
+questions, comments, corrections or complaints should be addressed to the 
+address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+  Given that I prefer to write for obscure titles, I enjoy hearing from people 
+who read my guides. If you've played the game and used the FAQ, feel free to 
+drop me a line and tell me what you think.
+
+dammit9x at hotmail dot com
