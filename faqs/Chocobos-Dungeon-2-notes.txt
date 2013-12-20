@@ -1,0 +1,272 @@
+Chocobo's Dungeon 2 Equipment Upgrading Guide
+
+---Contents---
+Intro
+Chapter 1: Properties of Equipment
+  Proprietary Characteristics
+  Initial Characteristics
+  Variable Characteristics
+Chapter 2: Properties of Forging
+  Basic Rules
+  Rules for Add-ons
+  Effects of Seeds/Essences
+  Special Exceptions
+Chapter 3: Analysis and Suggestions
+  Choosing Item Types
+  Choosing Add-Ons
+  Maximizing Inital Properties
+  Maximizing Level
+Chapter 4: Getting Treasure
+  To Shark or Not to Shark
+  Dungeon Codes
+  Items to Get Started
+  Items Needed in Large Quantities
+  Items Worth Stealing at Least Once
+  The Divide Card
+  Feathers and The Tree of Life
+  Other Challenges
+Closing
+
+Intro
+This guide will give information on what kinds of upgrades are possible for your claws and saddles, instructions on how to find the necessary components and how to apply them, and advice on which paths to choose. A great deal of the raw data has already been made available in other guides, but up until this point there has also been some misinformation and a dearth of quality analysis.
+
+This guide is intended both for players who have already finished the game, and for players who have not finished but intend to get the most out of the game. There are no spoilers here. This is not a beginner's guide, however, and some degree of familiarity with the game is necessary to understand all the information given.
+
+Properties of Equipment
+
+PROPRIETARY characteristics: These are dependent on the claw/saddle type (its name) and do not change unless the type changes.
+Base ATK: Determines how much damage a claw does. (The number shown is the base ATK plus the current level.)
+Base DEF: Determines how much a saddle reduces the damage taken. (The number shown is the base DEF plus the current level.)
+Max Level: This is the maximum number of pluses a piece of equipment can have.
+
+INITIAL characteristics: These are always found at specific levels on a plain (white text) item, but may be changed through subsequent forgings. For example, a white wood claws always has a Critical of 7, but this may be different for blue Wood claws.
+Energy: Determines how many turns it takes for Chocobo's energy to decrease. Higher numbers correspond to slower decrease.
+Toughness: For claws, this number is how many times the claw can attack, including misses, before Durability is reduced by 1. Using a claw to dig degrades it at double the normal rate. For saddles, this number is how many times a saddle can be attacked, including misses, before Durability is reduced by 1. Being attacked by a trap or explosion also counts.
+Hit: This is the percent chance that an attack hits.
+Critical: This is the percent chance that a hit is a critical hit.
+Dodge: This is the percent chance that a normal enemy attack misses.
+SPDEF: This affects the chance to dodge a special enemy attack (e.g., spell, attempt to alter status). This also affects the chance of avoiding a trap.
+Add-ons: The special effects, elemental properties, etc. with which the item is imbued. See below for details.
+
+VARIABLE characteristics: These vary from piece to piece and may change with usage or after forgings.
+Durability: Determines how much damage a claw or saddle can take. The maximum is 50. It can be incremented by 10 with Repair cards or Gamedon's repair service. It can be decremented by 10 with Rust cards. When Dur reaches 10 the message "(Item name) was damaged" appears, and when Dur reaches 5 the message "(Item name) is almost broken" appears. When Dur reaches 0, the item breaks.
+Level: This is the current number of pluses the equipment has. Each plus for a claw increases ATK by 1, and each plus for a saddle increases DEF by 1. Level is incremented by Polish cards and decremented by Dull Cards.
+Text color: White is normal. Blue is enchanted, the item having been forged in the stove at least once. Blue items are eligible to leave a feather when broken, if the level is high enough. 
+Curse status: If the icon is gray, the item is cursed. If the icon is normal, the item is not cursed. The only effect of the curse is that the item cannot be unequipped until the curse is dispelled.
+Identification status: All items are unidentified when found, with hidden stats and curse status. Wearing the item, bringing it to town, or using an appropriate card identifies it.
+
+Properties of Forging
+
+Basic rules:
+ Two saddles or two claws (the components), plus an optional seed or essence are consumed. Additionally, a fire or thunder spell (in dungeon stoves) or a fee of 300 Gil (in the mage's shop) is required. A new claw or saddle (the result) is yielded after the forging.
+
+Item type: Ordinarily, this can be selected by choosing which component will be the dominant one, with the result being the same type as the dominant component. In some cases the result is independent of dominance. See Special Exceptions.
+
+Level: The level of the result is always the sum of the levels of the components.
+
+Text color: The color is always blue after forging.
+
+Curse status: If both components are uncursed, so is the result. (unless a new type is yielded?) Otherwise the result is cursed.
+
+Identification status: If both components are identified, so is the result, unless a new type is yielded. Otherwise the result is unidentified.
+
+Inital characteristics: In the result, each of these will be between those of its components, but skewed toward that of the dominant component. For example, mixing an toughness __ component with a toughness __ component results in a toughness of __ or __ depending on which was dominant. Durability is considered an inital characteristic for this purpose.
+
+Rules for Add-ons
+  Any piece of equipment may have up to two add-ons. Some come with one add-on as an initial characteristic. There are 13 available for claws and 4 available for saddles.
+
+Claw add-ons:
+  In claws, any number of elementals counts as one add-on, but status-effects count separately.
+Elemental
+    Fire: Displayed as red flame symbol. Available from Flame claws or Fire seed.
+    Ice: Displayed as blue iceberg symbol. Available from Frozen claws or Ice seed.
+    Thunder: Displayed as yellow thunderbolt symbol. Available from Blitz claws or Lightning seed.
+    Wind: Displayed as green blowing leaves symbol. Available from Hurricane claws or wind seed.
+    Earth: Displayed as brown rock symbol. Available from Digging claws or Earth seed.
+    Holy: Displayed as white starburst symbol. Available from Holy claws or Holy seed.
+  Confuse: Displayed as "Confuse." Available from Undead Essence or Chaos Claws. The claws occasionally inflict confusion status on the target.
+  Frog: Displayed as "Frog." Available from Toad essence or Frog Claws.  The claws occasionally inflict frog status on the target.
+  Mini: Displayed as "Mini." Available from Mini Mage essence or Dwarf claws. The claws occasionally inflict mini status on the target.
+  Poison: Displayed as "Poison." Available from Plant essence or Poison claws. The claws occasionally inflict poison status on the target.
+  Silence: Displayed as "Silence." Available from Mage essence or Silent claws. The claws occasionally inflict silence status on the target.
+  Sleep: Displayed as "Sleep." Available from Float Eye essence or Sleep claws. The claws occasionally inflict sleep status on the target.
+  Slow: Displayed as "Slow." Available from Slug essence or Slowpoke claws. The claws occasionally inflict slow status on the target.
+  Gambling: Displayed as "Gambling." Available from Gambling claws. The claws occasionally inflict a random status on the target.
+  Vampiric: Displayed as "Suck blood." Available from vampire essence. Apparently has no effect. See for yourself. ??
+  Gil: Displayed as "Gil." Available from Thief essence. Causes monsters to drop Gil when they die. The claws don't actually steal gil.
+  Healing: Displayed as "Heal." Available from Healing claws. Landing an attack frequently causes Chocobo to be healed for about 10 HP. This is accompanied by the Potion animation.
+  Special attack pattern: Displayed as "?" (Order claws), "3-way attack" (Arc claws), "Cross attack" (Cross claws), "5-way attack" (Multi claws), and "?" (Spinkick claws). Causes the claws to attack in several directions at once, enabling simultaneous hits against more than one monster. (The claws can only dig towards Chocobo's front, however.)
+
+(Make a table: Name, Displayed as, Available from. Put effects separately.)
+
+Saddle Add-ons
+  In saddles, any number of elementals counts as one add-on, and any number of status-effects counts as one add-on.
+Return attack: Displayed as "?" Available from Counter saddle. Causes 1/4 of the damage taken from normal attacks, rounded down, to be returned to the sender.
+Return magic: Displayed as "?" Available from Reflect saddle. Causes 1/4 of the damage taken from magic, rounded down, to be returned to the sender.
+
+  If the total number of add-ons in the components is less than 3, all add-ons show up in the result. If there are 3 or more add-ons, ?
+
+Effects of Seeds/Essences
+Besides the add-ons conferred by the seeds and essences mentioned above, some seeds and essences have supplementary effects during forging:
+
+Set seed: Prevents the stats of the non-dominant component from affecting the result. This "sets" the stats of the dominant component.
+Superior seed: The result takes the better of the two alternatives for all stats, regardless of which component is dominant.
+Merge seed: If both components have elemental add-on(s), the result will have all of them combined. (Otherwise the result only has those of the dominant component.)
+Fusion seed: For saddles, if both components have status-effect add-on(s), the result will have all of them combined. For claws, if both have special attack pattern add-ons, the result may have an upgraded special attack pattern. (Otherwise the result only has those of the dominant component.) 
+Remove seed: Prevents the add-ons from the non-dominant component from showing up on the result. This is the equivalent of a Set seed, for add-ons.
+Level seed: Increases the level of the result by 1.
+Demon essence: Same effect as both Superior and Merge seeds at the same time.
+Dragon essence: Same effect as both Superior and Merge seeds at the same time.
+Octopus essence: Same effect as both Set and Fusion seeds at the same time.
+Worm essence: Same effect as both Level and Merge seeds at the same time. Applies to saddles only. ??
+Status essences (Undead essence, Toad essence, etc.): Adds the specified status, and ALSO acts as a Fusion seed.
+Elemental essences (Bomb essence, Merman essence, etc.): Adds the specified element, and ALSO acts as a Merge seed.
+Elemental seeds (Fire seed, Ice seed etc.): Adds the specified element but does NOT act as a Merge seed.
+
+Special Exceptions
+
+Any two claws/saddles plus a Lamia essence results in a Brandname claw/saddle. Any add-ons present are erased?
+Any two claws/saddles plus an Omega essence results in a Titan claw/saddle. Any add-ons present are erased?
+(Preservation of level? Stats? Add-ons?)
+
+Regarding the claws mentioned above with special attack patterns, the claw type is dictated by the add-on. Transferring the add-on to another claw therefore makes the new claw the special type, regardless of dominance.
+
+However, if two special attack pattern add-ons are forged with a Fusion seed (or equivalent??) the following changes occur.
+
+(Show table with mixing of "tiers")
+
+The Ribbon saddle is made by putting all seven status-effects on a saddle.(Preservation of level? Stats? Add-ons?) The type is dictated by the add-ons. Transferring the status add-ons to another saddle therefore makes the new saddle a Ribbon type, regardless of dominance.
+
+
+Analysis and Suggestions
+  There are two reasons to forge items in the stove: To prepare the result for breaking (to get feathers), or to prepare the result for long-term usage. 
+
+Equipment to be broken
+Choosing item type: In this case, the item type is determined by the feather desired, and there is little room for choice.
+Choosing add-ons: The earth elemental add-on for a claw enables Chocobo to rapidly degrade and break a claw by digging. There is unfortunately no equivalent for saddles.
+Manipulating level: The level of the item must be sufficiently high in order to leave a feather when broken. Levels can be raised by mixing with other equipment that has pluses, by using Polish cards, or by using Level seeds or Worm essences.
+Manipulating stats: Reducing high Toughness and Durability by mixing with weaker items, or preserving low Toughness and Durability levels with Set seeds makes the process faster. Rust cards, when available, are helpful for this process.
+
+Equipment to be kept
+Choosing item type: The decision should be based on the proprietary characteristics of the item type (base ATK/DEF, max level). All other attributes can be manipulated though forging and with cards. As such, you should choose types with high ATK/DEF and high max level. Absolute and Titan items are the obvious choices here, but can only be acquired near or after the end of the game. For the beginning or middle of the game, pick types with good base ATK and DEF; low max level is unlikely to be an issue at this stage, and poor stats can be diluted or replaced by subsequent mixings.
+Choosing add-ons: Add-ons should be considered with respect to utility.
+  For claws, adding many elementals is always a smart choice because most monsters are weak to at least one, and this results in a significant increase in damage. The status-inflicting add-ons, including Gambling and Suck blood, take effect quite rarely. If you decide to use them, it is recommended to pick one that is consistently useful rather than random (Gambling). The Gil effect of Thief essence can be valuable in the beginning of the game. Regarding the special attack pattern add-ons discussed above, keep in mind that the add-on dictates the claw type, and those types all have mediocre proprietary stats. (7-8 base ATK and max level 50) Furthermore, the multi-directional attacks are not particularly useful in most combat.
+  For saddles, adding many status immunities is an obvious choice, for protection against traps and crippling monster attacks. However, using all seven will yield a Ribbon, which has lackluster proprietary stats (14 base DEF and max level 60). Adding many elementals is useful but not nearly as much, because the commonest source of damage is regular monster attacks, which have no elemental property. Another choice is the Return damage option.
+
+Manipulating level
+  Levels are raised in the usual ways: Polish cards, mixing with plussed equipment, or using Worm essences/Level seeds. Mind the max level of the equipment.
+
+Manipulating stats
+  Special regard should be paid to the stats of an item that is forged many times: In the process of increasing levels and attaching add-ons, the stats will be heavily influenced by the other items. For example, a white Titan saddle has a high Toughness of 13?, but after being imbued with status-resist add-ons and being mixed with many common +1 and +2 items, the Toughness will be considerably lower. This can be corrected by mixing the blue saddle with a fresh white one, and using a Set or Superior seed, or equivalent. The result will have the high toughness of the white saddle along with the high level and add-ons of the blue saddle. In this way, using Superior seeds or equivalents, the blue item can be "varnished" with the stats of the white items. This varnish will be spoiled if the item is subsequently forged without a Superior seed or equivalent, and will need to be reapplied. Consequently, when working with a piece of equipment with exceptional initial stats, it is advised to get two copies before initiating the forging process: One is forged to insert add-ons and increase the level (the build-up), while the other is reserved for varnishing. Divide cards can be used to produce white copies. This can be done before or after the build-up phase.
+
+Selected equipment with exceptional inital stats:
+Critical claws: Critical 25
+Gambling claws: Critical 30
+Genji's claws: Energy 10, Hit 99
+Lite claws: Energy 12, Hit 99
+Mythril claws: Toughness 11
+Vibro claws: Base ATK 18, Toughness 11, critical 15
+Kiai claws: Base ATK 20, Critical 15
+Absolute claws: ATK 50
+Titan claws: base ATK 40, Toughness 13, max level 99
+Lite saddle: Energy 12
+Mirage saddle: Dodge 25
+Weak saddle: SPDEF 10
+Crystal saddle: SPDEF 12
+Ribbon saddle: SPDEF 20
+Absolute saddle: DEF 50
+Titan saddle: base DEF 40, Toughness 13, max level 99
+
+Worked-out example:
+Starting material: White Mythril saddle
+Add-on phase: Mix with Calm saddle and Flame saddle, keeping Mythril dominant. (Other/additional add-ons can be chosen.)
+Build-up phase: Mix with common +1/+2/+3 items up to +30, keeping Mythril dominant.
+Varnish phase: Mix with Lite saddle and Mirage saddle, using Dragon essences. At this point you have a Mythril saddle +30, that resists confusion and fire, and has Energy 12 and Dodge 25.
+Upgrade type: Mix with King's saddle, making King's saddle dominant.
+Continue add-on phase: Mix with No-Dwarf saddle, using FloatEye essence, and mix with Earth saddle, using Wing essence.
+Continue build-up phase: Mix with common +1/+2/+3 items up to +77, keeping King's dominant.
+Repeat varnish phase: Mix with Lite saddle and Mirage saddle, using Dragon essences. At this point you have a King's saddle +77, that resists confusion, mini and sleep, and fire, earth and wind, and has Energy 12 and Dodge 25.
+
+Getting Treasure
+The items found in the dungeons are random. Some are very common, such as Potions, Map cards, Peanuts and books. Some are less common, such as claws and saddles, but most of the claws and saddles found are Wood, Iron, Mythril and similar unremarkable types. Most of the exotic equipment and other useful treasures are rare, and only dropped by monsters that carry them as stealable items, or found as buried treasure (the purple dots on the minimap). Furthermore, there seems to be little correlation between the dungeons and the treasures. So mediocre items are just as likely to be found at the bottom of the Secret Dungeon as they are at the top off the Cape Dungeon. What's more, the only practical way to steal is when controlling Mog directly in his solo scenario, accessible after finishing the game. But he only has access to the Final Dungeon, and while useful items can be stolen here, they are still only a fraction of what is available from all the monsters.
+Therefore a fundamental issue that must be resolved first is whether you intend to use a Gameshark (or GS equivalent, for emulator users). Is it cheating? That depends on what the application is. If you only use it to move Mog from dungeon to dungeon then it's not cheating. It is possible to make some great equipment without sharking, but making the ultimate stuff will require stealing from more monsters. If you decide not to shark, then skip the rest of this section.
+
+If you decide to shark, first finish the game to get access to Mog's scenario. Store Chocobo's items at Gamedon's place and enter the dungeon as Mog. To move to the dungeon of your choice, enter the code and activate it before exiting the current floor. Remember to deactivate the code afterwards, or you might reenter the same dungeon floor when you try to leave.
+Here are the codes that permit passage to any dungeon floor. The rest have been deliberately omitted. This information has been abridged from ???'s guide, available on gamefaqs. If you want to see more codes, read his guide. Keep in mind that entering almost any non-dungeon or story-related area while controlling a character besides Chocobo usually results in freezing/crashing the game.
+
+800D8B04 00--
+
+To reach:                            -- becomes:
+Cape Dungeon 1F..9F          01..09
+1st Cid's Tower 1F..14F       3D..4C *
+Sea Floor Dungeon 1F..26F 51..6A
+Snowy Mountain 1F..22F     79..8E
+2nd Cid's Tower 1F..14F      95..A6 **
+Final Dungeon 1F..25F        AB..C3
+Secret Dungeon 1F..29F     D3..EF
+
+Examples:
+Final Dungeon 19F: 800D8B04 00BC
+Secret Dungeon 3F: 800D8B04 00D5
+
+* 46 is the first part of the 10th floor, 47 is the patio area, and 48 is the last part of the 10th floor.
+
+** 9E is the first part of the 10th floor, A1 is the patio area, and A2 is the last part of the 10th floor. (9f??)
+
+
+Items to get started:
+Item:                        Steal from:     Found at:
+Lost-Child cards        Wood Eyes  Beginning of Final Dungeon
+Hi Potions         Several monsters  Beginning of Final Dungeon
+Level seeds               Vampire      Final Dungeon ~19F
+LevelUp nuts
+Carry Tags                Grim Roller  Secret Dungeon ~5F
+Memory Tags
+
+When kicked, Lost-Child cards make it easier to steal without getting killed. There are other items that have a similar effect.
+
+Raising Mog up to level 40 or so with Level seeds and LevelUp nuts should be sufficient to avoid dying.
+
+If Mog increases his inventory to a higher capacity than Chocobo's, then Chocobo also benefits from the increase. So maxing out at 60 is a good idea, at least on the first visit.
+
+Memory Tags are obviously not necessary with an emulator.
+
+Items wanted in large quantites:
+Item:                        Steal from:     Found at:
+Crash Stones           Grim Roller   Secret Dungeon ~5F
+Teleport Box            Baby Demon  Secret Dungeon ~3F
+Spell Book             
+MegaSpell Book      
+Verify card
+Rust card
+Polish card
+Divide card              Needle Master Secret Dungeon ~3F
+
+Crash Stones are useful for weakening monsters in preparation for getting essences.
+
+Teleport boxes can be used to ship back items in order to make room in Mog's inventory; in this way you reduce additional dungeon visits with Mog and avoid the chore of leveling-up Mog and increasing his carrying capacity all over again. Make sure there is enough room in storage.
+
+The Divide Card is used on a chosen target item. The card is then lost and another copy of the target is created. Typical targets are Polish cards, Rust cards, LevelUp Nuts, Mystery Tags, various seeds and essences, and equipment. Except for equipment, the duplicated item is always identical to its original.
+  For equipment, the original and the new item have half the level of the original, rounded down. However, if the original level is negative, no change in level occurs. The duplicate follows the identification and curse status of its original. The original is otherwise unchanged, but the duplicated item is always white text, with initial characteristics reset, with native add-ons present and other add-ons erased.
+  This means that Divide cards cannot be used to replicate stats or add-ons that have been manipulated, but they can be used to restore stats to their inital state. This property is useful, for example, to get a white text Ribbon, with its high SPDEF, from a blue text Ribbon with lower stats.
+
+Items worth stealing at least once:
+Item:                        Steal from:     Found at:
+Lite Claws
+Crystal Claws
+Gambling Claws
+Absolute Claws
+Lite Saddle
+Mirage Saddle           Imp (any)      Secret Dungeon 3F
+Absolute Saddle
+Demon Collar            Mini Mage (any)
+Endure Collar            Giant Bat
+
+Lower floors of the Final Dungeon: (dragons)
+
+Rare treasures
+  Truly rare items are those that cannot be bought or stolen, are rarely dropped, and for which there is no substitute in forging. Occasionally they are found as buried treasure.
+Feathers and the Tree of Life
+
+
+Closing

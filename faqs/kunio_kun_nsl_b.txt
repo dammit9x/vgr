@@ -1,0 +1,355 @@
+Kunio Kun no Nekketsu Soccer League (Japan)
+FAQ/Walkthrough guide
+August 31, 2008 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2008
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. Gameplay
+ 1a. Introduction
+ 1b. Game modes
+ 1c. Scoring goals
+ 1d. Strategy screen
+ 1e. Weather and terrain
+2. Controls
+ 2a. Explanation
+ 2b. General controls
+ 2c. Special moves
+3. Team Nekketsu
+ 3a. Stats
+ 3b. Team meeting
+--------------------------------------------------------------------------------
+
+1. Gameplay
+ 1a. Introduction
+  "Kunio Kun no Nekketsu Soccer League" is a soccer game in the Kunio-kun 
+Nekketsu High School series, best known for River City Ransom. It is the sequel 
+to "Nekketsu Koukou Dodgeball-bu Soccer-hen", known as "World Cup Soccer" in 
+English versions. The sequel was never ported overseas, so this guide uses the 
+PentarouZero v1.2 English ROM patch for naming terms with the original Japanese 
+in parentheses.
+
+ 1b. Game modes
+N.League (Nekketsu League)
+  Team Nekketsu, representing Japan, plays against 12 teams from various 
+countries. You may choose which teams to play against. Some are stronger than 
+others. When Japan has at least 16 wins and 70 points, you may advance to the 
+playoffs. Win four more games, culminating in the finals vs. Italy, and Nekketsu
+takes the Technos Cup.
+  Games consist of two 2-minute halves. Before every half, you may adjust the 
+team strategy, check the weather forecasts, meet with the players, check the 
+team standings, view the profile of the currently assigned team captain, and 
+change the background music.
+  Between every game, but not during the tournament, a password is given that 
+represents the team's wins and losses. League mode may be played solo or with a
+second player controlling the goalkeeper. Ties are resolved by penalty kick 
+overtime.
+
+Match (Taisen Play)
+  Two to four players choose from the six best teams, including Nekketsu, and 
+play a single versus match. If players 3 or 4 are present, they control the 
+goalies. Player 1 chooses the continent, ground type, and ground condition of 
+the field.
+  There is no team captain profile, team stats, meeting mode or items. In 
+strategy mode, there are only six players to assign--no reserve players. Other 
+aspects, including music select and weather forecast, are the same as in League 
+mode.
+
+ Penalty (PK Play)
+  The teams alternate taking penalty kicks, with each player getting a try. In 
+each turn, a lone player is at the goal line and has 8 seconds to score a goal 
+while the other player controls the team's default goalie.
+  The PK game is for 1 player against the computer or 2 player versus. As in 
+match mode, player 1 chooses the playfield conditions.
+
+ 1c. Scoring goals
+  Goalkeepers are immune to direct attacks and always send attackers flying. 
+They are also stronger than other players at withstanding shots and super shots.
+Goalies are also the only players who can catch the ball by touching it.
+  The simplest way to score a goal is to overwhelm the goalie with a powerful 
+shot. Both the goalie and the ball may be knocked away as he tries to catch it, 
+or the ball may pass right through the goalie. This won't work if the shooter is
+too weak or the goalie has strong defense.
+  Another method is to force the goalie to jump or dive to block the ball by 
+aiming it high or off to the side. A goalie can't be knocked over during a block
+attempt, but a quick follow up shot by the same or different shooter can get in 
+the goal before the goalie has a chance to recover.
+
+ 1d. Strategy screen
+  At the strategy screen (sakusen kaegi) you may change the player formation, 
+reassign the player positions among the 12 players, and set the computer AI for 
+offense and defense.
+  When assigning player positions, the expression on the player's face shows how
+suited the player is for the position. This indicator only appears in League 
+mode. The first MF position is always the team captain, who is controlled by 
+player 1. In multiplayer games, the other player controls the GK.
+  In AI control, the top two options determine passing and shooting frequency. 
+The third option determines how much defenders spontaneously attack opponents 
+with slides and tackles. The last option determines how much the GK attempts to 
+play the ball outside of his box. In all cases, left is more. Passing, shooting 
+and tackling can also be commanded from the field with the A and B buttons.
+
+ 1e. Weather and terrain
+  Wind blows around players and the ball, affecting movement speed. Lightning 
+strikes, which come without warning, stun and knock over players and electrify 
+the ball. An electrified ball shocks players while airborne, so must be kept on 
+the ground. Tornados move around the field, drawing in players and the ball. 
+Whatever gets sucked in is tossed skyward and put out of play temporarily.
+  There are three terrain types: grass, dirt and sand. The ground may also have 
+wet spots where movement is slower. Wet ground may turn the ball blue, which 
+slows it down. In Match or PK mode, the player may choose any condition from 
+Good (bacchiri), with all dry ground, to Wors (saiaku), all wet. With sand, it's
+always slow regardless of condition.
+--------------------------------------------------------------------------------
+
+2. Controls
+ 2a. Explanation
+f b u d A B     forward, backward, up, down, button A, button B
+D-pad           Any direction
+(1)/(2)         Press (1) or (2)
+(1),(2)         Press (1) then (2)
+(1)+(2)         Press (1) and (2) simultaneously
+
+ 2b. General controls: Actions for all characters
+  Basic movement
+A+B             Jump
+D-pad           Walk (8 directions)
+  A+B           Jump in direction pressed
+D-pad x2        Dash (run) in direction pressed
+  A+B           Dashing jump
+  u or d        Move upwards or downwards while dashing
+  D-pad x2      Hustle (run fast) in direction pressed
+    A+B         Fast dashing jump
+Crouch          Land from a jump or get up after a fall
+
+  While you have the ball
+A               Pass
+B               Shoot
+Jump
+  A             Aerial pass
+  B             Aerial shot
+  f/u/d + B     Aerial header shot
+  b + B         Flip kick shot
+A+B             Float the ball straight up (lose control)
+f/b + A+B       Float the ball left or right (lose control)
+Float the ball
+  A             Continue floating the ball straight up
+  f/b + A       Continue floating the ball left or right
+u/d + A+B       Jump with the ball (keep control)
+Dash + A+B      Dashing jump with the ball (keep control)
+Dash + u,u/d,d  Defensive dribbling attack
+
+  While no one has the ball
+A               Pass
+B               Shoot
+Jump
+  A             Aerial pass
+  B             Aerial shot
+  f/u/d + B     Aerial header shot
+  b + B         Flip kick shot
+Crouch + B      Diving header (attack and shoot)
+f/b + B         Diving header (attack and shoot)
+  Hold D-pad    Continue rolling
+
+  While teammate has the ball
+A               Order a pass
+B               Order a shot
+
+  While opponent has the ball
+A               Sliding tackle (steal the ball directly)
+B               Shoulder tackle (attack the opponent)
+Jump + A        Drop kick (attack the opponent)
+Hold A          Order teammate to slide tackle
+Hold B          Order teammate to shoulder tackle
+
+  While the ball is being passed
+Dash jump
+  B             Tornado kick (attack and shoot)
+  u/d/b + B     Tornado kick (attack and shoot)
+  f + B         Flip kicks (attack and shoot)
+f/b + B         Diving header (attack and shoot)
+  Hold D-pad    Continue rolling
+
+  After jumping on the ball
+A/B             Nothing
+A+B             Jump up
+u/d + A+B       Jump off
+f/b + A+B       Float the ball left or right (lose control)
+Dash + u,u/d,d  Jink and turn around
+
+  After jumping on a teammate, without the ball
+A               Pass
+B               Doubleteam flip kick (attack and shoot)
+A+B             Jump apart
+
+  After jumping on a teammate, with the ball
+A               Pass
+B               Shoot
+A+B             Jump and pass the ball to the upper member
+
+  Goalie controls
+A/B             Shoulder tackle
+u/d + A/B       Diving block
+f/b + B         Jumping block
+Jump + A/B      Jumping block
+
+ 2c. Special moves
+  To do a special shot, jump and kick the ball with the correct timing. The kick
+should come out near the peak of the jump and the ball should be hit immediately
+when the kick comes out. If done correctly, the ball glows red and takes on a 
+characteristic motion. Other factors such as stats and items may also affect the
+chance of success.
+  A regular special shot is done while pressing B without the D-pad. The 
+alternate shot is done by pressing B with any direction. (The alternate shot may
+also be done by hitting the ball with a doubleteam flip kick at the peak of the 
+kick.) Each character has a specific special shot but they all have the same 
+alternate shot.
+  The alternate shot arcs slowly and lands near the opposing goalie if done at 
+long distance. If done at medium or near distance, it quickly travels to the 
+ground and bounces, possibly over the goalie. 
+  Each Nekketsu member has one special shot and up to two other moves from the 
+list below. (Only the moves used by team Nekketsu are shown. Each other team has
+a unique special shot.)
+
+No. Translated    Japanese            How to perform
+----------------------------------------------------
+00  MortalDrible  hissatsu doriburu   Dash + u,u/d,d while holding ball
+01  ExplosiveAtk  bakuretsu atakku    Crouch + B while opp. has ball and is near
+02  Tornado Kick  toruneedo kikku     All characters can already do this (?)
+03  TornadoPunch  toruneedo panchi    f/b + B while goalie
+04  Drill Attack  doriru attack       Dash + A/B while opponent has ball
+05  TsubameRetrn  tsubame gaeshi      Jump while holding ball
+06  Triple Accel  toripuru akuseru    Jump while opponent has ball
+07  MegaDriveSht  mega doraibu shoot  Special shot
+08  MolePrncsSht  hime mogura shoot   Special shot
+09  UnstpbleShot  dokanhou shoot      Special shot
+0A  Bitter Shot   urameshiya shoot    Special shot
+0B  AccurateShot  kicchiri shoot      Special shot
+0C  Boring Shot   gariben shoot       Special shot
+0D  TosaMoonShot  tosa gatsu wo shoot Special shot
+0E  Ninja Shot    ninjya shoot        Special shot
+0F  Nuts Shot     nattsu shoot        Special shot
+10  Wheelie Shot  uirii shoot         Special shot
+11  BnanAlgtrSht  banana wani shoot   Special shot
+12  OmegaDrvShot  omega doraibu shoot Special shot
+FF  Nothing
+--------------------------------------------------------------------------------
+
+3. Team Nekketsu
+ 3a. Stats
+  Every player has four stats and two or three special moves (hissatsu). The 
+precise function of the stats is currently unknown but it's not hard to guess.
+
+Translated  Japanese         Displayed as
+-----------------------------------------
+Power       tai ryoku        multiples of 5
+Shoot       shoot ryoku      multiples of 3
+Defense     bougyo ryoku     multiples of 5
+EnrgyTyp    sou ryoku* type  rank A-D
+* Likely to mean running speed
+
+Player    Pos  No.|Pow Sht Def Spd| Special 1     Special 1     Special 3
+------------------+---------------+-----------------------------------------
+Kunio      MF   9 | 55  21  25  B | Nuts Shot     ExplosiveAtk
+Yoritsune  FW   8 | 50  24  20  A | Ninja Shot    TsubameRetrn
+Saji       FW  10 | 55  27  15  B | Wheelie Shot  Tornado Kick
+Horibata   DF   2 | 60  24  20  D | MolePrncsSht  ExplosiveAtk
+Iwakabe    DF   3 | 45  24  20  B | UnstpbleShot  Drill Attack
+Genei      GK   1 | 60  21  20  C | MegaDriveSht  MortalDrible  TornadoPunch
+Ugajin     DF   4 | 45  15  20  D | Bitter Shot   Triple Accel
+Onitake    MF   5 | 50  15  15  B | AccurateShot  MortalDrible
+Kumon      DF   6 | 50  27  15  C | Boring Shot   ExplosiveAtk
+Kaizuki    MF   7 | 45  21  15  D | TosaMoonShot  ExplosiveAtk
+Tsunewo    FW  11 | 65  21  20  B | BnanAlgtrSht  MortalDrible
+Carlos     GK  12 | 65  24  25  D | OmegaDrvShot  TornadoPunch  Triple Accel
+
+ 3b. Team meeting
+  In the meeting screen, you may view info on the team members and prepare them 
+for the next half. Meeting mode is only available in League mode.
+  Every member has a mood index (at RAM address 0x05d0) which ranges from 0-15 
+and has some effect on the player's performance.
+
+Mood   Appearance
+------------------
+0xc-f  Ecstatic
+0xa-b  Smiling
+0x6-9  Indifferent
+0x4-5  Frowning
+0x0-3  Outraged
+
+  Talk (hanasu) randomly raises or lowers the player's mood. 
+  Item (aitemu) affects mood depending on what item is given to whom.
+
+          | ScrtVid  IdolBom  TdyBear  AnimeVd  DryPlum  DrySlmn  MskoLve
+----------+--------------------------------------------------------------
+Kunio     |    .        .        .        .        ++       ++       .
+Yoritsune |    .        --       .        .        ++       .        .
+Saji      |    .        --       .        ++       .        .        .
+Horibata  |    .        .        .        .        .        .        ++
+Iwakabe   |    --       .        ++       .        .        .        .
+Genei     |    .        .        .        .        ++       .        .
+Ugajin    |    .        ++       .        .        --       ++       .
+Onitake   |    ++       .        --       .        .        .        .
+Kumon     |    --       .        ++       ++       .        --       .
+Kaizuki   |    .        .        .        .        .        ++       --
+Tsunewo   |    .        ++       .        --       .        .        .
+Carlos    |    ++       .        ++       .        --       --       .
+
+  Phne (denwa) affects the mood of all players simultaneously.
+
+          |  Misako  Takashi  Technos  DngrDial
+----------+------------------------------------
+Kunio     |    .        .        .        .
+Yoritsune |    .        .        .        --
+Saji      |    .        --       .        .
+Horibata  |    ++       .        .        --
+Iwakabe   |    .        ++       ++       --
+Genei     |    .        .        .        .
+Ugajin    |    .        .        .        .
+Onitake   |    .        .        .        ++
+Kumon     |    .        .        .        --
+Kaizuki   |    --       .        .        .
+Tsunewo   |    .        .        .        .
+Carlos    |    .        .        .        .
+
+  Special items become available as the League games progress. Ask Takashi for a
+basic explanation of what they do. These items affect the first bit of the mood 
+byte of each player.
+
+Item     Effect
+---------------
+NewTowl  +0x30
+RubrBts  +0x40
+SpcDrnk  +0x20
+SpcSprt  +0x10
+SpcShoe  +0x80
+
+  Possibly more to come later.
+--------------------------------------------------------------------------------
+
+  This document is my own work. If you've played the game and used the FAQ, feel
+free to drop me a line and tell me what you think.
+
+  For info on other Kunio/Nekketsu games, check out a comprehensive listing at:
+http://hg101.classicgaming.gamespy.com/kunio/kunio.htm
+
+  Other Kunio/Nekketsu games for which I have written guides at gamefaqs:
+Crash 'n the Boys: Street Challenge
+Downtown Special: Kunio-kun no Jidaigeki Dayo Zenin Shuugou!
+Nekketsu Kakutou Densetsu
+Nekketsu! Street Basket: Ganbare Dunk Heroes
+
+  Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com

@@ -1,0 +1,1353 @@
+Final Fantasy Legend III In-Depth Guide (GB)
+August 13, 2010 v1.2
+dammit9x at hotmail dot com
+
+Copyright 2007 - 2010
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+
+***************************************
+TABLE OF CONTENTS
+
+I. ATTACK PROPERTIES
+  1. ELEMENTALS
+  2. STATUS CONDITIONS
+  3. OTHERS
+II. WEAPONS
+  1. MELEE WEAPONS
+  2. MISSILE WEAPONS
+  3. MARTIAL ARTS
+  4. FIXED DAMAGE WEAPONS
+III. ARMOR
+  1. SHIELDS
+  2. HELMETS
+  3. ARMOR
+  4. GLOVES
+  5. SHOES
+  6. OTHER
+IV. MAGIC
+  1. ATTACK MAGIC
+  2. SUPPORT MAGIC
+  3. TRAVEL MAGIC
+  4. ITEM MAGIC
+V. TALENTS
+VI. STATS & UPGRADES
+  1. CHARACTER STATS
+  2. CYBORG UPGRADES
+  3. ROBOT UPGRADES
+  4. TALON UNITS
+VII. CLASSES
+  1. MONSTERS
+  2. BEASTS
+  3. MUTANTS
+  4. HUMANS
+  5. CYBORGS
+  6. ROBOTS
+  7. SKILL TABLE
+VIII. CHANGING CLASS
+  1. DETERMINING NEW CLASS
+  2. DETERMINING NEW SPECIES
+  3. DETERMINING NEW STATS
+IX. CHARACTERS
+  1. MAIN CHARACTERS
+  2. 5TH CHARACTERS
+X. SEE ALSO
+
+CLOSING
+***************************************
+
+  August 13, 2010 v1.2
+Weapon corrections: X-Fire staff & Defense sword bonuses (Thanks LancetJades)
+Corrections on Selfix & D-Beam talents.
+New ATTACK PROPERTIES section.
+Added "Damage" as a property.
+Merged CHARACTER PROPERTIES and UPGRADES to STATS & UPGRADES.
+Lua script reference.
+
+  August 11, 2010 v1.1
+Added contributions from LancetJades:
+* Weapon corrections:
+  Drain sword, Dragon sword, Sun sword, White spear, Mystic swords, Fire staff, 
+  X-Fire staff, Fast staff, Adamant knife, Psi knife, Gold nunchuck, Rune axe, 
+  Para axe, CatClaw, Poison claw, Petrify hammer, Elven bow, Samurai bow, 
+  Razor whip, Blitz whip, Saw whip, B-Jack, Poison gun, Psi gun, Napalm
+* New MAGIC subsection: ITEM MAGIC
+(Thanks LancetJades)
+
+Updated advice & skill table in CLASSES.
+Copied relevant skill information from skill table to sections I-IV.
+New section: TALENTS (Thanks to Ragnarosen's guide for the master list.)
+New damage formulas for item magic and talents.
+More information on Wall spell, but it's still unclear.
+
+  March 5, 2007 v1.0
+Initial version.
+
+--------------------------------------------------------------------------------
+I. ATTACK PROPERTIES
+
+Every attack, whether physical, magical or talent, can have a property (no more 
+than one) that may affect its damage or inflict status ailments.
+
+  1. ELEMENTALS
+There are four elementals: Fire, Ice, Tornado and Quake. The Thunder elemental 
+is a combination of Ice and Tornado.
+
+A character or monster may be weak, strong, or neither against each of these, 
+depending on the talents and equipped armor. If the target is strong against a 
+certain elemental attack or spell, the attack is performed with half skill, and 
+if the target is weak, with double skill.
+
+The OChange trait resists all elementals.
+
+  2. STATUS CONDITIONS
+Good: Normal status condition
+
+Mute: Target cannot cast spells.
+Confuse: Target takes random actions against random targets.
+Blind: Hit rate is reduced.
+Sleep: Target cannot act. Wears off over time.
+Paralysis (Para): Target cannot act.
+Curse: Target is reduced to half defense and half magic defense.
+Petrify (Stone): Target character cannot act; persists after battle.
+                 Target monster dies.
+Fatal: Target is instantly killed and becomes Fell. 
+Fell: Target lost all HP and is killed. Persists after battle.
+
+Characters and enemies may be immune to certain status effects based on their 
+armor and talents. The OAll trait makes the subject immune to all of the above 
+problems, except Fell.
+
+If an attack would have caused an ailment but the target is immune, the message 
+"No effect." will be reported.
+
+  3. OTHERS
+If the target has the ODamage talent, any attack that has the Damage property, 
+which includes most weapons and a few talents, does half damage. There is no 
+advantage to having this property. Toward the end game many opponents have 
+ODamage so it's important to have alternative attacks that have other traits or 
+at least don't have the Damage property.
+
+The Drain property causes the attacker to be healed by a random amount if the 
+attack is successful.
+
+Holy weapons do double damage against undead targets. Undead are defined as 
+enemies that take damage from healing spells or items.
+
+The Mystic property, named for the Mystic swords, causes double damage against 
+bosses and undead enemies.
+
+Some attacks have no apparent property. These attacks have no special effects 
+or weaknesses.
+
+--------------------------------------------------------------------------------
+II. WEAPONS
+
+There are four fundamentally different types of weapons, each of which does 
+damage by a different formula. Any class can equip any weapon, but some classes 
+use some weapons better than others.
+
+  1. MELEE WEAPONS
+Melee weapons do damage based on the wielder's attack and agility and the 
+weapon's power. All are used with double skill by humans.
+
+Damage = skill x (WP + Att. + Agi.) - Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Normal          -      1      1*     2      1      1
+Mystic swords   -      2      2      2      2      2
+
+* Mutants wield the following with skill 2 instead of skill 1:
+Psi knife, Psi sword, X-Fire staff, Fast staff
+
+Type: Normal
+Name           Cost    WP   Cyb  Property  Item  Bonus
+                            HP+           Magic
+Bronze staff     50     6    20   Damage      -  
+Battle hammer   100     7    10   Damage      -  
+Long sword      200    10    10   Damage      -  
+Gold staff      400    10    30   Damage      -  
+Battle sword    400    15    20   Damage      -  
+Fire staff      500    15    50   Damage  Fire1  
+Psi knife       600    17    30   Damage      -  *; +5 Agility
+Battle axe      500    20    10   Damage      -  
+X-Plane staff  1100    20    70   Damage   Aero  
+Thunder staff     -    22    60  Thunder   Lit1  
+Iron nunchuck     -    23    30   Damage      -  
+Silver sword    700    25    40   Damage      -  
+Razor whip      700    27    30   Damage      -  2 hits at 1/2 damage
+Gold sword     1100    35    50   Damage      -  
+Tomhawk axe    1700    45    60   Damage      -  
+CatClaw        2400    45    70   Poison  Venom  +5 Agility
+B-Jack whip       -    46    70   Damage      -  
+Gold nunchuck     -    48    70   Damage      -  
+Laser sword    2400    50    70   Damage      -  
+Adamant knife  3400    50    80      Ice   Ice1  +5 Magic
+Psi sword      3400    55    90   Damage      -  *
+Drain sword       -    60   110    Drain      -  
+X-Fire staff      -    60   110   Damage  Erase  *; +5 Agility, +5 Magic
+Fast staff     4000    60   120   Damage   Ice2  *; +5 Magic
+X-Plane sword  4000    65    90   Damage      -  
+Dragon sword   5500    70   100        -      -  
+Sun sword         -    90   120     Holy      -  
+Petrify hammer    -   100   110    Stone      -  
+Rune axe      13000   100   120   Damage      -  +5 Attack
+White spear       -   130   120     Holy      -  
+Poison claw   18000   140   130   Poison  Venom  +5 Agility, +5 Magic
+Wall staff    18000   140   150   Damage  Stone  +5 Def, +5 Agi, +5 Mag
+Para axe      18000   150   130     Para   Para  +5 Attack, +5 Magic
+Gungnir spear 18000   160   130   Damage      -  
+Defense sword 25000   190   140   Damage      -  +5 Att, +5 Def, +5 Agi, +5 Mag
+
+Type: Mystic swords
+Name           Cost    WP   Cyb  Property  Other
+                            HP+           
+Emperor sword     -    75   130   Mystic  
+Durend sword      -    90   110   Mystic  
+Muramas sword     -   100   140   Mystic  Returns some damage; Uncurses->Masmune
+Masmune sword     -   120   140   Mystic  
+Xcalibr sword     -   170   150   Mystic  
+
+  2. MISSILE WEAPONS
+Missile weapons do damage based on the wielder's attack and weapon power. Humans
+use throwing weapons with double skill.
+
+Damage = skill x (WP + 2 x Att.) - Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Bows            -      1      1      1      1      1
+Throwing        -      1      1      2      1      1
+
+Name         Cost    WP   Cyb  Property
+                          HP+
+Type: Bows
+Long bow      100     7    10    Damage
+Gold bow      700    25    50    Damage
+Elven bow   13000   100   120   Tornado
+Samurai bow     -   170   140         -
+
+Type: Throwing
+Boomrng      2400    40    70    Damage
+Ninja           -   220   150    Damage
+
+  3. MARTIAL ARTS
+Martial arts do damage based on attack and weapon power. Beasts use martial arts
+with 50% more skill than other classes.
+
+Damage = 1/2 x skill x WP x Att. - Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Martial arts    -      1.5    1      1      1      1  
+
+Name      Cost   WP   Cyb  Property
+                      HP+
+Punch      700    5    30    Damage
+Kick      1700    6    50    Damage
+Headbut   2400    7    60    Damage
+X-Kick    5500    8    90    Damage
+Smother   8500    9   100    Damage
+Kneebut  13000   10   110    Damage
+Jyudo    25000   11   120    Damage
+Karate   28000   12   140    Damage
+
+  4. FIXED DAMAGE WEAPONS
+Fixed damage weapons do damage independent of the user's stats. All classes use 
+these weapons with equal skill, except humans use Cripplers with double skill.
+
+Damage = skill x WP - Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Cripplers       -      4      4      8      4      4
+Guns            -      4      4**    4**    4      4
+Others          -      8      8      8      8      8
+
+** Mutants get a damage bonus equal to 2x Magic with the Psi gun. Humans and 
+mutants use the Poison gun at skill 8.
+
+If targeting a group, damage is divided by the number of enemies in the group.
+Targeting single or all enemies does full damage.
+
+Cripplers reduce the target's attack, defense, agility or magic by 10. The 
+stat seems to depend on the species and the crippler used.
+
+Bombs, Cannons, and most Guns can target either a single enemy or a group of 
+enemies, and multibombs attack all enemies.
+
+Bombs, Cannons, and Multibombs can only be used once per item. If multiple 
+items are in inventory, all will be equipped at once.
+
+Name      Cost    WP   Cyb Target Property  Bonus
+                       HP+
+Type: Cripplers
+Blitz     1700    10    60   S     Damage  Reduce target stats
+Saw      18000    35   130   S     Damage  Reduce target stats
+
+Type: Guns
+Poison    8500    30   110   S     Poison  **
+Fire         -    30    70   S/G     Fire  
+Magnum       -    40   110   S     Damage  
+SMG       3400    40    80   S/G   Damage  
+Psi       5500    50   100   S/G   Damage  **; +5 Magic
+Laser    13000    90   120   S/G   Damage  
+
+Type: Bombs
+Napalm     500    10    30   S/G     Fire  
+Grenade   1100    30    50   S/G   Damage  
+TNT       1700    40    60   S/G   Damage  
+
+Type: Cannons
+ATM       5500    70   110   S/G   Damage  
+Vulkan    8500    80   120   S/G   Damage  
+Laser    18000    90   140   S/G   Damage  
+Missile  25000   100   150   S/G   Damage  
+
+Type: Multibombs
+TearGas   1700    60   110   All     Para  
+Star      5500    60   110   All    Blind  
+Nuke     50000   250   250   All   Damage  
+
+--------------------------------------------------------------------------------
+III. ARMOR
+
+  1. SHIELDS
+
+Name      Cost  Def  Evd MDef MEvd Cyb HP+         Resist  Bonus
+Bronze     700    2    2    2    2    30                -  
+Silver    1300    2    4    4    3    40                -  
+Gold      1700    3    5    5    4    50                -  
+Fire         -    3    6    7    8    60             OIce  
+Ice          -    4    7    8    9    60            OFire  
+Dragon    3400    4    7    7    8    70                -  
+X-Plane   5500    5    9    8    9    90                -  
+Diamond   8500    5   10   10   11   100         OThunder  
+Mirror   13000    6   12   11   13   120            OMute  
+Samurai  18000    6   14   12   12   130           OStone  
+Aegis        -    7   14   13   13   150  OChange, OStone  +5 Agility
+Speed        -    7   15   15   15   150                -  +5 Agility
+
+  2. HELMETS
+Name      Cost  Def  Evd MDef MEvd Cyb HP+  Resist   Item  Bonus
+                                                    Magic
+Leather     50    1    1    1    1    10         -      -  
+Bronze     400    2    2    2    1    30         -      -  
+Silver    1100    3    3    3    2    40         -      -  
+Gold      1700    4    5    3    3    50         -      -  
+SandMan      -    5   15    6   15    60         -  Sleep  
+Dragon    2400    6    6    6    7    70         -      -  
+Speed     4000    6    7    8    8   100         -      -  +5 Agility
+X-Plane   5500    7    9    8    9    90         -      -  
+Diamond   8500    8   10   10   11   110  OThunder      -  
+Mirror   13000    8   12   11   13   130     OMute      -  
+Hecate   25000    9   11   15   15   150         -      -  +5 Magic
+Samurai  18000    9   13   12   12   150    OStone      -  
+
+  3. ARMOR
+
+Name      Cost  Def  Evd MDef MEvd Cyb HP+  Resist  Bonus
+Leather    200    2    2    2    2    10         -  
+Bronze     700    3    3    2    3    30         -  
+Silver    1300    4    4    3    5    40         -  
+Gold      2400    5    6    4    7    50         -  
+Mage      2600    5    6    6    7    40  OConfuse  
+Dragon    3400    6    6    6    7    70         -  
+Psi          -    7    7    6    8   100         -  +5 Agility
+Fur          -    8    8    9    9    50     OPara  
+Speed     5500    9    9    8    8   130         -  +5 Agility
+Battle       -   10   11    9   10   100         -  +5 Attack
+Diamond   8500   11   11   10   12   110  OThunder  
+Wizard   18000   11   11   13   14   100         -  +5 Magic
+Mirror   13000   12   13   12   13   120     OMute  
+Samurai  18000   13   14   13   12   130    OStone  
+Power    25000   15   15   12   12   140         -  +5 Attack, +5 Agility
+Light    25000   17   12   15   15   150         -  
+
+  4. GLOVES
+
+Name      Cost  Def  Evd MDef MEvd Cyb MP+  Resist  Bonus
+Leather      -    1    1    1    1    10         -  
+Bronze     400    2    2    1    1    30         -  
+Silver    1100    3    3    2    3    40         -  
+Gold      1700    4    4    3    3    50         -  
+Dragon    2400    5    5    4    4    70         -  
+Iron      4000    6    7    5    5   100         -  
+Diamond   8500    7    8    7    6   120  OThunder  
+Mirror       -    8    9    9    9   140     OMute  
+Samurai  18000    9   10   11   10   150    OStone  
+Power    18000    9    9   15   15   150         -  +5 Attack
+
+  5. SHOES
+
+Name      Cost  Def  Evd MDef MEvd Cyb MP+  Resist  Bonus
+Leather     50    1    1    1    1    10         -  
+Bronze     500    2    2    2    2    30         -  
+Iron      1100    3    3    3    2    50         -  
+Gold      1700    4    5    4    4    70         -  
+Geta      2400    5    6    6    7   100         -  +5 Agility
+Dragon    3400    6    7    7    7    90         -  +5 Magic
+Diamond   5500    7    8    8    8   140  OThunder  
+Hecate   13000    8    9    9   10   130     OMute  
+Speed     5500    9   10   10   11   150         -  +5 Agility
+Hermes   18000    9    9   15   15   150         -  +5 Agility
+
+  6. OTHER
+Name      Cost  Def  Evd MDef MEvd Cyb HP+  Resist   Item  Bonus
+                                                    Magic
+Belt       100    1    1    3    2    20         -      -  
+Plume      500    1    1    3    4    30    OSleep      -  
+Pendant    700    1    1    7    6    50    OCurse      -  
+Brooch    1600    1    1    8    8    70   OPoison      -  
+Shades    3400    1    1    9   10   110    OBlind      -  
+Cool         -    1    1   10   10   100     OFire   Ice2  
+Earring   5500    1    1   10    9    80     OPara      -  
+Scarf     8500    1    1   12   13   130    OStone      -  
+Warm         -    1    1   12   13   120      OIce  Fire2  
+Bangle   18000    1    1   14   14   140     OMute      -  
+Armlet       -    2    2   14   14   150    OFatal  Fatal  
+Ribbon       -    2    2   15   15   150      OAll      -  +5 Magic
+
+--------------------------------------------------------------------------------
+IV. MAGIC
+
+  1. ATTACK MAGIC
+Attack magic is used only in combat, and targeted only at enemies. It does 
+damage based on the caster's Magic and the spell power. Mutants cast with double
+skill.
+
+Damage = skill x (SP + Mag.) - M.Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Attack magic    1.5    1.5    3      1.5    1.5    -
+
+If targeting a group, damage is divided by the number of enemies in the group. 
+Targeting single or all enemies does full damage.
+
+Name     Cost   MP    SP Target  Property
+Ice 1     400    8    18   S         Ice
+Ice 2    3400   20    64   S/G       Ice
+Flood       -   16    60   All       Ice
+Fire1     700   12    26   S        Fire
+Fire2    5500   24    82   S/G      Fire
+FireX       -   32   100   All      Fire
+Lit 1    1700   16    42   S     Thunder
+Lit 2    8500   28   130   S/G   Thunder
+Lit X       -   48   160   All   Thunder
+Aero      700   12    26   S     Tornado
+Weak     8500   28   130   S/G   Tornado
+Wind        -   24   160   All   Tornado
+Quake    3400   20    30   All     Quake
+Shake       -   40   130   All     Quake
+Magma   25000   36   210   S/G     Quake
+Drain   18000   32     0   S       Drain
+Virus   18000   32   150   S/G         -
+White   25000   36   170   All         -
+Nuke    25000   36   180   All         -
+Flare       -   56   200   All         -
+
+  2. SUPPORT MAGIC
+Support magic is any magic used in combat that doesn't do damage based on the 
+Magic stat. The Exit spells, healing spells, and spells that can cure Stone and 
+Fell may also be used outside combat. Most support spells can target either 
+Allies or Enemies, having curative effects on friends and detrimental effects on
+foes. All are cast at single targets, except for CureA, CureB and Exit2.
+
+Name     Cost   MP Target  Effect
+Cure1     400    8   E/A   Recovers 30% of HP / attacks undead
+Cure2    1700   16   E/A   Recovers 60% of HP / attacks undead
+Cure3    5500   24   E/A   Recovers 100% of HP / attacks undead
+CureA   10000    8   E/A   Recovers 30% of HP / attacks undead (S/G)
+CureB   61800   24   E/A   Recovers 60% of HP / attacks undead (S/G)
+Exit     8500   28   E     Escapes from dungeon / removes enemy
+Exit2       -   48   E     Escapes from dungeon / removes enemy (S/G)
+Shell     400    8   A     Increases Defense +10
+Fast     5500   24   A     Increases Attack +10
+Erase    5500   24   A/E   Returns stats to normal
+Wall    18000   32   A     Parry effect at double effectiveness (one round only)
+Mute     3400   20   E     Afflicts Mute
+Conf     1700   16   A/E   Cures / afflicts Confuse
+Spark     700   12   A/E   Cures / afflicts Blind
+Sleep     400    8   A/E   Cures / afflicts Sleep
+Venom     700   12   A/E   Cures / afflicts Poison
+Para     1700   16   A/E   Cures / afflicts Para
+Pure    10000    8   A/E   Cures / afflicts Curse
+Stone    3400   20   A/E   Cures / afflicts Stone
+Heal     8500   28   A     Cures status problems
+Cycle       -   32   A/E   Cures status problems / afflicts two random statuses
+Fatal   25000   36   E     Kills non-undead
+Life    18000   32   A/E   Cures Fell with 30% HP / kills undead
+LifeA       -   40   A/E   Cures Fell with 60% HP / kills non-undead
+LifeB       -   56   A/E   Cures Fell with 100% HP / kills undead
+
+  3. TRAVEL MAGIC
+Travel magic is story-related and needed to access new places.
+
+Name     Cost   MP   Effect 
+Float       -    0   Allows travel over water
+Dive        -    0   Allows travel over water and to the seafloor
+Morph       -   16   Disguises party as WaterHags or Dwelgs
+
+  4. ITEM MAGIC
+Item magic is cast by using certain equipment from the Item menu in battle. The 
+item must be unequipped. Unlike weapons like bombs, these items can be used 
+endlessly, and can even be used by multiple characters in the same round. Unlike
+attack magic, item magic can miss and count as a mighty blow. Item spells can 
+only target single enemies.
+
+They do damage based on the spell power and the user's Magic. The item's spell 
+power is the same as the SP of the attack magic they cast. All classes use item 
+magic with equal skill.
+
+Damage = skill x (SP + Mag.) - M.Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Item magic      1.5    1.5    1.5    1.5    1.5    1.5
+
+Item              Spell   SP
+Fire staff        Fire1   26
+X-plane staff      Aero   26
+Thunder staff      Lit1   42
+CatClaw           Venom   
+Adamant knife      Ice1   18
+X-Fire staff      Erase   
+Fast staff         Ice2   64
+Poison Claw       Venom   
+Wall staff        Stone   
+Para axe           Para   
+SandMan helmet    Sleep   
+Cool accessory     Ice2   64
+Warm accessory    Fire2   82
+Armlet accessory  Fatal   
+
+--------------------------------------------------------------------------------
+V. TALENTS
+
+Every species outside of the humans/mutant classes has innate abilities called 
+talents. In this game the available talents depend only on the species and don't
+change unless species changes.
+
+Some talents are selected as the action in combat, and some are passive and 
+cannot be selected. A few talents can be used actively but also automatically 
+counterattack when the creature is hit by a physical attack. Talents are used 
+at half power as counterattacks.
+
+Talent damage depends on the user's Attack and maximum HP, the talent power and 
+base damage, and a skill factor. Robot talents are used with 50% more skill by 
+robots.
+
+Damage = skill x (1/4 x TP x (Att. + maxHP/10) + base) - Def.
+
+Skill        Monster Beast Mutant  Human Cyborg  Robot
+Robot talents   1      1     (1)    (1)     1      1.5
+Other talents   1      1     (1)    (1)     1      1
+
+Except for the Remedy(1) and Remedy(2), all active talents are directed at 
+enemies. If targeting a group, damage is divided by the number of enemies in the
+group. Targeting single or all enemies does full damage. This is the same as 
+with weapons and magic.
+
+Type: Robot active talents
+Talent    TP  base  Target  Property  Other
+Rocket     4     6    S           -   
+Drill      4    15    S           -   
+Slicer     4    20    S           -   
+SpinCut    4    10    S           -   
+Laser      4    16    S           -   
+Beam       4    10    S           -   
+Dash       6     0    S           -   
+LowKick    6     0    S           -   
+Drop       7     0    S     Tornado   
+Freeze     6     0    S/G       Ice   
+Dance     11     0    S       Fatal   
+Tromp      4     0    S/G      Mute   
+Twice      4    40    S      Damage   2 hits at 1/2 damage
+6times    12    30    S      Damage   6 hits at 1/6 damage
+Dk-Force   4    10    S           -   not used by any species
+Fluid      1     0    All    Poison   not used by any species
+
+Type: Other active talents
+Talent    TP  base  Target  Property  Other
+Nail       4    15    S           -   
+Tusk       4    23    S           -   
+Tongue     4    17    S           -   
+Horn       4    25    S           -   
+Beak       4    20    S           -   
+Tail       4    30    S           -   
+Fin        4    20    S           -   
+Tentacle   4    20    S           -   
+Acid       4    30    S           -   
+Sunburst   4    25    S        Fire   
+D-Beam     4    20    S     Thunder   
+P-Blast    4    30    S           -   
+Punch      5     0    S           -   
+Kick       6     0    S           -   
+Upper      7     0    S           -   
+Stab       5     0    S           -   
+Headbut    6     0    S           -   
+WindUp     7     0    S           -   
+Crash      7     0    S           -   
+Bash       8     0    S           -   
+Dive       8     0    S           -   
+Breath     3     0    S    Paralyze   
+Bite       5     0    S    Paralyze   
+Sneer      6     0    S     Confuse   
+Dispel     6     0    S       Fatal   
+Scream     4     0    S     Confuse   
+Knife      4     0    S       Sleep   
+W-Attack  10     0    S      Damage   2 hits at 1/2 damage
+2-Swords  10     0    S      Damage   2 hits at 1/2 damage
+2-XKick   10     0    S      Damage   2 hits at 1/2 damage
+2-Tusks    4    40    S      Damage   2 hits at 1/2 damage
+3-Heads    6    45    S      Damage   3 hits at 1/3 damage
+4-Heads    8    40    S      Damage   4 hits at 1/4 damage
+6-Arms    12    30    S      Damage   6 hits at 1/6 damage
+8-Legs     4   160    S           -   
+Quake      4    30    All     Quake   
+Squirt     4    18    S         Ice   
+Frost      4    25    S/G       Ice   
+Whirl      4    45    All       Ice   
+Flame      4    35    S/G      Fire   
+Burning    4    20    S        Fire   Automatic counterattack
+Glow       4    65    All      Fire   
+Storm      4    45    S/G   Tornado   
+Cyclone    4    55    All   Tornado   
+Thunder    4    65    S     Thunder   
+Explode    0     *    S           -   Damage dealt = Max HP; user dies
+Barrier    -     -    S           -   Effect unknown
+Swallow    4    20    S/G     Drain   Backfires on bosses
+Dk-Virus   -     -    All         -   Afflicts two random statuses; not used
+Touch      4    20    S       Drain   
+Dissolv    4    10    S       Drain   
+Absorb     4    10    S       Drain   
+Drain      4    20    S       Drain   
+Remedy(1)  0    30    S           -   Recovers 30 HP for ally
+Remedy(2)  0    50    S           -   Recovers 50 HP for ally
+XPowder    -     -    S       Fatal   
+X-Gaze     -     -    S       Fatal   
+X-Flash    -     -    S       Fatal   
+X-Heat     -     -    S       Fatal   
+StonSkin   -     -    S       Stone   Automatic counterattack
+StonGaze   -     -    S       Stone   
+StoneGas   -     -    S       Stone   
+Petrify    -     -    S       Stone   
+Mute       -     -    S        Mute   
+Silence    -     -    S        Mute   
+Blind      -     -    S       Blind   
+Ink        -     -    S/G     Blind   
+Flash      -     -    All     Blind   
+Poison(1)  -     -    S      Poison   
+Poison(2)  -     -    S      Poison   
+P-Skin     -     -    S      Poison   Automatic counterattack
+Gaze(1)    -     -    S       Curse   
+CursSong   -     -    S/G     Curse   
+ParaSkin   -     -    S    Paralyze   Automatic counterattack
+ParaNail   -     -    S    Paralyze   
+Gaze(2)    -     -    S    Paralyze   
+Paralyze   -     -    S    Paralyze   
+Lullaby    -     -    S       Sleep   
+SleepGas   -     -    S       Sleep   
+Hypnosis   -     -    S       Sleep   
+Sleep      -     -    S       Sleep   
+Decoy      -     -    S     Confuse   
+Riddle     -     -    S     Confuse   
+Charm      -     -    S     Confuse   
+Psych      0    50    S           -   Reduces Magic by 10
+Numb       0    50    S           -   Reduces Attack by 10
+Stench     0    50    S/G         -   Reduces Defense by 10
+Sand       0    50    S/G         -   Reduces Agility by 5
+Blitz      0   100    S           -   Reduces Agility by 10
+Soften     0   100    S           -   Reduces Defense by 15
+Steal      -     -    S           -   Steals Gold equal to what the enemy drops*
+Avenge     4    25    S           -   Automatic counterattack
+Counter    4    25    S           -   Automatic counterattack
+
+* Successive Steals yield half Gold and may reduce the Gold won after battle.
+
+Type: Passive talents
+Talent     Effect on user
+Multiply   Monster duplicates when atacked. No effect on player's characters?
+Repair     Recover from status ailments at the end of each round
+Selfix     Recover 1/10 of max HP at the end of each round
+OAll       Immune to all status ailments
+OFatal     Immune to Fatal
+OStone     Immune to Stone
+OMute      Immune to Mute
+OBlind     Immune to Blind
+OPoison    Immune to Poison
+OCurse     Immune to Curse
+OPara      Immune to Paralyze
+OSleep     Immune to Sleep
+OConfuse   Immune to Confuse
+ODamage    Strong against physical damage
+OChange    Strong against all elementals
+OQuake     Strong against Quake
+OIce       Strong against Ice
+OFire      Strong against Fire
+OTornado   Strong against Tornado
+OThunder   Strong against Thunder (Ice & Tornado)
+XQuake     Weak against Quake
+XIce       Weak against Ice
+XFire      Weak against Fire
+XTornado   Weak against Tornado
+XThunder   Weak against Thunder (Ice & Tornado)
+
+--------------------------------------------------------------------------------
+VI. STATS & UPGRADES
+
+  1. CHARACTER STATS
+HP: Amount of damage a character or enemy can take before Falling.
+MP: All magic spells cost a certain amount of MP to cast.
+Attack: Increases the damage caused by most weapons and some talents.
+Defense: Decreases the damage caused by the opponent's attack.
+Agility: Increases the damage caused by Melee weapons; 
+determines the order in which characters and enemies act in battle.
+Magic: Increases the damage caused by attack magic and some talents.
+Hit: Increases the chance of hitting the opponent.
+Evade: Increases the chance that the opponent's attack will miss.
+M.Def.: Decreases the damage caused by the opponent's magic attacks.
+M.Evade: Increases the chance that the opponent's magic attack will miss.
+
+  2. CYBORG UPGRADES
+Cyborgs depend on equipment for most of their stats. In addition to the same 
+benefits that other classes get from equipment, cyborgs also get bonuses that 
+depend on the type and strength of the equipment. The primary stats are raised 
+by the amounts given in sections I and II. The secondary stats are raised by 
+1/10 the primary stat bonus.
+
+Equipped item       Raises stats
+                 Primary   Secondary
+Weapon, Shield   max HP    Attack
+Helmet, Armor    max HP    Defense
+Gloves, Shoes    max MP    Agility
+Others, Others   max MP    Magic
+
+  3. ROBOT UPGRADES
+Robots depend on capsules for most of their upgrades. Capsules are available 
+from some item stores. Robot upgrades are permanent, but are only applied when 
+the character is in robot form. The benefits cannot be transferred to other 
+characters. The maximum bonus that a robot can get from capsules is 999 for HP 
+and 99 for Attack, Defense and Agility. This is added to the robot's base stats 
+and the equipment effects to give the final stats.
+
+Capsule   Cost   Effect         Bought
+Attack    1500   +3 Attack      Dharm (Present); Elan (Past, Future);
+                                Cirrus, Donmac, Knaya (Pureland)
+Defense   1500   +3 Defense     Elan (Present); Lae (Past); Viper City (Future);
+                                Knaya, Porle (Pureland)
+Speed     1500   +3 Agility     Elan (Present), Lae (Past), Viper City (Future);
+                                Knaya, Porle (Pureland)
+HP        1500   +24-40 max HP  Dharm (Present); Elan (Past, Future);
+                                Cirrus, Donmac, Knaya (Pureland)
+
+On average, an HP capsule contributes as much as an Attack capsule toward the 
+robot's talent damage output, in addition to improving its survivability.
+
+  4. TALON UNITS
+Name     Effect                                     Found
+
+Type: Engine
+Rover    Travels over land                          South Cave (Past)
+Hover    Travels over land and water                Castle of Chaos (Present),
+                                                    Talonsburg (Pureland)
+Soar     Travels over land, water, and mountains    Eastern Ruins (Pureland)
+
+Type: Warp
+Past     Warps to and from the Past                 Elan (Present)
+Future   Warps to and from the Future               Castle of Chaos (Present)
+X-Plane  Warps to Pureland (one-way travel)         Matrieya's Tower (Floatland)
+
+Type: Weapon
+Cannon   Attacks all enemies: Damage = 200 - Def.   Pre-installed
+Missile  Attacks all enemies: Damage = 400 - Def.   Mount Hasbid (Pureland)
+Laser    Attacks all enemies: Damage = 600 - Def.   Cirrus (Pureland)
+E-Ray    Attacks all enemies: Damage = 800 - Def.   Underworld Cave (Underworld)
+Shield   Prevents random encounters                 Talonsburg (Pureland)
+
+Type: Option
+Berth    Recovers party's HP, MP, and status        Viper City (Future)
+Flushex  Changes lead member to original form       Lae (Past)
+
+--------------------------------------------------------------------------------
+VII. CLASSES
+
+Some general advice on choosing classes:
+* Rather than designating each character as particular class, instead examine 
+the available species and select the one with the best talents or stats. Some 
+species are better than others of the same level.
+* The exception to the above is robots, because they are too costly to develop
+without focusing.
+* Species with instant kill or debilitating talents are excellent for fighting
+regular enemies.
+* Species that have uninteresting talents may make up for it with high stats.
+* Non-attack magic is effective cast by any class, not just Mutants.
+* Stats can exceed 999 & 99, but will not be displayed any higher on the menus.
+
+  1. MONSTERS
+Monsters are identical to their enemy counterparts, but can also use magic. They
+are useful when money is short, because they are fully functional with no 
+equipment. The drawback is they get no defensive benefit from armor and can't 
+use weapons in battle. (They can still hold the equipment though.) Due to their 
+high stats, they make good healers and meat shields.
+
+    + Fully powered with no investment
+    + Can use talents
+    + High overall stats
+    - Cannot use weapons, and talents don't hit as hard as weapons
+    - No benefit from equipment, and some have elemental weakness
+    - No combat specialties
+
+  2. BEASTS
+Beasts get a little bit of everything. They can use weapons, talents, and magic 
+and are especially good with martial arts. Try to choose a beast with high 
+Attack, to maximize martial arts damage.
+
+    + 1.5x damage with martial arts
+    + Can use both equipment & talents
+    - Medium overall stats
+
+  3. MUTANTS
+Mutants are the magic specialists, and are as versatile as their magic 
+inventory. Optimize spell damage by targeting the enemy's elemental weaknesses 
+and avoiding their strengths. They can do decent weapon damage by using weapons 
+with mutant bonuses. Mutants are more useful toward the end of the game, when 
+powerful spells and MP-restoring items become available.
+
+    + 2x damage with attack spells
+    + Can use equipment
+    - Medium overall stats; low HP and attack power
+    - Cannot use talents
+
+  4. HUMANS
+Humans are very good with weapons, and little else. Humans hit hard, and are 
+typically restricted to attacking a single enemy each round. This makes Humans 
+optimal for boss battles and weak enemies. Use weapons with an elemental or 
+status effect properties when fighting enemies with O-Damage to avoid the damage
+resistance. Humans lose their advantage toward the end of the game, when Mystic 
+swords become available.
+
+    + 2x damage with most weapons
+    + Can use equipment
+    - Medium overall stats; low MP and magic power
+    - Cannot use talents
+
+  5. CYBORGS
+Cyborgs, like beasts, can use weapons, talents, and magic, but have no 
+specialties. This can be offset by their high stats. Cyborgs can be good at 
+anything if given strong equipment. Cyborgs are best when Mystic swords become 
+available.
+
+    + Can use both equipment & talents
+    + Highest overall stats if well equipped
+    - Requires best available equipment for best results
+    - No combat specialties
+
+  6. ROBOTS
+The stats of your robots will be greatly atrophied compared to enemy robots. 
+However, by consuming capsules, the stats are gradually increased, permanently. 
+In this way, robots can be made stronger than any other class. Due to the high, 
+but constant, cost of capsules, robot development is easier later in the game. 
+The other problem with robots is their inability to use magic.
+
+    + Good damage with Robot talents
+    + Can use both equipment & talents
+    + Highest non-magic stats if well upgraded
+    + Player controls stat growth
+    - Requires costly capsules; capsule bonuses are non-transferrable
+    - Cannot use magic
+
+  7. SKILL TABLE
+Here are all the skill values for the damage equations in sections II - V.
+
+Attack method      Type         Monster Beast Mutant  Human Cyborg  Robot
+Melee weapons      Normal          -      1      1*     2      1      1
+                   Mystic swords   -      2      2      2      2      2
+
+Missile weapons    Bows            -      1      1      1      1      1
+                   Throwing        -      1      1      2      1      1
+
+Martial arts       All             -      1.5    1      1      1      1  
+
+Fixed dmg weapons  Cripplers       -      4      4      8      4      4
+                   Guns            -      4      4**    4**    4      4
+                   Others          -      8      8      8      8      8
+
+Magic              Attack magic    1.5    1.5    3      1.5    1.5    -
+                   Item magic      1.5    1.5    1.5    1.5    1.5    1.5
+
+Talents            Robot talents   1      1     (1)    (1)     1      1.5
+                   Other talents   1      1     (1)    (1)     1      1
+
+* Mutants use the Psi knife, Psi sword, X-Fire staff and Fast staff at skill 2. 
+** Mutants get a damage bonus equal to 2x Magic with the Psi gun. Humans and 
+mutants use the Poison gun at skill 8.
+
+--------------------------------------------------------------------------------
+VIII. CHANGING CLASS
+
+  1. DETERMINING NEW CLASS
+After battle, meat or parts may be left behind, which you may feed to or install
+in one of your characters. The basic continuum is:
+
+Monster <=> Beast <=> Human/Mutant <=> Cyborg <=> Robot
+
+Meat transforms the character toward the left, Parts toward the right. Using the
+Flushex unit in the restroom of the Talon transforms the characters toward the 
+center. Specifically, the changes occur as follows:
+
++-----------+--------------------------------------------------------------+
+|Current    |Eats meat from:         Installs parts from:    Uses Flushex: |
+| class:    |Monster     Beast       Cyborg      Robot                     |
++-----------+--------------------------------------------------------------+
+|Monster    |Monster     Beast       Beast       Beast       Beast         |
+|Beast      |Monster     Beast       Hum./Mut.   Hum./Mut.   Hum./Mut.     |
+|Hum./Mut.  |Beast       Beast       Cyborg      Cyborg      Hum./Mut.     |
+|Cyborg     |Hum./Mut.   Hum./Mut.   Cyborg      Robot       Hum./Mut.     |
+|Robot      |Cyborg      Cyborg      Cyborg      Robot       Cyborg        |
++-----------+--------------------------------------------------------------+
+
+Reaching monster or robot is more difficult than beast or cyborg because two
+pieces of meat or parts are required, and the drop rate is rather low.
+
+Sometimes the character spontaneously changes to another class or species after 
+a battle. This can occurs when the character's level is higher than that of the 
+current species.
+
+  2. DETERMINING NEW SPECIES
+For any experience level, there are four possible monster and beast species, and
+two possible cyborg and robot species which the character may become. The 
+species depends on the current element of the character and the element of the 
+creature being subsumed. This is the only purpose of the intrinsic element; the 
+names (Earth, Water, Fire or Air) have no meaning.
+
++------------+-----------------------------+
+|Character's |       Enemy's element:      |
+|element:    |Earth   Water    Fire     Air|
++------------+-----------------------------+
+|    Earth   |Earth    Fire     Air   Water|
+|    Water   |  Air   Water   Earth    Fire|
+|     Fire   |Water     Air    Fire   Earth|
+|      Air   | Fire   Earth   Water     Air|
++------------+-----------------------------+
+The above chart is adapted from the instruction manual.
+
+If a character eats meat or installs parts that would not result in any change
+in element, class or level (for example, a beast eating meat of the same species
+and level), no transformation occurs. Instead, the character's HP is refilled.
+
+Monsters
+Level      Earth      Water       Fire        Air
+ 1- 2       Worm     Turtle    F-Drake      Raven
+ 3- 4       Wolf        Ray     Wisper    Big Eye
+ 5- 6     Fungus   Starfish     Baby-D   Gargoyle
+ 7- 8   LandWorm    Adamant     F-Liz.     Amprex
+ 9-10   Scorpion     Angler   Fireball   Evil Eye
+11-12   Mushroom   Pentagon   DualMask      Ghost
+13-14   GigaWorm    Igasaur   Salamand    Griffon
+15-16   GreyWolf   DrainRay       Tire   BabyWyrm
+17-18      Snake    Octopus    Young-D     Remora
+19-20   BlackCat      Squid     D.Bone    Typhoon
+21-22     Hunter   BulbFish      Wheel   Wyrm Kid
+23-24    Serpent   Ammonite   EvilMask    Specter
+25-26   MummyCat     Amoeba   D.Fossil    Tempest
+27-28    Romulus    BoltRay    FireFan       Wyrm
+29-30      Hydra     Kraken     Kraken      Hydra
+31-99    Sei-Ryu    Sei-Ryu     Garuda     Garuda
+
+Beasts
+Level      Earth      Water       Fire        Air
+ 1- 2     Silver    Orc-Orc    Diviner     Sprite
+ 3- 4    Fighter    SeaMonk    Broomer      Nymph
+ 5- 6     Kelpie   Mad Boar      Thoth   Familiar
+ 7- 8    Mustang     Pirate      Witch      Fairy
+ 9-10    Warrior   SaltMonk   Magician      Pixie
+11-12    Centaur    Werepig      Horus      Fiend
+13-14   Nitemare     Viking     Wizard      Sylph
+15-16    Liz Man    Brooder    Watcher     Thanos
+17-18     Medusa   Fish Man     Osiris       Loki
+19-20      Lamia     Merman     Hermit      Soarx
+21-22   Liz Duke   Big Head       Mage      Siren
+23-24       Naga        Nix        Set   Mephisto
+25-26     Scylla     Selkie   Sorcerer   Succubus
+27-28   Liz King      Dagon    Warlock     Sphinx
+29-30    Echidna    Gillman    Gillman    Echidna
+31-99     Anubis     Anubis     Anubis     Aeshma
+
+Cyborgs
+Level   Earth/Water   Fire/Air
+ 1- 2      Hooligan     Quacky
+ 3- 4         Thief     Talker
+ 5- 6      Headless   Stranger
+ 7- 8       Burgler   Imposter
+ 9-10       Brigand   Busybody
+11-12          Duke   LoonyGuy
+13-14        Outlaw    Cracker
+15-16       Soldier    Rumorer
+17-18      Dullahan      Ronin
+19-20      Terorist    Samurai
+21-22      Commando    Tattler
+23-24         Brain   Hatamoto
+25-26      HiredGun     Daimyo
+27-28            SS     Virago
+29-30        Shogun     Shogun
+31-99       Removed    Removed
+
+Robots
+Level   Earth/Water   Fire/Air
+ 1- 2       Orb Rat     Flower
+ 3- 4        Tomtom    Trixter
+ 5- 6       AirMaid     Cosmos
+ 7- 8        Jerrit   IronRose
+ 9-10        Maitie    Con Man
+11-12      IronLady     Reaper
+13-14      Spectrat     Cactus
+15-16         Guard   Beguiler
+17-18      Valkyrie    Bazooka
+19-20        Keeper       75mm
+21-22       Monitor   Swindler
+23-24          Iken      105mm
+25-26      Searcher      150mm
+27-28         Alert    Hustler
+29-30         210mm      210mm
+31-99         Venus      Venus
+
+The above charts are adapted from the instruction manual.
+
+Each species has one and only one intrinsic element. The element of each enemy
+species is the same as the element under which its name appears. For high-level 
+species which appear in more than one column, the element is the same as the 
+element of lower-level species of the same type. For example, Garuda is Air 
+element, the same element as its lesser cousin Raven. In the case of cyborgs and
+robots, the element is always Water or Air.
+
+  3. DETERMINING NEW STATS
+The following table shows all of the factors that contribute to a character's 
+stats given his or her current class. The percentages show how much of the 
+enemy species's base stats are retained.
+
+           HP    MP   Att.  Def.  Agi.  Mag.  Equipment   Other contribution
+Monster   100%  100%  100%  100%  100%  100%      no
+Beast     100%  100%  100%   50%  100%  100%     yes
+Cyborg     40%   40%   70%   20%   70%   70%     yes      Cyborg equipment bonus
+Robot      20%    0%   50%   10%   50%    0%     yes      Robot capsule bonus
+
+--------------------------------------------------------------------------------
+IX. CHARACTERS
+  1. MAIN CHARACTERS
+
+The advancement of the four main characters each level is as follows:
+
+Class      HP    MP  Att  Def  Agi  Mag   
+Humans    +21    +9   +3   +2   +2   +1
+Mutants   +19   +21   +1   +2   +2   +3
+
+However, there is a random variation of +/-4 in HP and MP gains.
+
+Arthur
+L1, Human, innate element: Fire
+
+Long sword      none
+none            Leather armor
+none            none
+none            none
+
+Level  EXP    HP    MP  Att  Def  Agi  Mag   
+ 1       0    50     5    6    5    4    5
+ 2      20    71    14    9    7    6    6
+ 3      54    92    23   12    9    8    7
+ 4     112   113    32   15   11   10    8
+ 5     200   134    41   18   13   12    9
+ 6     324   155    50   21   15   14   10
+ 7     490   176    59   24   17   16   11
+ 8     704   197    68   27   19   18   12
+ 9     972   218    77   30   21   20   13
+10    1300   239    86   33   23   22   14
+11    1964   260    95   36   25   24   15
+12    2160   281   104   39   27   26   16
+13    2704   302   113   42   29   28   17
+14    3332   323   122   45   31   30   18
+15    4050   344   131   48   33   32   19
+16    4864   365   140   51   35   34   20
+17    5780   386   149   54   37   36   21
+18    6804   407   158   57   39   38   22
+19    7942   428   167   60   41   40   23
+20    9200   449   176   63   43   42   24
+21   10584   470   185   66   45   44   25
+22   12100   491   194   69   47   46   26
+23   13754   512   203   72   49   48   27
+24   15552   533   212   75   51   50   28
+25   17500   554   221   78   53   52   29
+26   19604   575   230   81   55   54   30
+27   21870   596   239   84   57   56   31
+28   24304   617   248   87   59   58   32
+29   26912   638   257   90   61   60   33
+30   29700   659   266   93   63   62   34
+
+Curtis
+L1, Mutant, innate element: Air
+
+Battle hammer   none
+none            Leather armor
+none            none
+none            none
+
+Level  EXP    HP    MP  Att  Def  Agi  Mag   
+ 1       0    40    45    5    4    6   11
+ 2      20    59    66    6    6    8   14
+ 3      54    78    87    7    8   10   17
+ 4     112    97   108    8   10   12   20
+ 5     200   116   129    9   12   14   23
+ 6     324   135   150   10   14   16   26
+ 7     490   154   171   11   16   18   29
+ 8     704   173   192   12   18   20   32
+ 9     972   192   213   13   20   22   35
+10    1300   211   234   14   22   24   38
+11    1964   230   255   15   24   26   41
+12    2160   249   276   16   26   28   44
+13    2704   268   297   17   28   30   47
+14    3332   287   318   18   30   32   50
+15    4050   306   339   19   32   34   53
+16    4864   325   360   20   34   36   56
+17    5780   344   381   21   36   38   59
+18    6804   363   402   22   38   40   62
+19    7942   382   423   23   40   42   65
+20    9200   401   444   24   42   44   68
+21   10584   420   465   25   44   46   71
+22   12100   439   486   26   46   48   74
+23   13754   458   507   27   48   50   77
+24   15552   477   528   28   50   52   80
+25   17500   496   549   29   52   54   83
+26   19604   515   570   30   54   56   86
+27   21870   534   591   31   56   58   89
+28   24304   553   612   32   58   60   92
+29   26912   572   633   33   60   62   95
+30   29700   591   654   34   62   64   98
+
+Gloria
+L1, Mutant, innate element: Water
+
+Bronze staff    none
+none            none
+none            Leather shoes
+Belt            none
+
+Ice
+
+Level  EXP    HP    MP  Att  Def  Agi  Mag   
+ 1       0    36    50    4    5    5   14
+ 2      20    55    71    5    7    7   17
+ 3      54    74    92    6    9    9   20
+ 4     112    93   113    7   11   11   23
+ 5     200   112   134    8   13   13   26
+ 6     324   131   155    9   15   15   29
+ 7     490   150   176   10   17   17   32
+ 8     704   169   197   11   19   19   35
+ 9     972   188   218   12   21   21   38
+10    1300   207   239   13   23   23   41
+11    1964   226   260   14   25   25   44
+12    2160   245   281   15   27   27   47
+13    2704   264   302   16   29   29   50
+14    3332   283   323   17   31   31   53
+15    4050   302   344   18   33   33   56
+16    4864   321   365   19   35   35   59
+17    5780   340   386   20   37   37   62
+18    6804   359   407   21   39   39   65
+19    7942   378   428   22   41   41   68
+20    9200   397   449   23   43   43   71
+21   10584   416   470   24   45   45   74
+22   12100   435   491   25   47   47   77
+23   13754   454   512   26   49   49   80
+24   15552   473   533   27   51   51   83
+25   17500   492   554   28   53   53   86
+26   19604   511   575   29   55   55   89
+27   21870   530   596   30   57   57   92
+28   24304   549   617   31   59   59   95
+29   26912   568   638   32   61   61   98
+30   29700   587   659   33   63   63  101
+
+Sharon
+L1, Human, innate element: Earth
+
+Battle hammer   none
+Leather helmet  none
+none            Leather shoes
+none            none
+
+Level  EXP    HP    MP  Att  Def  Agi  Mag   
+ 1       0    46     5    5    6    5    8
+ 2      20    67    14    8    8    7    9
+ 3      54    88    23   11   10    9   10
+ 4     112   109    32   14   12   11   11
+ 5     200   130    41   17   14   13   12
+ 6     324   151    50   20   16   15   13
+ 7     490   172    59   23   18   17   14
+ 8     704   193    68   26   20   19   15
+ 9     972   214    77   29   22   21   16
+10    1300   235    86   32   24   23   17
+11    1964   256    95   35   26   25   18
+12    2160   277   104   38   28   27   19
+13    2704   298   113   41   30   29   20
+14    3332   319   122   44   32   31   21
+15    4050   340   131   47   34   33   22
+16    4864   361   140   50   36   35   23
+17    5780   382   149   53   38   37   24
+18    6804   403   158   56   40   39   25
+19    7942   424   167   59   42   41   26
+20    9200   445   176   62   44   43   27
+21   10584   466   185   65   46   45   28
+22   12100   487   194   68   48   47   29
+23   13754   508   203   71   50   49   30
+24   15552   529   212   74   52   51   31
+25   17500   550   221   77   54   53   32
+26   19604   571   230   80   56   55   33
+27   21870   592   239   83   58   57   34
+28   24304   613   248   86   60   59   35
+29   26912   634   257   89   62   61   36
+30   29700   655   266   92   64   63   37
+
+  2. 5TH CHARACTERS
+At certain points a 5th character joins or leaves the party. These characters 
+are at a sufficiently high level to make them powerful against the monsters and 
+bosses you will be facing. They do not gain exp or level up, and cannot undergo 
+class changes. It is possible to give them equipment to fill out the empty 
+spaces, but you can't change or remove equipment once placed. You cannot add or 
+remove their magic spells. The stats given are base stats, before equipment 
+effects.
+
+Myron
+L5, Human
+
+Battle axe      none
+Bronze helm     Bronze armor
+none            none
+Plume           none
+
+Cure1
+Fire1, Ice 1
+
+ HP    MP  Att  Def  Agi  Mag 
+130   120   18   19   14   17
+
+Joins at the beginning.
+Leaves after WaterHag boss.
+
+Lara
+L10, Mutant
+Gold rod        none
+none            Leather armor
+Gold gloves     none
+Pendant         none
+
+Spark   Shell   Cure1
+Lit 1   Venom   Fire 1
+
+ HP    MP  Att  Def  Agi  Mag 
+200   250   15   16   27   30
+
+Joins at the South cave in the past.
+Leaves after returning to the present.
+
+Dion
+L21, Human
+Dragon sword    none
+Gold helm       Dragon armor
+none            Dragon boots
+Shades          none
+
+Stone   Quake   Conf    Cure2
+Ice 2   Venom   Sleep
+
+ HP    MP  Att  Def  Agi  Mag 
+680   665   71   61   61   57
+
+Joins after giving the password in Viper City.
+Leaves after entering Pureland.
+
+Faye
+L25, Human
+Rune axe        none
+none            Battle armor
+Iron gloves     Diamond shoes
+Scarf           Earring
+
+Weak    Fast    Cure3
+Exit    Lit 2   Fire2
+
+ HP    MP  Att  Def  Agi  Mag 
+750   670   70   64   70   66
+
+Joins at the Eitar ruins.
+Leaves after giving the Pass in Porle.
+
+Dion
+L30, Human
+
+Rune axe        none
+Diamond helm    Battle armor
+none            Diamond Shoes
+Shades          none
+
+Weak    Fast    Cure3   Stone   Quake   Conf
+Ice 2   Venom   Sleep
+Morph
+
+ HP    MP  Att  Def  Agi  Mag 
+880   830   78   68   66   63
+
+Joins after Faye leaves.
+Leaves before the Agron battle in the Eastern ruins.
+
+Borgin
+L40, Mutant
+
+Gungnir spear   none
+none            Wizard armor
+none            none
+Scarf           none
+
+White   Magma   Wall    Life    Heal    Cure3   Shell
+Fatal   Mute    Para    Sleep
+Lit X   Morph   CureA   Pure    Float
+
+ HP    MP  Att  Def  Agi  Mag 
+990   990   89   74   91   91
+
+Joins after the Agron battle.
+Remains till the end.
+
+--------------------------------------------------------------------------------
+X. SEE ALSO
+
+This guide was written to correct wrong information and fill out the missing 
+information that cannot be found in any of the published FFL3 resources. It is 
+not intended to replace all the others as a stand alone guide and should be used
+in conjunction with other resources.
+
+I have prepared maps of all the areas, available at gamefaqs.com and vgmaps.com:
+  http://www.gamefaqs.com/portable/gameboy/game/563274.html
+  http://www.vgmaps.com/Atlas/GB-GBC/index.htm#FinalFantasyLegendIII
+
+For a list of enemies and bosses, see the the RPGclassics page:
+  http://shrines.rpgclassics.com/gb/ffl3/enemies.shtml
+  http://shrines.rpgclassics.com/gb/ffl3/bosses.shtml
+
+For info on the game's memory map, see Ragnarosen's Save State Hacking Guide:
+  http://www.gamefaqs.com/gameboy/563274-final-fantasy-legend-iii/faqs/7033
+
+A simple Lua script I used to collect some of this data:
+  http://lua.pastey.net/139550-4epy
+
+--------------------------------------------------------------------------------
+CLOSING
+
+Except for the sources cited, the information here was derived empirically, by 
+my own work.
+
+Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com

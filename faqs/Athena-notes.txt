@@ -1,0 +1,60 @@
+Athena notes
+
+Weapon:                            Block breaking power:
+default (no weapon)                none						1
+
+Pink club                          2 hits per block				2
+Blue hammer                        1 hit per block				3
+Ball and chain                     2x4 area (can't hit blocks below)	5
+
+Blue sword                         none						4
+Yellow sword                       2 hits per block				8
+Red sword (with red laser)         1 hit per block (but not the laser)	8
+Flaming sword                      3x2 area (5 bars)				12
+
+Green bow and arrows               none						4
+Blue bow and arrows                1 hit per block				5
+Yellow bow and flaming arrows      all blocks in path (only 1 enemy)	6
+
+Green wand (blue ripples)          none						5
+Blue wand (frisbee of death)       all blocks in path				
+Yellow wand (fireball)             all blocks in path (2 rows)		
+
+Armor:
+Green, Blue, Gold helmet	+2 armor, shield, helm
+Green, Blue, Gold shield	+3 armor, helm
+Green, Blue, Gold armor
+
+
+Small hearts         Restore 1 bar of life each
+Heart container      Extends life by 2 bars (but doesn't restore anything)
+Red hourglass        Weird things happen: Makes a heart container appear somewhere 
+Blue hourglass       Increases time to 5:00
+Sack of Yen          Points
+Blue schooldress     Extra life
+Blue ring            Upgrades weapon by one level
+Red ring             Upgrades sword to red sword? Increases S by 4?
+Yellow scroll        Upgrades wand to blue wand
+Yellow diagonal box  Upgrades blue wand to yellow wand
+
+Cursed items:
+Red hand           Downgrades weapon by one level
+Red skull          Downgrades all armor by one level
+Red hourglass      Decreases time while you touch it
+Red bottle         Poison; turns lifebar blue, slowly kills you
+			Negates and is negated by antidote
+
+Inventory screen items:
+Gold key                           
+Yellow Box                         
+Genie's lamp                       (replaces blue bottle)
+"K"                                Keep items after dying (once)
+Seashell pendant                   Turn into mermaid when swimming*
+Green, Yellow alternate sprite armor
+Green, Blue, Red striped shield    ?
+Blue bottle                        antidote to poison (replaces Genie's lamp)
+			Negates and is negated by poison
+Blue orb on yellow pedestal        indicates hidden items by a "?"
+Wings                              fly by mashing the A button
+
+*can be lost by taking damage

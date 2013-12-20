@@ -1,0 +1,506 @@
+Target Earth FAQ/Guide (Sega Genesis)
+6/10/2005 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2005
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+
+------------------------------
+Contents
+
+* Introduction
+* Gameplay
+   Controls
+   Gravity
+   Gameplay Mechanics
+   Lives
+   Weapons
+   Bonuses
+* Option Mode
+* Weapons List
+* Mission Walkthrough
+* Secrets
+* Japanese Version Differences
+* Closing
+------------------------------
+
+* Introduction
+                             |                    |
+                             | IT BEGAN WHEN      |                    
+                             |                    |
+                             | EARTH'S OUTCASTS   |
+                             |                    |
+                             | RETURNED FROM THE  |
+                             |                    |
+                             | DARKEST REACHES OF |
+                             |                    |
+                             | SPACE.             |
+                             |                    |
+                             |  THEY ATTACKED THE |
+                             |                    |
+                             | PLANET AND ALL HER |
+                             |                    |
+                             | GALACTIC OUTPOSTS  |
+                             |                    |
+                             | WITH LIGHTING      |
+                             |                    |
+                             | FURY.              |
+                             |                    |
+                             |  THE EARTH DEFENSE |
+                             |                    |
+                             | LEAGUE FOUGHT FOR  |
+                             |                    |
+                             | EARTH'S SURVIVAL   |
+                             |                    |
+                             | WITH WARRIORS OUT- |
+                             |                    |
+                             | FITTED IN GIGANTIC |
+                             |                    |
+                             | CYBORG BATTLE      |
+                             |                    |
+                             | ARMOR.             |
+                             |                    |
+                             |  THE BATTLE BEGAN  |
+                             |                    |
+                             | ON GANYMEDE...     |
+                             |                    |
+
+* Gameplay
+
+Controls:
+
+D-pad: Controls aiming and movement. See aiming mode for details.
+A button: Fire selected weapon.
+B button: Jump. Hold to jump higher. Also uses B-PACK if it's in your inventory.
+C button: Select next weapon if enabled in option mode. Otherwise does nothing.
+Start: Pauses game and shows weapon selection.
+
+
+Gravity:
+
+  Most levels have normal gravity, which means you walk and jump around 
+normally. Some levels are lo-grav, so you can move in any direction with the 
+D-pad and the jump button doesn't do anything. Also some weapons are affected 
+by gravity. Lo-grav levels tend to have lots of wide open space, which gives 
+you more room to maneuver.
+
+
+Gameplay mechanics:
+
+  There are no power-ups or ammo refills to be found during the levels. 
+However, damage taken is gradually and automatically healed over time; about 
+one bar every three seconds. It's important to hang back when hurt in order to 
+heal. Also, in most levels you will be supported by friendly assault suits or 
+other help. While they aren't all that aggressive, they are still helpful by 
+distracting the enemy and absorbing damage for you.
+  Something to keep in mind is that explosions from enemies blowing up can hurt 
+you and other robots. Sometimes enemies spout a great plume of flame when 
+exploding. Therefore you should try to take out enemies from a safe distance 
+when possible.
+  Whenever you see enemies coming on screen at random and attacking, there will 
+also be allied suits (the ones in brown) arriving to help from time to time, 
+though in smaller numbers. Some areas have no random enemies.
+
+
+Lives:
+
+  If you die or fail a critical objective, it's "Game Over." You can continue 
+from the main menu two times. You can also continue if you reset the game 
+during play, though this also costs you a continue. Dying does not cause you to 
+lose your items.
+
+
+Weapons:
+
+  When starting a mission, you choose up to six weapons to take. You may take 
+more than one of the same type. Some of these are actually support items rather 
+than weapons. All of the weapons except for the LG-GUN and HG-GUN have limited 
+ammo. You can reuse weapons from level to level, even if you spent all the ammo.
+See the Weapons List for details.
+
+
+Bonuses:
+
+  Upon finishing a mission you will be shown the points earned. Points come 
+from killing enemies, and most levels also have a special bonus that is given 
+at the end. See the walkthrough for details. The number of weapons you get 
+depends on the total points you earned, including the level bonus.
+
+
+* Option Mode
+
+GAME LEVEL: NORMAL
+            HARD
+            HYPER
+
+I'm not sure what the precise differences between the levels are, but you can 
+see for yourself that even normal is pretty hard.
+
+C BUTTON: WEAPON SELECT
+          CANCEL
+
+If enabled this lets you cycle weapons with the C button, without going to the 
+inventory screen.
+
+AIMING MODE: A TYPE
+             B TYPE
+
+A type points your weapon in whatever direction you push the D-pad.
+B type lets you control the aim by tapping or holding up and down on the D-pad. 
+Both are pretty clumsy, as the gun takes time to swivel around. In lo-grav 
+levels they are practically the same.
+Note that you can change modes during gameplay by pausing, then pressing A, B 
+and C together.
+
+PAD RESET: ENABLE
+           CANCEL
+
+If enabled you can reset to the main menu by holding A, B and C then pressing 
+start. 
+
+SOUND TEST MODE
+
+You can hear the sound effects and music from the game.
+
+DATA ROOM
+
+Shows records for each of the 8 missions. This information is not saved when 
+you turn off the power.
+
+
+* Weapons List
+
+LG-GUN    20 Ammo
+  This is a rapid fire gun that shoots plain bullets. When the clip is empty it 
+reloads automatically after about 1 second. Since this is practically the only 
+weapon with unlimited ammo, it may seem like a bad idea to go without it. 
+However, after the first level, you probably won't need it until level 6.
+
+HG-GUN    20 Ammo
+  This is an upgraded LG-GUN with increased power. Like the LG-GUN it has 
+infinite reloads. Too bad you don't get it till the last level.
+
+25-SC     60 Ammo
+  This is a shotgun that shoots 3 bullets in a spread pattern. Rapid fire. An 
+efficient way to kill weak enemies is to get up close (but not too close) and 
+blast once with the 25-SC. Also good when you need to hit those turrets without 
+getting too close.
+
+40-SC     50 Ammo
+  Upgraded 25-SC which does more damage.
+
+GL        50 Ammo
+  This fires grenades that arc except in lo-grav levels. If the capsules hit 
+the ground they spread three explosions around. Powerful but the rate of fire 
+is low.
+
+MGL       45 Ammo
+  Upgraded GL which does more damage.
+
+150BZ     50 Ammo
+  This bazooka fires medium power shots at a medium rate.
+
+203BZ     40 Ammo
+  Upgraded 150BZ which does more damage.
+
+MISSILE   50 Ammo
+  This fires homing missiles. It has medium power and persistent homing ability 
+but low firing rate and slow speed. Homing missiles are considerably more 
+useful in lo-grav levels because there are no walls for them to run into, and 
+if one enemy is destroyed they can pursue another. They are also useful against 
+bosses.
+
+M-POD     50 Ammo
+  Upgraded MISSILE which has both a higher rate of fire and increased power. 
+Essential on the later levels.
+
+E-AS      70 Ammo
+  This shoots fast blue beams, and can only be fired horizontally. Extremely 
+rapid fire but the shots have low power. Seems to miss a lot, and the ammo is 
+quickly depleted. Overall this weapon is powerful but hard to aim, which 
+makes it a good substitute for D-D.
+
+E-CN      55 Ammo
+  Upgraded E-AS with more power, but note the reduction in ammo.
+
+D-D       30 Ammo
+  This shoots a pellet that travels a fixed distance then explodes, releasing 
+four clouds of shrapnel which sink slowly. The shrapnel does damage 
+continuously for a few seconds, though the pellet itself does no damage. 
+Extremely low rate of fire. Useful against stationary bosses and worthless 
+against normal enemies. You'll forget all about it once you get M.PODs though.
+
+BLAST     10 Ammo
+  This is a strange weapon that shoots small spinning missiles. I really don't 
+understand what it's for.
+
+SHIELD    1 Ammo
+  Rex holds a shield in front, which reduces the damage taken by half.
+  
+ARMOR     1 Ammo
+  Extends your health by 4 bars. You have 16 bars without any armor, and up to 
+32 bars with four suits of armor.
+
+B-PACK    1 Ammo
+  When you are carrying this, you can hold the jump button while airborne to 
+provide some additional upward thrust. The effect is a moderately increased 
+vertical range and greatly increased horizontal range for your jumps. Can be 
+used as much as you want without running out. Really only useful for mission 4. 
+
+
+* Mission Walkthrough
+
+Note: I have listed the bonus weapons in the order I received them, but I have 
+observed two variants for some of the levels. Both sets are shown, when 
+applicable. Also, it may be possible to get more weapons than I did, if your 
+score is higher. 
+
+
+STAGE1: Assault on Ganymede
+  You start with LG-GUN, 25-SC and D-D available. Be sure to take all of them. 
+After a certain amount of time, you will be told of the approaching warship. 
+The ship starts at the far right of the map (56 miles away from the base) and 
+approaches at about 1 mile per second. To finish the level you must destroy the 
+warship. D-D works well for this purpose.
+
+Bonus: 500 x miles from base when the warship was destroyed
+
+Bonus Weapons:
+GL       ARMOR    150BZ
+
+
+STAGE2: Escape
+  The objective is to evacuate the base. The escape shuttle appears when you 
+reach the far right of the map. Your bonus depends on how many friendlies 
+(worker bots and brown assault suits) make it onto the shuttle. The shuttle 
+leaves immediately when you get in, but you can wait around at the shuttle and 
+more friendlies will show up. During this time, the shuttle will be providing 
+covering fire. 60 seconds after opening the hatch, the captain says "Hurry up." 
+60 seconds after that, the hatch closes. Be sure to get in before then.
+
+Bonus: 600 x friendlies rescued
+
+Bonus weapons:
+MISSILE  MGL      25-SC    150BZ
+
+
+STAGE3: Orbital Attack
+  This is the first lo-grav level. In this stage, going too far down into the 
+atmosphere will cause you and other robots take damage. The objective is to 
+destroy the enemy warship, which is at the right side of the map. It is well 
+defended by turrets and enemies, so take your time and be careful. The total 
+mission time is 300 seconds. After destroying the warship you need to fend off 
+the enemies until there are 60 seconds left. 
+  At that time, your next objective is to return to one of the three shuttles. 
+The bonus depends on how many seconds were left when you entered the the 
+shuttle. Don't enter too early because this leaves the shuttle almost 
+defenseless, and it won't survive the enemy attacks. Don't be too late or 
+you'll be left behind. At about the 30 second mark, give or take, enemies will 
+stop coming. That is the best time to get in.
+
+Bonus: 600 x seconds remaining when you entered the shuttle
+
+Bonus weapons:
+B-PACK   40-SC    M.POD    40-SC
+GL
+
+D-D      E-AS     B-PACK   40-SC
+M.POD
+
+
+STAGE4: Front Line Assault
+  The B-PACK is recommended for this level. First, drop down to the earth. Then 
+keep moving to the far right. It is hard to fight in the water, so try to hover 
+over it. When the hatch is opened for you at the end, go in and move to the 
+bottom of the base. 
+  When you enter the base, an unseen timer is started which will affect your 
+score for the level, although there is no penalty for running out of time. 
+Shotgun weapons are useful against the annoying turrets here, but don't stick 
+around to kill them. Try to keep moving. Long jumps and hovering with the 
+B-PACK are useful for avoiding the red beam traps. Be careful: about halfway 
+down there is a drop towards the left that leads to a trap you can't escape 
+without the B-PACK. To be safe, stick to the right until you get a feel for the 
+layout.
+  At the bottom you need to destroy the boss, which is a big spinning turbine. 
+Shoot the top part of the hub to damage it, but watch out as it lobs grenades 
+at you. Homing missiles kill it very fast.
+
+Bonus: 600 x seconds remaining when you destroyed the boss
+
+Bonus weapons:
+MISSILE  ARMOR    M.POD    MGL
+
+40-SC    GL       MISSILE  ARMOR
+M.POD
+
+
+STAGE5: Surprise Attack
+  In this mission you simply wander around and kill enemies for about 120 
+seconds. As usual, enemies come from the right and allies from the left. After 
+that time, a boss (who is invincible) will come and attack you, but the mission 
+ends quickly.
+
+Bonus: 400 x enemies killed
+
+Bonus weapons:
+MGL      40-SC    203BZ
+
+
+STAGE6: Headquarter Blitz
+  This is like stage 4 but longer and much more difficult. You may want to 
+bring along the LG-GUN, because you will need to do a lot of shooting. First 
+get the the right side of the map. About halfway across, at the bottom of the 
+canyon, there will be a huge barrier generator machine that you need to take 
+out. It is very well defended with grenade launchers, but you can fire at it 
+while its guns are off screen. Continuing to the right, you need to climb up 
+the canyon walls. You may be able to hide under the cliffs for awhile when you 
+need to regenerate life. From time to time a friendly bot may come to help but 
+you are mainly on your own here. At the far right side, the door will be opened 
+for you to enter the base.
+  This base has less platforming and more enemies than the stage 4 base. The 
+enemies will keep coming, and there are more red beam traps to avoid. You may 
+even encounter some friendlies in here. Use the same strategy as before: when 
+you find cover, stop to heal. Never stop at a broad flat area or you will only 
+exchange hits with the enemies. 
+  At the end you will encounter a boss which you must defeat. He attacks by 
+shooting bullets which pause overhead briefly then move toward your position. 
+He will also claw you at close range. To damage it you must hit the head, which 
+requires jumping or using homing missiles. 
+  For this level and the remaining levels, take it slow and easy, and don't 
+worry about bonuses.
+
+Bonus: No bonus available.
+
+Bonus weapons:
+ARMOR    203BZ    E-AS
+
+
+STAGE7: Space Colony Smash
+  This level starts out lo-grav. Head to the right (watch out for mines) and 
+blast the hatch to enter the colony area, where gravity is normal. Pass through 
+and try to destroy the egg-shaped canisters. There are 19 in this area and they 
+are pretty hard to miss. There are plenty of places where you can take cover 
+behind buildings to heal. Keep going and you will find another hatch, beyond 
+which is lo-grav again.
+  Here you have to destroy the boss, a huge warship. Watch out for its exhaust 
+streams, which are pointing to the left. Approach from above or below to avoid 
+them. The ship is bristling with lasers and cannons, and also defended by mini 
+mechs. M.POD makes this battle a piece of cake. This level is easier than 
+level 6.
+
+Bonus: 400 x pods destroyed
+
+Bonus weapons:
+M.POD    HG-GUN   SHIELD   E-CN
+ARMOR
+
+
+STAGE8: The Final Conflict
+  This is a lo-grav level. I recommend you take the HG-GUN, an M.POD, the 
+SHIELD, and at least two ARMORs. You start off in the middle of the allied 
+fleet. Head to the right and eventually you will meet up with the enemy fleet. 
+You can destroy the cannons on the large stationary ships, but not the ships 
+themselves, though it's best to just keep moving. All the way to the right you 
+will find the flagship and you will be attacked by a boss. Do him enough damage 
+and you will enter the ship.
+  This base is much bigger but not as difficult as the previous two. It is also 
+lo-grav inside here. You start at the upper left and must make it to the lower 
+right, but there are lots of dead ends, and many, many turrets. When you have 
+to choose between going right or going down, try to go down. Remember that you 
+can take as much time as you need to regenerate life when you reach safe spots.
+  At the end there is a boss who attacks with rapid fire missiles that go 
+horizontally, and with a long beam he swings around himself. M.POD gets the job 
+done quickly.
+  Now in the next room is a second boss. He attacks by spawning little droids 
+which shoot fireballs. They are not so tough but they just keep coming, even if 
+you run away. The boss is protected by a blue barrier. Blast the barrier enough 
+times and it will disappear. Then shoot at the guy standing behind there. The 
+way I did it was by moving in a clockwise circle around the room, firing off 
+shots with the M.POD or HG-GUN whenever I was pointing at the boss. In this way 
+you can dodge the droids' fire while hitting the enemy.
+
+Bonus: No bonus available.
+
+Bonus weapons:
+E-CN     ARMOR (if you missed them before)
+
+
+* Secrets
+
+This section is copied from the Secrets page of Gamefaqs.com.
+
+--------------------------------------------------------------------------------
+All Weapons
+Do not collect any bonus weapons or destroy anything except the ship at the end 
+of the first level. Your score after the level is completed should be more than 
+2,800 points.
+Contributed By: Vengeance
+
+Control the Logo
+Press A + C + (Left or Right) on the second controller at the logo screen. Use 
+the D-pad, A, and C to change the size and rotation of the logo.
+Contributed By: Vengeance
+
+Invincibility
+Durind the game press Start on controller two and you should be invincible
+Contributed By: Mike Truitt
+
+Nine Lives
+Begin playing the game and get past level 2. After it's over, enter the options 
+screen and press Start. A woman will appear and say ''Continue Up'' to confirm 
+correct code entry. This may be repeated at any time if your lives have dropped 
+below three.
+Contributed By: Vengeance
+
+Two Players
+Wait until the first green alien appears on the right side of the screen in the 
+first level. Press Start on controller two. One player can control the normal 
+robot while the other player controls the enemy robot.
+Contributed By: Vengeance
+--------------------------------------------------------------------------------
+
+
+* Japanese Version Differences
+
+  The Japanese version is known as "Assault Suits Leynos." The main menu and 
+the option screen are in English, while the in-game dialogue is in Japanese. 
+There seems to be more dialogue between the main character and his allies, and 
+some parts were taken out of the American version. For example, there is a grim 
+scene at the end of level 3, and in level 6 Rex makes a remark when the pilot 
+opens the door to the base.
+
+The first part of the intro description is different, reading:
+
+ IT BEGAN WHEN 
+
+EARTH'S  OUTCASTS 
+
+RETURNED IN  GREAT 
+
+WARSHIPS FROM  THE 
+
+DARKEST REACHES OF 
+
+SPACE.
+
+  As far as the game mechanics go, the two versions are the same, and the 
+Japanese version is fully playable if you don't know Japanese.
+
+  Note that there is a sequel to this game for the Sega Saturn, "Assault Suits 
+Leynos 2," which was only released in Japan.
+
+
+* Closing
+
+    Credit goes to the people who submitted the secrets given above.
+
+    This document is my own work. Any questions, comments, corrections or 
+complaints should be addressed to the address below, with clear indication in 
+the subject line that the email is concerning this FAQ. 
+
+dammit9x at hotmail dot com

@@ -1,0 +1,161 @@
+Crash 'n the Boys: Street Challenge Item/Hacking FAQ (NES)
+July 11, 2006 v1.1
+dammit9x at hotmail dot com
+
+Copyright 2006
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. Items
+ 1a. Inn
+ 1b. Health Food Store
+ 1c. Item Shop
+ 1d. Sports Item Shop
+2. Tips
+3. Hacking
+
+--------------------------------------------------------------------------------
+
+1. Items
+ITEM NAME  COST  EFFECT
+
+ 1a. Inn
+RULES      B 1  Learn the basic rules of the event.
+HINTS      S 1  Get basic hints for the event.
+INSPIRE    B 2  Get cheering for the event.
+
+ 1b. Health Food Store
+HP-UP  50% G20  Restores 50% HP
+HP-UP 100% G25  Restores 100% HP
+<!(&/&X![  S 2  A random character, possibly a teammate, loses almost all HP.
+TRADE-OFF  G 2  -40 HP, +10 POW, +10 SPD, +10 DEF
+
+ 1c. Item Shop
+SNEAKERS   G 1  +20 SPD
+ARMOR      S 5  +20 DEF
+KNUCKLES   G 2  +20 POW
+ITEM KIT   G 3  +20 POW, +20 SPD, +20 DEF
+
+ 1d. Sports Item Shop
+  The items available here depend on the event.
+
+400 meter hurdles
+SPIN KICK  G 2  Less precise timing required to perform the spin kick
+GREASER    S 9  Patches of grease are laid out to slow down the opponent
+TACKS      S 5  Patches of tacks are laid out to trip the opponent
+SPAZZ ROLL B 7  Replaces the shoulder ram with an invincible roll; only 3 uses
+
+Hammer throw
+ROCKET     G 4  Increases the distance thrown by about 1/3
+SPIKES     S 7  Reduces the chance of botched throws
+ROLLER     B 1  Ball rolls instead of bouncing; inceases risk of water hazard
+SONIC SPIN G10  Get more power for less button mashing
+
+Swimming
+CHOMPER    G15  A fish periodically appears and drains all the opponent's Oxy
+GUM        S 5  Reduces Oxy consumption rate, but doesn't protect against hits
+WEBBING    B 4  Increases movement speed in the water
+
+Roof top jumping
+RETREAT    B 2  Allows you to move backwards
+REBOUND X1 G 4  Gives 1 extra rebound for recovering from falls
+REBOUND X3 G10  Gives 3 extra rebounds for recovering from falls
+
+Fighting scene
+QUICK-UP   G15  PP recovers much faster
+SONIC JAB  G15  Punching throws a projectile, but it costs you all your PP
+BIG ATTACK G25  Can drain the opponent's PP even from a lower grappling position
+SPOOL JOB  G 2  Replaces the running punch with a long range rolling attack
+
+
+2. Tips
+
+-None of the items at the Inn do any good.
+
+-The <!(&/&X![ item can be a big help but it won't affect opponents you are 
+about to face in the current event.
+
+-The TRADE-OFF item may be a good buy if the event doesn't require too much HP.
+
+-The maximum for Power, Defense and Speed is 127.
+
+-Changes to Power, Defense and Speed revert after the event is over, but HP is 
+not restored.
+
+-If a character loses all his HP he'll get some back. But the only way to get 
+back more is with health food.
+
+-The computer always cheats. However, it never buys items. You won't stand much 
+of a chance against the computer unless you buy items.
+
+-The object of the game is to get the most money (medals). So you should only 
+make purchases that will pay for themselves.
+
+-GREASER and TACKS are good buys and complement one another well.
+
+-If you don't have autofire you may need the SONIC SPIN.
+
+-An alternative strategy for the Hammer throw is to forget about making Par and 
+just get as many coins as possible.
+
+-CHOMPER is unpredictable but often saves the day. WEBBING is definitely worth 
+the money.
+
+-RETREAT is very cheap and potentially useful. The important thing is getting 
+to the end of the course, not the time.
+
+-SPOOL JOB is the best buy for fighting; even though it's weak, it can drain 
+the opponent's PP effectively to set up throws.
+
+
+3. Hacking
+
+  The following addresses contain important information that could be used for 
+making useful codes.
+
+0331-0335  Gold medals of Team 1 - Team 5 (value must be in decimal, not hex)
+0336-033A  Silver medals of Team 1 - Team 5 (the only valid values are 00-09)
+033B-033F  Bronze medals of Team 1 - Team 5 (the only valid values are 00-09)
+0340-0344  Current HP of the five Southside High members (Team 1)
+0345-0349  Current HP of the five Washington High members (Team 2)
+034A-034E  Current HP of the five Lincoln High members (Team 3)
+034F-0353  Current HP of the five Jefferson High members (Team 4)
+0354-0358  Current HP of the five Thorney members (Team 5)
+06C0-06C4  Speed of active member (Player 1 - Player 5)
+06C5-06C9  Power of active member (Player 1 - Player 5)
+06CA-06CE  Defense of active member (Player 1 - Player 5)
+
+Example:
+000331:40 would set the gold medals of player 1 to 40
+000340:FF would set Crash's HP to 255
+
+Note:
+The "Current HP" codes fix HP between heats and between events, but you can't 
+make characters invincible with them.
+
+The player-team matchups are chosen at the beginning of the game, but "Player 5"
+is always the unplayable Thornley team.
+
+Speed, Power and Defense of inactive members are not stored in RAM.
+
+
+--------------------------------------------------------------------------------
+
+CLOSING
+
+  This document is all my own work. Any questions, comments, corrections or 
+complaints should be addressed to the address below, with clear indication in 
+the subject line that the email is concerning this FAQ. 
+  Given that I prefer to write for obscure titles, I enjoy hearing from people 
+who read my guides. If you've played the game and used the FAQ, feel free to 
+drop me a line and tell me what you think.
+
+dammit9x at hotmail dot com

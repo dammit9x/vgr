@@ -1,0 +1,576 @@
+Nekketsu Kakutou Densetsu FAQ/Guide (Nintendo Entertainment System)
+July 9, 2006 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2006
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. Game summary
+ 1a. Introduction
+ 1b. Game modes
+ 1c. Menu options
+2. How to play
+ 2a. Basic moves
+ 2b. Killer techs (KTs)
+ 2c. Combo techs (CTs)
+ 2d. Character types
+3. Character parameters
+ 3a. Stats
+ 3b. KT types
+ 3c. Zodiac compatibility
+4. Premade characters
+5. Items
+6. Battle venues
+7. Rules
+8. Secret codes
+9. Hacking table
+
+--------------------------------------------------------------------------------
+
+1. Game summary
+
+ 1a. Introduction
+  Nekketsu Kakutou Densetsu is a 4-player fighting game produced by Technos 
+Japan in 1992. It is part of the Nekketsu (Hot-blooded High-school) series 
+starring Kunio and Riki (Alex and Ryan of River City Ransom fame). Like most 
+Technos games it never made it out of Japan. An English translation of the name 
+would be something like Nekketsu Brawling Legend.
+
+ 1b. Game modes
+Story Mode
+  This mode is available with 1-player + CPU partner or 2-player cooperative. 
+Eight teams of two fighters battle to determine who is the greatest, and team-
+work plays an important role. Fighters get stronger after battles by leveling 
+up. The difficulty is self-adjusting: if you lose battles you fight weaker 
+teams. Winning results in more experience, but you have to face stronger teams.
+  If after 19 battles you have won less than 15, the game ends. But if you win 
+15 battles you face the powerful tiger twins. This battle, while difficult, can 
+be attempted as many times as necessary. If you beat the twins, you see the end-
+ing, the details of which depend on whether Kunio and/or Riki were in the team.
+
+Battle Mode
+  This mode is a 4-player free-for-all with up to 4 human players participating.
+You choose the rules and the venue. Unlike Story mode there is no teamplay and 
+no leveling up. You can still import strong characters with passwords, however.
+
+ 1c. Menu options
+  This diagram is intended to help players who can't read the menu text.
+
+Game start
+ |_Top: Story Mode
+ |  |_Select 1P-2P
+ |     |_(for each human player)
+ |     |  |_Left: make custom character
+ |     |  |  |_Input name, month of birth, day of birth, blood type
+ |     |  |     |_Left: Confirm
+ |     |  |     |_Right: Redo
+ |     |  |
+ |     |  |_Right: use a password character
+ |     |     |_Input a valid password
+ |     |        |_Left: Confirm
+ |     |        |_Right: Redo
+ |     |
+ |     |_(for each CPU player)
+ |        |_Left: use premade character
+ |        |  |_Select character
+ |        |
+ |        |_Right: use a password character
+ |           |_Input a valid password
+ |              |_Left: Confirm
+ |              |_Right: Redo
+ |
+ | Between battles
+ |  |_Upper left: next battle
+ |  |_Upper right: view status and passwords
+ |  |_Lower left: view rankings
+ |  |_Lower right: quit to main menu
+ |
+ | Before final battle
+ |  |_Upper left: begin the battle
+ |  |_Upper right: view status and passwords
+ |  |_Lower: quit to main menu
+ |
+ | After 19th battle with less than 15 wins
+ |  |_Left: view status and passwords
+ |  |_Right: quit to main menu
+ |
+ |_Bottom: Battle Mode
+    |_Select 1P-4P
+       |_(for each human player)
+       |  |_Left: use a custom or password character
+       |  |  |_Left: make custom character
+       |  |  |  |_Input name, month of birth, day of birth, blood type
+       |  |  |     |_Left: Confirm
+       |  |  |     |_Right: Redo
+       |  |  |
+       |  |  |_Right: use a password character
+       |  |     |_Input a valid password
+       |  |        |_Left: Confirm
+       |  |        |_Right: Redo
+       |  |
+       |  |_Right: use a premade character
+       |     |_Select character
+       |
+       |_(for each CPU player)
+          |_Select a premade character
+
+  For Story mode, you can use a premade character, but to do so you have to 
+input his password. Likewise for Battle mode, the only way to use a custom 
+character is by password. After setting up all the characters, choose a rule 
+(see section 7) and start playing.
+
+
+2. How to play
+
+ 2a. Basic moves
+A           Punch
+B           Kick
+A+B         Jump
+  A         Punch
+  B         Kick
+D-pad       Walk
+  A+B       Walking jump in direction pressed
+    A       Punch
+    B       Kick
+L,L or R,R  Run left or right
+  U or D    Move upwards or downwards while running
+  A         Running punch attack
+  B         Running kick attack
+  A+B       Running jump
+    A       Running jump punch attack
+    B       Running jump kick attack
+D,D         Elbow slide (when facing downhill on a slope)
+  A+B       Running jump
+    A       Running jump punch attack
+    B       Running jump kick attack
+A or B      Guard (just before attack arrives)
+A           Reversal front throw (facing opponent's incoming running attack)
+
+Stunning: To stun the enemy so he leans over, hit him with several punches or 
+kicks. Hitting from behind or using Mach KTs stuns faster.
+
+(stun)
+  A or B    Power blow
+  D-pad     Grab
+
+Grabbing: Walk up to a stunned opponent from the front or behind to grab him.
+
+(front grab)
+  A         Front throw
+  B         Irish whip towards your back
+
+(back grab)
+  D-pad     Move the opponent around
+  A         Back throw
+  B         Irish whip towards your front
+
+Irish whip: When whipped the opponent is forced to run into walls, soft walls, 
+hazards, or the waiting arms of another fighter.
+
+(Irish whip)
+  A         Front throw (when facing the whipped fighter)
+
+Knockdown: Any move other than normal punches or kicks knocks a fighter down.
+
+(knockdown)
+  A at edge         jumping elbow drop
+  B at edge         jumping stomp
+  A or B at center  pick up fighter
+    A               slam near
+    B               throw far
+    D-pad           walk or run around
+    A+B             jump
+      A             slam near
+      B             throw far
+  U or D            sit on fighter
+    A               mounted punch
+    B               jumping stomp
+
+ 2b. Killer techs (KTs)
+  Each fighter gets 1-3 KTs which depend on his date of birth. (See section 3b.)
+The chart below explains how to perform them.
+
+Mach Punch       replaces normal punch
+Mach Kick        replaces normal kick
+Spin Attack      P while landing from a jump (repeatable)
+  S.A. followup  Do a Spin attack; As you hit the enemy, hold L or R.
+Bomb Kick        K while landing from a jump (repeatable)
+Jump Elbow       P after the peak of a jump
+Jump Guillotine  K after the peak of a jump
+High Spin Kick   D during a running jump
+Mach Stomp       replaces jumping elbow drop
+Stone Guard      replaces normal guard
+Tornado Attack   Do a running jump kick; As you hit the enemy, hold L or R.
+
+ 2c. Combo techs (CTs)
+  There are two combo techs, which require a partner and can only be done in 
+story mode. These moves do good damage, are unblockable and grant temporary 
+invincibility to one or both members, through they require coordination and 
+leave both members vulnerable while setting it up.
+  To set up a type A CT, one partner stands on the other's shoulders. This is 
+usually done by jumping up, but can also be done by dropping down from higher 
+ground. The black bar on the CT indicator will start moving back and forth. At 
+this point the upper partner can punch, kick or jump normally while being 
+carried around. If the lower partner pushes B, or pushes A when the black bar 
+is in the white, the upper partner will just jump off. But if A is pressed when 
+it's in the orange region, the bottom partner will be launched at the enemy as 
+an invincible spinning homing missile. The initial direction is in front of the 
+bottom partner, so it's best to face the enemy before launching.
+  For a type B CT the partners must face one another and walk together to join 
+arms. This looks similar to grabbing a stunned opponent. In this state the 
+black bar moves along the CT bar. If either member pushes B the grip is 
+released. If a member pushes A when the bar is in the white, he throws his 
+partner with a front throw. But if the bar is in the orange region they become 
+invincible, start spinning and turn into a homing missile with special graphics 
+that depend on the character who pushed A. (See section 2d.)
+  To do CTs in 1-player story mode, hold A or B to call your partner. Button A 
+causes him to try to jump up and with B he'll try to join arms.
+
+ 2d. Character types
+  There are four types of fighters (five if you count the tigers) which have 
+different moves and fighting styles. The differences seem to be in the initial 
+stats; the damage calculation formulas are the same for all of them. 
+
+Wrestlers         Well-rounded
+Street fighters   Strong Punch
+Kung fu fighters  Strong Kick
+Judo fighters     Strong Throwing
+
+·------------------------------------------------------------------------------·
+|Type    | Punch| Kick |   Power|Running |Running |     Front |    Back|  Combo|
+|        |      |      |    blow|  punch |   kick |     throw |   throw| attack|
+|------------------------------------------------------------------------------|
+|Wrestler|   Jab|Side- |   Cross|Running |Running | Powerbomb |  Suplex|    Ice|
+|        |      | kick |   punch|shoulder|   knee |           |        |       |
+|------------------------------------------------------------------------------|
+|Street  |   Jab| Knee |Uppercut|Running |Running |Neckbreaker|   Back-| Light-|
+|fighter |      |      |        |   hook |   knee |      slam | breaker|   ning|
+|------------------------------------------------------------------------------|
+|Kung Fu | Back-| High |  Double|Running |Sliding |   Jumping | Jumping|Tornado|
+|fighter |  hand| kick |    kick|  elbow |   kick |piledriver |bodyslam|       |
+|------------------------------------------------------------------------------|
+|Judo    |Karate|  Low |Crescent|Rolling |Rolling |  Hip toss |Shoulder|  Flame|
+|fighter | punch| kick |    kick| attack | attack |           |   throw|       |
+|------------------------------------------------------------------------------|
+|Tiger   |  Side|  Low | Turning|Spinning|Running |    Flying |  Flying|   Fire|
+|twins   |  chop| kick |uppercut| lariat |shoulder|     press |   press|  demon|
+·------------------------------------------------------------------------------·
+
+
+3. Character parameters
+
+ 3a. Stats
+HP: This is how much damage the fighter can take before being knocked out. 
+Maximum 255.
+
+Punch, Kick & Throwing: These determine how much damage is done to the opponent 
+when you hit with punching, kicking, or grappling techniques, respectively. 
+Maximum 99.
+
+Speed: This affects how fast the fighter can run or walk. Maximum 99. Speed is 
+always a multiple of 9 and so the actual speed is an integer from 1 to 11.
+
+Defense: This reduces the amount of damage taken when hit and plays against the 
+opponent's Punch, Kick or Throwing.
+
+Teamwork: This stat only applies to Story mode. It has 8 levels and determines 
+how effectively your team's CTs seek the enemy. At level 1 they don't stray far 
+from the starting point, and at level 9 they chase the enemy all over the 
+arena. Teamwork goes up automatically over time and goes down when team members 
+hit one another.
+
+  Stats are the most important aspect of your fighter. Stats (except for 
+teamwork) go up when the character levels up. By the end of Story mode, your 
+team will likely be at or near maximum stats. The tiger twins battle will still 
+be difficult though, because they have stats higher than the maximum: Punch, 
+Kick, and Throwing at 112 and Defense at 160. Plus their teamwork is locked at 
+level 9.
+
+  The stats are arranged on the status screen as follows:
+HP       Throwing
+Punch    Speed
+Kick     Defense
+
+ 3b. KT types
+  The Killer techniques that a fighter gets depend on his date of birth. 
+To predict a fighter's KTs, use the following formula:
+
+KT# = Birth month + Birth day - 1
+
+If the number is greater than 19, divide by 20 and take the remainder. 
+Match the resulting number with the techs on the table below.
+
+KT#     Technique 1      Technique 2      Technique 3
+ 0      Spin Attack        Mach Kick 
+ 1      Stone Guard      Spin Attack        Bomb Kick
+ 2       Jump Elbow      Stone Guard      Spin Attack
+ 3  Jump Guillotine       Jump Elbow      Stone Guard
+ 4       Mach Stomp  Jump Guillotine       Jump Elbow
+ 5      Spin Attack        Bomb Kick   High Spin Kick
+ 6       Mach Stomp   Tornado Attack   High Spin Kick
+ 7       Mach Punch   Tornado Attack   High Spin Kick
+ 8      Spin Attack       Mach Punch  
+ 9      Spin Attack       Mach Punch   Tornado Attack
+10       Jump Elbow        Bomb Kick  
+11   Tornado Attack   High Spin Kick  
+12       Mach Stomp        Mach Kick   Tornado Attack
+13  Jump Guillotine   High Spin Kick  
+14       Jump Elbow        Mach Kick  
+15        Bomb Kick   Tornado Attack   High Spin Kick
+16   High Spin Kick   
+17      Spin Attack        Bomb Kick        Mach Kick
+18   Tornado Attack   
+19        Bomb Kick        Mach Kick  
+
+Table adapted from http://www.rahga.com/nkd/
+
+  As you can see, some KT numbers are better than others.
+
+ 3c. Zodiac compatibility
+  The effectiveness of a team depends in part on the Zodiac matchup of its 
+members. Better compatibility makes it easier to perform Combo techs because 
+the black bar on the CT indictor moves more slowly. When it moves fast the move 
+is more likely to be botched. The Zodiac signs and corresponding birth dates 
+are given below, along with their Western counterparts. (By the way, the 
+Japanese names are literal translations of the Western names.)
+
+ #  Birth dates  Jap name  Western name
+ 1  12/22- 1/20      Yagi     Capricorn
+ 2   1/21- 2/18  Mizugame      Aquarius
+ 3   2/19- 3/20        Uo        Pisces
+ 4   3/21- 4/20  Ohitsuji         Aries
+ 5   4/21- 5/21     Oushi        Taurus
+ 6   5/22- 6/21    Futago        Gemini
+ 7   6/22- 7/22      Kani        Cancer
+ 8   7/23- 8/22    Shishi           Leo
+ 9   8/23- 9/23     Otome         Virgo
+10   9/24-10/23    Tenbin         Libra
+11  10/24-11/22   Scorpio       Scorpio
+12  11/23-12/21       Ite   Sagittarius
+
+  Compatibilty is graphically represented by the color of the team outfit. The 
+colors from best to worst are red, blue, white, green, and yellow. The chart 
+below shows the team color that results from matching any two fighters.
+
+    1   2   3   4   5   6   7   8   9  10  11  12
+ 1  C   E   B   B   D   B   A   C   D   C   E   C
+ 2  C   B   B   B   C   B   D   A   B   E   C   B
+ 3  C   A   D   A   B   E   B   D   C   C   B   C
+ 4  B   B   C   D   C   D   B   B   A   C   C   C
+ 5  B   B   C   B   B   D   E   D   A   E   B   A
+ 6  C   C   A   C   D   C   B   B   C   B   B   D
+ 7  D   B   C   B   C   E   A   C   C   B   B   A
+ 8  C   B   D   C   D   C   C   C   A   D   C   B
+ 9  D   D   C   E   C   B   C   C   A   B   B   E
+10  B   E   B   A   C   C   D   B   C   A   D   B
+11  B   D   B   C   C   C   B   B   E   C   A   D
+12  A   A   C   C   A   A   C   E   E   D   B   C
+
+Table adapted from http://www.rahga.com/nkd/
+
+
+4. Premade characters
+  There are 16 premade characters to pick from for Battle mode or your CPU 
+partner in Story mode. Each row is a different fighter type, and the columns are
+stronger going to the left and weaker to the right. The procedure for playing a 
+premade character in Story mode is simple: Start a Battle mode game, choose not 
+to make a custom character, and pick the fighter you want. Then note the 
+password. Enter this password in Story mode.
+
+ Name    Blood type
+ DOB  KTxx   Zodiac
+ MHP Pu Ki Th Sp De
+
+·------------------------------------------------------------------------------·
+|Kunio           AB |Shibata         AB |Ishiduki         O |Yamaishi         A|
+|11/27 KT17     Ite |10/17 KT06  Tenbin |4/4  KT07 Ohitsuji |6/28  KT13    Kani|
+|198 49 57 45 90 47 |190 42 35 39 90 51 |179 26 31 29 81 48 |175 40 41 44 90 27|
+|------------------------------------------------------------------------------|
+|Riki             ? |Ebihara         AB |Mashiba          A |Jinnai           O|
+|5/5   KT09   Oushi |9/2   KT10   Otome |8/20 KT07   Shishi |6/11  KT16  Futago|
+|204 55 44 51 81 43 |198 52 42 48 81 44 |188 39 29 32 99 47 |169 48 31 43 90 41|
+|------------------------------------------------------------------------------|
+|Himeyama         B |Raidou           O |Aoi             AB |Anzawa           B|
+|1/19  KT19    Yagi |12/20 KT11     Ite |3/3  KT05       Uo |7/3   KT09    Kani|
+|202 46 64 43 99 58 |175 37 52 39 81 51 |171 36 59 45 90 60 |178 37 55 45 81 51|
+|------------------------------------------------------------------------------|
+|Midou            B |Fujikura         A |Suga             A |Ookumi           O|
+|1/1   KT01    Yagi |11/6  KT16  Sasori |5/25 KT09   Futago |2/19  KT00      Uo|
+|203 32 34 66 81 59 |206 35 30 68 90 53 |194 39 38 63 81 56 |190 32 38 63 81 49|
+·------------------------------------------------------------------------------·
+
+It is also possible to play as the tiger twins by using a code (see section 8).
+Note that the twins you fight in Story mode have higher stats.
+
+                    ·---------------------------------------·
+Tiger twins:        |Toraji           B |Toraiji         AB |
+                    |9/1   KT09    Yagi |12/6  KT17  Tenbin |
+                    |254 99 94 75 99 95 |255 99 90 99 90 82 |
+                    ·---------------------------------------·
+
+
+5. Items
+  When a fighter is defeated an item is dropped after the body disappears. These
+have various effects, usually good, for the fighter who picks them up. Note that
+the stat boosts given are temporary; they last for the current battle only. 
+However, they can raise punch, kick, throw and defense above 99. Items disappear
+if not picked up in about 6 seconds.
+
+Item            Effect
+Hamburger        30 HP
+Onigiri          50 HP
+Fish             70 HP
+Curry & rice    100 HP
+Bento           150 HP
+Shrimp tempura  200 HP
+Mushroom        Randomly gain or lose 50% HP
+Sushi           +32 MHP and refills HP
+Boxing gloves   +32 Punch (dropped by street fighters only)
+Kung fu shoes   +32 Kick (dropped by kung fu fighters only)
+Black belt      +32 Throw (dropped by judo fighters only)
+Band-Aid        +32 Defense
+Running shoes    +1 Speed (dropped by wrestlers only)
+Iron geta        -3 Speed
+Blue capsules   Revives your ally if he's dead; otherwise it does nothing.
+Gray capsules   After the battle, the rule changes to a different random rule.
+Pink capsules   Strengthens CTs
+Red capsules    Invincibility for about 8 seconds; doesn't work on hazards
+
+The Blue and Pink capsules only appear in Story mode. The Gray capsule can be 
+found in Battle mode but it doesn't do anything there.
+
+Since some items are hard to identify, I'll describe the appearance of them 
+here. I had to use my imagination for some of these.
+
+Hamburger: Very tall burger with paper underneath.
+Onigiri: Two triangular rice balls, broadside facing right.
+Fish: The distinguishing feature is two chopsticks laid across the plate, and 
+what looks like an eye underneath. I think it's a fish anyway.
+Curry & rice: Fork, drink and plate half white, half brown stuff.
+Bento: Brown boxes and a small drink beside them. Looks like a stack of waffles.
+Shrimp tempura: Two sausage shaped things on a high platter.
+Mushroom: A big brown mushroom tilted to the right.
+Sushi: Two blocks on a brown sushigeta (wooden platter) with cup and chopsticks.
+Boxing gloves: Bright red, strung together, and pointed down.
+Kung fu shoes: Round, brown, featureless shoes pointing left.
+Black belt: A curvy black squiggle.
+Band-Aid: Pink and laid diagonal, with the white pad in the middle.
+Running shoes: 80s style hi-tops pointing left. Looks more like a bead necklace.
+Iron geta: Looks very much like a cinderblock split lengthwise.
+Capsules: These are all pairs of giant, two-toned pills.
+
+
+6. Battle venues
+  There are eight venues in total:
+
+1. Arena: Soft walls
+2. Powerstation: 2 electric walls
+3. Factory: blast pipe, moving floor, spike wall, spike floor
+4. Minefield: 5 mines
+5. Freezer: slippery floor, spike floor
+6. Waterfall: moving floor, spike floor
+7. Bridge: blast pipe, disappearing floor, spike wall, spike floor
+8. Tiger arena: No hazards; only available in Story mode
+
+Explanation of hazards:
+Soft wall: Running into a soft wall turns you around instead of knocking down.
+Slippery floor: Bodies slide along the floor and it's hard to change direction.
+Moving floor: The floor carries bodies towards spikes.
+Disappearing floor: Floor periodically disappears, revealing spikes.
+Blast pipe: Enter the hole and get blasted out the pipe; damages bystanders
+Spikes: 8 damage; victim goes flying
+Electric wall: 16 damage; victim goes flying and shocks others (for less damage)
+Mine: 48 damage; victim goes flying and mine disappears
+
+In Story Mode, the venues are played in the following cycle:
+Round 1: 1-4, 5
+Round 2: 1-4, 6
+Round 3: 1-4, 7
+Round 4: 1-4
+Each round paints the arenas in a different color scheme.
+The tiger twins battle is always fought in venue 8.
+
+In Battle mode player 1 chooses the venue before each battle.
+
+
+7. Rules
+  Rules are special methods of winning or losing the battle other than by 
+elimination. Typically wins are by knockout but occasionally the rules play a 
+role. Before beginning Story or Battle mode, you must choose a rule. The rule 
+may be changed by picking up a gray capsule. This happens even if the rule 
+changer was picked up by the losing team. Rule 5 is always applied for the 
+final Story mode battle vs. the tiger twins.
+
+Rule 1: A team that strikes 10 times with the B-type combo attack wins. Combo 
+attacks that strike both opponents count for two. (Story mode only)
+
+Rule 2: In Battle mode, a fighter that gets hit 10 times by spikes or 
+electricity loses, and the fight goes on. In Story mode, a team that gets hit 
+10 times loses.
+
+Rule 3: If a fighter executes 10 specific throws, he or his team wins. The 
+throw might be a front throw, a back throw, a front Irish whip or a back Irish 
+whip. The correct throw is indicated by a tone.
+
+Rule 4: If a fighter takes no damage for about 50 seconds he or his team wins.
+
+Rule 5: No special conditions are applied.
+
+
+8. Secret codes
+
+Sound test: At the title screen, hold select and left and then press A.
+
+Choose the same character more than once: On the title screen, hold A and B on 
+controller two and then push start on controller one.
+
+Go directly to the final battle: On the title screen, hold select+right and 
+press A. Then select story mode.
+
+Play as the Tigers: Choose Battle mode, choose the number of players, push 
+right to not use a custom fighter, then hold select and press A, Right, A to 
+use Toragi or A, Left, A to use Toraichi.
+
+Codes adapted from http://www.gamefaqs.com/console/nes/code/581215.html
+
+
+9. Hacking table
+
+For the following addresses, add 0x1 to reach the next character
+04C2  Current HP
+04C6  Defense
+04CA  Punch
+04CE  Kick
+04D2  Throw
+04D6  Speed (don't raise it any higher than 0F)
+
+The following addresses only pertain to Story mode:
+04EA  Levels to be gained by player 1 at the end of battle
+04EB  Levels to be gained by player 2 at the end of battle
+05EB  Player 1 Max HP
+05EC  Player 2 Max HP
+
+
+CLOSING
+
+Information from the following sources was used in this guide:
+
+http://www.rahga.com/nkd/ for the KT tables.
+http://www.gamefaqs.com/console/nes/code/581215.html for the codes.
+
+  The rest of this document is my own work. Any questions, comments, corrections
+or complaints should be addressed to the address below, with clear indication in
+the subject line that the email is concerning this FAQ. 
+  Given that I prefer to write for obscure titles, I enjoy hearing from people 
+who read my guides. If you've played the game and used the FAQ, feel free to 
+drop me a line and tell me what you think.
+
+dammit9x at hotmail dot com

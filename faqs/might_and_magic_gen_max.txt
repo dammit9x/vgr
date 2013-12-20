@@ -1,0 +1,866 @@
+"Might and Magic: Gates to Another World" for Sega Genesis
+Stat Raising Guide, v1.4 (5/5/2011)
+by Dammit9x
+dammit9x at hotmail dot com
+
+Copyright 2004-2011
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+  Changed since v1.3 (6/20/2008):
+* Corrected some small mistakes
+* Added chart for number of hits per level
+* Added a note about class-specific weapon accuracy
+* Added ulillillia's extensive level-up scheme
+* Added a note on beating the Ancient Dragon at low level
+
+  Changed since v1.2 (3/31/2007):
+* Restructured guide and improved writing
+* Added and improved many sections
+* Verified some uncertainties
+
+  Changed since v1.1 (1/5/2005):
+* Added section on the Frenzy glitch
+
+***************************************
+TABLE OF CONTENTS
+
+INTRODUCTION
+I. STATS
+  1. ROLLED STATS
+  2. DERIVED STATS
+  3. TEMPORARY CHANGES
+  4. SECONDARY SKILL BONUSES
+  5. PERMANENT BONUSES
+  6. STAT TRADES
+  7. CLASS-SPECIFIC ITEMS
+  8. LUXUS B2 HP BONUS
+  9. CASTLE DUNGEON HP BONUSES
+  10. DRAGON'S DOMINION D1(12,14) HP BONUSES
+II. PLAYING THE GAME
+  1. CREATING A PARTY
+  2. FAST MONEY AND EQUIPMENT
+  3. CHOOSING EQUIPMENT
+  4. EXPERIENCE TRICKS
+  5. ALIGNMENT AND SEX CHANGES
+  6. ENCHANTING ITEMS
+  7. CASTLE DUNGEON PORTALS
+III. ULILLILLIA'S MAX-OUT METHOD
+IV. CHEATS AND GLITCHES
+  1. FREE ITEMS, GOLD AND GEMS
+  2. FREE TREASURE
+  3. REST TO TELEPORT
+  4. FRENZY
+MY PARTY
+CLOSING
+***************************************
+
+INTRODUCTION
+  This is not a walkthrough for Might and Magic II. Refer to Andrew Schultz's 
+guides and maps for that. This guide will help you I.) boost your character's 
+stats, II.) quickly get treasure and experience for your party and III.) apply 
+some cheats and glitches in order to exploit the game to the fullest. It is 
+written for the Sega Genesis version of Might and Magic: Gates to Another World,
+which is Might and Magic II in the series; However, it is applicable to all 
+versions of the game.
+
+--------------------------------------------------------------------------------
+I. STATS
+  1. ROLLED STATS
+  Might: Causes more damage with both melee and missile attacks
+  Intellect: Determines max SP for Sorcerers and Archers
+  Personality: Determines max SP for Clerics and Paladins
+  Endurance: Determines the max HP gained when training (leveling up)
+  Speed: Determines order of action in combat. Faster monsters and characters go
+before slower ones. When speeds are equal, characters go in the order of the 
+party arrangement. Higher speeds give a bigger AC bonus.
+  Accuracy: Determines the chance of hitting with missile or melee; However, it 
+is difficult to notice the difference when Accuracy is changed. The target's AC 
+also plays a role in determining hits or misses.
+  Luck: Possibly affects the chance that the party will successfully Hide from 
+combat and the chance of success for thievery. Luck may have other effects.
+
+  2. DERIVED STATS
+  Level: This determines max HP, max SP, spell level, thievery, the number of 
+attacks a character makes per round, and whether enemies try to run away in 
+battle. It is raised by gaining experience and then paying for training at 
+training center in one of the towns.
+  HP: Hit points. If they run out the character becomes Unconscious. An 
+Unconscious character dies if hit again. You can raise the HP of a wounded or 
+Unconscious member with healing items or spells. HP is refilled with Rest. There
+are several ways to raise max HP, the most obvious of which is leveling up.
+  SP: Spell points. They are required for casting spells. The SP cost of some 
+spells is fixed, and with others it depends on the caster's level. SP are 
+refilled by resting and maximum SP is increased only by leveling up.
+  SL: Spell level. This determines which spells are available to the character. 
+Some spells need to be bought or found. SL = level/2 + 1/2 for Clerics and 
+Sorcerers or level/2 - 5/2 for Paladins and Archers.
+  AC: Armor class reduces the character's chance of getting hit. It does not 
+reduce the damage taken. AC is raised by wearing protective equipment and by 
+high Speed.
+  Thievery: This determines the chance of success when opening locked doors and 
+chests. Failure usually results in setting off the trap. Failures still occur 
+occasionally even with very high (>150) thievery. Thievery starts at 15 for 
+Robbers and 10 for Ninjas and increments by 1 for each level up. Certain 
+equipment increases Thievery, and it can be boosted to 50-59 in Sandsobar 
+dungeon.
+
+              AC/dmg  HP per  SP per
+Stat Rating:  Bonus:  Level:  Level:
+     0-13        0       3       3
+    14-15        1       4       4
+    16-17        2       5       5
+    18-19        3       6       6
+    20-22        4       7       7
+    23-26        5       8       8
+    27-30        6       9       9
+    31-45        7      10      10
+    46-60        8      11      11
+    61-75        9      12      12
+    76-90       10      13      13
+   91-105       11      14      14
+  106-120       12      15      15
+  121-135       13      16      16
+  136-150       14      17      17
+  151-175       15      18      18
+  176-200       16       3      19
+  201-225       17       3      20
+  226-250       18       3      21
+  251-255       19       3      22
+
+AC/dmg bonus: The damage done by Attack, Fight and Shoot is increased by the 
+amount that corresponds to the character's Might rating. This bonus is added to 
+both the min and max damage. For example, a Holy Cudgel wielded with 50 Might 
+does 9-18 instead of 1-10 damage. Similarly, AC is improved by Speed.
+
+HP per level: This is the number of max HP a sorcerer gains when training at 
+Middlegate with the given Endurance. Use the following table to make 
+adjustments for other classes and training centers:
+ 
+          Middlegate  Sansobar  Tundara   Vulcania  Atlantium   MAX
+ Sorcerer      +0        +1        +1        +2        +3        21
+ Cleric        +1        +2        +2        +3        +5        23
+ Ninja         +1        +2        +2        +3        +5        23
+ Robber        +1        +2        +2        +3        +5        23
+ Paladin       +2        +4        +4        +5        +7        25
+ Archer        +2        +4        +4        +5        +7        25
+ Knight        +3        +5        +5        +6        +9        27
+ Barbarian     +5        +7        +7        +9       +12        30
+
+  Notice how by some oversight the HP per level resets to the minimum if you 
+exceed 175 Endurance. Don't let this happen. If it gets too high, you can reduce
+it with the Intellect trade. (See below.) The MAX corresponds to a character 
+with 151-175 Endurance training at Atlantium.
+
+SP per level: Unlike max HP, max SP is recalculated every time you rest. For 
+Sorcerers and Clerics, the max SP is your level times the number in the table 
+corresponding to Intellect or Personality at the time when you rest. For 
+Archers or Paladins, it is (level-6) times this number. For example, a level 
+10 cleric with 50 Per has 110 SP. A paladin with the same level and Per has 44 
+SP.
+
+  The number of strikes attempted in an Attack, Fight or Shoot command depends 
+on level and a class-dependent parameter:
+
+attacks = level/parameter + 1, rounded down
+
+Parameter   Class
+        4   knight, barbarian, paladin
+        5   archer, robber, ninja
+        7   cleric
+       10   sorcerer
+
+Example: a level 21 knight gets 21/4 + 1 = 6.25 -> 6 chances to hit per attack.
+
+  3. TEMPORARY CHANGES
+  Certain events change stats of the whole party until the next encounter or 
+until resting:
+             Location:   Effect:
+            B1 (11,14)   Set Might to 40
+            D2 (1,12)    Set Might to 200
+            B4 (14,9)    Set Might to random number
+            B2 (8,8)     Set Intellect to 65
+            D1 (13,9)    Set Personality to 65
+            B4 (3,2)     Set Personality to 75
+            A3 (1,13)    +25 Speed
+            D2 (1,7)     Set Speed to 200
+            C2 (1,13)    Set Accuracy to 40
+            A4 (10,10)   Set all stats to 100
+            E2 (11,9)    Set all stats to 200 and Level to 50
+            A1 (2,3)     Set Level to 25
+            C1 (1,11)    Set Spell Level to 9
+            C4 (9,14)    Set HP to 150
+            C2 (14,10)   Set SP 20
+            C1 (1,5)     Set SP to 200
+            D3 (3,14)    Set SP to 200
+Murray's Cavern (0,9)    Set HP to 1 and SP to 200
+Murray's Cavern (5,15)   Set HP to 500
+
+  Potions serve a similar purpose and are more convenient, but costly.
+Item:          Buy at:    Cost:   Effect:   Charges:
+Force Potion   Sandsobar    100   Might +10   3
+Skill Potion   Tundara      500   Level +5    5 
+MaxHP Potion   Atlantium   4000   HP +512     2
+
+  The drinks in the taverns also give temporary bonuses. A character must keep 
+drinking the same drink without leaving the drink menu a number of times before 
+the benefits show. The stats reset if the character gets sick (poisoned) while 
+drinking:
+
+Drink:         Cost:   Effect:
+Orc Beer           5          +5 Might per drink after 2 drinks up to 99 Mgt
+Straight Shot      5      +20 Accuracy per drink after 3 drinks up to 99 Acy
+Id Elixir         20   +10 Personality per drink after 3 drinks up to 99 Per
+Academic Age      20     +10 Intellect per drink after 3 drinks up to 99 Int
+Rare Vintage      50         +3 Levels per drink after 3 drinks up to Lv 49
+Mystic Brew      100    +1 Spell Level per drink after 5 drinks up to SL 8
+
+Example: A level 5 character drinks Rare Vintage 10 times and goes to level 26.
+         5 + (10-3) x 3 = 26
+
+Temporary boosts to Intellect, Personality and Endurance seem to be pointless. 
+These stats are only polled during level-ups, and the values that get checked 
+are the permanent ones.
+
+  4. SECONDARY SKILL BONUSES
+  Each character can have up to two skills from the table below:
+Skill:         Town:              Cost:   Purpose:
+Cartographer   Middlegate (0,15)     10   Add to the automap as you explore
+Mountaineer    Middlegate (3,12)   2000   Pass mountains (need it twice)
+Pathfinder     Middlegate (1,9)    1000   Pass forests (need it twice)
+Crusader       Tundara (2,14)       250   Take quests
+Merchant       Tundara (5,13)      1000   Half buy price, double sell price
+Navigator      Tundara (8,13)       750   Don't get lost in the desert
+Gladiator      Vulcania (3,9)       500   +5 Might
+Intellect      Atlantium (8,4)      500   +5 Intellect; read runes at C3 (0,7)
+Diplomat       Sandsobar (3,4)      500   +5 Personality
+Soldier        Vulcania (0,3)       500   +5 Endurance
+Athlete        Atlantium (6,2)      500   +5 Speed
+Arms Master    Vulcania (15,3)      500   +5 Accuracy
+Gambler        Sandsobar (3,0)      200   +5 Luck
+Hero/Heroine   Atlantium (9,2)     1000   +1 all rolled stats
+Pickpocket     Sandsobar (0,5)      300   +5 Thievery; Ninjas and Robbers only
+               Middlegate (12,10)   100   Remove both skills
+
+  The secondary skills that give stat bonuses don't do anything if the character
+learns it when the stat in question is 50 or up. But removing the skill with 
+Brain Detoxification in Middlegate still deducts from the stats that were 
+supposed to be increased. I recommend not getting those skills except to give an
+early boost to Speed or Endurance. Use the permanent method instead.
+
+  5. PERMANENT BONUSES
+  Character stats can be increased permanently at certain dungeon locations:
+
+         Cavern:           Tile:    +10 to:       Combat required:
+C3(1,6)  Druid's Cavern    (1,15)   Might         none; use Teleport
+A4(13,10)Below Atlantium   (11,15)  Intellect     none; use Teleport
+B1(4,12) Ice Cavern        (7,15)F  Personality   none; run away afterward
+                           (8,15)M
+E1(3,4)  Below Vulcania    (15,14)  Endurance     none; use Teleport
+E3(5,5)  Nomadic Rift      (0,15)   Speed         none; use Teleport
+A2(1,1)  Pinehurst B1      (14,13)  Accuracy      several difficult battles
+D4(3,7)  Dawn's Mist Bog   (12,7)   Luck          battle with Lucky Dogs
+E4(4,10) Below Sansobar    (0,12)   Thievery      none; use teleport;
+                                                  700 gold required
+
+  Your stats can only be improved to 50-59 in this way. For example, if Might 
+is 49 or below, you get +10 Might from eating spinach, but if it's 50 or higher 
+you get nothing. For this reason you should remove stat raising equipment or 
+skills before getting the bonuses. Try to get the Thievery bonus before level 5 
+for Robbers or level 10 for Ninjas, so that they can benefit from it four times.
+This effectively offsets the poor initial thieving ability of the Ninja. 
+  The bonuses do not show up until you've rested or had an encounter. You may 
+recieve more than one bonus without resting or entering combat; the multiple 
+bonuses will just register all at once. However, the ceiling of 50-59 still 
+applies even if the bonus is not shown.
+  The event is spent after you visit the tile. To reset it you need to 
+leave the area and come back. Drop a Lloyd's Beacon when you reach the tile 
+for the first time. Cast Surface, or run away to the exit, then just return to 
+your beacon. Lloyd's Beacon is learned at (7,11) in Corak's Cave, C2(5,11).
+  Another way to do this is to bring the man at D3(7,13) a Cupie Doll, then 
+visit the fountain at E3(10,12). The circus which is open from day 140-170 at 
+B2(14,4) now raises stats by +10. You may repeat the process until you reach 
+50-59. To do this you would have to wait until day 140.
+
+  6. STAT TRADES
+  To raise stats past the 50-59 ceiling, you'll have to trade away other stats:
+
+Dungeon:       Tile:    Trade:            Combat required:
+Hillstone B1   (0,0)    +3 Mgt, -5 Int    none; use Teleport
+Woodhaven B1   (15,0)   +3 Mgt, -5 Per    none; use Teleport
+Hillstone B2   (3,9)    +3 Int, -5 End    none; use Teleport
+Woodhaven B2   (8,6)    +3 Per, -5 Lck    two battles
+Luxus B1       (5,0)    +3 End, -5 Spd    none; use Teleport
+Luxus B2       (15,0)   +3 Spd, -5 Mgt    none; use Teleport
+Pinehurst B1   (2,7)    +3 Acc, -5 Spd    none*
+Pinehurst B2   (4,15)   +3 Lck, -5 Per    none*
+
+*Accuracy trade: Coming from the ground level entrance, Jump N at (1,10) to 
+avoid a battle. To get to the ground level stairs from the stairs to B2, get 
+into a battle then run away.
+*Luck trade: Etherealize W from (6,9) and N from (5,10) to avoid battles.
+
+  These trades are better than they look. Unlike the bonuses, stats can be 
+brought up all the way to 255 this way with enough patience. The procedure 
+to raise Endurance, for example, would be to trade away Speed down to 5-9, 
+return to the Nomad's Cave to replenish Speed, then return to Luxus B1 and 
+repeat. Each round trip (10 trades) would and raise Endurance by 30.
+  If you try to trade when your stat is less than 5, you get nothing but the 
+stat is brought to 0. To avoid mistakes, use Exchange to put the member you 
+want to make the trade at the front of the party. Like the bonuses, the changes 
+aren't shown on the status screen until you've had combat or rested. Unlike the 
+bonuses, you can make the trade any number of times without leaving and 
+returning to the area. Skillful use of Teleport, Lloyd's Beacon, and the portals
+from area B2 will minimize the amount of time and combat required.
+  Take note of what trades require what. Try to first increase the stats that 
+won't be decreased later by other trades. For example, if you want to raise 
+both Speed and Accuracy, do Accuracy first because it requires Speed. If you 
+did Speed first all your hard work would be traded away when you did Accuracy. 
+Some stats must remain below the 50-59 ceiling to serve as the source for other 
+trades.
+  Don't get too greedy. 255 is the absolute max. That includes AC. If you 
+equip an item that would increase your stats past 255, only part of the bonus 
+is applied. When you remove it, your stats will be decreased by the full 
+amount. So if your Speed is 200 and you put on Speed Boots +60, Speed goes up 
+only 55, up to 255. When you remove them, speed goes down by 75, down to 180.
+  Also remember the unusual cap of 175 on Endurance.
+
+  7. CLASS-SPECIFIC ITEMS
+Class:     Item name:    +15 to:      Dungeon:      Tile:    Combat required:
+Knight     Ivory Cameo   might        Pinehurst B1  (11,13)  several
+           Ruby Tiara    accuracy     Pinehurst B2  (2,13)   none*
+Paladin    Agate Grail   personality  Pinehurst B1  (6,6)    several
+           Opal Pendant  might        Pinehurst B2  (14,13)  none*
+Archer     Topaz Shard   accuracy     Luxus B1      (0,15)   none; use Teleport
+           Sun Crown     intellect    Luxus B2      (15,13)  none; use Teleport
+Sorcerer   Amber Skull   intellect    Luxus B1      (0,0)    none; use Teleport
+           Quartz Skull  intellect    Luxus B2      (14,14)  none; use Teleport
+Cleric     Onyx Effigy   personality  Woodhaven B1  (4,4)    none; use Teleport
+           Pearl Choker  personality  Woodhaven B2  (10,4)   lots
+Robber     Sapphire Pin  luck         Woodhaven B1  (7,1)    none; use Teleport
+           Amethyst Box  luck         Woodhaven B2  (4,6)    lots
+Ninja      Crystal Vial  speed        Hillstone B1  (15,4)   none; use Teleport
+           Ruby Amulet   luck         Hillstone B2  (4,0)    none; use Teleport
+Barbarian  Coral Broach  might        Hillstone B1  (1,14)   none; use Teleport
+           Lapis Scarab  might        Hillstone B2  (15,15)  none; use Teleport
+
+  *Ruby Tiara: Etherealize W from (6,9), again from (5,10) and again from 
+(3,11). Do it one more time to get through the barrier.
+  *Opal Pendant: Etherealize E from (8,8), again from (9,9) and again from 
+(12,12). Do it one more time to get through the barrier.
+
+  They will not let you pick up a class-specific item if the class that can 
+use it is in the party. The obvious way to get around this is to leave a 
+Beacon one or two squares away from the item, then come back after dropping 
+the offending member off at the inn. You can leave and Beacon back to get as 
+many as you want. Like any other equipment, these can be enchanted to +63. 
+They cannot be duplicated, however.
+
+  8. LUXUS B2 HP BONUS
+  There is a guy at (0,15) of Luxus B2 who offers to sell a character all the HP
+"you SHOULD have" for 1 million gold. This brings the maximum HP up to where it 
+would be if the character had done all level-up training at Atlantium at his or 
+her current Endurance rating. This negates the non-optimal HP raises derived 
+from leveling at an inferior training center or at a lower Endurance rating.
+  The seller can't help and won't take the money if the max HP is above the 
+point projected by the character's Class, Endurance and Level. Thus, to get 
+maximum benefit from Luxus B2, it's best to buy it after raising Endurance and 
+before getting the castle dungeon and Dragon's Dominion bonuses, especially 
+before the 1000 HP bonus. Likewise, it won't matter if previous level-ups were 
+bought at inferior training centers.
+
+  9. CASTLE DUNGEON HP BONUSES
+Dungeon:      Tile:    Don't bring:  Combat required:
+Pinehurst B1  (14,5)   Humans        several
+Pinehurst B2  (13,1)   Humans        none*
+Luxus B1      (11,14)  Dwarves       none; use Teleport
+Luxus B2      (8,11)   Dwarves       none; use Teleport
+Woodhaven B1  (0,7)    Elves         none; use Teleport
+Woodhaven B2  (12,2)   Elves         lots
+Hillstone B1  (11,1)   Half-orcs     none; use Teleport
+Hillstone B2  (10,7)   Half-orcs     none; use Teleport
+
+*Pinehurst B2: Etherealize E from (8,6), again from (9,6) and again from 
+(12,4). Now Etherealize S from (14,4). Do it one more time to get through 
+the barrier.
+
+  These bonuses increase your max HP by 1-12. Each of them can only be accessed 
+once per moon phase. The moon phases are 60 days long.
+
+  10. DRAGON'S DOMINION D1(12,14) HP BONUSES
+Tile:    HP bonus:  Limit:                   Combat required:
+(0,0)    +10        up to 200 HP             3 Earth Wyrms
+(11,2)   +25        none                     Armored Dragon
+(7,14)   +1000      once per character       Ancient Dragon
+
+  +10 HP: From the starting point, Jump E from (2,8). Move E one step, S one 
+step, then Jump S from (5,7). Move S then W to (4,0). You have to face the 
+Earth Wyrms. After that, walk W through the walls to the fountain. 
+  +25 HP: Jump E from (2,8), then (6,8) and (8,8). Jump S from (10,8). The 
+Armored Dragon is at (7,0).
+  +1000 HP: Jump E from (2,8), then (6,8) and (8,8). Jump N from (10,8) and 
+again from (15,12). The Ancient Dragon as at (15,15). You can try raising your 
+luck at the Greatest Fountain to improve your chances of hiding, or just fight. 
+I am told by false that since all it does is attack a single character, he can 
+be beaten with weak characters if you bring healing items.
+
+  The biggest point of interest is the one-time 1000 HP jackpot. The +25 
+fountain gives HP once per visit and can be used indefinitely, it seems. Lloyd's
+Beacon, Time Distortion, and Surface don't work in this dungeon.
+
+--------------------------------------------------------------------------------
+II. PLAYING THE GAME
+  1. CREATING A PARTY
+  Don't worry about rolling 21s for your characters. Just roll reasonable 
+numbers, because all stats can be raised. Speed and Endurance are most 
+important for weak characters. The six default characters are adequate if you 
+don't want to create your own.
+  You may wish to have a party of six characters and two hirelings that has one 
+representative from each class, or to take multiple characters of the same 
+class. But getting treasure will be difficult without a Robber or Ninja. The 
+spellcasting ability of at least one Cleric or Paladin and at least one Sorcerer
+or Archer will help with getting around and fighting certain enemies. 
+  Name can be changed from the View Char menu. 
+  Race is permanent. It has a trivial effect on stats, and specific races are 
+barred from getting benefits from each castle dungeon. Thus, a racially uniform 
+party will be somewhat better able to deal with this problem.
+  Sex is permanent but can be changed (for the whole party) in two places. The 
+Personality boost in the Ice Cavern is sex specific, so a non-unisex party will 
+have to make twice as many trips to exploit it.
+  Alignment is permanent but changeable like sex. However, alignment can be 
+easily restored to its original state at a temple or with the Cleric spell. 
+Alignment determines whether a character can equip an item with +5 or higher 
+enchantment and may also determine whether the character can hit and damage 
+certain enemies.
+
+  2. FAST MONEY AND EQUIPMENT
+The guardian pegasus Meenu is at B1(9,9). Tell him his name for 100,000 gold.
+Path to avoid blizzards: (8,3) > (8,8) > (7,8) > (7,10) > (9,10) > (9,9)
+No skills or magic are required, so a new party can do this.
+
+Buy the Merchant skill in Tundara(5,13) for 1000 gold and give it to whoever is 
+at the front of the party. With this done, you can buy items, use them 
+partially, and sell them back for the same price. (Plus you'll make double the 
+money selling treasure.) Buy a Witch's Broom in Tundara and a Teleport Orb in 
+Atlantium to start using these Fly and Teleport without a high level Sorcerer. 
+These spells will help get treasure quickly.
+
+B2(5,13) has a free Ice Sickle +2.
+
+Teleport to (15,9) at Tundara and get the Emerald Ring. Run away at the (15,8) 
+encounter to escape without being thrown in jail.
+
+Gemmaker's Volcano A4(4,7) has no encounters and lots of Fire-type equipment. 
+Make sure you have the Levitation spell to avoid the lava, either from a 
+Sorcerer or a temple blessing. Get 500 gems at (6,10).
+
+Ice Cavern B1(4,12) has another 500 gem pile at (0,15). Using Teleport to 
+avoid battles, search to find good treasure at (5,12) (6,15) (9,12) (14,15) 
+(3,3) (10,3) and (12,0).
+
+Dragon's Dominion D1(12,14) has four guarded but valuable treasure caches.
+  (3,6): Broad Sword +5, Great Bow +5, Flamberge +5
+  (3,10): Great Shield +5, Helm +5, Plate Mail +5
+  (13,6): Titan's Pike +7, Photon Blade +7, Ancient Bow +7
+  (13,10): Gold Shield +7, G Plate Mail +7, Gold Helm +7
+
+  3. CHOOSING EQUIPMENT
+  Weapons: For fighting characters, go for maximum damage weapons. The stat 
+boosts are not as important. However, there is something to be said for using 
+a one-handed weapons over Titan's Pikes, because they allow you to equip the 
+Magic Shield.
+  ulillillia reports that some weapons give a better hit rate than others for 
+some classes. He says that the Titan's Pike is good for archers and bad for 
+barbarians, while the opposite is true for the Grand Axe.
+  Beware of elemental weapons such as the Flaming Sword. Some enemies are weak 
+to certain elementals, but many are immune to them. Elemental weapons are 
+troublesome when fighting strong monsters.
+
+  Missile weapons: It's not necessary to equip both a strong melee and strong 
+missile weapon. If one of them is much stronger, it can be used in combat while 
+the other can be used to raise some exotic stat.
+
+  Armor: Try for gold equipment. Bronze gives Fear resistance, Iron gives 
+Sleep resistance, and Silver gives Energy resistance, all pretty much 
+worthless. Whatever Luck does, it's probably more helpful than those effects. 
+When it comes down to Gold or highly enchanted non-Gold, keep the Gold because 
+you can enchant it eventually.
+
+  Resistances: Fear, Sleep, Energy, Acid, Fire, Electricity, and Cold are all 
+worthless. These attacks are used against you rarely enough that it's not 
+worth wasting equipment slots on them. Magic resistance is good however, and 
+sometimes magic resistance encompasses the others, for example if the enemy 
+casts Fireball.
+
+  4. EXPERIENCE TRICKS
+  A nice quest for beginning parties is the Mark's Keys quest. Go to A2 (2,9) 
+and answer KEYS. Then bring them to C1 (1,1) for 10,000 xp. Don't go there 
+unless you have the keys or a character will die.
+
+  Try the quests for Hoardall, Slayer, and Haart. (You may remove an unwanted 
+quest at Hillstone(13,2) or Woodhaven(13,2). Don't waste your time with quests 
+lower than lord rank.)
+
+  Lord's Quest of Hoardall at Woodhaven(9,11) in C1(3,14): reward 100,000 xp
+Sword of Valor at A2 (11,2) guarded by 6 Mountain Men
+Sword of Honor at D4 (14,11) guarded by 6 Guardians
+Sword of Nobility D1 (0,8) guarded by 4 Priests
+
+  Lord's Quest of Slayer at Hillstone(5,2) in D4(13,1): reward 1,000,000 xp
+Dragon Lord at D1(10,12)
+Queen Beetle at E2(11,6)
+Serpent King at E3(5,6)
+
+  Quest of Haart at B1(5,5): reward 250,000 xp, 50,000 gold, 500 gems
+Phaser at A1(11,2) in year 600 guarded by Spaz Twit and 6 White Knights
+Loincloth at E2(4,5) in year 700 guarded by Long One and 30 Crazed Natives
+
+  There is a coin slot in Hillstone B1 (11,5) that gives 1 exp per gold. 
+Downstairs in B2 (9,15), a magical pit gives 3 exp per gold. These methods 
+require gold and don't work for hirelings since they can't hold gold.
+
+  The epicurean quest requires eating all three meals at all five taverns for 
+each character who will get the bonus. It's best to do all the meals at once to 
+avoid missing any. Then visit A3(7,7) to get 100,000 xp. This doesn't work for 
+hirelings because they can't order at taverns.
+
+   A fast method is to fight the Cuisinarts at B2(1,9). If your Speed is
+approaching 200, your levels are reasonable and your weapons are highly 
+enchanted you should be able to drop all three Cuisinarts before they can 
+move, leaving 60 million xp, or 7.5 mil to each member of a party of eight. The 
+treasure is good too.
+  The Greatest Fountain at E2 (11,9) can solve the level and Speed problems, but
+you will need to provide your own weapons. It's not feasible for low level 
+parties to kill them but it's still possible to beat them. Give each character 
+Magic Herbs and make them heal each other when the Cuisinarts frenzy. Some 
+members may still be alive once the Cuisinarts have killed themselves.
+
+  5. ALIGNMENT AND SEX CHANGES
+Dungeon:      Tile:    Party becomes:  Combat required:
+Pinehurst B2  (5,1)    Good            none*
+Woodhaven B2  (7,8)    Neutral         one large battle
+Luxus B2      (5,11)   Evil            none; use Teleport
+Hillstone B2  (0,8)    Male            none; use Teleport
+Luxus B2      (4,8)    Female          none; use Teleport
+
+  *Good alignment change: Etherealize S from (6,6) and again from (6,3)
+
+  Very often you will want to equip an item but have an alignment conflict. 
+Use the alignment-changing locations above to correct this. You can easily get 
+realigned at a temple or with the cleric spell.
+  The only reason to use the sex change is to make the whole party the same sex,
+in order to expedite the Personality-boosting process in the Ice cave. Sex 
+changes are permanent. To reverse them, bring the characters to the opposite 
+fountain.
+  The alignment and sex changes affect all characters present in the party.
+
+  6. ENCHANTING ITEMS
+  Ultimately you will want to complement your stats with the appropriate 
+equipment. All items can be enchanted to +63 with the level 9 sorcerer spell 
+Enchant Item, available in the Gemmaker's Volcano. If you want to start 
+enchanting before you have a level 17 sorcerer, rescue Mr. Wizard at D3(1,14).
+  The enchantment increases whatever bonus the item gives, so that +20 Speed 
+Boots give +35 speed. Magical armor or weapons that are enchanted get a bonus 
+both to AC/damage as well as the magical feature, so a +20 Titan's Pike does 
+1-40 +20 damage (i.e., 21-61 damage) and raises Might by +35. Most items 
+become alignment-specific (to a random alignment) once they reach +5 or higher.
+  The spell costs 50 SP plus one per plus of the item. So enchanting a +50 
+item takes 100 SP. If you want to replenish your SP without resting, use the 
+fountain at C1(1,5). Get gems quickly at the Ice Cavern or the Gemmaker's 
+Volcano by using a Beacon.
+  There is a chance that Enchant Item curses the item. You get no notification 
+until you try to equip the item. The character becomes cursed and the item 
+cannot be equipped. The level 9 cleric spell Uncurse Item doesn't work. So 
+make a backup save before trying to enchant something.
+
+  7. CASTLE DUNGEON PORTALS
+                       Stairs  Stairs  Teleport/  Area B2         Dungeon
+Castle:   Location:      up:    down:  Etherlze:   warp:           warp:
+Hillstone D4(13,1) 1F         (10,13)     Yes  
+                   B1  (8,15)   (5,1)     Yes  (4,3)->(11,13)  (15,15)->W(0,14)
+                   B2  (0,12)             Yes                  (7,10)->W(7,15)
+Woodhaven C1(3,14) 1F          (11,9)     Yes  
+                   B1  (0,15) (13,13)     Yes   (4,1)->(0,14)  (1,9)->P(0,15)
+                   B2  (7,15)           No, No                 (8,4)->P(7,7)
+Pinehurst A2(1,1)  1F          (11,2)     Yes
+                   B1  (0,15)   (1,2)   No, No  (6,3)->(1,2)   (12,8)->L(11,9)
+                   B2   (7,7)           No,Yes                 (8,6)->L(10,2)
+Luxus     E1(3,4)  1F           (0,0)     Yes  
+                   B1  (11,9)  (13,5)   No, No  (6,1)->(9,8)   (15,0)->H(8,15)
+                   B2  (10,2)             Yes                  (11,1)->H(0,12)
+
+  The table gives all the information pertaining to travel into and within the 
+castle system. Most of the important places for stat-massaging are located in 
+the castle dungeons. You will be spending a lot of time down there if you want 
+to raise them really high. 
+  The Teleport/Etherealize column tells whether these important spells are 
+allowed on each floor. Without these you will have to fight to get anywhere. 
+Both floors of all the dungeons have links to other dungeons, indicated by the 
+Dungeon Warp column.
+
+--------------------------------------------------------------------------------
+III. ULILLILLIA'S MAX-OUT METHOD
+  ulillillia has sent me an elaborate procedure to obtain maxed out levels and 
+HP that relies on a glitch that allows you to Train endlessly if you have a 
+specific amount of experience points. I have formatted it and added some 
+clarifications but not tested it entirely.
+
+0. This method is intended for low level parties but requires getting some money
+and gems beforehand and not resting once begun. Resting will cause HP and levels
+enhanced by potions to return to normal. Otherwise the effect is essentially 
+permanent.
+
+1. Use Max HP Potions from the Atlantium blacksmith to bring everyone's HP to at
+least 5000. Items found in chests also work and tend to have more charges. Going
+up to 55,000 to 60,000 max HP is better, but too much and you risk variable 
+overflow after enough leveling up, especially on barbarians and knights.
+
+2. Use Skill Potions from the Vulcania blacksmith to bring paladins and 
+especially clerics to close to level 200, but don't go over.
+
+3. Go to the 200 SP fountain at C1(1,5). Two pathfinders can cut through the 
+forest and avoid a battle with ghouls at (2,6). Alternatively, eat the Soup de 
+Ghoul at the Middlegate tavern to make them leave you alone.
+
+4. Cast Power Cure with the clerics and paladins to fill up everyone's HP. Each 
+cast will restore about 1000 HP and use one gem. Use the fountain to replenish 
+SP as necessary: simply turn away then back south. Repeat until the party's HP 
+is full as shown in the View Char menu. This way, a low level party can have 
+tens of thousands of HP. Save the game.
+
+5. Go to A1(13,3) (the tile in front of Tundara) and head north to (13,10), then
+head west through the mountains, which requires two mountaineers. You will 
+encounter two Air Elementals at (6,10). Defeating them is easy with a party with
+50K HP, even at level 1. They give 90K exp total, plus treasure. Backtrack 
+across the mountains, stepping at least one tile into region B1, then return to 
+fight the elementals again. This way you can get exp early, quickly, and easily.
+
+6. Train at Atlantium and save.
+
+7. Continue farming exp and treasure from the Air Elementals. Repeat steps 3 and
+4 to replenish HP should it go below about 1000. Train at least until a sorcerer
+gains access to level 9 spells at level 17.
+
+8. Save. Activate Levitation, either by spell or temple blessing. Head to 
+Gemmaker Volcano to obtain Enchant Item. Etherealize north at (3,2) to reach it.
+Party members will age 10 years when getting this spell.
+
+9. Collect the 500 gem cache at (6,10) while at the volcano. Exit and reenter to
+obtain more. At least 15K gems will be needed for enchantments, meaning up to 30
+repetitions. Roughly 6000 more are needed for each additional item, especially 
+the speed boosts found in the ice cavern.
+
+10. Buy a Defense Ring from Atlantium and a weapon that all classes can equip 
+from the blacksmiths. These do not have the annoying alignment restrictions. 
+Items found in treasures with an enchantment of +4 or less also work. The 
+Invisocloak is better than the Defense Ring if you have it. The dagger may not 
+seem powerful, but when fully enchanted, this weak weapon is pretty much about 
+as strong as any other.
+
+11. Use the fountain at C1(1,5) as a source of spell points and enchant the 
+defense item and weapon to +63 with the sorcerer. Repeat for each item to be 
+enchanted. Get more gems from Gemmaker Volcano if necessary.
+
+12. Duplicate the Defense Ring or Invisocloak and distribute them to other 
+characters. Always save before a duplication attempt and reset and reload if it 
+fails. Duplicate the weapon for everyone. Do the same for the Speed Boots if you
+have them.
+
+13. Enter the Dragon's Dominion at D1(12,14) head east, fighting through the 
+Wyverns, Earth Wyrms and Cloud Dragons. They should be easy with the enchanted 
+weapons and speed/AC boosts. There is an Ancient Dragon at (15,8) which gives 20
+million total exp and a fixed cache of 10 million gold and 1000 gems. Fight the 
+second Ancient Dragon at (7,14) and get the treasure. Exit the cave and reenter,
+and repeat until HP drops below about 1500.
+
+14. Train at Atlantium. Save and repeat step 13. With maxed-out Speed Boots, the
+Ancient Dragon can be defeated before it gets to strike, making things easier. 
+That's about 40.5 million total exp, 20 million gold, and 2000 gems each cycle.
+
+15. Once a character's exp and the total accumulated gold gets to about 4.6 
+billion, save. Reaching this from 0 exp and 0 gold takes about 172 total cycles,
+which takes as little as 2 hours.
+
+16. Train as needed and save. Write down exactly how much exp the characters 
+need upon reaching level 255. Make sure you have this much gold before 
+continuing, and avoid combat at this point to prevent exp from rising.
+
+17. Go to Castle Hillstone at D4(13,1) and teleport to the dungeon entrance at 
+(10,13) to avoid encounters. In the dungeon, teleport to the secret room with 
+the coin slot at (11,5).
+
+18. For one character, distribute gold so that the amount of gold carried is 
+equal to the required exp that was reported at the training center. If some exp 
+was gained since that time you will need to deduct that amount from the gold 
+carried.
+
+19. Have that character, and only that character, trade gold for exp. Town 
+Portal to Atlantium and visit the training center. The Train option should be 
+available. Training will cause HP gain as usual, but unlike before it's possible
+to Train without end. Save and rest to remove the effects of the Max HP Potions,
+which are no longer needed. Train the character until max HP is at or below 
+65,535. This will cost 150 to 300 million gold (depending on endurance and 
+character class) and about 20 to 25 minutes, much less with a turbo controller. 
+With that kind of HP, HP bonuses are detrimental due to variable overflow. 
+Endurance also becomes a worthless stat, so trade it off.
+
+20. Steps 13 through 19 can be repeated for other characters, including new 
+ones. This won't work with hirelings because they can't use the coin slot.
+
+--------------------------------------------------------------------------------
+IV. CHEATS AND GLITCHES
+  The following are curiosities specific to the Genesis version. They were not 
+intended by the game developers and may be considered cheating.
+
+  1. FREE ITEMS, GOLD AND GEMS
+Choose "View Char" and at the "View which?" prompt, press C while holding A. A 
+nameless character with invalid stats will be displayed. You can take his stuff 
+by using the Trade command. Press left to view more characters. The set of 
+characters available depends on the last enemy or NPC sprite to be displayed.
+
+  2. FREE TREASURE
+Choose a party of six characters and two hirelings and dismiss one of the 
+hirelings. Without moving, search to find a trapped chest. It will contain 
+84 million gold, 34 thousand gems and a Small Club. This can be repeated by 
+bringing the hireling back.
+
+  3. REST TO TELEPORT
+In any dungeon where Teleport is forbidden, simply Rest to re-enable the spell. 
+This can be used to zip around otherwise dangerous areas. This also unlocks 
+other forbidden spells, such as Lloyd's Beacon in Dragon's Dominion.
+
+  4. FRENZY
+  Cast the Frenzy spell on any character in combat. With this done, the enemies 
+will lose all magic resistance and spells that never work, like instant kill 
+spells, will now work even on the strongest enemies.
+  This makes it possible to open up with Frenzy, revive the fallen character, 
+and then nail the enemies with your killer spells all before they get a chance 
+to move. Remember that Frenzy affects the character one slot above the 
+designated target, and be sure to deal with the Endurance penalty.
+
+--------------------------------------------------------------------------------
+MY PARTY
+  This is to demonstrate what kind of party you can make with enchantments and 
+stat-boosting. All equipment is +62 or +63, and the party is so strong that 
+visiting the Greatest Fountain makes them weaker. The names will be familiar if 
+you've played the D&D arcade games.
+
+Base stats for all characters:
+Mgt 130-140
+Int 55-59 (120-129 for spellcasters)
+Per 55-59 (120-129 for spellcasters)
+End 160-169
+Spd 124-129
+Acy 134-139
+Luc 55-59 (124-129 for thieves)
+
+Equipment-modified stats:
+Mgt 200+ except sorcerer, archer, and ninja
+Int 200+ for spellcasters
+Per 200+ for spellcasters
+End 160-169
+Spd 200+
+Acy 200+ except sorcerer
+Luc 200+ for thieves
+
+ Crassus M/Good/Human/Knight+
+Photon Blade (Might)
+G Plate Mail (AC, Luck)
+Silver Shield (AC, Energy)
+Ruby Tiara (Accuracy)
+Speed Boots (Speed)
+Magic Charm (Magic)
+
+ Dimsdale M/Neutral/Dwarf/Barbarian+
+Swift Axe (Speed)
+Gold Shield (AC, Luck)
+S Scale Mail (AC, Energy)
+Lapis Scarab (Might)
+Acy Gauntlet (Accuracy)
+Magic Charm (Magic)
+
+ Lucia F/Good/Elf/Archer+
+Magic Sword  (Magic)
+Ancient Bow (Accuracy)
+G Chain Mail (AC, Luck)
+Elven Cloak (AC)
+Sun Crown (Intellect)
+Speed Boots (Speed)
+
+ Greldon M/Good/Human/Cleric+
+Holy Cudgel (Personality)
+G Splintmail (AC, Luck)
+Magic Shield (AC, Magic)
+Acy Gauntlet (Accuracy)
+Mgt Gauntlet (Might)
+Speed Boots (Speed)
+
+ Moriah F/Neutral/Human/Robber+
+Force Sword (Might)
+Magic Shield (AC, Magic)
+G Chain Mail (AC, Luck)
+Acy Gauntlet (Accuracy)
+Speed Boots (Speed)
+Stealth Cape (Thievery)
+
+ Syous M/Neutral/Human/Sorcerer+
+Wizard Staff (Intellect)
+Magic Charm (Magic)
+Emerald Ring (AC)
+Invisocloak (AC)
+Speed Boots (Speed)
+Ruby Ankh (Luck)
+
+ Sherman M/Good/Human/Paladin+ (hireling)
+Thunder Sword (Might)
+Ancient Bow (Accuracy)
+G Plate Mail (AC, Luck)
+Magic Shield (AC, Magic)
+Agate Grail (Personality)
+Speed Boots (Speed)
+
+ Nakazawa M/Good/Human/Ninja+ (hireling)
+Sun Naginata (AC)
+G Ring Mail (AC, Luck)
+Crystal Vial (Speed)
+Acy Gauntlet (Accuracy)
+Castle Key (Thievery)
+Magic Charm (Magic)
+
+All characters have:
+- one item that boosts speed, luck, and magic resistance, and two that boost AC
+- one item that boosts accuracy (except the sorcerer)
+- one item that boosts might (except the archer, ninja, sorcerer)
+- one item that boosts thievery, for the thief classes
+
+Other points:
+- The sorcerer doesn't wear the stupid Padded Armor
+- The knight, barbarian, archer, paladin and ninja use one class-specific item
+- The knight and barbarian also get energy resistance
+- The most reused item is the Speed Boots (6 times)
+
+--------------------------------------------------------------------------------
+CLOSING
+
+  Credits:
+* CrazyLaz for the Frenzy trick 
+* radjenef for the free treasure and rest to teleport tricks
+* Andrew Schultz for info on the HP seller in Luxus B2 in his guide
+    http://tinyurl.com/6chmsdo
+* false for telling me about beating the Ancient Dragon at low level
+* ulillillia for his exp/money method and other contributions
+    http://www.youtube.com/user/ulillillia
+
+Watch the tool-assisted speedrun I made for this game at:
+    http://tasvideos.org/2015S.html
+
+  This document is my own work. Any questions, comments, corrections or 
+complaints should be addressed to the address below, with clear indication in 
+the subject line that the email is concerning this FAQ. 
+
+dammit9x at hotmail dot com

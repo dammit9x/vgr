@@ -1,0 +1,618 @@
+Nekketsu! Street Basket: Ganbare Dunk Heroes (J)
+Translation and FAQ/Guide
+November 17, 2007 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2007
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. Game summary
+ 1a. Introduction
+ 1b. Game modes
+ 1c. Menu options
+2. Controls
+ 2a. Movement
+ 2b. Without the ball
+ 2c. While holding the ball
+ 2d. Weapons
+ 2e. Team attacks
+3. Characters
+ 3a. Stats
+ 3b. Attacks and special moves
+4. Computer ally command sets
+5. Venues
+6. Equipment
+ 6a. Awards
+ 6b. Effects
+
+--------------------------------------------------------------------------------
+
+1. Game summary
+ 1a. Introduction
+  "Nekketsu! Street Basket: Ganbare Dunk Heroes" is a 4-player basketball game 
+released by Technos Japan in 1993, making it one of the last NES games licensed 
+by Nintendo. It is part of the Nekketsu (Hot-blooded High-school) series 
+starring Kunio and Riki (Alex and Ryan of River City Ransom fame). Like most 
+Technos games it never made it out of Japan. As you might expect from a Nekketsu
+game, it features as much brawling as B-balling.
+  The game was ROM-translated by a group called ICE, but only the intro and 
+ending scenes and some other parts were done, and the work is unpolished. The 
+ICE translation will be disregarded for this work. Using this guide, you should 
+be able to get the full game experience, except for the intro and ending scenes.
+
+ 1b. Game modes
+Story Mode
+  This mode is for one player plus a CPU partner or 2-player cooperative. The 
+Nekketsu team must defeat the seven American teams twice, alternating between 
+away and home games. The home court is at Niagara Falls. After each victory, you
+recieve a gift of game-improving equipment from the vanquished team and a new 
+password to continue at that point later.
+  Each game has two three-minute halves. Before each half, you may choose which 
+two players to put in the game, review your players's special moves, and assign 
+equipment. If you are teamed with a computer player, you may also arrange what 
+commands each button will give.
+
+Battle Mode (Taisen Mode)
+  This mode is a 2-on-2 pickup game with up to 4 human players participating. 
+In a 2-player game, the players may play on the same or opposite teams. Choose 
+any two teams and any venue from the eight available. There are no passwords or
+equipment.
+
+ 1c. Menu options
+  This diagram is intended to help players who can't read the menu text.
+
+Main menu
+ |_Top: Story Mode
+ |  |_Button B: Cancel
+ |  |_Select 1P-2P
+ |     |_Go to map screen
+ |
+ |       Map screen (access before each game)
+ |        |_View current password at lower right of screen
+ |        |_Select away venue (odd games) or opponent for home game (even games)
+ |           |_Go to team menu
+ |
+ |       Team menu (access before each game half)
+ |        |_Upper left: Change active members
+ |        |  |_Choose two characters with D-pad and button A
+ |        |     |_Left: Cancel changes
+ |        |     |_Right: confirm changes
+ |        |_Lower left: View character attacks and special shots
+ |        |  |_D-pad: View different characters
+ |        |  |_A, B, or start: Exit
+ |        |_Upper right or start button: Finish selection
+ |        |  |_Assign CPU commands for each button (1-player only)
+ |        |     |_D-pad: View different sets of commands
+ |        |     |_A or start: Choose current set and commence game
+ |        |_Lower right: Equipment menu
+ |           |_Upper left: Equip items on current player
+ |           |  |_D-pad: Select available items
+ |           |  |_A or start: Equip or swap selected item
+ |           |  |_Button B: Finish equipping
+ |           |_Lower left: Remove items from current player
+ |           |  |_D-pad: Select item slot
+ |           |  |_A or start: Remove item from selected slot
+ |           |  |_Button B: Finish removing
+ |           |_Upper right: Finish equipment menu
+ |           |_Lower right: Select a different player
+ |
+ |_Middle: Battle Mode
+ |  |_Button B: Cancel
+ |  |_Select 1-4 players
+ |     |_Select team for each player
+ |        |_Select venue at map screen
+ |           |_Team menu (for each human-controlled team)
+ |              |_Upper left: Change active members
+ |              |  |_Choose two characters with D-pad and button A
+ |              |     |_Left: Cancel changes
+ |              |     |_Right: confirm changes
+ |              |_Lower left: View character attacks and special shots
+ |              |  |_D-pad: View different characters
+ |              |  |_A, B, or start: Exit
+ |              |_Upper right or start button: Finish selection
+ |                 |_Assign CPU commands for each button (for CPU allies only)
+ |                    |_D-pad: View different sets of commands
+ |                    |_A or start: Choose current set and commence game
+ |
+ |_Bottom: Password
+    |_Button B: Return to main menu
+    |_U and D: Change digits
+    |_R and L: Select digits
+    |_Button A at end of line: Submit password
+--------------------------------------------------------------------------------
+
+2. Controls
+
+ 2a. Movement
+A+B             Jump
+D-pad           Walk (8 directions)
+  A+B           Jump in direction pressed
+    A+B         Double jump (may choose a different direction)
+L,L or R,R      Dash (run) left or right
+  A+B           Dashing jump
+    A+B         Double jump (may choose a different direction)
+  U or D        Move upwards or downwards while dashing
+  U,U or D,D    Jink up or down and continue dashing
+    R or L      Dash in opposite direction after jinking
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+ 2b. Without the ball
+A               Punch attack            -\
+B               Kick attack              |
+Dash + A        Dashing punch attack     |
+Dash + B        Dashing kick attack      }-- details in section 3b.
+Jump + A        Jumping punch attack     |
+Jump + B        Jumping kick attack      |
+Crouch + A      Crouching punch attack   |
+Crouch + B      Crouching kick attack   -/
+A or B          Pick up a weapon, fallen basket, or stationary ball
+Hold A or B     Issue command A or B to CPU ally (details in section 4)
+
+Crouching: When the character lands from a jump or air attack, or gets up after 
+being knocked down, he kneels momentarily. Press A or B during this time to do a
+crouching move.
+
+Getting the ball: If the ball is in motion, just touching it will catch it. 
+Unless it's being super shot.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+ 2c. While holding the ball
+A               Pass to teammate
+Hold B          Prepare to shoot; delay shot
+Release B       Shoot in the direction faced
+(see below)     Dunk
+(see below)     Super shot (details in section 3b.)
+
+Scoring:
+  Bottom baskets   3 points
+  Middle baskets   3 points
+  Top baskets      4 points
+
+How to dunk, method A:
+  While crouching in front of the basket, press B. By pressing up + B the player
+will go for the top basket. You may hold up and/or B before crouching to make it
+easier. Dunk method A sometimes misses, and it does not work against your own 
+baskets.
+  
+How to dunk, method B:
+  Get very close to a basket and press B. You may hold B while approaching the 
+basket to make it easier. There are two ways to get close to the basket: 
+jumping, and getting launched by a teammate or background feature.
+
+How to throw a super shot from the ground:
+  To do a super shot, start dashing toward the basket and shoot the ball after 
+running for a certain amount of time, about half a second to a full second of 
+dashing. The button may be held to delay the shot, if desired. Dashing too short
+or too far results in a high shot or regular shot instead.
+
+            Dashing time           | Effect
+    Frames    Seconds     Steps    | 
+     33-56   0.55-0.94   3.0-4.5   | Super shot
+     57-93   0.95-1.53   4.5-7.5   | High shot
+     ----------other------------   | Regular shot
+
+How to throw a super shot from a jump:
+  While facing the basket, but not too close, shoot the ball at after starting a
+jump or double jump, releasing the button after a certain amount of time. Button
+B must be held for about 1/4 second and then released within a 1/15 second 
+window.
+  A high shot or regular shot is thrown instead if the player is too close to 
+the basket, or if the button is held too short or long. However, if the button 
+is held very long (requiring a very high jump), another chance to super shot 
+comes at about 2/3 second.
+
+    Button B hold time  | Effect
+    Frames    Seconds   | 
+       <12       <0.20  | Regular shot
+     12-16   0.20-0.27  | Super shot
+     17-25   0.28-0.42  | High shot
+     26-37   0.43-0.62  | Regular shot
+     38-42   0.63-0.70  | Super shot
+     43-51   0.71-0.85  | High shot
+     52+     0.86+      | Regular shot
+
+High shots vs. regular shots:
+  A high shot goes for the basket on the highest backboard. A regular shot goes 
+for the closest basket, which is usually the lowest one.
+
+How to throw a high super shot:
+  This depends on the type of super shot being thrown. Some have to be thrown a 
+certain distance from the basket to go high, and some never go high.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+ 2d. Weapons
+Rock            Throw it or hit it around
+Wooden box      Throw it, hit it around, or jump on top to use as a platform
+Ladder          Throw it, hit it around, or jump on top to use as a platform
+                Plug up an opponent's basket by shooting a ladder into it
+Trash can       Throw it at an opponent to restrict his arms
+                Jump 5 times (or get hit) to get it off
+Skateboard      Throw it or jump on it to ride
+Basket          Attach it to the opponent's backboard
+
+While holding a weapon:
+A               Throw the weapon in the direction faced
+B               Set down the weapon (doesn't work while airborne)
+L or R + B      "Shoot" the weapon directly at a backboard
+Dash + B        Special weapon attack (details in section 3b.)
+
+While on skateboard:
+A+B             Jump off
+L,L or R,R      Dash left or right
+  R or L        Braking attack
+  U,U or D,D    180 turn attack, continue dashing
+  A or B        Spinning attack (only if not holding the ball)
+  A+B           Jump attack
+    A+B         Double jump attack
+The ball can be catched, passed and shot normally while riding, but dunks and 
+super shots do not work.
+
+Getting a basket: If a basket is touched enough times it falls right off the 
+backboard. Dunks and attempted dunks make it more prone to falling than 
+shooting. A fallen basket can be picked up and shot to reattach it to the same 
+or a different backboard. It is possible stick up to two baskets on a 
+backboard. Gaining or losing a basket has a big impact on scoring, so try to 
+maintain control of them.
+
+While holding a basket:
+A               Throw the basket in the direction faced (does no damage)
+B               "Shoot" the basket directly at a backboard
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+ 2e. Team attacks
+  If a player jumps on top of his teammate, the lower player will carry the 
+upper one around. Either player may be holding the ball or a weapon, and the 
+controls will be as usual, though the upper player will be unable to move 
+without jumping off first. If the lower player is empty-handed, he can throw 
+the upper one in two ways.
+
+While carrying teammate and with no ball or weapon:
+A       Throw the teammate straight up
+B       Launch the teammate at basket in the direction faced
+
+Getting launched: When launched, a player goes straight for the nearest basket. 
+By holding up while getting launched, the player goes for the top basket. This 
+is similar to dunk method A, but the player may still jump and double jump, and 
+it can be done anywhere. There are also background features in some venues that 
+launch the player in a random direction. (details in section 5.)
+
+Team damage: Most attacks pass through your teammate harmlessly, but super shots
+and weapon attacks are indiscriminate.
+--------------------------------------------------------------------------------
+
+3. Characters
+  The teams are presented in clockwise order as shown on the map screen. For 
+each team, the players are presented in the following order: 
+upper left, lower left, upper right, lower right
+
+ 3a. Stats
+  Stats are shown in this order on the character select screen:
+Stamina: determines how fast a player recovers from stun and knockdown
+  Power: determines how easily the player can stun and knock down other players
+  Speed: determines the player's walking and dashing speed
+   Jump: determines the height of the player's jump and double jump
+  Shoot: determines the accuracy of long-range, non-super shots
+
+                       Stamina  Power   Speed   Jump    Shoot
+     Nekketsu   Kunio     5       4       6       4       7
+                Riki      5       6       6       4       4
+                Godai     4       7       6       2       2
+                Johnny    4       3       6       3       1
+
+     New York   Michael   5       4       7       7       3
+                Eddie     6       4       3       6       2
+                Ceraly    8       1       6       6       2
+                Rude      2       1       8       7       1
+
+    U.S. Navy   Ash       7       5       5       6       8
+                Wolf      4       3       7       2       2
+                Tribe     7       4       1       4       7
+                Breck     6       3       3       3       3
+
+      Florida   Pierre    5       8       4       3       6
+                Hoffman   2       6       4       2       5
+                Esper     3       7       1       3       4
+                Grease    7       7       2       1       6
+
+        Texas   Snipe     8       3       6       4       7
+                Hawk      7       7       7       2       2
+                Jagger    2       3       8       5       8
+                Jimmy     1       4       8       1       8
+
+       Hawaii   Kilaue    4       7       5       7       7
+                Head      3       3       4       6       6
+                Waiiki    6       5       8       4       2
+                Bone      2       1       7       3       8
+
+San Francisco   Mick      5       8       3       4       7
+                Sean      4       6       2       5       4
+                Rick      2       4       1       2       8
+                Ryan      8       1       5       1       8
+
+    Las Vegas   Slot      3       2       6       7       8
+                Rook      4       1       5       4       1
+                Poker     1       4       4       5       5
+                Gammon    2       2       6       1       7
+
+ 3b. Attacks and special moves
+  I have translated the moves for each character below. Given that I don't know 
+Japanese, there may be mistakes. The weapon special is not listed in the player 
+profiles; I made up the names for these.
+
+   Nekketsu     Kunio           Riki            Godai           Johnny
+ Standing A     Punch           Mach punch      Slapstick       Headbutt
+ Standing B     Mach kick       Kick            Kick            Kick
+  Dashing A     Punch           Mach punch      Slapstick       J-throw
+  Dashing B     Mach kick       Kick            Kick            Kick
+  Jumping A     Punch           Self torpedo    Slap screw      Headbutt
+  Jumping B     Cyclone kick    Kick            Kick            Cyclone kick
+Crouching A     Punch           Tornado         Uppercut        Bomb punch
+Crouching B     Bomb kick       Kick            Bomb kick       Kick
+ Super shot     Nut shot        Upper shot      Vacuum shot     Fireball shot
+Weapon spc.     Cyclone swing   Cyclone swing   none            none
+
+   New York     Michael         Eddie           Ceraly          Rude
+ Standing A     Spikeball SP    Spikeball       Bubblegum bomb  Punch
+ Standing B     Leg sweep       Kick            Kick            Cossack kicks
+  Dashing A     Spikeball       Spikeball SP    Bubblegum SP    NY spin
+  Dashing B     Leg sweep       NY dance        NY kick         Cossack kicks
+  Jumping A     Giant spin      Punch           Giant spin      Punch
+  Jumping B     Kick            Screw           Kick            Screw
+Crouching A     Punch           NY kick         Punch           NY kick
+Crouching B     NY dance        Kick            NY dance        Kick
+ Super shot     Slime shot      Slime shot      Slime shot      Slime shot
+Weapon spc.     Cyclone swing   none            none            none
+
+  U.S. Navy     Ash             Wolf            Tribe           Breck
+ Standing A     Punch           Elbow strike    US throw        US laser
+ Standing B     Sliding kick    Kick            Sliding kick    Kick
+  Dashing A     Elbow strike    Belly slide     Elbow strike    Belly slide
+  Dashing B     Sliding kick    Kick            Kick            Sliding kick
+  Jumping A     Flying fish SP  Punch           Punch           Flying fish SP
+  Jumping B     Kick            Flying kick     Kick            Flying kick
+Crouching A     Afterburner     Afterburner     US laser        Punch
+Crouching B     Flying kick     Kibari          Flying kick     Kibari
+ Super shot     Rocket shot     Rocket shot     Rocket shot     Rocket shot
+Weapon spc.     Cyclone swing   none            none            none
+
+    Florida     Pierre          Hoffman         Esper           Grease
+ Standing A     Stretch punch   Punch           Bald flash      Punch
+ Standing B     Kick            Barrier         Kick            Tearful kick
+  Dashing A     Chi edge        Cyclone hands   Cyclone hand    Chi edge
+  Dashing B     Tearful spin    Barrier         Tearful spin    Kick
+  Jumping A     Cyclone hands   Cyclone hands   Bald flash      Cyclone hands
+  Jumping B     Tearful spin    Tearful spin    Tearful spin    Tearful kick
+Crouching A     Psycho throw    Punch           Esper special   Punch
+Crouching B     Moonsault       Teleport        Kick            Teleport
+ Super shot     Warp shot       Warp shot       Warp shot       Warp shot
+Weapon spc.     Telekinesis     none            none            none
+
+      Texas     Snipe           Hawk            Jagger          Jimmy
+ Standing A     Whip            Lariat          Whip            Punch
+ Standing B     Horse kick      Frankensteiner  W kick          Horse kick
+  Dashing A     Lariat          Lariat          Lariat          Lariat
+  Dashing B     Horse kick      W kick          Frankensteiner  Horse kick
+  Jumping A     Whip screw      Elbow           Whip screw      Elbow
+  Jumping B     Press attack    Kick            Press attack    Kick
+Crouching A     Cactushead      Punch           Punch           Cactushead
+Crouching B     Kick            W kick          Press attack    Kick
+ Super shot     Axel shot       Axel shot       Axel shot       Axel shot
+Weapon spc.     none            none            none            none
+
+     Hawaii     Kilaue          Head            Waiiki          Bone
+ Standing A     Flame blast     Table-flipper   Flame punch     Slaps
+ Standing B     Rainbow kick    Kick            Heat kick       Rainbow kick
+  Dashing A     Heat tackle     Slaps           Heat tackle     Slaps
+  Dashing B     Rainbow kick    Heat kick       Heat kick       Rainbow kick
+  Jumping A     Cyclone flame   Punch           Cyclone flame   Slaps
+  Jumping B     Meteo-ball      Kick            Heat kick       Meteo-ball
+Crouching A     Flame blast     Flame punch     Flame punch     Flame blast
+Crouching B     Kick            Meteo-upper     Hawaii SP       Kick
+ Super shot     Giant shot      Giant shot      Giant shot      Giant shot
+Weapon spc.     none            none            none            none
+
+San Francisco   Mick            Sean            Rick            Ryan
+ Standing A     Eye gouge       Backfists       Headbutt        Cool uppercut
+ Standing B     Hip attack      Kick            Kick            Hip attack
+  Dashing A     Eye gouge       Elbow           Elbow           Headbutt
+  Dashing B     Chest slide     Knee kick       Chest slide     Knee kick 
+  Jumping A     Eye gouge       Backfists       Headbutt        Backfists
+  Jumping B     Body press      Knee kick       Body press      Knee kick 
+Crouching A     Ascension       Punch           Punch           Ascension
+Crouching B     Kick            Knee kick       Body press      Kick
+ Super shot     10-ton shot     10-ton shot     10-ton shot     10-ton shot
+Weapon spc.     none            none            none            none
+
+  Las Vegas     Slot            Rook            Poker           Gammon
+ Standing A     Pigeon poke     Bouquet punch   Pigeon helper   Bouquet punch
+ Standing B     Pigeon kick     Threat kick     Pigeon sweep    Pigeon hairpiece
+  Dashing A     Pigeon poke     Pigeon dance    Pigeon dance    Pigeon poke
+  Dashing B     Pigeon sweep    Threat kick     Threat kick     Pigeon sweep
+  Jumping A     Pigeon poke     Stick thrust    Pigeon poke     Bouquet punch
+  Jumping B     Pigeon ghost    Stick hopping   Stick hopping   Pigeon ghost
+Crouching A     Pigeon upper    Spin attack     Punch           Punch
+Crouching B     Pigeon attack   Kick            Bomb launch     Threat kick 
+ Super shot     Firecracker s.  Firecracker s.  Firecracker s.  Firecracker s.
+Weapon spc.     none            none            none            none
+--------------------------------------------------------------------------------
+
+4. Computer ally command sets
+  If teamed with the computer, you can command your ally to perform certain 
+actions by pressing and holding button A or B for 10 frames (1/6 second). When 
+this is done, the command given appears under the players's names.
+  After leaving the team menu, you must select a command set. The are five sets,
+identified below by ASCII representations of the "1p" and "C" symbols on the 
+court diagram. Each set has four commands, two for when the ally has the ball, 
+and two for when he is empty-handed. Choosing a set has another effect, as the 
+ally tends to stick to the C position marked on the diagram.
+     ____________
+    /       C    |   With ball, A: Pass
+   /            _|              B: Shoot
+  /#           (_|
+ /          1p   |     No ball, A: Do a normal attack
+|________________|              B: Do any attack
+
+     ____________
+    /            |   With ball, A: Pass
+   / C          _|              B: Shoot
+  /# 1p        (_|
+ /               |     No ball, A: Do a normal attack
+|________________|              B: Do a jump attack
+
+     ____________
+    /            |   With ball, A: Do a high shot
+   /         1p _|              B: Shoot
+  /#         C (_|
+ /               |     No ball, A: Do a normal attack
+|________________|              B: Do a jump attack
+
+     ____________
+    /            |   With ball, A: Pass
+   /            _|              B: Shoot
+  /#    1p  C  (_|
+ /               |     No ball, A: Do a normal attack
+|________________|              B: Get the ball
+
+     ____________
+    /            |   With ball, A: Pass
+   /     1p     _|              B: Dunk
+  /#     C     (_|
+ /               |     No ball, A: Do a normal attack
+|________________|              B: Get a weapon
+--------------------------------------------------------------------------------
+
+5. Venues
+  Here is a list of special features found in each court. The weapons in 
+parentheses are available on the left and right side, respectively.
+
+Niagara Falls/Nekketsu home court (trashcan, ladder)
+-Jump on the back fence
+
+New York (skateboard, ladder)
+-Enter either underground passage to exit out the other one
+-Jump on the underground passage roofs
+
+U.S. Navy (random)
+-Conveyor brings two random weapons at a time
+-Conveyor affect weapons but not the ball or players
+-Conveyor switches directions whenever a basket is made
+
+Florida (rock, wooden box)
+-Jump on the back wall
+-Climb the two fences by jumping or holding up
+
+Texas (rock, wooden box)
+-Run into the horse's butt to get launched left or right randomly
+-Jump on the horse's back
+-Run into the horse's head to get knocked over
+
+Hawaii (skateboard, ladder)
+-Jump on the umbrellas to get launched left or right randomly
+-Run into the tables to get knocked over
+-Climb the HAWAII sign by jumping or pressing up
+
+San Francisco (skateboard, rock)
+-Jump on the hood/trunk of the blue car to get launched left or right randomly
+-Jump on the cars
+-Run into the cars to get knocked over
+
+Las Vegas (skateboard, rock)
+-Make a basket to stop the slots and get special scoring effects:
+  Triple cherry    Basket value +1
+  Triple star      Basket value x3
+  Triple 7         Basket value x5
+  Triple bomb      Basket value x(-2)
+--------------------------------------------------------------------------------
+
+6. Equipment
+  Defeat a team in Story mode and Kunio is awarded with a random gift of 
+equipment. Thus, the team will gather 13 pieces of equipment before winning the 
+tournament. The team's pool of equipment, as well as their prior wins, are 
+stored in the password given between games.
+  There are 32 different items in the game, each falling into one of three 
+categories. From top to bottom in the equipment menu, they are jersey, shorts, 
+and shoes. Each player can wear no more than one of each type at a time. As with
+the character move names, I have translated the item names below to the best of 
+my ability (i.e., inexpertly).
+  The randomness of the item gifts makes it hard to keep track of them if you 
+can't read the Japanese script. As a remedy, I have listed each item by its 
+identifying memory value in the "ID" column. You can use a debugger or memory 
+watcher to read the contents of the addresses below as an alternative means to 
+identify your items.
+
+Address         Contents
+0x00d3-00e2     un-equipped items
+0x06e4-06e6     Kunio's equipped items
+0x06e7-06e9     Riki's equipped items
+0x06ea-06ec     Godai's equipped items
+0x06ed-06ef     Johnny's equipped items
+
+ID    Equipment         Effect
+00    Sparkly jersey    +3 Shoot
+01    Rocket jersey     Dashing super shot becomes Rocket shot
+02    Blues jersey      Shoot for the top basket by default
+03    Armored jersey    +1 Stamina, -1 Speed
+04    Level 2 jersey    Shoot for the middle basket by default
+05    Sunny jersey      Dashing super shot becomes Giant shot
+06    Shiny jersey      Dashing super shot becomes Slime shot
+07    Dunker's jersey   Super shot becomes random, sometimes
+08    Feather jersey    +3 Jump
+09    Phantom jersey    max all stats
+
+0a    Sparkly shorts    +2 Shoot
+0b    Rocket shorts     ?
+0c    Utility shorts    +1 Shoot
+0d    Feather shorts    +3 Jump
+0e    Mach shorts       ?
+0f    T-back shorts     Dunk method A goes up to second basket by default
+10    Blues shorts      +2 Shoot
+11    Wrinkly shorts    max Stamina, -1 Power
+12    Ogre shorts       max Power
+13    Dyed shorts       +1 Speed
+14    Phantom shorts    max Speed
+
+15    Sparkly shoes     ?
+16    Rocket shoes      max Speed
+17    Air shoes         low-gravity jumps (high and slow)
+18    Blues shoes       ?
+19    Techno shoes      max Stamina, -1 Power, -1 Speed, -1 Jump, -1 Shoot
+1a    One-legged clogs  Keep jumping even after double jump
+1b    Jackpot shoes     all baskets give additional 2 points
+1c    Feather shoes     max Jump
+1d    Top clogs         max Speed
+1e    Dancing shoes     Initiate dunk method A from anywhere on the court
+1f    Phantom shoes     max all stats
+
+ff    blank/no item
+--------------------------------------------------------------------------------
+
+  This document is my own work. Credit goes to Richard Hoelscher's website, 
+which helped to get me started. You can also find a password generator there:
+http://www.rahga.com/nsb/
+
+  If you've played the game and used the FAQ, feel free to drop me a line and 
+tell me what you think. I still do not know what four of the items do; let me 
+know if you figure them out.
+
+  If you are interested in other Kunio/Nekketsu games, check out a comprehensive
+listing at:
+http://hg101.classicgaming.gamespy.com/kunio/kunio.htm
+
+  Other Kunio/Nekketsu games for which I have written guides at gamefaqs:
+Crash 'n the Boys: Street Challenge
+Downtown Special: Kunio-kun no Jidaigeki Dayo Zenin Shuugou!
+Nekketsu Kakutou Densetsu
+
+  Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com

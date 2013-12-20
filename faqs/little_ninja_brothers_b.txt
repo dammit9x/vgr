@@ -1,0 +1,644 @@
+Little Ninja Brothers (USA)
+FAQ/Walkthrough
+September 13, 2008 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2008
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+[1] GAMEPLAY
+ [1a] WALKABOUT MODE
+ [1b] REALTIME BATTLES
+ [1c] TURNBASED BATTLES
+ [1d] MINIGAMES
+[2] WALKTHROUGH
+[3] EXPERIENCE LEVEL TABLE
+[4] TOWN SHOP TABLE
+[5] EQUIPMENT AND ITEM TABLE
+[6] BATTLE DAMAGE TABLE
+ [6a] SURGER DAMAGE TABLE
+[7] ENEMY TABLE
+ [7a] REALTIME BATTLES
+ [7b] TURNBASED BATTLES
+[8] MEMORY TABLE
+--------------------------------------------------------------------------------
+
+  Little Ninja Brothers is an RPG spinoff of an arcade game called Chinese Hero.
+The arcade game had an NES port called Super Chinese, or Kung-Fu Heroes, which 
+has similar gameplay to the realtime battles of this game. The series is 
+distinctive for its Chinese fantasy theme and whimsical character design, 
+soundtrack and storytelling. There are several other RPG and fighting game 
+titles in the series, most of which did not recieve English-language release.
+  More info on the original: http://www.mameworld.net/maws/romset/chinhero
+
+[1] GAMEPLAY
+ [1a] WALKABOUT MODE
+  This mode is for adventuring between areas and interacting with characters. 
+When walking around, some areas have no random encounters, some areas have 
+realtime battles, and a few have turnbased battles.
+  D-pad controls the characters. Button A brings up the menu. TALK starts a 
+conversation with the NPC in front of the character. CALL is used two times in 
+the story to bypass obstacles. SUB SCREEN brings up another menu where you can 
+use items in the ITEM submenu or view various info under STATUS, EQUIP, 
+TREASURE and PASSWORD. 
+
+ [1b] REALTIME BATTLES
+  These are initiated as random encounters or as a series of battles leading up 
+to a boss fight. Enemies attack three and sometimes four at a time. Other 
+enemies appear to replace those that are defeated or wander off. The battle ends
+when a certain number of enemies, or the boss, have been defeated. For series 
+battles, bring the characters to the exit door at the top of the screen to move 
+on to the next.
+  D-pad controls the characters. Button A attacks with PUNCH or SWORD. By 
+default, PUNCH is equipped. If the character uses a T-STARS or SURGER item, this
+attack also throws out a shuriken or surger attack. Button B while holding the 
+D-pad does a flip kick: land on an enemy to attack it. The character can be 
+steered with the D-pad while kicking. Button B without holding the D-pad does a 
+straight up jump. During the jump, press the D-pad to do a dragon kick, which 
+requires one "K" unit. The dragon kick has longer range and can damage some 
+enemies that a regular kick can't.
+  The START button or A and B together brings up a menu. Exit the menu with the 
+B button. Go to EQUIPMENT to switch between PUNCH and SWORD weapons. If you have
+six "M" units, MIGHTY BALL is also on the list. Use support items from the ITEM 
+menu. If at least one shuriken type and one shuriken unit is available, T-STARS 
+and SURGER also appear on the list. The name of the SURGER depends on the 
+available shuriken types. (See [6a])
+  Selecting MIGHTY BALL brings the "M" count to zero and causes a light colored 
+"M" in a dark oval to appear on the playfield. Hit it to make the character 
+invincible for a limited time. Non-boss enemies can be killed by touching them 
+during this period. If the COMBINED CROSS attack has been acquired, touching the
+other character allows the team to cover a bigger area and glide over obstacles.
+(In a one-player game, the other character appears just for this purpose.)
+  Most playfield have blocks lying around. Hitting these blocks can have various
+random effects: The block may break, go flying off in the direction of the hit, 
+or spawn a "?" ball. A flying block instantly kills weaker enemies. Punching a 
+"?" ball reveals either an "M" (MIGHTY BALL) symbol or a skull. Three out of 16 
+"?" balls are skulls: if 0x429 is 04, 09 or 0E, the next will be a skull.
+  Most playfields also have hidden treasure chests. Hit the right place to 
+reveal the chest, then hit to chest to get the contents. The locations and 
+contents of the chests depend on the field. They are not random. The following 
+table shows the possible contents and their effects. The ID is an identifier 
+which is different for each item. (See [8])
+
++----------+----+-----------------------------+--------------------------------+
+| Item     | ID | Contents                    | Effect                         |
++----------+----+-----------------------------+--------------------------------+
+| "?" ball | 02 | "M" ball                    | Add 1 to "M" stock             |
+|          | 06 | Skull                       | Set "M" stock to zero          |
++----------+----+-----------------------------+--------------------------------+
+| Treasure | 16 | Dark skateboard, vertical   | Gain one SK-BOARD item         |
+| chest    | 08 | Dark bomb with lit fuse     | Gain one BOO BOMB item         |
+|          | 10 | Dark "K" on light rectangle | Add 5 dragon kicks to stock    |
+|          | 20 | Dark shuriken on light oval | Add 1 T-STAR to stock          |
+|          | 0C | Light shuriken on dark oval | Instant-use T-STAR, SINGLE type|
+|          | 1C | Light heart                 | Instant full heal              |
++----------+----+-----------------------------+--------------------------------+
+
+ [1c] TURNBASED BATTLES
+  Some bosses and random encounters are fought this way. Enter commands for the 
+next turn from the menu. Most attacks against the player hit, and most attacks 
+against the enemy miss, but the SURGER, the SK-BOARD and healing items never 
+fail. GUARD seems to have no effect, and RUN attempts to escape the battle.
+  If the enemy is shaking from a BOO BOMB or FIXER, it cannot attack or dodge 
+the players's attacks. If the enemy is blue from a MIGHTY BALL, it takes three 
+times normal damage. The stun and MIGHTY BALL effects wear off randomly.
+  Use CALL to summon the other character in a one-player game. He randomly uses 
+PUNCH or KICK, but he will mimic a DRAGON KICK or SWORD attack from the player.
+
+ [1d] MINIGAMES
+  The minigames pit the two characters to race to a finish line, sometimes with 
+other objectives as well. In a one-player game, the other character is 
+controlled by the computer. The games can also be accessed at the main game 
+menu, as FIELD MEETING, and crop up at a few points in the story. They are all 
+optional, but most have good rewards. 
+  Mash the A button while holding the D-pad to run. However, it's easier to move
+with kicks or dragon kicks, which are performed in the usual way. Press button A
+without the D-pad to punch. In shooting games, this also throws a shuriken. Some
+of the fields have water traps and rolling logs to avoid.
+
+[2] WALKTHROUGH                                         +----------------------+
+  This walkthrough is bare bones. A map is recommended. | !  a required event  |
+                                                        | $  an optional event |
+! Begin game, get red BELL                              +----------------------+
+$ Go to HYNEN, play the balloon popping game
+$ Visit Wise Stallion, play shooting game, get SINGLE T-STARs
+! Enter DELI-CHOUS, visit palace, exit through secret door
+$ Visit Mouchee Mouse, get AMULET-II
+! Return to DELI-CHOUS, fight battle series, defeat TUB-A-TUMMY, get orange BELL
+$ Go to the southeastern Yoma Chateau, fight battle series, get the HAWK SWORD
+$ Visit the hole south of Water Lily Palace, get MIRROR SHIELD
+! Pass through Water Lily Palace, defeat EVIL QUEEN, get ANTIDOTE
+! Use ANTIDOTE in CILLY CITY pond, get yellow BELL from mayor
+$ Go to the eastern Yoma Chateau, fight battle series, get the POP
+$ Visit OKAY, trade the POP for TALISMAN-gamma
+! Go to YOKAN, pass through the northern area, go into the sewers
+$ Talk to the animals, run the obstacle race, get COMBINED CROSS and TIGER SWORD
+! Fight the battle series, defeat BLU BOLTAR, get green BELL
+$ Visit Rogee Rabbit
+$ Visit central Yoma Chateau, fight battle series, get CANDLE
+$ Go to SHORIN, trade an IRON CLAW for the GOLDEN CLAW at the pond
+$$$ Tip: do this early in the game
+! In northern SHORIN, defeat the 6 scholars, get AMULET-III
+! Get blue BELL from the shrine in southern SHORIN
+! Pass through the cave to the CHATZY desert
+$ Visit CHATZY
+! Pass through the cave to the land of snow
+$ Go to the Yoma Chateau, fight the battle series, get the DRAGSTAR
+! Go to Leila's house, defeat WIL THE WIZ, get EAGLE SWORD
+! Return to CHATZY desert, go to Fire Castle, CALL Leila
+! Pass through Fire Castle, defeat DEVILLIAN, get violet BELL
+$ Go to LING-RANG, play the treasure game at the fist club, get the PRISM CLAW
+! In LING-RANG, go underground, get magenta bell from Mistress Banko
+! Pass through Shin-Shin tower east of YOKAN, talk to Ms. Oinker
+! Cross the rainbow bridge, get PRISM SWORD and MIND from Tenjin
+! In LING-RANG, give MIND to Moo-man, get PIECE OF THE SUN
+! Go to the red door underground, CALL Moo-man to open it
+! Pass through the cave to Mt.Cone-Rum
+! Pass through Mt.Cone-Rum, defeat KING GULP
+
+[3] EXPERIENCE LEVEL TABLE
+  Gain experience (EX) by winning realtime or turnbased battles. If enough EX is
+earned, the characters level up at the end of the battle. Experience level 
+determines the MAX LIFE and ATTACK power of the characters. (ATTACK is equal to 
+LEVEL.)
+  The EX reward is determined by the enemy group, but the level of the group is 
+irrelevant. The actual enemies defeated don't affect the EX reward, except for 
+Uni-Gon. (Each Uni-Gon, either the strong or weak type, gives an additional 20 
+points.) Killing enemies with the sword incurs a penalty to the EX reward if the
+enemies can be hit by punches.
+  The EX required to reach the next level is given on the following table, and 
+can be checked at convenience stores or the game over menu.
+
++-------------------------+-------------------------+-------------------------+
+|       MAX    EX needed  |       MAX    EX needed  |       MAX    EX needed  |
+|LEVEL LIFE  Next  Total  |LEVEL LIFE  Next  Total  |LEVEL LIFE  Next  Total  |
++-------------------------+-------------------------+-------------------------+
+|  1    10      0      0  | 21   108    600   7700  | 41   227   2500  43850  |
+|  2    14     15     15  | 22   112    600   8300  | 42   230   2500  46350  |
+|  3    17     65     80  | 23   115    750   9050  | 43   235   2500  48850  |
+|  4    19    130    210  | 24   118    900   9950  | 44   239   2500  51350  |
+|  5    30    180    390  | 25   148    900  10850  | 45   242   2500  53850  |
+|  6    35    200    590  | 26   155   1000  11850  | 46   245   2500  56350  |
+|  7    38    250    840  | 27   158   1000  12850  | 47   248   2500  58850  |
+|  8    40    300   1140  | 28   180   1300  14150  | 48   250   2500  61350  |
+|  9    42    360   1500  | 29   186   1600  15750  | 49   253   2500  63850  |
+| 10    44    400   1900  | 30   190   1900  17650  | 50   255   1685  65535  |
+| 11    47    400   2300  | 31   195   2100  19750  |                         |
+| 12    60    400   2700  | 32   199   2200  21950  |                         |
+| 13    65    400   3100  | 33   202   2300  24250  |                         |
+| 14    68    400   3500  | 34   204   2400  26650  |                         |
+| 15    70    500   4000  | 35   207   2400  29050  |                         |
+| 16    74    550   4550  | 36   211   2400  31450  |                         |
+| 17    76    600   5150  | 37   215   2400  33850  |                         |
+| 18    92    650   5800  | 38   218   2500  36350  |                         |
+| 19   100    700   6500  | 39   220   2500  38850  |                         |
+| 20   105    600   7100  | 40   224   2500  41350  |                         |
++-------------------------+-------------------------+-------------------------+
+
+[4] TOWN SHOP TABLE
++------------+------------+-----------------------+-----------------------+
+| Town       | Hotel      | Tool shop             | Weapon shop           |
++------------+------------+-----------------------+-----------------------+
+| HYNEN      | Rest    10 | SWEET BUN          10 | SCALE SHIELD       50 |
+|            |            | SK-BOARD           20 | WHITE ROBE         20 |
+|            |            | TALISMAN-alpha     20 | IRON CLAW          30 |
+|            |            | AMULET-I           15 | CRUSH PUNCH        80 |
++------------+------------+-----------------------+-----------------------+
+| DELI-CHOUS | Rest    15 | SWEET BUN          10 | SCALE SHIELD       50 |
+|            |            | WHIRLY BIRD        15 | WHITE ROBE         20 |
+|            |            | TALISMAN-beta      85 | CRUSH PUNCH        80 |
+|            |            | MATCH              70 | T-STAR-VOLLEY     200 |
++------------+------------+-----------------------+-----------------------+
+| CILLY CITY | Rest    15 | SWEET BUN          10 |                       |
+|            |            | SK-BOARD           20 |                       |
+|            |            | TALISMAN-beta      85 |                       |
+|            |            | MEGA PUNCH        120 |                       |
++------------+------------+-----------------------+-----------------------+
+| OKAY       | Rest    20 | SWEET BUN          10 | BLACK ROBE         50 |
+|            |            | SK-BOARD           20 | MEGA PUNCH        120 |
+|            |            | MEAT BUN          100 | FIRE PUNCH        500 |
+|            |            | MATCH              70 | T-STAR-VOLLEY     200 |
++------------+------------+-----------------------+-----------------------+
+| YOKAN      | Rest    30 | SWEET BUN          10 | BLACK ROBE         50 |
+| south      |            | SK-BOARD           20 | FIRE PUNCH        500 |
+|            |            | WHIRLY BIRD        15 | T-STAR-VOLLEY     200 |
+|            |            | MATCH              70 | T-STAR-BOOMERANG  800 |
++------------+------------+-----------------------+-----------------------+
+| YOKAN      |                                    | SCALE SHIELD       50 |
+| north      |                                    | WHITE ROBE         20 |
+|            |                                    | IRON CLAW          30 |
+|            |                                    | CRUSH PUNCH        80 |
++------------+------------+-----------------------+-----------------------+
+| SHORIN     | Rest    30 | SWEET BUN          10 | LEE'S ROBE        100 |
+|            |            | WHIRLY BIRD        15 | IRON CLAW          30 |
+|            |            | MEDICINE          100 | T-STAR-VOLLEY     200 |
+|            |            | TALISMAN-sigma    580 | T-STAR-BOOMERANG  800 |
++------------+------------+-----------------------+-----------------------+
+| CHATZY     | Rest    40 | SWEET BUN          10 | FIRE SHIELD       250 |
+|            |            | BATTERY           500 | LEE'S ROBE        100 |
+|            |            | WHIRLY BIRD        15 | T-STAR-BOOMERANG  800 |
+|            |            | TORCH            1050 | T-STAR-FIXER     1000 |
++------------+------------+-----------------------+-----------------------+
+| LING-RANG  | Rest    50 |                       |                       |
+| upper      |            |                       |                       |
++------------+------------+-----------------------+-----------------------+
+| LING-RANG  | Rest    70 | SWEET BUN          10 | PRISM SHIELD     4000 |
+| mei-tong   |            | WHIRLY BIRD        15 | SACRED ROBE      1000 |
+| district   |            | TALISMAN-omega   1200 | T-STAR-BOOMERANG  200 |
+|            |            | AMULET-IV        1700 | T-STAR-FIXER      800 |
++------------+------------+-----------------------+-----------------------+
+  Notice that BOOMERANG and FIXER are available at lower prices in LING-RANG.
+Also, the FIRE SHIELD can be sold for more than its buy price.
+
+[5] EQUIPMENT AND ITEM TABLE
+  The following table shows all the equipment and items in the game. The entries
+that are not found during normal gameplay are marked with a * symbol.
+  The buy value is the amount of SEN needed to get the item, and the sell value 
+is the amount of SEN you get back on a trade-in. They are --- if the item can't 
+be bought or traded in.
+  In all cases, the benefits of lesser equipment also applies to better 
+equipment. For example, a FIRE SHIELD gives the protection of the MIRROR SHIELD.
+
++--------------------+----------+----------------------------------------------+
+| Equipment/Item     | Buy Sell | Note                                         |
++--------------------+----------+----------------------------------------------+
+| 0x439 PUNCH        |          | Raise punch damage; needed for some enemies  |
+| 01 IRON CLAW       |  30   10 | + 2 dmg Blue/pink box men; Parasols          |
+| 02 CRUSH PUNCH     |  80   25 | + 3 dmg Shuriken traps                       |
+| 03 MEGA PUNCH      | 120   55 | + 8 dmg Blue/green/pink bull men; Cat wizards|
+| 04 FIRE PUNCH      | 500  250 | +10 dmg Salmon bull men; Archers; Buddha trap|
+| 05 BLUNT PUNCH*    | ---  --- | + 0 dmg                                      |
+| 06 GOLDEN CLAW     | ---  --- | +12 dmg Yetis                                |
+| 07 LEE'S PUNCH*    | ---  --- | +50 dmg                                      |
+| 08 PRISM CLAW      | ---  --- | +14 dmg Frogs                                |
++--------------------+----------+----------------------------------------------+
+| 0x43B SWORD        |          | Needed to damage certain enemies             |
+| 01 HAWK SWORD*     | ---   50 |                                              |
+| 02 HAWK SWORD      | ---  200 | Green/purple dragons; Shuriken/Buddha traps  |
+| 03 TIGER SWORD     | ---  --- |                                              |
+| 04 EAGLE SWORD     | ---  --- | Devillian                                    |
+| 05 PRISM SWORD     | ---  --- | Bull men; Archers; Gold dragons              |
++--------------------+----------+----------------------------------------------+
+| 0x43C SHIELD       |          | Deflect some shots if they hit from the front|
+| 01 SCALE SHIELD    |  50   10 | Purple hopper shots                          |
+| 02 MIRROR SHIELD   | --- 1000 | Cat wizard, Desert hopper shots; Lightning   |
+| 03 FIRE SHIELD     | 250  300 | Flame hopper, Blue genie shots               |
+| 04 PRISM SHIELD    |4000  700 | Pink box man, Gargoyle, Red genie shots      |
++--------------------+----------+----------------------------------------------+
+| 0x43D ROBE         |          | Half damage from some projectiles            |
+| 01 WHITE ROBE      |  20    5 |                                              |
+| 02 BLACK ROBE      |  50   20 | Hick, Hitman, Winoman, Gargoyle, Four-arms   |
+| 03 LEE'S ROBE      | 100   90 | Horned men, Cat men, Sabertooth men, Bull men|
+| 04 SACRED ROBE     |1000  600 | Gold dragon                                  |
++--------------------+----------+----------------------------------------------+
+| 0x43E TALISMAN     |          | Slows down certain enemies or their shots    |
+| 01 TALISMAN-alpha  |  20    5 |                                              |
+| 02 TALISMAN-beta   |  85   15 |                                              |
+| 03 ???*            | ---  --- | Weak Uni-Gon                                 |
+| 04 TALISMAN-gamma  | ---   40 | Gargoyle shots, Ogre summoner                |
+| 05 TALISMAN-sigma  | 580  100 | Purple dragon                                |
+| 06 TALISMAN-omega  |1200  250 | Gold dragon and strong Uni-Gon               |
+| 07 ???*            | ---  --- |                                              |
++--------------------+----------+----------------------------------------------+
+| 0x43F AMULET       |          | Shorter petrification and sweetbun curse time|
+| 01 AMULET-I        |  15    5 |                                              |
+| 02 AMULET-II       | ---   50 | Catmage petrification; Tub-a-Tummy sweetbun  |
+| 03 ???*            | ---  --- |                                              |
+| 04 ???*            | ---  --- | Blue genie curse sweetbun                    |
+| 05 AMULET-III      | ---  300 |                                              |
+| 06 AMULET-IV       |1700  900 | Red genie curse sweetbun                     |
++--------------------+----------+----------------------------------------------+
+| 0x444 LIGHT        |          | See in dark areas; reveal the pink box enemy |
+| 01 MATCH           |  70   15 |                                              |
+| 02 CANDLE          | ---   50 | Pink box men; Cave to Chatzy, Fire Castle,   |
+|                    |          | Shin-Shin tower, Cave to Mt.Cone-Rum         |
+| 03 TORCH           |1050  200 | Cave to Land of Snow                         |
+| 04 PIECE OF THE SUN| ---  --- |                                              |
++--------------------+----------+----------------------------------------------+
+| 0x445 T-STAR       |          | Enable shuriken and SURGER attacks           |
+| +01 SINGLE         | ---      | Regular shuriken; SHOCK WAVE                 |
+| +02 VOLLEY         | 200      | Fast shuriken; HEAT WAVE                     |
+| +04 BOOMERANG      | 800      | Returning shuriken; ZEPHYR WAVE              |
+| +08 FIXER          |1000      | Stuns target; FIRE WAVE                      |
++--------------------+----------+----------------------------------------------+
+| 0x446+01 MIND      |          | Needed to access cave to Mt. Cone-Rum        |
+| 0x446+02 ANTIDOTE  |          | Needed to cure Cilly City                    |
+| 0x457+02 POP       |          | Needed to get TALISMAN-gamma                 |
++--------------------+----------+----------------------------------------------+
+| 0x447 BELL         |          | Needed to reach the final dungeon            |
+| +01 BELL OF PRISM  |          | Red: get from Mentor                         |
+| +02 BELL OF PRISM  |          | Orange: get from Deli-chous (Tub-a-Tummy)    |
+| +04 BELL OF PRISM  |          | Yellow: get from Cilly City (Evil Queen)     |
+| +08 BELL OF PRISM  |          | Green: get from Yokan (Blu Boltar)           |
+| +10 BELL OF PRISM  |          | Blue: get from Shorin (Six scholars)         |
+| +20 BELL OF PRISM  |          | Violet: get from Fire castle (Devillian)     |
+| +40 BELL OF PRISM  |          | Magenta: get from Mistress Banko             |
++--------------------+----------+----------------------------------------------+
+| 0x449 BATTERY      | 500      | Consumed while using the DRAGSTAR            |
+| 0x44A WHIRLY BIRD  |  15      | Return to any visited town except LING-RANG  |
+| 0x44B MEDICINE     | 100      | Revive from KO (2-player, out of battle only)|
+| 0x44C SWEET BUN    |  10      | Restores 40 LIFE to both characters          |
+| 0x44D MEAT BUN     | 100      | Restores full LIFE to both characters        |
+| 0x44E DRAGSTAR     | ---      | Travel outdoors without random encounters    |
+| 0x44F SK-BOARD     |  20      | Escape from realtime or turnbased battles    |
+| 0x450 BOO BOMB     | ---      | Stun enemies in realtime or turnbased battles|
++--------------------+----------+----------------------------------------------+
+
+  The hex address for each item type is where the value for the specific item is
+entered. For example, to equip a BLACK ROBE, set 0x43D to 02. To get VOLLEY and 
+FIXER, set 0x445 to 0A.
+  Not all functions of SHIELDs, ROBEs, TALISMANs, AMULETs and LIGHTs are known.
+
+[6] BATTLE DAMAGE TABLE
+  The table below shows the damage done to the enemy by various attacks. Damage 
+depends mostly on the ATTACK stat, which is equal to experience level, and the 
+damage bonus from the PUNCH equipment, listed in the item table.
+
++----------------+------------------------+------------------------+
+| Technique      | Realtime battles       | Turnbased battles      |
++----------------+------------------------+------------------------+
+| PUNCH          | PUNCH + ATTACK         | PUNCH + ATTACK         |
+| KICK           | ATTACK                 | ATTACK                 |
+| DRAGON KICK    | ATTACK                 | ATTACK x2              |
+| SWORD          | ATTACK                 | PUNCH + ATTACK         |
+| T-STARS        | ATTACK                 | ATTACK                 |
+| T-STARS: FIXER | stun target            | stun target            |
+| SURGER         | damage all (see [6a])  | damage all (see [6a])  |
+| BOO BOMB       | stun all               | stun all               |
+| MIGHTY BALL    | death or nothing       | triple damage          |
+| COMBINED       | death or nothing       | ATTACK x3 on all       |
+| Flying block   | death or nothing       | N/A                    |
++----------------+------------------------+------------------------+
+
+ [6a] SURGER DAMAGE TABLE
+  T-STARS and SURGER require a shuriken item to use. In realtime battles, they 
+give special power for a limited time and can be used repeatedly. In turnbased 
+battles, they are consumed in the next turn. The SURGER available depends on the
+highest level shuriken type available.
+
++-----------+-------------+----------+----------+
+| T-STARS   | SURGER      | Realtime | Turnbased|
++-----------+-------------+----------+----------+
+| none      | unavailable |          |          |
+| SINGLE    | SHOCK WAVE  |     1    |   1- 4   |
+| VOLLEY    | HEAT WAVE   |     2    |   2- 8   |
+| BOOMERANG | ZEPHYR WAVE |     3    |   3-12   |
+| FIXER     | FIRE WAVE   |     4    |   4-16   |
++-----------+-------------+----------+----------+
+
+[7] ENEMY TABLE
+ [7a] REALTIME BATTLES
+  ID is an identifier that is unique for each enemy type. (See [8])
+  Life is the amount of damage needed to destroy the enemy. Those with 0 HP will
+be destroyed by any damage. Not all enemies are vulnerable to all attacks.
+  Melee and projectile attacks are described separately and do different damage.
+
++----+------------------------+-----+-----------------------+------------------+
+| ID | Name/Appearance        | Life| Melee          Damage | Shot      Damage |
++----+------------------------+-----+-----------------------+------------------+
+| The following enemies can be damaged by any attack.                          |
+| 10 | Blue/pink horned man   |   1 | punch               1 |                  |
+| 11 | Red/pink horned man    |   2 | punch, kick         2 |                  |
+| 12 | Red/green horned man   |  12 | punch, kick         7 | shot          10 |
+| 14 | Yellow/white cat man   |  15 | punch, kick         7 |                  |
+| 15 | Pink/white cat man     |  19 | punch, d. kick     10 |                  |
+| 16 | Pink/yellow cat man    |  20 | punch, d. kick     10 | shot          20 |
+| 17 | Yellow panther man     |  25 | punch, d. kick     10 |                  |
+| 18 | Blue panther man       |  28 | punch, d. kick     18 | shot          36 |
+| 19 | Yellow sabertooth man  |  27 | punch              15 | blob          20 |
+| 1A | Purple sabertooth man  |  28 | punch              18 | blob     petrify |
+| 1B | Green claw ninja       |  10 | claw, kick          5 |                  |
+| 1C | Blue/orange claw ninja |  19 | claw, d. kick      10 |                  |
+| 1D | Orange claw ninja      |  30 | claw, d. kick      20 |                  |
+| 2C | Blue spear pig         |   7 | spear               3 |                  |
+| 2D | Red spear pig          |   8 | spear               3 | shot           3 |
+| 2F | Tub-a-Tummy            |  90 | spear              35 | 8-way   sweetbun |
+| 33 | Flame mask             |  12 |                       | shot           6 |
+| 52 | Pooping bird           |  12 | touch               2 |                  |
+| 53 | Pooping bird           |  24 | touch              15 | shot          10 |
+| 55 | Purple eagle man       |  20 | dive                7 |                  |
+| 56 | Yellow eagle man       |  28 | dive               12 | shuriken       20|
+| 57 | Gargoyle               |  90 | touch               8 | shot          20 |
++----+------------------------+-----+-----------------------+------------------+
+| Bull men require MEGA PUNCH, PRISM SWORD or BOOMERANG, and kicks don't work. |
+| Salmon variety requires FIRE PUNCH, and dragon kicks don't work either.      |
+| 1F | Blue or green bull man |   9 | punch, kick         5 |                  |
+| 20 | Pink bull man          |  23 | punch, d. kick     11 |                  |
+| 21 | Salmon bull man        |  32 | punch, d. kick     20 | blob          60 |
+| The six scholars and Uni-Gon can be hit by any attack except shurikens.      |
+| 23 | Hick                   | 190 | punch, d. kick     16 | sonicboom     30 |
+| 24 | Hitman                 | 220 | punch, d. kick     16 | spreadshot    20 |
+| 25 | Winoman                | 180 | punch 16; beatrush 32 | HiYaa         50 |
+| 28 | Charlie                | 200 | nunchuck, d. kick  16 |                  |
+| 2A | Hoe-mer                | 140 | chain, d. kick     16 |                  |
+| 2B | Herculean              | 200 | punch, d. kick     16 | boomerang     20 |
+| 41 | Uni-Gon                |  64 | touch               6 |                  |
+| 42 | Uni-Gon                | 200 | touch              12 | shot           8 |
++----+------------------------+-----+-----------------------+------------------+
+| Devillian can only be hurt by the EAGLE SWORD or better.                     |
+| 30 | Devillian              | 200 | touch              30 | fireballs     50 |
++----+------------------------+-----+-----------------------+------------------+
+| Skeleton archers need FIRE PUNCH, PRISM SWORD or VOLLEY. No kicks or d.kicks.|
+| 31 | Purple or orange archer|  24 |                       | arrow         10 |
+| 32 | Orange archer          |  24 |                       | arrow         10 |
++----+------------------------+-----+-----------------------+------------------+
+| Green and purple dragons require any sword; Golds require PRISM SWORD.       |
+| 34 | Green dragon           |  60 | touch               8 |                  |
+| 35 | Purple dragon          | 150 | touch              12 | shot          25 |
+| 36 | Gold dragon            | 220 | touch              15 | shot          30 |
++----+------------------------+-----+-----------------------+------------------+
+| Will-o-Wisp can only be destroyed by jumping over it three times.            |
+| 37 | Will-o-Wisp            |   0 | touch               5 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| Frogs are immune to regular kicks and all punches below PRISM CLAW.          |
+| 38 | Green frog             |   1 | push                0 |                  |
+| 39 | Gold frog              |  18 | push                0 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| Puffballs are immune to regular kicks and all punches.                       |
+| 3A | Purple or pink puffball|  25 | push                0 |                  |
+| 3B | Orange puffball        |  25 | push                0 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| Box men and parasols can be hit by any attack except level-0 PUNCH.          |
+| 3C | Blue box man           |   1 | capture             0 |                  |
+| 3D | Pink box man           |  15 | capture             0 | waveshot       7 |
+| 54 | Parasol                |   2 | touch               5 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| Yetis can be hit by GOLDEN CLAW punches or any other attack.                 |
+| 3E | Orange yeti            |  25 | capture             0 |                  |
+| 40 | Purple yeti            |  25 | body slam          10 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| Four-arms can take any hit but is immune to shurikens weaker than FIXER.     |
+| 43 | Four-armed monster     | 150 | touch               8 | critter       15 |
++----+------------------------+-----+-----------------------+------------------+
+| Both sand man types are immune to shurikens.                                 |
+| Non-earthquake type is also iummune to kicks and dragon kicks.               |
+| 44 | Sand man               |  28 | touch              18 |                  |
+| 45 | Sand man               |  28 | touch              18 | earthshake    18 |
++----+------------------------+-----+-----------------------+------------------+
+| Hopper enemies can be hit by shurikens, kicks, and dragon kicks only.        |
+| 47 | Desert hopper          |  20 | touch              11 |                  |
+| 48 | Desert hopper          |  21 | touch              14 | shot          14 |
+| 49 | Desert hopper          |  25 | touch              10 | shot     petrify |
+| 4A | Blue or red hopper     |   1 | touch               1 |                  |
+| 4B | Purple hopper          |  15 | touch              10 | shot          10 |
+| 4C | Yellow hopper          |   1 | touch               5 |                  |
+| 4D | Flame hopper           |   2 | touch               2 |                  |
+| 4E | Flame hopper           |  20 | touch              10 | shot          10 |
+| 4F | Flame hopper           |  10 | touch               0 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| Buddha masks require FIRE PUNCH. Shuriken traps require CRUSH PUNCH.         |
+| They can be hit by swords but are immune to shurikens and both kicks.        |
+| 50 | Buddha mask traps      |   0 |                       | tripleshot     5 |
+| 51 | Shuriken traps         |   0 |                       | shuriken       2 |
++----+------------------------+-----+-----------------------+------------------+
+| Cat wizards require MEGA PUNCH or better, or any other attack.               |
+| 58 | Cat wizard             |  14 |                       | shot     petrify |
++----+------------------------+-----+-----------------------+------------------+
+| Use anything but punches on QP fox, but his dopplegangers can take any hit.  |
+| 59 | QP fox                 | 150 |                       | spawn enemies    |
+| 5A | Doppleganger           |  24 | punch, kick        15 |                  |
++----+------------------------+-----+-----------------------+------------------+
+| The red warlock can be hit by anything, but orange ones are invulnerable.    |
+| 5B | Orange warlock         | 100 |                       | critter       18 |
+| 5C | Red warlock            | 100 |                       | critter       18 |
++----+------------------------+-----+-----------------------+------------------+
+| The ogre can take any hit.                                                   |
+| His skeleton archers need FIRE PUNCH, PRISM SWORD, VOLLEY, or dragon kicks.  |
+| 5D | Ogre summoner          | 125 | club swing         20 | spawn enemies    |
+| 5E | Red archer             |  24 |                       | arrow         10 |
++----+------------------------+-----+-----------------------+------------------+
+| The weak red genie (guards POP) can be hit by anything.                      |
+| The others are immune to shurikens.                                          |
+| 5F | Red genie              |  50 |                       |         sweetbun |
+| 60 | Blue genie             | 100 |                       |         sweetbun |
+| 61 | Red genie              | 140 |                       |         sweetbun |
++----+------------------------+-----+-----------------------+------------------+
+
+There are two other hazards besides enemies:
+Water trap: Cut current LIFE in half
+Ground lightning: 10 damage
+
+ [7b] TURNBASED BATTLES
++-----------+-------------------------+------+---------------------------------+
+| Enemy     | Action                  |Target| Effect                          |
++-----------+-------------------------+------+---------------------------------+
+|EVIL QUEEN |                         |      |                                 |
+| HP:  210  | GET THE SHOCK WAVE!     | One  | 9 damage                        |
+| EX:  150  | BE A STONE!             | One  | Lose random number of turns     |
+| SEN: 180  | BE A FOOL!              | Both | Lose random number of turns     |
++-----------+-------------------------+------+---------------------------------+
+|BLU BOLTAR |                         |      |                                 |
+| HP:  250  | I WANT TO KNOCK YOU OUT!| One  | 23 damage                       |
+| EX:  250  | WHUMP!                  | Both | Lose random number of turns     |
+| SEN: 250  | CHANGE INTO A DRAGON!   | Enemy| Dragon can only be hit by SWORD |
+|           | LET'S GET SERIOUS!      | One  | 30 damage (used by dragon only) |
++-----------+-------------------------+------+---------------------------------+
+|THE SAMURAI| GET THE SAMURAI SPIRIT! | One  | 6 damage                        |
+| HP:  180  | I WANT TO KNOCK YOU OUT!| One  | 14 damage                       |
+| EX:   60  | PROTECTIVE SHIELD       | Enemy| Reverse attacks for one round   |
+| SEN:  80  | SACRED MEDICINE         | Enemy| Recover 12 life                 |
++-----------+-------------------------+------+---------------------------------+
+|TIGER TANK |                         |      |                                 |
+| HP:  180  | HI-YAH!                 | One  | 16 damage                       |
+| EX:   80  | GET'EM, AIR FORCE!      | Both | 40 damage                       |
+| SEN: 100  |                         |      |                                 |
+|WHIRLY BIRD|                         |      |                                 |
++-----------+-------------------------+------+---------------------------------+
+|QP FOX     |                         |      |                                 |
+| HP:  150  | DON'T HURT ME!          | One  | 10 damage                       |
+| EX:   40  | CHANGE-A-ROO            | Enemy| Transform into 3 little QPs     |
+| SEN:  40  | ATTACK FROM LITTLE QP   | One  | 4 damage                        |
++-----------+-------------------------+------+---------------------------------+
+|BISHOP     |                         |      |                                 |
+| HP:  240  | I'LL HIT YOU.           | One  | 20 damage                       |
+| EX:  100  | TAKE THIS!              | One  | 20 damage                       |
+| SEN: 100  | FALL DOWN, ROCKS!       | Both | 20 damage                       |
++-----------+-------------------------+------+---------------------------------+
+|WILL THE   |                         |      |                                 |
+|WIZ        | COME, THUNDER!          | One  | 16 damage                       |
+| HP:  270  | TIME TO TRANSFORM!      | One  | Sweet bun curse                 |
+| EX:  150  | HELP ME, MY SERVANTS.   | Enemy| Summon two SLIMEs               |
+| SEN: 250  | ATTACK FROM SLIME!      | One  | 10 damage, or kill sweet bun    |
++-----------+-------------------------+------+---------------------------------+
+|KING GULP  | (acts twice per turn)   |      |                                 |
+| HP:  512  | GET THE SHOCK WAVE! x2  | One  | 23 damage                       |
+| EX:  n/a  | FALL DOWN, ROCKS! x2    | Both | 23 damage                       |
+| SEN: n/a  | WHUMP! x2               | Both | Lose random number of turns     |
+|           | SACRED MEDICINE         | Enemy| Recover 80 life                 |
++-----------+-------------------------+------+---------------------------------+
+
+[8] MEMORY TABLE
+  The following table shows what the value of certain memory addresses 
+signifies. These are the addresses of the RAM in the NES. Use this information 
+to make patch codes, or edit the memory directly with an emulator that has a RAM
+browser.
+  In a 2 player game, both characters share the most of the parameters, 
+including experience, level, attack power, inventory and equipment. They have 
+separate dragon kick supplies.
+
+* 1=grass; 2=forest; 3=hills; 4=swamp; 5=desert
++--------------------------------------+--------------------------------------+
+|0x002  Terrain type*                  |0x446  TREASURE acquired              |
+|0x080  X position on map, fine        |0x447  BELLS acquired                 |
+|0x081  X position on map, coarse      |0x449  ITEM: BATTERY amount           |
+|0x082  Y position on map, fine        |0x44A  ITEM: WHIRLY BIRD amount       |
+|0x083  Y position on map, coarse      |0x44B  ITEM: MEDICINE amount          |
+|0x084  Turnbased battle enemy HP x1   |0x44C  ITEM: SWEET BUN amount         |
+|0x087  Turnbased battle enemy HP x256 |0x44D  ITEM: MEAT BUN amount          |
+|0x0B2  Enemies on screen              |0x44E  ITEM: DRAGSTAR amount          |
+|0x0B3  Enemies defeated               |0x44F  ITEM: SK-BOARD amount          |
+|0x122  Player 1 invulnerability time  |0x450  ITEM: BOO BOMB amount          |
+|0x123  Player 2 invulnerability time  |0x456  BATTERY time left              |
+|0x124  Player 1 rock curse time       |0x457  TREASURE acquired              |
+|0x125  Player 2 rock curse time       |0x4AC  Enemies to kill to end battle  |
+|0x126  MIGHTY BALL time               |0x4C0  Shop: item 1 price x1          |
+|0x128  Player 1 T-STARS/SURGER time   |0x4C1  Shop: item 1 price x256        |
+|0x129  Player 2 T-STARS/SURGER time   |0x4C2  Shop: item 2 price x1          |
+|0x12A  Player 1 bun curse time        |0x4C3  Shop: item 2 price x256        |
+|0x12B  Player 2 bun curse time        |0x4C4  Shop: item 3 price x1          |
+|0x12D  Time till Uni-Gon arrives      |0x4C5  Shop: item 3 price x256        |
+|0x400  Player 1 "K" amount            |0x4C6  Shop: item 4 price x1          |
+|0x407  Player 1 attack status         |0x4C7  Shop: item 4 price x256        |
+|0x408  Player 2 "K" amount            |0x4C8  Shop: item 5 price x1          |
+|0x40F  Player 2 attack status         |0x4C9  Shop: item 5 price x256        |
+|0x429  "?" counter                    |0x4CA  Shop: item 1 type              |
+|0x42A  "M" amount                     |0x4CB  Shop: item 2 type              |
+|0x42B  T-STARS amount                 |0x4CC  Shop: item 3 type              |
+|0x430  LEVEL                          |0x4CD  Shop: item 4 type              |
+|0x431  EX amount x1                   |0x4CE  Shop: item 5 type              |
+|0x432  EX amount x256                 |0x4CF  Shop: SEN to be spent x1       |
+|0x433  EX amount x65536               |0x4D0  Shop: SEN to be spent x256     |
+|0x434  MAX LIFE                       |0x4D4  Player 1 Y position            |
+|0x435  ATTACK power                   |0x4D6  Player 1 X position            |
+|0x436  SEN amount x1                  |0x4DC  Player 2 Y position            |
+|0x437  SEN amount x256                |0x4DE  Player 2 X position            |
+|0x438  SEN amount x65536              |0x543  Player 1 LIFE                  |
+|0x439  EQUIP: PUNCH item              |0x54B  Player 2 LIFE                  |
+|0x43A  ATTACK power plus punch bonus  |0x590  \              Enemy ID        |
+|0x43B  EQUIP: SWORD item              |0x591  |              Facing direction|
+|0x43C  EQUIP: SHIELD item             |0x592  |Add 0x80 for  Item ID         |
+|0x43D  EQUIP: ROBE item               |0x593  |next enemy    Enemy LIFE      |
+|0x43E  EQUIP: TALISMAN item           |0x594  |up to 0x5FE   Y position      |
+|0x43F  EQUIP: AMULET item             |0x596  /              X position      |
+|0x444  EQUIP: LIGHT item              |0x6FF  Boss invulnerability time      |
+|0x445  EQUIP: T-STARS item            |0x7F4  Level of enemy group           |
++--------------------------------------+--------------------------------------+
+
+--------------------------------------------------------------------------------
+
+  This document is my own work. If you've played the game and used the FAQ, feel
+free to drop me a line and tell me what you think.
+
+  Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com

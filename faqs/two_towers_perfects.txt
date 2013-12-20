@@ -1,0 +1,648 @@
+Lord of the Rings: The Two Towers
+How to Get Perfects guide, v1.3 (1/05/2005)
+by Dammit9x
+dammit9x at hotmail dot com
+
+Copyright 2003-2005
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on other web sites or otherwise 
+distributed publicly without advance written permission. Posting this guide 
+in whole or part on unauthorized web sites, or posting an edited form of this 
+guide without the author's permission is strictly prohibited, and a violation 
+of copyright.
+
+Contents
+--------
+      Section
+I)    Introduction
+II)   The Skill Meter and Kill Ratings
+III)  Going Blue and Perfect Kills
+IV)   Perfect Ratings
+V)    Character Comparison
+VI)   Buying Guide
+VII)  General Combat Tips
+   i)  Not Getting Your Ass Hit
+  ii)  Breaking Shields
+ iii)  Rounding up Gauge-fodder
+  iv)  Avoiding Combat and Preventing Poor Kills
+   v)  Banes vs. Combos
+  vi)  Boot Them Off
+ vii)  Killing Dead Enemies
+viii)  The Secret Codes
+VIII) Enemy Guide
+IX)   A Perfectionist's Approach for Each Mission
+X)    Closing
+
+
+I) Introduction
+---------------
+    The purpose of this guide is to help you get Perfect ratings on each level 
+with all characters. Two levels (missions 1-2) with 1 character plus 11 levels 
+(missions 3-12 and the secret mission) with 4 characters comes out to a 
+maximum of 46 Perfects. You get no reward for all Perfects, other than your 
+personal satisfaction. It is possible; I have done it personally.
+    This guide assumes that you have some familiarity with the game "Lord of 
+the Rings: the Two Towers"; You know how to play and how to clear levels.
+
+
+II) The Skill Meter and Kill Ratings
+------------------------------------
+    Your skill meter is the circular gauge in the bottom left of the screen, 
+near the vertical experience meter. Your skill meter increases with every hit 
+you land; the amount of increase doesn't depend on the damage dealt, but on 
+what kind of blow you landed. However, your meter decreases gradually and is 
+practically emptied if you get hit.
+
+Hit                              Meter increase
+Fury/Rage/Wrath; rising attack   nothing
+successfuly parry                slight
+missile; swift; kick/shove       small    ~1/8
+fierce                           moderate ~1/4
+money shot; killing blow (R2)    large    ~1/3
+Bane                             set to ~1/2 depending on length of animation
+
+    If an attack hits two enemies, you get a double bonus to your meter, and 
+so on. The "money shot" is the last swing of any 3- or 4-hit combo and is 
+easily recognizable by the flash of light and smashing noise.
+
+    You get a rating for every enemy killed (Fair, Good, Excellent or Perfect) 
+depending on how high your skill meter is when the enemy died. You don't get 
+credit for enemies killed by other enemies (i.e., trolls), but you do get 
+credit for those killed by archer firebombs.
+
+Meter level                      Rating
+<1/4                             Fair
+>1/4, <1/2                       Good
+>1/2, <full                      Excellent
+full or blue                     Perfect
+
+
+III) Going Blue and Perfect Kills
+---------------------------------
+    If your gauge fills completely, you will "go blue": your weapon glows blue 
+and you do double damage with every attack. Any enemy killed while you are 
+blue is a Perfect kill. To get a lot of Perfects you need to be good at going 
+blue, which means landing blows, especially money shots, in rapid succession 
+and not getting hit. You also need to be good at killing enemies rapidly once 
+blue because the blue state wears off in about 10 seconds. An efficient way to 
+spend your precious blue time is to use your missile weapon, because a shot 
+from a fully upgraded missile will kill most enemies in one hit. Banes are 
+also good, but some of them take up a lot of time. Another effective method, 
+although time consuming, is to charge up fury/rage/wrath attacks once blue and 
+let them come to you.
+    It is important to not get hit once you are blue because getting up wastes 
+several seconds; the enemies will not just roll over and let you Perfect them. 
+See the section on defense below.
+
+
+IV) Perfect Ratings
+-------------------
+    At the end of every level you are shown a histogram of kills vs. kill 
+rating and you get a rating for your overall performance. My theory 
+(unverified) is that the rating is dependent on the relative numbers of kills; 
+if the number of Perfects is at least half that of the mode (the most abundant 
+kill rating, usually Good) then you get a Perfect for the level. For example, 
+if you got 10 Perfect and 20 Good, you should get a Perfect overall rating. 
+But if you got 10 Perfect and 50 Good, you will only get a Good overall 
+rating. Therefore you should try to maximize Perfect kills and minimize non-
+Perfect kills. Sometimes this means avoiding combat.
+
+
+V) Character Comparison
+-----------------------
+    The following is a breakdown of each character's strengths and weaknesses, 
+assuming full upgrades.
+
+               Aragorn  Legolas  Gimli
+Weapon power   B        C        A
+Weapon speed   A        B        B
+Weapon range   A        B        C
+Missile power  B        A        B
+Missile ROF    B        A        C
+Health         B        C        A
+
+    Here you can see that Aragorn is the best of the three for filling up the 
+gauge because of the range and speed of his sword. On the other hand, Legolas 
+can do more damage once he is blue because of his fast bow. Gimli's strengths, 
+however, are not very useful for getting perfects; enemies tend to die with 
+only one or two hits and when he does go blue he has difficulty getting kills 
+with his throwing axe. The extra health is pretty worthless. Gimli is the most 
+difficult character to get Perfects with.
+
+
+VI) Buying Guide
+----------------
+    The following is my recommendation for the basic order in which you should 
+buy upgrades.
+
+Lvl   Name of purchase         Cost
+
+ More important:
+2     Swift Terror combo       5000
+4     Death Charge combo       5000
+8     Judgement combo          5000
+4-8   Banes                    4000-8000
+2-8   Missile upgrades         4000-10000
+
+ Less important:
+2     Death Rush combo         5000
+4     Gambit combo             5000
+6     Deliverance combo        5000
+2     Rush Attack              3000
+4     Charge Attack            4000
+2-4   Rising Attack            4000-8000
+2-8   Fury/Rage/Wrath attacks  2000-6000    
+2-8   Health upgrades          10000
+
+ Save till end:
+6     Master Swordsman         10000
+8     Axe Mastery of Kings     10000
+
+    The Swift Terror, Death Charge and Judgement combos are important because 
+they allow you to do money shots on shielded enemies; without them you are 
+limited to attacks that are not as effective at raising the gauge. The Banes 
+are important because they allow you to fight back when surrounded. Although 
+they are not very useful for going blue, they are a reliable way to get 
+Perfects once you are blue.
+    The Master Swordsman (Aragorn) and Axe Mastery (Gimli) upgrades are 
+counterproductive for getting Perfect ratings because they cause enemies to 
+die in fewer hits, so it's harder to fill up the gauge. These should be 
+avoided until you have gotten satisfactory ratings on every level with the 
+character in question. In contrast, the analagous upgrade for Legolas, Bow 
+Mastery, is very helpful because it makes it easier to kill once you are blue.
+
+
+VII) General Combat Tips
+------------------------
+i) Not Getting Your Ass Hit
+    The enemies aren't going to just let you kill them. In order to fill your 
+gauge, you need to avoid getting hit, and they will be trying to hit you. 
+Generally you should be ready to defend yourself any time you complete a combo 
+or a Bane. Running away doesn't work against melee enemies, because they can 
+and will leap all the way across the screen to hit you in the back.
+    The block, S or R1, is effective at avoiding most attacks. You defend 
+yourself for about half a second after you push the button. Or you can mash on 
+the button and be immune to melee and missile attacks, then just wait for an 
+opportunity to counterattack. Attackers will be stunned and open to 
+counterattack when you successfully block. It works even with your back turned, 
+and one press of the button can deflect more than one hit if they come at the 
+same time. It does not work against troll clubs/chains, warg charges, and the 
+"throws" that spear and axe orcs sometimes use.
+    The backdash, L2, is good if you want to use your missile weapon against 
+an oncoming enemy (shoot, backdash, repeat) and it is very useful when 
+fighting trolls. The backdash is also very useful when you knock down a group 
+of enemies with a money shot; you can back up and do another 3-hitter while 
+they're getting up without worrying about moving too far forward.
+    The neutral weapon hit occurs when you and a melee enemy attack at the 
+same time. There is a flash of light similar to the block, except both you and 
+the attacker will be stunned and your combo will be cut short. It is an 
+unreliable method of defense; if you can't get a combo out without this 
+happening it's time to use your Banes.
+
+ii) Breaking shields
+    About half of the enemies you fight carry shields; your combat options are 
+limited when attacking them. Missiles are blocked, the kick/shove (O) doesn't 
+work, and whenever you strike a shield with an X attack you will be stunned 
+and your combo will abort. Avoid using combos with more than one X attack 
+against shields; instead concentrate on shield-breaking combos and make sure 
+any X attacks are out of range. (For example, if using the Death Charge combo, 
+start it at such a distance that your X will come up short but the second two 
+hits will connect.) However, you may hit shielded a opponent with X, O, or a 
+missile if his back is turned. Note that the Money Shot of any combo will 
+knock down opponents, even if it doesn't break their shield; a somewhat 
+effective way to kill shielded enemies is to knock them down then finish them 
+with R2. Also note that the Banes will kill an attacker without having to 
+break his shield.
+
+The * designates a blow that can break a shield. Note that the War Rush and 
+Judgement combos have more than one shield-breaking hit.
+
+Lvl   Attack                  Entry
+
+1     Double Hack             T  T*
+2     Rush Attack             X  O*
+4     Charge Attack           X  O*
+1     Powered-up missile      L1+X* (hold, release)
+2-8   Fury/Rage/Wrath attack  T*    (hold, release)
+2-4   Rising Attack           X*
+2     Swift Terror combo      X  X  T*
+2     Death Charge combo      X  O* R2
+4     War Rush combo          X  O* T*
+4     Gambit combo            X  T* X  X
+6     Deliverance combo       T  X  X  T*
+8     Judgement combo         T  T* O* T*
+
+iii) Rounding up Gauge-fodder
+    A problem you will frequently encounter is that there aren't enough 
+enemies around to fill up the gauge. If everything goes smoothly you need at 
+least two, and typically things don't go smoothly. Somtimes you can make up 
+for this if you keep running through the level, getting enemies to follow you. 
+When you have enough, turn around and attack. An example of this is the Gates 
+of Moria. For the first half of the level you are attacked by groups of only 3 
+or so goblins at a time. If you avoid killing them you can round up groups of 
+6 or more, which makes it much easier to go blue. And when this happens, there 
+will be enemies readily available to get Perfects from.
+
+iv) Avoiding Combat and Preventing Poor Kills
+    Sometimes there's no way to kill an enemy and get anything better than a 
+Fair or Good. For example, archers and suicide bombers die too easily to get 
+much out of them. If you want to avoid adulterating your Perfects, just run 
+away from the archers and bait the bombers into blowing themselves up. 
+Reducing the number of Good kills (without increasing Perfect kills) can make 
+the difference between a Good and Perfect rating.
+    Another way to approach this problem is if you can't get a Perfect, at 
+least try to get something other than Good. If you think you are getting too 
+many Good kills, change your tactics to get Excellents (use Banes) or Fairs 
+(use Fury/Rage/Wrath).
+
+v) Banes vs. Combos
+    Banes instantly kill an attacking goblin, orc or uruk-hai. Block with S or 
+L1, then hit X+R2. You have to be facing your opponent, and it doesn't work on 
+archers of course. You usually get an Excellent kill, but Banes aren't a good 
+way to build up the gauge because while the animation is going on your meter 
+is going down. A Bane followed by a combo is sometimes enough to go blue. The 
+most important use for Banes is crowd control, reducing the attackers to a 
+more manageable number (less than 4) so that you can do your combos 
+effectively. You can also use Banes while blue to get an easy Perfect, but 
+again, the animation takes up valuable time.
+    Combos are your only practical method of going blue. The best combos for 
+this purpose are the 3-hitters, especially Swift Terror and Death Charge, 
+because the money shot ratio is 1:3 instead of 1:4. If there are one or two 
+enemies, use a 3-hit combo; with three or more use a 4-hitter. A money shot 
+that hits two enemies at once will almost certainly get you blue. However, if 
+you try to keep doing the Swift Terror over and over again you are going to 
+get hit; you need to keep an eye out for attacks between your combos. If there 
+are too many attackers, use your Banes. Note that you can change the direction 
+of your facing as you attack; sometimes it is necessary to turn around to 
+ensure that the money shot hits somebody.
+
+vi) Boot Them Off
+    In some levels, notably the Gates of Moria, the Deeping Wall, and the 
+Tower of Orthanc, you can shove enemies off edges for an Excellent kill. This 
+is a good segueway into a combo to go blue quickly.
+
+vii) Killing Dead Enemies
+    Another trick that you will exploit without usually realizing it is that 
+hitting a dead enemy raises your gauge. When you kill an enemy and its body is 
+fading away, hitting it with, for example, a Swift Terror money shot will give 
+you a partial gauge bonus even though he is already dead. While a single 
+corpse doesn't stay around long enough to let you go blue, hitting a corpse 
+while you're in the middle of a battle can help bring you up, which is why you 
+should try to get your enemies in a cluster or a single file line, rather than 
+letting them surround you.
+
+viii) The Secret Codes
+    You may know that when you clear the last level with the secret character 
+you get access to the secret codes, which can be entered at any time by 
+pausing and holding L1+L2+R1+R2 and entering the appropriate 4-button 
+sequence. The secret codes cannot be used until you clear the last level, 
+though there are some actual cheat codes (which I will not list here) that can 
+be used at any time.
+
+Secret Code            Entry
+All Upgrades           T O T O
+Always Devastating     S S O O
+Invulnerability        T S X O
+Small Enemies          T T X X
+Slow Motion            T O X S
+Unlimited Missiles     S O X T
+
+    As it turns out, none of them are useful for going blue or getting 
+Perfects. There is no code that increases the gauge bonus for each hit, or 
+extends the blue period, or even prevents you from getting knocked down. The 
+Always Devastating code makes your weapon glow blue and do double damage, but 
+the kills don't actually count as Perfect.
+
+
+VIII) Enemy Guide
+-----------------
+    The ordinary enemies are covered here, while the bosses are covered in the 
+walkthrough.
+
+Goblins: small, squat, squeaky, easily killed, and not very aggressive. They 
+die so easily that they are hard to go blue with. Therefore, you should try to 
+round several of them up before taking them down (e.g., Gates of Moria).
+
+Armored Goblins: same as goblins but they have helmets and shields. You must 
+use shield breaking attacks; they are difficult to deal with until you get the 
+Death Charge combo. The Goblin Banes are actually harder to use than the other 
+Banes because goblins don't attack much.
+
+Spear & Shield Orcs: not as aggressive as the axe-wielders, but more dangerous 
+than goblins. By the time you fight orcs you should have some decent shield-
+killing combos. Occasionally these orcs will do a throw that can't be blocked.
+
+Double-axe Orcs: more dangerous than they look. Once they start spinning with 
+their axes they keep going, even if you hit them first. You have to block (or 
+land a killing blow) to get them to stop. In general you should block-
+counterattack rather than attacking first. These orcs also do an unblockable 
+throw sometimes.
+
+Orc Archers: they stand still and shoot flaming arrows. The arrows may hit 
+other enemies. You can avoid the arrows if you keep running around, but if you 
+want to do combos you need to get rid of them first. Sometimes they stand in 
+places you can only reach with your missile (Mines of Moria, Amon Hen). 
+Shooting back is a problem if there are several of them around; just keep 
+blocking and moving and look for an opening. Archers are easy Perfects if you 
+manage to go blue right before encountering them; otherwise the best you 
+usually get is Good.
+
+Uruk-hai Grunts: tall, aggressive, and carry huge swords and make huge 
+baseball swings. Defend then counterattack with a 3-combo, or use Banes if 
+crowded. Uruks are great for going blue because they can take a lot of damage; 
+however, they sometimes need more than one hit from a blue weapon to die. 
+There are two varieties, brown- and black-skinned, and they are practically 
+the same.
+
+Uruk-hai archers: they stand still and shoot crossbows. Deal with them the 
+same as orc archers. Sometimes they toss out a little gray firebomb. Don't 
+stick around for the fire to come out.
+
+Uruk-hai Berserkers: extremely aggressive, carry swords, wear white masks and 
+have a simian stance. These guys need your full attention to kill. They make 
+two big swings and, like the orc axemen, they will keep going even if you hit 
+them in mid-swing. Between their attacks they block any attack you throw at 
+them unless you are counterattacking after a block. If you manage to knock 
+them down with a money shot you can finish them with R2; otherwise they will 
+get up with a swing so watch out. Just use the Bane of Saruman if you have it.
+
+Uruk-hai Suicide Bombers: they carry barrels of explosives on their backs and 
+blow up if they take any damage. Use your missile. Usually any kill you get on 
+them will be Fair. You can bait them into killing themselves (and avoid the 
+Fair kill) by running close, then backing off. You may take a little damage 
+from this because the blast radius is large. If they blow up right next to you 
+it does tremendous damage, so don't let it happen. Any enemies within the 
+blast radius will just fall over dead, with no kill credit, so try to pick off 
+bombers while they are still far away if you don't want this to happen.
+
+Trolls: swing huge clubs up close, throw logs from long distance. You cannot 
+block the club. Dodge it, then hit with a fierce attack and backdash. They 
+also do a throw, which not only hurts but leaves you at their feet for more 
+punishment. They can only be hurt by missiles and fierce attacks. When you hit 
+with a fierce attack they back up a little bit so the second hit of a double 
+hack will miss. Fury/Rage/Wrath attacks can make these battles shorter: start 
+charging up when you are just outside of club range; if you're too far they 
+will throw logs. If you are very skilled you can get behind them while they 
+are recovering from a swing, so that you can get in the full Judgement combo. 
+This will turn you blue and score you a Perfect from the troll if you follow 
+it up with a fierce. This is not always possible if quarters are tight.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  "Scott" writes the following:
+
+"I tried Judgement but couldn't get it off even in the back, but before I got 
+Judgement, I did figure out a way to get a perfect on Trolls every time.  Just 
+keep using Death Charge and Back Dash as quickly as you can. The "charging" 
+part of Death Charge seems to block the Troll's missile attack, and I was able 
+to get a double-perfect on the final two Trolls of Fangorn Forest for a 
+massive exp boost."
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Warg Riders: goblins riding ugly wolves. They attack by running your down if 
+you are at close-medium distance, or shoot arrows from long distance. They 
+always start their charge from the top of the screen and move toward the 
+bottom; it's not hard to dodge as long as you're not too close. Get behind 
+them and quickly use a 3-hit combo while they are turning around. They should 
+already moving when the money shot comes down; if you are Legolas or Gimli you 
+need to track them with the money shot to make sure it hits.
+
+
+IX) A Perfectionist's Approach for Each Mission
+-----------------------------------------------
+    This is not really a walkthrough. You can figure out yourself how to clear 
+each level. These are tips to help you get Perfect ratings. The difficulties I 
+have assigned are based on my own evaluation and are on a relative scale; even 
+if you think that every level is easy you should agree that some are harder 
+than others. My "Difficulty for Perfect" ratings are assuming you have all the 
+upgrades; you can try without them but it's not always possible.
+    Remember that once you clear a level and accept the rating you got, you 
+can't replay it until you finish the last level (Orthanc with the secret 
+character). Once you do this you can replay any level with any character. 
+Therefore it's unnecessary to try to get Perfects on your first play through; 
+do well enough to garner a decent amount of experience, then move on.
+    I recommend playing all the way through with just one character (Aragorn 
+or Legolas), then work on the others. Once all the levels have been made 
+available by your primary character, you need not play them in order with your 
+secondary characters; play the easier levels first.
+    For the locations of the valuable experience boosts, see Jason Britton's 
+FAQ on gamefaqs.
+
+Mission 1: Prologue
+Difficulty to clear: Easy      Difficulty for Perfect: Easy
+    This would be better for first-time players if they let you see the combo 
+list from the pause menu, like they do for every other level. First you fight 
+unshielded enemies, then shielded. It's actually harder to go blue against the 
+unshielded enemies (defend, then use Swift Terror or Death Charge), but there 
+are enough shielded guys to make up for it. When they come out, just go crazy 
+with the Judgement combo (TTCT) and you should easily go blue. From that point 
+it's pretty easy. Be sure to buy Swift Terror after the level.
+
+Mission 2: Weathertop
+Difficulty to clear: Easy      Difficulty for Perfect: Easy
+    You can only hit the Ringwraiths with a fierce attack, and your torch must 
+be lit. If it goes out, swing at the fire. Block, Double hack, repeat. For an 
+easy Perfect, come back when you've finished the game and have Judgement.
+
+Mission 3: Gates Of Moria
+Difficulty to clear: Easy      Difficulty for Perfect: Medium
+    It's a little harder to get Perfects here, and whats worse is you have to 
+sit through all the dumb cutscenes again if you want to retry. The trick is to 
+get a line of goblins following you before you attack them. Run past the first 
+group until the second group comes out, then turn around and attack to go 
+blue. When the first cutscene comes up (Gimli and the goblin) keep right on 
+going until the next cutscene, then take out the archers and turn your 
+attention to the goblins. You should get a decent number of Perfects from 
+these encounters. Try to keep combat to a minimum for the rest of the level 
+and you should have it.
+    As for the Watcher, walk up close, block his tentacles, chop one off, then 
+shoot him in the head. Repeat.
+
+Mission 4: Balin's Tomb
+Difficulty to clear: Medium    Difficulty for Perfect: Easy
+    You are going to get rushed by a lot of goblins. It's actually really hard 
+to get Perfect on the first play through because you don't even have Death 
+Charge to deal with all the shielded goblins. Once you have Death Charge or 
+Judgement though, you'll see why these combos are so important.
+    The boss troll is unusual in that you can easily get off both hits of the 
+double hack without missing. After a few of these you will unfortunately have 
+to finish him with your missile. You cannot block his chain attack. Try 
+standing at the edge of one of the pillars as you shoot. If you are positioned 
+right he will hit the pillar but you will hit him. After three hits the pillar 
+will fall, so move on to the next. Once in awhile a goblin will come out and 
+try to punk you while you are busy with the troll.
+
+Mission 5: Amon Hen
+Difficulty to clear: Medium    Difficulty for Perfect: Medium
+    If this is your first play through you won't have the Bane of Saruman yet, 
+which makes the first battle a little difficult. Remember that uruks are 
+fairly aggressive so don't try to hit them outside of a counterattack (even if 
+you're blue). When surrounded, guard and try to back off with the backdash, 
+but don't run away or you'll just get hit in the back.
+    As for the boss, guard and wait for an opening to hit him with your 
+missile. After three or so, he will rush you. Get him to hit a statue and he 
+will be stunned long enough to unload a 3- or 4-hit combo. He'll die after 
+only two of these, so there are more than enough statues. Whenever an ordinary 
+uruk pops out, deal with him first before turning to the boss (it's worth 
+spending a statue for this).
+
+Mission 6: Fangorn Forest
+Difficulty to clear: Easy      Difficulty for Perfect: Medium
+    This is a long level but not hard if you seize the three obvious 
+opportunities to go blue: The first ambush at the beginning, the group of orcs 
+after the cutscene at the camp (hope you brought Death Charge), and the group 
+of goblins before the last two trolls. You may be able to go blue on the 
+smaller groups as well.
+    This level is nice because you have two checkpoints to go back to if you 
+screw up: before the first troll and before the last two trolls.
+
+Mission 7: Plains Of Rohan
+Difficulty to clear: Easy      Difficulty for Perfect: Medium
+    If you get game over on this level it's probably because you let too many 
+villagers die, rather than getting killed yourself. Fortunately the villagers 
+are a good distraction for the uruks, so you can land your combos more easily. 
+(Really, who cares about the villagers? The important thing is your rating!)
+There is a big battle at the beginning and at the end of the level; make sure 
+you get enough Perfects from these two opportunities.
+
+Mission 8: The Westfold
+Difficulty to clear: Easy      Difficulty for Perfect: Hard
+    There are two factors in this level that, taken individually, would make 
+this a practically impossible Perfect: your idiot companion who's always 
+getting in the way, and the suicide bombers. However, you can use them both to 
+your advantage by getting your Perfect kills at the beginning and then just 
+letting the Rohan captian and the bombers do all the killing for the rest of 
+the level. The captain can't be killed.
+    At the start, shoot an arrow at the barrels in front of you, then point 
+slightly to the left and shoot those as well. It's important to go blue with 
+the uruk-hai who then come running out; try to go blue again with the next 
+group. If you got a reasonable number of Perfects from these two encounters, 
+you should be able to keep out of most of the combat for the rest of the level 
+and get a Perfect overall. Shoot barrels to kill all the enemies around them, 
+and bait suicide bombers into killing themselves.
+
+Mission 9: Gap of Rohan
+Difficulty to clear: Medium    Difficulty for Perfect: Hard
+    The key to this level is going blue on the first two wargs; this is your 
+only opportunity to do so. At the start, one or both of the wargs will charge. 
+Dodge and you shouldn't get hit; hopefully they both converged to the same 
+point so you can hit them simulataneously. Run behind them, do a Death Charge 
+and make sure the money shot hits. Repeat they both aren't dead yet. If you're 
+unlucky your companions will kill the wargs first. If you managed to go blue, 
+immediately smash the rubble and proceed to the boss (forget about the two 
+experience boosts). After the lame scene, dodge the two wargs and shoot them 
+dead. You must have upgraded missiles for this. Another warg should come down 
+for a quick third Perfect kill.
+    The boss alternates between charging two or three times then rearing up, 
+and charging two or three times then calling another warg. The charges can be 
+avoided by staying at the bottom of the screen (or you can just get hit by 
+them if you want to stay near the top). When he rears up, make sure you're 
+very close, then shoot with your missile and move in quickly for a fury/rage/
+wrath attack (you only get to land one hit). Don't miss any opportunity to 
+damage him or you'll have to fight another warg, which hurts your chances of 
+getting Perfect.
+
+Mission 10: Helm's Deep - The Deeping Wall
+Difficulty to clear: Hard      Difficulty for Perfect: Medium
+    The trick here is to focus on kicking the ladders and to avoid combat 
+entirely until the end of the level. Find a pattern that deals with each 
+ladder systematically. (I do right wall - left wall - center wall - repeat.) 
+Refrain from fighting because while you are occupied more enemies will climb 
+up the ladders and it will only make matters worse. Keep going with your 
+ladder rounds until you see groups of three or more uruk-hai. This is your 
+cue to get Perfects (you shouldn't need many). The level ends if you manage 
+to survive long enough.
+
+Mission 11: Helm's Deep - Breached Wall
+Difficulty to clear: Medium    Difficulty for Perfect: Hard
+    You will need to protect the gate from attackers for this level; some of 
+them go for the gate, and some go for you. First you need to shoot down a lot 
+of suicide bombers throughout the whole level. You will get a lot of Fairs 
+from this, but it shouldn't matter because there are a lot of opportunites for 
+Perfects. When orcs start rushing the gate, try to time a Death Charge so that 
+the money shot hits some as they run by, then run back and finish the rest off 
+as they are occupied with the gate. Between _every_ combo stop and shoot any 
+bombers that are getting close, otherwise they will blow up in front of the 
+gate, which not only hurts the gate and you, but kills the nearby enemies so 
+that you miss out on the credit. Eventually some of the enemies will be 
+gunning for you; deal with them quickly with Banes so that they don't 
+interrupt your combos. You will also need to take down a line of archers and a 
+troll; make sure not to let bombers slip by during this time.
+    The catapult boss is defenseless if you take down all the enemies that 
+come out with it. From that point just smash the three panels (front, left and 
+right).
+
+Mission 12: Helm's Deep - Hornburg Courtyard
+Difficulty to clear: Medium    Difficulty for Perfect: Easy
+    This is the money shot of the whole game. Just use Judgement; that and the 
+Banes are all you need. It's difficult to clear the level and not get a 
+Perfect rating.
+    After awhile your companion calls for help, run up and across the wall to 
+help him, then go down and kill some more uruks. After some more time you will 
+need to shoot the archers on the wall; there are 9 of them but you're not told 
+when you got all of them. Make sure you got them, then go down and survive 
+until the trolls come down. Since they ignore you and go for the barricade, 
+you can kill them quickly with Judgement combos as long as you keep the other 
+enemies off.
+
+Secret mission: Tower of Orthanc
+Difficulty to clear: Hard      Difficulty for Perfect: Hard
+    Twenty groups of enemies on twenty floors, with no dropped powerups. You 
+get a small health powerup and 5 missiles between floors. In order to make 
+this mission available you need to clear Hornburg Courtyard and be at level 10 
+with the character you want to play it with. You should have all the upgrades 
+by now (except for the two I advised you to hold off on). 
+
+Floor 1:  5 uruk-hai grunts
+Floor 2:  2 uruk-hai grunts, 4 shielded orcs
+Floor 3:  2 uruk-hai grunts, 4 double-axe arcs
+Floor 4:  3 uruk-hai grunts, 3 shielded orcs
+Floor 5:  3 uruk-hai grunts, 3 double-axe orcs
+Floor 6:  8 orc archers
+Floor 7:  2 uruk-hai grunts, 2 double-axe orcs, 4 orc archers
+Floor 8:  4 shielded orcs, 4 orc archers
+Floor 9:  2 shielded orcs, 2 double-axe orcs, 4 orc archers
+Floor 10: 6 uruk-hai grunts, 2 uruk-hai archers
+Floor 11: 8 orc archers with exploding arrows
+Floor 12: 2 uruk-hai grunts, 4 double-axe orcs, 2 orc archers
+Floor 13: 4 uruk-hai grunts, 4 orc archers
+Floor 14: 4 uruk-hai grunts, 2 shielded orcs, 2 orc archers
+Floor 15: 1 troll, 4 orc archers
+Floor 16: 2 berserkers, 2 orc archers
+Floor 17: 2 uruk-hai grunts, 2 berserkers, 4 orc archers
+Floor 18: 1 berserker, 1 troll, 4 orc archers
+Floor 19: 2 trolls, 2 double-axe orcs, 2 orc archers
+Floor 20: 3 trolls, 2 shielded orcs, 2 orc archers
+
+    You are pretty good if you can manage to go blue at the 15th floor or 
+above. Fortunately there are plenty of opportunities on the lower floors for 
+Perfects. The problem is that you're going to be surrounded often; when this 
+happens it's hard to even use the Banes. Try drawing out the enemies into a 
+more manageable arrangement with the backdash. If you can't do this it's still 
+better to be cornered than surrounded.
+    On floors that set you against unshielded enemies, you should start off by 
+firing two missiles (three with Legolas) to get two easy kills, though you 
+can't just run around and shoot if you want Perfect. You need to be good at 
+crowd control with Banes, and parry-counterattack with combos. If you manage 
+to go blue right at the end of one floor you should still be blue at the start 
+of the next, which means that you can get a couple Perfects from arrows and 
+another from a Bane. Remember that you can say hello to a shielded orc with a 
+powered-up arrow to break the shield.
+    When fighting more than one troll try to get one stuck behind the pillar; 
+if you get surrounded by trolls you're pretty much dead. You can try baiting 
+them into swinging so that they hit the other enemies or eachother. There is 
+enough room to run around so that you can shoot them or get behind them for 
+some rough Judgement lovin'.
+    If you manage to finish all 20 floors, you are rewarded with a retarded 
+cutscene and you get to do it all over again with the secret character.
+
+
+X) Closing
+----------
+Credit goes to Scott for the Death Charge trick against trolls.
+
+    That's it. The rest of this document is entirely my own work. Any 
+questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the 
+email is concerning this FAQ.
+
+dammit9x at hotmail dot com

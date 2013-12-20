@@ -1,0 +1,3007 @@
+Final Fantasy IX Spoiler-free guide
+by Dammit9x
+dammit9x at hotmail dot com
+
+***Disk 1***
+
+///On the airship///
+Basic objective: Light the candle.
+
+Treasures:
+Cargo Room- 47 gil, Potion
+Note: The treasures are only available before lighting the candle.
+
+---
+Event battle in the cargo room
+Lv 1
+Type: Human
+HP/MP: 188/223
+Gil/AP: 805/0
+Steal: Potion, Wrist, Mage Masher
+Weak: none
+
+Note: The result is the same even if you manage to lose.
+---
+On stealing: A monster or boss may carry up to four stealable items, classified 256/256, 64/256, 8/256 and 1/256. The numbers correspond to the probability of a successful steal. Some enemies carry some types but not others; I will present stealable items in order and indicate gaps with a (none) when applicable.
+On boss info: You should read the information given on bosses before fighting them. When applicable, I will give advice for preparing for the battle.
+
+Note: After the battle, if you choose the incorrect dialogue option 64 times, you get a very brief extra scene.
+
+///Alexandria///
+Basic objectives: Visit the ticket booth then meet up with the rat kid. You can freely explore the town. You can also get card game and mognet tutorials.
+
+Treasure:
+Main Street (starting place)- Potion (2)
+Main Street (statue)- Potion, Lizard Man card, Zombie card, Sahagin card
+Residence (on main street)- 9 gil, Potion, Fang Card
+Main Street (pub)- 33 gil, Goblin card
+Pub- 27 gil, Potion, Flan Card
+Item Shop- 38 gil
+Square- Phoenix Pinion (wheelbarrow near gate); Goblin card, Fang card, Skeleton card (from ticket booth)
+Synthesist- Ether
+Residence (by the steeple)- 3 gil, Eye drops
+Steeple- Potion, Tent, moogle (Kupo); Ironite card, Fang card, Goblin card (up the ladder)
+ Mognet: from Kupo to Monty
+Rooftop- 29 gil, 63 gil, 92 gil
+
+Note:	When you run into rat kid a second time, you may refuse the his request in order to get the set of cards at the Steeple, then come back later for him. You cannot get them if you go there with him. And once you climb the Steeple with the rat kid you can't go back to town, so be ready.
+    When a stranger walks down the alley, he will mug you for 50 gil if you don't catch him when the field icon pops up. If you do catch him, you get a card tutorial.
+    Kupo is not at the Steeple until you go there with the rat kid.
+    There is a widespread false rumor that if you deliver this and all Mognet letters without throwing any away or missing any up to disk 3, you can do a certain side quest early, in disk 3. This is wrong; You cannot do it in disk 3. You can do it in disk 4 regardless of how many letters you delivered. (The quest will be mentioned at the appropriate time.)
+
+On card arrows: When you find or are given a card, the arrow arrangement on it is randomly determined. You can "reroll" the arrows until they are in a configuration to your liking by reloading your save and getting the card over again. You may want to do this when dealing with rare cards.
+
++++
+Mini game: Jump rope (Difficult)
+    Speak to the girls at the town square to play. You'll get rewards for jumping enough times. You only get each reward once. You can push the square button to jump to avoid wearing out your X button. (You can push either X or square at any field icon.) The rate changes after 20, 50, 100, 200 and 300 jumps.
+    You can play this mini game again but not till much later in the game.
+Jumps   Reward
+20      10 gil
+50      Cactuar card
+100     Genji card
+200     Alexandria card
+300     Tiger Racket card
+1000    King of Jump Ropes (key item)
+
++++
+Side quest: Help Tom (Easy)    Reward: Bomb card
+    Tom is at the docks by the steeple. After offering help, you must speak to Tom again so he can tell you what to look for. You can find it somewhere in town. When you are done, go all the way back to Tom for your reward.
+
++++
+Mini game: The duel (Difficult)
+    After Vivi's scenario and the mock battle, you must fight in the duel. There are 50 prompts to push a button or a direction. You are scored on whether you push the correct one and how fast you enter it. If you didn't make any mistakes but still scored below 100, you weren't quick enough. After the battle, you will receive gil as your reward, max of 10000 for the highest score. You will also receive an item later on:
+Score   Reward
+1-49    Ether
+50-79   Elixir
+80-99   Silk Shirt
+100     Moonstone
+
+    It's not hard to win the Silk Shirt, but it may take many tries to win the Moonstone, which is a rare item (but not very useful). If you are determined to get it, try resting your thumbs at the center of the D-pad and the buttons: this will cut your reation time, though you will be more likely to make mistakes.
++++
+
+///Alexandria Castle///
+Basic objective: Follow the trail.
+
+Treasures:
+Guardhouse- moogle (Mosh)
+ Mognet: *from Kupo to Mosh
+Note: Mognet letters that you can read but which you are not asked to deliver are marked with a "*".
+
+Note: You must return to the throne room to get your reward for the duel mini game. If you actually managed to get the Moonstone, there's no need to equip it now because there is no combat.
+
+Side quest: Find the knights (Easy)    Reward: Elixir
+     This side quest is available when you can freely explore the castle. If you find all the other knights (there is a roster in the guardhouse) you get an elixir from Breireicht in the west tower. The knight running around in hallway near the dining rooms is a little tricky to catch.
+
+///Prima Vista///
+
+Treasures:
+Engine Room- Phoenix Pinion, Phoenix Down (mess with the engine controls)
+
+Note: The Phoenix Pinion performs the same function as a Phoenix Down, except it can only be used in battle. The Pinion may not be bought until much later and allows a character to learn a certain skill. I recommend that you not blow your Phoenix Pinions when a Phoenix Down can do the same job.
+
+---
+Event battle on the Prima Vista
+Lv 1
+Type: Human
+HP/MP: 169/523
+Gil/AP: 0/0
+Weak: none
+Stolen items: Leather Hat, Silk Shirt
+Abilities: attack
+---
+
+///Evil Forest///
+Basic objective: Go searching in the forest. Now is a good time to check your equipment and abilities.
+
+On ability notes: I will give information that may not be obvious about new abilities as you encounter them.
+
+Ability note: Running away (L1+R1) is an ineffective way of getting out of battle. Your ability to run is dependent on the level difference between your party and the monsters, which means that it's not useful when you really need it. You may even get a preemptive strike against the enemy and still not be away to run before they start attacking. However, Flee (Dagger) always works to escape regular encounters, but you'll drop 1/10 of the gil that they would have left. The cost is well worth it to avoid annoying monsters that damage MP, afflict status ailments which you may have no protection against, or use instant kill abilities.
+    If you successfully run with L1+R1, Flee-Gil will get you 1/10 of the gil that they would have dropped.
+
+Treasures:
+Prima Vista- Phoenix Down (in the big heap), moogle (Mosco)
+
+Monsters: Goblin, Fang
+
+---
+Event battle 1 in the Evil Forest
+Lv 2
+HP/MP: 513/1083
+Gil/AP: 0/0
+Weak: Fire
+Steal: none
+Abilities: Right Stem, Left Stem, Absorb
+
+Event battle 2 in the Evil Forest
+HP/MP: 533/1186
+Gil/AP: 434/3
+Weak: Fire
+Steal: Broadsword, Leather Wrist
+Abilities: Right Stem, Left Stem, Absorb
+
+Note: If you fail to save the prisoner it's game over.
+---
+
+///Prima Vista///
+Basic Objective: Decide your course of action.
+
+Treasures:
+Bridge- Bronze Gloves
+Hallway (below bridge)- Wrist
+Cabin- 116 gil, Ether
+Hallway (left)- Ether
+Cargo Room- Rubber Helm
+Hallway (by the exit)- Leather Hat
+Meeting Rm- Potion
+
+---
+Event battle on the Prima Vista
+Lv 2
+Type: Human
+HP/MP: 202/1285
+Gil/AP: 0/0
+Steal: Hi-Potion, Iron Sword
+Weak: Fire
+---
+Ability note: The formula for calulating the damage of Minus Strike (Rubber Helm, Iron Sword) is:
+damage = (max HP) - (current HP)
+
+Treasures:
+Storage- Ether
+Hallway (by the exit)- (key item)
+
+Mognet: *from Ruby to Zidane
+
+///Evil Forest///
+Basic Objective: Go looking in the forest again.
+
+Treasures:
+Spring- free healing, moogle (Monty)
+ Mognet: from Kupo to Monty
+         *from Stiltzkin to Monty
+Moogle Flute, Continental Map (key items) (given at exit)
+On Mognet letters: In general you can't go back to get Mognet letters that you missed. The moogle just won't ask you to deliver it if you come back after advancing in the story.
+
+Monsters: Goblin, Fang
+Tip: If you are just going to use Zidane for stealing, you should put him in the back row. Zidane can eventually learn a useful ability that does damage based on how many times you've stolen. Also note that only ordinary items can be stolen from ordinary monsters (i.e., no equipment, with the exception of gems from monsters later in the game), though some of these items are not easily bought, like Ethers.
+
+---
+Boss in the Evil Forest
+Level: 7
+HP/MP: 916/1431
+Gil/AP: 468/5
+Steal: Eye Drops, Iron Helm
+Abilities: Right Tentacle, Thunder, Pollen, Left Tentacle
+Weak: Fire
+
+Tip: It's not to your advantage to issue commands to all four characters as soon as their ATB fills; the enemy will always take its turns regardless of how quickly you enter commands. Very fast enemies can act between every one of your actions, so it's more effective to attack with two or three power characters than to have everyone act. And it's also a good idea to leave at least one character standing ready to be a healer if necessary.
+---
+
+///Gunitas Basin///
+Basic Objective: Reach the cavern south of here.
+
+Monsters: Goblin, Mu, Python
+On back attacks: When you get back attacked, the row arrangement of your characters is reversed, back to front and front to back. Back row characters take half damage from, and deal half damage to, the enemy with physical attacks.
+
+Ability note: Panacea (Rod) only cures Poison and Venom.
+
+///North Gate (Melda Plains)///
+Note: This place is optional. You get extra dialogue if you come here.
+
+Treasures:
+Melda Arch- Potion, Eye Drops
+There's also something else if you examine the gate.
+
+///Ice Cavern///
+Basic Objective: Get to the other side.
+
+Monsters: Cave Imp, Flan
+Note: As you might have guessed, everything in here is weak against fire.
+Tip: You will get an encounter if you run into the blowing wind currents. If you want to avoid extra encounters, wait for the currents to subside before crossing.
+
+Treasures:
+Ice Path (1st screen)- Tent
+Ice Path (2nd screen)- Ether (behind the ice wall), Potion (around the platform)
+Ice Path (3rd screen)- Potion, Mage Masher (burn down the ramp), Elixir (behind the ice wall)
+Ice Path (4th screen)- Phoenix Down, Leather Wrist (behind ice wall)
+Cave (left from 5th screen)- Moogle (Mois)
+ Mognet: from Mois to Gumo
+Ice Path (7th screen, right from 5th screen and down the path)- boss battle
+
+Ability note: Detect (Mage Masher) presents stealable items in reverse order; i.e., the easiest steal is listed last.
+On Tents: Tents restore only 1/2 of every character's HP and MP. You may need to use two to restore completely. If used in battle, the tent restores 1/2 of the target's HP/MP but also inflicts Darkness/Silence/Poison 1/3 of the time. You can try this against troublesome bosses.
+---
+Boss battle in the Ice Cavern
+
+(Mage)
+Lv 2
+Type: Human
+HP/MP: 229/9,999
+Gil/AP: 134
+Steal: Remedy, Silk Shirt
+Weak: Fire, Ice
+Abilities: Blizzard, Fire, Hit
+
+(Monster)
+Lv 3
+Type: Flying
+HP/MP: 472, 9,999
+Steal: Ether, Mythril Dagger
+Weak: Fire
+Guard: Earth, Water
+Absorb: Ice
+Abilities: Wing, Blizzard, Tsunami, Blizzara
+
+Gil/AP: 339/5
+
+Note: Only Zidane fights in this battle.
+Tip: If you want to steal from them, start the battle in the back row, then move up when you're ready to fight. This is your first chance to get an item (Mythril Dagger) that teaches Bandit, an ability which increases Zidane's steal rate.
+On Trance: Zidane may Trance in this battle. Keep in mind that all of his Dyne abilities inflict non-elemental damage. When a character Trances, they do more damage with attacks, one of their commands changes, and they become immune to most status ailments. The number of actions you can perform during Trance is dependent on Spirit. Spirit also affects how quickly the gauge fills up. The meter does not decrease if you don't take actions during Trance.
+---
+
+///Nolrich Heights///
+Basic Objective: Reach the town in the distance.
+
+Monsters: Carve Spider, Mu, Python
+
++++
+Side quest: Friendly monsters (Irritating)    Reward: Lots of AP
+    You may encounter friendly monsters in certain areas. You'll know when you meet one because the battle music will be different. It doesn't attack, never has anything to steal, and cannot be killed. (If you attack it and chase it away you may encounter it again though.)
+    Each monster asks for some type of stone; if you give it, the monster will drop a lot of AP and mention the next monster in the sequence. (It will not mention the next monster's location, however.) If the next monster demands a stone other than Ores, you'll be given that stone. You need not meet them in the proper sequence, but I recommend it in order to more easily keep track of which ones you have encountered.
+    It may take many tries before you encounter the friendly monster, and not some regular monster. You may want to delay the encounter until you are ready to receive the AP. If you give all the monsters in the sequence what they ask for you get a special reward (mentioned later). The Friendly Monster appendix has all of the information tabulated.
+
+Friendly monster: (Nolrich Heights)
+Mu- asks for 1 Ore, gives 10 AP, Potion
+
+On Ores: Don't blow your Ores for healing. Try to hang onto them because toward the end of the game you can use them to get better items.
+
++++
+Side quest: Ragtime Mouse (Irritating)    Reward: Protect Ring
+    During your travels you will eventually encounter a monster called the Ragtime Mouse who asks you "pop quiz" questions about various trivia in the game. You can only meet him in forests, and the music is different during these encounters. It's the same as the friendly monster music, and like the friendly monsters you can't kill him.
+    He asks a total of 16 true-false questions, only one per encounter. You answer by attacking (or targeting any ability at) the True or False symbols. If you target the mouse, he will run away and the question doesn't count toward the total; i.e., he will ask the same question again in a later encounter. If you don't answer within the time limit it's counted as wrong. Once you answer all of them, and then encounter him a 17th time, you will receive the reward. For every correct answer you get some gil, and the mouse will tell you your current percentage correct. If you get every question right, you will also get a small amount of exp (23,852) and a fair sum of gil (59,630) after the 17th encounter. (More important, you still get the Protect Ring regardless of how many of the stupid questions you got right.)
+    The problem is actually encountering the mouse. The chance of randomly meeting him in a forest is quite low. There have been a number of tricks devised to increase the rate of encountering him (and not the regular monsters), the most effective of which is the baby steps method. In any forest, take tiny steps by just tapping the D-pad. You can facilitate this in a small forest by holding L1 or R1 and tapping up or down. Then let go of the controls before the battle music begins. It's time consuming but still far faster than the other methods. You can complete this quest any time there's a forest nearby.
+    I was going to give hints for the questions but they are so specific that it's impossible. I have, however, presented them in logical order, the order in which it is chronologically possible to learn the answer to each question. But the mouse doesn't ask them in any particular order. To reduce spoilage, the answer is given as a number; find the character corresponding to the number, counting from the beginning of the line. If it's a space, the answer is true. If it's any other character, false.
+
+The theater ship Prima Vista was built in Artania Shipyards. Answer: 8
+The 15th Lindblum war started in the year 1600.  Answer: 7
+"I Want to be Your Canary" was written by Lord Afon. Answer: 6
+Some Mus are friendly and don't attack. Answer: 9
+Lindblum Castle is larger than Alexandria Castle. Answer: 9
+Bobo Bird is a bird that brings you fortune. Answer: 7
+ Note: The mouse is actually wrong about that one.
+Lindblum’s Air Cabs operate around the clock. Answer: 11
+Chocobo forest is located between Lindblum and South Gate. Answer: 8
+Theater Ship Prima Vista uses Mist as its source of energy. Answer: 8
+Berkmea Cable Cars have been running for 8 years. Answer: 8
+Treno's Cafe, Card Carta, is members-only. Answer: 8
+Fossil Roo is a tunnel that connects Treno and Alexandria. Answer: 6
+Conde Petie is a village of Goblins. Answer: 7
+Only one desert exists in the entire world. Answer: 10
+Prima Vista means Love at First Sight. Answer: 11
+You can defeat Ragtimer. Answer: 8
+
+The gil you get for each successive correct answer is:
+1-3: 1000, 1000, 1000
+4-5: 2000, 2000
+6-7: 3000, 3000, and the pattern continues until
+15-16: 7000, 10000
+Remember, you get nothing for a wrong answer.
++++
+
+///Dali///
+Basic Objective: Explore the village and round everyone up.
+
+ATE: You are shown a choice of two ATEs but you can only watch one; to see the other you have to move to another screen. Typically this is how it works when there are multiple ATE paths to follow. From now on I will only mention ATEs when there is a chance you could miss one or they involve treasure.
+
+Treasures:
+Inn (bedroom)- Potion, Antidote
+Village Road- 120 gil
+Field- there is a chest here you can't reach now
+Windmill 1F- Aries (key item), there is a door here you can't open now
+Windmill 2F- two unreachable chests
+Mayor's house- you can't explore here now
+
+Moogle: Gumo (Inn)
+Mognet: from Mois to Gumo
+
+New equipment:
+Feather Hat        200 gil
+
+Ability note: Add Status (Feather Hat) works much less than half the time; i.e., when you hit a target while using Add Status and an appropriate weapon, usually the effect is not added.
+On gil: Gil is plentiful. It is not necessary to sell equipment to help pay for new equipment if you are fighting a reasonable amount of random encounters. Furthermore, your old equipment can find use as components in systhesized items, so hanging onto it couldn't hurt.
+On new equipment: The purpose of marking new equipment is so that you know where to find it if you want to go back and buy it. You can also use this information to cross reference it in another FAQ. I will mark equipment as new if it is the first opportunity to buy it and it is not found in any previous dungeon; I will still mark it as new if it could have been found by stealing or from a side quest. If it is possible to get the treasure by some other means soon afterward (e.g., stealing), I will make this clear so that miserly players can avoid the expenditure.
+
+Dali undergound
+Main Objective: Search for the missing character.
+
+Treasures:
+Entrance (of underground)- 156 gil
+Underground- Potion, Eye Drops
+Storage Area (1st screen)- Potion, Ether, moogle (Kumop)
+ Mognet: from Kumop to Mogki
+Storage Area (2nd screen)- Leather Wrist, Iron Helm
+Production Area- 95 gil
+ Note: Once you open the wooden doors, you will have an encounter, and there will be random encounters down here.
+ Monsters: Ghost
+ Tip: Ghosts are undead. That means you can use curative and life magic against them. But you already knew that.
+Underground (behind wooden doors)- Phoenix Down, Potion, Phoenix Pinion
+Base (of mountain)- 135 gil, Hi-potion
+
+Ability note: Level Up (Iron Helm) gives the character 50% more exp. I recommend that all characters who learn it should use it. (except Zidane if his stones are more needed elsewhere; or if you don't want his level much higher than the others')
+---
+Boss at Dali
+Lv 6
+Type: Human/Flying
+HP/MP: 1,030/3,017
+Gil/AP: 441/5
+Steal: Steepled Hat, Leather Plate
+Abilities: Fire, Blizzard, Thunder, Fira, Blizzara, Thundara, Osmose, Teleport, Hypnotize
+Weak: Wind
+Guard: Earth
+
+Tip: This boss counters black magic by returning it. You could just use sword magic.
+---
+
+Side quest: Help Morrid (Easy)    Reward: Mini Theater Ship
+    If you don't get on the cargo ship just yet, you can visit the old man living at the observatory mountain. Here you can agree to bring him three particular key items. This is your only chance to undertake this quest, but you won't be able to complete it for a long time.
+
+///Cargo Ship///
+Basic objective: Go to the bridge.
+
+---
+Boss fight on the cargo ship
+Lv 7
+Type: Human/Flying
+HP/MP: 1,128/2,080
+Gil/AP: 0/0
+Steal: Steepled Hat, Linen Cuirass, Silver Gloves
+Abilities: Hit, Fire, Blizzard, Thundara
+Weak: Wind        Guard: Earth
+
+On Focus: Vivi's Focus increases his magic power. The effect lasts the rest of the battle, even if he get's KO'ed. You can focus multiple times for a cumulative effect.
+---
+
+///Lindblum///
+Basic objective: Head to the elevator. But first, if you head right at the fountain you can get some treasure. Then explore the town, and return to the castle.
+
+Treasures: (Castle)
+Guest Room- Glass Armlet, Ether, moogle (Mogki)
+ Mognet: from Kumop to Mogki
+         from Mogki to Atla
+
+(Business District)
+Inn (upstairs)- moogle (Moodon)
+Mognet: *from Ruby to Zidane
+Inn (downstairs)- 163 gil
+Residence- Hi-Potion, Echo Screen
+Church Street- Tent
+Church- Leather Plate
+B.D. Station- ATE leads to Kupo Nut (key item)
+
+(Theater District)
+Hideout- 282 gil, 68 gil, 97 gil, Mini-Burmecia (key item)
+Studio- Ore; Moogle suit (key item), Autograph (key item) (after the scene at the theater)
+
+(Industrial District)
+Industrial Way- Bronze Vest
+Residence- Mimic card, Steepled Hat
+
+New Equipment (weapon shop):
+Headgear          330 gil
+Silver Gloves     720 (if you didn't steal them from the last boss)
+Steepled Hat      260 (if you didn't steal from either of the last two bosses)
+Javelin and Fork (not usable yet; you'll get one of each soon)
+
+New Equipment (synthesist):
+Butterfly Sword   300 gil
+The Ogre          700
+Cotton Robe      1000 (can find one soon)
+Desert Boots      300
+Yellow Scarf      400
+Glass Buckle      500
+
+Ability note: Cover (Linen Cuirass) is pretty worthless (along with Protect Girls) because they only work against physical attacks.
+    What's That?! (Butterfly Sword) causes the enemy to turn their backs. This allows you to do extra damage with physical attacks. However, it doesn't deter them from taking their next move, which means you'll have to hit them fast to benefit from it. It is not helpful for stealing or for running away.
+    Soul Blade (The Ogre) inflicts the status effect of the thief sword and always succeeds against a target with no protection against it. It is extremely useful, especially with some of the weapons you get later.
+    Millionaire (Yellow Scarf) gets you 50% extra gil after battle.
+Tip: You should do your shopping now because when the next scenario starts, you won't have an opportunity. I recommend getting at least The Ogre and a Yellow Scarf. Glass Armlets will also be useful a little later on.
+
++++
+Mini Game: Festival of the Hunt
+Reward: Master Hunter (key item), and 5000 gil, Coral Ring, or Theater Ship card
+    There are monsters set loose in town; killing them nets you points. You're competing with other hunters to get the highest score within 12 minutes.
+
+The approximate point values for the monsters are:
+Monster        Points
+Mu             10
+Trick Sparrow  10
+Fang           20
+Zaghnol        75
+
+In each district you can fight:
+Theater District       2 Trick Sparrows, 1 Mu, 1 Fang
+Industrial District    3 Mu's, 1 Fang
+Business District      1 Trick Sparrow, 1 Mu, 3 Fangs, 1 Zaghnol
+
+    Beast Killer (Leather Wrist) and Bird Killer (Yellow Scarf) abilities and The Ogre sword are useful for killing the monsters quickly. The regular monsters don't have anything to steal and give no awards for killing them other than their point values. The Zaghnol does not appear until there is only 4:30 left. When you fight him, Freya will show up to help. She starts the battle in the back row. You can steal Mythril Gloves and a Needle Fork from the Zaghnol. The Silk Shirt is useful for surviving the Zaghnol's lightning.
+    Zidane, Freya, or Vivi may win the contest; None of those other hunters ever win. Zidane will win (reward: 5000 gil) by earning more points than Freya and not getting KO'ed. Killing the Zaghnol helps but is not necessary; He can win by killing everything else. Freya will win (Coral Ring) by default if Zidane doesn't score enough points or gets KO'ed. Vivi will win (Theater Ship card) if both Freya and Zidane get KO'ed in the Zaghnol fight. (Freya must bite the dust first or else she wins.) The Coral Ring is probably the most useful reward of these three. You also get the Master Hunter key item regardless of who wins.
++++
+
+After the Hunt
+Basic objective: Exit through the Dragon's Gate.
+
+Treasures:
+Serpent's Gate- Wyerd card
+Dragon's Gate- Tent, moogle (Moonte)
+Mognet: *from Stiltzkin to Moonte
+
+///Eunorus Plains///
+Basic objective: Head north to the cavern. There are some side quests you can take on now.
+
+Monsters: Hedgehog Pie, Ladybug, Serpion, Vice, Clipper (Lachenta Wetland)
+
++++
+Side quest: Qu's Marsh        Reward: new character
+    If you head north from Dragon's gate you'll run into Qu's Marsh. Head north in the marsh and you'll have to option of getting a new character. If you don't get him now, you'll get him in disk 2. You can do it now so he starts learning new abilities sooner, or later so your three characters get more exp. from battles now.
+Monsters: Gigan Toad, Clipper
+
+Side quest: Catching frogs
+    If you got Quina, you can catch frogs at this marsh. You will get rewards for catching frogs, and the number of frogs caught also increases the power of Quina's Frog Drop ability. Increasing the TV contrast may help you distinguish males (yellow legs) from females (red). The frog population always regenerates to its maximum of 8, but the process is very slow if you caught all the frogs. An adult male and female breeding pair will reproduce at a steady rate, and much more quickly if a Golden frog is present with them. There's not much point to leaving the babies if there's already a breeding pair.
+    Note that there are four Qu's Marshes all over the world, each with its own frog pond (but none of with any treasure). Before proceeding, I recommend you catch five frogs, leaving a breeding pair and the Golden frog, then kill some time (with other side quests). Come back after at least one more is born, and catch four more frogs to get the useful Silk Robe.
+
+Frogs caught   Reward
+           2   Ore
+           5   Ether
+           9   Silk Robe
+          15   Elixir
+          23   Silver Fork
+          33   Bistro Fork
+          45   Battle Boots
+          99   Gastro Fork
+
+Blue Magic: Quina learns blue magic abilities by using the Eat command on monsters that teach the ability (not by suffering the attack). Eat only works on monsters that can teach blue magic; it has no effect on monsters that teach nothing. Furthermore, Eat is only effective when the target is at 1/4 HP or less. (1/2 or less if Quina is Tranced) You may Eat monsters that you've already learned magic from, though it won't do anything for you (besides killing the enemy). Every blue magic ability may be learned from more than one type of monster. I will notify you at the first opportunity to learn each one.
+
+New blue magic: Frog Drop (Gigan Toad, Qu's Marsh), Aqua Breath, (Axolotl, Qu's Marsh or Clipper, Lachenta Wetlands), Mighty Guard (Serpion, Eunorus Plains), Pumpkin Head (Hedgehog Pie or Lady Bug, Eunorus Plains), Limit Glove (Axe Beak, Lindblum Plateau), LV3 Def Less (Carve Spider, Lindblum Plateau)
+
+Ability note: Aqua Breath misses often.
+    The Frog Drop ability is worthless now, but if you get Quina's level high and you've caught a lot of frogs, it will be a reliable attack because it never misses and is not subject to defense or magic defense. The formula for calculating the damage is:
+Damage = (Quina's level) x (number of frogs caught)
+    The formula for calculating the damage of Pumpkin Head is:
+damage = (max HP) - (current HP).
++++
+
+Mini game: Chocobo Hot and Cold    Reward: lots of treasure
+    If you head east from Dragon's Gate you'll reach Chocobo's forest. The moogle will explain a lot of things to you. Follow his instructions and you can play the game. Keep in mind that finding treasure is pretty hard at this point because your chocobo's beak level starts at 1. As you earn points the beak level will increase; the points are like exp. for Choco's beak. This makes the peck animation faster and allows him to dig deeper with each peck. As you accumulate points you can trade them in for items. All of the items that Mene offers can be found elsewhere. There are two other locations in the world where you can play Chocobo Hot and Cold. These will be mentioned when they become accessible.
+    You can also pay gil for Gysahl Greens here, which you use to call Choco from chocobo tracks on the world map. But I don't recommend buying them because you will dig up plenty as you play the mini game.
+
+Side quest: Chocobo treasure hunting    Reward: lots of treasure
+    As you play Chocobo Hot and Cold you will find Chocographs, which Mene will explain to you. At this point it is possible to find nine of them. Numbering them from top to bottom, you can find 1-6, 8, 10 and 11. Mene will tell you when you can't find any more. As for the Chocograph pieces, they will be important later. Of these nine, you can actually reach 1 and 2 on the world map right now. When accessing the Chocograph menu, note that you can get an extra hint from the help moogle (hit select).
+
+On hints: Before a puzzle I will give the estimated difficulty and the number of hints available. Hints are spaced an extra line apart to avoid spoilage. After the last hint the solution will be given.
+
+Chocograph 1 (Easy- 3 hints)
+
+Hint 1: There's only one river here.
+
+Hint 2: Note the bridge in the picture.
+
+Hint 3: The perspective in the Chocograph picture is facing northwest.
+
+Solution: You really are hopeless if you can't find it. This one is a piece of cake. It's west of the river mouth.
+
+Ability note: Alert (Cotton Robe) is very useful. I recommend you use it anytime you expect encounters.
+
+Chocograph 2 (Easy- 3 hints)
+
+Hint 1: The hint says southwest. Try walking all the way west then south.
+
+Hint 2: The picture doesn't show it, but just beyond the green in the center is ocean.
+
+Hint 3: The perspective in the Chocograph picture is facing south.
+
+Solution: From the beach at the west coast, go south and follow the path to a dead end between the mountains.
+
+Ability note: Chemist doubles the effectiveness of Potions, Hi-Potions and Ethers.
+Note: To clear the Chocograph picture from above the world map overlay, select Cancel in the Chocograph menu.
++++
+
+///South Gate (King Ed Plains)///
+Note: This place is optional.
+Treasure:
+Bohden Arch- Moccha Coffee (key item), free healing
+
+Tip: If you park your chocobo too close to locations on the world map, you may have trouble getting back on; When you push X, Zidane will enter the location instead. You can deal with this by making sure you're directly facing Choco and standing as close to him as possible, but it's easier to just prevent this by parking farther away.
+
+///Pinnacle Rocks (Lindblum Plateau)///
+Note: This place is optional.
+Treasure:
+Entry- Elixir, Phoenix Down
+
+///Gizamaluke's Grotto///
+Basic objective: Get to the other side. Once you enter here Lindblum will be closed off. Remember you can go back to South Gate if you need healing.
+
+Monsters: Hornet, Skeleton, Lamia, Type A (event battle)
+New blue magic: LV 3 Def Less (Lamia, if you didn't get it from a Carve Spider)
+
+Treasures:
+Bell Room- Mythril Gloves (curving stairs), Magus Hat (under bridge)
+ Note: After entering the Bell Room, you can go back to the first screen of the dungeon and get another bell. This is important if you manage to lock yourself out of the moogle room.
+Cavern- moogle (Mogmi), exit to Popos Heights
+Mognet: *from Moodon to Mogmi
+Note: You can climb up the vines in the moogle room to fight lv 35 Garudas and lv 60 Grand Dragons if that's your thing. If you insist on it now, the Coral Ring from the festival will be handy.
+
+---
+Boss at Gizamaluke's Grotto
+Lv 16
+Type: Flying
+HP/MP: 3,175/502
+Gil/AP: 800/5
+Steal: Elixir, Magus Hat, Ice Staff
+Abilities: Crash, Water, Silent Voice
+Weak: Thunder, Wind    Half: Water        Guard: Earth
+
+Tip: Your party will take less damage from Crash in the back row, and Glass Armlets help against the water. Remember that Jump damage is independent of row arrangement. Loudmouth (Silk Robe) prevents the effect of Silent Voice. He casts Water on all members only when you've really pissed him off, so if you want to steal you should do it before trying to kill him. The Ice Staff is a good steal.
+---
+
+///South Gate Grand Citadel///
+Basic objective: Pass through the gate. There's no combat and you are about to jump back to your other crew so there's no need to tweak your equipment.
+Note: If you make the wrong dialogue choices Steiner gets corrected with a kick to the back. In the alley you get a brief extra scene if you choose to go over to the other side.
+
+Treasures:
+Bohden Sta. (first screen)- There's a chest you can't reach yet; Gate Pass (key item)
+Bohden Sta. (second screen)- Potion, moogle (Grimo)
+ Mognet: from Grimo to Nazna
+
+///Daines-horse Basin///
+Basic objective: Head toward Burmecia. But you can take a detour for some treasure first.
+
+Monsters: Lizard Man, Nymph (uncommon encounter), Skeleton, Yeti, Sand Scorpion (Vube Desert)
+New blue magic: Night (Nymph)
+
+///North Gate (Daines-horse Basin)///
+Note: This place is optional. You get extra dialogue if you come here.
+
+Treasures:
+Burm. Arch- Tent, Hi-Potion
+
++++
+Chocograph 4 (Easy- 3 hints)
+
+Hint 1: To get started, there are chocobo tracks far to the northwest, near a beach.
+
+Hint 2: The treasure is close to the tracks. Really close.
+
+Hint 3: The beach in the chocograph picture is the same beach near the tracks.
+
+Solution: The treasure is on the beach of the Eesistern Coast northwest of Cleyra.
+
+Once you get this treasure (and only then), you can get treasures 10 and 11 if you go back through Gizamaluke's Grotto. The journey is a little easier since you can ride Choco back to the grotto.
+
+Chocograph 10 (Medium- 3 hints)
+
+Hint 1: The perspective in the picture is facing east.
+
+Hint 2: The treasure isn't actually on the island you see in the picture. Notice there's no beach in the picture.
+
+Hint 3: It's one of the islands to the west of the continent, not the south.
+
+Solution: The treasure is in the shallows to the west of the triangular island at the western end of the bay.
+
+Chocograph 11 (Medium- 3 hints)
+
+Hint 1: The perspective in the picture is facing northwest.
+
+Hint 2: That big thing in the picture is an island. The thing in the distance is the mainland.
+
+Hint 3: It's one of the islands to the south of the continent, not the west.
+
+Solution: The treasure is on the beach of the westmost island (Lanshake Island) in the bay south of the continent.
+
+As you're heading back to Burmecia, remember that you can get an extra bell from the first screen of the grotto if you haven't already.
++++
+
+///Burmecia///
+Basic objective: Get to the palace.
+
+Monsters: Basilisk, Ironite, Magic Vice, Mimic (in residence), Type A (event battle)
+New blue magic: Angel's Snack (Ironite), Magic Hammer (Magic Vice)
+Ability note: Magic Hammer can take away all of a targets MP within a few casts. It doesn't actually steal the MP though.
+
+Treasures:
+Suburb (first screen)- Cancer (key item)
+ Tip: You'll need to enter the house on right side before you can get anywhere on the left side.
+Residence (right entrance)- Soft
+Residence (left entrance)- Germinas Boots (walk, don't run, across upper balcony), Soft, Potion
+Residence (Bedroom) (run, don't walk, across upper balcony at left entrance)- Protection Bell (key item), Ether
+Uptown Area (left entrance)- Tent, Phoenix Down
+Armory- Mythril Spear
+Vault- Lightning Staff, moogle (Atla), Stiltzin
+
+Mognet: from Mogki to Atla (Kupo Nut reward)
+        from Atla to Monev
+Note: When you get a Kupo Nut, you can bring it back to Moguta in Gizamaluke's Grotto for a reward, the first one for an Elixir, then a Tent or Ether for each one after that. At certain times (which will be mentioned) he will give better rewards.
+
+Stiltzkin item set 1: Soft, Hi-Potion, Ether for 333 gil
+Note: On a number of occasions Stiltzkin will show up and offer to sell you a set of three items. The items are well worth the asking price, and if you buy from him every time you will get a good item in disc 4. In some situations you have only one chance to buy from him before he disappears.
+
+New equipment: (Mogshop)
+Needle Fork   3100 (if you didn't steal it at the Festival)
+Barbut        600
+
+---
+Boss at Burmecia
+Lv 14
+Type: Human
+HP/MP: 3,630/3,467
+Gil/AP: 0/0
+Steal: Phoenix Down, Chain Plate, (none), Mythril Sword
+Abilities: attack, Thunder Slash, Shock, Stock Break
+Weak: none
+
+Tip: You don't have to lift a finger in this battle. You just have to survive for a number of rounds. This means you can focus on playing defensive if you want. (e.g., back row, Reis' Wind, stealing) Note that the Mythril Sword is a 1/256 steal; i.e., it's really hard to steal. (base 0.39% chance of success)
+Note: You will switch to the other party after this battle. And this boss gives no AP. Therefore you should remove important equipment before the battle (like the Silk Robe, if you got it).
+---
+
+***Disk 2***
+
+///South Gate Summit Station///
+Basic objective: Take the train heading to Alexandria.
+
+Treasures:
+Rest Stop- Phoenix Down, store, moogle (Nazna)
+ Mognet: from Grimo to Nazna
+         from Nazna to Mochos
+
+New Equipment: (weapon shop)
+Air Racket      400 gil
+Mythril Rod     560
+
+---
+Boss at South Gate
+Lv 9
+Type:  Human
+HP/MP: 1,272/344
+Gil/AP:   864/5
+Steal: Steepled Hat, Lightning Staff, Flame Staff
+Abilities: Hit, Fire, Blizzard, Thunder, Freeze
+Weak: none
+
+Note: Your new ally is even worse at stealing than Zidane. You'll be able to buy those staffs soon enough.
+Tip: If you allow Steiner to get messed up a bit, Minus Strike works well. There's nothing you can do at this point to prevent the Freeze.
+---
+
+After the battle
+Main Objective: Turn right to go to Treno. But if you turn left and visit Dali you can get the chest in the field where the old lady was.
+
+Treasure:
+Bridge (at South Gate)- 1610 gil
+Field (at Dali)- Elixir (This is your only chance to reach this chest)
+
+Bentini Heights
+Monsters: Carve Spider, Ghost, Trick Sparrow, Mandragora (forest)
+
+Friendly monster: (Bentini Heights)
+Ghost- asks for 1 Ore, gives 10 AP, Hi-Potion
+
+///Treno///
+Basic objective: Round up your party and get the item.
+
+ATE: There are two ATE paths for each of the two other characters. If you want to see every ATE scene, you should pick one and follow it to completion (actually follow the character through the city) before starting the other.
+"Treno Tradition"- If you hit the button at the field icon you lose 500 gil instead of 1000 gil.
+
+Treasure:
+Gate- Gemini (key item) (drop coins in the fountain 13 times)
+Walkway (left from Gate)- Mythril Dagger
+Bishop's House- Power Belt (only if you saw "Treno Tradition")
+Knight's House- moogle (Mogrich)
+ Mognet: *from Stiltzkin to Mogrich
+Queen's House- Ether (in the water at left)
+King's House- 2225 gil (left of the door)
+Slums- Yeti card, 1 gil, Taurus (key item)
+Tot Residence- (key item)
+
+Ability note: Counter (Power Belt) only works in response to physical attacks. Its activation rate is affected by Spirit, but you'll find it doesn't activate often. Attacks from party members will not activate it.
+    MP attack (Power Belt) takes 1/8 of a character's max MP to do about 50% extra damage with regular attacks. It's usually worth the cost.
+ATE: After Tot invites you to go down the ladder, instead exit the tower (return to the Walkway). You'll then get to see "Crime and Punishment."
+
+New equipment: (weapon shop)
+Flame Staff        1100 gil
+Ice Staff           980
+Lightning Staff    1200
+Mythril Sword      1300 (if you didn't steal it at Burmecia)
+Bone Wrist          330 (can steal one soon)
+Bandana             500
+Chain Mail         1200
+
+New Equipment: (synthesist)
+Chachusa           1000 gil
+Coral Ring         1200 (if you didn't win it at the festival)
+Gold Choker        1300
+
+Ability note: This is your first chance to learn Ability Up, from the Chachusa. I don't need to tell you how useful it is.
+    The second level ("-ara") elemental and curative spells are far more effective than their level one counterparts. They are also more cost effective in terms of MP.
+    Physical, but not magic attacks will not cause targets affected by Sleep (Flame Staff) to wake up.
+
++++
+Mini game: The Auction house
+    Inside King's house you can buy various treasures, both key items and equipment, at the auction. Some of these you won't be able to otherwise get for a long time. The straightforward way to win the bidding is just to wait until the item is about to be sold, then increment 100 gil. If you are impatient you can bid a little under what you expect it to sell for, then wait for the others to quiet down and increment. Note that if somebody else buys an item at the auction it will still be available if you return later.  You will have to buy some items to get others to appear. For example the Pearl Rouge doesn't appear till you've bought the Reflect Ring.
+    Some people in town offer to buy the key items. You can turn a small profit this way, but you can only sell each item once. (Then they will reappear at the auction.) As for the equipment, I recommend you get the Reflect Ring (~16000 gil) and Pearl Rouge (~15000), if you can afford them. They are both useful items. The price of the Reflect Ring here is not much more than the total cost you'd pay to get it and its components synthesized when it becomes available from synthesists much later. The Pearl Rouge is expensive but you'd otherwise have to give up a rare Moonstone to synthesize one.
+
+Buyer:     Location:     Key item:          Final offer:
+Scholar    Synthesist    Doga's Artifact    10000 gil
+Noble      Cafe          Une’s Mirror       15000
+Red Mage   Cafe          Griffin’s Heart    10000
+                     and Rat Tail           25000
+
++++
+Side quest: The Stellazzios
+    Now you can trade in those coins you've been collecting for real treasure. So far we've run into Aries, Cancer, Gemini, and Taurus. Turn them in at Queen's House for 1000 gil, Phoenix Pinion, 2000 gil, and a Blood Sword. The treasures you get depend on how many coins you've given, not which coins you give. If you've gotten the four above and also get Scorpio from the cave east of here (see below) you can trade it in for 5000 gil.
+
+Ability note: Darkside costs 1/8 of the character's HP and does shadow damage. It hits harder than a regular attack, and like all sword techniques, does equal damage in the front or back row.
+
++++
+Side quest: Knight's house (Medium)        Reward: Tonberry card
+    You can ask to fight the Griffin in the weapon shop with one character. If you use Steiner and give him the Blood Sword, Bird Killer, and MP Attack (Power Belt), you should be able to kill it in two hits. If you use Counter (Power Belt), possibly just one hit.  There's a reasonable chance you can do it before he slaughters you with Aero or Aera. If you lose, you can just heal and try again. It may take a few tries. Auto-Reflect does not work on the air spells. You get no AP or anything besides the card. The next time you come back to Treno the monster will be different whether or not you beat the griffin.
+
+Lv 16
+Type: Flying
+HP/MP: 1470/602
+Gil/AP: none for this battle
+Steal: Ore
+Weak: Wind    Guard: Earth
+Abilities: Tail, Aero, Aera, White Wind
+
+    If you missed out on the Blood Sword because you missed a Stellazzio, you can still make up for it. You can actually walk back to Dali right now and get Aries. If you missed Cancer you can go to the cave east to Treno to get another Stellazzio.
++++
+
+///Cave east of Treno///
+Note: This place is optional. It's not really worth the trouble to come out here unless you missed the Cancer Stellazzio. There's a side quest here later.
+
+Treasure:
+Cave (1st screen)- Ether (2), Scorpio (key item), free healing
+Cave (2nd screen)- Ether
+Back in Treno...
+
+///Gargan Roo///
+Basic objective: Get to Alexandria.
+
+Monsters: Crawler, Dragonfly
+
+Treasures:
+Entrance- moogle (Mochos)
+Passage (left of entrance)- Chain Plate, Phoenix Down, lever
+Mognet: from Nazna to Mochos
+
+---
+Boss at Gargan Roo
+Lv 13
+Type: none
+HP/MP: 2,296/3,649
+Gil/AP:   0/0
+Steal: Bone Wrist, Mythril Fork
+Weak: Ice
+Abilities: Devil’s Kiss, Blizzara, String, Night, Escape
+
+Tip: Devil's Kiss poisons. Antibody is useful.
+Note: You switch back to your other party after this, so you might want to leave some of your new equipment available for them. This battle doesn't give any AP anyway.
+---
+
+///Cleyra///
+Basic objective: Get to the top.
+
+Monsters: Carrion Worm (inside), Sand Golem (inside), Dragonfly, Zuu (outside)
+New blue magic: Auto-Life (Carrion Worm), Matra Magic (Dragonfly), White Wind (Zuu)
+Ability note: Matra Magic is helpful for learning blue magic, if you can get it to work.
+    Quina's Night spell will put to sleep all allies and monsters in the battle who don't have sleep immunity, but at this point some or all of your party members probably have Insomniac learned. The Night trick is very potent; you can do horrible things to the enemy while they are sleeping, then cast Night again when they wake up.
+
+Treasures:
+Tree Trunk (1st screen, not Tree Roots)- Phoenix Down
+Tree Trunk (2nd screen)- Magician Shoes (behind root), Ice Staff (behind leaves)
+Note: After flooding this room, you'll see a couple of chests you can't reach yet.
+Tree Trunk (4th screen)- Ether
+Tree Trunk (5th screen)- Needle Fork, Tent, moogle (Monev)
+Mognet: from Atla to Monev
+Tree Trunk (6th screen)- Flame Staff
+Tree Trunk (8th screen)- Remedy, Mythril Vest (in hole), Desert Boots (behind root)
+Tree Trunk (9th screen)- Mythril Gloves (chest on right side), Potion (chest on left side)
+Tree Trunk (10th screen)- lever (on right side), Elixir (on left side)
+Tree Trunk (11th screen: left path from 8th screen, then left path from 9th screen)- Hi-Potion, 900 gil
+Note: If you get sucked to the bottom you have to fight a Sand Scorpion
+Tree Trunk (13th screen)- Gysahl Greens (behind ladder)
+
+Ability note: Clear Headed (Magician Shoes) prevents Confuse but not Berserk. There is no way to prevent Berserk; not even Trance prevents it.
+    Auto-Potion (Mythril Vest) uses a Potion (from your inventory) whenever the character takes damage. It uses a Hi-Potion if there are no Potions. You'll find that this ability makes encounters last a lot longer, so you may want to reserve it just for boss battles. It works better with Chemist.
+
+Tip: Before entering town, you won't regret it if you put everyone in the back row and give them Bright Eyes if they have it. You won't have an opportunity to prepare all your characters before the next boss battle.
+
+///Cleyra Settlement///
+Basic objective: Go to the building at the top.
+
+Treasure:
+Sandpit- 970 gil
+Entrance- Phoenix Pinion (hidden between first and second set of stairs)
+Water Mill Area- Thunder Gloves
+Windmill Area- Phoenix Pinion
+Town Area- Ore (lower right of screen), Remedy (stairs right of inn)
+Inn- Echo Screen, 1250 gil, Ether, moogle (Mopli)
+Mognet: *from Ruby to Zidane
+Cathedral (outside)- Gysahl Greens, Echo Screen
+Cathedral (inside)- Yellow Scarf (behind left doorpost)
+
+New Equipment:
+Partisan         1600 gil
+Multina Racket    750
+Mythril Armlet    500
+Mage's Hat        600
+Mythril Helm     1000
+Mythril Armor    1830
+
+Extra Treasure:
+    If you watch all of Quina's ATEs, you can return to the Sandpit to find him. You'll get a Silk Robe and Magician Shoes out of this. This is your only chance to reach these treasures.
+
+---
+Boss at Cleyra
+Lv 16
+Type: none
+HP/MP: 3,938/3,950
+Gil/AP: 1,616/5
+Steal: Annoyntment, Mythril Vest, Gold Helmet
+Weak: Ice    Absorb: Water
+Abilities: Trouble Mucus, Fira, Sandstorm
+
+Note: You automatically get free healing before the battle starts.
+Tip: Slow is very effective and White Wind will come in handy if you got it. If Sandstorm happens to bring Quina to 1 HP you can punish the hell out of this boss with Limit Glove.
+---
+
+Basic objective after the battle: Return to the town entrance. You can get some treasure first.
+
+Treasure:
+Inn- moogle (Monev), Stiltzkin
+ Mognet: *from Monev to Mopli
+ Stiltzkin item set 2: Hi-Potion, Ether, Phoenix Pinion for 444 gil
+Cathedral (inner room)- Emerald, Ether, Ore, Phoenix Pinion
+
+Ability note: White Draw (Emerald) restores the MP of all members, but it doesn't reduce the target's MP.
+
+Cleyra Trunk
+Basic objective: Investigate the disturbance.
+
+Monsters: Soldier
+No random encounters.
+
+Cleyra Settlement
+Basic objective: Head for the cathedral.
+Sandpit: moogle (Mopli)
+Mognet: from Mopli to Serino
+Note: Once you head up the stairs you can't go back to save.
+
+Monsters: Soldier, Type B
+No random encounters. In this part you have to save the villagers. Basically you have to decide which way for them to run. If you choose wrong, people die. If you choose right you'll get some extra treasure. Since the game gives you no clue about what you should do, I'll just tell you the right way.
+Water Mill Area: Go right
+Town Area: Go left
+Windmill Area: Go right.
+Observation Area: Either decision.
+
+Treasure: (assuming you saved everybody)
+Cathedral- Phoenix Pinion, Ether, Elixir, Zuu card, Nymph card, Remedy, Phoenix Down, moogle (Mopli)
+
+---
+Boss battle at Cleyra
+Lv 17
+Type: Human
+HP/MP: 4,736/3,694
+Gil/AP:   0/0
+Steal: Phoenix Down, Thunder Gloves, Ice Brand
+Abilities: attack, Cure, Thunder Slash, Shock, Stock Break
+Weak: none
+
+Tip: As before, you only need to survive for a number of rounds. You don't actually need to do any damage.
+Note: After this Quina will leave for awhile and there's no AP so you probably should take any good stuff off him.
+---
+Basic objective after the battle: Get back to Alexandria castle.
+
+moogle (Serino)
+Mognet: from Mopli to Serino
+        from Serino to Moodon
+
+///Alexandria Castle///
+Basic objective: Escape, then head to the left.
+
+Monsters: Soldier
+No random encounters. You can avoid fighting entirely by jinking them out, if you're good.
+Note: Once you exit this screen, Marcus leaves. You're gonna be pissed if he is wearing your good equipment.
+
+Basic objective after the escape: Get to your destination and fight a boss within 30 minutes. This is plenty of time if you don't screw around.
+Tip: The scholars in the library will give you clues.
+
+Monsters: Soldier
+Note: As before, you can avoid them if you're quick.
+
++++
+Side quest: Forbidden book
+    There is a special boss which is probably too tough to beat at this point. To try it, look for the book in the library on the left side of the castle. I'm not kidding when I say it's hard. You will have another chance to fight this boss, when your characters are more prepared for it and there's no time limit to worry about. Skip ahead to "Side quest: Forbidden book" in disk 3 if you insist on it now.
++++
+
+Treasure:
+Staircase (going downstairs after the Royal Camber)- Tent, Ice Brand
+
+---
+Boss at Alexandria
+(Blue)
+Lv 16
+Type: Human
+HP/MP: 4,896/9,999
+Gil/AP: 0
+Weak: none
+Steal: Partisan, Stardust Rod
+Abilities: Meteorite
+
+(Red)
+Lv 16
+Type: Human
+HP/MP: 2,984/9,999
+Weak: none
+Steal: Mythril Armor, Mythril Armlet
+Abilities: Light Flare
+
+Gil/AP: 0/0
+
+Tip: When one of them is charging up you can cancel it by hitting him with anything. Beating either one will finish the battle.
+---
+Basic objective after the battle: Head back upstairs
+
+Chapel- moogle (Mosh)
+Mognet: *from Kupo to Mosh
+
+---
+Second boss at Alexandria
+Lv 19
+Type: Human
+HP/MP: 5,709/4,203
+Gil/AP: 0/0
+Steal: Phoenix Down, Ice Brand, Survival Vest
+Abilities: attack, Cura, Thunder Slash, Shock, Climhazzard
+Weak: none
+
+Tip: The Survival Vest is worth the steal. You still don't have to do any damage.
+Note: No AP, and this time Freya will be leaving after the boss battle. But don't strip her down because she'll be fighting a few battles first.
+---
+Basic objective after the battle: Go back to Gargan Roo
+
+Monsters: Bandersnatch, Type C
+All event battles now. Now Steiner will leave after a few battles.
+
+Mognet: from Mosh to Monty
+
+---
+Boss battle at Gargan Roo
+Lv 18
+Type: none
+HP/MP: 3,352/584
+Gil/AP:   1,404/7
+Steal: Phoenix Down, Adaman Vest, Oak Staff
+Weak: Ice    Absorb: Earth
+Abilities: Stab, Thundara, Power of the Land, Ultra Sound Wave
+
+Tip: He reacts to physical attacks by holding nice and still so you can steal from him. Attacking his compact form is not recommended.
+---
+
+///Pinnacle Rocks///
+Basic objective: Find the five "pieces" and solve the puzzle.
+
+Monsters: Sand Scorpion, Seeker Bat
+Ability note: Stop is a devastating spell. It's the first of the instant kill-type spells. The catch is you get no exp, gil, or items after battle.
+
+Treasure:
+Path (where you start)- moogle (Monty), Mythril Vest, 2 pieces
+ Mognet: from Mosh to Monty
+Hole (where you came out from Gargan Roo)- 1 piece
+Path (down from moogle screen)- 1 piece, The Ogre
+Path (left from moogle screen)- Mythril Armlet (jump off root), 1 piece, end of puzzle (when all 5 pieces are found)
+
+***
+Puzzle: The story    (Very easy)        Reward: Peridot
+    This is not hard. You can figure it out. There's no penalty for getting it wrong. Note that there are two solutions to the puzzle.
+***
+
+///Lindblum///
+Basic objective: Go to the Square at the Business District.
+
+Treasure:
+Inn- moogle (moodon)
+ Mognet: from Serino to Moodon
+         *from Ruby to Zidane
+         from Moodon to Moonte
+Shopping Area- Lindblum Card
+Residence- Ether, Phoenix Pinion
+
+3000 gil (given in castle)
+ Mognet: from Moodon to Moonte (Kupo Nut reward)
+Dragon's Gate- moogle (Moonte), Bandana
+
+New equipment: (weapon shop)
+Stardust Rod    760 gil (if you didn't steal it at Alexandria castle)
+
+New Equipment: (synthesist)
+Exploda        1000 gil
+Barette        1800
+
+Ability note: The Float status (Stardust Rod) nulls Earth elemental attacks, but increases susceptibility to Wind attacks.
+    If the last digit of Zidane's HP is 7, Lucky Seven (Exploda) does 7, 77, 777 or 7777 damage. Otherwise it does 1 damage.
+    Besides costing 32 MP, Sacrifice (Exploda) also kills Zidane and takes away the rest of his MP. It restores all HP/MP of the other members, but it won't revive them or cure status effects.
+ATE: After returning from the castle, if you leave the Square (without going with the officer), you get to see "The Third Jewel." You can go back to the officer afterward.
+Note: After leaving Lindblum you can get Chocographs 10 and 11 if you skipped them earlier. You also probably have a Kupo Nut to give to Moguta at Gizamaluke's Grotto. And you might consider fighting some Grand Dragons if you want the exp.
+
++++
+Side quest: Grand Dragons (Medium)        Reward: a ton of exp.
+    Climb up the vines in the moogle room, then wander around the grassy area until you get an encounter. Here are his stats:
+
+Grand Dragon
+Type: Dragon
+Lv 60
+EXP: 35,208
+HP/MP: 13,206/2,550
+Gil/AP: 2,604/3
+
+Steal: Tent, Ether, Rising Sun
+Abilities: Poison Claw, Venom Breath, Thundaga
+Weak: Ice    Half: Thunder
+
+    As you can see you will need to be properly prepared for this. Antibody takes care of Venom Breath, and anyone with Auto-Reflect or a Coral Ring is safe from the Thundaga. If you go ahead to the Marsh and bring Quina here, the Night trick works, but he won't stay asleep long; you can try putting him to sleep then making Vivi hit him with Blizzara. My preferred method is to bring Quina to 1 HP, either by using Matra Magic on him or casting Auto-Life then killing him. You can do this right before the fight with the dragon. Then you can hit him with Limit Glove. Not very sporting, but funny.
+    You should skip this if you want the combat to be more challenging.
++++
+
+///Qu's Marsh///
+Basic objective: Go to the excavation site.
+Note: If you skipped Quina earlier you will get him now. The site is pretty easy to find. Once you're on the right track Quina will take you right to it.
+
+///Fossil Roo///
+Basic objective: Pass through to the Outer Continent.
+Note: In this first part there will be something of a chase. If you're too slow, you get back attacked (regardless of the direction you were facing). There's no trick to dodging the blades; They don't hurt you and you can just hold the d-pad to the right. The optional boss here is not really worth fighting. After the chase there will be a real boss.
+
+---
+Optional boss battle at Fossil Roo
+Lv 13
+HP/MP: 818/4,598
+Gil: 474
+Exp: 809
+Steal: Ore, Hi-Potion, (none), Ether
+Weak: Thunder, Holy    Half: Shadow
+Abilities: Spear, Thundara, Death, LV5 Death
+
+---
+Boss battle at Fossil Roo
+Lv 19
+Type: Human
+HP/MP: 5,708/4,802
+Gil/AP: 0/0
+Steal: Ether, Gladius, Coral Sword
+Weak: none
+Abilities: attack, Scan, Blizzara, Fira, Thundara, Water, Aera
+
+Tip: This boss targets magic only at Dagger (except for Water) so Reflect is a good idea. Pretty good steals here.
+---
+Ability note: Annoy (Gladius) is pretty helpful when fighting more than one opponent.
+
+On summons: You've probably noticed that the summons don't do much damage. The damage is dependent on how many of the appropriate add-on gems you have in your inventory, the caster's magic power, and whether the full or abbreviated animation occurs. If the caster is Tranced, magic power increases and animations are always full. Using the Boost ability (not available yet) also ensures that the animation is always full.
+
+Monsters: Abomination, Griffin
+New blue magic: Lvl 4 Holy (Feather Circle), Night (Abomination, if you didn't learn it from a Nymph)
+
+Treasure:
+    This place is a mess. Once you get to the screen with Stiltzkin, it branches out like a maze, so I'll just draw a map and you can choose your own path. The treasure hunter on this screen explains how to move around.
+Map legend:
+--- Dashed line: movement by walking
+*** Starred line: movement by gargant
+... Dotted line: movement by gargant; the ... path which the gargant will take is determined by the switch.
+[x] The switch that toggles which direction the gargant will go at point (x)
+
+(1) is connected to "a" by default, to "c" after switching
+(2) is connected to "b" by default, to "d" after switching
+(4) is connected to [3] by default, to "e" after switching
+(3) is connected to "g" by default, to "h" after switching
+Note: (3) to "g" and (3) to "h" are one-way rides
+
+a- moogle (Mogki), Stiltzkin
+ Mognet: *from Kuppo to Mogki
+ Stiltzkin item set 3: Phoenix Pinion, Remedy, Ether for 555 gil
+ Note: This is the only Stiltzkin encounter in which he doesn't disappear after you leave the screen.
+b- Fairy Earrings (at end of path)
+c- Ether (left path), [2] (right path)
+d- Treasure hunter's shop
+ New equipment: (treasure hunter's shop)
+ Adaman Vest    1600 gil (if you didn't steal it from the second boss at Gargan Roo)
+e- Lamia's Tiara
+f- Mining mini game (see below), moogle (Kuppo)
+ Mognet: from Kuppo to Kupo
+g- Survival Vest
+h- exit
+
+        ****[1]            ... e
+   ...(1)                 .
+  .     .... c ---[2]  *(4)...[3]--- f --- g
+ a                    *         *         .
+  *     .... d ---[4]*           ***(3)...
+   ***(2)                             .
+        .... b                         ... h
+
+Ability note: A monster or character affected with Confuse (Lamia's Tiara) will only attack. The targets are random and the hit rate is reduced.
+    Mug (Survival Vest) doesn't do very much damage (but it's enough to wake up a sleeping target). It only does damage if you actually steal something.
+
++++
+Mini game: Mining for treasure (Lame)    Reward: Madain's Ring
+    On screen "f" you can give the treasure hunter a potion for a chance to dig up treasures. Just pick a spot a tap away. It may take a while to hit something; Usually you'll get Ores and Hi-Potions but it's possible to find a Madain's Ring. You may find an item (including the ring) in under 10 taps. If you don't find anything after about 20 taps (i.e., 20 button presses), you should probably find another spot. If you're getting nothing at all, try giving another potion. There's a moogle on this screen.
++++
+
+///Donna Plains///
+Main Objective: Head for the bridge structure to the northwest. You can also dig up another Chocograph treasure.
+
+Monsters: Cactaur (barren land only), Goblin Mage, Griffin, Zaghnol
+New blue magic: 1,000 Needles (Cactaur), Goblin Punch (Goblin Mage)
+Ability note: 1,000 Needles is useful for weakening monsters to learn new blue magic because it does consistent damage.
+
+Friendly Monster: (Donna Plains)
+Ladybug- asks for 2 Ores, gives 20 AP, Ether
+
++++
+Side quest: Catching frogs
+    There's another Qu's marsh on this continent.
+
++++
+Chocograph 5 (Easy- 3 hints)
+
+Hint 1: There are chocobo tracks a little northeast of the Qu's marsh.
+
+Hint 2: There's a huge forest a little southwest of the marsh.
+
+Hint 3: There's only one beach around here.
+
+Solution: It's on Gegalrich Shores, south of the Qu's Marsh.
++++
+
+///Conde Petie///
+Basic objective: Gather information on Kuja.
+
+Treasure:
+Corridor- 2700 gil
+Inn- 1800 gil
+Item Shop- moogle (Mogmatt), Phoenix Pinion
+ Mognet: from Mogmatt to Suzuna
+New equipment: (weapon shop)
+Poison Knuckles    5000 gil (not usable yet; you can steal one soon)
+Oak Staff          2400 (if you didn't get it from Chocograph 11 or steal it from the 2nd boss at Gargan Roo)
+Magic Armlet       1000
+Ritual Hat         1000
+Magician Cloak     1850
+
+Tip: It's easier to get to your next destination by chocobo.
+
+///Southeast forest///
+Basic objective: Follow the trail; figure out the mystery to the forest.
+
+Monsters: Myconid, Zemzelett
+
+***
+Puzzle: The forest maze    (Easy- 3 hints)
+
+Clue: "They live so deep in the forest that not even owls live there."
+
+Hint 1: There's a signpost here.
+
+Hint 2: The directions on the signpost may change when you move off the screen.
+
+Solution: Follow the sign in the direction "where no owls live", four times.
+***
+
+///Black Mage Village///
+Main Objective: Gather information on Kuja.
+
+ATE: The ATE branching here is complicated and it's possible to miss some of them. If you want to be sure to see them all, follow this path: See "Gourmand's Nose," move to upper right (where the save moogle is), see "Life Cycle," enter the chocobo shack, see "Everyday Life," go back to the entrance, move up to the center hut and take path to the right, see "Life on the Run," exit to the left, then see "Visitor, not Invader." You must see "Different Language" whether you choose to or not.
+
+Treasure:
+Entrance- Elixir
+Water Mill (outside shack)- moogle (Mogryo)
+ Mognet: from Mogryo to Mocchi
+Water Mill (inside shack)- Gysahl Greens
+Item Shop- Ether, Black Belt (upper room)
+Inn- Virgo (key item)
+Synthesist- 2000 gil
+Rooftop- 843 gil
+
+New equipment: (weapon shop)
+Gladius          2300 (if you didn't steal it at Fossil Roo)
+
+New Equipment: (Synthesist)
+Rune Tooth       2000 gil
+Power Belt       2000 (if you missed it in Treno)
+Madain's Ring    3000 (if you didn't get it in the mining mini game)
+Extension        3500
+Reflect Ring     7000 (if you missed it in Treno)
+
+Note: If you see the "Everyday Life" ATE, Zidane figures out how to get the Black Belt from the item shop. If you miss this ATE, you can still get the item by going to the Rooftop and overhearing a conversation, after spending the night at the inn. If you do see the ATE, then spend the night, you can hear a different conversation on the Rooftop.
+After spending the night:
+Ability note: Demi (Black Belt) does damage equal to 30% of the target's max HP. Three casts of this will bring any victim below 1/8 health, making them ready to Eat. It's a little more reliable than Matra Magic because of Vivi's higher magic power. And during this time Quina can concentrate on keeping the target asleep by using Night.
+Mognet: *from Stiltzkin to Mogryo
+
+///Conde Petie///
+Main Objective: Pass through the exit on the far side of town.
+
+Note: After the ceremony, if you choose the second option, you get to see an extra scene.
+Tip: After the ceremony, Quina will leave for a long time. Check equipment.
+
+///Mountain Path///
+Main Objective: Reach your new friend's house.
+
+Ability note: Auto-Regen (Golem's Flute) heals 1/16 of the character's max HP at fixed intervals. The frequency increases with higher Spirit. This great ability essentially allows you to ignore any damage that doesn't come close to killing a character.
+    Guardian Mog (Madain's Ring) cures any status ailments after battle.
+
+Monsters: Gnoll, Ochu, Troll
+
+Treasure:
+Trail (first screen)- Remedy (up vine); Tent, Red Stone (key item) (up root from second screen)
+Trail (second screen)- Blue Stone (key item) (up vine from first screen)
+Roots (first screen)- Stiltzkin, moogle (Suzuna)
+ Stiltzkin item set 4: Magic Tag, Tent, Ether for 666 gil
+ Mognet: from Mogmatt to Suzuna (Kupo Nut reward)
+ Note: Left to boss battle, Right to Statue puzzle
+
+---
+Boss at the Mountain Path
+Lv 28
+Type: Human
+HP/MP: 8,106/908
+Gil/AP: 2,136/9
+Steal: Phoenix Down, Mythril Fork, (none), Fairy Flute
+Abilities: Knock Down, Curaga, Earthquake, Hiphop
+Weak: none
+
+Tip: Float (Lamia's Tiara) finally comes in handy as protection against Earthquake.
+Note: This boss is a real pain in the ass to steal from. I don't recommend you try for the Fairy Flute; It's a 1/256 item and trying to get it will just piss you off.
+---
+
+Roots (third screen)- Yellow Stone (key item)
+Roots (fifth screen)- Ether, Green Stone (key item) (right path from fourth screen)
+
+***
+Puzzle: Conde Petie statues (Very easy)    Reward: Moonstone
+    Turn right at the moogles to see a statue similar to the four others in this area. This is very simple.
+***
+
+///Lucid Plains///
+Basic objective: Reach the town to the east.
+
+Monsters: Blazer Beetle, Troll
+
+Note: There are chocobo tracks on the far side of the island, but there's not much point to calling Choco.
+
+Friendly monster: (Lucid Plains)
+Yeti- asks for 2 Ores, gives 20 AP, Elixir
+
+///Madain Sari///
+Basic objective: Have dinner.
+
+Treasure:
+Open Area- Tent, Libra (key item)
+Path- two chests you can't reach
+
+ ATE:
+ "Eiko's Feelings"- It doesn't matter who gets assigned to what.
+ "Eiko's Kitchen"- If you prepare for the right number of guests, you will get to see extra dialogue about the story at dinner. Hint: All the people counted, plus an unexpected guest. You can ask for a recount. As for the oglop, it will also affect the dialogue. Whether you help the fisher-moogle affects this ATE and also "Eiko's Kitchen 2."
+
+Resting Room- Ore, Phoenix Pinion
+Kitchen- Kirman Coffee (key item)
+
+Note: When you're all done here, you can return to the village for a Mogshop.
+New equipment: (Mogshop)
+Pinwheel        200 gil (This is actually a consumable item, not equipment. Not usable yet.)
+Tip: You'll want a few Magic Tags on hand for the next dungeon.
+
+///Pualei Plains///
+Basic objective: Reach the Iifa Tree
+
+Monsters: Blazer Beetle, Goblin Mage, Troll
+
+Friendly Monster: (Pualei Plains)
+Nymph- asks for 3 Ores, gives 30 AP, Emerald
+
+On auto-Phoenix: If Eiko has learned Phoenix, there is a chance that the summon will activate automatically if all members are KO'ed. The formula for calculating the probability is:
+percentage = (# of Phoenix Pinions) / 256
+Therefore the maximum is 99/256 = 38.7%
+
+///Iifa Tree///
+Basic objective: Search for Kuja.
+
+Monsters: Dracozombie, Myconid (outside), Stroper, Zombie
+Note: The Stroper is a Stone type enemy. That means a Soft (but not Stona) will kill it. This place is also crawling with undead. You already know how to deal with them. Keep in mind that Life works but Phoenix Down does not.
+
+Treasure:
+Outer Seal- Ruby (given)
+Roots (4th screen)- moogle (Mocchi)
+ Mognet: from Mogryo to Mocchi
+Inner Roots (2nd screen)- Phoenix Down (push switch), Hi-Potion
+Inner Roots (3rd screen)- Ether (hole on right side); Lamia's Flute, Remedy (path to left side)
+ Note: Once you jump on the big leaf you can't turn back.
+Bottom- Elixir, Brigandine (lower level behind stairs)
+ Note: No encounters in this room. The boss battle begins when you examine the thing at the lower left of the room.
+
+Ability note: Unlike Counter, Return Magic (Brigandine) works every time (assuming the target survived the spell, and the spell is one that can be returned).
+    Carbuncle (Ruby) has different effects if Eiko is equipped with certain add-ons:
+Add-on:     Ability:        Effect on all members:
+any other   Ruby Light      Reflect
+Emerald     Emerald Light   Haste
+Moonstone   Pearl Light     Shell
+Diamond     Diamond Light   Vanish
+
+---
+Boss at the Iifa Tree
+Lv 26
+Type: Undead
+HP/MP: 9,765/862
+Gil/AP: 3,800/9
+Steal: Oak Staff, Magician Cloak, Brigandine
+Weak: Fire, Holy        Half: Shadow
+Abilities: Shockwave, Mustard Bomb, Fire Blades, LV5 Death, Leaf Swirl, Fira
+
+Tip: Body Temp prevents Heat, and Fire protection (Adaman Vest) is also handy. This boss is undead, which means you can be cheap and get an instant kill.
+---
+Basic objective after the battle: Get back to Madain Sari.
+
+///Madain Sari///
+Treasure:
+Secret Room- Phoenix Down, Survival Vest
+Path- Exploda, Elixir (given)
+
+---
+Boss at Madain Sari
+Lv 22
+Type: Human
+HP/MP: 8985/5865
+Gil/AP: 4790/9
+Steal: Ether, Poison Knuckles
+Weak: none
+Abilities: attack, Counter
+
+Note: Only Zidane fights in this battle. Easy steals. Counter, MP Attack, Man Eater and Distract (Reflect Ring) are all effective. Front row for attacking.
+---
+Ability note: Spare Change (Poison Knuckles) does hardly any damage.
+
+Secret Room- Memory Earring (key item)
+
+Basic objective after the scenes: Go back to the Iifa Tree.
+
+///Iifa Tree///
+Basic objective: Find Kuja
+
+Monsters: Mistodon
+Note: Once you reach the top, there will be a number of event battles. The Mistodon is undead and uses sleep attacks. After this Dagger will leave for awhile.
+
+Treasure:
+Tree Trunk (top)- moogle (Mocchi)
+ Mognet: *from Stiltzkin to Mocchi
+Aquamarine (given)
+
+***Disk 3***
+
+///Alexandria Castle///
+Basic objective: Go to the mini theater. There's a mini game you can play first.
+
+New equipment: (weapon shop)
+Ice Lance         2430 gil
+Healing Rod       1770
+Lamia's Flute     3800 (if you didn't steal one at the Mountain Path)
+Twist Headband    1800
+Gold Helm         1800 (if you didn't steal one at Cleyra)
+Plate Mail        2320
+
+New equipment: (synthesist)
+Angel Bless       9000 gil
+Anklet            4000
+Feather Boots     4000 (can find one soon)
+Pearl Rouge       5000 (if you didn't get one at Treno)
+
+Treasure:
+Steeple- Shiva card, Ramuh card, moogle (Kupo), Stiltzkin
+ Stiltzkin item set 5: Phoenix Pinion, Hi-Potion, and Elixir for 777 gil
+ Mognet: from Kuppo to Kupo
+         *from Mogrika to Kupo
+Dock (north of Square)- Phoenix Pinion, 3927 gil
+
+Ability note: If you use Auto-Potion, you should consider getting rid of all your Potions since you can now buy Hi-Potions anywhere.
+    Healer (Healing Rod) causes the character to heal rather than hurt the target of regular attacks. The problem is that it misses often (depending on the target's evade).
+    Thievery is like Frog Drop in that it does consistent damage and never misses. The formula is:
+Damage = (Zidane's Speed) x (Number of Successful steals) / 2
+    Reflect Null (Pearl Rouge) allows the character's spells penetrate Reflect. This is handy for your healers because they can use curative spells on the whole party even if some are using Auto-Reflect.
+
++++
+Mini game: Racing Hippaul (Hard)
+    At Main Street, you can race the hippo kid. Just alternately mash the Square and Circle buttons. When you win, his level goes up. You get a reward every 10 levels. His level progression goes 1, 5, 10, 15, 20, 21, 25, then only one level per win. It gets pretty hard around 50. A controller with turbo buttons is helpful. To get the key item you'll need to win 66 times. That's a lot of button abuse. You can get him to level 100 but there's no reason unless you hate your controller buttons. This is your only chance to play this mini game. You can't do it after getting Zidane.
+
+Lv    Reward
+10    Wyerd card
+20    Carrion Worm card
+30    Tantarian card
+40    Armstrong card
+50    Ribbon card
+60    Nova Dragon card
+70    Genji card
+80    Athlete Queen (key item)
++++
+
+Basic objective after the mini theater: Visit the castle.
+
+Treasure:
+Opal, Topaz, Amethyst (given)
+animation has 2/3 the effectiveness of the full animation.
+ Mognet: *from Stilzkin to Kupo
+Courtyard (at castle, center courtyard)- Ether, Phoenix Pinion, Lapis Lazuli
+West Tower- Phoenix Pinion
+Neptune (at castle)- Leo (key item) (upper right corner)
+
+Ability note: Atomos (Amethyst) takes off a percentage of the target's max HP equal to:
+percentage = (30 + # of Amethysts)
+The short animation takes off 2/3 the amount of the full animation.
+This summon misses often.
+
++++
+Mini game: Nero Brothers Gambling (Medium)    Reward: Gil
+    If you go to the weapon shop after getting Zidane, you can play this mini game. Keep an eye on the one who speaks before they start shuffling, then identify him when they stop. If you win you can cash out or pay to keep going. There are nine rounds, each harder than the last. I tabulated the winnings (or loss if you get it wrong) for each round. PlayOnline recommends using a VCR to playback their movement in slowmo; I think this is unnecessary. This is your only chance to play this mini game. You can't play after leaving Alexandria.
+
+Cost     Reward     Winnings/Loss
+   50 gil  100 gil    50 gil
+  150      200        100
+  300      400        200
+  600      800        400
+ 1200     1600        800
+ 2400     3200       1600
+ 4800     6400       3200
+ 9600     2800       6400
+19200    25600      12800
++++
+
+///Treno///
+Basic objective: Compete in the card tournament. If you never learned how to play the card game now is a good time to learn. There are a lot of side quests you can do first, including one at Dali.
+
+ATE:
+    In the ATE "How He Ended Up Here," you get to choose whether to "Stop by at home" or "Stay in Treno." Each option will allow you to see different follow-up ATEs involving Vivi, but you can only choose one, and the last save moogle was awhile back. Also, if you choose the second option, you will play someone in the second round of the tournament who uses a rare Namingway card. There is one other opportuniy to get a Namingway card if you miss this one.
+    Before the tournament, if you follow Eiko's ATEs and watch "City People," you get a Chimera Armlet.
+    After the first round, in the ATE "Good Old Days" if you choose "Of course I'm interested," you get to see another ATE; if you pick "I won't force it out of you," you can get Freya to join you at King's House. If you picked "Stop by at home" earlier you will see an extra scene if you go to the cave to the east of Treno after the first round, and Vivi will also join you. It doesn't really matter whether they join because soon you'll all be back together.
+    After the second round, if you want to see the ATE "Hallucination," you should see it before moving to the right.
+
+Mognet: *from Kupo to Mogrich
+
+Treasure:
+Bishop's House- Chimera Armlet (in "City People" ATE)
+Card Stadium- Rebirth Ring (given if you win tournament)
+Note: If you lose the first or second round in the tournament you can just try again. If you draw, you must immediately rematch. If you lose the final round there is no rematch (but you'd have to try pretty hard to lose). After the final round you will eventually switch to Steiner; if Freya has anything you want him to wear into combat you should change her equipment.
+
+Ability note: Auto-Life (Rebirth Ring) revives the character and brings him to 1 HP, but it only works once per battle.
+
++++
+Side quest: Knight's House (Easy)        Reward: 15000 gil
+    There's another monster you can fight in the weapon shop; this time it's a Catoblepas. I recommend Auto Reflect, Beast Killer, Distract, Jelly, MP Attack (and front row) for an easy win.
+
+Lv 32
+Type: Beast
+HP/MP: 3727/1069
+Gil/AP: none for this battle
+Steal: Soft, Hi-Potion, Phoenix Pinion, Ether
+Weak: none
+Abilities: Heave, Thundara, Earthquake, Devil's Bell, Limit Glove
+
+Note: Devil's Bell petrifies.
++++
+
+Mini game: The auction house
+    At this point Dark Matter is available at the auction. It's not too expensive at ~12000 gil and teaches a cool ability. You can get it later if you miss it now, but you can only buy one. It does 9999 damage if used in battle. Using it in this way is not recommended since the item is rare.
+
+Ability note: For Odin (Dark Matter), the formula to calculate the chance to cause instant death is:
+percent = (Dagger's magic power)/4 + (Daggers' level) - (target's level)
+
++++
+
+Side quest: The Stellazzios
+    You should have Virgo, Libra and Leo now. You can turn them in for an Elixir, 10000 gil, and a Black Belt, assuming you already got and turned in Scorpio from the cave east of here. If you didn't you can get it now.
++++
+
+Note: The windmill has stopped in Dali and if you go to the second floor now you can reach the chests. You cannot get them in disc 4.
+Windmill 2F- Chachusa, Elixir
+
+***
+Puzzle: The mayor's house (Medium)    Reward: Mini Brahne (key item), Mayor's Key (key item)
+    If you initiated the Morrid side quest in disk 1 (see above) you can finally finish it. You can get the last of the items that Morrid wants, but you won't be able to in disc 4. You should have already come across the other two. If you go to Dali now you can search the mayor's house, but the boy is still sleeping here. If you wake him up you have to start over.
+
+Hint 1: It doesn't really matter which door you come through.
+
+Hint 2: You'll find that you can only search one place without waking him up.
+
+Hint 3: It's not your location but your moving around that wakes him up.
+
+Hint 4: Moving short distances makes less noise than moving across the room.
+
+Hint 5: Watch what happens when you search the same place twice.
+
+Solution: Starting from one place, keep searching till he falls back asleep. Then move across the room to the next nearest place and stay there till he quiets down again. You'll find the items soon enough. Using the key you can get:
+Windmill (behind locked door)- 30000 gil, Burman Coffee (key item)
+***
+
+///Alexandria Castle///
+
+***
+Puzzle: The knights of Pluto (Hard- 1 hint)
+    Now you must issue four tasks to four pairs of knights. You can tell whether you matched them up correctly by their reply (confident or not) after you give the command. Your reward is determined by how many matches you get right. You also get different message of encouragement with each reward.
+
+Correct matches     Reward
+             0      Hi-Potion
+             1      Ether
+             2      Elixir
+             3      (not possible)
+             4      Angel Earrings
+
+Big Hint: Recall Dojeborn's words about each of the knights when you encountered him on the stairs in disk 1.
+Here were Brierecht's observations:
+
+Blutzen and Kohel- the double super-sleuths
+
+Laudo- our most inspirational writer
+
+Dojeborn- the most famous artillerist of the realm
+
+Weimar- the only man who can name all the girls in town
+
+Haagen- the knight with the knack for navigating the neighborhood
+
+Mullenkedheim- the winner of last year's cannonball race
+
+Solution:
+Gather information                            Blutzen and Kohel
+Protect the townspeople                       Weimar and Haagen
+Contact Lindblum to request reinforcements    Brierecht and Laudo
+Begin preparations to fire the cannons        Mullenkedheim and Dojeborn
+***
+
+Basic objective: Fight off the monsters.
+Note: You will fight a number of battles, then Steiner will leave the party again. If you're a bastard, you can take your partner's Cross Helm and Plate Mail (but not the sword).
+Tip: Remember that a hit with the Blood Sword has a reverse effect on undead enemies. The Mistodon is undead.
+
+Basic objective after the battles: Get to the top of the castle.
+
++++
+Side quest: Forbidden book (Medium)        Reward: Running Shoes
+    This is your second and final chance to fight this boss. He's in the library on the left side of the hall, in the book on top of the bookshelf. You can save in the guardhouse before fighting.
+
+Optional boss battle at Alexandria castle
+lv 41
+Type: Demon
+HP/MP: 21997/1456
+Gil/AP: 4472/
+Exp: 12585
+Weak: Holy        Half: Shadow
+Steal: Ether, Elixir, Silver Fork, Demon's Mail
+Abilities: Edge, Doom, Poison, Paper Storm
+
+Note: This boss gives exp. The Demon's Mail is another impossible 1/256 item.
+Tip: He starts out closed, at page 0, with very high defense and magic defense. When closed, he will cast Paper Storm and Doom. Paper Storm damage is reduced in the back row. His page number will increase by the amount of damage you do to him. If you get him between page 150 and 200, he opens up (with much lower defense and magic defense), casts Poison five times (Antibody here), then closes, resetting page number to 0. It's better to damage and steal from him during this time since he is much less dangerous. He closes prematurely if hit with a physical attack. (Note that some abilities like Mug and Throw count as physical.) Find a routine that will open him in as few moves as possible; Thievery (Angel Bless) may do the trick in just one move depending on the number of times you've stolen.
++++
+Ability note: Not only does Auto-Haste (Running Shoes) make the character Hasted, but it also prevents Slow. The extra speed is actually not as useful as it seems; you are still unlikely to get a character to act twice between the enemy's moves. It's sometimes helpful for stealing from bosses.
+
+///Lindblum///
+Basic objective- Go to the royal chamber. If you go to the Telescope you get an extra scene.
+
+ATE:
+    When Blank shows up, if you choose "Where's Dagger?" and then go to the telescope, you get to see the ATE "My Bad." When you go downstairs, you'll see an additional scene.
+
+Treasure: (Castle)
+Guest Room- Egoist's Armlet, Elixir
+ Mognet: from Mogki to Moodon
+Serpent's Gate- Chimera Armlet
+Dragon's Gate- Remedy
+
+Basic objective after the meeting: Find the three potions.
+
+Treasure:
+(Business District)
+ Mognet: from Mogki to Moodon
+Shopping Area- Sagittarius (key item) (left side)
+Residence- Elixir, Remedy
+Square- Beautiful Potion (key item) (given)
+Synthesist- Silver Gloves (on table)
+
+(Theater District)
+Studio- Lapis Lazuli; Strange Potion (key item) (must ask first)
+Theater Ave.- Unusual Potion (given)
+Hideout- 4826 gil, 970 gil, 1273 gil
+
+New equipment: (weapon shop)
+Coral Sword     4000 gil (if you didn't steal one way back at Fossil Roo)
+Magic Racket    1350
+Cypress Pile    3200
+Mantra Band     1500
+Dark Hat        1800
+
+Ability note: Comet (Cypress Pile) misses often.
+Note: The Thunder Gloves complement the thunder property of the Coral Sword very nicely.
+
+Basic objective after turning in the potions: Go to the harbor.
+Note: If you see the "No Free Lunch" ATE and go to the Shopping Area, you can get Quina back for a small sum of gil. If you just go to the harbor you'll get him back anyway, with different reunion dialogue.
+
+///World Map///
+Basic objective: Go to the Black Mage Village. There are a lot of side quests you can do now, including getting a ton of Chocographs. Note that Dagger randomly fails to execute her commands in battle now, and she is unable to Trance.
+
+///Alexandria///
+Note: This place is optional.
+
+Treasure:
+Courtyard (castle)- Sapphire (rubble), Peridot (rubble), Opal (lower left)
+Dock- Topaz, 4832 gil (behind staircases)
+Square- 365 gil (ruins of weapon shop), Remedy (lower right), Amethyst (lower left), Alexandria card (given by girl)
+Steeple (outside)- Tent
+Main Street (north screen)- Ether
+
++++
+Mini game: Jump rope
+    You can play this game again, until the end of the game. The girls will be at the Alexandria steeple if you bring either Vivi or Eiko. If you bring both, only Vivi plays. If you bring neither, the girls won't be here.
+
++++
+Side quest: Catching frogs
+    Now is a good time to catch frogs at both the Mist and Outer continents since the populations have probably maxed out by this time. There's also a third marsh you can reach now in the Salvage Archipelago (southwest of world map), on Lanar Island. There are Grand Dragons on this island. While we're dealing with Quina, you can get some new blue magics, including one from a monster in the marsh.
+
+New blue magic: Bad Breath (Anemone, Qu's Marsh at Lanar Island), Limit Glove (Axebeak, Lindblum Plateau, if you missed it), LV5 Death (Stroper or Dracozombie, Iifa Tree), Roulette (Zombie, Iifa Tree, several screens in), Vanish (Gnoll, Conde Petie Mountain Path)
+Ability note: Bad Breath causes Poison, Confusion, Darkness, Mini, and Slow. It either hits or misses for all of them; It usually misses.
+    LV5 Death is highly effective, but it won't work on most monsters. From now on I will tell you when a monster's level is a multiple of 5. Keep in mind that the Grand Dragon is level 60.
+
++++
+Mini game: Chocobo Hot and Cold
+    If you go to Chocobo's Forest now Mene will mark a new location on your map. You can reach it by calling Choco from a small unnamed island west of the location. You will need to do some reef-hopping. Remember that you can hide the symbols on the full-screen world map by holding Circle. When you get to the location, Mene will explain some new rules. Here you can find Chocographs 7, 9, 12, 15 and another one of the pieces. From now on, Mene will remind you every time before playing Hot and Cold if you can't find anymore at a location.
+
++++
+Chocograph 6 (Easy- 6 hints)
+
+Hint 1: The moogle's clue refers to the fact that you'll have to sail your ship to get to this one.
+
+Hint 2: There's only one continent with snowfields.
+
+Hint 3: The Lost Continent is in the northwest part of the world map.
+
+Hint 4: The tracks are right by one of the two beaches on this continent.
+
+Hint 5: The treasure is near the tracks.
+
+Hint 6: The perspective is facing east.
+
+Solution: The treasure is east of the tracks and just south of the end of the mountain ridge.
+
+On card recovery: If you are carrying the full contingent of 100 cards, you will be forced to discard any you find in Chocograph treasures. You can recover these, however, in disc 4 if you complete all of the chocobo side quests.
++++
+
+///Esto Gaza///
+Note: This place is optional. If you came out to get chocograph 6, now is a good time to visit.
+
+Treasure:
+Shop- Wing Edge (upper right)
+
+New equipment: (weapon shop)
+Mythril Claws     6500 gil
+Mythril Racket    2250
+
++++
+Chocograph 8 (Hard- 6 hints)
+
+Hint 1: Note the barren land. That narrows it down to two continents.
+
+Hint 2: It's not the Outer continent.
+
+Hint 3: The treasure is somewhere off the coast of the Forgotten Continent (west of world map).
+
+Hint 4: The tracks you're looking for are on a green island.
+
+Hint 5: Look around in the Savage Archipelago (southwest of world map).
+
+Hint 6: The perspective is facing north by northwest.
+
+Solution: Get on Choco at Everlang Island, then follow the reefs north along the peninsula, then southeast all the way to the lagoon.
+
+Chocograph 7 (Hard- 4 hints)
+
+Hint 1: The clue for this one is very misleading; the treasure is actually not far north of the 'equator' of the world map.
+
+Hint 2: The barren land in the picture is part of the Forgotten Continent, but not the mainland of it.
+
+Hint 3: The tracks that will let Choco get here are on the Lost Continent.
+
+Hint 4: The perspective is facing northeast.
+
+Solution: From the tracks on the Lost Continent, follow the lagoons south to the bent peninsula on the island northeast of the Forgotten Continent. The treasure is in the bay formed by the peninsula.
+
+Chocograph 9 (Easy- 3 hints)
+
+Hint 1: The clue tells you to look in the water south of the Outer Continent.
+
+Hint 2: The tracks are at Kognish shores at the south central part of the continent.
+
+Hint 3: The perspective is facing west.
+
+Solution: From the beach, follow the lagoon west to the bent peninsula. The treasure is in the little bay.
+
+Chocograph 12 (Easy- 4 hints)
+
+Hint 1: In case the clue didn't make it obvious enough, the moogle's clue will make it clear.
+
+Hint 2: The nearest tracks are the ones at Chocobo Forest.
+
+Hint 3: It's in the water.
+
+Hint 4: The perspective is facing west by northwest.
+
+Solution: The treasure is south of the small island at the southern end of the bay southeast of Treno.
++++
+
+///South Gate (Zamo Basin)///
+Note: This place is optional. You need to have found chocograph treasure 12 to come here.
+    If you turn in your Kupo Nut to Moguta at this point you get an Extension. Now the easiest way to get to him is by entering from the woods above Gizamaluke's Grotto. I will no longer remind you to turn in Kupo Nuts.
+
+Treasure:
+Treno Arch- Elixir (2), 3206 gil, moogle (Mosco)
+
+///South Gate (Bohden Heights)///
+Note: This place is optional. You need to have found chocograph treasure 12 to come here.
+
+Treasure:
+Bohden Gate (inside gate)- Elixir card (the chest you couldn't reach before)
+
++++
+Chocograph 3 (Medium- 4 hints)
+
+Hint 1: You need to have found chocograph treasure 12 to get this one. The same goes for all of the following chocographs.
+
+Hint 2: It's on the Mist Continent.
+
+Hint 3: The treasure is on the east side of the river in question.
+
+Hint 4: Perspective is facing south.
+
+Solution: South of the Evil Forest, in the marshland.
+
+    Once you've found chocograph 12, there will be more chocographs available to dig up at Chocobo's Forest and Lagoon. You should now be able to find 13, 14, 16, and 19 at the forest and 2 more of the pieces at either location.
+    You'll now start finding dead peppers. These are used to reach special treasures and locations. This will be explained more fully later on. You can also use them in combat for about 500 damage.
+
+Chocograph 14 (Easy- 3 hints)
+
+Hint 1: Note the mountains all over the picture.
+
+Hint 2: Mist Continent of course.
+
+Hint 3: Perspective is facing west but it doesn't really matter for this one.
+
+Solution: It's in the forest at the meeting place of the three mountain ranges, south of North Gate.
+
+Ability note: Meteor (High Mage Staff), like Comet, misses often.
+    Osmose (High Mage Staff) is pretty cool, but it's usually more effective to just use an Ether.
+
+Chocograph 15 (Medium- 3 hints)
+
+Hint 1: Mist Continent.
+
+Hint 2: Northern part of the continent.
+
+Hint 3: Perspective facing north by northwest and looking down.
+
+Solution: It's on the higher plateau west of Alexandria, called Alexandria Plateau, not Togull Beach, next to the mountain wall.
+
+Chocograph 19 (Medium- 5 hints)
+
+Hint 1: After finding 15, you actually don't have to use your ship anymore.
+
+Hint 2: The snow should make it clear what continent we're dealing with.
+
+Hint 3: This one's in the water.
+
+Hint 4: Check the north side of the continent.
+
+Hint 5: Perspective is facing northeast.
+
+Solution: Of the two small bays on the north central side of the Lost Continent, it's at the end of the one to the east.
+
+    Once you've found chocograph 15, you unlock 17, 18 and 22 at the forest and lagoon.
+
+Chocograph 17 (Medium- 5 hints)
+
+Hint 1: In the picture you can see barren land, deep water and most importantly the sunset.
+
+Hint 2: Look for that distinctive crook-shaped cape.
+
+Hint 3: It's not by the Outer Continent.
+
+Hint 4: Try the east coast of the Forgotten Continent.
+
+Hint 5: Perspective is facing northwest.
+
+Solution: Directly southeast of the curved cape on the east-central side of the Forgotten Continent.
+
+Chcograph 18 (Hard- 7 hints)
+
+Hint 1: This one's really unfair. Note the green land in the upper right corner of the picture.
+
+Hint 2: There's a lot more land visible from where the treasure is buried than you can see in the picture.
+
+Hint 3: The moogle's hint is crucial.
+
+Hint 4: There are tracks within sight of the treasure.
+
+Hint 5: It's not by the Mist Continent.
+
+Hint 6: The perspective is north by northwest.
+
+Hint 7: If you turn east from the treasure you'll see a big island.
+
+Solution: A little northwest from the forest on Everlang Island, in the Salvage Archipelago.
+
++++
+Side quest: The ragtime mouse
+    If you didn't have the patience to complete this side quest before, now is a good time to finish it up and get your reward.
+
++++
+Side quest: Catching frogs
+    If you did all these side quests, chances are that there are a couple baby frogs to catch in the marshes, more if one had a golden frog. I will no longer remind you to visit the swamps.
+
+///Black Mage Village///
+Basic objective: Gather information on Kuja.
+
+///Kiera Desert///
+Note: Very soon you will divide up into two parties of four. The first party, which must include Zidane, will eventually be going to a place where White Magic, Black Magic, Blue Magic, Summons, and even Sword Magic are unusable. It's like everyone's Silenced. You can't even cast Cure spells outside of battle. However, rather than dividing between the mages and the fighters, I recommend that you put at least one power character in the second party, and one healer in each party.
+    Furthermore, you will be unable to freely switch between parties. The first party does its scenario first, then the second. Therefore I recommend you decide now who will go into what party, and remove important equipment from the members of the second party.
+
+***
+Puzzle: Find the secret palace (Easy- 3 hints)
+    There are four sand pits. One of them leads to the palace. Each of the others leads to an unescapable battle with an Antlion (the boss that uses Sandstorm).
+
+Hint 1: You could just find it by trial and error. But that's a lot of Sandstorm to deal with. Note: If you do get sandstormed, Steiner's Charge! ability gives a well deserved punishment.
+
+Hint 2: One of the sand pits is not like the other.
+
+Hint 3: Have you tried just watching them?
+
+Solution: The three false pits will kick up little clouds of dust periodically. The real one doesn't.
+***
+
+///Desert Palace///
+Basic objective: After the scenes, move to the left side of the docks.
+
+Monsters: Ogre
+
+///Blairsurpass Plains///
+Basic objective: Get to Oielvert far to the south.
+Note: There is another Qu's Marsh to the northeast (where you can catch frogs if you brought Quina), and near the marsh are some chocobo tracks. With Choco, you can avoid a lot of encounters and find two more Chocographs.
+
+Monsters: Armstrong, Catoblepas, Jabberwock (lv 30), Adamantoise (wetlands)
+New Blue Magic (if you brought Quina): Earth Shake (Adamantoise)
+
+Friendly monster: (Blairsurpass Plains)
+Jabberwock- asks for Emerald, gives 40 AP, Moonstone
+
++++
+Chocograph 13 (Medium- 4 hints)
+
+Hint 1: The moogle says "a certain location" but it's more like half the continent that's dusk.
+
+Hint 2: That round thing in the upper right of the picture is a small forest.
+
+Hint 3: The rest of the lumpy things are plateaus.
+
+Hint 4: The perspective is facing southwest.
+
+Solution: It's on a promontory in the southwest part of the continent, on the first level of three tiers of plateaus.
+
+Chocograph 16 (Medium- hints)
+
+Hint 1: Notice no dusk in the picture.
+
+Hint 2: Like the hint says, there's a long peninsula, but it's not really pointing at anything.
+
+Hint 3: The moogle is misleading; the plateau looks like all the others on this continent.
+
+Hint 4: The perspective is facing southwest.
+
+Solution: It's on Yuanshao Peninsula, on the first tier of the plateau, near the wall of the second tier.
++++
+
+///Oeilvert///
+Basic objective: Get the Gulug Stone. Magic is disabled inside the structure.
+
+Mognet: Mimoza to Mooel
+New equipment: (mogshop)
+Diamond Sword    4700 gil (can find one soon)
+Trident          3580
+Fairy Flute      4500 (if you didn't steal one at the Mountain Path)
+Green Beret      2180
+Cross Helm       2200 (if you didn't take it from your partner at Alexandria)
+Judo Uniform     5000
+Gold Armor       2950
+
+Ability note: Luna Berserks all targets in combat. It may be useful if you Blind all the enemies first. Or not.
+
+Monsters: Epitaph, Garuda (in Grand Hall, lv 35), Ogre
+Note: The Epitaph is Stone type.
+
+Treasures:
+Note: If you view the events at the Narration room before going to the Star Display, Stiltzkin will not be present and you won't have a chance to buy from him (for no good reason). To avoid missing this item set, go right to the Star Display first.
+Hall- Remedy, Rising Sun
+Star Display- moogle (Mooel), Stiltzkin, Gaia Gear
+ Stiltzkin item set 6: Hi-Potion, Emerald and Elixir for 888 gil
+ Mognet: from Mimoza to Mooel (Kupo Nut reward)
+Planetarium (upper left from Hall)- Elixir
+Planetarium (lower left from Hall)- Diamond Sword, Shield Armor
+Ship Display- Power Vest, Feather Boots
+
+Event sequence:
+    In this dungeon you must visit sites in the correct order to proceed. To minimize pointless wandering and encounters, and since the game doesn't give you any clue as to what to do, I will lay out the basic sequence.
+1. switch at upper level of Planetarium
+2. scene at lower level of Planetarium
+3. scenes at Ship Display
+4. scene at Display (Grand Hall)
+5. scene at Narration room
+6. scene at Star Display
+7. scene at Stairwell and boss battle
+
+---
+Boss battle at Oeilvert
+Lv 38
+Type: Flying
+HP/MP: 20002/1374
+Gil/AP: 5964/11
+Steal: Elixir, Power Vest, Holy Lance
+Weak: Wind        Guard: Earth
+Abilities: Propeller Wind, Whirlwind, Photon, Boomerang
+
+Note: Propeller Wind confuses, and Whirlwind afflicts Float on all members. After the boss battle the second party takes control, but you have a chance to remove equipment before picking up the stone.
+---
+
+///Desert Palace///
+Mini game- Reach the hourglass (Easy)
+    This game actually has two parts, and 6:00 is plenty enough time if you're not careless. (But don't be careless because the last save moogle was awhile back.)
+Part 1: Follow the directions given, but don't be seen or you'll have to start over.
+Part 2: The objective is to climb to the top. You'll need to use the weights to help you do this. There are four weights; three can fit on the scale. You can start putting them on without examining them but it won't make any sense. If you take the time to examine them it should be clear what to do.
+
+Basic objective: Light the three stained-glass windows and go to the top of the palace. The more bloodstone treasures you get, the weaker the boss will be.
+
+Monsters: Drakan (lv 30), Grimlock (lv 30), Torama (lv 30)
+Useful abilities: Bird/Beast/Devil Killer, Body Temp, Insomniac
+
+Treasure:
+Rack (right from Dungeon)- moogle (Mojito)
+ Mognet: Mojito to Mogsam
+Lobby- Promist Ring (bloodstone 1, after lighting the lamp at the left)
+Light Chamber- Fairy Earrings (on right side, after solving puzzle)
+
+Ability note: Restore HP (Promist Ring) restores 1/2 max HP if the character takes damage from an enemy (and survives) when HP is already in the yellow range (16% or less). The green numbers do not pop up to indicate healing. It cannot be activated by attacks from party members.
+
+***
+Puzzle: Light Chamber (Easy)
+    The objective is to get the stairs that lead up to appear. The clues given by the statues are not at all helpful. I'll just give the solution because this puzzle is lame: Read the center statue, then move to the left and right sides of the screen (in either order). The lamp at the top of the stairs causes the chest to appear downstairs.
+***
+
+Fire Chamber- Anklet (bloodstone 2, after solving the fire puzzle)
+
+***
+Puzzle: Fire Chamber (Easy)
+    The objective is to light the lamp in the center in order to open up the path to the right, but you'll have to light all the other lamps first. There are no encounters while you're working on the puzzle. You can figure this one out.
+***
+
+Hallway- Shield Armor (bloodstone 3, after lighting lamp)
+Stairwell (after Hallway)- window 1
+Stairwell (top door from Library)- N-Kai Armlet (bloodstone 4)
+Stairwell (middle door from Library)- windows 2 and 3
+Library- moogle (Mogsam)
+ Mognet: from Mojito to Mogsam (after lighting the lamp outside the bottom door in the library)
+Shadow Cham.- Black Hood (bloodstone 5, after lighting both lamps on the right), Venetia Shield (bloodstone 6, after lighting both lamps on the left)
+
+***
+Puzzle: Shadow Chamber (Medium- hints)
+    The objective is to get the stairs that lead up to appear. Light the lamp on the far left to receive the clue. There are no encounters while you're working on the puzzle.
+
+Hint 1: The key is figuring out what follows what.
+
+Hint 2: The statues are labeled.
+
+Hint 3: Look what happens to the shadows of the statues when you light or put out the lamps.
+
+Hint 4: When one side of a staue is lit and the other isn't, the shadow faces in the unlit direction.
+
+Solution: Light the right side of both statues, and keep the left side unlit.
+***
+
+---
+Boss battle at Desert Palace
+Lv 36
+Type: Flying
+HP/MP: 12119/9999
+Gil/AP: 4089/11
+Steal: none
+Weak: Wind        Guard: Earth
+Abilities: Freeze, Mustard Bomb, Firaga, Blizzaga, Thundaga, Flare, Holy, Reflect
+
+Tip: This boss only uses magic but will continue to cast on a Reflected member. Carbunkle and Auto-Reflect work well here.
+Note: After the battle, you'll need to light the candle to proceed. You'll switch back to your first party and Eiko will soon leave for awhile; When she rejoins you she'll be fighting in a boss battle. I recommend you give her Antibody now. There are still encounters at the Dock.
+---
+Basic objective after the scenes: Exit the Desert Palace. At the end of the docks is a kick lever.
+
+Treasure:
+Sanctum- Namingway card (front left, under table)
+Note: This card is rare. This is your second and final chance to get it.
+
+///Quelmiera Shores///
+Basic objective: Go to Esto Gaza to the west. There are chocobo tracks nearby.
+
+Monsters: Blazer Beetle, Feather Circle, Vepal (green type)
+
+Friendly monster: (Milmakis Ice Field)
+Feather Circle- asks for Moonstone, gives 30 AP, Lapis Lazuli
+
+///Esto Gaza///
+Basic objective: Go to Mount Gulug. Vivi will be in your party.
+
+Monsters: Garuda (lv 35)
+Note: There are now encounters on the Terrace in front and the Path in back of the building.
+
+New equipment:
+Zorlin Shape     6000 gil
+Flame Saber      5190
+Heavy Lance      4700
+Scissor Fangs    8000
+Asura's Rod      3180
+Hamelin          5700
+Octagon Rod      4500
+Jade Armlet      3400 (if you didn't get it from chocograph 3)
+Red Hat          3000 (can find one soon)
+Note: The weapon shop has different goods now.
+
+Mognet: *from Artemicion to Mogrika
+         from Mogrika to Moolan
+
+Ability note: Jewel (Hamelin) does not hurt the target or do anything but get you an Ore.
+    Six Dragons (Heavy Lance) randomly brings the HP and MP (separately and for each member) up to full, down to 1, or does nothing.
+    The level three ("-aga") type spells are considerably more powerful and cost effective than the level two variety, just as level two was much better than level one.
+
+///Mount Gulug///
+Basic objective: Get to the bottom.
+
+Monsters: Grenade, Red Dragon (event battles only), Vepal (red type, lv 35), Wraith
+New blue magic: Mustard Bomb (Vepal or Wraith), Twister (Red Dragon)
+Note: The Wraith is undead.
+Useful abilities: Bird/Undead/Dragon Killer, Body Temp, fire/wind protection
+
+Treasures:
+Room (left from entrance)- 9693 gil (lower right), Ether (upper floor, rubble)
+Interior (left from Room)- Red Hat (down the ladder)
+Path (right from entrance, right from well)- Golden Hairpin
+Room (down then right from well)- moogle (Moolan), Wing Edge
+ Mognet: from Mogrika to Moolan (Kupo Nut reward)
+         from Moolan to Mogtaka
+Interior (beyond Moolan's room, end of the path)- Gaia Gear
+Room (down then left from well, door leading left)- Demon's Mail (right side)
+Path (down then left from well, door leading up)- moogle (Mogtaka)
+ Mognet: from Moolan to Mogtaka
+Room (beyond Mogtaka's room)- Elixir
+
+***
+Puzzle: The well (Easy- 2 hints)
+    The objective is to get to the bottom of the well.
+
+Hint 1: You've proably seen some messages about it around Mount Gulug. There were three messages.
+
+Hint 2: Remember you're trying to go down.
+
+Solution: Pull the lever down three times.
+***
+
+Ribbon (given before boss battle)
+
+---
+Boss battle at Mount Gulug
+Lv 42
+Type: Demon
+HP/MP: 24,348/1,570
+Gil/AP: 6,428/11
+Steal: Vaccine, Golden Hairpin, Demon's Vest
+Weak: Fire, Holy        Half: Shadow
+Abilities: Wings, Bio, Viral Smoke, Venom Powder
+
+Tip: Antibody works well.
+Note: Eiko will replace Vivi for the battle; you may not adjust her equipment prior to battle.
+---
+
+///Lindblum///
+Basic objective: Go to the conference room.
+
+Mognet: from Mogki to Kumool
+
+Treasure:
+Garnet (given)
+
+On automatic summons: If Dagger performs a summon while Tranced, the summon will automatically reoccur periodically (with the short animation) as long as she remains Tranced. To exploit this fully, she should summon as soon as she goes into Trance and avoid taking other actions in order to prolong the Trance.
+
+///Hilda Garde 3///
+Basic objective: Head to the new location that's been marked on your map. There are more side quests to do now.
+Note: This ship may only land on green grass. The auto pilot is the quickest way to get to destinations.
+
+Treasure:
+Deck (Amarant's screen)- Tent (next to ladder)
+
+Friendly monster: (Popos Heights; above Gizamaluke's Grotto)
+Garuda- asks for Lapis Lazuli, gives 40 AP, Diamond
+
++++
+Side quest: Daguerreo
+    Now that you can fly, you can reach the large island north of Chocobo's Lagoon, where you can get some new equipment.
+
+New equipment (synthesist)
+Sargatanas        12000 gil
+Glutton's Robe     6000 (can steal one soon if you're nearing 99 frogs)
+White Robe         8000 (if you didn't get chocograph 17)
+Black Robe         8000 (can find one soon)
+Garnet              350
+Amethyst            200
+Peridot             100
+Sapphire            200
+Opal                100
+Topaz               100
+Thief Gloves      50000 (can get them cheaper at Treno; see below)
+Note: With the Sargatanas, Soul Blade (Petrify) ends battles fast. No exp, gil or items though.
+	This is your first chance to unload your Ores for some useful gems. Remember that summons do more damage if you have more of the appropriate gem.
+
+New equipment: (weapon shop)
+Rune Blade         8900
+Obelisk            6000
+Tiger Fangs       13500
+Defense Gloves     6000
+Coronet            4400
+Diamond Helm       3000
+Demon's Vest      10250
+Diamond Armor      8800
+
+New equipment: (statue at the Entrance)
+Aquamarine        4 Ores each
+Note: The statue must be activated by the switch upstairs. This is the only way to get unlimited Aquamarines. If you insert a number of Ores that is not a multiple of four you lose the remainder, unless you put in less than four, in which case you get them back.
+
+Treasure:
+Entrance- Capricorn (key item) (to the right in the water)
+2nd Floor- Holy or Flare card (agree with one of the debaters on all three questions)
+Entrance (balcony, from 2nd Floor)- Elixir (2) (top of the staircases to nowhere, one on each side)
+Note: To get to the balcony, you have to help out the scholar on the 2nd Floor.
+
++++
+Side quest: Renaming
+    If you show a Namingway card to the man on the left balcony at the Entrance you can rename your characters.
+
++++
+Side quest: Treasure hunter
+    The four armed man at the synthesist (Right Hall) will tell you your treasure hunter rank. If you are the highest rank, he will tell you his name and give you a (key item). Your rank is determined by your score, which you can't actually see, and which increases with every treasure (chest or otherwise) you are given, have found on the field map or world map, and for every key item you possess. It is not affected by treasures that you buy or by Chocobo Hot and Cold treasures.
+    Once you attain the highest rank and talk to him, you will be unable to play cards with him again; Keep this in mind because he plays with otherwise rare airship cards. You can win the Viltgance card from him. (He doesn't use it very often though.) The only other way is to pay 1800 Hot and Cold points for one. You can still play cards (square) without talking to him (X). It is possible that you are already the top rank at this point in disc 3. If not, there are still a lot of treasures to be found.
+
+***
+Puzzle: Fix the lifts (Easy- 4 hints)
+    In the Left Hall, the weapon merchant won't sell goods until the lift is fixed.
+
+Hint 1: The three levers correspond to the three platforms.
+
+Hint 2: You're going to have to use that bar leaning against the wall.
+
+Hint 3: Try moving the left platform all the way down.
+
+Hint 4: Try examining the platform after that.
+
+Solution: Move the left platform all the way down, examine the hole, insert the bar, then move the right platform all the way down.
+***
+
+Mini game: The auction house
+    At this point you should be able to win the valuable Thief Gloves from the Auction at Treno for ~30000 gil.
+Ability note: Master Thief (Thief Gloves) makes it easier to steal the 1/256 items.
+
++++
+Side quest: The Stellazzios
+    YOu should be able to turn in two more now (Sagittarius and Capricorn) for 20000 gil and Rosetta Ring.
+
++++
+Side quest: Knight's house (Easy)        Reward: Running Shoes
+    Now you can fight an Amudusias. These fights just keep getting easier, and the rewards get better. Auto-Reflect, Demon Killer and MP Attack should do the trick. Auto-Haste, Auto-Regen, Counter, Distract and Accuracy + may also be helpful.
+
+Lv 42
+Type: Demon/Flying
+HP/MP: 6,578/1,568
+Gil/AP: none for this battle
+Steal: Hi-Potion, Antidote, Phoenix Pinion, Ether
+Weak: Wind        Guard: Earth
+Abilities: Horn, Bio, LV4 Holy, Thundara
+
++++
+Mini Game: Chocobo Hot and Cold
+    You should be able to find the last two of the six pieces now at either the forest or lagoon. Once you have them, chocograph 20 will appear in your menu.
+
+Chocograph 20 (Easy- 4 hints)
+
+Hint 1: Well, the clue basically tells you where it is.
+
+Hint 2: The two green land masses in the picture are islands.
+
+Hint 3: The gray stuff in the background of the picture is mountains.
+
+Hint 4: The perspective is facing southwest.
+
+Soultion: Search near the two islands at the northeast part of Mist Continent, north of Alexandria Harbor.
+
+Chocograph 22 (Easy- 4 hints)
+
+Hint 1: You need to have found chocograph 20 to get this.
+
+Hint 2: The perspective is facing northwest, but the treasure is on the island in the distance.
+
+Hint 3: The desert that the moogle is referring to is right in the picture.
+
+Hint 4: It's not the desert that Cleyra was in.
+
+Solution: It's on the Likanmack island northeast of the Kelmiera Desert, east from Madain Sari.
+
+Chocobo Hot and Cold
+    If you return to the forest or lagoon after finding chocograph 20, Mene will tell you about using the Dead Peppers. To find the third place you can play this mini game, look at the clues on the chocograph pieces. The first piece is sort of an introduction, then there are five pieces with five clues corresponding to five possible locations. When you find a shadow on the sea or ground in the location described on the piece, fly over it with Choco and use a Dead Pepper. (In this new location, there is an optional boss that will be mentioned later.) Once you've visited this place, it will be marked on your map so you can find it easily even if it moves. Here you can find the last three chocographs: 21, 23, and 24. After you've found them, Mene will suggest you look for the unmapped Chocobo's paradise.
+
+Chocograph 21 (Medium- 3 hints)
+
+Hint 1: It's not by the Forgotten Continent.
+
+Hint 2: You may have mistakenly searched here when looking for chocograph 22, because it's very close.
+
+Hint 3: The perspective is south by southeast.
+
+Solution: It's on Korua Island, northeast of the Desert Palace.
+
+Chocograph 23 (Medium- 3 hints)
+
+Hint 1: As you can see, it's a medium sized island with no grass, a forest and a mountain.
+
+Hint 2: It's near both continents that have no grass.
+
+Hint 3: The perspective is facing north.
+
+Solution: It's on the east side of the mountain on Vile Island, between the Outer and Forgotten Continents.
+
+Chocograph 24 (Medium- 3 hints)
+
+Hint 1: Note the brown ground and plateaus in the distance.
+
+Hint 2: This one's not far from where chocograph 23 was.
+
+Hint 3: The perspective is south by southwest.
+
+Solution: It's on Pilkiras Island, northeast of the Qu's Marsh on the Forgotten Continent.
+
+Chocobo's Paradise (Medium- 4 hints)
+
+Hint 1: It's on a medium island. You'll have to use a Dead Pepper to enter.
+
+Hint 2: You may have already come across the island while cruising the sea on Choco.
+
+Hint 3: When Mene told you it was unmapped he really did mean off the map.
+
+Hint 4: Even if it was mapped it'd be hard to see on the map.
+
+Solution: It's at the corner (any corner) of the world. There's a crack in the mountain.
+
++++
+Side quest: Dead Pepper treasures
+    You can learn more about Dead Peppers here and find out about even more treasures to discover with them. There are four chocobos who tell you where to find treasure. Each of them will tell you about a mountain crack (speak to them with X) and a foamy spot on the sea (speak with square). One of the attendant gold chocobos offers unlimited Dead Peppers for free.
+ Reef chocobo- upper level (must be splashed out of the water)
+ Mountain chocobo- upper level
+ Ocean chocobo- upper level (must come to him on the pillars)
+ Sky chocobo- lower level
+    The chocobos clearly explain the location of the treasures. If you are unable to find them there are more detailed descriptions below.
+
+Reef chocobo's treasures
+Crack: It's on the east end of the long mountain on the big island north of the Outer Continent, in Cadezil Plains. There's actually nothing you can do here until disc 4.
+Foam: It's in the ocean between the Mist and Outer Continents, north of Alexandria.
+
+Mountain chocobo's treasures
+Crack: It's on the east side of the mountain on Seatence Ice Field north/south of Chocobo's Lagoon.
+Foam: It's in the sea north of the Mountain Path. The long peninsula on the Lost Continent points right at it.
+
+Ability note: Mag Elem Null (Protect Ring) makes all of the character's magic do non-elemental damage.
+
+Ocean chocobo's treasures
+Crack: It's in the east central part of the continent, facing east on the lower tier of the plateau. Look for a valley by the sea with a small kidney shaped forest.
+Foam: It's in a tiny lagoon east of Qu's Marsh on Lanar Island. Choco will have to squeeze through a small channel to walk here.
+
+Ability note: Fenrir has a different animation and does Wind instead of Earth damage if Eiko is equipped with the Maiden Prayer. Used with Boost, it is an effective way to deal with flying enemies.
+    Dragon Breath (Dragon's Hair) does the same damage as the last attack against the enemy; i.e., it mimics the last attack. Although it's targeted at one enemy it hits all of them.
+    Flare (Black Robe) is non-elemental, not fire. Flare has always been non-elemental.
+    Reflect X2 (Black Robe) causes the character's spells to double in power when they bounce off a Reflected target. Very handy if someone in the party has Auto-Reflect.
+
+Sky chocobo's treasures
+Crack: It's in the west central part of the continent, farther south than the last one, facing west on the upper tier of the plateau. Look for a valley by the sea with a larger forest. Unlike the last one the crack is unbranched and harder to see.
+Foam: It's outside Quan's dwelling east of Treno but you can't reach it from the sea. To reach it go through the dwelling and to the end of the dock.
+
++++
+Side quest: Quan's dwelling
+    While you're here to get the treasure, you can see an extra scene if you bring Vivi and Quina (both must be in the party). Afterward, you can get Running Shoes from the clock.
++++
+
+///Ipsen's Castle///
+Basic objective: Get to the top of the castle. Amarant will leave for awhile.
+
+Monsters: Agares & Gargoyle, Cerberus, Tonberry, Veteran
+New blue magic: Doom (Veteran)
+Useful abilities: Body Temp, Jelly, Locomotion, Beast/Bird/Devil Killer
+Note: In this dungeon, weaker weapons do more damage and stronger weapons do less. Magic and other non-attack abilities are unaffected. The Gargoyle is Stone type.
+
+Treasures:
+Hall- Dagger, Aquarius (key item)
+Small Room- Cat's Claws, moogle (Kumool)
+ Mognet: from Mogki to Kumool (Kupo Nut reward)
+ Note: If you turn in this Kupo Nut you get a Phoenix Pinion.
+Inverted Room (down the pole)- chest you can't reach yet
+Stairwell- Broadsword (jump to right from left ladder), Javelin (jump to left from left ladder), Rod (opposite Javelin)
+Lift- puzzle leading to Barrette
+
+***
+Puzzle: The wall (Very easy)        Reward: Barrette; unlocks lower door in Hall
+    This one's simple. Keep trying and you'll get it.
+***
+
+Mural Room- Fire Mirror, Earth Mirror, Water Mirror, Wind Mirror (key items)
+
+---
+Boss battle at Ipsen's Castle
+Lv 46
+Type: Flying
+HP/MP: 29,186/1,776
+Gil/AP: 8,092/11
+Steal: Elixir, Mythril Claws, Orichalcon
+Weak: Fire, Wind        Half: Ice        Guard: Earth
+Abilities: Chop, Blizzaga, Ram
+---
+Basic objective after the battle: Leave the castle. There are some treasures available now that you couldn't get before.
+
+Inverted Room- Maiden Prayer (fall from upper left trapdoor in Small Room; the two other trapdoors are duds)
+Lift (follow path from lower door in Hall)- Air Racket
+Sword Room- Golem's Flute
+
+***
+Puzzle: The sword (Easy- 3 hints)        Reward: Ancient Aroma
+
+Hint 1: The trick to this puzzle is just figuring out what the objective is. Give it a try, and if you keep moving the bottles incorrectly, you'll be told the clue. From that point it's simple.
+
+Hint 2: "Against the flow of time..." Think clocks.
+
+Hint 3: Consider the way the hands on a clock move.
+
+Solution: Move the bottles counterclockwise.
+
+Ability note: If Odin fails to kill a target (he usually does), then Odin's Sword (Ancient Aroma) causes him to do Wind damage instead.
+***
+
+Small Room- Fork, Mage Staff (on top of chandelier; cannot reach them until you've passed through the lower door in the Hall)
+
+Basic objective after exiting: Go back to the inverted room.
+
+Basic objective: Go to each of the Shrines in the instructed order. They aren't marked on your map, but if you need a clue you can ask at the Bridge.
+Note: You actually only explore one shrine, and there are no treasures or monsters. Just one boss battle, and you will have only Quina and Zidane in the party.
+
+///Earth Shrine///
+Basic objective: Go to the inner room and place the mirror.
+
+***
+Puzzle: The moving walls (Very Easy)
+    The objective is to get to the other side of the room. All you have to do is hit the button when the Field Icon shows up.
+***
+---
+Boss battle at the Earth Shrine
+Lv 54
+Type: Demon
+HP/MP: 20,756/2,234
+Gil/AP: 4,512/
+Steal : Avenger, Rubber Suit
+Weak: Wind, Holy        Half: Shadow    Absorb: Earth
+Abilities: Double Slash, Earthquake, Blizzaga, Thundaga, Firaga
+
+Tip: Auto-Float, the Feather Boots, or even better, Gaia Gear, will deal with Earthquake. Auto Reflect for the rest.
+Note: This boss is not undead. You can Eat this punk! (for Earth Shake)
+---
+Basic objective after the battle: Go to the new location marked on your map.
+
+Note: The next time you'll be able to explore the world map, many locations will be closed off (for no good reason): North Gate, Ice Cavern, Observatory Mountain, Pinnacle Rocks, South Gate, Fossil Roo, Conde Petie, Mountain Path, Esto Gaza and Oeilvert. The weapon shops at Conde Petie, Esto Gaza, and Oeilvert will therefore be inaccessible, and the stock at the Black Mage Village and Daguerreo shops will change, so now is the time if you want to buy any of that equipment.
+Tip: I suggest you prepare all of your characters for battle, even those you don't intend to use in the next part. There are some event battles coming up.
+
++++
+Side quest: Catching frogs
+    If you've been diligent about catching frogs, it's possible that you're near 99 by now. When you reach it you receive the Gastro Fork, but only after winning a boss battle. It's possible to do this later but I mention it now because there are some great items you can steal from the boss.
+
+---
+Boss at Qu's Marsh
+Lv 76
+Type: Human
+HP/MP: 65,535/3,680
+Gil/AP: 10,800/10
+Exp: 65,535
+Steal: Elixir, Ninja Gear, Glutton's Robe, Robe of Lords
+Weak: Thunder    Absorb: Water
+Abilities: Rolling Attack, Water, Aqua Breath, Mini, Poison, Confuse, Blind, Silence
+
+Tip: Status protection abilities are highly recommended (at least Clear Headed), and Angel's Snack will cure everything he manages to afflict you with. Also useful is water protection equipment (Glass Armlet, Diamond Gloves, Ribbon).
+Note: This boss gives exp. The Night trick won't work. In fact this boss is immune to all status ailments (except Slow).
+---
+Note: It's possible to catch more than 99 frogs.
+
+///Shimmering Island///
+Basic objective after the scenes: Follow the girl.
+
+Monsters: Hecteyes, Mover, Ring Leader, Worm Hydra
+Useful abilities: Antibody, Insomniac, Loudmouth, Bird/Demon/Undead Killer
+Note: Hecteyes is undead.
+Tip: Monsters here and in the upcoming dungeon use Virus attacks. If you want your other characters to catch up with Zidane's level, consider allowing him to get infected. The exp that he would have gotten goes to the other members of the party. There is no way to prevent Virus, and Vaccine is the only cure.
+
+Treasure:
+Stepping Stones (down stairs from Downhill Path)- Coronet
+Path by the Pond- Dragon Wrist (from Stepping Stones), Elixir (on ledge)
+Treetop- Remedy (lower right), Mythril Racket (hidden to left)
+Tree Base- Demon's Vest
+???- Minerva's Plate (lower left of screen, down from hidden path)
+
+///Bran Bal///
+Basic objective: Go to the room on the left, then to the laboratory.
+
+Storage (left of Pond)- Elixir
+Storage (right of Pond)- Wing Edge, moogle (Moorock), Stiltzkin
+ Mognet: from Moorock to Mozme
+Stiltzkin item set 7: Diamond, Ether and Elixir for 2222 gil
+Gate (under bridge)- Flash Hat
+
+New equipment: (mogshop)
+Defender          9340
+Holy Lance       11000 (if you didn't steal it at Oeilvert)
+Avenger          16000 (if you didn't steal it at the Earth Shrine)
+Flash Hat         5200 (can find one soon)
+Adaman Hat        6100
+Platinum Helm     4600
+Platina Armor    10500
+
+Ability note: Thunder Slash (Defender) misses often.
+    Dragon's Crest (Holy Lance) is like Frog Drop and Thievery in that it does consistent damage and never misses. The formula is:
+Damage = (number of dragons killed)^2
+Freya need not be in the party for a killed dragon to count towards to total. In order for it to reach 9999 damage you will have to slay 100 dragons.
+    Demi Shock (Avenger) is similar to Demi, but only takes off 20% of the target's max HP.
+ATE: After the control switches to Eiko, you can be sure to see all the ATE's by following Zidane's path. You can talk to the other characters to get extra dialogue but it actually won't matter whether they join you.
+
+///Pandemonium///
+Basic objective: Follow the trail. There will be a number of event battles.
+
+Monsters: Amudusias, Abadon, Malboro, Mover, Shell Dragon
+Useful abilities: Bird/Bug/Demon Killer/Dragon Slayer, wind and earth protection
+New blue magic: Twister (Abadon; if you missed it at Mount Gulug)
+Note: You can Eat Abadons, but not the one in the event battle.
+
+Treasures:
+Hall (start)- moogle (Moorock)
+Mind Control (up from Hall)- Holy Miter (under chair)
+
+***
+Puzzle: The monster generator (Medium)
+    When you get to the Generator room, there will be a switch that simultaneously turns on the bridge outside and starts the light sequence on the floor, for 30 seconds. If you touch one of the lights you'll have an encounter and when it's resolved you won't be able to get across the bridge in time. When the time runs out, the bridge will disappear, even if you're standing on it. Suggestion: Watch the lighting pattern and plan your path through the room. Then you can push the button to reset the time when you're ready to go for it.
+
+***
+Puzzle: The rotating elevator (Medium- 2 hints)
+    The objective is to get to the top. The elevator connects several pairs of boarding points in this vertical room. You can control the initial direction that the platform faces with the switch in the previous room, but it rotates counterclockwise as it moves up. You can't board the platform if it's not facing the boarding point. Note that there's a treasure you can reach in this room with the elevator.
+
+Hint 1: Trial and error can get you to the top.
+
+Hint 2: If you can't board from one point at a certain rotation setting, you may still be able to board at a different point.
+
+Solution: Setting 3 can get you the treasure (top of the room), and setting 4 will bring you all the way up.
+***
+
+Elevator- 20007 gil
+Maze- Elixir, Carabini Mail (follow the less obvious path to the upper right or left from the top of the Elevator); Battle Boots, moogle (Mozme) (obvious path down from Elevator)
+
+Ability note: Initiative (Battle Boots) is very useful (but not as essential as Alert).
+---
+First boss battle at Pandemonium
+Lv 58
+Type: Dragon
+HP/MP: 24,055/9,999
+Gil/AP: 5,240/
+Steal: Elixir, Dragon Mail, Kaiser Knuckles
+Weak: Ice, Wind        Guard: Earth
+Abilities: Claw, Twister, Shockwave, Aerial Slash
+
+Tip: Wear wind protection.
+---
+Second boss battle at Pandemonium
+Lv 62
+Type: Human
+HP/MP:40,728/9,999
+Gil/AP: 0/0
+Steal: Battle Boots, Ninja Gear, Dark Gear
+Weak: none
+Abilities: Wave, Flare, Psychokinesis, Stop
+
+Note: This boss will not cast Flare or Stop on a reflected character.
+---
+Third boss battle at Pandemonium
+Lv 64
+Type: Human
+HP/MP: 42,382/9999
+Gil/AP: 0/0
+Steal: Ether, Carabini Mail, Light Robe
+Weak: none
+Abilities: Demi, Thundaga, Flare Star
+
+Tip: If all of your characters have Reflect status, he will cast nothing but Flare Star (which hurts). However, if gave Auto-Reflect to three characters, he will cast only the other two spells, and only on the unreflected member. You can exploit this behavior by giving that character the Coral Ring.
+---
+
+***Disk 4***
+
+///Invincible///
+Basic objective: Fly to the Iifa Tree. There are more sidequests available now.
+Note: Unlike the other one, this airship can land on brown or green ground (but still not forest or beach).
+
+Treasure:
+Core- Pisces (key item)
+
++++
+Side quest: Dead Pepper treasures
+    If you found all the other Dead Papper treasures and return to Chocobo's Paradise and talk to Fatty with the square button, he will tell you about the final Dead Pepper treasure. It's in the ocean exactly where he says it is, but you can't see anything on the surface. Use the marker that's still on your map to position yourself and then dive for it. Afterwards, if you return he'll give you a rare Fat Chocobo card. At this point he will also give you back any cards you found with Choco that you had to leave behind.
+
++++
+Side quest: Chocobo beaches
+    After finding the final Dead Pepper treasure and seeing the scene at Chocobo's Paradise, you can return to Fatty again and he will tell you to bring Choco to all the beaches of the world. The objective is to press circle standing at every beach of the world. You should hear a tone at each one. You actually don't need to have Choco around; it's probably quicker to use the airship. If you do this quest I recommend you find them all at once so you don't lose track. Not all beaches count toward the total because only one beach counts per place name; e.g., the Falstead Coast only counts once. You'll get a message when you find all of them, and from now on if Zidane is standing on a beach with Choco you get HP/MP restored by pressing circle.
+
+Region           Beaches
+Mist Continent         7
+Outer Continent        7
+Salvage Archipelago    4
+Lost Continent         2
+Forgotten Continent    0
+
++++
+Side quest: Madain Sari
+    In the kitchen in Madain Sari, you'll find a certain someone. If you bring a party that includes both Dagger and Eiko, she will run away. Then if you bring a party that includes neither Dagger, Eiko nor Amarant, she will tell you about something in the secret room. (She only says this if you previously brought the Dagger-Eiko party.) You can now read a clue in the secret room. Now you have to figure out the meaning of this clue.
+***
+Puzzle: Madain Sari (Hard)    Reward: extra insight into the story
+
+Clue: Time moves forward once; Time moves backward once; Nine is the first number; It is also the last.
+
+Hint 1: Try the Eidolon wall. Notice the new camera angle here. You can read some of the sites on the wall.
+
+Hint 2: "Forward once... backward once..."
+
+Hint 3: Zidane already figured out what is meant by forward and backward.
+
+Hint 4: Try walking to the right at the wall. Listen carefully.
+
+Hint 5: Nine is the important number. "First" and "last" don't really mean anything though.
+
+Hint 6: If you thought of walking around the wall nine times, you're on the right track.
+
+Solution: Walk around the wall, alternating right then left a total of nine times. You should hear an odd tone for each correct circling. You'll know it when you're done because you will get free healing.
+***
+Now you can read all of the sites on the wall. There is one important site that you can read only when you've read all the others.
+
++++
+Side quest: The Final Stellazzio (Hard- 6 hints)    Reward: Hammer
+    Now you should have Aquarius and Pisces, to turn in for 30000 gil and a Robe of Lords. That should be twelve. If you missed any of them you can get them at your liesure now. After you turn in the 12th one, you will become aware of another. The writings on the coins (which you are allowed to see again) are the hints to the location of number 13.
+
+Hint 1: "...headed east..." "...in the opposite direction of the sun." We're talking the east part of the world map.
+
+Hint 2: "Through the forest and over the mountain..." Okay, not very helpful but there are forests and mountains nearby.
+
+Hint 3: "...by the river." "...chilly northern wind..." These are duds. No river, no snow close by.
+
+Hint 4: "...to the cape where Virgo waited. The sun was setting into the ocean." "Waiting for the sun to set into the ocean." "Watching the sunset from the cape..." "...up a hill toward the sun..." Up a hill. Sunset. Cape. Ocean. Get it?
+
+Hint 5: It's not far from Treno.
+
+Hint 6: It's located where you found one of the twelve.
+
+Solution: It's in the same place where you found Scorpio, Quan's Dwelling.
+
+Note: The hammer cannot be equipped. It is a one of a kind rare item that is a component in some synthesis formulas. If you have it in your inventory at the end of the game there is a miniscule change in the ending sequence.
+
++++
+Side quest: Knight's House (Medium)        Reward: Circlet
+    That's a Behemoth down there. Now things are interesting because of his devastating Meteor Counter. There are several ways to deal with it. You can hit him with extreme power moves (e.g., Shock) and hope that he won't counter before you kill him (or that the counter won't kill you). You can disable his counter by Silencing him with one of the white mages or with Soul Blade on the Butterfly sword, then killing him with Holy, summons or Thievery. You can avoid the counter entirely by using Counter and Eye 4 Eye yourself, (along with Beast Killer, MP Attack, Distract, Auto Regen and whatever else you can afford) and then just Defending. Or you can gamble it with Quina's Roulette or Vivi's Stop, Break or Death. Actually the easiest method is just Soul Blade with the Sargatanas (Petrify).
+
+Lv 71
+Type: Beast
+HP/MP: 24,123/3,338
+Gil/AP: none for this battle
+Steal: Phoenix Pinion (4)
+Weak: Ice
+Abilities: Strike, Meteor Counter, Horn
+
++++
+Mini game: The auction house
+    It's now possible to get the Magical Fingertip key item for ~35000 gil. To get it to appear, make sure you've sold each of the four key items that are available at the auction to the buyers in town. (Whether you bought them a second time makes no difference as long as you sold them.) When you have the Fingertip, bring it to the old man on the second floor of Daguerreo. And while you're there:
+
+New equipment: (weapon shop)
+Ultima Sword    14000 gil
+Power Wrist      5100
+Aegis Gloves     7000
+Kaiser Helm      7120
+Ninja Gear      14000 (if you didn't steal it at Pandemonium)
+Dragon Mail     14000 (if you didn't steal it at Pandemonium)
+
+Ability note: Eye 4 Eye (Kaiser Helm, Ninja Gear) actually makes Counter useful.
+
++++
+Side quest: Mognet (Medium)    Reward: Protect Ring
+    If you head back to Kupo in Alexandria now, he will start a chain of Mognet letters. You can get a Kupo Nut for every one of these that you deliver. Moguta will give an Aloha T-Shirt for the first Kupo Nut you give him in disc 4. The trick is remembering where each moogle is. I will give one hint for each before giving the location. Note that, contrary to rumor, it was not possible to do this quest in disc 3. Also at the Steeple is Stiltzkin, with the final item set.
+
+Stiltzkin item set 8: Moonstone, Ruby and Elixir for 5555 gil
+Note: If you bought every item set, you get a Ribbon now.
+
+from Kupo to Atla
+
+Hint: Stiltzkin was with Atla when he offered his first item set.
+
+Location: She's at Burmecia, in the Vault.
+
+from Kupo to Mogryo
+
+Hint: Stiltzkin wrote Mogryo a letter about "Rally-Ho".
+
+Location: He's at the Black Mage Village. And while you're here:
+
+New equipment: (weapon shop)
+Wizard Rod        3990 gil
+Siren's Flute    7000
+High Mage Staff    6000 (if you didn't get chocograph 14)
+Thief Hat        8300
+Dark Gear        16300 (if you didn't steal it at Pandemonium)
+
+New equipment: (synthesist)
+Masamune           16000 gil
+Duel Claws         16000
+Priest's Racket    11000
+Bracer             24000
+Gauntlets           8000 (if you missed the Gold Chocobo's treasure)
+Golden Skullcap    15000
+Grand Helm         20000
+Rubber Suit        20000 (if you didn't steal it at the Earth Shrine)
+Brave Suit         26000
+Grand Armor        45000 (can steal one soon)
+
+Ability note: The purpose of Dispel (Siren's Flute) is to remove helpful effects from the enemy, not to cure harmful effects from your party. It does cure Slow, however.
+    Esuna (Siren's Flute) cures Confuse, Poison, Sleep, Heat, Freeze, Mini, Gradual Petrify, Silence and Darkness.
+    Power Throw (Bracer) makes Throw much more useful.
+    Power Up (Golden Skullcap) makes Chakra much more useful.
+Tip: Soul Blade with the Masamune (Doom) will end almost any monster.
+Note: If you go to the Rooftop again you can overhear another conversation.
+
++++
+Side quest: Doga and Une    Reward: nothing
+    If you bring Doga's Artifact and Une's Mirror to the music player at the inn you will hear a theme that may be familiar.
++++
+
+from Mogryo to Kumool
+
+Hint: He's on the Forgotten Continent.
+
+Location: He's in Ipsen's Castle.
+
+from Kumool to Mois
+
+Hint: Mois was originally at the Ice Cavern but that's closed off now.
+
+Location: He's at the entrance of Fossil Roo. Okay, so that one was unfair.
+
+from Mois to Noggy
+
+Hint: He's on an island.
+
+Solution: He's at Daguerreo.
+
+from Noggy to Kupo
+
+After delivering to Kupo, you will have to find out who in Alexandria has the item. (3 hints)
+
+Hint 1: Think of what Artemicion used the item for.
+
+Hint 2: There's someone in town with fur like Artemicion's.
+
+Hint 3: Actually hair, not fur.
+
+Solution: Speak to Ruby at the theater.
+
+After getting the item, just bring it to Mognet Central to finish the quest. Its location is described by the Reef chocobo at Chocobo's Paradise. (See "Dead Pepper Treasures" above if you haven't found it yet.)
+
++++
+Side quest: Vile island (Medium)    Reward: tons of exp
+    On the island southwest of the Iifa Tree, you'll encounter Yans. They are hard to kill and give lots of exp. One to three of them may show up at a time. Here's their information:
+
+Lv 72
+Type: none
+HP/MP: 19,465/3378
+Gil/Exp: 2218/42673
+Steal: Ore, (none), (none), Elixir
+Weak: Shadow    Half: Holy
+Abilities: Snort, Comet, Aera, Float, Virus Powder
+
+Tip: Soul Blade with the Masamune works well.
+Note: If you want to make progress on Freya's Dragon Crest ability, it's better to fight Grand Dragons. They give less exp per battle but they are much easier to kill.
+
+Friendly monster: (Vile Island)
+Yan- asks for Diamond, gives 50 AP, Rosetta Ring
++++
+
+///Iifa Tree///
+Basic objective: Enter the glowing light.
+
+---
+Boss at the Iifa Tree
+Lv 67
+Type: Dragon/Flying
+HP/MP: 54,940/9,999
+Gil/AP:   9,506/13
+Steal: Remedy, Dragon Wrist, (none), Grand Armor
+Abilities: Counter, Twister, Shockwave, Tidal Wave, Psychokinesis, Aerial Slash
+Weak: Ice, Wind        Guard: Earth
+
+Tip: Wear wind protection.
+---
+
+///Memoria///
+Basic objective: Get to the end. This is the last dungeon.
+
+Monsters: Ash, Chimera, Iron Man
+Useful abilities: Antibody, Body Temp, Locomotion, Bird/Demon Killer/Man Eater, ice protection
+New blue magic: Frost (Chimera)
+Tip: All of these monsters can easily be dispatched with Soul Blade on the Masamune (Doom). The Ash, however, is a player hater and will counter with Death when Doomed.
+
+Treasure:
+Entrance- exit point to airship, save point/party change, Kain's Lance (behind wall on upper right)
+Stairs of Time- Master Phantom card player (at field icon to lower left)
+Recollection- The Tower (on balcony at top level)
+Outer Path- boss battle without warning
+
+---
+First boss at Memoria
+Lv 72
+Type: Demon
+HP/MP: 59,497/3,381
+Gil/AP: 8,532/10
+Steal: Genji Armor, Ultima Sword, Masamune
+Weak: Ice    Absorb: Fire
+Abilities: Sword Quiver, Firaga, Raining Swords, Flame Slash, Mustard Bomb, Esuna, Reflect
+---
+
+The Past- Angel Flute (left of monument), save point/party change (right of monument)
+Recollection- Defense Phanton (at field icon to left)
+Time Interval- Rune Claws (left side), boss battle without warning
+
+---
+Second boss at Memoria
+Lv 72
+Type: Dragon
+HP/MP: 59,494/3,381
+Gil/AP: 8,820/10
+Steal: Blood Sword, Feather Boots, (none), Grand Helm
+Weak: Ice    Absorb: Wind
+Abilities: Twister, Absorb MP, Absorb Magic, Float, Snort, Jet Fire, Absorb Strength, Silent Claw
+
+Note: Jet Fire causes Heat to all members. Silent Claw inflicts Silence. Snort removes a member from the battle.
+---
+
+Lost Memory- Strong Phantom (at field icon)
+Portal- save point/party change
+ Monsters: Behemoth, Iron Man, Stilva
+ Useful abilities: Beast/Demon Killer/Man Eater
+Birth- secret boss (behind rocks to right; There's no field icon)
+
+---
+Secret boss at Memoria
+Lv 92
+Type: Demon/Flying
+HP/MP: 55,535/9,999
+Gil/AP: 9,638/30
+EXP: 65,535
+Steal: Reflect Ring, Running Shoes, Battle Boots, Robe of Lords
+Abilities: Powering Sword, Freeze, Cleave, Doomsday, Reflect, Curse, Mustard Bomb
+Weak: Holy        Guard: Earth    Shadow: Absorb
+
+Note: This boss gives exp. Curse causes Poison, Confusion, Darkness, Mini, and Slow. Doomsday does Shadow damage to all members. There is a special reward after this fight
+---
+
+New equipment: (synthesist)
+Robe of Lords    30000 (more than one available from side quests)
+Tin Armor        50000
+Protect Ring     40000 (more than one available from side quests)
+Pumice           50000
+Pumice Piece     25000
+Save the Queen   50000
+Pumice Piece     25000
+Phoenix Pinion     300
+Ether              500
+Note: If you want a Pumice but don't want to synthesize one and lose your Pieces, you can get one in the Ozma sidequest. (see below)
+
+Ocean- Boss battle without warning
+
+---
+Third boss battle at Memoria
+Lv 72
+Type:  Demon
+HP/MP: 59,496/3,380
+Gil/AP:   17,376/10
+Weak: Thunder    Half: Ice    Absorb: Water
+Steal: Genji Helmet, Wizard Rod, (none), Glutton's Robe
+Abilities: Leg, Waterga, Ink, Water-Gun, Freeze, Esuna
+---
+
+Time Warp- save point/party change (hidden at balcony, lower level), Rare Phantom (upper balcony at field icon)
+Stairs- Mace of Zeus (upper left of platform), Dark Phantom (upper right of platform at field icon)
+ Ability note: Doomsday (Mace of Zeus) hits all targets in combat. You can use this to your advantage by equipping Shadow-absorbing equipment.
+Gate to Space- boss battle without warning
+
+---
+Fourth boss at Memoria
+Lv 71
+Type: Demon
+HP/MP: 58,554/9,999
+Gil/AP: 8,436/10
+Steal: Genji Gloves, Siren's Flute, Black Robe
+Weak: Fire, Wind, Holy    Half: Shadow    Absorb: Earth
+Abilities: Death Cutter, Earthquake, Stop, Venom Powder, LV5 Death, Doom, Death
+
+Note: This boss is not undead.
+---
+
+Gate to Space (after boss battle)- save point/party change (hidden to left), Excalibur II (hidden to right)
+
++++
+Side quest: Excalibur II (Expert)
+    You will be able to get the Excalibur II in this room only if you got to this point within 12 game hours. Refer to the "Excalibur II FAQ (JP)" by Etoh-21/SNOWS-san for tips.
++++
+
+New monsters: Maliris, Tiamat, Kraken, Lich
+
+Crystal World (4th screen)- save point/party change/teleport
+Note: The Teleport to the entrance is one-way; you will have to walk all the way back if you use it.
+
++++
+Side quest: Ozma (Difficult)    Reward: Ozma card, Strategy Guide (key item)
+    If you go to Chocobo's Air Garden and examine the thing on the smaller island, you can fight the hidden boss. It's possible to do this as early as getting gold Choco, but I've put the information here because you'll probably want the equipment from Memoria before fighting him. There has been a lot of ink spilled over this boss, mostly hype. I will lay out some facts. From there you can put together your own strategy. Here's his information:
+---
+Lv 99
+Type: Flying
+HP/MP: 55,535/9,999
+Gil/AP: 18,312/100
+Exp: 65,535
+Weak: see below
+Steal: Elixir, Robe of Lords, Dark Matter, Pumice Piece
+Abilities: Doomsday, Flare Star, Curse, Flare, Mini, Berserk, Death, LV 4 Holy, LV 5 Death, Meteor, Curaga
+---
+1. If you completed the Friendly Monster side quest Ozma will be much easier because he will be hurt, not healed, by the Shadow damage of his Doomsday. In fact he becomes weak against Shadow. Also, without the side quest you will be unable to hit him with ordinary physical attacks. I don't recommend fighting him without having done the side quest. Look at it this way: you can finish the side quest in less time than it would take to prepare to fight him in his stronger state.
+2. Your characters do not have to be at lv 99. If you're an RPG player who gets off on leveling everyone to the max level, that's fine but note that it's not necessary. I fought Ozma at around level 50, jacked all his stuff over the course of about ten rounds, then jacked his ass in about ten more rounds. You can do it if you know what you're doing. His Dark Matter and Pumice Piece are rare items.
+3. His Doomsday can be easily dealt with by giving everyone Shadow equipment, preferably Shadow absorbing. (e.g., Pumice Piece, Ninja Gear, Demon's Mail) You can avoid LV4 Holy and LV5 Death by coming to battle at levels incompatible with these spells. You can avoid Flare, Mini, Berserk and Death with Auto-Reflect, but that's a lot of magic stones, and then if you bring a healer you'll want to also give her Reflect Null. You may just want to take these spells head on to avoid having to spend the stones on Auto-Reflect. All the ailments that Curse causes (Poison, Confusion, Darkness, Mini, Slow, plus damage) can be prevented except Mini, and all of them except Confuse and Slow are curable with Remedy (preferably Angel's Snack). At the very least you'll want to give Auto-Haste, Antibody and Clear Headed to everyone. That leaves Flare Star and Meteor; These two just plain hurt. They may do over 4000 damage, killing your weaker characters instantly (but don't let this deter you from using the weaker charcters.) He counters actions targeted at him with either Meteor or Curaga. He counters more than half the time.
+4. Now let me remind about the mechanics of combat: Ozma is about as fast as an enemy can get, but you can still get two moves for every one of his. If you have two commands entered before his spell animation ends, you get to do both without interruption (though he may counter). But if you enter one then the other while the first is going on, he'll get to go in between.
+5. Since you can get at most two moves at a time, it is pointless to bring more than two power characters. In fact it may be better to bring just one so that the rest of the party can focus on support. Vivi and Steiner should be ready even at low levels to deal 9999 damage per turn (Flare with Reflect X2 and Shock); Freya, Quina and Zidane can do it with training (Dragon Crest, Frog Drop, Thievery). Since you want a party with a lot of HP, Steiner is probably the default choice in this department but it's up to you. If you want the power of Shock without having to stop to replenish Steiner's MP, try using Darkside. It should do max or nearly max damage if you completed the friendly monster sidequest.
+6. You may want to bring a healer because Curaga and Life or Full Life will be useful. The automatic Revival Flame of Phoenix may make the difference between winning and losing. Or you can bring someone with more HP and just use Elixirs and Phoenix Downs to heal. In any case Auto Regen is, as always, very handy.
+7. Some recommend killing his MP with Magic Hammer to disable Curaga and some of his annoying spells, but if you do this he won't be able to hurt himself with Doomsday. This is also an investment of several turns which could be spent otherwise.
+8. Some recommend getting certain characters ready to Trance (with High Tide) to improve their abilities in the battle. This may or may not be worth the trouble for you.
++++
+
+Back at Memoria:
+---
+Fifth boss at Memoria
+Lv 74
+Type: Demon/Bug/Flying
+HP/MP: 55,535/9,999
+Gil/AP: 8,916/0
+Steal: Elixir, Black Belt, (none), Duel Claws
+Abilities: Demon's Claw, Meteor, Death, Spin, LV5 Death, Twister
+Weak: Ice, Wind    Guard: Earth
+
+Note: You can still save or leave after this battle.
+---
+Sixth boss at Memoria
+Lv 76
+Type: Human/Flying
+HP/MP: 55,535/9,999
+Gil/AP: 0/0
+Steal: Ether, White Robe, (none), Rebirth Ring
+Abilities: Flare Star, Holy, Curaga, Reflect
+Weak: none
+
+Tip: Prepare for the next battle as well before fighting this one.
+---
+Final boss at Memoria
+Lv 69
+Type: Flying
+HP/MP: 54,100/9,999
+Gil/AP: 0/0
+Steal: Elixir (3)
+Abilities: Grand Cross, Blue Shockwave, Neutron Ring, Protect, Shell, Holy, Flare, Curaga
+Weak: none
+
+Note: Grand Cross inflict Confusion, Doom and Stop.
+---
+After the final battle:
+
+Mini game: Blackjack    Reward: nothing
+    At the "The End" screen, press R2,L1,R2,R2,up,X,right,circle,down,triangle,L2,R1,R2,L1,square,square. You should hear a tone. Then press start to play.
+
+End of walkthrough.
+
++++
+Appendix: Friendly monsters
+
+Mu (Nolrich Heights; Dali)- asks for 1 Ore, gives 10 AP, Potion
+Ghost (Bentini Heights; Treno)- asks for 1 Ore, gives 10 AP, Hi-Potion
+Ladybug (Donna Plains; Conde Petie)- asks for 2 Ores, gives 20 AP, Ether
+Yeti (Lucid Plains; Madain Sari)- asks for 2 Ores, gives 20 AP, Elixir
+Nymph (Pualei Plains; Iifa Tree)- asks for 3 Ores, gives 30 AP, Emerald
+Jabberwock (Blairsurpass Plains; Forgotten Continent)- asks for Emerald, gives 40 AP, Moonstone
+Feather Circle (Milmakis Ice Field; Lost Continent)- asks for Moonstone, gives 30 AP, Lapis Lazuli
+Garuda (Popos Heights; above Gizamaluke's Grotto)- asks for Lapis Lazuli, gives 40 AP, Diamond
+Yan (Vile Island)- asks for Diamond, gives 50 AP, Rosetta Ring
+
++++
+Appendix: Chocograph treasures
+
+1: 2 Elixirs, 3 Hi-Potions, 4 Ethers, 2 Germinas Boots
+2: 5 Potions, 5 Hi-Potions, 2 Tents, 2 Cotton Robes
+3: 10 Antidotes, 1 Jade Armlet, 3 Wing Edges, 1 Cargo Ship card
+4: upgrade to Reef chocobo
+5: 9 Phoenix Pinions, 5 Phoenix Downs, 12 Peridot, 1 Diamond Gloves
+6: 5 Echo Screens, 7 Hi-Potions, 3 Tents, 1 Theater Ship card
+7: 8 Gysahl Greens, 5 Ethers, 7 Hi-Potions, 1 Dragon’s Claws
+8: 37 Potions, 6 Magic Tags, 1 Shield Armor, 1 Gaia Gear
+9: 6 Softs, 4 Ethers, 1 Feather Boots, 1 N-Kai Armlet
+10: 8 Potions, 4 Phoenix Downs, 3 Ethers, 1 Magician Robe
+11: 4 Remedies, 2 Elixir, 8 Rising Suns, 1 Oak Staff
+12: upgrade to Mountain chocobo
+13: 12 Phoenix Downs, 14 Ores, 1 Kaiser Knuckles, 1 Iron Man card
+14: 7 Ethers, 2 Elixir, 10 Wing Edge, 1 High Mage Staff
+15: upgrade to Ocean chocobo
+16: 17 Ores, 5 Ethers, 14 Opals, 1 Demon’s Mail
+17: 15 Phoenix Pinions, 1 White Robe, 1 Diamond, 1 Masamune card
+18: 27 Ores, 1 Light Robe, 1 Whale Whisker, 1 Alexander card
+19: 11 Peridot, 9 Opals, 15 Sapphires, 19 Topaz
+20: upgrade to Sky chocobo
+21: 21 Amethysts, 16 Garnets, 1 Genji Armor, 1 Ragnarok
+22: 11 Sapphires, 1 Circlet, 1 Pumice Piece, 1 Hilda Garde 3 card
+23: 33 Potions, 15 Annoyntments, 1 Holy Miter, 1 Dark Matter card
+24: 1 Ribbon, 1 Rebirth Ring, 13 Amethysts, 1 Ark card
+
++++
+Appendix: Dead Pepper treasures
+
+Reef chocobo's treasures
+Crack: Mognet Central
+Foam: 8 Straw Hats, 8 Pearl Armlets, 7 Aloha T-Shirts, 8 Sandals
+Mountain chocobo's treasures
+Crack: 41 Lapis Lazulis, 1 Rosetta Ring, 1 Protect Ring, 1 Airship Card
+Foam: 50 Potions, 25 Hi-Potions, 9 Ether, 7 Elixir
+Ocean chocobo's treasures
+Crack: 1 Maiden Prayer, 1 Dragon’s Hair, 1 Gauntlets, 1 Odin Card
+Foam: 10 Remedies, 1 Black Robe, 1 Protect Ring, 1 Blue Narciss Card
+Sky chocobo's treasures
+Crack: 19 Eye Drops, 1 Madain’s Ring, 1 Genji Helmet, 1 Hilda Garde 1 card
+Foam: 9 Ores, 15 Topaz, 1 Tiger Racket, 1 Red Rose card
+Fat chocobo's treasures (disk 4)
+10 Aquamarines, 1 Ultima Weapon, 1 Maximillian, 1 Invincible Card

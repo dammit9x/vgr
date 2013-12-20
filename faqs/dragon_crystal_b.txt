@@ -1,0 +1,673 @@
+Dragon Crystal FAQ/Guide (Sega Master System & Sega Game Gear)
+August 2, 2006 v1.1
+dammit9x at hotmail dot com
+
+Copyright 2006
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. How to play
+ 1a. Controls
+ 1b. Subscreen
+ 1c. Passage of time
+ 1d. Food and eating
+ 1e. Dying and continuing
+ 1f. Objective
+2. Character parameters
+3. Level table
+4. Items tables
+ 4a. Swords
+ 4b. Armor
+ 4c. Books/Scrolls
+ 4d. Rods
+ 4e. Potions
+ 4f. Rings
+ 4g. In-game messages
+5. Monsters table
+6. Floors table
+7. Gameplay tips
+8. Hacking table
+
+--------------------------------------------------------------------------------
+
+1. How to play
+  Dragon Crystal is a Rogue-style game: a turn-based crawl through 30 randomly 
+generated dungeons (floors), each one harder than the last. The hero must find 
+food and money to survive, and collect and identify equipment in order to fight 
+the monsters that get in his way. His ultimate goal is to find the crystal ball 
+on the 30th floor to escape his curse. Along the way he is followed by a 
+mysterious dragon that hatches from a giant egg.
+  The differences between the Game Gear (GG) and Sega Master System (SMS) 
+versions are largely cosmetic. This guide explains the differences in detail.
+
+1a. Controls
+Direction pad moves the character or attacks enemies by running into them.
+Button 1/A goes to the subscreen where you can change equipment or use items.
+Button 2/B picks up items underfoot, and also waits for time to pass.
+Start button, when pressed, toggles fast/slow animation in the SMS version.
+Start button, while held down, makes slow animation fast in the GG version.
+
+1b. Subscreen
+  Press Button 1/A to toggle the subscreen. Here you can see the basic character
+parameters (floor, rank, HP, PW, AC, money) and use items. See section 2 for 
+details on parameters. 
+  There is one submenu for each item type: Swords, Armor, Scrolls (SMS) or Books
+(GG), Rods, Potions and Rings. Press button 2 to choose items and commands. 
+Swords, Armor, and Rings are worn with the Equip command and change the 
+character parameters. Sometimes equipment is cursed, and is impossible to take 
+off without a Bless scoll/book. Cursed weapons and armor give no bonus to PW or 
+AC, and cursed rings have other nasty effects. There is no way to tell a cursed 
+weapon or armor without first equipping it.
+  Scrolls/Books, Rods and Potions are consumed by the Use command. These are 
+support items and perform such functions as healing and upgrading equipment. 
+Some items have undesirable effects though. See section 4 for details. 
+  All items can also be dropped (provided there's room at the feet) or thrown. 
+Throwing things at monsters either does a small amount of damage or has some 
+other effect, such as "boggling" them. Thrown items sometimes miss the target. 
+In any case, thrown items are always lost, and dropped items are always 
+preserved. 
+  All items other than weapons and armor start out unidentified. They will have 
+unhelpful descriptions such as "Mauve Potion." These labels will be different 
+every game. There are two ways to find out what they are. The riskier way is to 
+use them. The less risky way is to throw them. The thrown item doesn't actually 
+have to hit anything. In any case, any item of the same type that is 
+encountered again will be identified.
+
+1c. Time
+  Time is divided into increments known as ticks. Moving, attacking, picking 
+up items and using items all take one tick. During this time, monsters move and 
+attack, food is consumed and natural healing occurs. Status ailments other than 
+Sluggishness wear off over time. Changing equipment and dropping items takes no 
+time, however.
+  You can choose to do nothing and let time pass by pressing button 2/B. There 
+are several reasons to do this: You can try to get monsters to move into a 
+position where you can shoot them with rods or throw things at them; you can 
+wait repeatedly in front of a wall to search for a hidden passage; Or you can 
+wait for a dangerous ailment to wear off before proceeding.
+
+1d. Food and eating
+  You need food to survive. Pick up bread for about 20 food units and meat for 
+about 40. The maximum that can be carried is 99. Once every 10 ticks a unit of 
+food is consumed, and once every 8 ticks HP is restored by an amount equal to 
+the current level. These values can be changed by equipping certain rings. If 
+you run out of food, healing stops and HP is consumed instead of food, 
+eventually resulting in starvation.
+
+1e. Dying and continuing
+  If you get killed, you will be shown a summary of your performance and may 
+have the opportunity to continue, provided you have enough money. When you 
+continue you lose all items except the equipped weapon and armor. The 
+character's level and other parameters are unchanged, except for the gold paid 
+to continue. Identified items stay identified. You may continue up to three 
+times, for a total of four lives.
+
+1f. Objective
+  Your goal on floors 1-29 is to find the exit to the next floor. This is 
+always located in the vertical wall of a room, often at a corner. It's never on 
+the edge of the map though.
+  On floor 30 there is no exit. Instead you need to find and pick up the 
+crystal ball. Picking it up ends the game. Your final goal will be easier if 
+you prepare by clearing out each floor fully, getting all the treasure and 
+slaying all the monsters for experience.
+
+
+2. Character parameters
+
+FL: The current Floor, besides indicating how far along the game you are, 
+determines the monsters present, the items available, and the cost of 
+continuing at death. At floors 11 and 21, the background music changes. See 
+section 6 for details.
+
+Exp: This is the total experience points earned from killing monsters. Kill 
+monsters to gain exp and level-up. Note that Exp cannot be normally be seen 
+during gameplay.
+
+Level and Rank: The character increases in level as he gains exp. The level 
+determines his rank, the healing rate, the damage done by rods, and the 
+development of the dragon companion. Each level-up gives a bonus to base PW and 
+max HP. It's also possible to lose levels from certain items and monsters. In 
+this case max HP is lost but there is no PW loss. You can't see the level 
+directly but you can figure it out from the Rank. See section 3 for more info.
+
+HP: The character's health. The right number is the maximum and the left is the 
+current amount. It goes down as monsters hit you; when it's 0 you die. The 
+character normally heals damage over time. You can also drink healing potions. 
+The max HP is increased by leveling up. It can also be decreased by leveling 
+down or getting hit by the tree enemies. The formulas for max HP gain and loss 
+are as follows:
+
+Max HP gained at level up = (New level + Floor) x 2
+
+Max HP lost at level down = Old level + Floor
+
+PW: The power of your attack. A higher number will result in more damage. This 
+is primarily determined by your weapon. Certain items can increase this 
+temporarily or permanently. Leveling up also gives a bonus to your PW. Likewise 
+it can be decreased by the Wither potion, and certain Snail enemies.
+
+AC: This is the measure of your defense. A higher number will result in less 
+damage taken. It is determined by your armor and like PW can be raised by items.
+Unlike PW, however, it does not increase with level-ups, and the base AC can 
+never go down.
+
+Hit: Determines the hit rate of your attack. A higher number results in fewer 
+misses, though it is not a percentage. This parameter is not directly 
+observable in the game, and is solely dependent on the weapon.
+
+Evd: Determines how often you dodge enemy attacks. A higher number results in 
+more dodging, but it's not a percentage. Like Hit, this can't be observed 
+directly and depends only on the armor.
+
+F: This is the current food supply. Maximum is 99.
+
+G: This is the amount of money carried. It's used to buy continues after death.
+
+Window color: The color of the windows and text indicates the character's basic 
+condition.
+  White: normal
+  Blue: poisoned
+  Yellow: out of food
+  Throbbing red: HP is at <25%
+
+Status ailments: Status problems can be caused by certain potions or by the 
+attack of certain enemies. All status ailments can be cured by advancing to the 
+next floor.
+  Paralyzed: The character can't do anything. Time automatically advances until 
+it wears off. Caused only by a Freeze potion.
+  Sluggish: The character takes twice as long to do anything. The only way to 
+inflict is with a Slow potion. Can be cured with a rare Slowfix potion. 
+Drinking a Slow potion typically proves to be a fatal mistake.
+  Poisoned: Healing stops, but it doesn't hurt you. Caused by frog enemies. It 
+wears off with time, or use a Cure potion.
+  Fog: Vision is restricted to the adjacent tiles and fog persists outside this 
+area. The explored areas become forgotten.  Caused by a Fog potion or the Mad 
+Witch/Sorcerer monster. It wears off with time, or use a Cure potion.
+  Dizzy: The character moves in random directions. The ability to use and throw 
+items is unaffected though. Caused by a Daze potion, and by many enemies. It 
+wears off with time, or use a Cure potion.
+
+
+3. Level table
+
+LEVEL  RANK        REQ. EXP.  PW GAINED   DRAGON STATUS
+ 1     Apprentice         0                         Egg
+ 2     Ranger            20           1     
+ 3     Soldier           70           1     
+ 4     Warrior          130           2     Baby Dragon
+ 5     Fighter          200           2     
+ 6     Swordsman        340           2     
+ 7     Veteran          560           2     
+ 8     Knight           860           3      Big Dragon
+ 9     Champion        1300           3     
+10     Hero            2000           3     
+11     Master          3000           3     
+12     Paradin         4200           4     Gray Dragon
+13     Warlord         5600           4     
+14     Dragonlord      7400           4     
+15     Avatar          9600           4     
+16     Masterlord     14000           5     
+
+
+4. Items Tables
+  The ID numbers are used for codes. See section 8 for more info.
+
+4a. Swords
+ID#    GG name       SMS name        PW   Hit   Note
+Green                
+ 01    Dagger        Dagger           2     0   Initial equipment; rusted weapon
+ 02    Short sword   Short sword      4     4
+ 03    Long Sword    Long Sword       8     8
+ 04    Broadsword    Broadsword      14    16
+Red                
+ 05    Great Sword   Gladius         19    20
+ 06    Gladius       Flamberge       25    24
+ 07    Flamberge     Rune Blade      32    30
+ 08    Laser Blade   Laser Blade     40    40
+Blue                
+ 09    Magi Masher   Magi Masher     12    10   Strong vs. Magicians/Witches
+ 0A    Hardbreaker   Bushido Blade   13    40   Strong vs. Orbs/Mysts
+ 0B    Ninjakiller   Ghost Killer    13    30   Strong vs. Ninjas/Ghosts
+ 0C    Dragonblade   Dragonslayer    23    40   Strong vs. Dragons
+Purple                
+ 0D    Blood Blade   Blood Blade     14    20   Gain HP: ½ damage, rounded down
+ 0E    Masamune      Great Sword     18     0   Doesn't work on oozes
+ 0F    Death Blade   Death Blade     30    40   Lose HP: ½ damage, rounded down
+
+4b. Armor
+ID#    GG name       SMS name        AC   Evd   Note
+Light                
+ 10    Robe          Robe             0     0   Initial equipment; rusted armor
+ 11    Leathersuit   Leathersuit      2     8
+ 12    Cuirass       Lamellar         5    12
+Medium                
+ 13    Chainmail     Cuirass          9    16
+ 14    Scale Armor   Chain Mail      15    20
+ 15    Plate Armor   Scale Armor     20    24
+Heavy                
+ 16    Battle Suit   Plate Armor     28    29
+ 17    Cyber Suit    Battle Suit     36    35
+ 18    Dragon Suit   Dragon Suit     44    40
+ 19    Mystic Suit   Mystic Suit     16    40   Never rusts
+ 1A    Power Suit    Power Suit      50    50
+
+4c. Books/Scrolls
+  They are called Books in the GG version and Scrolls in the SMS version. The 
+Daze, Cyber and Ninja Books in the GG are Mad, Gas and Ghost scrolls in SMS.
+
+ID#    Name          Effect
+ 20    Blade         +1 PW until weapon change
+ 21    Shield        +1 AC until armor change
+ 22    Norust        Prevents armor (not weapons) fr. rusting until floor change
+ 23    Bless         Uncurses cursed arms and destroys cursed rings
+ 24    Map           Maps the whole floor
+ 25    Shift         Teleport to a random room
+ 26    Daze/Mad      Dizzies monsters on the floor until you get close
+ 27    Magi          Turns equipped weapon into Magi Masher
+ 28    Cyber/Gas     Turns equipped weapon into Hardbreaker/Bushido Blade
+ 29    Ninja/Ghost   Turns equipped weapon into Ninjakiller/Ghostkiller
+ 2A    Dragon        Turns equipped weapon into Dragonblade
+ 2B    Summon        Monster appears in front of you
+ 2C    Blank         Nothing
+ 2D    Potion        Turns all carried potions into Midheal Potions
+         
+4d. Rods        
+ID#    Name          Effect
+ 30    Flame         Damage = 4x level
+ 31    Flash         Damage = 6x level
+ 32    Thunder       Damage = 8x level
+ 33    Travel        Advance one floor; does nothing on FL 30
+ 34    Wind          Monster disappears; no Exp earned
+ 35    Berserk       Damage = 2x current HP, but you lose ½ current HP
+ 36    Reshape       Turns the monster into a different monster
+ 37    Silent        Prevents added effects of the monster's attack
+ 38    Drain         Exchanges HP with monster
+ 39    Spirit        Monster appears in front of you
+ 3A    Wood          Nothing
+ 3B    Wither        Lose a level
+         
+4e. Potions        
+ID#    Name          Effect
+ 40    Minheal       Restores ¼ of max HP
+ 41    Midheal       Restores ½ of max HP
+ 42    Slow          Causes sluggishness
+ 43    Slowfix       Cures sluggishness
+ 44    Fog           Causes fog
+ 45    Daze          Causes dizziness
+ 46    Cure          Cures poison, dizziness and blindness
+ 47    Freeze        Causes paralysis
+ 48    Power         +1 PW permanently
+ 49    Reflex        +1 AC permanently
+ 4A    Maxheal       Restores all HP
+ 4B    Water         Nothing
+ 4C    Wither        Resets base PW to 0
+         
+4f. Rings        
+ID#    Name          Effect
+ 50    Heal          6 ticks to eat, 2 ticks to heal
+ 51    Magic         Doubles damage from rods, including Berserk rod
+ 52    Food          18 ticks to eat, 4 ticks to heal
+ 53    Sight         Searching reveals hidden passages in only 1 turn
+ 54    Shield        +4 AC
+ 55    Ogre          +4 PW
+ 56    Cursed        6 ticks to eat, never heals; always cursed
+ 57    Hunger        4 ticks to eat, 4 ticks to heal; always cursed
+ 58    Toy           Nothing
+ 59    Shift         Uncontrollably teleport to random rooms; always cursed
+
+4g. In-game messages
+  A message in the game is given whenever you use an item. The message can be 
+useful for figuring out what the item was that you just used, if it wasn't 
+identified. If the item is used under circumstances that cause it to do 
+nothing, such as pointing a rod at a wall, the message will instead report that 
+nothing happened. Remember that the item type is identified for future 
+reference in any case. The message is different for the GG and SMS versions.
+
+Books/Scrolls
+Name        GG Description                     SMS Description
+Blade       My weapon became sharper.          My weapon became
+Shield      My armor got stronger.             My armor got stronger.
+Norust      My armor won't rust.               My armor won't rust.
+Bless       I awoke from the spell.            I awoke from the spell.
+Map         I found the map.                   I found the map.
+Shift       I feel lighter.                    I feel lighter.
+Daze/Mad    The enemy is confused.             You've confused the monster! 
+Magi        My sword transformed.              My sword changed!
+Cyber/Gas   My sword transformed.              My sword changed! 
+Ninja/Ghost My sword transformed.              My sword changed! 
+Dragon      My sword transformed.              My sword changed!
+Summon      Enemy!                             Enemy!
+Blank       It's blank!                        It's blank!
+Potion      The potions changed.               The potions changed.
+        
+Rods
+Name        GG Description                     SMS Description
+Flame       (Red flash)                        (Red flash)
+Flash       (White flash)                      (White flash)
+Thunder     (Yellow flash)                     (Yellow flash)
+Travel      Time travel!                       You're slipping through time!
+Wind        I blew the enemy away!             The monster is blown away!
+Berserk     Oh! Berserk!!                      You go berserk!
+Reshape     The enemy transformed!             The enemy mutates!
+Silent      I warded off the enemy's magic!    The enemy spell is deflected!
+Drain       We've swapped our hit points!      You've swapped hit points!
+Spirit      Enemy!                             A monster is summoned!
+Wood        Nothing happened.                  Nothing happened.
+Wither      Oh! Backfire! My level went down.  You've dropped a level!
+        
+Potions
+Name        GG Description                     SMS Description
+Minheal     I feel better!                     Your health improves.
+Midheal     I feel better!                     Your health improves.
+Slow        I feel sluggish.                   You feel sluggish!
+Slowfix     I can move faster!                 Your speed improves!
+Fog         Oh, the fog... I can't see!        You're blinded by dense fog!
+Daze        I'm dizzy...                       Your head spins in confusion!
+Cure        I'm cured.                         You recover from the poison!
+Freeze      I'm paralyzed.                     You're paralyzed!
+Power       I gained strength.                 You feel a surge of energy!
+Reflex      It got stronger.                   Your reactions are sharpened!
+Maxheal     I feel better!                     Your health improves.
+Water       Nothing happened.                  Your thirst is quenched.
+Wither      I lost energy.                     You're strength decreases!
+        
+Rings
+Name        GG Description                     SMS Description
+Heal        I feel better!                     Your health improves.
+Magic       I feel energized!                  You feel a surge of energy!
+Food        I feel better!                     Your health improves.
+Sight       I can see better.                  Your senses are enhanced!
+Shield      Oh- A magic barrier.               You conjure a magic wall!
+Ogre        I gained strength.                 Your strength improves!
+Cursed      Oh, no! It's a cursed ring.        You've been cursed!
+Hunger      Oh, no! It's a cursed ring.        You've been cursed!
+Toy         It's just a plain ring.            No effect.
+Shift       I feel lighter.                    I feel lighter.
+
+
+5. Monsters table
+
+  The following table gives the names of all monsters (both versions), the exp 
+given, the monster's HP, the floors you'll encounter them on, color, movement 
+type, attack type, and added effect. The added effect occurs when the monster 
+attacks the character and can be prevented with a Silent rod. Monsters are 
+grouped by sprite family.
+
+Movement types:
+slow: monster moves slowly and can move or attack only on every other tick
+norm: monster moves at normal speed, the same as the character
+fast: monster moves twice per tick but can only attack once per tick
+tele: monster teleports a random number of spaces (but not through walls)
+immo: monster is immobile and gives a 1 tick grace period before attacking
+
+Attack type:
+short: monster must be adjacent to the character to attack
+long: monster can attack the character at range if it's on the same rank or file
+
+GG name      SMS name      Exp   HP      Color  Move  Attack  Added effect
+
+ Oozes: Blue and red species sometimes divide themselves
+Green ooze   Ooze            1    2      Green  slow   short
+Blue Slime   Blue ooze       3    6       Blue  slow   short
+Red Jelly    Red ooze        5   38        Red  slow   short
+Blob         Blob           30  160       Gold  fast   short
+
+ Toads
+Green frog   Slimetoad       2    6      Green  norm    long  Poison
+Blue toad    Lochtoad        6   24       Blue  norm    long  Poison
+Giant toad   Bloodtoad      10   52        Red  norm    long  Poison
+
+ Scorpions
+Scorpiox     Scorpion        6   10        Red  norm    long
+Scorpila     Scorpius       20   96       Blue  norm    long
+
+ Stones
+Flame bar    Krag           10    9        Red  fast    long  Dizzy
+Ice bar      King Krag      22   50       Blue  fast    long  Dizzy
+
+ Ninjas/Ghosts
+Ninja        Phantom         1   30       Gray  tele    long
+Asassinja    Spectre        72   80       Blue  tele    long
+Sasuke       Wraith        110  108        Red  tele    long
+
+ Eyeballs
+Siro me      Orb             8   40       Gray  slow   short
+Medama       Blood orb      52   80       Blue  slow   short  Rust armor
+Medaoyaji    Death orb      96  230        Red  slow   short  Rust weapon
+
+ Wizards
+Magician     Witch          25   60       Gray  tele    long  Dizzy
+Sorcerer     Mad witch      60  160  Dark gray  tele    long  Fog
+
+ Orbs: Passive until attacked
+Metal orb    Myst           48   90       Gray  norm   short
+Death orb    Death myst    150  220  Dark gray  norm   short
+
+ Fliers
+Killer bat   Demijaw        12   20      White  fast   short
+
+ Devourers
+Sand shark   Kraken         32  100       Gray  norm   short  Steal food
+Sand jaws    Krakos        130  250       Gold  norm   short  Steal food
+
+ Trees
+Drayad       Root           44   90        Red  immo    long
+Hamadrayad   Blood root     78   95       Blue  immo    long  Lose max HP
+Treant       Death root    140  100       Gold  immo    long  Lose max HP
+
+ Snails
+Red shail    Red snail      62   64        Red  norm   short  PW -1
+Blue snail   Blue snail    110   78       Blue  norm   short  PW -2
+King snail   King snail    300  120       Gold  norm   short  Lose a level
+
+ Mimics: Passive until approached
+Mimic        Kameleon      120  130      (rod)  norm   short
+Mimic        Kameleon      120  180    (sword)  norm   short
+
+ Dragons
+Dragon       Dragon        250  480      Green  norm    long
+
+
+6. Floors table
+
+  The following tables give the monsters present on each floor, in both 
+versions, and give the gold cost for continuing after death for each floor.
+
+Floor  Monsters (GG version)
+ 1     Green ooze, Green frog, Scorpiox
+ 2     Green ooze, Green frog, Scorpiox, Flame bar
+ 3     Scorpiox, Flame bar, Blue slime, Blue toad
+ 4     Scorpiox, Flame bar, Blue slime, Blue toad
+ 5     Blue slime, Blue toad, Ninja, Siro me
+ 6     Blue slime, Blue toad, Ninja, Siro me
+ 7     Ninja, Siro me, Red jelly, Giant toad
+ 8     Ninja, Siro me, Red jelly, Giant toad
+ 9     Red jelly, Giant toad, Magician
+10     Red jelly, Giant toad, Metal orb
+11     Magician, Metal orb, Killer Bat, Sand shark
+12     Magician, Metal orb, Killer Bat, Sand shark
+13     Killer Bat, Sand shark, Scorpila, Ice bar
+14     Killer Bat, Sand shark, Scorpila, Ice bar
+15     Scorpila, Ice bar, Drayad, Red shail
+16     Scorpila, Ice bar, Drayad, Red shail
+17     Drayad, Red shail, Asassinja, Medama
+18     Drayad, Red shail, Asassinja, Medama
+19     Asassinja, Medama, Hamadryad, Blue snail
+20     Asassinja, Medama, Hamadryad, Blue snail
+21     Hamadryad, Blue snail, Sorcerer, Death orb
+22     Hamadryad, Blue snail, Sorcerer, Death orb
+23     Sorcerer, Death orb, Treant, King snail
+24     Sorcerer, Death orb, Treant, King snail
+25     Treant, King snail, Sasuke, Medaoyaji
+26     Treant, King snail, Sasuke, Medaoyaji
+27     Sasuke, Medaoyaji, Blob, Sand jaws
+28     Sasuke, Medaoyaji, Blob, Sand jaws
+29     Blob, Sand jaws, Mimic, Dragon
+30     Dragon
+
+Floor  Monsters (SMS version)
+ 1     Ooze, Slimetoad, Scorpion
+ 2     Ooze, Slimetoad, Scorpion, Krag
+ 3     Scorpion, Krag, Blue ooze, Lochtoad
+ 4     Scorpion, Krag, Blue ooze, Lochtoad
+ 5     Blue ooze, Lochtoad, Phantom, Orb
+ 6     Blue ooze, Lochtoad, Phantom, Orb
+ 7     Phantom, Orb, Red ooze, Bloodtoad
+ 8     Phantom, Orb, Red ooze, Bloodtoad
+ 9     Red ooze, Bloodtoad, Witch
+10     Red ooze, Bloodtoad, Myst
+11     Witch, Myst, Demijaw, Kraken
+12     Witch, Myst, Demijaw, Kraken
+13     Demijaw, Kraken, Scorpius, King krag
+14     Demijaw, Kraken, Scorpius, King krag
+15     Scorpius, King krag, Root, Red snail
+16     Scorpius, King krag, Root, Red snail
+17     Root, Red snail, Spectre, Blood orb
+18     Root, Red snail, Spectre, Blood orb
+19     Spectre, Blood orb, Blood root, Blue snail
+20     Spectre, Blood orb, Blood root, Blue snail
+21     Blood root, Blue snail, Mad witch, Death myst
+22     Blood root, Blue snail, Mad witch, Death myst
+23     Mad witch, Death myst, Death root, King snail
+24     Mad witch, Death myst, Death root, King snail
+25     Death root, King snail, Wraith, Death orb
+26     Death root, King snail, Wraith, Death orb
+27     Wraith, Death orb, Blob, Krakos
+28     Wraith, Death orb, Blob, Krakos
+29     Blob, Krakos, Kameleon, Dragon
+30     Dragon
+
+Floor  Cost to continue
+ 1- 3  100
+ 4- 7  200
+ 8-11  300
+12-15  400
+16-19  500
+20-23  600
+24-27  700
+28-30  800
+
+Add 100 to continue the second time and another 100 for the third time.
+
+
+7. Gameplay tips
+  On the early floors, use or throw everything you find in order to identify 
+as much as possible. You have little to lose if something goes wrong.
+
+  The game gets harder as you go down floors. For this reason, you should play 
+safer on the later floors: don't use strange items on yourself (especially 
+potions) and don't wear new equipment unless a Bless scroll is handy. Drinking 
+a Wither potion on the later floors will ruin your character.
+
+  Try to clear every floor. If you skip floors the end of the game will be much 
+harder. If you fight every battle you won't have to worry about running from 
+strong monsters, and you should reach level 16 by the end of the game. 
+
+  Throw useless or harmful items at monsters. For example, the Freeze potion 
+paralyzes the target. Monsters will try to avoid letting you set up a throw, 
+however.
+
+  Obviously, you should collect items that will help in difficult situations. 
+When your hands are full you can drop something and pick it up again if you 
+change your mind.
+
+  Most of the rings are useful, but the best rings are the Ogre ring for 
+fighting and the Food ring for exploring.
+
+  Focus on offense. In other words, try to kill the enemy in as few ticks as 
+possible. Most monsters either have crippling added effects or strong attacks 
+which you really can't defend against.
+
+  The dragon doesn't actually do anything for you, other than occupy the space 
+behind you. This helps to avoid being attacked from behind.
+
+  Try to collect each of the blue swords if you can. If you have the correct 
+blue sword for a monster, always use it. It's better than any other weapon. 
+Don't even try attacking orbs/mysts without the right blue sword.
+
+  The Death blade and the Blood sword complement one another well.
+
+  Figure out where the hidden passages are. They are always revealed by 
+searching horizonally, never vertically. On later floors you may be forced to 
+find passages to proceed. You will learn the layouts eventually.
+
+  The eyeball enemies can ruin your equipment. While Norust scrolls and Mystic 
+armor will help against the blue eyeball, there is no defense against the 
+weapon rust of the red eyeball. However, since eyes move slow, it shouldn't be 
+a problem. Remember: Never let the red eyeball get an attack on you.
+
+  The blue and red ooze-type monsters sometimes divide instead of attacking. 
+Since they are very weak, you can exploit this for easy exp by waiting for them 
+to split and then harvesting them. The total amount of exp you can get from 
+this is not high, but it's enough to make a difference on the early floors.
+
+  It's possible to lose levels by using a Wither Rod or getting hit by a King 
+snail. Since the amount of MHP lost at level down is less than MHP gained at 
+level-up, and no PW is lost, you'll come out stronger by completing the round 
+trip.
+  When leveling down, exp is reduced to the minimum amount needed to reach the 
+previous level. So if a level 7 character is brought down a level, his exp is 
+set to 340. Since the exp required is much bigger at high levels, it's better 
+to try this at low levels.
+
+
+8. Hacking table
+  The following table lists the addresses in RAM where key variables are stored.
+Edit the contents of these addresses directly to manipulate the game. Or, use 
+this information to make Game Genie or PAR codes. Use the ID numbers given in 
+section 4 to place specific items for C900-C92F.
+  Unless otherwise specified, enter all values in hexadecimal. Multi-byte 
+quantities such as money need to be entered in reverse order (smaller digits 
+first). If you don't understand, search for a guide on basic hexadecimal 
+concepts.
+  If you try to put the game in an impossible state, such as placing a rod in 
+your potion list, the game is very likely to freeze up. Use common sense.
+
+Address    Function
+C01A       Floor (GG version)
+C01C       Floor (SMS version)
+C617       Hit of equipped weapon
+C618       PW of equipped weapon
+C619       Evd of equipped armor
+C61A       AC of equipped armor
+C620       Food, in decimal
+C621-C622  Current HP, reverse order
+C623-C624  Max HP, reverse order
+C625-C626  Exp., reverse order
+C62B-C62D  Money, reverse order, in decimal
+C62F       Base PW
+C630       Base AC
+C632       Paralysis ticks left
+C633       Sluggishness status
+C634       Poison ticks left
+C635       Blindness ticks left
+C636       Dizziness ticks left
+C63C       Food timer
+C63D       Healing timer
+C63E       Continues spent
+C900-C907  Swords
+C908-C90F  Armor
+C910-C917  Books/Scrolls
+C918-C91F  Rods
+C920-C927  Potions
+C928-C92F  Rings
+
+Example: 00C901:0D would put a Blood sword in your second weapon slot.
+
+
+CLOSING
+
+  This document is all my own work. Any questions, comments, corrections or 
+complaints should be addressed to the address below, with clear indication in 
+the subject line that the email is concerning this FAQ. 
+  Given that I prefer to write for obscure titles, I enjoy hearing from people 
+who read my guides. If you've played the game and used the FAQ, feel free to 
+drop me a line and tell me what you think.
+
+dammit9x at hotmail dot com

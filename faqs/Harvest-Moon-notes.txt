@@ -1,0 +1,38 @@
+
+Grass
+ 3 nights: sprouts pale green
+ 6 nights: darker green
+ 9 nights: ready to mow
+
+Turnip
+ 2 nights: sprouts
+ 4 nights: ready to pick
+
+Potato
+ 3 nights: sprouts
+ 6 nights: ready to pick
+
+Tomato
+ 2 nights: sprouts
+ 4 nights: medium plant
+ 6 nights: large plant
+ 9 nights: bears fruit
+ Bears fruit again every 3 nights
+
+Corn
+ 3 nights: sprouts
+ 6 nights: medium plant
+ 9 nights: large plant
+ 12 nights: bears fruit
+ Bears fruit again every 3 nights
+
+Chicken
+ 3 nights: egg hatches
+ 10 nights: chick matures, chicken lays eggs
+ (Chicks don't need to be fed.)
+
+Cow
+ 20 nights: calf matures, cow gives milk
+ 20 nights of brushing and talking: cow gives medium milk
+ ? nights of brushing and talking: cow gives large milk
+ (Calves don't need to be fed.)

@@ -1,0 +1,567 @@
+Kung-Fu Heroes (U) and Super Chinese (J) FAQ/walkthrough (NES)
+October 6, 2007 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2007
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1) HOW TO PLAY
+2) POWER-UPS
+3) BONUSES
+4) ENEMIES
+5) HAZARDS
+6) LEVELS
+7) DEBUGGING
+8) FINAL WORDS
+--------------------------------------------------------------------------------
+
+1) HOW TO PLAY
+  The object of the game is to clear eight castles, with four stages each, to 
+rescue Princess Min-Min. Jacky and Lee, the heroes, must defeat 12 enemies in 
+each stage to open the door to the next. They will be challenged by a variety of
+enemies which have distinct strengths and weaknesses. Jacky and Lee must collect
+the 10 treasures and other power-ups to attack these weaknesses.
+
+Start
+  Starts the game, pauses and unpauses.
+
+Select
+  Choose 1 or 2 players before starting.
+
+D-pad
+  Move in the direction pressed. (no diagonals)
+
+A button
+  Punch in the facing direction to attack enemies and blocks and to pick up 
+items. The character stops moving while punching. The power and speed of the 
+punch is denoted by the number by the fist symbol. This is increased by 
+collecting punch power-ups. Some enemies require a minimum punch power to be 
+defeated. If the sword is drawn, this is a sword strike instead of a punch.
+
+B button with D-pad
+  Flip-kick in the direction pressed. Attack enemies or pick up items by landing
+on them. A kick cannot attack blocks but can reveal treasures hidden in the 
+ground. The speed and direction can be changed with the D-pad. (diagonals 
+allowed) While in the air, the character can jump over pits and cannot be hurt 
+except by hazard fireballs and moving walls.
+
+B button without D-pad
+  Perform a miracle kick. The number available is displayed next to the "K" 
+symbol. Collect miracle kicks, five at a time, from treasure chests. The miracle
+kick is faster and longer lasting than a regular kick, and works against some 
+enemies where a regular kick doesn't.
+
+A+B without D-pad
+  Cause a P ball to be created on the playfield. This requires six $-bags.
+
+A+B with D-pad
+  Draw or put away the sword. The sword must be found first.
+--------------------------------------------------------------------------------
+
+2) POWER-UPS
+  Power-ups are revealed by hitting certain blocks, and sometimes empty ground. 
+Except for the ?-ball, which appears at random from hitting blocks, all power-up
+locations are fixed. 
+
+?-ball
+  These are created randomly when punching blocks. When collected, the ?-ball 
+may turn out to be one of the two following items.
+
+    $-bag
+      Collect five and an E-ball will be created on the playfield. When six
+    $-bags are collected, they can be spent to create a P-ball. The maximum
+    number that can be stored is six.
+
+    X-ball
+      This causes the $ bag count to drop to zero. Usually two or three $-bags 
+    appear in a stage before an X-ball turns up.
+
+E-ball
+  Collect five for an extra life.
+
+G-ball
+  A fireball is launched in the facing direction when punching. Some enemies 
+require more than one hit, and and it doesn't work on some enemies. While the 
+G-ball is active, enemies run away and the music stops. The effect last about 
+13.3 seconds.
+
+P-ball
+  The character becomes invincible (except from pits, hazard fireballs and 
+moving walls) and can kill enemies by touching them. Enemies turn blue and run 
+away while it is active. The "open stairs" tone also plays. The effect last 
+about 13.3 seconds.
+  Usually P-balls are only available by using $-bags, but there is one in 7-1.
+
+1-up
+  Grants an extra life (up to nine).
+
+Key
+  Opens a stairway to a Warp or Bonus Stage. The stairs disappear if not used 
+for about 10 seconds.
+
+Treasure box
+  A treasure box may contain a punch power-up, five miracle kicks, or one of 
+the following special treasures.
+
+    Shorin Temple Mark A (white square with brown "S")
+      Makes it easier to defeat Mr. Coffin.
+    Found: 1-2, 3-1
+
+    Shorin Temple Mark B (brown square with white "S")
+      Shortens the stun time of Cat mage's stun beam.
+    Found: 2-1, 3-1
+
+    Scroll A (white scroll)
+      Makes it easier to defeat Cat mage and Medusa cat.
+    Found: 2-1, 3-1
+
+    Scroll B (brown scroll)
+      "Use this to slow down Uni-Gon." (Doesn't seem to work.)
+    Found: 4-2, 8-4
+
+    Mirror
+      Protects against thunderbolts, Viper beams, and Coffin beams, if facing 
+    the attack. Does not work on Cat mage beams.
+    Found: 3-2, 5-1
+
+    Beads
+      The invisible Coffins in 8-1 become visible.
+    Found: 7-4
+
+    Sake
+      Slows down the Dragon.
+    Found: 5-3
+
+    Sword
+      Required to defeat Ware Cats, Dragon Men and Dragons.
+    Found: 3-2, 5-1
+
+    Crystal Ball
+      "Use this to weaken Golem." (Unknown actual effect.)
+    Found: 4-3, 6-3
+
+    Candle
+      Reveals the hidden traps in 6-2.
+    Found: 5-2
+--------------------------------------------------------------------------------
+
+3) BONUSES
+
+Item pickup
+  All power-ups are worth 300 pts when collected.
+
+$ bag bonus
+  Gain an additional 1000 pts if a ?-ball turns out to be a $ bag.
+
+Dodge bonus
+  Jump over a projectile launched by an enemy and gain 1,000 or 3,000 pts upon 
+safely landing.
+
+Flying block
+  Blocks may randomly fly off in the direction they are punched, killing any 
+enemies they hit for increasing point values up to 3000. (500, 1000, 3000, ...)
+Some enemies are not hurt by flying blocks.
+
+P-ball bonus
+  Increasing point values up to 3000 are granted for every enemy defeated with a
+P-ball, (500, 1000, 3000, ...) instead of the regular point values. 
+
+Bonus stage
+  Collect bonus apples and E-balls for 30 seconds. The E-ball count in the bonus
+stage is separate from the count in the main game. Unlimited miracle kicks are 
+available here, which help for moving around quickly. Getting hit by the bullets
+does not cost a life but ends the stage.
+
+Apple
+  In the bonus stage, apples are worth 1000 pts when collected and an additional
+1000 pts at the end of the stage.
+
+Warp
+  Skip to the first stage one or two castles ahead by going down either well. 
+Wait 10 seconds or jump in the pit to be returned to the current stage.
+
+Break time
+  Upon breaking the block, the character immediately goes to a break room and 
+gains 500,000 pts. Press start to avoid waiting the full 30 seconds.
+
+Moving platform
+  Jumping onto a sinking or moving block grants 1,000,000 pts, and one or more 
+E-balls appear. It's best to immediately jump off after landing.
+--------------------------------------------------------------------------------
+
+4) ENEMIES
+  The names are from the manual. Enemies with nondescript names have descrip-
+tions to help identify them. Some enemies appear in more than one type, with 
+different attack patterns. These types are detailed below. Other enemies appear 
+to have different types because of different colors, but do not otherwise 
+have distinct properties.
+
+Kung-Fu Commando (500 pts)
+Attacks
+  Brown type: punches
+  Red type: kicks
+  Purple type: punches and kicks
+To defeat: any attack
+
+Viper (1000 pts)
+Looks like: a moving bear trap
+Attacks
+  Floating type: death touch
+  Hopping type: death touch and death beams
+To defeat: any kick
+
+Spearman (1000 pts)
+Attacks
+  Yellow type: spear extension
+  White type: rapid-fire bullets
+To defeat: any attack
+
+Gunman (1000 pts)
+Attacks: bullets
+To defeat: any attack
+
+Mr. Coffin (1000 pts)
+Looks like: a brown paper sack with arms and legs
+Attacks
+  Capture type: stun touch
+  Killer type: death touch, death beam
+  Invisible type: death touch
+To defeat: miracle kick
+           kick; requires Shorin Temple Mark A
+           punch; requires Shorin Temple Mark A and power 3
+
+Cat Mage (5000 pts)
+Looks like: a witch
+Brown: shoots stun beams
+To defeat: miracle kick
+           kick; requires Scroll A
+           punch; requires Scroll A and power 3
+
+
+Bison Commando (1000 pts)
+Looks like: Kung-Fu commando with a horned helmet
+Attacks
+  Brown type: punches
+  Red type: kicks
+  Purple type: punches and kicks
+To defeat: miracle kick
+           punch; requires power 2 (2-4, 3-3, 6-1, 6-3)
+           punch; requires power 3 (3-1, 3-2, 3-4, 6-2, 6-4, 8-1)
+
+Dragon Man (3000 pts)
+Looks like: Kung-Fu commando with a Dragon Head
+Attacks: bullets
+To defeat: sword strike
+
+Ware Cat (5000 pts)
+Looks like: a disembodied witch's head with fangs
+Attacks: pushes the character and turns him around
+To defeat: sword strike
+
+Dragon Head (5000 pts)
+Looks like: a disembodied Dragon Head
+Attacks: death touch
+To defeat: any kick; requires any five of the 10 special treasures
+           invincible/can't defeat with standard attacks (7-4, 8-4)
+
+Medusa Cat (5000 pts)
+Looks like: a disembodied Medusa head
+Attacks: death touch, bullets
+To defeat: miracle kick
+           kick; requires Scroll A
+           punch; requires Scroll A and power 3
+
+Will o Wisp
+Looks like: a flame surrounding a small skull
+Attacks: death touch
+To defeat: jump over it (not on it) three times for 3500, 4000 then 9000 pts
+  Will o Wisp appears if too much time is spent in any one stage. 
+
+Dragon
+Attacks: death touch with lower body
+To defeat: sword strike; requires any 5 of the 10 special treasures
+  The dragon must be hit five times in the midsection to be defeated. It is 
+worth 3000 pts per hit, plus 10,000 pts for defeating it.
+
+Uni-Gon
+Looks like: a hulking red or green monster
+Attacks: death touch with lower body, fireballs from head
+To defeat: miracle kick
+           punch; requires power 3
+  Uni-Gon must be hit five times in the upper half to be defeated. It is worth 
+3000 pts per hit, plus 300,000 pts for defeating it. Additionally an E-ball 
+appears after it dies.
+  Uni-Gon always makes other enemies disappear and appears by itself. If not 
+defeated, after awhile it leaves and the other enemies come out.
+--------------------------------------------------------------------------------
+
+5) HAZARDS
+  Hazards can kill the character but, unlike, enemies cannot be eliminated. 
+Hazards have no effect on enemies.
+
+Pits
+  Wells, pools and black gaps may be jumped over.
+
+Thunderbolts
+  A trio of bolts sweeps sideways across the screen. Jump or reflect them with 
+the mirror to stay safe.
+
+Fireballs
+  Some pits launch arcing fireballs periodically. These can kill even a jumping 
+character.
+
+Golems
+  The Buddha figures in some stages periodically shoot bullets from the top to 
+the bottom of the screen.
+
+Moving wall
+  These look like moving platforms but are over solid ground. Like fireballs, 
+they can kill a jumping character.
+--------------------------------------------------------------------------------
+
+6) LEVELS
+  The level guide is presented in the following tabular format.
+
+Top line: Level number
+Block 1: Non-random power-ups
+Block 2: Non-random bonuses
+Block 3: Enemies
+Block 4: Hazards
+
+  For detailed maps, including treasure locations, check the author's maps on 
+gamefaqs.com or vgmaps.com
+
+ _________________   _________________   _________________   _________________
+/       1-1       \ /       1-2       \ /       1-3       \ /       1-4       \
+-------------------+-------------------+-------------------+-------------------
+G-ball             | G-ball            | G-ball            | Punch power-up
+1-up               | Punch power-up    | Punch power-up    | Miracle kicks
+Punch power-up     | Miracle kicks     | Miracle kicks     | 
+Miracle kicks      | S. Temple Mark A  |                   | 
+-------------------+-------------------+-------------------+-------------------
+Bonus stage        | Warp to 2-1 or 3-1| Bonus stage       | 
+-------------------+-------------------+-------------------+-------------------
+Brown Kung-Fu Com. | Brown Kung-Fu Com.| Red Kung-Fu Com.  | Floating Viper
+Red Kung-Fu Com.   | Red Kung-Fu Com.  | Yellow Spearman   | Spearman
+                   | Floating Viper    | Capture Coffin    | Capture Coffin
+                   | Yellow Spearman   |                   | Uni-Gon
+-------------------+-------------------+-------------------+-------------------
+Pits               |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       2-1       \ /       2-2       \ /       2-3       \ /       2-4       \
+-------------------+-------------------+-------------------+-------------------
+G-ball             |G-ball             |G-ball             | Miracle kicks
+Punch power-up     |Miracle kicks      |1-up               | 
+Miracle kicks      |                   |Miracle kicks      | 
+S. Temple Mark B   |                   |                   | 
+Scroll A           |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+Bonus stage        |Bonus stage        |                   | 
+-------------------+-------------------+-------------------+-------------------
+Red Kung-Fu Com.   |Purple Kung-Fu Com.|Purple Kung-Fu Com.| Gunman
+Gunman             |Floating Viper     |Gunman             | Purple Bison Com.
+                   |Gunman             |Capture Coffin     | Uni-Gon
+                   |Cat Mage           |                   | 
+-------------------+-------------------+-------------------+-------------------
+Pits               |                   |                   | Pits
+                   |                   |                   | Thunderbolts
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       3-1       \ /       3-2       \ /       3-3       \ /       3-4       \
+-------------------+-------------------+-------------------+-------------------
+G-ball             | G-ball            | G-ball            | Miracle kicks
+Punch power-up     | Punch power-up    | Miracle kicks     | 
+Miracle kicks      | Miracle kicks     |                   | 
+S. Temple Mark A   | Mirror            |                   | 
+S. Temple Mark B   | Sword             |                   | 
+Scroll A           |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+Bonus stage        | Warp to 4-1 or 5-1| Break time        | 
+-------------------+-------------------+-------------------+-------------------
+Brown Bison Com.   | Gunman            | Floating Viper    | Spearman
+Purple Bison Com.  | Capture Coffin    | Purple Bison Com. | Red Bison Com.
+                   | Purple Bison Com. | Dragon Man        | Uni-Gon
+-------------------+-------------------+-------------------+-------------------
+Pits               | Pits              | Pits              | Pits
+                   |                   |                   | Fireballs
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       4-1       \ /       4-2       \ /       4-3       \ /       4-4       \
+-------------------+-------------------+-------------------+-------------------
+G-ball             | G-ball            | G-ball            | Miracle kicks
+1-up               | Miracle kicks     | Miracle kicks     | 
+Punch power-up     | Scroll B          | Crystal ball      | 
+Miracle kicks      |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+                   | Bonus stage       | Bonus stage       | 
+-------------------+-------------------+-------------------+-------------------
+Brown Kung-Fu Com. | Hopping Viper     | Capture Coffin    | Cat Mage
+Red Kung-Fu Com.   | Cat Mage          | Ware Cat          | Ware Cat
+Brown Ware Cat     | Uni-Gon           | Medusa Cat        | Medusa Cat
+                   |                   |                   | Uni-Gon
+-------------------+-------------------+-------------------+-------------------
+Pits               |                   | Pits              | Thunderbolts
+                   |                   |                   | Golems
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       5-1       \ /       5-2       \ /       5-3       \ /       5-4       \
+-------------------+-------------------+-------------------+-------------------
+G-ball             | G-ball            | G-ball            | Miracle kicks
+Mirror             | Miracle kicks     | Miracle kicks     | 
+Sword              | Candle            | Sake              | 
+-------------------+-------------------+-------------------+-------------------
+Bonus stage        | Warp to 6-1 or 7-1| Break time        | 
+-------------------+-------------------+-------------------+-------------------
+Hopping Viper      | Brown Kung-Fu Com.| Brown Kung-Fu Com.| Purple Kung-Fu Com.
+Capture Coffin     | Floating Viper    | Floating Viper    | Hopping Viper
+Killer Coffin      | Capture Coffin    | Gunman            | Capture Coffin
+                   | Dragon Head       | Dragon Man        | Dragon
+-------------------+-------------------+-------------------+-------------------
+Pits               |                   | Pits              | Pits
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       6-1       \ /       6-2       \ /       6-3       \ /       6-4       \
+-------------------+-------------------+-------------------+-------------------
+G-ball             | Miracle kicks     | Miracle kicks     | Miracle kicks
+1-up               |                   | Crystal ball      | 
+Punch power-up     |                   |                   | 
+Miracle kicks      |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+Moving platform    | Bonus stage       | Moving platform   | 
+-------------------+-------------------+-------------------+-------------------
+Yellow Spearman    | Purple Bison Com. | Yellow Spearman   | Purple Bison Com.
+Cat Mage           | Ware Cat          | Purple Bison Com. | Medusa Cat
+Purple Bison Com.  | Uni-Gon           | Medusa Cat        | Dragon
+-------------------+-------------------+-------------------+-------------------
+Pits               | Thunderbolts      | Pits              | Pits
+                   | Hidden traps      |                   | Fireballs
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       7-1       \ /       7-2       \ /       7-3       \ /       7-4       \
+-------------------+-------------------+-------------------+-------------------
+P-ball             | Miracle kicks     | Miracle kicks     | Beads
+Punch power-up     |                   |                   | 
+Miracle kicks      |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+Moving platform    |                   | Bonus stage       | 
+-------------------+-------------------+-------------------+-------------------
+Dragon Man         | Cat Mage          | Hopping Viper     | Dragon Man
+Dragon Head        | Dragon Man        | Ware Cat          | Super Dragon Head
+                   | Dragon Head       | Dragon Man        | Dragon
+                   |                   |                   | Uni-Gon
+-------------------+-------------------+-------------------+-------------------
+Pits               |                   | Pits              | Thunderbolts
+                   |                   | Moving wall       | Golems
+-------------------+-------------------+-------------------+-------------------
+
+ _________________   _________________   _________________   _________________
+/       8-1       \ /       8-2       \ /       8-3       \ /       8-4       \
+-------------------+-------------------+-------------------+-------------------
+                   | 1-up              |                   | G-ball
+                   |                   |                   | Miracle kicks
+                   |                   |                   | Scroll B
+-------------------+-------------------+-------------------+-------------------
+                   |                   |                   | 
+-------------------+-------------------+-------------------+-------------------
+Gunman             | Killer Coffin     | Hopping Viper     | Dragon Man
+Invisible Coffin   | Cat Mage          | White Spearman    | Super Dragon Head
+Cat Mage           | Medusa Head       | Ware Cat          | Dragon
+Purple Bison Com.  | Uni-Gon           | Dragon Man        | Uni-Gon
+                   |                   | Dragon            | 
+-------------------+-------------------+-------------------+-------------------
+Pits               | Pits              | Pits              | Pits
+                   | Fireballs         |                   | Thunderbolts
+                   |                   |                   | Fireballs
+-------------------+-------------------+-------------------+-------------------
+
+
+--------------------------------------------------------------------------------
+7) DEBUGGING
+
+Address  Value determines
+0012     time left until stairs close
+0016     time left for P-ball effect
+0017     time left for G-ball effect
+002a     E-balls
+002b     $-bags
+041c     exit door status (4c = open, cc = shut)
+006b     number of enemies defeated in the current stage
+0073     number of treasures found
+0074     punch power (strange effects if > 3)
+0075     Shorin Temple Mark A status (0 = miss, 1 = have)
+0076     Shorin Temple Mark B status (0 = miss, 1 = have)
+0077     Scroll A status (0 = miss, 1 = have)
+0078     Scroll B status (0 = miss, 1 = have)
+0079     Mirror status (0 = miss, 1 = have)
+007a     Beads status (0 = miss, 1 = have)
+007b     Sake status (0 = miss, 1 = have)
+007c     Sword status (0 = miss, 1 = have)
+007d     Crystal ball status (0 = miss, 1 = have)
+007e     Candle status (0 = miss, 1 = have)
+04c0-7   Player 1 score (one byte for each of the eight digits)
+04d0     Player 1 lives
+04d1     Player 1 miracle kicks
+04d7     Player 1 G-ball status (0 = off, 1 = on)
+04dd     Player 1 grace period invincibility
+04e0-7   Player 2 score (one byte for each of the eight digits)
+04f0     Player 2 lives
+04f1     Player 2 miracle kicks
+04f7     Player 2 G-ball status (0 = off, 1 = on)
+04fd     Player 2 grace period invincibility
+--------------------------------------------------------------------------------
+
+8) FINAL WORDS
+
+  The game is less difficult and more fun with two players.
+
+  Each player has his own score and supply of lives and miracle kicks. Other 
+power-ups are shared.
+
+  Losing a life does not cause any power loss; Punch power-ups and treasures 
+are permanent.
+
+  To continue after Game Over, hold A while pressing start at the player select.
+Gameplay resumes at the beginning of the current castle. Score, E-balls, $-bags 
+and miracle kicks are reset to zero.
+
+  After losing a life and coming back, the character has a grace period of 
+invincibility lasting 3 seconds or until an attack is made.
+
+  Use the quick passages (box-like structures) at the sides of most levels to 
+escape enemies. The enemies can use the quick passages as well, to escape you.
+
+  Save $-bags and P-balls for difficult stages.
+
+  Avoid collecting ?-balls when you already have six $-bags, since you will lose
+them if an X-ball turns up.
+
+  Enemies appear four at a time, and do not stop coming no matter how many are 
+defeated.
+
+  For detailed maps, including treasure locations, check the author's maps on 
+gamefaqs.com or vgmaps.com
+--------------------------------------------------------------------------------
+
+  Credit goes to the manual for the story, names, and any phrases in quotation 
+marks. The rest of this document is my own work. If you've played the game and 
+used the FAQ, feel free to drop me a line and tell me what you think.
+  Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com

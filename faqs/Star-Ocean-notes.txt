@@ -1,0 +1,324 @@
+SKILLS BY LEVEL
+Knowledge Set 1
+Herbal Medicine    2   3   5   8  12  17  23  30  38  47  Yes
+Mineralogy         1   2   4   6   9  12  16  20  40  70  Yes
+Recipe             1   1   2   2   3   3   5   5  10  20  Yes
+
+Knowledge Set 2
+Biology           12  22  32  42  62  80  82  85  90  95  Yes
+Item Lore          1   5   9  13  17  21  25  29  33  37  Yes
+Musical Notation   2   4   8  16  32  90  40  50  70  90  Yes
+
+Knowledge Set 3
+Psychology         8  14  20  26  32  52  62  82  90  95  Yes
+Piety              5   7   9  11  13  33  43  53  63  80  No
+Fairy Lore        40  41  42  43  44  45  46  47  48  50  Yes
+
+Sense Set 1
+Esthetic Sense    10  20  30  40  50  60  70  80  90  99  No
+Good Eye           2   4   6   8  10  20  22  24  26  28  Yes
+Patience           2   4   7  11  16  22  29  37  46  56  No
+
+Sense Set 2
+Playfulness        1   1   2   2   3   3   4   4   5   5  No
+Danger Sense       2   3   5   7  10  13  17  21  26  40  No
+Perseverance       8  10  12  14  16  18  20  22  24  26  No
+
+Sense Set 3
+Functionality     40  40  50  50  60  60  70  70  80  80  No
+Radar             12  14  16  18  20  22  24  26  28  30  No
+Effort            20  30  40  50  60  70  80  90  90  90  No
+
+Technique Set 1
+Kitchen Knife      1   2   3   5   7   9  12  15  18  30  Yes
+Whistling          1   2   4   6  12  20  25  30  35  40  No
+Sketching          5  10  20  30  50  70  90  90  90  90  Yes
+Gale               1   2   4   5   7  28  30  31  43  55  No
+
+Technique Set 2
+Workmanship        2   4   7  11  16  22  29  37  46  56  Yes
+Writing            3   4   6   8  11  14  20  25  40  60  Yes
+Animal Training   20  21  22  23  24  25  26  27  28  30  No
+
+Technique Set 3
+Performance        2   4   8  16  32  90  40  50  70  90  Yes
+Forging            3   6  12  24  48  58  68  78  88  98  Yes
+Technology         6  10  14  18  22  32  42  52  62  80  Yes
+
+Battle Set 1
+Below the Belt     4   7  14  21  28  35  42  49  56  63
+Strong Blow        4   7  14  21  28  35  42  49  56  63
+Flip               5  10  20  40  50  60  80  90  95  99
+
+Battle Set 2
+Counterattack      5  10  15  20  40  50  60  70  85  99
+Feint              4   7  14  21  28  35  42  49  56  63
+Mental Training    4   7  14  21  28  35  42  49  56  63
+
+Battle Set 3
+Link Combo         5  10  15  20  30  40  55  70  85  99
+Motormouth        14  17  24  31  48  55  62  89  96  99
+
+School Skills
+Skill Levels       5  10  20  40  50  60  80  90  95  99
+
+Skill Shops
+Knowledge 1     300 Fol  Hot, Otanim, Tropp
+Knowledge 2     600 Fol  Portmis, Otanim, Tataroy, Tropp
+Knowledge 3    1200 Fol  Tropp, Sylvalant
+Sense 1         100 Fol  Hot, Portmis, Ecdart, Ionis
+Sense 2         200 Fol  Portmis, Tataroy, Ecdart, Ionis
+Sense 3         300 Fol  Ecdart, Ionis, Sylvalant
+Technique 1     600 Fol  Hot, Van I Il
+Technique 2    1200 Fol  Otanim, Tataroy, Ecdart, Ionis, Van I Il
+Technique 3    5000 Fol  Astral, Van I Il, Sylvalant
+Battle 1       1000 Fol  Portmis, Otanim, Astral
+Battle 2       2000 Fol  Tataroy, Astral, Tropp, Van I Il
+Battle 3     20,000 Fol  Astral 
+
+
+ABILITIES
+All figures assume using books as much as possible.
+
+TIMES: Number of times necessary to level-up the Skill
+SK COST: Cost of reaching level 10 Skill
+AB COST: Cost of reaching level 10 Ability (except for L5 and L8 Familiar)
+
+Each point of Effort reduces AB COST by the sum of all required TIMES
+
+ABILITY      TALENT                SKILLS          TIMES  SK COST  AB COST
+Alchemy      Blessing of Mana      Mineralogy          3      130      389
+                                   Fairy Lore          3      145      
+                                   Technology          2      114      
+
+Authoring    Writing Ability       Writing L1-4        4       21      234
+                                   Writing L8-10       3      125      
+                                (L1 writable skills)  15       88      
+
+Art          Design Sense          Sketching           3      270      270
+
+Cooking      Sense of Taste        Kitchen Knife       3       63      148
+                                   Recipe              3       35      
+                                   Good Eye            2       50      
+
+Crafting     Manual Dexterity      Mineralogy          3      130      719
+                                   Workmanship         3      139      
+                                   Esthetic            9      450      
+
+Familiar L5  Love of Animals       Animal Training     3       63      108
+                                   Whistling           6       45      
+Familiar L8  Love of Animals       Animal Training     8      188      258
+                                   Whistling           7       70      
+Familiar     Love of Animals       Animal Training    10      246      381
+                                   Whistling           9      135      
+
+Music        Pitch, Rythmic Sense  Musical Notation    2      120      330
+                                   Performance         3      210      
+
+Scout        Sixth Sense           Danger Sense       10      144      144
+
+Customize    Originality           Workmanship         3      139     1189
+                                   Esthetic            9      450      
+                                   Functionality      10      600      
+
+Compounding  none                  Biology             3      270      557
+                                   Herbal Medicine     3      115      
+                                   Psychology          2      172      
+
+Identify     none                  Item Lore           3       99      274
+                                   Mineralogy          2       60      
+                                   Herbal Medicine     3      115      
+
+Oracle       none                  Radar              10      210      477
+                                   Piety               9      237      
+                                   Playfulness        10       30      
+
+Smithing     none                  Forging             2      166      296
+                                   Mineralogy          3      130      
+
+Training     none                  Effort             
+                                   Perseverance       
+                                   Patience           
+
+SELECTED COMBAT SKILLS
+(Battle set 3)                     Motormouth         10      535
+(Combat school)                    (name varies)      10      549
+
+Multi-skill abilities don't require the skills to be maxed out, because the skill averages are rounded up. Use this to avoid the most expensive perchase. However, sometimes it's worth it to max out a more expensive skill if it boosts the stats.
+
+ABILITY PRIORITY
+1. Authoring, Art, Music, Smithing
+2. Combat, Crafting, Customize, Training
+3. Alchemy, Compounding, Cooking, Familiar, Identify, Scout
+4. Oracle
+
+ALCHEMY
+The need for Alchemy is supplanted by Art. Everything except Orihalcon and Sage's Stone can be duplicated.
+It's not required if Crafting and Smithing is done with care, manipulating game states.
+
+AUTHORING
+Keep a pile of books ready for characters who haven't joined yet.
+The Authoring character should learn and write skills starting from the bottom of the list and going up to save menu time.
+The list is filled right to left, top to bottom.
+With all skills present, the list appears like this:
+Biology           Herbal Medicine
+Psychology        Mineralogy
+Item Lore         Recipe
+Musical Notation  Fairy Lore
+Good Eye          Workmanship
+Kitchen Knife     Performance
+Sketching         Writing
+Forging           Technology
+
+ART
+Reach lv. 10 as soon as possible. Duplication is always faster than making goods from scratch. Also use Art to get money.
+
+COOKING
+Never really needed, but it's cheap to master.
+
+CRAFTING
+It's best to teach Crafting to a character who will be doing Customizing.
+Materials are listed by row, approximately from easiest to hardest to craft. 
+Each column is a 'family' of items that is assigned to a given game state.
+The left columns are more common, the right columns are more rare.
+The most useful items are the Berserk Ring, Protect Ring, and Dream Crown.
+Failure columns are not included.
+
+Iron            > Strange Figure  Botched Ring    Poison Charm     Stone Charm
+Gold            > Gold Brooch     Gold Idol       Gold Ring        Stone Charm
+Silver          > Silver Ankh     Silver Idol     Poison Charm     Silver Ring
+Ruby            > Flare Ring      Ruby Persia     Shield Ring      Berserk Ring
+Sapphire        > Feat Symbol     Necklace        Paralysis Charm  Aqua Ring
+Crystal         > Resist Ring     Frog            Paralysis Charm  Reflect Ring
+Green Beryl     > Crown           Talisman        Emerald Ring     Fairy Ring
+Diamond         > Purple Mist     Brooch          Reverse Doll     Pretty Idol
+Moonite         > Lunatic Ring    Misty Symbol    Luna Talisman    Luna Crest
+Star Ruby       > Star Ring       Star Emblem     Protect Ring     Star Necklace
+Rainbow Diamond > Magic Mist      Magical Persia  Magical Drop     Dream Crown
+Sage's Stone    > Mental Ring     Heal Ring       Stun Half        Botched Ring
+Orihalcon       > Levitate Ring   Levitate Ring   Levitate Ring    Levitate Ring
+
+FAMILIAR
+With careful preparation, it may never be needed; the level should be determined by the Compounding level available.
+
+MUSIC
+Ideally one of the early characters will have both talents.
+The only really useful instrument is the clarinet.
+
+SCOUT
+The least expensive ability to master.
+If you want it, you should buy it early because Authoring won't save you anything.
+It's best for Ratix to learn Scout because he's always in the party.
+The effectiveness seems to depend on the relative strength of the enemies, so it works better on really weak enemies.
+
+CUSTOMIZE
+Consider going up only partway to mastery, since the cost is so high and each character only needs to use the ability once.
+
+Concerning Originality:
+You can get Milly's Customize item for free as long as she joins in Ecdart, which she'll do as long as the party doesn't include Ashlay + Joshua or Fear + Joshua.
+Iria and Joshua never get it and can't Customize.
+Fear's Customize weapon isn't her best.
+All other characters should start with it if you want to use it.
+
+Ashlay: Mithril Sword -> Murasame Blade
+Cius: Silver Sword -> Cius Special
+Fear: Bloody Sword -> Deathbringer
+Marvel: Rainbow Diamond -> Holy Orb
+Milly: Magical Persia -> Charm
+Perisie: Cat Fang -> Q Power Punch
+Ratix: Sylvance -> Aura Blade
+Ronixis: Metal Fang -> Kaiser Knuckle
+Tinek: Spinning Spear -> Offering
+
+COMPOUNDING
+Complements high-level Familiar nicely but not really needed.
+Consider leaving it at level 7 because the rest is expensive.
+
+Artemis Leaf  + Artemis Leaf  = Fairy Potion, Fairy Mist
+Artemis Leaf  + Lavender      = Resurrect Bottle, Resurrect Mist
+Artemis Leaf  + Mandrake      = Fruit Pot, Fresh Bottle
+Artemis Leaf  + Savory        = Holy Mist, Mixed Syrup
+Artemis Leaf  + Shadow Flower = Mind Bomb, Giga Mind Bomb
+Lavender      + Lavender      = Cure Poison, Cure Paralysis
+Lavender      + Mandrake      = Sweet Pot, Liqueur Bottle
+Lavender      + Savory        = Sweet Syrup, Sour Syrup
+Lavender      + Shadow Flower = Poison Bomb, Killer Poison
+Mandrake      + Mandrake      = Bubble Potion, Melt Potion
+Mandrake      + Savory        = Stink Pot, Bitter Potion
+Mandrake      + Shadow Flower = Poison Bomb, Killer Poison
+Savory        + Savory        = Sweet Syrup, Sour Syrup
+Savory        + Shadow Flower = Stink Bomb, Stun Bomb
+Shadow Flower + Shadow Flower = Flare Bomb, Mega Flare Bomb
+
+IDENTIFY
+Works OK at level 7.
+Put more if you have too many SP.
+
+ORACLE
+Not even usable until the game is finished.
+
+SMITHING
+Crucial skill, but since the total number of uses will be low, it's possible to get away with less than level 10.
+
+TRAINING
+Helpful for everyone besides Ratix, but never really needed.
+It's all about how many points to sink into the Effort skill:
+
+Effort LV    1    2    3    4    5    6    7    8    9   10
+Cost        20   29   38   47   56   65   74   83   82   81
+Total cost  20   49   87  134  190  255  329  412  494  575
+Breakeven   20   25   29   34   38   43   47   52   55   58
+
+Effort LV = Savings per (future) purchase, but the minimum cost is 1 SP
+Breakeven = Total cost / savings per purchase, rounded up
+  This is the number purchases that must be made before the skill pays for itself.
+Purchases that originally cost less than the current level don't count toward the breakeven,
+because the cost won't go below 1.
+
+It's best to put 0 or 1 point in Effort until the character's first Ability is mastered.
+
+
+MULTI-ABILITY SKILLS
+Herbal Medicine: Compounding, Identify (save up to 115 SP)
+Mineralogy: Crafting, Identify, Alchemy, Smithing (save up to 130 SP)
+Esthetic Sense: Crafting, Customize (save up to 549 SP)
+Workmanship: Crafting, Customize (save up to 139 SP)
+
+
+COMBAT SKILLS
+The magic-using characters should learn more of the Abilities because they don't have to buy combat skills other than Motormouth. However, it's not necessary to bring the school skill to 10 to learn the secret techniques.
+
+
+SKILL BONUSES
+
+STAT          SKILL  WRITABLE  FORMULA
+  HP        Biology     YES    10*lv^2
+  MP     Psychology     YES     1*lv^2
+ STR  Kitchen Knife     YES     2*lv
+ INT          Piety      NO    1*(lv+2)
+ AGL    Workmanship     YES     2*lv
+            Writing     YES     4*lv
+ CON       Patience      NO     2*lv
+GUTS   Perseverance      NO     3*lv
+STAM           Gale      NO     4*lv
+
+
+TALENTS
+                  Ratix Milly  Iria Ronix  Cius   Ash  Fear  Josh  Marv Tinek Peris
+Originality           *     1     X     2     1     2     3     X     1     3     2
+Sense of Taste        2     2     2     X     1     1     2     1     2     *     2
+Manual Dexterity      2     2     2     2     X     X     3     2     2     2     2
+Design Sense          2     2     3     2     2     X     2     3     2     2     2
+Writing Ability       2     2     3     2     2     3     2     2     2     X     X
+Rhythmic Sense        2     2     2     2     3     2     2     2     2     2     *
+Pitch Sense           X     2     2     2     2     2     2     2     2     2     *
+Love of Animals       2     1     1     X     2     3     1     X     3     1     3
+Sixth Sense           2     1     1     X     3     3     3     1     2     3     3
+Blessing of Mana      X     *     X     *     X     X     X     *     *     X     X
+
+*  Always starts with it
+3  Likely to start with it
+2  Sometimes starts with it
+1  Rarely starts with it
+X  Impossible to get it
+

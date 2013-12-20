@@ -1,0 +1,70 @@
+DROPPED ITEMS
+
+Kelpie: Bronze shield
+Pirate_Warrior: Gold Sword
+Wolf_Talker_Orc-Orc: Razor whip
+ConMan_IronRose_Pirate: Cure2 potion
+Duke_Reaper_LoonyGuy: TearGas
+Fiend_Pixie_DualMask: Lit1
+Snake_Rumorer: Blitz Whip
+LizMan_Beguiler_Guard: Psi Sword
+Soldier: Shades
+Headless_Fairy_Gargoyle: Battle Axe
+Wisper_Burgler_Kelpie: Iron Boots
+Busybody_Mushroom: Cure3 potion
+Werepig_Pentagon_Brigand: Dragon gloves
+SeaMonk_EvilEye: Spark
+Horus_Fiend: Para
+
+MEMORY HACKING
+
+c210, c212, c290, c292: Y coordinate x 1
+c211, c213, c291, c293: Y coordinate x 256
+c230, c232, c2b0, c2b2: X coordinate x 1
+c231, c233, c2b1, c2b3: X coordinate x 256
+
+c6e4 Y coordinate x 1
+c6e5 Y coordinate x 256
+c6e6 X coordinate x 1
+c6e7 X coordinate x 256
+
+c6ff item
+c700 quantity
+
+add 0x0060 to reach the next character
+
+c507-c50c name
+c50d class (modulo 4; 0-4: robot, cyborg, human/mutant, beast, monster)
+c50e species (00-3b monsters; 3c-77 beasts; 78-95 cyborgs; 96-b3 robots; b4-c2 bosses)
+c50f 
+c510 cur HP x 1
+c511 cur HP x 256
+c512 max HP x 1
+c513 max HP x 256
+c514 cur MP x 1
+c515 cur MP x 256
+c516 max MP x 1
+c517 max MP x 256
+c518 Attack
+c519 Defence
+c51a Agility
+c51b Magic
+
+c520 base HP x 1
+c521 base HP x 256
+c522 base MP x 1
+c523 base MP x 256
+c524 base Attack
+c525 base Defence
+c526 base Agility
+c527 base Magic
+
+c530 Robot HP bonus x 1
+c531 Robot HP bonus x 256
+c532 Robot attack bonus
+c533 Robot defense bonus
+c533 Robot agility bonus
+
+c548-f Talents
+c551-6 Magic
+

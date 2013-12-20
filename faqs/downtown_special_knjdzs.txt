@@ -1,0 +1,736 @@
+Downtown Special - Kunio-kun no Jidaigeki Dayo Zenin Shuugou! (NES)
+FAQ/Walkthrough for the Technos Samurai Team 1.0 English translation
+September 3, 2007 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2007
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1) WALKTHROUGH
+2) ALLIES
+3) MENUS
+4) STATS
+5) CONTROLS
+6) TECHS
+7) EQUIPMENT
+8) SHOPS
+9) FAQ
+--------------------------------------------------------------------------------
+
+1) WALKTHROUGH
+  The essence of gameplay, like many beat-em-ups, is to fight through a sequence
+of gangs and gang bosses. Certain events, such as beating a boss, have certain 
+consequences, such as the appearance of other bosses. What makes "Downtown 
+Special" unusual is that these events might occur on any of the play fields, 
+which encompass all of feudal Japan.
+  Gangs wander from region to region and may encounter KUNIO when they come to 
+the same region. Gangs tend to seek out KUNIO, with the weaker gangs being the 
+most persistent. Each region is connected to two or three other regions and an 
+overview showing KUNIO and all the gangs can be seen by pressing B at the menu 
+subscreen.
+  The MAP CRSR item enables travel directly through the overview map. For a 
+screenshot map of all the regions, check the website of "sprays":
+http://homepage.fudan.edu.cn/~sprays/fc/sprays.html
+
+!      a required event 
+$      an optional event
+>      a consequence of an event
+Money  amount of money dropped by gang members and bosses
+TECH   the boss' TECHs, which are learned if the MASTER shades are equipped
+
+Event                                                  Money      TECH
+!Begin game
+>GINPA (light blue) appears
+>GONSA (pink) appears
+
+!Defeat light blue gang and GINPA                    10/100       none
+>ICHI & ROKU (yellow) appear
+>YONO (gray) appears
+>cutscene with SANKI
+
+$Defeat pink gang and GONSA                          12/120    SLAP SP
+>GONSA may join
+
+!Defeat yellow gang and ICHI & ROKU                  14/140       none
+>HEIRU (green) appears                                 (each)
+>TAME (dark yellow) appears
+>KINSU (blue) appears
+
+$Defeat YONO                                          -/160      SCREW
+>RIKI may join
+
+!Defeat green gang and HEIRU                         16/160   WARPSHOT
+>HEIRU (green) reappears
+
+$Defeat green gang and HEIRU again                   16/160   WARPSHOT
+>HEIRU may join
+
+!Defeat dark yellow gang and TAME                    18/180     M.FUMI
+!Defeat blue gang and KINSU                          20/200   N.ATTACK
+>HEISI (blue) appears after TAME or KINSU is defeated
+
+!Defeat blue gang and HEISI                          22/220    H.GUARD
+
+>JINRO (yellow-brown) appears after HEIRU(1), TAME, KINSU and HEISI are defeated
+
+!Defeat yellow-brown gang and JINRO                  24/240      DRILL
+>KINSU may join
+>YONO (gray) appears
+>GINPA (light blue) reappears
+>HAN (purple) appears
+
+$Cutscene with YONO
+>receive KANPOU; BUNZO may join
+
+!Defeat purple gang and HAN                          26/260    MASSAGE
+>HAN may join
+>GONSA may leave
+>GONSA (pink) appears
+>NIZAE (brown) appears
+>YAGO (dark gray) appears
+
+$Defeat dark gray gang and YAGO                      28/280   DAGGR SP
+>JUUKI (gray) appears (if GONSA has been defeated)
+
+$Cutscene with JUUKI
+>JUUKI may join
+
+!Defeat brown gang and NIZAE                         30/300    DEFLECT
+>TSUI & TATSU (dark blue) appear
+
+!Defeat dark blue gang and TSUI & TATSU              32/320    TORNADO
+>HEISI (blue) appears
+>TSUI or TATSU (dark blue) appears (whoever escaped)
+>TSUI or TATSU may join (whoever was beaten)
+>cutscene with OKOTO
+
+$Cutscene with HEISI
+
+!Defeat dark blue gang and TSUI or TATSU             32/320    TORNADO
+>TSUU leaves (if JUUKI has joined)
+>TSUU (dark green) appears (if JUUKI has joined)
+>ASAJI (red) appears
+
+!Defeat red gang and cutscene with ASAJI             36/-
+>HEISI (blue) appears
+
+!Second cutscene with HEISI
+>KINSU may leave
+>TORA (black) appears
+
+$Defeat dark green gang and TSUU                     34/340   M.KIUKIU, BIGBANG
+>TSUU may rejoin
+
+!Defeat black gang and TORA                          36/380     E.TORP,  S.TORP
+>JUUKI may join, or leave if he's already joined
+>KINSU may rejoin
+>YAGO (dark gray) appears
+>ASAJI (red) appears
+
+$Defeat gray gang and cutscene with YAGO             30/-
+>receive GOODTIME
+
+!Defeat red gang and ASAJI                           36/360   HELICPTR
+!along with JUUKI, if he left                         -/400   BMPKNART
+>all gangs disappear
+>return to BUNZO'S to complete the game
+--------------------------------------------------------------------------------
+
+2) ALLIES
+  All allies share the same items and equipment but have different stats, TECHs 
+and GROWTH. The default AI varies for each ally as well.
+  Ally changes are performed at BUNZO'S, and some joining and leaving events 
+also occur there. Only one event at BUNZO'S can be triggered per visit, so it is
+possible for multiple events to stack up. KUNIO may need to enter BUNZO'S 
+multiple times to clear them all.
+  For an ally to leave, he must not be the active ally. Allies may therefore be 
+prevented from leaving by keeping them active when they would try to leave.
+
+                                                     --------------------------
+ TSUU                                                | PUNCH   15   AGI    15 |
+ Joins: TSUU is the ally at the beginning of the     | KICK    15   WILL   15 |
+        game.                                        | WPN     15   DEF    15 |
+                                                     | THROW   15   STR    15 |
+ Leaves: Defeat both TSUI and TATSU.                 | VIT     63             |
+         (TSUU only leaves if JUUKI has joined.)     | STAM    63             |
+                                                     |                        |
+ Rejoins: Defeat TSUU and answer YES.                | M.KIUKIU     BIGBANG   |
+                                                     --------------------------
+
+ --------------------------   GONSA
+ | PUNCH   21   AGI    29 |   Joins: Defeat GONSA before defeating HAN 
+ | KICK    29   WILL   37 |          and answer YES.
+ | WPN     35   DEF    27 |   Leaves: Defeat HAN.
+ | THROW   47   STR     6 |   (GONSA will not join the second time.)
+ | VIT     62             |
+ | STAM   136             |   -OR-
+ |                        |
+ | SLAP SP                |   Joins: Defeat GONSA after defeating HAN 
+ --------------------------          and answer YES.
+                              Leaves: Never.
+                                                     --------------------------
+ RIKI                                                | PUNCH   67   AGI    44 |
+ Joins: Defeat YONO (before defeating JINRO) and     | KICK    35   WILL   37 |
+        knock out current ally.                      | WPN     28   DEF    39 |
+                                                     | THROW   16   STR    49 |
+ Leaves: Never.                                      | VIT     64             |
+                                                     | STAM    46             |
+                                                     |                        |
+                                                     | M.FIST                 |
+                                                     --------------------------
+
+ --------------------------
+ | PUNCH   18   AGI    26 |   HEIRU
+ | KICK    26   WILL   39 |   Joins: Defeat HEIRU twice and answer YES.
+ | WPN     28   DEF    31 |
+ | THROW   72   STR    22 |   Leaves: Never.
+ | VIT     74             |
+ | STAM   100             |
+ |                        |
+ | WARPSHOT               |
+ --------------------------
+
+                                                     --------------------------
+ KINSU                                               | PUNCH   56   AGI    80 |
+ Joins: Defeat JINRO and answer YES.                 | KICK    41   WILL   32 |
+                                                     | WPN     20   DEF    39 |
+ Leaves: Have 2nd cutscene with HEISI, and return    | THROW   17   STR    49 |
+         to BUNZO'S.                                 | VIT     68             |
+                                                     | STAM    44             |
+ Rejoins: Defeat TORA.                               |                        |
+                                                     | N.ATTACK               |
+                                                     --------------------------
+
+ --------------------------
+ | PUNCH   46   AGI    43 |   BUNZO
+ | KICK    56   WILL   51 |   Joins: Receive KANPOU from 2nd YONO encounter and
+ | WPN     27   DEF    78 |          return to BUNZO'S.
+ | THROW   38   STR    40 |
+ | VIT     38             |   Leaves: Never.
+ | STAM    64             |
+ |                        |
+ | HEADBUTT               |
+ --------------------------
+
+                                                     --------------------------
+ HAN                                                 | PUNCH   35   AGI    59 |
+ Joins: Defeat HAN and return to BUNZO'S.            | KICK    32   WILL   47 |
+                                                     | WPN     91   DEF    24 |
+ Leaves: Never.                                      | THROW   44   STR    41 |
+                                                     | VIT    100             |
+                                                     | STAM    94             |
+                                                     |                        |
+                                                     | MASSAGE                |
+                                                     --------------------------
+
+--------------------------
+| PUNCH   48   AGI    51 |   TSUI
+| KICK    67   WILL  105 |   Joins: Defeat TSUI before TATSU, answer NO, and 
+| WPN     26   DEF    67 |          knock out the current ally.
+| THROW   32   STR    54 |
+| VIT     44             |   Leaves: Never.
+| STAM    76             |
+|                        |
+| TORNADO                |
+--------------------------
+
+                                                     --------------------------
+ TATSU                                               | PUNCH   45   AGI    54 |
+ Joins: Defeat TATSU before TSUI, answer NO, and     | KICK    99   WILL   73 |
+        knock out the current ally.                  | WPN     16   DEF    67 |
+                                                     | THROW   26   STR    54 |
+ Leaves: Never.                                      | VIT     64             |
+                                                     | STAM    90             |
+                                                     |                        |
+                                                     | TORNADO                |
+                                                     --------------------------
+
+ --------------------------
+ | PUNCH   43   AGI    58 |   JUUKI
+ | KICK    31   WILL   49 |   Joins: Defeat YAGO then find JUUKI (gray)
+ | WPN     64   DEF    21 |          wandering around, and say YES.
+ | THROW   52   STR    37 |   Leaves: Defeat TORA. JUUKI now appears with ASAJI.
+ | VIT    178             |
+ | STAM    52             |   -AND-
+ |                        |
+ | BMPKNART               |   Joins: Defeat TORA and return to BUNZO'S.
+ --------------------------   Leaves: Never.
+
+Strangely, there seem to be two JUUKIs, because it is possible to get JUUKI to 
+join both ways in the same game. It is even possible to get JUUKI to fight 
+against himself by letting him leave the first way and join the second way.
+--------------------------------------------------------------------------------
+
+3) MENUS
+ITEMS
+  Shows the character's inventory, where items can be consumed or equipped 
+(USE), unequipped (REMOVE), transferred to the other character (GIVE), or 
+discarded (DRP). Each character can hold up to 16 items. SELECT switches 
+characters. The items carried and worn by the ally are shared by all allies. In 
+a 2-player game, each character may only handle his own items.
+
+STATUS
+  Shows the character stats. SELECT switches characters. 
+
+GROWTH
+  Shows the rate at which each stat increases when the character levels up. 
+Level-up occurs when a character knocks out 10 enemies and is indicated by a 
+sound effect. KUNIO and his ally level up separately. Each 10% of growth 
+increases VIT or STAM by 2, and other stats by 1. These rates are doubled if a 
+DOUBLEUP is equipped. SELECT switches characters. In a 2-player game, each 
+character may only manipulate his own growth.
+
+TECH
+  Shows all the TECHs known by the character. Press the A button to turn the 
+selected TECH on or off. TECHs cannot be transferred. SELECT switches 
+characters. In a 2-player game, each character may only select his own TECHs.
+
+SAVE
+  Enters the save game dialog. Choose SAVE, then confirm, to save the game 
+progress. The game can be loaded by choosing the RESUME option at the power-on 
+screen.
+
+ALLY
+  Set the computer-controlled ally's enemy targeting, aggressiveness, mobility, 
+and weapon use.
+
+SETTNG
+  Displays miscellaneous game options:
+
+  DIFFICULTY
+Affects the enemies' stats. On the easier difficulties they have all zeros. 
+The table below roughly shows the stats relative to medium difficulty.
+    setting   EASY   ..   MED.   ..   HARD
+   STAM/VIT    0     0     1x    3x   10x
+other stats    0     0     1x    2x    5x
+
+  MESSAGE SPEED
+Affects both how fast text messages appear and how long they remain.
+(Cutscene messages can always be skipped.)
+
+  CURRENTS
+Affects how fast weapons and characters are pushed around in water.
+
+Press D to reveal more options:
+
+  WATER EFFECTS
+Determines how much of the CURRENTS setting is applied to characters.
+setting    NO    SMLL    EX
+ effect   none   half   full
+
+  ATTACK BALANCE
+Affects how much damage all characters take from attacks.
+        setting   LOW   M L   MID   M H   HIGH
+relative damage   5x   0.25x   1x    2x    5x
+                   ^ not a typo
+
+  DEFENSE BALANCE
+Affects the ability of all characters to guard. 
+Guarding is easiest on HIGH and useless on LOW.
+
+  STAM BALANCE
+Affects how much damage all characters take from attacks.
+        setting    LOW    M L   MID    M H   HIGH
+relative damage   +20%   +20%   +0%   -20%   -85%
+
+  ENEMIES
+Seems to have no effect. Either way you must defeat 10 enemies per gang.
+
+SETUP
+  Choose whether the game will be 1 PLAYER with a computer-controlled ally or 
+2 PLAYER. The player may also switch control to the other character by pointing 
+to the characters and pressing A.
+  In MODE1 the characters cannot harm one another except with thrown weapons or 
+by hitting unheld weapons. In MODE2, thr characters may harm one another with 
+any attack.
+
+MAP
+  Press B on the menu subscreen to view the map. With a MAP CRSR equipped, the 
+directional buttons move the cursor, and the A or start buttons move KUNIO to 
+the selected region, while B cancels.
+--------------------------------------------------------------------------------
+
+4) STATS
+
+Author's note: The function of WILL, and especially DEF and STR, is poorly 
+understood. If you know what these stats do, and can prove it, contact me.
+
+PUNCH   determines the damage of punches and punch techs
+KICK    determines the damage of kicks and kick techs
+WPN     determines the damage of swung weapons and weapon techs
+THROW   determines the damage of thrown weapons and throw techs
+AGI     determines the walking and running speed
+WILL    determines the jump height
+DEF     determines the effectiveness of the guard move (?)
+        and the damage of the DRILL tech
+STR     determines the time an opponent can be held/mounted (?)
+        and the damage of the STR techs
+
+VIT and STAM:
+  When the character is hit, STAM is reduced by the numbers shown. The lower the
+character's STAM, the farther he flies when getting knocked off his feet.
+  When STAM runs out and the character gets up after a fall, STAM increases by 
+1/4 of the current VIT, and the current VIT is reduced by half.
+  VIT cannot be damaged directly unless the character is lying down, or 
+held/mounted while lying down.
+  The character is not knocked out until both STAM and VIT are depleted, and the
+character is on the ground.
+  STAM is represented by the long bars, and VIT by the short bars.
+
+  The maximum is 255 for VIT and STAM, and 127 for other stats.
+
+  If a computer-controlled ally is knocked out, he is revived at the next 
+screen, minus half his money. If the player-controlled character is knocked out 
+in a 1-player game (or both in a 2-player game), both characters lose half their
+money.
+--------------------------------------------------------------------------------
+
+5) CONTROLS
+
+BASIC MOVES
+Move                    How to perform              Relevant stat
+punch                   A                           PUNCH
+  uppercut                A vs. hit-stunned enemy   PUNCH
+kick                    B                           KICK
+  high kick               B vs. hit-stunned enemy   KICK
+pick up weapon          A or B over weapon
+  swing weapon            A                         WPN
+  throw weapon            B                         THROW
+guard                   A or B before getting hit   DEF(?)
+jump                    A+B                         WILL
+  rising uppercut         A while rising            PUNCH
+walk                    directional buttons         AGI
+run                     double tap L or R           AGI
+  running jump            A+B                       WILL
+fumi                    A+B over fallen enemy       KICK
+mount                   U or D over fallen enemy    STR(?)
+  mounted punch           A                         PUNCH
+  kiukiu                  B                         PUNCH
+pick up enemy overhead   A over fallen enemy        STR(?)
+  overhead swing          A                         WEAPON*
+  overhead throw          B                         none(?)
+pick up enemy by legs    B over fallen enemy        STR(?)
+  giant swing             A                         THROW*
+  giant swing & throw     B                         THROW*
+
+* These moves may damage the picked-up opponent by swinging him into weapons 
+lying around, and may damage bystanders by hitting them with the picked-up 
+opponent. The relevant stat is the same in either case.
+
+WEAPONS
+  Besides swinging and throwing them, weapons can be used by hitting them while 
+they are on the ground. A weapon struck by any attack gets pushed away, and if 
+it hits someone, the damage done is equal to the damage that would have occured 
+if the attack had hit directly.
+
+ATTACKING ON THE MOVE
+  Attacks do more damage if performed while running or jumping. The table below 
+roughly shows the amount of damage done relative to a standing or walking 
+attack. This principle applies to TECHs as well.
+
+movement:  standing   jumping   running   running jump
+  damage:        1x        2x        3x        4x
+--------------------------------------------------------------------------------
+
+6) TECHS
+
+Tech        How to perform                                  Relevant stat
+M.FIST      replaces normal punch                           PUNCH
+M.KICK      replaces normal kick                            KICK
+M.WPN       replaces normal weapon swing                    WPN
+M.KIUKIU    replaces normal kiukiu                          PUNCH
+M.SWING     replaces normal giant swing moves               THROW
+M.FUMI      replaces normal fumi                            KICK
+SCREW       replaces normal running jump                    STR
+N.ATTACK    double tap L or R toward enemy while running    STR
+H.GUARD     replaces normal guard                           none(1)
+TORNADO     B while airborne                                KICK
+WARPSHOT    replaces normal weapon throw                    THROW
+DRILL       double tap D                                    DEF
+HELICPTR    double tap D while holding enemy overhead       THROW
+E.TORP      replaces normal overhead throw                  none(?)
+S.TORP      on: A while airborne; off: A+B while airborne   none(?)
+M.FIST II   replaces normal punch and M.FIST                PUNCH
+M.KICK II   replaces normal kick and M.KICK                 KICK
+SCREW II    replaces normal running jump and SCREW          STR(2)
+SLAP SP     replaces normal running punch                   PUNCH
+DAGGR SP    double tap D while holding dagger weapon        WPN
+HEADBUTT    replaces normal running kick                    WPN
+MASSAGE     double tap U while holding enemy by legs        KICK
+DEFLECT     A+B+down while airborne                         none(3)
+BIGBANG     double tap U while hit-stunned                  none(4)
+BMPKNART    double tap U, then A                            THROW
+
+(1) H.GUARD reverses the damage back to the opponent.
+(2) SCREW II is activated with a running jump and deactivated by pressing A+B
+    while airborne.
+(3) DEFLECT copies the appearance, TECHs and stats of the nearest character, 
+    including the current STAM and VIT. The character reverts by using DEFLECT
+    again.
+(4) BIGBANG stuns all characters and does no damage.
+(?) These techs seem to do fixed damage, independent of stats.
+
+  TECHs known by bosses can be learned by defeating the boss while wearing the 
+MASTER shades. Both KUNIO and the ally may learn if they both have shades.
+  TECHs known by allies may only be copied to KUNIO if the boss NIZAE uses 
+DEFLECT to copy the ally, and is then defeated in that form. Sometimes NIZAE 
+uses DEFLECT on KUNIO instead, in which case the ally may learn KUNIO's TECHs. 
+If NIZAE is defeated in his own form, only DEFLECT may be learned.
+
+Tech        Shop                Price      Boss         Ally
+M.FIST      Suruga TECH shop      300                   RIKI
+M.KICK      Suruga TECH shop      300                 (KUNIO starts with it.)
+M.WPN       Rikuchuu TECH shop   1000
+M.KIUKIU    Kawachi TECH shop 2   500      TSUU         TSUU
+M.SWING     none                    -
+M.FUMI      Kawachi TECH shop 2   500      TAME
+SCREW       Suruga TECH shop      800      YONO
+N.ATTACK    Hizen TECH shop 1     800     KINSU        KINSU
+H.GUARD     Kouzuke ??? shop 1   1500     HEISI
+TORNADO     Hizen TECH shop 2    1000     TATSU,TSUI   TATSU,TSUI
+WARPSHOT    Ezo ??? shop 2       1000     HEIRU        HEIRU
+DRILL       Suruga ??? shop       800     JINRO
+HELICPTR    Kawachi TECH shop 1   800     ASAJI
+E.TORP      none                    -      TORA
+S.TORP      Kawachi ??? shop     1200      TORA
+M.FIST II   Tosa ??? shop 1       800
+M.KICK II   Tosa ??? shop 2       800
+SCREW II    Hizen ??? shop 2     1200
+SLAP SP     Nagato ??? shop       800     GONSA        GONSA
+DAGGR SP    Tosa ??? shop 2      1000      YAGO*
+HEADBUTT    Ezo ??? shop 2       1000                  BUNZO
+MASSAGE     Kawachi ??? shop      800       HAN          HAN
+DEFLECT     Inaba ??? shop 2     1500     NIZAE
+BIGBANG     none                    -      TSUU         TSUU
+BMPKNART    none                    -     JUUKI        JUUKI
+
+* YAGO offers to teach his TECH for free when defeated
+--------------------------------------------------------------------------------
+
+7) EQUIPMENT
+
+  The following are stat-boosting items. Their effects are cumulative and 
+multiple items of the same type may be used by each character.
+
+Item                Effect      Price    Shop
+COTTON gloves       +10 PUNCH     150    Suruga TECH shop
+SILK gloves         +30 PUNCH     500    Suruga ??? shop
+COTTON shorts       +10 KICK      150    Kawachi TECH shop 2
+CAMEL shorts        +20 KICK      700    Inaba ??? shop 1
+KAPPA shorts        +20 KICK     1000    Ecchu ??? shop 1
+SILK shorts         +30 KICK      500    Hizen ??? shop 1
+LONG kimono         +4 WPN        150    Rikuchuu TECH shop
+THICK kimono        +30 WPN       500    Rikuchuu ??? shop 1
+OBSCENE underwear   +10 THROW     150    Ecchu TECH shop
+SAUCY underwear     +30 THROW     500    Ecchu ??? shop 2
+WIDE sandals        +10 AGI*      150    Hizen TECH shop 1
+SPIKED sandals      +20 AGI*(1)   700    Kouzuke ??? shop 2
+SNOW sandals        +20 AGI*(2)   700    Ezo ??? shop 1
+JET sandals         +30 AGI*      500    Nagato ??? shop
+THICK socks         +10 WILL*     150    Hizen TECH shop 2
+JUMP socks          +20 WILL*(3)  800    Rikuchuu ??? shop 1
+SOFT socks          +30 WILL*     500    Hizen ??? shop 1
+COMMON pendant      +10 DEF*      150    Hizen TECH shop 2
+SANKI pendant       +20 DEF*        -    BUNZO'S, after BUNZO joins
+NARITA pendant      +30 DEF*      500    Rikuchuu ??? shop 1
+WHITE shirt         +10 STR       150    Hizen TECH shop 1
+WOOL shirt          +30 STR       500    Inaba ??? shop 1
+SUN headband        +20 VIT       150    Kawachi TECH shop 1
+TWISTED headband    +60 VIT       500    Tosa ??? shop 1
+PRICEY kimono       +20 STAM      150    Ecchu TECH shop
+MAGIC kimono        +40 STAM(4)  2000    Kawachi ??? shop, Rikuchuu ??? shop 2
+PONGEE kimono       +60 STAM      500    Ecchu ??? shop 1
+
+* These items give an incorrect stat-increase message when used in the ITEM 
+menu. The correct effects are given in the table, and can be verified by 
+checking the STATUS menu. 
+
+(1) normal acceleration on the dirt in Kouzuke and the sand in Inaba
+(2) no slipping on the ice in Ezo and Tosa
+(3) hold A+B to jump to any height or to fall slowly
+(4) STAM regenerates (if the character is player-controlled)
+
+  The following items have other effects when consumed or equipped. Their 
+effects are not cumulative, but they may be used on each character.
+
+Item             Effect                               Price  Shop
+MYSTERY potion   Unknown                                 50  Ecchu ??? shop 2
+
+DOUBLEUP         Makes each 10% of GROWTH increase     2000  Ecchu ??? shop 1
+                 stats by twice as much at level-up          Rikuchuu ??? shop 2
+
+MAP CRSR         Press the directional buttons to      3000  Hizen ??? shop 2
+                 control a cursor on the map screen.         Rikuchuu ??? shop 2
+                 Press start or A to move KUNIO to  
+                 the selected region, or B to cancel.
+
+MASTER shades    Learn the TECHs of defeated bosses.   3000  Kouzuke ??? shop 1
+                                                             Rikuchuu ??? shop 2
+
+2xEFFECT         Doubles the bonus of stat-boosting    5000  Inaba ??? shop 2
+                 items                                       Rikuchuu ??? shop 2
+
+GOODTIME         Consume it to max out money.             -  Given at second
+                                                             YAGO encounter
+--------------------------------------------------------------------------------
+
+8) SHOPS
+
+  INNs restore all STAM and VIT for one character for a fixed cost of 100. FOOD 
+restores lost STAM and HEALER medicines restore lost VIT, with the amount 
+restored equal to the cost of the item. Eat-in FOOD shops sell items are 
+consumed immediately. In contrast, takeout FOOD and HEALER items are used from 
+the inventory. 
+  In regions with two TECH or ??? shops, the shops have been arbitrarily 
+numbered to distinguish them. For the location of all ??? shops, check the map 
+at http://homepage.fudan.edu.cn/~sprays/fc/sprays.html and look for the yellow 
+squares.
+
+~~~~~~~~~~~~~~Suruga~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~Nagato~~~~~~~~~~~~~~~~~
+BUNZO'S                               |    ??? shop     JET sandals       500
+INN                                   |                 SLAP SP           800
+Eat-in FOOD shop (2)                  |    
+HEALER                                |~~~~~~~~~~~~~~~~~~Inaba~~~~~~~~~~~~~~~~~~
+TECH shop    COTTON gloves     150    |    ??? shop 1   CAMEL shorts      700
+             M.FIST            300    |                 WOOL shirt        500
+             M.KICK            300    |    ??? shop 2   DEFLECT          1500
+             SCREW             800    |                 2xEFFECT         5000
+??? shop     SILK gloves       500    |    
+             DRILL             800    |~~~~~~~~~~~~~~~~~~Ecchu~~~~~~~~~~~~~~~~~~
+                                      |    INN
+~~~~~~~~~~~~~~Kawachi~~~~~~~~~~~~~~~~~|    Eat-in FOOD shop
+INN                                   |    HEALER
+CHANCE parlor                         |    TECH shop    OBSCENE underwear 150
+Eat-in FOOD shop (5)                  |                 PRICEY kimono     150
+Takeout FOOD shop                     |    ??? shop 1   PONGEE kimono     500
+HEALER                                |                 KAPPA shorts     1000
+TECH shop 1  SUN headband      150    |                 DOUBLEUP         2000
+             HELICPTR          800    |    ??? shop 2   SAUCY underwear   500
+TECH shop 2  COTTON shorts     150    |                 MYSTERY potion     50
+             M.KIUKIU          500    |    
+             M.FUMI            500    |~~~~~~~~~~~~~~~~~~Ezo~~~~~~~~~~~~~~~~~~~~
+??? shop     MASSAGE           800    |    ??? shop 1   SNOW sandals      700
+             S.TORP           1200    |    ??? shop 2   WARPSHOT         1000
+             MAGIC kimono     2000    |                 HEADBUTT         1000
+                                      |    
+~~~~~~~~~~~~~~Tosa~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~Rikuchuu~~~~~~~~~~~~~~~
+??? shop 1   TWISTED headband  500    |    INN
+             M.FIST II         800    |    Takeout FOOD shop
+??? shop 2   M.KICK II         800    |    HEALER
+             DAGGR SP         1000    |    TECH shop    LONG kimono       150
+                                      |                 M.WPN            1000
+~~~~~~~~~~~~~~Hizen~~~~~~~~~~~~~~~~~~~|    ??? shop 1   THICK kimono      500
+INN                                   |                 NARITA pendant    500
+CHANCE parlor                         |                 JUMP socks        800
+Eat-in FOOD shop (2)                  |    ??? shop 2*  DOUBLEUP         2000
+HEALER                                |                 MAGIC kimono     2000
+TECH shop 1  WIDE sandals      150    |                 MAP CRSR         3000
+             WHITE shirt       150    |                 MASTER shades    3000
+             N.ATTACK          800    |                 2xEFFECT         5000
+TECH shop 2  COMMON pendant    150    |  * The entrance to the shop is blocked
+             THICK socks       150    |    off by a waterfall most of the time.
+             TORNADO          1000    |    
+??? shop 1   SILK shorts       500    |~~~~~~~~~~~~~~~~~~Kouzuke~~~~~~~~~~~~~~~~
+             SOFT socks        500    |    ??? shop 1   H.GUARD          1500
+??? shop 2   SCREW II         1200    |                 MASTER shades    3000
+             MAP CRSR         3000    |    ??? shop 2   SPIKED sandals    700
+             
+--------------------------------------------------------------------------------
+
+9) FAQ
+
+Q) What should I buy?
+A) If you are aiming to max out your character stats eventually, first get a 
+DOUBLEUP for one of both characters. For collecting lots of TECHs, get one or 
+two MASTER shades. To get through the game quickly, buy a MAP CRSR. To save cash
+on future healing, buy MAGIC kimonos. To start out moderately, buy some 
+equipment that boosts one of the offense stats and a couple TECHs that are based
+on that stat. The 2xEFFECT is not worthwhile until your character is wearing 
+lots of equipment.
+  Nothing prevents you from buying whatever you want at the beginning, if you 
+have the money from gambling. The shop with all of the special items, Rikuchuu 
+??? shop 2, always seems to be closed at the beginning of the game, so you will 
+have to run around to the other shops.
+
+Q) How do I get money?
+A) Either by mugging enemies or gambling. As for fighting, the MAGIC kimono is 
+costly but will save money that would have to be spent healing STAM. Here is a 
+little trick: if both KUNIO and the ally are standing over the enemy as he gives
+up the coin, both will get the money.
+  As for gambling, it's really the only way to afford the most expensive 
+equipment. The chance of losing seems to be more than half, however.
+
+Q) Why does it take so long to defeat enemies?
+A) An enemy must run out of both STAM and VIT to be knocked out. He can't start 
+losing VIT until he's flat on his back. Endlessly juggling the opponent doesn't 
+defeat him any faster because it doesn't affect the VIT. Wait till he's done 
+rolling, then attack.
+  Only two enemies can be present at once, and the next one won't appear until 
+the coin of the last one is gone.
+
+Q) What's the fastest way though the game?
+A) GINPA > ICHI & ROKU > HEIRU, TAME, KINSU, HEISI > JINRO > HAN > NIZAE > 
+   TSUI & TATSU > TSUI or TATSU > ASAJI > HEISI > TORA > ASAJI
+
+Q) Where's the KANPOU?
+A) Get it from YONO (without a fight) at his second appearance. It doesn't show 
+up in the ITEM menu.
+
+Q) How do I control the ally?
+A) Go to the SETUP menu, press D to point to the characters, and press A to 
+switch. This is how to spend the ally's money at shops and heal him.
+
+Q) Can I get all the allies?
+A) Almost. You can get TATSU or TSUI but not both. You can only develop one at a
+time though, so it's not helpful to get tham all.
+
+Q) Can Kunio get all the techs?
+A) No, not without cheating. M.SWING doesn't appear anywhere in the game. But 
+all the techs besides M.SWING can be bought or learned with the MASTER shades.
+  Two are tricky to get however. BIGBANG can be gotten from beating TSUU with 
+the MASTER shades, if you get him to appear. If JUUKI appears beside the final 
+boss, BMPKNART can likewise be learned from him, though the game is over at that
+point. If TSUU or JUUKI is the ally in the NIZAE battle, it is possible to get 
+their techs if NIZAE uses DEFLECT.
+
+Q) Can I save the game or what?
+A) This game's battery-backed save doesn't work properly with most emulators. 
+The save/resume functionality may be preserved if saved within a savestate 
+though.
+  See here: http://dorando.emuverse.com/html/downtown-special-kunio-kun-no-
+jidaigeki-dayo-zen-in-shuugou.html
+
+Q) Where can I learn more about the English translation?
+A) See here: http://www.romhacking.net/trans/226/
+
+Q) What are the other Kunio games?
+A) See these sites:
+http://hg101.classicgaming.gamespy.com/kunio/kunio.htm
+http://www.mobygames.com/game-group/kunionekketsu-high-series/
+
+Q) What's the cheat code?
+A) Go to the rename screen by pressing select at the SETUP menu. Change KUNIO's 
+name to what would be "koganemushi" in the original ROM. This is done by 
+entering J F X (sock) L. After entering the F, back up over it and enter the 
+blank space over the - symbol. Done correctly, this adds 990,000 to both cash 
+supplies and teaches all techs.
+  Credit for this goes to "SSGWNBTD"
+http://www.gamefaqs.com/console/nes/code/577192.html
+--------------------------------------------------------------------------------
+
+  This document is my own work. All external sources have been cited as used.
+If you've played the game and used the FAQ, feel free to drop me a line and 
+tell me what you think.
+  Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com

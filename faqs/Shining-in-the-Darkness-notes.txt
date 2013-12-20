@@ -1,0 +1,46 @@
+Shining in the Darkness unpublished notes
+
+MONSTER		DROPPED ITEM
+Dragonspawn	Iron Lance
+Vyper		Dark Block
+Living Armor	Broadsword
+Warbird		Hexwhip
+Deathbringer	Deathbringer
+Mandragora	Barrier Ring
+Meat Zombie	Demon Staff
+Cerebus		Doomstaff
+Troglodyte	Steel Shield
+Deathmask	Doomblade
+Gollum		Super Flail
+Handeater	?
+Lancerot	Storm Sword
+Hobgoblin	Battle Hammer
+Bildblok	Mithril Armor
+Syren		?
+Hellhound	Holy Water
+Centaurian	Steel Armor
+Gargoyle	Darkrobe
+Graveroc	Steel Lance
+Chimera		Frost Armor
+Colossus	Mithril Ore
+Ghoul		Dark Scimitar
+Dragonfyre	Firesword
+Warhorse	Magic Robe
+Deathpaw	Magic Mirror
+Lokjaw		Magic Ring
+Kamiliun	Herb Water
+Demonesk	Herb Water
+Ragnarock	Magic Mail
+Serpi		Forbidden Box
+Brimstone	Dream Blade
+Guardian	Lightrobe
+Ramiun		Sun Armor
+Crystal Ooze	Mithril Ore
+
+
+WEAPON		USABLE	ATTACK	SELL	EFFECT
+Super Flail	- M -	25	13125	Attacks 3 times
+Mercy Staff	- M P	35	7500	Casts Heal lv.2
+Ice Saber	H - -	55	11250	Casts Freeze lv.?
+Doomblade	H - -	90	18000	Occasional instant kill
+Dream blade	H - -	175	27375	Casts Muddle lv.?; Cursed: User is Muddled

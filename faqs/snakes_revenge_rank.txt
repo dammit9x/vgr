@@ -1,0 +1,248 @@
+"Snake's Revenge" for NES
+Rank, Weapon, Boss guide, v1.1 (8/5/2008)
+by Dammit9x
+dammit9x at hotmail dot com
+
+Copyright 2008
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+
+--------------------------------------------------------------------------------
+v1.0 (7/15/2008): Initial version
+
+v1.1 (8/5/2008): Expanded sections 2, 6, 7 and 8 and added section 9
+--------------------------------------------------------------------------------
+TABLE OF CONTENTS
+
+INTRODUCTION
+1. RANK
+2. HOSTAGES AND OFFICERS
+3. STEALTH
+4. ALARMS
+5. ITEM DROPS
+6. ITEM CAPACITY
+7. ENEMIES AND BOSSES
+8. MEMORY ADDRESSES
+9. BONUS
+CLOSING
+
+--------------------------------------------------------------------------------
+INTRODUCTION
+  This guide lays out various data for Snake's Revenge which has previously been
+unavailable. It is intended to help power players understand the inner workings 
+of the game. Use it with your favorite walkthrough.
+
+--------------------------------------------------------------------------------
+1. RANK
+  Snake's RANK, denoted by the number of stars, determines the size of his LIFE 
+bar and how many items he can carry. RANK increases as Snake rescues hostages 
+and interrogates officers with TRUTH GAS.
+
+       |      |  Required cumulative   |
+RANK   | LIFE | rescues/interrogations |
+-------+------+------------------------+
+*      |   6  |        0               |
+**     |   8  |        4               |
+***    |  10  |        9               |
+****   |  12  |       14               |
+*****  |  14  |       19               |
+****** |  14  |       22               |
+
+--------------------------------------------------------------------------------
+2. HOSTAGES AND OFFICERS
+  The table shows how many of each are available in each segment of the game. 
+Once Snake has entered the next segment, he can't go back. Only officers and 
+regular hostages (genuine hostages tied to chairs) count toward the total. 
+Fake and irregular rescues don't count.
+
+Segment     | Hostages | Officers | Running total |
+------------+----------+----------+---------------+
+Jungle base |     4    |     2    |       6       |
+Ship        |     1    |     1    |       9*      |
+Minefield   |     1    |     0    |      10       |
+Train       |     1    |     1    |      12       |
+Final areas |     8    |     4    |      24       |
+
+* After completing the ship mission, the total is set to 9, no matter where it 
+was before.
+
+--------------------------------------------------------------------------------
+3. STEALTH
+Being spotted by guards or cameras sets off alarms, but so do certain weapons.
+
+The following weapons are stealthy. They do not set off alarms:
+FIST, KNIFE, HANDGUN + SILENCER, MACHINE GUN + SILENCER, CLAYMOR MINE, FLARE
+
+The other weapons are not stealthy and do set off alarms:
+HANDGUN, MACHINE GUN, SHOTGUN, MISSILE, GRENADE, MINE, EXPLOSIVE
+
+The SILENCER is automatically used once acquired.
+
+--------------------------------------------------------------------------------
+4. ALARMS
+  Once the alarm is set off, any guards on screen are alerted and more attack 
+from off screen. In the last part of the game, the incoming guards are grenade 
+throwers, who are stronger than the ordinary ones. The transciever is also 
+disabled. Additionally, in the side-scrolling areas, bombs fall from bomb 
+dispensers and the water is electrified.
+  To deactivate the alarm, keep killing the guards that show up. You may use 
+loud weapons for this, but the alarm will go off again if you fire after the 
+last guard falls.
+
+--------------------------------------------------------------------------------
+5. ITEM DROPS
+  It takes three hits to kill guards with PUNCH, but they may drop rations or 
+ammo. Guards never drop anything if killed with the KNIFE or other weapons. The 
+exception is the claymore users on the train, who always drop rations.
+
+--------------------------------------------------------------------------------
+6. ITEM CAPACITY
+Dmg (Damage) is how many HP the weapon takes from a target.
+Rec (Recovery) is how much time must pass before a target can be damaged again.
+  (Time is expressed in frames, which are 1/60 second in the USA version.)
+Pack is how many units are contained in a package.
+The other columns show how many of each item Snake can carry at each rank.
+
+Weapon/Item  | Dmg | Rec |Pack |   *   |  **   |  ***  | ****  | ***** | ******|
+-------------+-----+-----+-----+-------+-------+-------+-------+-------+-------+
+PUNCH        |  1  | 16  |     |       |       |       |       |       |       |
+KNIFE        |  3  | 16  |     |       |       |       |       |       |       |
+HANDGUN $    |  3  | 16  | 20  |  50   |  100  |  150  |  200  |  250  |  300  |
+MACHINE GUN $|  3  | 16  | 20  |  50   |  100  |  150  |  200  |  250  |  300  |
+SHOTGUN $    |  6  | 16  |  5  |  10   |   15  |   20  |   30  |   40  |   45  |
+MISSILE #    | 11  | 48  |  5  |  10   |   15  |   20  |   30  |   40  |   45  |
+GRENADE      |  9  | 48  |  5  |  10   |   15  |   20  |   30  |   40  |   45  |
+CLAYMOR MINE |  9  | 16  |  3  |   5   |   10  |   15  |   20  |   25  |   30  |
+MINE #       |  9  | 32@ |  5  |  10   |   15  |   20  |   25  |   30  |   40  |
+FLARE        |  0  |     |  3  |   5   |   10  |   15  |   20  |   30  |   40  |
+EXPLOSIVE    | 14  | 32  |  5  |   5   |   15  |   20  |   25  |   30  |   40  |
+-------------+-----+-----+-----+-------+-------+-------+-------+-------+-------+
+FOOD         |           |  1  |   3   |    6  |    9  |   12  |   15  |   18  |
+TRUTH GAS    |           |  1  |   2   |    3  |    4  |    5  |    6  |    7  |
+ANTIDOTE     |           |  1  |   3   |    6  |    9  |   12  |   15  |   20  |
+OXYGEN TANK  |           |  1  |   1   |    3  |    5  |    7  |    9  |   12  |
+
+$ Ammunition for the HANDGUN, MACHINE GUN and SHOTGUN is all bundled in ammo 
+boxes. Other weapons and equipment require their own pickups.
+
+# The BACK PACK item doubles the carrying capacity of MISSILEs and MINEs.
+
+@ The actual recovery time for MINEs seems to be zero.
+
+Snake needs to hold 24 MINEs to finish the game. The lowest RANK for this to be 
+possible is **** without the BACK PACK or *** with the BACK PACK. (Snake's RANK 
+is set to *** after the ship mission.)
+
+--------------------------------------------------------------------------------
+7. ENEMIES AND BOSSES
+HP is the amount of life the boss begins with. You can't see this without 
+  watching the memory of the game.
+Damage lists how many bars of LIFE the boss takes off of Snake with each shot or
+  body contact. The amount varies; the listed values are the upper limits. 
+  Damage is reduced by equipping the ARMOR VEST item.
+Weapons with a + work, those with a - don't work, and those with a . are 
+  unavailable. The damage of each weapon is in the table above.
+
+                    |     |   Damage   |                Weapons
+Enemy/Boss          |  HP | Body  Shot | PNC KNF HGN MGN SGN MSL GRN CLY MIN EXP
+--------------------+-----+------------+----------------------------------------
+Guards              |   3 |    1    3  |  +   +   +   +   +   +   +   +   +   +
+Door-blocker boxes  |  84 |    1   n/a |  +   +   -   -   -   -   -   -   -   +
+Manhole cover boxes |   4 |   n/a  n/a |  -   -   -   -   -   +   +   -   .   +
+Manhole guards      |  12 |    1    4  |  +   +   +   +   .   +   +   +   .   +
+Underwater grate    |   4 |   n/a  n/a |  .   -   .   .   .   .   .   .   .   +
+Floating detector   |  12 |    1   n/a |  .   -   +   .   .   .   .   .   .   +
+Claymore users      |  18 |    1    5  |  -   -   +   +   .   +   +   +   .   +
+Breakable walls     |   4 |   n/a  n/a |  -   -   -   -   -   -   -   -   -   +
+Kamikaze guards     |   6 | death  n/a |  -   -   +   +   +   +   +   +   +   +
+Grenade guards      |   6 |    1    5  |  +   +   +   +   +   +   +   +   +   +
+Missile statues     |  24 |    1    5  |  -   -   +   +   +   +   +   +   +   +
+Mini-metal gears    |  32 |    1    3  |  -   -   +   +   +   +   +   +   +   +
+--------------------+-----+------------+----------------------------------------
+Cyber-linebackers x5|  40 |    2   n/a |  -   -   +   +   .   .   +   .   .   +
+Grenade tossers x3  |  52 |    1*   4  |  -   -   +   +   .   .   +   +   .   +
+Impostor            |  96 |    6    5  |  -   -   +   +   .   +   +   +   .   +
+Tank                | 162 | death death|  -   -   -   -   -   -   -   -   +   -
+Big Boss I          |  96 |    1    3  |  -   -   +   +   +   +   +   +   +   +
+Big Boss II         | 216 |   10    7  |  -   -   -   -   -   -   -   -   +** -
+Metal Gear 2        | 144 |   n/a  n/a |  -   -   -   -   -   +   -   -   -   -
+
+*  Falling into the pits causes instant death.
+** Big Boss II must be lured away at least one room in order to take damage.
+
+--------------------------------------------------------------------------------
+8. MEMORY ADDRESSES
+  You can keep track of these with a memory watcher in your emulator or use them
+to make patch codes. All values for ammo and item supplies are already in 
+decimal, so don't convert them from hex.
+
+Address | Value                                  |
+--------+----------------------------------------+
+005b    | Alert status                           |
+005c    | Number of guards left till alarm dies  |
+0060-1  | Available/unlocked weapons*            |
+006e    | Hostages rescued/Officers interrogated |
+006f    | Rank                                   |
+0070    | Snake's life                           |
+0077    | Snake's invulnerability time           |
+0088-a  | Available/unlocked equipment*          |
+046e    | Snake's Y position                     |
+046f    | EXPLOSIVE's Y position                 |
+0484    | Snake's X position                     |
+0485    | EXPLOSIVE's X position                 |
+0470-3  | Snake's bullet's Y position            |
+047a-e  | Enemy/boss Y position                  |
+0486-9  | Snake's bullet's X position            |
+0490-4  | Enemy/boss X position                  |
+0590    | Time till cable car arrives            |
+0574    | Time till EXPLOSIVE blows up           |
+05cd-d1 | Enemy/boss life                        |
+05d2-6  | Enemy/boss facing direction            |
+05d7-b  | Enemy/boss invulnerability time        |
+06c0-1  | HANDGUN ammo                           |
+06c2-3  | MACHINE GUN ammo                       |
+06c4    | SHOTGUN ammo                           |
+06c5    | FLARE ammo                             |
+06c6    | GRENADE ammo                           |
+06c7    | MINE ammo                              |
+06c8    | MISSILE ammo                           |
+06c9    | EXPLOSIVE ammo                         |
+06ca    | CLAYMOR MINE ammo                      |
+06cb    | TRUTH GAS supply                       |
+06cc    | ANTIDOTE supply                        |
+06cd    | FOOD supply                            |
+06ce    | OXYGEN TANK supply                     |
+
+* Add the following values to the specified addresses to set which items are in 
+inventory. You still need ammo for weapons and supplies for consumable items.
+
+value | 0x0060      | 0x0061      | 0x0088      | 0x0089      | 0x008a      |
+------+-------------+-------------+-------------+-------------+-------------+
+0x01  | HANDGUN     | EXPLOSIVE   | CARD1       | SMOKE BOMB  | BATTERY     |
+0x02  | MACHINE GUN | CLAYMOR MINE| CARD2       | HIDDEN MIKE | POWER ARMOR |
+0x04  | SHOTGUN     |             | CARD3       | DETECT MINES| X-RAY LENS  |
+0x08  | SILENCER    |             | CARD4       | BOOTS       | ANTENNA     |
+0x10  | FLARE       |             | CARD5       | ARMOR VEST  | TRUTH GAS   |
+0x20  | GRENADE     |             | CARD6       | NIGHT SITE  | ANTIDOTE    |
+0x40  | MINE        |             | CARD7       | OPTIC LENS  | FOOD        |
+0x80  | MISSILE     |             | CARD8       | BACK PACK   | OXYGEN TANK |
+
+Example:
+If the value at 0060 is c3, you have HANDGUN, MACHINE GUN, MINE and MISSILE.
+0xc3 = 0x01 + 0x02 + 0x40 + 0x80
+
+--------------------------------------------------------------------------------
+9. BONUS
+  See my tool-assisted speedrun of this game here:
+  
+http://tasvideos.org/2045S.html
+
+--------------------------------------------------------------------------------
+CLOSING
+  This document is my own work. Any questions, comments, corrections or 
+complaints should be addressed to the address below, with clear indication in 
+the subject line that the email is concerning this FAQ. 

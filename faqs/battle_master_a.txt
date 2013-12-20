@@ -1,0 +1,3296 @@
+Battle Master for Sega Genesis
+Walkthrough, v2.0 (1/13/2010)
+by Dammit9x
+dammit9x at hotmail dot com
+
+Copyright 2004-2010
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+
+-------------------------------------------------------------------------------
+
+  Changed, added or fixed since v1.3 (6/06/2005):
+* various textual improvements and section reorganization
+* introductory summary
+* general information:
+  * GP item icons
+  * identification of healing potions
+  * initial equipment types
+  * more info on passcodes
+* in-depth information:
+  * function of Optimise
+  * table of equipment types
+  * ring and jewel functions
+  * damage modifier depends on weapon/armor pairing
+  * damage reduction of wands and skill penalty for non-wizards
+  * damage reduction of all enemy attacks
+  * chance to hit depends on skill, armor rating, and rings/jewelry
+  * advice on picking equipment
+* walkthrough:
+  * explanation of walkthrough format
+  * stages are numbered and have enemy count and quota
+  * table of enemy groups for each stage
+  * parley prices for wilderness stages
+  * found missing treasure, including Sulrandir's Fist in stage #50
+  * improved guide for many stages
+* new passcode set for dwarf warrior
+* old section on equipment is obsolete and has been removed
+
+See here for the Lua script that was used for much of the new research:
+http://lua.pastey.net/144828-1xf0
+
+Lua scripting requires the Gens-rr emulator:
+http://code.google.com/p/gens-rerecording/
+
+***************************************
+TABLE OF CONTENTS
+
+I. INTRODUCTION
+  1. SUMMARY
+  2. FROM THE MANUAL
+
+II. GENERAL INFORMATION
+  1. THE BARS
+  2. COMBAT
+  3. MANAGING YOUR TROOPS
+  4. CLEARING STAGES
+  5. GP AND PARLEYING
+  6. HOSTILITY
+  7. CHOOSING YOUR CHARACTER
+  8. PASSCODES
+
+III. IN-DEPTH INFORMATION
+  1. EQUIPMENT TYPES
+  2. RINGS AND JEWELRY
+  3. DAMAGE FORMULA
+  4. CHANCE-TO-HIT FORMULA
+  5. EQUIPMENT ADVICE
+
+IV. THE WALKTHROUGH
+  Chapter 1: The Southlands ~ 14 stages
+  Chapter 2: Elven Woods ~ 6 stages
+  Chapter 3: The Sunset Spires ~ 8 stages
+  Chapter 4: The Great Plain ~ 6 stages
+  Chapter 5: Mountains of Shadow ~ 7 stages
+  Chapter 6: Valley of the Kings ~ 5 stages
+  Chapter 7: The Saltplains ~ 6 stages
+
+V. SAMPLE PASSCODES
+
+CLOSING
+***************************************
+
+-------------------------------------------------------------------------------
+I. INTRODUCTION
+
+  1. SUMMARY
+  Battlemaster is a squad-oriented combat RPG made for Amiga, Atari ST, and DOS
+PCs and ported to Sega Genesis. It's very easy to get killed and hard to figure
+out how to avoid getting killed. This guide completely breaks down the game 
+mechanics, while also offering practical survival advice.
+
+  2. FROM THE MANUAL
+BATTLEMASTER: The Age of Conflict
+
+Not much is known about the creation of the world. The 
+best we have to go on is the ancient book of Atan, passed 
+down through thousands of generations, whispering to us 
+the secrets of the Legend of Creation. This is its story.
+
+The Four Lords of Creation shaped the world from the 
+random dynamics of time and space. This we know, 
+thanks to the chronicles written by Aran, the first king and 
+potentate of all Magic. It was he who possessed the 
+Keystone of Life set deep into a golden crown. With it he 
+determined the flux of Magical power. He was the 
+chronicler of this world's past, and his chapters are known 
+as the Age of Peace.
+
+Just before his death--after all of his kind had died--he 
+crafted a final entry into the Book of Aran and placed it in a 
+crystal case to protect his words from the scars of time. In 
+a final act of despair, he shattered his crown with the 
+Keystone of Life, splitting it into uncountable shards, left 
+behind in his Tower.
+
+All life ended for a time, but as things go, life returned to 
+our planet, four races led by four kins, wearing crowns 
+bearing the main shards of the splintered Keystone of Life. 
+Each had a queen at his side; all wandered from Aran's 
+Tower to build their kingdoms and weave their own 
+tapestry in the world. And in time, other dark and 
+nameless creatures crept from the cauldrons, bearing the 
+tiny shards of the Keystone that created them, following 
+the kings into a new world.
+
+Four races developed and prospered: Elves, Dwarves, 
+Humans and Orcs. As time passed, the four territories 
+crossed, and their differences spilled out of the shadows.
+
+The Elves are a natural people, loving sunlight and forest 
+shade--a tall, fair and elegant species, always vigilant 
+against attack. They have one skill on their side--a 
+knowledge of Magic. They protect their culture with the 
+double-edged sword of defense and art. Their's is the first 
+great empire, sprawling the central forest of Aldarien and 
+the vast tree belt of the Southlands.
+
+The Dwarves, too, are a solitary race. They are short and 
+stocky, and few in number. As creatures of habit--mainly 
+miners, builders and smiths--their psyche is governed by 
+a desire to delve forever deeper for the magical core metal 
+of the world. They are a disparate, hostile people, going 
+wherever the mining is good, given to territorial defense. 
+Their main settlements are close to the Tower, the place 
+now known as Naugarth, the Dwarf realm.
+
+Men are the Land's farmers. They breed quickly because 
+their lifespan is short, and this makes them more desperate 
+than most. They rejected the power of Magic long, long ago, 
+choosing instead the path of science. They have always 
+been an expansionist species and they soon spread their 
+corruption into the Great Plain and east into Hardor.
+
+Finally, this world hosts Orcs. These creatures, as has been 
+well recorded elsewhere, are warriors--efficient fighting 
+machines who live and die by sword and statecraft, craving 
+power and glory. An Orc runs from battle when it 
+calculates that the odds are against it.
+
+So, the world was divided among the races. The ELves 
+ruled the forests, the Dwarves held the underworld, Men 
+ploughed the plains and the Orcs held sway over the wastes 
+and mountains. The Age of Conflist begins.
+
+After many years of interracial conflict had devastated the 
+land and its inhabitants, the Watcher came and settled in 
+Aran's Tower. From warring and poverty, all four races 
+have slowly declined, their economies and towns crum-
+bling in unison. Once there were great cities here; now 
+there are villages and settlements. Once there were huge 
+nations; now there are dwindling rows of stragglers. Once 
+there were empires; now there are memories.
+
+No one knows from where the Watcher came. Or why. 
+Perhaps he was an emissary from the Lords of Creation--
+a restorer of balance. He has withdrawn the gift of 
+Magic--wizards have no power, and the only sorcery in 
+the land emanates from artifacts fashioned before he 
+arrived. It is a time for union: to this end, he has cast a spell 
+of apathy upon the four kings, and spoken this prophecy:
+
+    "Where there is chaos, there will be order;
+    where discord, harmony will flourish. From 
+    the south will come a hero to conquer the land 
+    and unite the crowns. Where there were 
+    fragments, there will be a whole. Then will a 
+    new age begin."
+
+The land awaits its hero.
+
+-------------------------------------------------------------------------------
+II. GENERAL INFORMATION
+
+  1. THE BARS
+
+Health ~ red bar
+  The HP bar indicates how close you are to getting killed. Health is damaged 
+by getting hit by melee or missile attacks and is restored by using food or 
+healing potions. The healing points from healing items is preferentially 
+distributed to the most wounded members of the group.
+  Health starts at 70/72 and the maximum increases by 2 for each new level 
+visited, regardless of whether you forced or bought your passage.
+
+Morale ~ green bar
+  Low morale causes troops break formation and wander off, but morale seems to 
+have no other effect. It goes up when you hurt/kill enemies and goes down when 
+you or your troops get hurt/killed. 
+  Whether it goes up or down, it eventually equilibrates to 31/125 and the 
+equilibrium increases by 1 for each new stage you visit, regardless of whether 
+you forced or bought your passage.
+
+Skill ~ blue bar
+  Skill affects a character's chance to hit and chance to avoid getting hit in 
+combat.
+  It starts at 41/255 (warriors get a +10 bonus) and increases by 1 for each 
+stage in chapters 1-2, 2 for each stage in chapters 3-6, or 3 for each stage 
+in chapter 7, regardless of whether you forced or bought your passage.
+
+  In all cases, you don't earn the bonus until you travel to a stage you 
+haven't been to before.
+  The bars you see for your troops are the average values for all the troops. 
+If the health of one troop is low but all the others is high, the bar will 
+appear to be high. This makes it hard to tell if one of them needs healing. 
+If you see the red bar going down and then suddenly increase, that means one 
+of your guys just got killed. Get into the habit of using a healing item every 
+few seconds when your troops are in intense melee combat.
+
+  2. COMBAT
+
+  There are two types, melee and missile. To use your missile effectively, 
+approach the enemy from one of the eight cardinal directions. Even if you are 
+confident in your sword you should always try to line up a few shots because 
+it is basically free damage. Enemy missiles are generally weaker than yours.
+  Melee happens, whether you want it or not, when the enemy gets close to you. 
+If you are being melee'd you can't move or shoot; you can only melee back, 
+though you can opt not to defend yourself. Melee is more effective if you push 
+the button fast, but there's a limit to how much good this does, and your 
+troops always seem to be better at melee than your own character. (The game's 
+heavy lag can result in many of your button presses and releases to go missed.)
+A good tactic is to have them melee while you support them with missiles.
+  For both attack types, there is a chance that the attack will fail: The 
+enemy doesn't flicker and doesn't take damage. This depends on the Skill stats 
+of both opponents, the attacker's weapon, the defender's armor, and random 
+factors. See section III.4 for details.
+
+  3. MANAGING YOUR TROOPS
+
+  This game can be very hard or not so hard depending on how well you can 
+control your troops. On many stages you have to fight enemies that are plain 
+better than you. In order to beat them you need to have a well controlled army 
+so that you can get as many swords on them at once as possible, otherwise you 
+get taken out one by one. 
+  Battle Master has the distinction of having some of the worst AI pathing 
+ever. Troops will get lost and literally grope their way along if you try to 
+do something wild like walk along a wall or through a door. The best way to 
+prevent them from getting lost is to make sure they only walk where you walk. 
+You can do this by leading from the rear and choosing single file formation. 
+Waggle the stick up and down, left and right repeatedly. In their attempt to 
+get ahead of you your troops will eventually settle on top of you. As long as 
+you keep moving they should remain this way.
+  If your troops start going after enemies when you need them to be following 
+you, Rally them. This makes them ignore enemies and follow you for a few 
+seconds. Rallying is good for keeping your troops together until you are ready 
+to attack. Do not rally when they are in melee unless you are trying to pull 
+them out of combat. Rallying in no way cures the horrible pathfinding. You 
+cannot rally if you can parley or access the travel map.
+  You can save yourself a lot of trouble by telling your troops to wait behind 
+when you are doing something they can't help you with, like scouting and 
+getting treasure. Sometimes you have to make them stay put for their own good.
+  You can only buy troops when parleying with someone of the same race. The 
+cost for each man is twice the cost of safe passage. You can buy more than four
+at a time by leaving the parley screen then returning to it.
+  If you can properly line up just one or two shots with a strong missile you 
+can devastate entire parties of enemies. There is a trick you can use to take 
+out enemies at a distance with your missile: 
+  Stack up your troops as described above, then make then wait at a location 
+where they are lined up to hit enemies. Approach the enemies until they start 
+attacking you. Your guys should start firing, and not many enemies can survive 
+being hit by 10 or more missiles. Try to get the enemy to chase you so your 
+troops can keep shooting them. You can also do this trick while moving: if 
+everyone's shot is synchronized, you can retreat while they are reloading and 
+face the enemy just before they fire.
+
+  4. CLEARING STAGES
+
+  You are free to leave a stage when you've killed 3/4 of inital number of 
+residents, rounded up. That includes humanoids and monsters. Once you've done 
+this you can come and go at will. You can also buy safe passage, but this is 
+only good once per purchase. Whenever you leave a stage, any stage-specific 
+items (such as keys) are returned to their original places, and all triggers 
+(like pit traps) are reset.
+  You get the same bonus to your stats whether you pay for passage or kill 
+every last monster, so consider just getting what you want and leaving. If you 
+choose what treasure is important ahead of time (by using this guide) you can 
+decide which stages to skip by parleying, saving a lot of time and trouble. 
+While you don't need to go through every stage, it's a good idea to parley 
+through the uninteresting stages just to get the stat bonus. This only works 
+for non-wilderness stages, though wilderness stages tend to be a little easier.
+  So, try to visit every stage but don't fight through all of them. It takes 
+too long and you'll end up with more gold than you can spend.
+
+  5. GP AND PARLEYING
+
+  GP is used to buy healing items, equipment, troops and safe passage during 
+Parley. Therefore, GP gives you the choice to skip some levels you don't want 
+to deal with and still get the benefits. GP is collected in stages cleared by 
+force and spent in stages cleared by parley. It doesn't do you any good unless
+you spend it, so plan on where and when to spend it to make the game easier.
+
+  The icon of a treasure item is automatically determined by the quantity of GP
+it holds.
+
+Table 1: GP item icons
++-----------+-------------+
+| GP amount |     icon    |
++-----------+-------------+
+|    0-24   |  coin pile  |
+|   25-49   | small pouch |
+|   50-99   | large sack  |
+|  100-4095 |    chest    |
++-----------+-------------+
+
+  Merchants get discounts on their purchases. This means less GP is needed to 
+buy passage and other goods, which means that fewer stages need to be raided
+for money.
+
+Table 2: Merchant discounts
++-------+----------------------------------+
+|  You  |               Them               |
+|       | Human   Elf   Dwarf   Orc   wild |
++-------+----------------------------------+
+| Human |  15%    10      5     10      -  |
+| Elf   |  10     15     10      5      -  |
+| Dwarf |   5     10     15      -      -  |
+| Orc   |  10      5      -     20      -  |
++-------+----------------------------------+
+
+  Dwarves and Orcs will never parley with each other, not even with merchants. 
+Also, Elves and Orcs will charge each other double for safe passage, but not 
+for other goods. Parleying is not available in wilderness stages.
+
+  6. HOSTILITY
+  Besides the distinctions when parleying, some races will attack others 
+without provocation.
+
+Table 3: Racial hostility
++-------+----------------------------------+
+|  You  |               Them               |
+|       | Human   Elf   Dwarf   Orc   wild |
++-------+----------------------------------+
+| Human |   -      -      -      X      X  |
+| Elf   |   -      -      X      X      X  |
+| Dwarf |   -      X      -      X      X  |
+| Orc   |   X      X      X      -      X  |
++-------+----------------------------------+
+
+  For example, if you have an Elf party in the presence of Dwarves, your 
+troops and their troops will spontaneously attack each other. Orcs are at a 
+disadvantage because they are hated by every other race, while Humans are the 
+least unwelcome. Wilderness stages are hostile to everyone.
+  Hostility does not prevent parleying, as long as no blood has been shed. 
+Taking GP and items, even zero-value items like keys, causes hostility to break
+out, and also disables parleying for every class except thieves. Getting hit by
+missile traps also causes hostility but oddly enough it's still cool if 
+characters get killed by pit traps.
+
+  7. CHOOSING YOUR CHARACTER
+
+  You need to pick a race and a class. There are four choices of each. Race 
+affects hostility and parleying, and also the starting stage. Class affect 
+starting conditions, and each class gets except warriors get special abilities.
+
+Table 4: Initial conditions of each class
++----------+---------+---------+---------+---------+
+| class    |  troops |   gold  |  skill  | missile |
++----------+---------+---------+---------+---------+
+| Thief    |     4   |    50   |    41   |  +0 bow |
+| Warrior  |     0   |     0   |    51   |  +0 bow |
+| Wizard   |     2   |    50   |    41   | +30 wand|
+| Merchant |     3   |   100   |    41   |  +0 bow |
++----------+---------+---------+---------+---------+
+
+Table 5: Initial equipment types by race and class
++----------+--------------+--------------+--------------+--------------+
+|  class   |                            race                           |
+|          |    Human           Elf           Dwarf           Orc      |
++----------+--------------+--------------+--------------+--------------+
+| Thief    | [A0][W3][M2] | [A0][W2][M1] | [A1][W4][M0] | [A1][W4][M0] |
+| Warrior  | [A1][W3][M1] | [A0][W0][M2] | [A1][W1][M0] | [A1][W0][M0] |
+| Wizard   | [A0][W2][M3] | [A0][W2][M4] | [A0][W1][M3] | [A0][W4][M5] |
+| Merchant | [A0][W3][M1] | [A0][W3][M2] | [A1][W0][M2] | [A1][W4][M2] |
++----------+--------------+--------------+--------------+--------------+
+  See section III.1 for details on equipment types.
+
+  Thieves can take items and still be able to parley. In this way they can 
+"steal". However, the enemy still attacks you and your troops as if they had 
+seen it anyway, so the peace doesn't last long.
+  You can steal something and immediately buy passage and leave. If for some 
+reason you come back the enemy will no longer be hostile. You can also push 
+your luck by hiding your troops out of the way and cleaning the stage out, 
+trying not to get hit, then buying passage. Since the implementation of 
+stealing is so poor, the thief is probably the worst class. A similar concept 
+is more reliably demonstrated by the merchant class.
+
+  Warriors start with an extra 10 skill points that may give them an edge in 
+the long run, but no money or friends. Those extra points will not prevent you 
+from getting killed at the beginning of the game, so get some troops as soon 
+as possible. Warriors don't seem to have any special ability.
+
+  Wizards start with a +30 wand: fire for the human and dwarf, lightning for 
+the elf and poison for the orc. Wizards are the only class that can use wands 
+effectively, and all the races use them equally well. Non-wizards have a high 
+failure rate with wands: You hit the enemy with the projectile but nothing 
+happens. See section III.3 for details on this. Because only they can exploit 
+the powerful wands effectively, wizards may be the best class.
+  Wizards are also the only class that can identify healing potions: other 
+classes see "(???)" in place of the number. But this is trivial since potions 
+can also be identified by color and cost.
+
+Table 6: Healing potion identification
++-------+---------+---------+
+| Price |  Color  | Healing |
++-------+---------+---------+
+|   25  |   blue  |  (100)  |
+|   37  |  green  |  (150)  |
+|   50  |  orange |  (200)  |
+|   62  |   red   |  (250)  |
++-------+---------+---------+
+
+  Merchants get Parley discounts as shown in table 2. Since less GP and less 
+fighting is needed to fund parleying through stages, merchants may be the class
+that can get through the game the fastest.
+
+  8. PASSCODES
+
+  A passcode is a sequence of symbols that codes for the party's current state.
+They are only given at the end of chapters. You can resume play at the 
+beginning of the chapter by entering the passcode at the main menu.
+
+  The symbols are drawn from a pool of sixteen. The passcode is divided into 
+blocks of five/four/four symbols per line, and there are six lines for a 
+maximum length of 78 symbols. The block and line divisions do not mean 
+anything. The length is always an even number and each pair of symbols codes 
+for one byte of a particular parameter. The number of pairs required depends 
+on the size of your inventory, and the last two pairs are never used.
+
+Table 7: Functions of passcode symbols
++-------+-----------------------------+
+|symbols| function                    |
++-------+-----------------------------+
+|  1- 2 | checksum                    |
+|  3- 4 | max health                  |
+|  5- 6 | current troop health        |
+|  7- 8 | number of troops            |
+|  9-10 | race and class              |
+| 11-12 | chapter and number of items |
+| 13-14 | equilbrium morale           |
+| 15-16 | skill                       |
+| 17-18 | GP, upper byte              |
+| 19-20 | GP, lower byte              |
+| 21-22 | affects identity of items?  |
+| 23-24 | equipped armor              |
+| 25-26 | equipped weapon             |
+| 27-28 | equipped missile            |
+| 29-74 | up to 21 inventory items    |
+| 75-78 | unused                      |
++-------+-----------------------------+
+
+  The checksum byte is what prevents any otherwise valid passcode from being 
+accepted: the given checksum must match the checksum generated from the 
+particular sequence of the other symbols or the passcode is rejected.
+
+See section V for some sample passcodes.
+
+-------------------------------------------------------------------------------
+III. IN-DEPTH INFORMATION
+
+  Understanding how combat works at a fundamental level can make Battle Master 
+much less aggravating and more playable. This section explains what equipment 
+and jewelry does, how damage is computed, and how hits or misses are decided.
+
+  1. EQUIPMENT TYPES
+
+  Every object in the game world has a two-part identification number, which 
+indicates the item's main type and subtype. Some examples of main types are 
+armors, healing items, and keys. The main type determines, among other things, 
+what happens when you pick the item up and how it is sorted in inventory. The 
+subtype determines the icon and other subtype-specific properties.
+  The Optimise command in the inventory menu checks for multiple equipment 
+items of the same subtype and automatically throws away everything but the 
+strongest item. There's no benefit to keeping weaker items of the same subtype,
+so Optimise is always safe to use. It won't appear unless there's something it 
+can throw away.
+  This guide will represent IDs in the format of [XY], where X shows the main 
+type and Y is the subtype. The main types of interest here will be called A 
+(armor), W (melee weapon), M (missile weapon), R (rings), and J (jewelry). The 
+following table explains what each equipment subtype looks like and where to 
+find the best specimen. (Some are not found anywhere in the game.) The meaning 
+of the plus values is different for each type and will be explained in this 
+section.
+
+Table 8: Equipment types
++------+-------------------------+------+--------------------------+
+|  ID  | icon appearance         |stage |     best example         |
++------+-------------------------+------+--------------------------+
+| [A0] | brown with hat          | 5.34 | +20 Orcish Battle Armour |
+| [A1] | chain with hat          | 7.45 | +30 Bladebane            |
+| [A2] | gray with hat           | 7.47 | +30 Dwarven Plate Armour |
+| [A3] | brown with closed hat   | 6.36 | +21 Full Chainmail       |
+| [A4] | green without hat       |  ??  |     not in game?         |
+| [A5] | gray with helmet        |  ??  |     not in game?         |
+| [A6] | brown with an arrow     | 7.49 | +30 Naugar's Armor       |
+| [A7] | green with hat          | 4.37 | +20 Feadil's Bladewall   |
+| [A8] | red breatplate          | 4.32 | +20 Firearmour           |
+| [A9] | green breastplate       | 3.23 |  +5 Brown Mages Armour   |
++------+-------------------------+------+--------------------------+
+| [W0] | curved sword            | 2.27 | +20 Headbringer          |
+| [W1] | single-headed axe       | 3.18 | +15 Dwarven Runeaxe      |
+| [W2] | right-pointing sword    | 6.36 | +22 Longsword            |
+| [W3] | left-pointing sword     | 6.42 | +25 The Dreamsword       |
+| [W4] | club                    | 3.22 |  +8 Club                 |
+| [W5] | double-headed axe       | 7.45 | +30 Orcruth              |
+| [W6] | green spiky sword       | 4.37 | +10 Norbane              |
+| [W7] | crucifix sword          | 5.44 | +30 Peacebringer         |
+| [W8] | gray sword              |  ??  |     not in game?         |
+| [W9] | red sword               |  ??  |     not in game?         |
++------+-------------------------+------+--------------------------+
+| [M0] | small brown crossbow    | 5.31 | +20 Elf Shafter          |
+| [M1] | left-pointing bow       | 6.42 | +40 The Dreambow         |
+| [M2] | right-pointing bow      | 1.02 |  +5 Superior Bow         |
+| [M3] | fire wand               | 6.43 |+100 Sulrandirs Hand      |
+| [M4] | lightning wand          | 7.50 |+120 Sulrandir's Fist     |
+| [M5] | gas wand                | 5.31 | +80 Orcish Rankbuster    |
+| [M6] | large gray crossbow     | 2.26 | +15 Elrins Hunting Bow   |
++------+-------------------------+------+--------------------------+
+| [R0] | small red stone         | 6.46 | +25 Warshield            |
+| [R1] | small blue stone        | 5.44 | +30 Normellon            |
+| [R2] | small green stone       | 7.48 | +30 Sulandir             |
+| [R3] | small light blue stone  | 2.27 | +10 Lightning Ring       |
+| [R4] | small dark red stone    | 6.36 |  +0 Nendil               |
+| [R5] | double red stone        | 6.46 |  +0 Gondrim              |
+| [R6] | large pink stone        |  ??  |     not in game?         |
+| [R7] | large green stone       |  ??  |     not in game?         |
+| [R8] | large gray stone        |  ??  |     not in game?         |
++------+-------------------------+------+--------------------------+
+| [J0] | diamond red stone       | 3.17 | +20 The Ruby Star        |
+| [J1] | blue stone set in gold  | 4.37 |  +1 Diamond Star         |
+| [J2] | cross, no stone         | 3.19 | +10 Holy Necklace        |
+| [J3] | peace sign, no stone    | 2.15 |  +0 Faith                |
+| [J4] | triangle green stone    | 5.28 | +20 Emerald Star         |
+| [J5] | round red stone         | 6.40 | +15 Maledil's Gem        |
+| [J6] | small gray stone        | 5.33 | +10 Magicbane            |
+| [J7] | blue stone set in black |  ??  |     not in game?         |
++------+-------------------------+------+--------------------------+
+
+  2. RINGS AND JEWELRY
+
+  Unlike other item types, each ring and jewel subtype has a unique function.
+
+Table 9: Ring and jewel functions
++------+---------------------------------+
+|  ID  | function                        |
++------+---------------------------------+
+| [R0] | resist all attacks              |
+| [R1] | resist fireballs                |
+| [R2] | resist gas                      |
+| [R3] | resist lightning                |
+| [R4] | walk safely over water and lava |
+| [R5] | walk safely over pits and lava  |
+| [R6] | unknown and not in game         |
+| [R7] | unknown and not in game         |
+| [R8] | unknown and not in game         |
++------+---------------------------------+
+| [J0] | resist fireballs*               |
+| [J1] | resist fireballs*               |
+| [J2] | resist scorpion attacks*        |
+| [J3] | unknown                         |
+| [J4] | resist gas*                     |
+| [J5] | resist fireballs/gas/lightning* |
+| [J6] | resist fireballs/gas/lightning* |
+| [J7] | resist lightning*               |
++------+---------------------------------+
+
+  The only ring/jewel actually found in the game that has no known function is 
+[J3] Faith. Since it's +0 it probably has a non-combat effect like Nendil and 
+Gondrim.
+  The only ring/jewel that protects against a specific race is the [J2] Holy 
+Necklace. It resists any attack from any scorpion. Refer to table 14 for the 
+details on attack resistance.
+
+  3. DAMAGE FORMULA
+
+  For the player group attacking enemy groups, the damage dealt is:
+[damage] = [weapon power]*[wand/crossbow reduction] + [armor modifier] + 1
+
+  For enemy groups attacking the player group, the damage dealt is:
+[damage] = ([weapon power] + [armor modifier])*[enemy reduction] + 1
+
+  Skill and armor power affect whether the attack connects, but not the damage 
+done. However, the armor type plays a big role in damage. For each combination 
+of the attacker's weapon and the defender's armor there is a modifier added or 
+subtracted to the damage. (Pluses are good for the attacker and bad for the 
+defender.)
+
+Table 10: Damage modifiers from weapon/armor pairings
++------+---------------------------------------------------+
+|attack|                       armor                       |
+|      | [A0] [A1] [A2] [A3] [A4] [A5] [A6] [A7] [A8] [A9] |
++------+---------------------------------------------------+
+| [W0] |  +9   +4    0   +8    0    0    0  -32    0    0  |
+| [W1] |  +4   +4   +9    0    0    0    0  -16    0    0  |
+| [W2] |  +4   +9    0   +4    0    0    0    0    0    0  |
+| [W3] |  +6    0    0    0    0    0    0  -16    0    0  |
+| [W4] |  +8   +4    0   +4    0  +10    0  -32    0    0  |
+| [W5] |  +4   +4  +10    0  +64    0    0  -16    0    0  |
+| [W6] |  +4   +8    0   +8    0    0    0  +64    0    0  |
+| [W7] |  +4    0    0   +8    0  +64    0    0    0    0  |
++------+---------------------------------------------------+
+| [M0] |   0    0    0    0    0    0 -128  -32    0    0  |
+| [M1] |   0   +8    0    0    0    0 -128    0    0    0  |
+| [M2] |  +8    0    0    0    0    0 -128  -16    0    0  |
+| [M3] |   0    0    0    0    0    0    0  -16  -32    0  |
+| [M4] |   0    0    0    0    0    0    0    0    0  -32  |
+| [M5] |   0    0    0    0    0    0    0    0    0    0  |
+| [M6] |   0    0    0  +22    0    0    0    0    0    0  |
++------+---------------------------------------------------+
+
+  The base damage of wands ([M3], [M4], [M5]) and heavy crossbows ([M6]) is 
+less than advertised. The plus value of the missile weapon is multiplied by 
+$570A/$10000, or about 33%, rounded down. This applies to all classes and puts 
+wands only marginally above bows in terms of damage.
+
+Table 11: Wand and heavy crossbow damage reduction
++--------------+---------+---------+
+| missile type | nominal |  actual |
++--------------+---------+---------+
+|              |   +20   |    +6   |
+|              |   +30   |   +10   |
+| [M3][M4][M5] |   +40   |   +13   |
+|     wands    |   +60   |   +20   |
+|              |   +80   |   +27   |
+|              |  +100   |   +33   |
+|              |  +120   |   +40   |
++--------------+---------+---------+
+|     [M6]     |    +5   |    +1   |
+| big crossbows|   +15   |    +5   |
++--------------+---------+---------+
+
+  Furthermore, for non-wizards only, the wand is used at a skill level equal to
+the reduced damage level, which is always much lower than base skill. This 
+means that non-wizards have a high chance of missing with wands and should 
+stick to bows. Wizards take no penalty and use wands at normal skill. Any class
+can use heavy crossbows at normal skill.
+
+  The wand/crossbow reduction only applies to the player group attacking enemy 
+groups. Enemy groups attacking the player get a different damage reduction.
+  Before adding the final +1, the damage is multiplied by $4CCC/$10000, or 
+about 30%, rounded down. This is applied after the armor modifier, so the 
+damage reduction of the player's armor is greatly reduced.
+
+  4. CHANCE-TO-HIT FORMULA
+
+  Whether an attack hits or misses is determined by the following algorithm.
+
+Table 12: Chance to hit formula
++---------------------------------+---------------------------------------+
+|             operation           |                 notes                 |
++---------------------------------+---------------------------------------+
+|          start from zero        |                                       |
+| -     defender group's skill    |                                       |
+| + attacker group's weapon power |     wand/crossbow power is reduced    |
+| +     attacker group's skill    | wand skill is reduced for non-wizards |
+| -  defender group's armor power |                                       |
+| +  weapon/armor damage modifier |                                       |
+| +        formation bonus        |     only applies to melee attacks     |
+| +  random number from 0 to 31   |                                       |
+| +  random number from 0 to 31   |                                       |
+| -     ring/jewel protection     |   only applies to the player's group  |
+| -               25              |                                       |
++---------------------------------+---------------------------------------+
+  If the result is greater than zero, the attack succeeds. (This algorithm does
+not account for the neutralization effect that happens when the opponents are 
+attempting to melee one other simultaneously.)
+
+  The formation bonus only applies to melee attacks and the formations of each 
+group are only relevant if both groups have more than one member. If the 
+attacker is alone, the bonus is 6. If there's more than one member in the 
+attacker's group and the defender is alone, the bonus is 12. Otherwise, the 
+bonus is looked up from the following table.
+
+Table 13: Group formation chance to hit bonuses
++--------+--------+--------+--------+--------+--------+--------+
+|attacker|                       defender                      |
+|        | column    wedge    line    single    open    huddle |
++--------+--------+--------+--------+--------+--------+--------+
+| column |    0   |    5   |    9   |    5   |    5   |    5   |
+|  wedge |    5   |    8   |   11   |    5   |   10   |    5   |
+|   line |    0   |    5   |    0   |    0   |    5   |    0   |
+| single |    0   |    0   |    0   |    0   |    0   |    0   |
+|   open |    0   |    0   |    0   |    0   |    0   |    0   |
+| huddle |    0   |    5   |    0   |    5   |    5   |    0   |
++--------+--------+--------+--------+--------+--------+--------+
+
+  The best offensive formations are column and wedge, the best defensive 
+formations are column and huddle, and being alone is very disadvantageous.
+
+  You can't directly do anything with the rings and jewels in your inventory. 
+The combat-oriented rings and jewels are used automatically when you are 
+attacked, and each one protects against certain attacks.
+
+Table 14: Ring/jewel attack resistances
++------+--------------------+------------------------------+
+|attack|   ring resistance  |       jewel resistance       |
+|      | [R0] [R1] [R2] [R3]|[J0] [J1] [J4] [J5] [J6] [J7] |
++------+--------------------+------------------------------+
+| [W0] |   X    .    .    . |  .    .    .    .    .    .  |
+| [W1] |   X    .    .    . |  .    .    .    .    .    .  |
+| [W2] |   X    .    .    . |  .    .    .    .    .    .  |
+| [W3] |   X    .    .    . |  X    X    .    X    X    .  |
+| [W4] |   X    .    .    . |  .    .    .    X    X    X  |
+| [W5] |   X    .    .    . |  .    .    X    X    X    .  |
+| [W6] |   X    .    .    . |  .    .    .    .    .    .  |
+| [W7] |   X    .    .    . |  .    .    .    .    .    .  |
++------+--------------------+------------------------------+
+| [M0] |   X    .    .    . |  .    .    .    .    .    .  |
+| [M1] |   X    .    .    . |  .    .    .    .    .    .  |
+| [M2] |   X    .    .    . |  .    .    .    .    .    .  |
+| [M3] |   X    X    .    . |  X    X    .    X    X    .  |
+| [M4] |   X    .    .    X |  .    .    .    X    X    X  |
+| [M5] |   X    .    X    . |  .    .    X    X    X    .  |
+| [M6] |   X    .    .    . |  .    .    .    .    .    .  |
++------+--------------------+------------------------------+
+
+  The plus value of the item is subtracted from the quantity that will 
+determine if you get hit. You can only get the ring/jewel bonus from one item. 
+If multiple bonuses are applicable, only the best one is applied. For example, 
+if you have both The Emerald Star ([J4]) and Sulandir ([R2]), and you get 
+attacked by gas ([M5]), you get the +30 bonus from Sulandir while the +20 bonus
+from The Emerald Star is overridden.
+  Unlike rings, the jewels that protect against magic also protect against 
+melee weapons with the same ID number. For example, the Ruby Star protects 
+against fire [M3] but also certain swords [W3]. This is clearly a glitch. 
+
+  5. EQUIPMENT ADVICE
+
+  Picking the right equipment for the situation can make the difference between
+certain doom and a chance at winning. The most important thing is to have the 
+best armor or weapon ready to counter the opponent's equipment. (Refer to table
+10.) The weapon/armor matchup not only affects damage but the chance to hit. 
+Although the modifier along with the base damage is scaled down to 30% for the 
+enemy's attacks, you still get the full benefit or penalty for the chance to 
+hit calculation.
+  Leather and chainmail ([A0] and [A1]) are available with large plus values 
+but have poor modifiers, whereas dragonskin ([A7]) offers superb protection. 
+The best you can do for most of the game is gray armor ([A2]).
+  All the common melee weapon types are good against certain armors, so you 
+should keep strong weapons of various types ready for different situations.
+  Despite the base damage reduction, [M6] crossbows have a hefty bonus against 
+[A3] armor, which is common on wild creatures. Otherwise bows tend to be pretty
+similar. Wizards should generally use wands, but be ready to use something 
+other than fire if the enemy has [A7] or [A8]. The scattershot effect of gas 
+wands can be good or bad depending on the tactical situation. Non-wizards 
+should not even touch wands.
+  Don't hang onto worthless rings and jewelry. You can only benefit from one 
+item at a time, and the shield rings work against everything, so anything that 
+isn't better than your shield ring should be tossed. Even then, magic attacks 
+are somewhat uncommon.
+  Try to observe the enemy's formation and pick a counter-formation to maximize
+offense or minimize risk. (Refer to Table 13.) Formation only matters for 
+melee, so you can change it right before engaging the enemy.
+
+-------------------------------------------------------------------------------
+IV. THE WALKTHROUGH
+
+The following information is available for each stage:
+* The stage number according to the internal numbering
+* The other stages that can be reached by Travel from this stage
+  * Travel that leads to the next chapter is one-way.
+* The initial number of enemies
+* Quota, the max number of enemies that may be left alive in order to Travel
+  * You must kill at least (initial - quota) to leave by force.
+* A table of enemy groups that includes the number of members, race, formation,
+  max HP, skill, and equipment types and pluses for each group
+  * Hidden groups are indicated with a "*". Some hidden groups may be missing.
+* The total amount of GP programmed in the stage
+  * Some GP in stages 2.15, 3.16, 3.23, and 5.34 is unreachable or invisible.
+* A table of items available by parley along with their prices and attributes
+  * Parley is not available in wilderness stages without some kind of cheat.
+  * Items marked with a "*" are initially unavailable and must be uncovered.
+* Some hints on playing through the stage
+
+Additionally, the highest stats possible at the beginning of each chapter are 
+given. (Warriors have 10 higher skill.) These stats are achieved by visiting 
+every stage in all the previous chapters.
+
+*******************************************************************************
+***************      Chapter 1: The Southlands ~ 14 stages      ***************
+
+Initial stats:
+70 max health
+31 equilibrium morale
+41 or 51 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#0 Dorin's Delve ~ dwarves ~ elf parties start here
+travel: #3 Axehead Hill, #1 Dullham
+
+initial enemies: 13   quota: 3
++--------------------------+----------------+---------------------------------+
+|  4 dwarves        line   |  10 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0] (+0) |
+|  2 dwarves        line   |  10 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0] (+0) |
+|  4 dwarves        single |  10 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0] (+0) |
+|  2 dwarves        line   |  10 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0] (+0) |
+|  1 dwarf          column |  50 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0](+10) |
+|* 1 dwarf          column |  10 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0] (+0) |
+|*10 dwarves        line   |  10 hp   10 sk | [A1] (+0)  [W1] (+0)  [M0] (+0) |
++--------------------------+----------------+---------------------------------+
+
+200 GP available
++------+-------+------------------+------+
+|   20 |    +0 | Chainmail Armour | [A1] |
+|   20 |    +0 | Battle Axe       | [W1] |
+|    5 |  (10) | Bottle           |      |
+|    5 |  (10) | Water Carrier    |      |
+|   10 |  (15) | Carrots          |      |
+|   10 |  (40) | Corn             |      |
+|   10 |  (40) | Corn             |      |
+|   10 |       | Safe passage     |      |
++------+-------+------------------+------+
+
+  There is a chest of 100 GP guarded by arrow traps and pits to the right of 
+the starting location. Make your troops wait behind if you want to get it. In 
+the cave to the N, walk straight N to avoid the pit. Check the mirror in the 
+rooms beyond to find equipment and a 100 GP chest.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#1 Dullham ~ humans ~ orc parties start here
+travel: #3 Axehead Hill, #0 Dorin's Delve, #2 Brightleaf, Trollforge
+
+initial enemies: 15   quota: 3
++--------------------------+----------------+---------------------------------+
+|  1 human          column |  10 hp   10 sk | [A0] (+0)  [W2] (+0)  [M1] (+0) |
+|  6 humans         open   |  10 hp   10 sk | [A0] (+0)  [W2] (+0)  [M1] (+0) |
+|  6 humans         open   |  10 hp   10 sk | [A0] (+0)  [W2] (+0)  [M1] (+0) |
+|  1 human          open   |  40 hp   20 sk | [A0] (+0)  [W3] (+0)  [M1] (+0) |
+|  1 human          column |  10 hp   10 sk | [A0] (+0)  [W3] (+0)  [M2] (+0) |
++--------------------------+----------------+---------------------------------+
+
+45 GP available
++------+-------+-----------------------+------+
+|   30 |    +0 | Old Chainmail         | [A1] |
+|   50 |    +5 | Blue Steel Broadsword | [W3] |
+|    1 |   (5) | Bottle                |      |
+|    2 |  (10) | Apple                 |      |
+|    2 |  (10) | Tomato                |      |
+|   10 |  (40) | Melon                 |      |
+|   10 |       | Safe passage          |      |
++------+-------+-----------------------+------+
+
+  There is a pit trap at the end of the main road. The Old Iron Key to the 
+locked hut is in the hut to the N of it. Check downstairs in the locked hut for
+equipment and a 45 GP pouch.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#2 Brightleaf ~ elves ~ dwarf parties start here
+travel: #1 Dullham, #7 The Lonely Isle
+
+initial enemies: 9   quota: 2
++--------------------------+----------------+---------------------------------+
+|  2 elves          single |   5 hp    5 sk | [A0] (+2)  [W2] (+2)  [M1] (+2) |
+|  2 elves          column |   5 hp    5 sk | [A0] (+2)  [W2] (+2)  [M1] (+2) |
+|  3 elves          wedge  |   5 hp    5 sk | [A0] (+2)  [W2] (+2)  [M1] (+2) |
+|  2 elves          huddle |   5 hp    5 sk | [A0] (+2)  [W2] (+2)  [M1] (+2) |
++--------------------------+----------------+---------------------------------+
+
+45 GP available
++------+-------+--------------+------+
+|  100 |   +20 | Lightfinger  | [M4] |
+|   50 |    +5 | Superior Bow | [M2] |
+|    1 |   (5) | Elvish Ale   |      |
+|   10 |       | Safe passage |      |
++------+-------+--------------+------+
+
+  Go south across the bridge then left to the cave. Use the Small Glowing 
+Rocks to get past the spikes. Follow the passage to get a pouch of 45 GP. Back 
+outside, walk east to get teleported to the items and a Tree Rooters Spade. 
+You can use it on the hill tree to get out of the teleport trap area.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#3 Axehead Hill ~ orcs ~ human parties start here
+travel: #0 Dorin's Delve, #1 Dullham
+
+initial enemies: 26   quota: 6
++--------------------------+----------------+---------------------------------+
+|  6 orcs           line   |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M0] (+0) |
+|  1 orc            column |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M5](+20) |
+|  8 spiders        open   |   5 hp    5 sk | [A3] (+0)  [W4] (+0)            |
+|  1 orc            column |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M0] (+0) |
+|  1 orc            column |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M0] (+0) |
+|  1 orc            column |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M0] (+0) |
+|  1 orc            column |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M5](+20) |
+|  1 orc            column |  10 hp   10 sk | [A0] (+0)  [W0] (+0)  [M5](+20) |
+|  6 orcs           open   |   5 hp    5 sk | [A0] (+0)  [W0] (+0)  [M0] (+0) |
++--------------------------+----------------+---------------------------------+
+
+90 GP available
++------+-------+----------------+------+
+|   50 |    +5 | Orcish Leather | [A0] |
+|  100 |   +20 | Orcish Wand    | [M5] |
+|    8 |   (8) | Carrots        |      |
+|   10 |  (10) | Corn           |      |
+|    5 |  (25) | Corn*          |      |
+|   20 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  Flip the switch in the cave on the left to turn off the pit trap in the cave 
+on the right. The wand is partially hidden behind a spike in a room at the end 
+of the cave. Hug the left wall in this room to avoid another pit.
+  After exiting the cave, go N and enter the cave on the right. There is a sack
+of 90 GP and some spiders in a hidden passage on the left, behind the water. 
+The rest of the action is in the cave on the left
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#4 Trollford ~ wilderness
+travel: #1 Dullham, #5 Dullmouth, #6 Ironhome
+
+initial enemies: 13   quota: 3
++--------------------------+----------------+---------------------------------+
+|  1 ogre           column |  40 hp   25 sk | [A3] (+0)  [W4] (+0)  [M0](+10) |
+|  6 dragonflies    open   |   5 hp    5 sk | [A3] (+0)  [W4] (+0)            |
+|  1 ogre           column |  40 hp   20 sk | [A3] (+0)  [W4] (+0)  [M0] (+0) |
+|  5 dragonflies    open   |   5 hp    5 sk | [A0] (+0)  [W4] (+0)            |
++--------------------------+----------------+---------------------------------+
+
+90 GP available
++------+-------+--------------------+------+
+|   50 |    +5 | Orcish Scimitar    | [W0] |
+|   80 |    +5 | Lesser Shield Ring | [R0] |
+|    1 |   (5) | Food of Some Kind  |      |
+|    5 |  (20) | Fish               |      |
++------+-------+--------------------+------+
+
+  You start off near an ogre (there aren't any trolls here) and some dragon-
+flies. Enter the cave and head E to find the door key, then turn around and go 
+back to the intersection. Walking between the spikes will cause pits to appear.
+Head left to find the food. Use the key and follow the path for a 90 GP sack, 
+the ring and the scimitar.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#5 Dullmouth ~ humans
+travel: #4 Trollford, #8 Riverdale
+
+initial enemies: 16   quota: 4
++--------------------------+----------------+---------------------------------+
+|  3 humans         wedge  |  15 hp   20 sk | [A0](+20)  [W3] (+0)  [M0](+15) |
+|  6 humans         column |  20 hp   10 sk | [A0](+20)  [W4](+20)  [M0](+20) |
+|  6 humans         column |  15 hp   20 sk | [A0](+20)  [W4](+20)  [M0](+15) |
+|  1 human          line   |  20 hp   50 sk | [A1](+20)  [W1](+50)  [M1](+30) |
++--------------------------+----------------+---------------------------------+
+
+25 GP available
++------+-------+----------------+------+
+|   45 |   +10 | Leather Armour | [A0] |
+|   50 |   +10 | Scimitar       | [W0] |
+|   15 |  (10) | Bottle         |      |
+|   20 |  (15) | Tomato         |      |
+|    5 |  (10) | Corn           |      |
+|   20 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  There is a Well Used Spade to the east of the great hall, which is locked. 
+Use it to enter the brownish patch to the SW. The Door Key and items are 
+upstairs, along with a 25 GP pouch. There is also another Spade.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#6 Ironhome ~ dwarves
+travel: #4 Trollford, #9 Maggot's Pit
+
+initial enemies: 13   quota: 3
++--------------------------+----------------+---------------------------------+
+|  1 ghost          open   |  20 hp   30 sk | [A0](+50)  [W0](+40)  [M2](+30) |
+|  1 ghost          open   |  20 hp   30 sk | [A0](+50)  [W0](+40)  [M2](+30) |
+|  1 ghost          open   |  40 hp   30 sk | [A0](+50)  [W0](+40)  [M2](+30) |
+|  1 dwarf          open   |  30 hp   30 sk | [A2] (+0)  [W1](+20)  [M0](+20) |
+|  8 dwarves        huddle |  30 hp   25 sk | [A2] (+0)  [W1](+10)  [M0](+10) |
+|  1 dwarf          open   |  30 hp   30 sk | [A2] (+0)  [W1](+20)  [M0](+20) |
++--------------------------+----------------+---------------------------------+
+
+150 GP available
++------+-------+--------------+------+
+|  100 |   +15 | Dwarf Chain  | [A1] |
+|   75 |   +10 | Scimitar     | [W0] |
+|   10 |  (40) | Corn         |      |
+|   15 |  (60) | Small Pie    |      |
+|   20 |       | Safe passage |      |
++------+-------+--------------+------+
+
+  Use the ladder to climb the castle wall on the W. Once past the castle check 
+the walled in room to the W for a 50 GP sack. The armor is in the mines at the 
+far N with some ghosts. In the far E mine shaft, hidden behind the S wall, is a
+100 GP chest.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#7 The Lonely Isle ~ elves
+travel: #2 Brightleaf, #8 Riverdale, #11 Balmir's Glen
+
+initial enemies: 18   quota: 4
++--------------------------+----------------+---------------------------------+
+|  5 elves          wedge  |  10 hp   10 sk | [A0] (+3)  [W2] (+3)  [M1] (+3) |
+|  4 elves          huddle |  10 hp   10 sk | [A0] (+3)  [W2] (+3)  [M1] (+3) |
+|  6 elves          column |  10 hp   10 sk | [A1] (+4)  [W2] (+4)  [M1] (+4) |
+|  1 elf            open   |  10 hp   10 sk | [A0] (+3)  [W2] (+3)  [M1] (+3) |
+|  2 elves          line   |  10 hp   10 sk | [A0] (+3)  [W2] (+3)  [M1] (+3) |
++--------------------------+----------------+---------------------------------+
+
+90 GP available
++------+-------+-------------------+------+
+|   55 |    +5 | Elven Chain Shirt | [A1] |
+|   30 |    +3 | Longbow           | [M1] |
+|    1 |   (5) | Elven Ale         |      |
+|    2 |  (10) | Tomato            |      |
+|    1 |   (5) | Elven Ale         |      |
+|   20 |       | Safe passage      |      |
++------+-------+-------------------+------+
+
+  There is a 15 GP pile in the farmhouse to the SW, a 50 GP sack in the hut 
+at the S end of the road, and a 25 GP pouch in the hut at N end of the road.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#8 Riverdale ~ humans
+travel: #5 Dullmouth, #7 The Lonely Isle, #9 Maggot's Pit, #10 Blind Ridge
+
+initial enemies: 29   quota: 7
++--------------------------+----------------+---------------------------------+
+|  6 humans         wedge  |  20 hp   20 sk | [A1] (+5)  [W3] (+5)  [M0] (+5) |
+|  4 humans         line   |  40 hp   20 sk | [A1] (+5)  [W3] (+5)            |
+|  8 humans         open   |  20 hp   20 sk | [A1] (+5)  [W3] (+5)  [M0] (+5) |
+|  1 human          open   |  40 hp   30 sk | [A1] (+5)  [W3] (+5)  [M3](+10) |
+|  5 humans         column |  20 hp   20 sk | [A1] (+5)  [W3] (+5)  [M0] (+5) |
+|  5 humans         single |  20 hp   20 sk | [A1] (+5)  [W3] (+5)            |
++--------------------------+----------------+---------------------------------+
+
+180 GP available
++------+-------+------------------------+------+
+|  600 |   +10 | Black Steel Broadsword | [W3] |
+|    7 |  (30) | Carrots                |      |
+|    1 |   (5) | Bottle of Ale          |      |
+|    5 |  (20) | Apple                  |      |
+|    1 |   (5) | Bottle of Ale          |      |
+|    5 |  (20) | Apple                  |      |
+|   40 |       | Safe passage           |      |
++------+-------+------------------------+------+
+
+  Approach the standing stone to cross the river to some food, a 30 GP pouch, 
+and a Spike Key. Get back across by walking around south of the larger flat 
+stone. Use the key to get into the keep and get a 150 GP chest.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#9 Maggot's Pit ~ orcs
+travel: #6 Ironhome, #8 Riverdale, #10 Blind Ridge
+
+initial enemies: 30   quota: 7
++--------------------------+----------------+---------------------------------+
+|  8 orcs           wedge  |  10 hp   20 sk | [A0] (+5)  [W0] (+5)  [M0] (+5) |
+|  6 orcs           huddle |  40 hp   20 sk | [A0] (+5)  [W0] (+5)            |
+|  6 orcs           line   |  20 hp   20 sk | [A0] (+5)  [W0] (+5)  [M0] (+5) |
+|  4 orcs           column |  20 hp   20 sk | [A0] (+5)  [W0] (+5)            |
+|  3 orcs           single |  20 hp   20 sk | [A0] (+5)  [W0] (+5)  [M0] (+5) |
+|  3 orcs           huddle |  20 hp   20 sk | [A0] (+5)  [W0] (+5)  [M0] (+5) |
++--------------------------+----------------+---------------------------------+
+
+170 GP available
++------+-------+-----------------------+------+
+|  125 |   +10 | Orcish Leather Armour | [A0] |
+|  100 |   +10 | Orcish Battle Blade   | [W0] |
+|  200 |   +40 | Skirmisher Wand       | [M5] |
+|    5 |  (20) | Tomato                |      |
+|    5 |  (20) | Apple                 |      |
+|    1 |   (5) | Bottle                |      |
+|    1 |   (5) | Bottle                |      |
+|    7 |  (30) | Carrots               |      |
+|   40 |       | Safe passage          |      |
++------+-------+-----------------------+------+
+
+  To the NW is a bottle half-shadowed by a fake cave entrance. To the E of that
+hidden in the dirt is a 45 GP pouch.
+  Once in the cave to the N, avoid the E/W passage at the far N because of the 
+pits. There's a 60 GP sack in a central chamber and a 45 GP pouch E of there. 
+Follow the passages south to a 20 GP pile but don't take it yet. To get to the 
+wand, head W along the northern passage to avoid pits. Go around the long way 
+to the wand, then leave by the southern passage with the crucified person on 
+the wall and finally get the coins.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#10 Blind Ridge ~ dwarves
+travel: #8 Riverdale, #9 Maggot's Pit, #13 Wind Pass
+
+initial enemies: 46   quota: 11
++--------------------------+----------------+---------------------------------+
+| 16 dwarves        wedge  |  20 hp   10 sk | [A1] (+5)  [W1] (+5)  [M0] (+5) |
+| 16 dwarves        column |  20 hp   10 sk | [A1] (+5)  [W1] (+5)  [M0] (+5) |
+|  2 dwarves        line   |  40 hp   30 sk | [A1] (+5)  [W1] (+5)  [M0] (+5) |
+| 12 dwarves        open   |  20 hp   20 sk | [A1] (+5)  [W1] (+5)            |
++--------------------------+----------------+---------------------------------+
+
+180 GP available
++------+-------+--------------+------+
+|  100 |   +10 | Dwarf Nailer | [M0] |
+|    1 |   (5) | Dwarvish Ale |      |
+|    1 |   (5) | Dwarvish Ale |      |
+|    7 |  (30) | Carrots      |      |
+|    3 |  (10) | Tomato       |      |
+|    7 |  (30) | Carrots      |      |
+|   40 |       | Safe passage |      |
++------+-------+--------------+------+
+
+  Cross the bridge and enter the cave. Off to the E there are two more cave 
+entrances which lead to the same large room, where there are five piles of 20 
+GP and a shovel. Leave the cave and bring the shovel back W to the suspicious 
+N end of the road. This brings you to a hidden cave with an 80 GP sack and 
+other goods.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#11 Balmir's Glen ~ elves
+travel: #7 The Lonely Isle, #12 The Black Hills, #14 The Bloodwaste (ch.2)
+
+initial enemies: 29   quota: 7
++--------------------------+----------------+---------------------------------+
+|  4 elves          wedge  |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  4 elves          column |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  4 elves          line   |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  4 elves          huddle |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  4 elves          single |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  4 elves          wedge  |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  4 elves          column |  25 hp   25 sk | [A1] (+6)  [W2] (+6)  [M1] (+6) |
+|  1 elf            open   |  50 hp   35 sk | [A2] (+6)  [W2] (+6)  [M4](+10) |
+|*13 chompers       open   |  25 hp   25 sk | [A0] (+6)  [W4] (+6)            |
++--------------------------+----------------+---------------------------------+
+
+225 GP available
++------+-------+-----------------+------+
+|  110 |   +10 | Elven Chainmail | [A1] |
+|  100 |   +10 | Elven Longsword | [W2] |
+|  210 |   +40 | Firehand        | [M3] |
+|    1 |   (5) | Elvish Ale      |      |
+|   10 |  (40) | Corn            |      |
+|    5 |  (20) | Apple           |      |
+|    3 |  (10) | Tomato          |      |
+|   11 |  (45) | Melon           |      |
+|    1 |   (5) | Elvish Ale      |      |
+|   50 |       | Safe passage    |      |
++------+-------+-----------------+------+
+
+  There is a 30 GP pouch SE of your starting position and a 25 GP pouch to the 
+SW. There is a 120 GP chest in the fenced off area to the NW. Approaching it 
+will cause green monsters to appear to the E. Finally, there's a 50 GP sack 
+near the standing stones to the NE.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#12 The Black Hills ~ orcs
+travel: #11 Balmir's Glen, #13 Wind Pass
+
+initial enemies: 45   quota: 11
++--------------------------+----------------+---------------------------------+
+| 10 orcs           open   |  30 hp   30 sk | [A4] (+8)  [W0] (+8)            |
+|  8 orcs           huddle |  30 hp   30 sk | [A4] (+8)  [W0] (+8)  [M0] (+8) |
+|  1 orc            open   |  60 hp   40 sk | [A4] (+8)  [W0] (+8)  [M5](+10) |
+|  1 giant spider   open   | 180 hp   50 sk | [A3](+10)  [W4](+25)  [M5](+80) |
+|  8 orcs           column |  30 hp   30 sk | [A4] (+8)  [W0] (+8)  [M0] (+8) |
+|  8 spiders        open   |  30 hp   30 sk | [A3] (+8)  [W0] (+8)  [M5] (+8) |
+|  8 spiders        huddle |  30 hp   30 sk | [A3] (+8)  [W0] (+8)            |
+|  1 orc            open   |  40 hp   35 sk | [A1] (+0)  [W0] (+0)  [M5](+20) |
++--------------------------+----------------+---------------------------------+
+
+270 GP available
++------+-------+------------------+------+
+|  120 |   +10 | Spiney Elfslicer | [W0] |
+|  130 |   +10 | Geek Bow         | [M0] |
+|   15 |  (60) | Small Pie        |      |
+|    7 |  (30) | Carrots          |      |
+|   10 |  (40) | Corn             |      |
+|   12 |  (50) | Spider Food      |      |
+|   60 |       | Safe passage     |      |
++------+-------+------------------+------+
+
+  Approach the nearby altar to make the Holy Bone of Aegrog appear across the 
+river in the spider's lair. I recommend you leave your troops on the other side
+of the river to shoot at the spiders. Go across and lure the big one to your 
+guys. Use the bone in the cave to the north to get the treasure, including 
+sacks of 55 GP and 65 GP, and a chest of 150 GP.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#13 Wind Pass ~ wilderness
+travel: #10 Blind Ridge, #12 The Black Hills, #14 The Bloodwaste (ch.2)
+
+initial enemies: 27   quota: 6
++--------------------------+----------------+---------------------------------+
+|* 1 dragonfly      column |  30 hp   30 sk | [A3] (+7)  [W4] (+7)  [M3](+30) |
+|  1 ogre           column | 120 hp   40 sk | [A3] (+7)  [W4] (+7)  [M1](+37) |
+|  6 dragonflies    open   |  30 hp   30 sk | [A3] (+7)  [W4] (+7)            |
+|  4 bats           line   |  30 hp   30 sk | [A5] (+7)  [W1] (+7)  [M0](+37) |
+| 10 spiders        open   |  30 hp   30 sk | [A3] (+7)  [W4] (+7)  [M5](+17) |
+|  6 dragonflies    column |  30 hp   30 sk | [A3] (+7)  [W4](+15)            |
+|* 1 dragonfly      column |  30 hp   30 sk | [A3] (+7)  [W4] (+7)  [M3](+30) |
++--------------------------+----------------+---------------------------------+
+
+70 GP available
++------+-------+------------------------+------+
+|  110 |   +10 | Dwarven Chain Armour   | [A1] |
+|  100 |   +10 | Dwarven Battle Axe*    | [W1] |
+|  210 |   +40 | Lighthand*             | [M4] |
+|    5 |  (20) | Mountain Apple         |      |
+|   10 |  (40) | Mountain Apple         |      |
+|   10 |  (40) | Mountain Apple         |      |
+|   10 |  (40) | Mountain Apple         |      |
+|    5 |  (20) | Bottle of Smelly Stuff |      |
+|    5 |  (20) | Fresh Fish             |      |
++------+-------+------------------------+------+
+
+  Kill the ogre and cross to find a 70 GP sack, chainmail, and food. 
+  To the N there is a Stout Pole which you will need to push the slab. Across 
+the river, there's some Pretty Flowers on the W. Go between the rocks to the NE
+where the pillar is and you'll reach a shrine. Bring the flowers to the cave 
+and you'll get the axe and wand. If you try to enter the cave without bringing 
+flowers, or approach the shrine from the N instead of the W, you'll get killed.
+  To the N and NE are some spiders guarding some apples.
+
+*******************************************************************************
+***************        Chapter 2: Elven Woods ~ 6 stages        ***************
+
+Best stats at this point:
+100 max health
+51 equilibrium morale
+55 or 65 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#14 The Bloodwaste ~ wilderness
+travel: #24 Silverwood (one-way trip)
+
+initial enemies: 51   quota: 12
++--------------------------+----------------+---------------------------------+
+|  6 ghosts         single |  70 hp   35 sk | [A5] (+9)  [W0] (+9)            |
+| 10 giant eyes     open   |  35 hp   35 sk | [A5] (+9)  [W0] (+9)  [M4](+15) |
+|  6 giant eyes     huddle |  35 hp   45 sk | [A5] (+9)  [W0] (+9)  [M4](+15) |
+|  5 chompers       open   |  35 hp   35 sk | [A5] (+9)  [W0] (+9)  [M5](+15) |
+|  4 ghosts         column |  35 hp   35 sk | [A5] (+9)  [W0] (+9)            |
+| 10 ghosts         wedge  |  35 hp   35 sk | [A5] (+9)  [W0] (+9)            |
+| 10 chompers       open   |  35 hp   35 sk | [A5] (+9)  [W0] (+9)  [M3](+15) |
++--------------------------+----------------+---------------------------------+
+
+315 GP available
++------+-------+---------------------+------+
+|  150 |   +10 | Orcish Heavy Bolter | [M0] |
+|   25 | (100) | Large Pie           |      |
+|   11 |  (45) | Melon               |      |
+|   10 |  (40) | Corn                |      |
+|   15 |  (60) | Small Pie           |      |
++------+-------+---------------------+------+
+
+  You are immediately attacked by a ghosts and giant eyes. There is a 10 GP 
+pile to the SE, a 60 GP sack to the SW, and a 45 GP pouch to the NW. Go between
+the doorway-like stones to teleport. To the W is a 150 GP chest and the 
+crossbow, and to the NE is a 50 GP sack.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#24 Silverwood ~ elves
+travel: #30 Silver Hollow, #27 Gizzard's Gorge, #26 The Screaming Wilds
+
+initial enemies: 69   quota: 17
++--------------------------+----------------+---------------------------------+
+|  1 ogre           open   |  55 hp   55 sk | [A2](+16)  [W4](+14)            |
+|  1 ogre           open   |  55 hp   55 sk | [A2](+34)  [W4](+14)            |
+|  1 ogre           open   |  55 hp   55 sk | [A2](+14)  [W4](+14)            |
+|  1 ogre           open   | 110 hp   55 sk | [A2](+14)  [W4](+14)            |
+|  1 ogre           open   |  55 hp   65 sk | [A2](+14)  [W4](+14)            |
+|  1 ogre           open   |   1 hp    1 sk | [A2] (+1)  [W4] (+1)            |
+|  1 ogre           open   |   1 hp    1 sk | [A2] (+1)  [W4] (+1)            |
+|  1 ogre           open   |   1 hp    1 sk | [A2] (+1)  [W4] (+1)            |
+|  6 chompers       wedge  |  55 hp   55 sk | [A0](+14)  [W4](+14)            |
+| 10 chompers       open   |  55 hp   65 sk | [A0](+14)  [W4](+14)            |
+|  8 chompers       column | 110 hp   55 sk | [A0](+14)  [W4](+14)            |
+|  4 elves          line   | 110 hp   55 sk | [A1](+14)  [W2](+14)  [M1](+14) |
+|  1 elf            open   | 110 hp   65 sk | [A1](+14)  [W2](+14)  [M4](+35) |
+| 10 elves          wedge  |  55 hp   55 sk | [A1](+14)  [W2](+14)  [M1](+14) |
+| 10 elves          column |  55 hp   55 sk | [A1](+14)  [W2](+14)  [M1](+14) |
+|  2 elves          column | 110 hp   55 sk | [A1](+14)  [W2](+14)  [M1](+14) |
+|  1 elf            open   | 110 hp   65 sk | [A1](+14)  [W2](+14)  [M1](+16) |
+|  5 elves          line   |  55 hp   55 sk | [A1](+14)  [W2](+14)  [M1](+14) |
+|  4 elves          huddle |  55 hp   55 sk | [A1](+14)  [W2](+14)  [M1](+14) |
++--------------------------+----------------+---------------------------------+
+
+495 GP available
++------+-------+-------------------+------+
+|  800 |   +15 | Elven Breastplate | [A2] |
+|  900 |   +20 | Viliras Bow       | [M1] |
+|   25 | (100) | Large Pie         |      |
+|    1 |   (5) | Lager             |      |
+|   38 | (150) | Large Fish        |      |
+|    8 |  (30) | Carrots           |      |
+|   11 |  (45) | Melon             |      |
+|    2 |   (7) | Water Carrier     |      |
+|    3 |  (10) | Tomato            |      |
+|   10 |  (40) | Corn              |      |
+|   10 |  (40) | Corn              |      |
+|    5 |  (20) | Apple             |      |
+|    5 |  (20) | Apple             |      |
+|    5 |  (20) | Apple             |      |
+|   15 |  (60) | Small Pie         |      |
+|   15 |  (60) | Small Pie         |      |
+|  110 |       | Safe passage      |      |
++------+-------+-------------------+------+
+
+  Beware the green monsters on this stage. Avoid letting your guys melee 
+through walls, because they usually end up killed. Rally them if they do this.
+  The Square Key, which unlocks the compound, is found to the north. There's a 
+40 GP pouch in the hut. Once down the ladder, there's a 55 GP sack to the far 
+W, a 200 GP chest to the far N, and a 150 GP chest to the far S near the bow. 
+If big pits appear on the left and right sides of this area, there's enough 
+space next to them to squeeze by.
+  There's a 50 GP sack in the bedroom to N of the ladder room, but a pit will 
+trap you inside. You can get out by touching the W mirror behind the beds, then
+the E mirror, then the S wall across from mirror in the ladder room. You might 
+want to do this after eliminating the enemies.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#27 Gizzard's Gorge ~ orcs
+travel: #24 Silverwood, #30 Silver Hollow, #26 The Screaming Wilds
+
+initial enemies: 45   quota: 11
++--------------------------+----------------+---------------------------------+
+|* 1 orc            open   | 120 hp   60 sk | [A4](+35)  [W0](+15)  [M4](+80) |
+|  1 giant beetle   column | 240 hp   60 sk | [A2](+35)  [W4](+30)  [M5](+60) |
+|  1 orc            open   |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  3 orcs           wedge  |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  3 orcs           column |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  5 orcs           line   |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  5 orcs           line   |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  1 giant beetle   wedge  | 240 hp   60 sk | [A2](+35)  [W4](+15)  [M5](+40) |
+|  5 orcs           column |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  5 orcs           column |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  5 orcs           column |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+| 10 orcs           open   |  60 hp   60 sk | [A4](+15)  [W0](+15)  [M0](+15) |
+|  1 orc            open   | 120 hp   60 sk | [A4](+35)  [W0](+15)  [M5](+40) |
++--------------------------+----------------+---------------------------------+
+
+540 GP available
++------+-------+------------------+------+
+|  220 |   +20 | Headbringer      | [W0] |
+|  200 |   +10 | Lightning Ring   | [R3] |
+|   25 | (100) | Healing Potion   |      |
+|   25 | (100) | Healing Potion   |      |
+|   20 |  (80) | Leg of Something |      |
+|   20 |  (80) | Leg of Something |      |
+|   25 | (100) | Large Trail Cake |      |
+|   15 |  (60) | Fish             |      |
+|   25 | (100) | Large Trail Cake |      |
+|   20 |  (80) | Fish             |      |
+|   20 |  (80) | Fruit            |      |
+|  120 |       | Safe passage     |      |
++------+-------+------------------+------+
+
+  Watch out for the humongous bug on your way N to the cave. Once inside, keep 
+left as the message says. This cave is a long, unbranching spiral. You can cut 
+to the end by touching the torch in the NW corner. The only thing you'll miss 
+is some pit traps and another bug. If going the long way, be sure to keep right
+after the torch to avoid a pit.
+  The door at the end of the tunnel leads to a new cave area. There's another 
+door just to the NE which leads to a 120 GP chest. There's a 30 GP pouch to the
+NW, a 20 GP pile to the NE, another at the E end, and a 40 GP pouch to the SE.
+  The door at the S end of this room leads to a shrine with a pit that traps 
+you with a very tough orc. Besides the other items, there's a 310 GP chest 
+here. To leave the shrine, walk toward the altar, then move to one side and 
+head back to the door. The pit should be gone. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#30 Silver Hollow ~ elves
+travel: #24 Silverwood, #27 Gizzard's Gorge
+
+initial enemies: 73   quota: 18
++--------------------------+----------------+---------------------------------+
+| 12 elves          open   |  70 hp   40 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+| 12 elves          open   |  70 hp   40 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+| 10 elves          line   |  70 hp   40 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  8 elves          huddle |  80 hp   50 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+| 16 elves          open   |  60 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  3 elves          line   |  50 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+20) |
+|  3 elves          line   |  70 hp   40 sk | [A1](+20)  [W2](+10)  [M1](+10) |
+|  8 elves          column |  69 hp   40 sk | [A1](+15)  [W2](+10)  [M1](+15) |
+|  1 elf            open   |  80 hp   45 sk | [A1](+25)  [W2](+10)  [M4](+50) |
+|* 1 elf            column | 140 hp   80 sk | [A1](+17)  [W2](+32)  [M4](+65) |
++--------------------------+----------------+---------------------------------+
+
+630 GP available
++------+-------+-----------------+------+
+|  200 |   +20 | Elven Platemail | [A2] |
+|  300 |   +60 | Lightfist       | [M4] |
+|   64 | (255) | Dragon Steak    |      |
+|   62 | (250) | Healing Potion  |      |
+|    1 |   (5) | Milk Bottle     |      |
+|    5 |  (20) | Apple           |      |
+|   12 |  (50) | Healing Potion  |      |
+|   25 | (100) | Healing Potion  |      |
+|   37 | (150) | Healing Potion  |      |
+|    7 |  (30) | Carrots         |      |
+|   25 | (100) | Large Pie       |      |
+|    5 |  (20) | Apple           |      |
+|  140 |       | Safe passage    |      |
++------+-------+-----------------+------+
+
+  There's a 55 GP sack off to the W, and SW across the river is a 45 GP pouch.
+Approaching the treasures to the NE will teleport you into the caves. Inside, 
+there's an 80 GP sack nearby to the NE. The stone arches don't lead anywhere 
+yet. There's a 100 GP chest at the W end of these caves, and another by the 
+exit to the SE.
+  Find your way to three crucified guys. Go right until another victim at the 
+dead end talks to you. Now go back to the crossroads and go left this time. You
+should get a Diamond Key at the dead end. (Sometimes this doesn't work, and you
+get killed anyway by the pit trap on the left.)
+  Return with the key to the archways and walk through the one on the left, 
+which now leads to the treasure. Bring your troops, because an angry elf on 
+smack will appear and attack. Among the other goods is a 250 GP chest.
+  The bottle that appears half buried in the hillock by the cave exit seems to 
+be unreachable.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#26 The Screaming Wilds ~ wilderness
+travel: #15 Marshport, #24 Silverwood, #27 Gizzard's Gorge
+
+initial enemies: 63   quota: 15
++--------------------------+----------------+---------------------------------+
+| 10 dragonflies    wedge  |  60 hp   60 sk | [A3](+15)  [W0](+15)            |
+|  6 dragonflies    single | 120 hp   60 sk | [A3](+15)  [W0](+15)            |
+| 10 dragonflies    open   |  60 hp   70 sk | [A3](+15)  [W0](+15)            |
+|  1 troll          open   | 120 hp   60 sk | [A0](+17)  [W4](+15)            |
+|  1 troll          open   |  60 hp   60 sk | [A0](+17)  [W4](+15)            |
+|  1 troll          open   |  60 hp   70 sk | [A0](+17)  [W4](+15)            |
+|  1 ogre           open   | 120 hp   70 sk | [A2](+15)  [W4](+15)            |
+|  1 ogre           open   | 120 hp   70 sk | [A2](+15)  [W4](+15)            |
+| 10 snakes         column |  60 hp   60 sk | [A3](+15)  [W0](+15)            |
+| 10 snakes         wedge  |  60 hp   60 sk | [A3](+15)  [W0](+15)            |
+|  6 snakes         line   | 120 hp   70 sk | [A3](+15)  [W0](+15)            |
+|  1 troll          open   | 120 hp   70 sk | [A0](+17)  [W4](+15)  [M0](+15) |
+|  5 dragonflies    huddle |  60 hp   60 sk | [A3](+15)  [W0](+15)            |
++--------------------------+----------------+---------------------------------+
+
+540 GP available
++------+-------+--------------------+------+
+|  750 |   +15 | Elrins Hunting Bow | [M6] |
+|   25 | (100) | Large Pie          |      |
+|   64 | (255) | Dragon Steak       |      |
+|    7 |  (30) | Carrots            |      |
+|   11 |  (45) | Melon              |      |
+|   10 |  (40) | Corn               |      |
+|   63 | (250) | Dragon Steak       |      |
++------+-------+--------------------+------+
+
+  Heading NW you will come across the crossbow. Past the trolls is a 120 GP 
+chest. All the way to the NW is a 20 GP pile. Enter the house from the N and, 
+after fighting off the snakes, you'll find food, a Gold Key, and a 100 GP 
+chest. Back outside, there is a 50 GP sack to the far NE. Go back in the 
+direction of where the bow was and look for a place to go E into the swamp. 
+The path leads to two huts. The one to the N a 80 GP sack. Use the Gold Key to 
+open the one to the S. Inside there's food and a 170 GP chest.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#15 Marshport ~ humans
+travel: #26 The Screaming Wilds, #16 Wetwych (ch.3)
+
+initial enemies: 47   quota: 11
++--------------------------+----------------+---------------------------------+
+|  4 humans         column |  35 hp   35 sk | [A1] (+9)  [W3] (+9)  [M2] (+9) |
+|  6 humans         wedge  |  70 hp   35 sk | [A1] (+9)  [W3] (+9)            |
+|  2 humans         line   |  70 hp   45 sk | [A1] (+9)  [W3] (+9)            |
+| 16 humans         open   |  35 hp   35 sk | [A1] (+9)  [W3] (+9)  [M2] (+9) |
+| 10 humans         line   |  35 hp   35 sk | [A1] (+9)  [W3] (+9)            |
+|  4 humans         huddle |  70 hp   35 sk | [A1] (+9)  [W3] (+9)  [M2] (+9) |
+|  5 humans         line   |  35 hp   35 sk | [A1] (+9)  [W3] (+9)            |
++--------------------------+----------------+---------------------------------+
+
+315 GP available (missing: 50 GP sack, 120 GP chest)
++------+-------+---------------+------+
+|   25 | (100) | Large Pie     |      |
+|    7 |  (30) | Carrots       |      |
+|    1 |   (5) | Bottle of Ale |      |
+|   10 |  (40) | Corn          |      |
+|    5 |  (20) | Apple         |      |
+|    1 |   (5) | Bottle of Ale |      |
+|   11 |  (45) | Melon         |      |
+|   70 |       | Safe passage  |      |
++------+-------+---------------+------+
+
+  The Grey Key, which unlocks the compound, is in the far NE corner. In the 
+far NW hut there is a 145 GP chest and a pendant, +0 Faith [J3], the use of 
+which is unknown.
+
+*******************************************************************************
+***************     Chapter 3: The Sunset Spires ~ 8 stages     ***************
+
+Best stats at this point:
+112 max health
+57 equilibrium morale
+62 or 72 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#16 Wetwych ~ wilderness
+travel: #17 The Sorcerer's Isle, #18 Deep Forgings, #20 The Great Cleft
+
+initial enemies: 49   quota: 12
++--------------------------+----------------+---------------------------------+
+| 10 dragonflies    open   |  40 hp   40 sk | [A3](+10)  [W0](+10)            |
+|  8 dragonflies    line   |  80 hp   40 sk | [A3](+10)  [W0](+10)            |
+|  6 snakes         open   |  40 hp   40 sk | [A3](+10)  [W0](+10)            |
+|  4 snakes         huddle |  80 hp   50 sk | [A5](+10)  [W0](+10)            |
+| 10 ghosts         wedge  |  40 hp   40 sk | [A5](+10)  [W0](+10)            |
+|  8 ghosts         column |  40 hp   40 sk | [A4](+20)  [W0](+10)            |
+|  3 giant eyes     wedge  |  80 hp   40 sk | [A5] (+0)  [W5](+10)  [M5] (+0) |
++--------------------------+----------------+---------------------------------+
+
+360 GP available (missing: 20 GP pile, 20 GP pile, 40 GP pouch)
++------+-------+-----------------+------+
+|  155 |   +15 | Elven Runesword | [W2] |
+|   64 | (255) | Dragon Steak    |      |
+|   11 |  (45) | Melon           |      |
+|    5 |  (20) | Apple           |      |
++------+-------+-----------------+------+
+
+  There's a 20 GP pile near the start position and a Gardeners Spade in the 
+center of the map. There is a teleport maze by the hut to the NE that you need 
+the shovel to bypass. Walk between the dancing flowers, then N a bit, then E 
+past the rock, then S, using the shovel to pass the leafy plant. Then go W. 
+You'll be teleported to an apple, the Earth Mages Spellbook, and a 60 GP sack. 
+The book opens the door to the house to the SW. Inside that house is food, the 
+sword, and a 200 GP chest. If a pit is blocking the door, Travel away and come 
+back.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#17 The Sorcerer's Isle ~ elves
+travel: #16 Wetwych, #19 Westhaven
+
+initial enemies: 61   quota: 15
++--------------------------+----------------+---------------------------------+
+| 16 spiders        open   |  40 hp   40 sk | [A0] (+0)  [W4](+20)            |
+| 16 spiders        open   |  40 hp   40 sk | [A3](+10)  [W4](+25)            |
+|  4 elves          line   |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  1 elf            column |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  1 elf            column |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  2 elves          line   |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  2 elves          column |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  2 elves          column |  40 hp   40 sk | [A1](+10)  [W2] (+1)  [M1](+10) |
+|  6 snakes         open   |  40 hp   40 sk | [A3](+10)  [W4](+25)            |
+|  1 elf            column |  80 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  1 elf            column |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  4 elves          line   |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  1 elf            wedge  |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  3 elves          line   |  40 hp   40 sk | [A1](+10)  [W2](+10)  [M1](+10) |
+|  1 elf            wedge  | 120 hp   40 sk | [A1](+10)  [W2](+10)  [M3](+60) |
+|* 1 ghost          open   |  40 hp   40 sk | [A5](+10)  [W4](+10)  [M5](+20) |
++--------------------------+----------------+---------------------------------+
+
+320 GP available
++------+-------+-------------------+------+
+|  150 |   +15 | Elven Runesword*  | [W2] |
+|  300 |    +5 | Greenfletch*      | [M6] |
+|  200 |   +10 | Minor Shield Ring | [R0] |
+|  400 |   +20 | The Ruby Star*    | [J0] |
+|  100 |    +5 | Emerald Necklace  | [J4] |
+|   25 | (100) | Healing Potion*   |      |
+|    5 |  (20) | An Apple          |      |
+|    5 |  (20) | An Apple          |      |
+|    5 |  (20) | An Apple          |      |
+|   10 |  (40) | Carrots           |      |
+|    5 |  (20) | Corn              |      |
+|    5 |  (20) | Corn              |      |
+|    5 |  (20) | An Apple          |      |
+|    5 |  (20) | Wine              |      |
+|   10 |  (40) | Small Pie         |      |
+|    5 |  (20) | Wine              |      |
+|    5 |  (20) | Corn              |      |
+|   15 |  (60) | Large Pie         |      |
+|    5 |  (20) | Corn              |      |
+|   80 |       | Safe passage      |      |
++------+-------+-------------------+------+
+
+  The archway to the NE near the start leads to a 10 GP coin pile and an Iron 
+Key. It unlocks the bedroom that is reached by going through the double arch in
+the center of the island. In the bedroom is a 10 GP pile and a Storeroom Key. 
+The storeroom is two levels down and has a 120 GP chest.
+  The archway in the SE has a Guardroom Key, which unlocks the room on the 
+right. Hidden in the SW corner is the Priests Key, which opens the other door. 
+In there is the Priests Prayer Book, and downstairs there is a 40 GP pouch and 
+an 80 GP sack. 
+  The far NW archway leads to a 50 GP sack. The archway S of the shrine leads 
+to a room with a 10 GP pile and a false bookcase. The bookcase door just leads 
+to the shrine outside. Approach the blue orb with the book to make the treasure
+appear, including the Ruby Star. The lightning traps should be deactivated. 
+Walking all the way to the N wall of the shrine will result in death.
+  One of the tombstones on the W on the island hides a random ghost.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#18 Deep Forgings ~ dwarves
+travel: #16 Wetwych, #21 The Whispering Deep
+
+initial enemies: 74   quota: 18
++--------------------------+----------------+---------------------------------+
+|  4 snakes         open   |  40 hp   40 sk | [A3] (+0)  [W4](+10)            |
+|  1 snake          open   | 100 hp   50 sk | [A3](+15)  [W4](+10)  [M5](+50) |
+|  4 dwarves        line   |  40 hp   40 sk | [A1](+10)  [W1](+10)  [M0](+10) |
+|  4 dwarves        line   |  40 hp   40 sk | [A1](+10)  [W1](+10)  [M0](+10) |
+|  4 dwarves        line   |  40 hp   40 sk | [A1](+20)  [W1] (+0)  [M0](+10) |
+|  1 dwarf          single |  60 hp   60 sk | [A1](+40)  [W1](+20)  [M0] (+0) |
+|  1 dragonfly      open   | 160 hp   80 sk | [A1](+10)  [W4](+10)  [M3](+60) |
+|  1 dwarf          open   |  40 hp   60 sk | [A1](+10)  [W1](+10)  [M0](+10) |
+|  2 dwarves        line   | 160 hp   40 sk | [A1] (+0)  [W1](+10)  [M0](+40) |
+|  1 dwarf          open   |  40 hp   40 sk | [A1](+10)  [W1](+10)  [M0](+10) |
+|  1 dwarf          open   |  80 hp   40 sk | [A1](+10)  [W1](+40)  [M0](+10) |
+|  1 ghost          open   |  10 hp   20 sk | [A5](+10)  [W5](+10)            |
+|  6 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  6 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  3 ghosts         open   |  20 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  6 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  3 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  6 ghosts         open   |  10 hp   20 sk | [A1](+10)  [W5](+10)  [M4](+20) |
+|  3 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  6 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  3 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+20) |
+|  2 ghosts         open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+10) |
+|  1 ghost          open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+10) |
+|  2 ghosts         open   |  20 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+10) |
+|  1 ghost          open   |  10 hp   20 sk | [A5](+10)  [W5](+10)  [M4](+10) |
+|  1 ghost          open   | 160 hp   20 sk | [A5](+30)  [W5](+10)  [M3](+60) |
++--------------------------+----------------+---------------------------------+
+
+600 GP available
++------+-------+----------------------+------+
+|  155 |   +15 | Dwarven Full Chain   | [A1] |
+|  150 |   +15 | Dwarven Runeaxe      | [W1] |
+|  400 |   +80 | Lighthammer          | [M4] |
+|    5 |  (20) | Corn                 |      |
+|    5 |  (20) | Corn                 |      |
+|    5 |  (20) | Carrots              |      |
+|   10 |  (40) | Dwarven Trail Pie    |      |
+|    1 |   (5) | Ale                  |      |
+|   10 |  (40) | Dwarven Trail Pie    |      |
+|    5 |  (20) | Water Flask          |      |
+|   10 |  (40) | Dwarven Trail Pie    |      |
+|   10 |  (40) | Melon                |      |
+|   15 |  (60) | Trail Cake           |      |
+|    4 |  (15) | Apple                |      |
+|   50 | (200) | Super Healing Potion |      |
+|   80 |       | Safe passage         |      |
++------+-------+----------------------+------+
+
+  There are three keeps in this area, to the E, SW and NW, and a huge main 
+gate to the N. The Portcullis Key to the E keep is in the bushes to the NE.
+  Inside in the unlocked central room there is a Bronze Key, which unlocks 
+the wooden door the the E. To the N is an 80 GP sack and a Small Key. The door 
+to the W unlocks from behind, without a key. There are three 10 GP piles but 
+beware the pits that appear if you walk along the door's wall. There are stairs
+to the SW and SE. The SE stairs lead to food. The SW stairs leads to a trap 
+room. Flip the far left and far right switches to open the door. Other 
+combinations result in pits. Walking along the wall of the switches results in 
+gas traps, so approach them from below. There's a 50 GP sack partially hidden 
+in the SE of the next room. The wooden door is opened with the Small Key from 
+upstairs. In the far S room is another Portcullis Key, armor, and a 50 GP sack,
+as well as a button on the wall, Gate Control No 1.
+  Take the key to the SW keep. Flip the switch on the wall and go through the 
+door that opens. There is a 30 GP pouch here, and a Strongroom Key hidden under
+the table. Downstairs, unlock the strongroom and find a third Portcullis 
+Key, an axe, a 40 GP pouch, and Gate Control No 2. There is a Bedroom Key 
+hidden to the SW. It opens the wooden door that was locked upstairs, revealing 
+a 70 GP sack.
+  Now you can go to the NW keep. Inside there's a 50 GP sack and a Gold Key 
+which opens the locked room with food downstairs. Down another level there 
+is a second switch room. You have to get all the switches to go down. There is 
+a 200 GP chest and Gate Control No 3.
+  With the three gate controls pressed, you can now flip the Master Gate 
+Control by the main gate. After a long, dark passage and a whole lot of ghosts,
+you can finally teleport to the Lighthammer wand. However, there's a shortcut 
+to the wand: walk E through the rocks at the main gate.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#19 Westhaven ~ humans
+travel: #17 The Sorcerer's Isle, #21 The Whispering Deep, 
+        #23 Brown Mage's Demesne, #22 Blackgorge Bowels
+
+initial enemies: 61   quota: 15
++--------------------------+----------------+---------------------------------+
+| 10 humans         wedge  |  40 hp   40 sk | [A0](+10)  [W2](+10)  [M0](+10) |
+| 10 humans         line   |  40 hp   40 sk | [A0](+10)  [W2](+10)            |
+|  6 humans         huddle |  40 hp   40 sk | [A0](+10)  [W2](+10)  [M0](+10) |
+|  8 humans         column |  80 hp   40 sk | [A0](+10)  [W2](+10)  [M0](+10) |
+|  4 humans         open   |  40 hp   50 sk | [A0](+10)  [W2](+10)  [M0](+10) |
+|  8 humans         wedge  |  40 hp   40 sk | [A0](+10)  [W2](+10)            |
+| 10 humans         single |  40 hp   40 sk | [A0](+10)  [W2](+10)  [M0](+10) |
+|  1 human          open   |  80 hp   40 sk | [A0](+10)  [W2](+10)  [M3](+20) |
+|  4 humans         column |  40 hp   40 sk | [A0](+10)  [W2](+10)  [M0](+10) |
++--------------------------+----------------+---------------------------------+
+
+360 GP available
++------+-------+---------------+------+
+|  100 |   +10 | Leatherjerkin | [A0] |
+|  100 |   +10 | Leatherjerkin | [A0] |
+|  700 |   +10 | Repentance    | [W7] |
+|   90 |    +9 | Longsword     | [W2] |
+|  120 |   +10 | Longbow       | [M1] |
+|  200 |   +10 | Holy Necklace | [J2] |
+|   10 |  (40) | Corn          |      |
+|   38 | (150) | Smelly Fish   |      |
+|    7 |  (30) | Carrots       |      |
+|    1 |   (5) | Holy Water    |      |
+|    1 |   (5) | Holy Water    |      |
+|    5 |  (20) | Apple         |      |
+|    2 |  (10) | Tomato        |      |
+|    2 |   (7) | Water Carrier |      |
+|   11 |  (45) | Melon         |      |
+|    7 |  (30) | Carrots       |      |
+|   80 |       | Safe passage  |      |
++------+-------+---------------+------+
+
+  There is quicksand in the SE corner of the map, not that there's any reason 
+to go there. To get to the uninhabited island where Repentance is, walk between
+the two trees to the NW. 
+  There's a 50 GP sack in the NE corner of the village. In the NE hut there's a
+55 GP sack and an Arrow Key. The unfinished building has a 35 GP pouch, a 200 
+GP chest, and a 20 GP pile. The key unlocks the door here. The passage connects
+to a hut on the SW island, which has only enemies on it.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#20 The Great Cleft ~ orcs
+travel: #16 Wetwych, #23 Brown Mage's Demesne
+
+initial enemies: 57   quota: 14
++--------------------------+----------------+---------------------------------+
+|  1 ogre           open   | 180 hp   45 sk | [A3](+12)  [W4](+12)  [M0](+42) |
+|  3 orcs           line   |  45 hp   45 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  5 orcs           line   |  45 hp   45 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  5 orcs           line   |  45 hp   45 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  5 orcs           line   |  45 hp   45 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 ogre           open   | 180 hp   45 sk | [A3](+12)  [W4](+12)  [M0](+42) |
+|  6 orcs           line   |  45 hp   45 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  3 orcs           line   |  90 hp   45 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 ogre           open   | 180 hp   45 sk | [A3](+32)  [W0](+12)  [M0](+12) |
+|  5 orcs           line   |  45 hp   35 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  5 orcs           line   |  45 hp   35 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 orc            open   | 180 hp   75 sk | [A4](+30)  [W0](+30)  [M0](+30) |
+|  1 orc            open   | 180 hp   65 sk | [A4](+30)  [W0](+30)  [M0](+30) |
+|  1 orc            column |  45 hp   25 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 orc            column |  45 hp   25 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 orc            column |  45 hp   25 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 ogre           column |  90 hp   45 sk | [A3](+12)  [W0](+12)  [M0](+42) |
+|  5 orcs           line   |  45 hp   25 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  5 orcs           line   |  45 hp   25 sk | [A4](+12)  [W0](+12)  [M0](+12) |
+|  1 orc            column |  90 hp   45 sk | [A2](+40)  [W0](+20)  [M5](+80) |
++--------------------------+----------------+---------------------------------+
+
+470 GP available
++------+-------+--------------------+------+
+|  150 |   +15 | Skull Splitter     | [W0] |
+|  150 |   +15 | Grums Bow          | [M0] |
+|  300 |   +60 | Orcish Battle Wand | [M5] |
+|    5 |  (20) | Carrots            |      |
+|    5 |  (20) | Corn               |      |
+|   10 |  (40) | Fish               |      |
+|    5 |  (20) | Melon              |      |
+|   20 |  (80) | Leg of Something   |      |
+|   10 |  (40) | Fish               |      |
+|   40 | (160) | Healing Potion     |      |
+|    5 |  (20) | Corn               |      |
+|   50 | (200) | Healing Potion     |      |
+|   25 | (100) | Healing Potion     |      |
+|    5 |  (20) | Apple              |      |
+|   90 |       | Safe passage       |      |
++------+-------+--------------------+------+
+
+  Across the bridge there is a small cave to the W that just has carrots. A 
+bit to the N there is another with just corn. N of that there is one with fish 
+and a 30 GP pouch. The northernmost cave takes you across the river. From here 
+follow the river north and you get teleported to the SE part of the map. At the
+end of the trail is a cave.
+  The E path in the cave leads to treasure including a 30 GP pouch and a 80 GP 
+sack, but stay in the center of the tunnel to avoid pits. The W path at the 
+intersection goes outside to a new area. To the N is a cave behind some bushes 
+with treasure, including a 110 GP chest.
+  Outside, farther N is cave leading to the Gnak Brothers Pit. The messages say
+they are invincible, but they happily fell before my weapons. There's a 100
+GP chest S of the torture chamber. The wand and a 120 GP chest is in the SW 
+room. At the NW there's an exit that just leads to an apple and more orcs.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#21 The Whispering Deep ~ dwarves
+travel: #18 Deep Forgings, #19 Westhaven
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+| 13 dwarves        line   |  50 hp   40 sk | [A1](+13)  [W1](+13)  [M0](+42) |
+| 13 dwarves        line   |  50 hp   40 sk | [A1](+13)  [W1](+13)  [M0](+42) |
+| 13 dwarves        line   |  50 hp   40 sk | [A1](+13)  [W1](+13)  [M0](+42) |
+| 10 dwarves        column |  50 hp   50 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  6 dwarves        line   |  50 hp   50 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  2 dwarves        line   | 100 hp   50 sk | [A1](+32)  [W1](+13)  [M0](+13) |
+|  3 dwarves        open   |  50 hp   30 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  1 dwarf          wedge  |  50 hp   50 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  1 dwarf          wedge  |  50 hp   50 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  2 dwarves        line   |  50 hp   50 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  2 dwarves        open   |  50 hp   30 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  6 chompers       open   | 200 hp   30 sk | [A3](+32)  [W4](+42)            |
+|  1 dwarf          open   |  50 hp   30 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  1 dwarf          column |  50 hp   30 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  1 dwarf          column |  50 hp   30 sk | [A1](+13)  [W1](+12)  [M0](+13) |
+|  1 dwarf          column |  50 hp   30 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  1 dwarf          column |  50 hp   50 sk | [A1](+13)  [W1](+13)  [M0](+13) |
+|  3 dwarves        open   |  50 hp   30 sk | [A1](+13)  [W1](+13)  [M0](+13) |
++--------------------------+----------------+---------------------------------+
+
+410 GP available
++------+-------+------------------------+------+
+|  210 |    +0 | Lokrist                | [W2] |
+|  160 |   +15 | Dwarven Heavy Crossbow | [M0] |
+|  100 |    +5 | Ruby Necklace          | [J0] |
+|   10 |  (40) | Trail Cake             |      |
+|   25 | (100) | Healing Potion         |      |
+|    5 |  (20) | Beer                   |      |
+|    5 |  (20) | Beer                   |      |
+|    5 |  (20) | Beer                   |      |
+|   20 |  (80) | Dwarven Trail Cake     |      |
+|   20 |  (80) | Large Melon            |      |
+|   25 | (100) | Healing Potion         |      |
+|   25 | (100) | Healing Potion         |      |
+|  100 |       | Safe passage           |      |
++------+-------+------------------------+------+
+
+  The Gate Key is to the NE. Once through the gate you can clean out the huts. 
+The House Key is in the SE corner. The locked house is a little to the N and 
+has a 180 GP chest, a 150 GP chest, and a 80 GP sack.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#22 Blackgorge Bowels ~ orcs
+travel: #19 Westhaven, #25 Hell's Gate (ch.4)
+
+initial enemies: 63   quota: 15
++--------------------------+----------------+---------------------------------+
+|  1 orc            open   | 100 hp   60 sk | [A4](+13)  [W0](+13)  [M5](+30) |
+|  1 ogre           open   | 100 hp   60 sk | [A3](+13)  [W1](+43)            |
+|  6 orcs           line   |  50 hp   50 sk | [A4](+13)  [W0](+13)  [M0](+13) |
+| 10 orcs           column | 253 hp   50 sk | [A4](+13)  [W0](+13)            |
+|  8 orcs           open   | 100 hp   50 sk | [A4](+13)  [W0](+13)  [M0](+13) |
+|  9 orcs           line   | 100 hp   50 sk | [A4](+13)  [W0](+13)            |
+|  4 orcs           huddle |  50 hp   50 sk | [A4](+13)  [W0](+13)  [M0](+13) |
+| 10 orcs           line   |  50 hp   50 sk | [A4](+13)  [W0](+13)            |
+|  7 orcs           wedge  |  50 hp   50 sk | [A4](+13)  [W0](+13)  [M0](+13) |
+|  7 orcs           single |  50 hp   50 sk | [A4](+13)  [W0](+13)            |
++--------------------------+----------------+---------------------------------+
+
+450 GP available
++------+-------+----------------+------+
+|  120 |   +12 | Leatherjerkin  | [A0] |
+|  100 |   +10 | Leather Armour | [A0] |
+|  150 |   +15 | Throatmangler  | [W0] |
+|  100 |   +10 | Scimitar       | [W0] |
+|   80 |    +8 | Club           | [W4] |
+|  100 |   +10 | Battle-Axe     | [W1] |
+|  100 |   +10 | Crossbow       | [M0] |
+|   25 | (100) | Large Pie      |      |
+|   11 |  (45) | Melon          |      |
+|   38 | (150) | Smelly Fish    |      |
+|    7 |  (30) | Carrots        |      |
+|    2 |  (10) | Tomato         |      |
+|   10 |  (40) | Corn           |      |
+|   25 | (100) | Large Pie      |      |
+|   11 |  (45) | Melon          |      |
+|  100 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  The Diamond Key is sitting to the E of the wall. It unlocks the door on the 
+W side of the river, which leads to the Arrow Key in the SW corner. That 
+unlocks the jail cell in the NE fort to reveal the Grey Key, which in turn 
+unlocks the gate leading to the cave.
+  Downstairs, to the SW is the Square Key, which opens the door to the NE. 
+Through the door is a 15 GP pile, and to the SE is the Spike Key, which opens 
+the door to the SW. Through there is a 150 GP chest, and to the NW is a 50 GP 
+sack and a Gold Key. 
+  Upstairs, the N exit goes outdoors to the feasting hall and a 200 GP chest. 
+You can walk S around the dividing wall to reach the W section. The Gold Key 
+unlocks the door for a 35 GP pouch. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#23 Brown Mage's Demesne ~ humans
+travel: #20 The Great Cleft, #19 Westhaven, #25 Hell's Gate (ch.4)
+
+initial enemies: 76   quota: 19
++--------------------------+----------------+---------------------------------+
+|  1 human          open   | 220 hp   65 sk | [A0](+14)  [W2](+14)  [M3](+35) |
+|  1 troll          open   | 110 hp   65 sk | [A0](+14)  [W4](+16)            |
+| 10 humans         wedge  |  55 hp   55 sk | [A0](+14)  [W2](+14)            |
+|  9 humans         line   |  55 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
+| 10 humans         open   |  55 hp   55 sk | [A0](+14)  [W2](+14)            |
+| 10 humans         huddle | 110 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
+|  8 humans         line   |  55 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
+|  6 humans         wedge  |  55 hp   55 sk | [A0](+14)  [W2](+14)            |
+| 10 humans         column |  55 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
+|  4 humans         single |  55 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
+|  2 humans         open   |  55 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
+|  1 human          open   | 110 hp   55 sk | [A0](+14)  [W2](+44)            |
+|  4 humans         wedge  |  55 hp   55 sk | [A0](+14)  [W2](+14)  [M0](+14) |
++--------------------------+----------------+---------------------------------+
+
+495 GP available (missing: 150 GP chest, 25 GP pouch)
++------+-------+--------------------+------+
+|  650 |    +5 | Brown Mages Armour | [A9] |
+|  125 |   +12 | Leather Armour     | [A0] |
+|  180 |   +18 | Chainmail          | [A1] |
+|   25 |    +3 | Brown Armour       | [A1] |
+|   50 |    +5 | Blunt Scimitar     | [W0] |
+|  120 |   +12 | Longsword          | [W2] |
+|   20 |    +2 | Club               | [W4] |
+|  130 |   +13 | Longbow            | [M1] |
+|   15 |  (60) | Small Pie          |      |
+|    2 |  (10) | Tomato             |      |
+|   10 |  (40) | Corn               |      |
+|    7 |  (30) | Carrots            |      |
+|    1 |   (5) | Bottle             |      |
+|   25 | (100) | Large Pie          |      |
+|    5 |  (20) | Apple              |      |
+|    5 |  (20) | Apple              |      |
+|   37 | (150) | Fish               |      |
+|    1 |   (5) | Bottle             |      |
+|    2 |   (7) | Water Carrier      |      |
+|   11 |  (45) | Melon              |      |
+|    7 |  (30) | Melon              |      |
+|    2 |   (7) | Water Carrier      |      |
+|   15 |  (60) | Small Pie          |      |
+|    5 |  (20) | Apple              |      |
+|  110 |       | Safe passage       |      |
++------+-------+--------------------+------+
+
+  Climb down the pit, approaching the ladder directly or you'll die. In the 
+barracks, work your way E and find a 95 GP sack in a SE room. This passage 
+leads to the Guardroom Key which was visible from the entrance. It opens the 
+door in the central part of the barracks. The Iron Key is in the NW corner.
+  Outside, head E you'll find a 15 GP pile in the hut N of the large thatched 
+building. In the hut to the E of that there is a 20 GP pile and a Spike Key. 
+Unlock the fence outside to the NE with the Iron Key, and teleport. There is a 
+30 GP pouch here. The Spike Key unlocks the compound. In the hut is a 60 GP 
+sack. Through the arch is a new area with a 100 GP chest. Through the arch to 
+the N you'll find the armor on the tiny island.
+
+*******************************************************************************
+***************      Chapter 4: The Great Plain ~ 6 stages      ***************
+
+Best stats at this point:
+128 max health
+65 equilibrium morale
+78 or 88 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#25 Hell's Gate ~ orcs
+travel: #32 Hell's Kitchen, #29 Northholme
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+|  1 dragon         column | 220 hp   65 sk | [A7](+14)  [W4](+29)  [M3](+75) |
+|  8 orcs           line   |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  8 orcs           line   |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  8 orcs           line   |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  8 orcs           line   |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  9 orcs           wedge  |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  1 orc            open   |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  4 orcs           open   |  55 hp   55 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  4 orcs           open   |  55 hp   55 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  2 orcs           line   | 110 hp   55 sk | [A4](+34)  [W0](+14)  [M0](+14) |
+|  1 orc            column |  55 hp   55 sk | [A4](+14)  [W0](+14)  [M0](+44) |
+|  7 orcs           column |  55 hp   45 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  6 orcs           wedge  |  55 hp   55 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  6 orcs           line   |  55 hp   55 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  6 orcs           line   |  55 hp   55 sk | [A4](+14)  [W0](+14)  [M0](+14) |
+|  1 orc            wedge  |  55 hp   55 sk | [A4](+34)  [W0](+14)  [M5](+75) |
++--------------------------+----------------+---------------------------------+
+
+495 GP available
++------+-------+--------------------+------+
+|  300 |   +60 | Firefist           | [M3] |
+|  200 |   +10 | Lesser Battle Ring | [R0] |
+|   50 | (200) | Healing Potion     |      |
+|   20 |  (80) | Ripe Corn          |      |
+|   20 |  (80) | Leg of Something   |      |
+|   20 |  (80) | Large Fish         |      |
+|   25 | (100) | Large Fresh Leg    |      |
+|   20 |  (80) | Magic Apple        |      |
+|  110 |       | Safe passage       |      |
++------+-------+--------------------+------+
+
+  There's a dragon just N of your position. Pick your weapons carefully and try
+to take it out with missiles. Its hoard includes a 50 GP sack and a Gate Key. 
+The gate is to the NW. In the new area, there are two keeps, each with two 
+locked doors. The Gate Key for each is right in front of them. The Iron Key for
+each is in the courtyard of the other keep. You will need to explore the E keep
+first.
+  In there is a Brass Key and a 50 GP sack. Bring the key to the W keep and use
+it to get into the storeroom, which contains a Gold Key. Back in the E keep, 
+this key unlocks a door that leads to a 100 GP chest. Watch out for the pit 
+trap at the bottom of the stairs. Take a step left to trigger it then wait for 
+it to disappear. In this room there are some punk teleport traps, but 
+eventually you'll make it to the potion, ring, and a 295 GP chest.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#29 Northholme ~ dwarves
+travel: #25 Hell's Gate, #37 Mount Fang
+
+initial enemies: 74   quota: 18
++--------------------------+----------------+---------------------------------+
+| 10 dwarves        line   |  65 hp   65 sk | [A1](+16)  [W1](+16)            |
+| 10 dwarves        line   |  65 hp   65 sk | [A1](+16)  [W1](+16)  [M0](+16) |
+| 16 dwarves        wedge  | 130 hp   65 sk | [A1](+16)  [W1](+16)  [M0](+16) |
+| 10 dwarves        column |  65 hp   75 sk | [A1](+16)  [W1](+16)            |
+|  8 dwarves        single | 130 hp   65 sk | [A1](+16)  [W1](+16)  [M0](+16) |
+| 16 dwarves        line   |  65 hp   65 sk | [A1](+16)  [W1](+16)  [M0](+16) |
+|  3 dwarves        single | 130 hp   75 sk | [A1](+16)  [W1](+16)  [M0](+16) |
+|  1 dwarf          column |  65 hp   65 sk | [A1](+16)  [W1](+16)            |
++--------------------------+----------------+---------------------------------+
+
+585 GP available
++------+-------+--------------+------+
+|   64 | (255) | Dragon Steak |      |
+|   64 | (255) | Dragon Steak |      |
+|   25 | (100) | Large Pie    |      |
+|    3 |  (10) | Tomato       |      |
+|    7 |  (30) | Carrots      |      |
+|    1 |   (5) | Dwarvish Ale |      |
+|   15 |  (60) | Small Pie    |      |
+|   10 |  (40) | Corn         |      |
+|    5 |  (20) | Apple        |      |
+|    3 |  (10) | Tomato       |      |
+|   15 |  (60) | Small Pie    |      |
+|  130 |       | Safe passage |      |
++------+-------+--------------+------+
+
+  In the hall to the NW there is a 150 GP chest. There is another in the 
+unlocked hut to the NE. Approach the table in the hut and you'll be told 
+where to find a key. There is an 85 GP sack in the false cave to the E, along 
+with the Gold Key. It unlocks the other hut to the NE, which contains a 200 GP 
+chest.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#32 Hell's Kitchen ~ orcs
+travel: #25 Hell's Gate, #41 The Burning Waste
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+|  1 scorpion       column | 150 hp   75 sk | [A6](+38)  [W1](+18)  [M3](+65) |
+| 10 orcs           open   |  75 hp   75 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+|  1 orc            open   |  75 hp   75 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+|  9 orcs           column |  75 hp   75 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+|  6 orcs           line   |  75 hp   75 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+|  6 orcs           line   |  75 hp   75 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+|  6 orcs           line   |  75 hp   75 sk | [A3](+18)  [W0](+18)  [M0](+18) |
+|  6 orcs           line   |  75 hp   75 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+|  1 scorpion       open   |  75 hp   75 sk | [A2](+18)  [W1](+18)  [M3](+18) |
+|  2 scorpions      line   |  75 hp   75 sk | [A1](+18)  [W1](+18)  [M5](+55) |
+|  4 scorpions      line   |  75 hp   75 sk | [A2](+18)  [W1](+18)  [M5](+55) |
+|  8 scorpions      wedge  |  75 hp   75 sk | [A1](+18)  [W1](+18)  [M3](+55) |
+|  6 scorpions      line   |  75 hp   75 sk | [A2](+18)  [W1](+18)  [M3](+55) |
+|  6 scorpions      line   |  75 hp   75 sk | [A2](+18)  [W1](+18)  [M3](+55) |
+|  1 scorpion       wedge  | 150 hp   75 sk | [A2](+48)  [W1](+18)  [M3](+75) |
+|  1 scorpion       wedge  | 150 hp   75 sk | [A2](+48)  [W1](+18)  [M3](+75) |
+|  1 orc            wedge  | 150 hp   85 sk | [A1](+28)  [W0](+18)  [M0](+38) |
+|  1 orc            wedge  | 150 hp   85 sk | [A1](+28)  [W0](+38)  [M0](+18) |
+|  4 scorpions      wedge  | 150 hp   85 sk | [A2](+18)  [W1](+18)  [M3](+55) |
++--------------------------+----------------+---------------------------------+
+
+675 GP available
++------+-------+----------------------+------+
+|  400 |   +20 | Firearmour           | [A8] |
+|  420 |    +0 | Absolution           | [W7] |
+|   25 | (100) | Leg of Something     |      |
+|   25 | (100) | Leg of Something     |      |
+|   50 | (200) | Healing Potion       |      |
+|   50 | (200) | Healing Potion       |      |
+|   25 | (100) | Leg of Something     |      |
+|   50 | (200) | Strange Drink        |      |
+|   75 | (255) | Super Healing Potion |      |
+|  150 |       | Safe passage         |      |
++------+-------+----------------------+------+
+
+  The lava bridge is covered by numerous fireball traps which you can't dodge 
+because there's no room. Walking off the bridge into the fire results in death.
+On the island at the end of the bridge, guarded by a mean scorpion, is the 
+Portcullis Key.
+  If you walk off the N of the island you will be teleported over to the W to 
+the group of scorpions guarding the sword. If you try taking your troops, some 
+will throw themselves into the lava trying to get over to you. If you want 
+Absolution without losing troops, either buy it or take out the scorpions by 
+yourself little by little, doing teleport hit & runs with your missile.
+  In any case you can now enter the gate with the key. In the dormitory are 
+three 50 GP sacks and a 100 GP chest. The path to the E leads to food.
+  The cave at the N end of the dormitory leads to a track with lava on either 
+side, only this time the scorpions are attacking from the lava. You should 
+immediately tell your troops to halt and try to lure the scorpions onto the 
+tracks so your guys can nail them with missiles. There is a 225 GP chest and a 
+200 GP chest in the room at the end of the tracks, along with the super healing
+potion and armor.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#37 Mount Fang ~ wilderness
+travel: #29 Northholme, #35 Magewood
+
+initial enemies: 71   quota: 17
++--------------------------+----------------+---------------------------------+
+| 10 dragonflies    open   |  75 hp   75 sk | [A3](+19)  [W0](+19)  [M3](+55) |
+| 16 dragonflies    line   |  75 hp   75 sk | [A3](+19)  [W0](+19)  [M3](+55) |
+| 10 dragonflies    wedge  |  75 hp   75 sk | [A3](+19)  [W0](+19)  [M3](+55) |
+| 10 dragonflies    huddle |  75 hp   75 sk | [A3](+19)  [W0](+19)  [M3](+55) |
+| 10 snakes         open   |  75 hp   75 sk | [A3](+19)  [W0](+19)            |
+|  5 snakes         open   |  75 hp   75 sk | [A3](+19)  [W0](+19)            |
+| 10 snakes         column |  75 hp   75 sk | [A3](+19)  [W0](+19)            |
+|* 1 dragon         open   | 255 hp   95 sk | [A7](+50)  [W4](+20)  [M3](+75) |
++--------------------------+----------------+---------------------------------+
+
+675 GP available
++------+-------+--------------------+------+
+|  700 |   +20 | Feadil's Bladewall | [A7] |
+|  125 |   +10 | Norbane            | [W6] |
+| 1000 |    +1 | Diamond Star       | [J1] |
+|   64 | (255) | Dragon Steak       |      |
+|   64 | (255) | Dragon Steak       |      |
+|   64 | (255) | Dragon Steak       |      |
+|   64 | (255) | Dragon Steak       |      |
+|    1 |   (5) | Dragon Ale         |      |
+|   25 | (100) | Dragonfly Pie      |      |
++------+-------+--------------------+------+
+
+  The ladder to the E of the start doesn't seem to lead anywhere. In the NW 
+corner is the Diamond Star, which is practically worthless because of its low 
+plus value. More useful is the non-steaming heap of Dragon Dung. In the cave 
+to the NE there is A Handy Lever on the far side of the river. From the close 
+side, follow the river W and use the lever to open the door from behind. Flip 
+the switch that you find down the ladder.
+  The switch makes a door appear in the wall just N of the starting position. 
+The door leads to four dragon steaks, Norbane, and the armor. The dung will 
+open the door by the switch, and that door will teleport you to the bridge near
+the dragon. Past the dragon (easy with Norbane), there's a new cave entrance, 
+which leads to a total of 675 GP.
+  There are no more dragons in the game, so Norbane isn't so useful now, but 
+don't miss out on the best armor in the game, Feadil's Bladewall.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#41 The Burning Waste ~ wilderness
+travel: #32 Hell's Kitchen, #35 Magewood
+
+initial enemies: 78   quota: 19
++--------------------------+----------------+---------------------------------+
+|  1 armored giant  open   | 255 hp   90 sk | [A5](+20)  [W4](+20)  [M4](+60) |
+|  1 troll          open   | 160 hp   80 sk | [A3](+20)  [W4](+20)  [M0](+20) |
+|  1 ogre           open   | 255 hp   80 sk | [A3](+20)  [W4](+20)  [M0](+20) |
+|  1 ogre           open   | 160 hp   80 sk | [A3](+20)  [W4](+20)  [M3](+60) |
+|  1 troll          open   |  80 hp   80 sk | [A3](+20)  [W4](+20)  [M0](+20) |
+|  8 scorpions      wedge  |  80 hp   80 sk | [A2](+40)  [W0](+20)            |
+|  8 scorpions      column | 160 hp   80 sk | [A2](+20)  [W0](+20)  [M5](+40) |
+|  8 scorpions      wedge  |  80 hp   90 sk | [A2](+20)  [W0](+20)            |
+| 10 scorpions      line   |  80 hp   80 sk | [A2](+20)  [W0](+20)  [M5](+40) |
+|  9 scorpions      open   |  80 hp   80 sk | [A2](+20)  [W0](+20)            |
+|  6 scorpions      line   | 160 hp   80 sk | [A2](+20)  [W0](+20)  [M5](+40) |
+|  6 scorpions      single | 160 hp   90 sk | [A2](+20)  [W0](+20)  [M5](+60) |
+|  8 scorpions      huddle |  80 hp   80 sk | [A2](+20)  [W0](+20)  [M5](+60) |
+|  8 scorpions      line   |  80 hp   80 sk | [A2](+20)  [W0](+20)            |
+|  1 armored giant  open   | 160 hp   80 sk | [A5](+20)  [W4](+20)  [M3](+80) |
+|  1 ogre           open   | 160 hp   80 sk | [A3](+40)  [W4](+20)  [M0](+20) |
++--------------------------+----------------+---------------------------------+
+
+720 GP available
++------+-------+----------------+------+
+|  500 |   +25 | Bowbane        | [A1] |
+|   64 | (255) | Dragon Steak   |      |
+|   37 | (150) | Healing Potion |      |
+|   25 | (100) | Healing Potion |      |
+|   37 | (150) | Smelly Fish    |      |
+|   30 |  (30) | Carrots        |      |
+|   40 |  (40) | Corn           |      |
+|   45 |  (45) | Melon          |      |
++------+-------+----------------+------+
+
+  This stage is a huge brawl. Try to take each party of monsters individually. 
+Make your approaches straight on to maximize damage from your missiles.
+  At the N of this area is some food and a cave entrance. The rest of the food 
+is lying around the cave. At the far N is a 165 GP chest. You probably tripped 
+the pit barriers in front of the altar when you entered. You can avoid 
+triggering them by hugging the right wall, or you can teleport to the altar 
+from the spidery-looking rock in the room in the E side of the cave. By the 
+altar is a total of 555 in gold, and Bowbane.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#35 Magewood ~ elves
+travel: #41 The Burning Waste, #37 Mount Fang, #33 Northmarch (ch.5)
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+| 10 elves          open   |  75 hp   75 sk | [A1](+37)  [W2](+17)  [M4](+55) |
+| 10 elves          open   |  75 hp   75 sk | [A1](+37)  [W2](+17)  [M4](+55) |
+|  1 fireball       open   |  75 hp   75 sk | [A3](+37)  [W4](+17)  [M5](+75) |
+| 10 elves          line   |  75 hp   75 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  3 elves          single | 150 hp   85 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  4 elves          line   |  75 hp   75 sk | [A1](+17)  [W2](+47)  [M1](+17) |
+| 10 elves          open   | 150 hp   75 sk | [A1](+17)  [W1](+17)  [M1](+17) |
+|  1 elf            column |  75 hp   75 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  1 elf            column |  75 hp   75 sk | [A1](+17)  [W1](+17)  [M1](+17) |
+|  1 elf            column |  75 hp   75 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+| 10 elves          column |  75 hp   75 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  8 elves          column |  75 hp   75 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  8 elves          column |  75 hp   75 sk | [A1](+17)  [W2](+17)  [M1](+17) |
+|  1 elf            open   | 150 hp   75 sk | [A1](+37)  [W2](+17)  [M4](+55) |
+|  1 elf            column | 150 hp   75 sk | [A1](+37)  [W2](+17)  [M4](+75) |
+|  1 elf            column |  75 hp   75 sk | [A1](+37)  [W2](+37)  [M1](+17) |
++--------------------------+----------------+---------------------------------+
+
+675 GP available
++------+-------+---------------------+------+
+|  400 |   +80 | Firehammer          | [M3] |
+|  200 |   +10 | Fire Ring           | [R1] |
+|  550 |   +20 | Greater Shield Ring | [R0] |
+|  100 |    +5 | Lesser Magic Bane   | [J6] |
+|   37 | (150) | Healing Potion      |      |
+|   30 | (120) | Elven Waybread      |      |
+|   30 | (120) | Elven Waybread      |      |
+|   30 | (120) | Elven Waybread      |      |
+|   30 | (120) | Elven Waybread      |      |
+|   30 | (120) | Elven Waybread      |      |
+|   37 | (150) | Healing Potion      |      |
+|   20 |  (80) | Fish                |      |
+|   25 | (100) | Healing Potion      |      |
+|  150 |       | Safe passage        |      |
++------+-------+---------------------+------+
+
+  The column in the NW corner leads to the pendant. The caves to the NW, E, 
+and S are all connected. There is a 230 GP chest, a 45 GP pouch, and the fire 
+ring down here, and a door in the NE part of the cave that leads to Firehammer 
+and 250 GP. The cave entrance in the SE of the forest leads to a 150 GP chest 
+and the shield ring.
+
+*******************************************************************************
+***************    Chapter 5: Mountains of Shadow ~ 7 stages    ***************
+
+Best stats at this point:
+140 max health
+71 equilibrium morale
+90 or 100 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#33 Northmarch ~ humans
+travel: #28 Orcwatch, #44 Kingshold
+
+initial enemies: 59   quota: 14
++--------------------------+----------------+---------------------------------+
+|  1 will-o-wisp    open   | 255 hp   85 sk | [A5](+19)  [W0](+19)  [M4](+75) |
+| 16 humans         open   |  75 hp   75 sk | [A1](+19)  [W3](+19)  [M2](+19) |
+| 10 humans         huddle |  75 hp   75 sk | [A1](+19)  [W3](+19)  [M2](+19) |
+|  5 humans         single |  75 hp   75 sk | [A1](+19)  [W3](+19)  [M2](+19) |
+|  8 humans         column |  75 hp   75 sk | [A1](+19)  [W3](+19)  [M2](+19) |
+| 10 humans         single |  75 hp   75 sk | [A1](+19)  [W3](+19)  [M2](+19) |
+|  2 humans         open   |  75 hp   75 sk | [A1](+19)  [W3](+19)            |
+|  6 humans         wedge  |  75 hp   85 sk | [A1](+19)  [W3](+19)  [M2](+19) |
+|  1 human          open   | 150 hp   85 sk | [A8](+39)  [W3](+19)  [M3](+55) |
+|* 8 will-o-wisps   open   | 250 hp   85 sk | [A5](+20)  [W4](+20)  [M4](+65) |
++--------------------------+----------------+---------------------------------+
+
+675 GP available
++------+-------+----------------+------+
+|  200 |   +10 | Magicbane      | [J6] |
+|   25 | (100) | Healing Potion |      |
+|   37 | (150) | Healing Potion |      |
+|   50 | (200) | Healing Potion |      |
+|   62 | (250) | Healing Potion |      |
+|   25 | (100) | Large Pie      |      |
+|    7 |  (30) | Carrots        |      |
+|   10 |  (40) | Corn           |      |
+|    5 |  (20) | Apple          |      |
+|    3 |  (10) | Tomato         |      |
+|   11 |  (45) | Melon          |      |
+|   15 |  (60) | Small Pie      |      |
+|    3 |  (10) | Tomato         |      |
+|    5 |  (20) | Apple          |      |
+|   10 |  (40) | Corn           |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|   11 |  (45) | Melon          |      |
+|  150 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  Teleport from the standing stones to the E or walk across the bridge to 
+reach two other standing stones. You should get a message about a horn. Go to 
+the SW corner to find the Horn of the Gatekeeper. Watch out on the bridge: you 
+have to walk along the middle or you die. The horn will open the main gate of 
+the castle.
+  In the northern area there's a 100 GP chest and a Diamond Key. The key 
+unlocks the door on the W, near a 75 GP sack. Past the door and upstairs, go S 
+for a Grey Key and a 125 GP chest. Back in the courtyard go E for a 25 GP 
+pouch. You can unlock the door here with the Grey Key. Upstairs and S you'll 
+find the pendant and chests worth 350 GP.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#28 Orcwatch ~ humans
+travel: #33 Northmarch, #38 Orckingspit, #31 Gutrippers End
+
+initial enemies: 78   quota: 19
++--------------------------+----------------+---------------------------------+
+|  8 spiders        wedge  |  65 hp   65 sk | [A3](+16)  [W0](+16)  [M5](+35) |
+| 10 spiders        open   |  65 hp   65 sk | [A3](+16)  [W0](+16)            |
+|  6 spiders        column | 130 hp   65 sk | [A3](+16)  [W0](+16)  [M5](+35) |
+|  7 spiders        line   |  65 hp   65 sk | [A3](+16)  [W0](+16)            |
+|  8 humans         line   |  65 hp   65 sk | [A1](+16)  [W3](+16)  [M2](+16) |
+|  4 humans         single | 130 hp   75 sk | [A1](+16)  [W3](+16)  [M2](+16) |
+|  6 humans         huddle |  65 hp   65 sk | [A1](+16)  [W3](+18)            |
+|  2 humans         open   | 130 hp   75 sk | [A2](+16)  [W3](+46)            |
+|  1 human          open   | 255 hp   75 sk | [A1](+16)  [W3](+16)  [M3](+45) |
+| 10 humans         column |  65 hp   65 sk | [A1](+16)  [W3](+16)  [M2](+16) |
+|  6 humans         huddle |  65 hp   65 sk | [A1](+16)  [W3](+16)            |
+|  5 humans         wedge  |  65 hp   65 sk | [A1](+16)  [W3](+16)  [M2](+16) |
+|  5 humans         line   |  65 hp   65 sk | [A1](+16)  [W3](+16)  [M2](+16) |
++--------------------------+----------------+---------------------------------+
+
+585 GP available
++------+-------+------------------+------+
+|  500 |    +0 | Dragonskin Armor | [A7] |
+|  400 |   +20 | Emerald Star     | [J4] |
+|   10 |  (40) | Corn             |      |
+|   10 |  (40) | Corn             |      |
+|   10 |  (40) | Corn             |      |
+|    5 |  (20) | Apple            |      |
+|    3 |  (10) | Tomato           |      |
+|   64 | (255) | Dragon Steak     |      |
+|    7 |  (30) | Carrots          |      |
+|   25 | (100) | Large Pie        |      |
+|   62 | (250) | Healing Potion   |      |
+|   11 |  (45) | Melon            |      |
+|   15 |  (60) | Small Pie        |      |
+|    3 |  (10) | Tomato           |      |
+|    1 |   (5) | Bottle of Ale    |      |
+|   10 |  (40) | Corn             |      |
+|  130 |       | Safe passage     |      |
++------+-------+------------------+------+
+
+  In this stage there are two separate underground networks, both with many 
+entrances from the surface. It's a mess. In one of the networks, which I will 
+call network A, there is a pit trap room to the S with a 100 GP chest. The 
+passage to the SE of the room leads to a cave with a 200 GP chest and the 
+Staff of Flight. There is also 20 GP pile to the SW and 80 GP sack to the NE 
+in network A.
+  The staff will teleport you across a long pit in the central part of network 
+A. The passage leads to the armor. If you return to where the pit was it is 
+now gone, unblocking the exit that leads to the jewel. Don't use the staff 
+before you are ready to Travel, because the programmers forgot to remove the 
+teleportation tiles after the staff has been used.
+  Network B has a 50 GP sack in the SW room and a 100 GP chest in the NW room, 
+a 35 GP pouch in the central room.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#31 Gutrippers End ~ orcs
+travel: #28 Orcwatch, #38 Orckingspit, #34 The Black City, #39 Silver Delving
+
+initial enemies: 78   quota: 19
++--------------------------+----------------+---------------------------------+
+|  1 orc            open   | 255 hp   80 sk | [A4](+17)  [W0](+17)  [M5](+50) |
+|  8 orcs           line   | 140 hp   70 sk | [A4](+18)  [W0](+18)  [M0](+18) |
+| 10 orcs           wedge  |  70 hp   70 sk | [A4](+17)  [W0](+17)  [M0](+17) |
+| 10 orcs           column |  70 hp   70 sk | [A4](+17)  [W0](+17)  [M0](+17) |
+|  3 orcs           open   |  70 hp   70 sk | [A4](+17)  [W0](+17)  [M5](+40) |
+|  1 ogre           open   | 140 hp   80 sk | [A3](+18)  [W4](+18)            |
+|  8 orcs           huddle |  70 hp   70 sk | [A4](+17)  [W0](+17)  [M0](+17) |
+| 10 orcs           line   |  70 hp   70 sk | [A4](+18)  [W0](+18)            |
+|  7 orcs           wedge  |  70 hp   70 sk | [A4](+17)  [W0](+17)  [M0](+17) |
+| 10 orcs           single | 140 hp   70 sk | [A4](+18)  [W0](+18)            |
+|  5 orcs           open   | 140 hp   70 sk | [A4](+17)  [W0](+17)  [M0](+17) |
+|  5 orcs           single | 140 hp   80 sk | [A4](+18)  [W0](+18)            |
++--------------------------+----------------+---------------------------------+
+
+630 GP available
++------+-------+-------------------+------+
+|  200 |   +20 | Elf Shafter       | [M0] |
+|  400 |   +80 | Orcish Rankbuster | [M5] |
+|   64 | (255) | Dragon Steak      |      |
+|   64 | (255) | Dragon Steak      |      |
+|   64 | (255) | Dragon Steak      |      |
+|   37 | (150) | Smelly Fish       |      |
+|   11 |  (45) | Melon             |      |
+|    5 |  (20) | Apple             |      |
+|  140 |       | Safe passage      |      |
++------+-------+-------------------+------+
+
+  There's a 155 GP chest in the SE corner, a 50 GP sack to the SW, and a 45 GP 
+pouch in the NW corner. "The gate never opens," but there is a cave in the NE 
+corner that leads behind it.
+  The back area has a pit trap that opens when you take a step N, which will 
+probably kill some orcs and not you. There's a 130 GP chest to the W and 
+another cave entrance here. The cave leads to a 250 GP chest and the wand.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#34 The Black City ~ orcs
+travel: #31 Gutripper's End, #44 Kingshold
+
+initial enemies: 78   quota: 19
++--------------------------+----------------+---------------------------------+
+|  1 ogre           open   | 150 hp   75 sk | [A3](+19)  [W4](+19)            |
+|  1 troll          open   | 150 hp   85 sk | [A3](+19)  [W4](+49)            |
+| 10 orcs           column |  75 hp   75 sk | [A4](+19)  [W0](+19)  [M0](+19) |
+| 10 orcs           wedge  |  75 hp   85 sk | [A4](+19)  [W0](+19)            |
+| 10 orcs           huddle | 150 hp   75 sk | [A4](+19)  [W0](+19)  [M0](+19) |
+|  1 ogre           open   | 150 hp   85 sk | [A3](+19)  [W4](+49)            |
+| 16 orcs           open   |  75 hp   75 sk | [A4](+19)  [W0](+19)            |
+|  9 orcs           single |  75 hp   75 sk | [A4](+19)  [W0](+19)  [M0](+19) |
+|  4 orcs           open   | 255 hp   85 sk | [A4](+39)  [W0](+19)  [M0](+19) |
+|  6 orcs           column |  75 hp   85 sk | [A4](+19)  [W0](+19)  [M0](+19) |
+|  4 orcs           line   | 150 hp   75 sk | [A4](+19)  [W0](+19)  [M0](+19) |
+|  6 orcs           open   | 150 hp   85 sk | [A4](+19)  [W0](+19)  [M0](+19) |
++--------------------------+----------------+---------------------------------+
+
+675 GP available (missing: 150 GP chest, 80 GP sack, 150 GP chest)
++------+-------+----------------------+------+
+|  201 |   +20 | Orcish Battle Armour | [A0] |
+|   62 | (250) | Healing Potion       |      |
+|   37 | (150) | Smelly Fish          |      |
+|    7 |  (30) | Carrots              |      |
+|   64 | (255) | Dragon Steak         |      |
+|   25 | (100) | Healing Potion       |      |
+|    3 |  (10) | Tomato               |      |
+|   25 | (100) | Large Pie            |      |
+|    7 |  (30) | Carrots              |      |
+|   10 |  (40) | Corn                 |      |
+|    5 |  (20) | Apple                |      |
+|   11 |  (45) | Melon                |      |
+|    1 |   (5) | Bottle of Ale        |      |
+|  150 |       | Safe passage         |      |
++------+-------+----------------------+------+
+
+  A Gold Key is just across the river to the E, but you have to walk all the 
+way around clockwise to get to it. The entrance to the caves is at the end of 
+the road near your starting point, partially concealed behind the rock.
+  Inside, the key unlocks the door on the S wall of the central chamber. 
+Through the door is a 95 GP sack to the E, a 100 GP chest to the W, a 50 GP 
+sack to the NE and another to the SW. The doors in these caves all teleport you
+to other doors in the same area.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#38 Orckingspit ~ orcs
+travel: #28 Orcwatch, #31 Gutrippers End
+
+initial enemies: 66   quota: 16
++--------------------------+----------------+---------------------------------+
+|  4 orcs           line   |  80 hp   80 sk | [A4](+20)  [W4](+35)  [M5](+35) |
+|  8 orcs           wedge  | 160 hp   80 sk | [A4](+40)  [W4](+40)  [M5](+20) |
+|  3 orcs           wedge  |  80 hp   80 sk | [A4](+40)  [W4](+40)  [M5](+20) |
+|  4 orcs           open   |  80 hp   80 sk | [A4](+20)  [W4](+35)  [M5](+35) |
+|  5 orcs           open   |  80 hp   80 sk | [A4](+40)  [W4](+35)  [M5](+35) |
+|  2 orcs           line   | 160 hp   80 sk | [A4](+20)  [W4](+35)  [M5](+35) |
+| 10 will-o-wisps   open   |  80 hp   90 sk | [A5](+25)  [W4](+20)  [M4](+70) |
+| 10 will-o-wisps   open   |  80 hp   90 sk | [A5](+25)  [W4](+20)  [M4](+70) |
+| 10 will-o-wisps   open   |  80 hp   90 sk | [A5](+25)  [W4](+20)  [M4](+70) |
+| 10 will-o-wisps   open   |  80 hp   90 sk | [A5](+25)  [W4](+20)  [M4](+70) |
++--------------------------+----------------+---------------------------------+
+
+720 GP available
++------+-------+--------------+------+
+|   64 | (255) | Dragon Steak |      |
+|   64 | (255) | Dragon Steak |      |
+|   37 | (150) | Fish         |      |
+|   10 |  (40) | Corn         |      |
+|    7 |  (30) | Carrots      |      |
+|    5 |  (20) | Apple        |      |
+|    7 |  (30) | Carrots      |      |
+|   37 | (150) | Fish         |      |
+|   64 | (255) | Dragon Steak |      |
+|   11 |  (45) | Melon        |      |
+|    7 |  (30) | Carrots      |      |
+|    5 |  (20) | Apple        |      |
+|  160 |       | Safe passage |      |
++------+-------+--------------+------+
+This is the last chance for orcs to buy troops.
+
+  Cross the river of fire by walking around it on the W side. On the other 
+side there is 720 GP heaped around. There is a cave entrance in a false wall 
+to the NE. The crown piece is in the S part of the pitch black area.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#44 Kingshold ~ humans
+travel: #33 Northmarch, #34 The Black City, #39 Silver Delving
+
+initial enemies: 77   quota: 19
++--------------------------+----------------+---------------------------------+
+|  8 humans         line   | 100 hp  100 sk | [A1](+25)  [W3](+25)  [M2](+25) |
+|  8 humans         line   | 100 hp  100 sk | [A1](+25)  [W3](+25)  [M2](+25) |
+|  1 human          column | 200 hp  100 sk | [A1](+25)  [W3](+25)  [M2](+25) |
+|  4 humans         line   | 100 hp  100 sk | [A1](+25)  [W3](+25)  [M2](+25) |
+|  6 humans         wedge  | 200 hp  110 sk | [A1](+25)  [W3](+25)  [M3](+80) |
+|  6 humans         wedge  | 200 hp  110 sk | [A1](+25)  [W3](+25)  [M3](+80) |
+|  8 humans         line   | 100 hp  110 sk | [A1](+35)  [W3](+25)  [M2](+45) |
+|  6 humans         column | 200 hp  100 sk | [A1](+45)  [W3](+55)  [M2](+25) |
+| 14 humans         column | 100 hp  100 sk | [A1](+25)  [W3](+25)  [M2](+25) |
+|  1 human          open   | 100 hp  100 sk | [A2](+55)  [W3](+25)  [M3](+120)|
+|  1 human          column | 100 hp  100 sk | [A1](+25)  [W1](+55)  [M2](+25) |
+| 14 humans         column | 100 hp  100 sk | [A1](+25)  [W3](+25)  [M2](+25) |
++--------------------------+----------------+---------------------------------+
+
+1020 GP available
++------+-------+----------------------+------+
+|  800 |   +30 | Peacebringer         | [W7] |
+|  600 |   +30 | Normellon            | [R1] |
+|   25 | (100) | Healing Potion       |      |
+|   25 | (100) | Healing Potion       |      |
+|   50 | (200) | Strange Fruit        |      |
+|   63 | (250) | Dragon Steak         |      |
+|   50 | (200) | Super Healing Potion |      |
+|   50 | (200) | Rations              |      |
+|   50 | (200) | Rations              |      |
+|   50 | (200) | Rations              |      |
+|   25 | (100) | Clupea Harengus      |      |
+|   50 | (200) | Super Healing Potion |      |
+|   50 | (200) | Super Healing Potion |      |
+|  200 |       | Safe passage         |      |
++------+-------+----------------------+------+
+
+  The E and W exits of the city teleport to each other. In the house a bit to 
+the W of your starting position there's a 120 GP chest. A house to the N of 
+that has a Rusty Old Key. It unlocks a room in a large building to the N that 
+contains the Palace Key. In that building there is a pit trap in front of the 
+blue potion. Avoid it by hugging the wall. The key unlocks the gate at the far 
+N. A house to the E of the gate has a 150 GP chest downstairs.
+  Within the outer walls of the castle, there is a Royal Key to the E. Within 
+the inner wall, there are a lot of very strong, very mean guys. Leave your 
+troops in the outer wall, lure a few guys toward the door, then go and bring 
+your troops back. Repeat this a couple times until you've broken them into 
+manageable groups. Through the N exit, there's 500 GP and a door that is 
+unlocked by the Royal Key. A piece of the crown is here. Through the door is 
+a 250 GP chest and Normellon.
+  The walls in the SE corners of the crown room and the great hall are fake and
+you can walk around in the black area. It's probably a glitch. You might 
+exploit this to get to the crown more easily.
+  The NW stairs in the crown room take you to a dungeon a pit trap and a false 
+bookcase. Avoid the pit by hugging the N wall.
+The bookcase leads you to the house that was locked in the W part of town, but 
+doesn't lead to treasure. This is a one-way trip: If you backtrack from the 
+house to the castle, traps will kill you or the game will crash.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#39 Silver Delving ~ dwarves
+travel: #31 Gutripper's End, #44 Kingshold, #42 Dream City (ch.6)
+
+initial enemies: 47   quota: 11
++--------------------------+----------------+---------------------------------+
+|  8 dwarves        line   | 160 hp   90 sk | [A2](+40)  [W1](+20)  [M0](+20) |
+|  5 dwarves        column |  80 hp   80 sk | [A2](+40)  [W1](+20)  [M0](+50) |
+|  2 dwarves        open   |  80 hp   80 sk | [A2](+40)  [W1](+20)  [M0](+50) |
+|  1 dwarf          open   | 160 hp   90 sk | [A2](+40)  [W1](+20)  [M0](+20) |
+|  1 dwarf          open   | 160 hp   90 sk | [A2](+40)  [W1](+20)  [M0](+20) |
+|  7 bats           open   |  80 hp   80 sk | [A3](+20)  [W0](+35)            |
+|  7 bats           open   |  80 hp   80 sk | [A3](+20)  [W0](+35)            |
+|  8 bats           open   |  80 hp   80 sk | [A3](+40)  [W0](+35)            |
+|  4 bats           open   |  80 hp   80 sk | [A3](+20)  [W0](+20)            |
+|  4 bats           open   |  80 hp   80 sk | [A3](+20)  [W0](+20)            |
++--------------------------+----------------+---------------------------------+
+
+720 GP available
++------+-------+---------------------+------+
+|  245 |   +25 | Dwarven Breastplate | [A2] |
+|   64 | (255) | Dragon Steak        |      |
+|    7 |  (30) | Carrots             |      |
+|    7 |  (30) | Carrots             |      |
+|   10 |  (40) | Corn                |      |
+|   15 |  (60) | Small Pie           |      |
+|    2 |   (7) | Water Carrier       |      |
+|   62 | (250) | Healing Potion      |      |
+|   11 |  (45) | Melon               |      |
+|    5 |  (20) | Apple               |      |
+|   37 | (150) | Salmon              |      |
+|   10 |  (40) | Corn                |      |
+|    5 |  (20) | Apple               |      |
+|   25 | (100) | Healing Potion      |      |
+|    7 |  (30) | Carrots             |      |
+|    3 |  (10) | Tomato              |      |
+|   25 | (100) | Large Pie           |      |
+|   11 |  (45) | Melon               |      |
+|   10 |  (40) | Corn                |      |
+|    2 |   (5) | Wine                |      |
+|  160 |       | Safe passage        |      |
++------+-------+---------------------+------+
+
+  There is a 150 GP chest to the SE and a 20 GP pile to the NW. The gate is 
+unlocked. There's a 20 GP pile at the altar. There's a 100 GP chest to the SW 
+and two 50 GP sacks to the NE. The Salmon triggers a pit trap. There's an exit 
+to the NW. In there you'll find a 50 GP sack to the NW and another to the SE. 
+There are two exits, NW and NE, both of which lead to the same room. In there 
+is an 80 GP sack by the SW entrance, four 20 GP piles to the NW, a 50 GP sack 
+to the N and a 20 GP pile to the NE.
+
+*******************************************************************************
+***************    Chapter 6: Valley of the Kings ~ 5 stages    ***************
+The crown pieces from Kingshold and Orckingspit are needed to reach to ch.6.
+
+Best stats at this point:
+154 max health
+78 equilibrium morale
+104 or 114 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#42 Dream City ~ humans
+travel: #36 Greenshores, #43 Elvenholde
+
+initial enemies: 77   quota: 19
++--------------------------+----------------+---------------------------------+
+|  1 human          column | 180 hp   80 sk | [A2](+53)  [W3](+23)  [M5](+23) |
+|  8 fireballs      open   |  90 hp   90 sk | [A6](+23)  [W1](+53)            |
+|  8 chompers       huddle |  90 hp   90 sk | [A3](+23)  [W4](+53)            |
+|  1 human          column | 180 hp  100 sk | [A6](+43)  [W3](+43)  [M2](+23) |
+| 15 fireballs      open   |  90 hp   90 sk | [A6](+23)  [W1](+53)            |
+|  6 humans         line   |  90 hp   90 sk | [A1](+23)  [W3](+23)  [M0](+23) |
+|  6 humans         wedge  | 180 hp   90 sk | [A1](+23)  [W3](+23)  [M2](+23) |
+|  1 human          column | 180 hp   90 sk | [A1](+43)  [W3](+43)  [M2](+23) |
+|  4 humans         line   | 180 hp   90 sk | [A1](+43)  [W3](+23)  [M1](+23) |
+|  1 human          column | 180 hp   90 sk | [A1](+43)  [W3](+23)  [M3](+70) |
+|  1 human          column | 180 hp   90 sk | [A1](+23)  [W3](+23)  [M3](+70) |
+|  1 human          column | 180 hp   90 sk | [A1](+23)  [W3](+23)  [M3](+70) |
+|  2 humans         line   |  90 hp  110 sk | [A1](+23)  [W3](+23)  [M3](+90) |
+|  1 human          line   | 180 hp   90 sk | [A1](+43)  [W3](+23)  [M2](+43) |
+|  1 human          column | 180 hp   90 sk | [A1](+43)  [W3](+23)  [M3](+90) |
+|  3 humans         line   | 180 hp   90 sk | [A1](+23)  [W3](+23)  [M3](+90) |
+|  2 humans         open   |  90 hp   90 sk | [A1](+43)  [W3](+43)  [M2](+43) |
+|  1 human          column |  90 hp   90 sk | [A1](+23)  [W3](+23)  [M4](+80) |
+|  2 humans         column |  90 hp   90 sk | [A1](+23)  [W3](+23)  [M2](+23) |
+|  2 humans         wedge  |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M3](+80) |
+|  1 human          column | 180 hp  100 sk | [A1](+23)  [W3](+43)  [M2](+23) |
+|  4 chompers       open   |  90 hp   90 sk | [A5](+43)  [W4](+43)  [M5](+90) |
+|  4 giant eyes     open   |  90 hp   90 sk | [A5](+23)  [W4](+23)  [M4](+80) |
+|  1 will-o-wisp    open   |  90 hp   90 sk | [A5](+23)  [W4](+23)  [M4](+90) |
+|* 3 fireballs      column |  90 hp   90 sk | [A6](+23)  [W1](+53)            |
++--------------------------+----------------+---------------------------------+
+
+830 GP available
++------+-------+------------------------------+------+
+|  410 |   +25 | Dream Armour                 | [A1] |
+|   20 |    +1 | Naugars Armor (fake)         | [A1] |
+|  405 |   +25 | The Dreamsword               | [W3] |
+|   15 |    +1 | Orcruth (fake)               | [W1] |
+|   10 |    +1 | The Hand of Sulrandir (fake) | [M3] |
+|  888 |   +40 | The Dreambow                 | [M1] |
+|   25 | (100) | Healing Potion               |      |
+|   30 | (120) | Tonic                        |      |
+|   40 | (160) | Leg of Beef                  |      |
+|   40 | (160) | Leg of Beef                  |      |
+|   25 | (100) | Trail Bread                  |      |
+|   25 | (100) | Trail Bread                  |      |
+|   50 | (200) | Healing Potion               |      |
+|   20 |  (80) | Large Melon                  |      |
+|   40 | (160) | Leg of Beef                  |      |
+|   25 | (100) | Healing Potion               |      |
+|   25 | (100) | Healing Potion               |      |
+|   20 |  (80) | Trail Bread                  |      |
+|  180 |       | Safe passage                 |      |
++------+-------+------------------------------+------+
+This is the last chance for humans to buy troops.
+
+  In this stage the humans aren't so bad but their pets, especially the fire 
+elementals, are dangerous. It's worth taking the time to get all your troops 
+out of the starting enclosure to ensure they don't get picked off. An easy way 
+out is through the fake wall on the E side. There's a mess of similar-looking 
+huts here, and all of the doors can be entered from both the N and S. 
+  In the hut to the W of the enclosure there is a 100 GP chest, and a 120 GP 
+chest in the hut to the E of it. There is an 80 GP sack in the NE stone hut 
+with the wide door, but enter the left side of the door or else it leads to the
+inside of the NW hut. The half-and-half hut with the wide door leads to another
+80 GP sack.
+  The W stone leads to the sword and armor, but you may have to grope around in
+the dark to find the exit. There's a 100 GP chest in the central wooden hut 
+with the wide door, and another in the stone hut S of that with the wide door. 
+The SW hut has a 200 GP chest. There is a 50 GP sack in the hut to the E of 
+that. The bow, which is the best in the game, is sitting in the dirt S of the 
+starting position.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#36 Greenshores ~ elves
+travel: #42 Dream City, Maledil's Hut
+
+initial enemies: 76   quota: 19
++--------------------------+----------------+---------------------------------+
+| 10 will-o-wisps   open   |  90 hp   90 sk | [A3](+23)  [W4](+23)  [M4](+60) |
+|  8 will-o-wisps   open   |  90 hp   90 sk | [A3](+23)  [W4](+23)  [M4](+60) |
+|  6 elves          line   | 180 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  8 elves          column |  90 hp  100 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+| 10 elves          open   |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  8 elves          wedge  | 180 hp  100 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  7 elves          single |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  1 elf            open   | 180 hp  100 sk | [A1](+23)  [W2](+23)  [M4](+70) |
+|  4 elves          column |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  6 elves          line   |  90 hp   90 sk | [A1](+23)  [W2](+37)  [M1](+37) |
+|  2 elves          open   |  90 hp   90 sk | [A1](+43)  [W2](+23)  [M4](+60) |
+|  3 elves          single |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  3 elves          wedge  |  90 hp   90 sk | [A1](+23)  [W2](+23)            |
++--------------------------+----------------+---------------------------------+
+
+675 GP available
++------+-------+----------------+------+
+|  250 |   +21 | Full Chainmail | [A3] |
+|  700 |   +10 | Bauglins Blade | [W5] |
+|  220 |   +22 | Longsword      | [W2] |
+|  200 |   +20 | Longbow        | [M1] |
+|  400 |    +0 | Nendil         | [R4] |
+|   64 | (255) | Dragon Steak   |      |
+|    2 |  (10) | Tomato         |      |
+|   25 | (100) | Large Pie      |      |
+|    5 |  (20) | Apple          |      |
+|   64 | (255) | Dragon Steak   |      |
+|    7 |  (30) | Carrots        |      |
+|   37 | (150) | Smelly Fish    |      |
+|   11 |  (45) | Melon          |      |
+|    1 |   (5) | Elven Ale      |      |
+|   15 |  (60) | Small Pie      |      |
+|   10 |  (40) | Corn           |      |
+|    2 |   (7) | Water Carrier  |      |
+|    2 |   (7) | Water Carrier  |      |
+|   11 |  (45) | Melon          |      |
+|   25 | (100) | Large Pie      |      |
+|   25 | (100) | Large Pie      |      |
+|  150 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  You'll find some Dragon Droppings N of your starting position (use unknown). 
+50 GP sack and 100 GP chest in the great hall. There's an 80 GP sack in the 
+wooden hut to the N and 25 GP pouch in the stone hut. There is a 200 GP chest 
+in the fenced-in stone hut, a 55 GP sack outside in the NW corner, and a 20 GP 
+pile in the NW wooden hut.
+  There is a 45 GP pouch and a partially hidden Diamond Key in the SW house. 
+The key unlocks the door in the great hall for a 100 GP chest and the ring. 
+Once you have Nendil, you can walk over the lake to the axe.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#40 Maleldil's Hut ~ elves
+travel: #36 Greenshores, #43 Elvenholde, #46 Dwarvenhome
+
+initial enemies: 41   quota: 10
++--------------------------+----------------+---------------------------------+
+| 16 bats           open   | 160 hp   90 sk | [A5](+20)  [W0](+20)  [M4](+60) |
+|  1 elf            open   | 255 hp   90 sk | [A2](+40)  [W2](+20)  [M4](+80) |
+| 16 elves          open   | 160 hp   80 sk | [A1](+20)  [W2](+20)  [M1](+20) |
+|  8 elves          line   |  80 hp   90 sk | [A1](+20)  [W2](+20)  [M1](+20) |
++--------------------------+----------------+---------------------------------+
+
+720 GP available
++------+-------+----------------+------+
+|  300 |   +15 | Maledil's Gem  | [J5] |
+|   62 | (250) | Healing Potion |      |
+|   62 | (250) | Healing Potion |      |
+|   62 | (250) | Healing Potion |      |
+|   62 | (250) | Healing Potion |      |
+|   62 | (250) | Healing Potion |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|  160 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  There's a Gold Key S of your position. It opens a door in the house that has 
+720 GP and the pendant. This stage is very small.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#43 Elvenholde ~ elves
+travel: #42 Dream City, #40 Maleldil's Hut,
+        #46 Dwarvenhome, #45 Rockheart Gorge (ch.7)
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+|  8 elves          line   |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+43) |
+|  8 elves          line   |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+43) |
+|  6 elves          line   |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+43) |
+|  4 elves          line   |  90 hp   90 sk | [A2](+23)  [W2](+23)  [M1](+43) |
+|  8 elves          wedge  |  90 hp   90 sk | [A1](+23)  [W2](+43)  [M1](+23) |
+|  4 elves          single |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+43) |
+|  6 elves          huddle |  90 hp   90 sk | [A1](+23)  [W1](+43)  [M2](+23) |
+|  1 elf            column |  90 hp   90 sk | [A2](+23)  [W2](+23)  [M1](+43) |
+|  1 elf            column |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
+|  1 elf            column |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+43) |
+|  1 elf            column |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+43) |
+|  2 elves          line   |  90 hp   90 sk | [A2](+23)  [W2](+23)  [M1](+43) |
+|  3 elves          line   |  90 hp   90 sk | [A1](+23)  [W1](+23)  [M1](+43) |
+|  8 elves          line   |  90 hp   90 sk | [A1](+23)  [W2](+43)  [M1](+23) |
+|  4 elves          wedge  |  90 hp   90 sk | [A1](+23)  [W2](+43)  [M1](+24) |
+|  6 elves          huddle |  90 hp   90 sk | [A2](+23)  [W2](+23)  [M1](+43) |
+|  7 elves          line   |  90 hp   90 sk | [A1](+43)  [W2](+23)  [M1](+43) |
+|  1 elf            column | 180 hp   90 sk | [A1](+43)  [W1](+53)  [M2](+23) |
+|  1 elf            column |  90 hp   90 sk | [A1](+23)  [W2](+23)  [M1](+23) |
++--------------------------+----------------+---------------------------------+
+
+810 GP available
++------+-------+-----------------+------+
+|  500 |  +100 | Sulrandirs Hand | [M3] |
+| 1000 |   +20 | Curandils Ring  | [R0] |
+|   25 | (100) | Healing Potion  |      |
+|   25 | (100) | Way Bread       |      |
+|   20 |  (80) | Magic Wine      |      |
+|   20 |  (80) | Magic Wine      |      |
+|   20 |  (80) | Magic Wine      |      |
+|   35 | (150) | Healing Potion  |      |
+|   50 | (200) | Healing Potion  |      |
+|  100 | (250) | Dragon Steak    |      |
+|   25 | (100) | Elven Carrots   |      |
+|   25 | (100) | Good Stuff      |      |
+|   20 |  (80) | Odd Fruit       |      |
+|   25 | (100) | Healing Potion  |      |
+|   25 | (100) | Healing Potion  |      |
+|  180 |       | Safe passage    |      |
++------+-------+-----------------+------+
+This is the last chance for elves to buy troops.
+
+  There's a 50 GP sack in the hut by the SW fountain. The wooden hut and stone 
+hut in the center are connected and have two 100 GP chests. There's an 80 GP 
+sack in the NW hut, a 100 GP chest in the hut S of that, and a 30 GP pouch in 
+the hut to the SE of that. The hut with a ladder to the N has a 100 GP chest 
+downstairs. The stone hut to the E and the NE house both connect to the ring, 
+wand, and crown piece. There's a 250 GP chest in the house.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#46 Dwarvenhome ~ dwarves
+travel: #40 Maleldil's Hut, #43 Elvenholde, #45 Rockheart Gorge (ch.7)
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+|  8 dwarves        wedge  | 220 hp  120 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  8 dwarves        column | 220 hp  120 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  8 dwarves        line   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  8 dwarves        line   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  4 dwarves        line   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  4 dwarves        line   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  2 dwarves        line   | 220 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  1 dwarf          column | 220 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  3 dwarves        line   | 220 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  1 dwarf          column | 220 hp  120 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          column | 220 hp  120 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          column | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  8 dwarves        huddle | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          wedge  | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 220 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+58) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W2](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  1 dwarf          open   | 110 hp  110 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  3 dwarves        line   | 220 hp  120 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  4 dwarves        column | 220 hp  120 sk | [A2](+28)  [W1](+28)  [M0](+28) |
+|  2 dwarves        wedge  | 220 hp  120 sk | [A2](+58)  [W1](+28)  [M0](+28) |
++--------------------------+----------------+---------------------------------+
+
+1110 GP available
++------+-------+----------------+------+
+|  800 |    +0 | Gondrim        | [R5] |
+|  987 |   +25 | Warshield      | [R0] |
+|   63 | (250) | Healing Potion |      |
+|   63 | (250) | Healing Potion |      |
+|   63 | (250) | Healing Potion |      |
+|   50 | (200) | Strange Fruit  |      |
+|   50 | (200) | Strange Fruit  |      |
+|   63 | (250) | Healing Potion |      |
+|   50 | (200) | Rations        |      |
+|   50 | (200) | Rations        |      |
+|  220 |       | Safe passage   |      |
++------+-------+----------------+------+
+
+  The dwarves here are very rough. Too bad you have no choice but to fight 
+them. There are pit traps scattered all over this stage, so consider buying 
+Gondrim from the dwarves before going to war with them.
+  There's a 200 GP chest in the N hut, an 80 GP sack in the SE hut, and 
+another in the E/central hut with the ladder, and a 100 GP chest in the NW 
+hut. As in Kingshold, the caves connect opposite sides of the map.
+  Inside the great hall, which is in front of the starting position, walking 
+by the left side of the table will trigger a pit. If you don't have Gondrim 
+yet, you should have your guys wait in the SE corner of the room and lure 
+enemies to them. The pit can be safely triggered from the N. In the hall 
+there is a 250 GP chest, the Gondrim ring, and the Palace Key. There is an E 
+entrance to the great hall but it doesn't seem to have a key. The palace is to 
+the E. On the top floor is Warshield. The crown piece and 400 GP is on the 
+bottom floor.
+
+*******************************************************************************
+***************      Chapter 7: The Saltplains ~ 6 stages       ***************
+The crown pieces from Elvenholde and Dwarvenhome are needed to advance to ch.7.
+
+Best stats at this point:
+164 max health
+83 equilibrium morale
+115 or 125 skill
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#45 Rockheart Gorge ~ dwarves
+travel: #47 Scorpimar, #48 The Wastes
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+| 10 dwarves        wedge  | 100 hp  100 sk | [A2](+25)  [W1](+40)  [M0](+40) |
+| 10 dwarves        line   | 100 hp  110 sk | [A2](+25)  [W1](+25)  [M0](+25) |
+| 10 dwarves        column | 200 hp  100 sk | [A2](+25)  [W1](+25)  [M0](+25) |
+|  5 dwarves        single | 200 hp  110 sk | [A2](+25)  [W1](+25)  [M0](+25) |
+| 10 dwarves        open   | 200 hp  100 sk | [A2](+25)  [W1](+25)  [M0](+25) |
+| 15 dwarves        line   | 200 hp  100 sk | [A2](+25)  [W1](+55)            |
+| 10 dwarves        wedge  | 100 hp  110 sk | [A2](+25)  [W1](+25)  [M0](+25) |
+|  5 dwarves        column | 200 hp  100 sk | [A2](+25)  [W1](+40)  [M0](+40) |
+|  5 dwarves        line   | 100 hp  100 sk | [A2](+45)  [W1](+25)  [M0](+25) |
++--------------------------+----------------+---------------------------------+
+
+900 GP available
++------+-------+----------------+------+
+|  300 |   +30 | Bladebane      | [A1] |
+| 1100 |   +30 | Orcruth        | [W5] |
+|   64 | (255) | Dragon Steak   |      |
+|   64 | (255) | Dragon Steak   |      |
+|   64 | (255) | Dragon Steak   |      |
+|   37 | (150) | Healing Potion |      |
+|   15 |  (60) | Small Pie      |      |
+|   10 |  (40) | Corn           |      |
+|    7 |  (30) | Carrots        |      |
+|   25 | (100) | Large Pie      |      |
+|   50 | (200) | Healing Potion |      |
+|   11 |  (45) | Melon          |      |
+|    3 |  (10) | Tomato         |      |
+|   37 | (150) | Smelly Fish    |      |
+|    1 |   (5) | Dwarven Ale    |      |
+|    1 |   (5) | Dwarven Ale    |      |
+|    1 |   (5) | Dwarven Ale    |      |
+|    1 |   (5) | Dwarven Ale    |      |
+|    1 |   (5) | Dwarven Ale    |      |
+|    1 |   (5) | Dwarven Ale    |      |
+|    5 |  (20) | Apple          |      |
+|  200 |       | Safe passage   |      |
++------+-------+----------------+------+
+This is the last chance for dwarves to buy troops.
+
+  This stage has an outdoor area and a cavern area, connected by multiple 
+exits. The underground passages are all pit trapped, so you will have to 
+travel outside if you don't have Gondrim.
+  Outside, there's an 80 GP sack at the starting position and a 15 GP pile in 
+the SW corner. In the caves, there's a 35 GP pouch in the cave near the start 
+and a 45 GP pouch off to the W. There's a 120 GP chest in the E chamber and a 
+255 GP chest, a 95 GP sack, and the axe in the N/NE chamber. The armor and a 
+255 GP chest are in a branch that starts in the S and goes the NW.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#47 Scorpimar ~ wilderness
+travel: #45 Rockheart Gorge, #48 The Wastes, #49 Death Swamp
+
+initial enemies: 69   quota: 17
++--------------------------+----------------+---------------------------------+
+|  6 scorpions      single | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  4 scorpions      wedge  | 110 hp  120 sk | [A2](+28)  [W0](+58)  [M5](+60) |
+|  6 scorpions      line   | 110 hp  110 sk | [A2](+48)  [W0](+28)  [M5](+60) |
+|  4 scorpions      column | 110 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  6 scorpions      huddle | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+| 10 scorpions      open   | 220 hp  110 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  4 scorpions      wedge  | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  6 scorpions      huddle | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  6 scorpions      open   | 110 hp  110 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  2 scorpions      single | 220 hp  110 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  2 scorpions      single | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  4 scorpions      column | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  2 scorpions      line   | 220 hp  110 sk | [A2](+48)  [W0](+28)  [M5](+60) |
+|  4 scorpions      single | 110 hp  110 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  3 scorpions      wedge  | 110 hp  110 sk | [A2](+28)  [W0](+28)  [M5](+60) |
++--------------------------+----------------+---------------------------------+
+
+990 GP available
++------+-------+----------------------+------+
+|  900 |   +30 | Dwarven Plate Armour | [A2] |
+|   64 | (255) | Dragon Steak         |      |
+|   70 | (255) | Dragon Steak         |      |
+|   60 | (255) | Dragon Steak         |      |
+|   65 | (255) | Dragon Steak         |      |
+|    1 |   (5) | Water Bottle         |      |
+|    7 |  (30) | Carrots              |      |
+|    1 |   (5) | Water Bottle         |      |
+|    2 |  (10) | Tomato               |      |
+|    5 |  (20) | Apple                |      |
+|   11 |  (45) | Melon                |      |
+|   10 |  (40) | Corn                 |      |
+|   10 |  (40) | Corn                 |      |
+|   25 | (100) | Large Pie            |      |
+|    2 |  (10) | Tomato               |      |
+|    7 |  (30) | Carrots              |      |
+|   15 |  (60) | Small Pie            |      |
+|    5 |  (20) | Apple                |      |
+|   10 |  (40) | Corn                 |      |
+|    1 |   (5) | Water Bottle         |      |
+|    1 |   (5) | Water Bottle         |      |
+|    7 |  (30) | Carrots              |      |
++------+-------+----------------------+------+
+
+  This stage is entirely in a cave divided into large rooms. There's a 250 GP 
+chest and a bottle in the SW corner, where you start, and a 100 GP chest in the
+SE corner. To the NE is a gap in the wall leading to the next area.
+  In a cubicle to the W is a 140 GP chest and there's a 100 GP chest in the NE 
+corner. The NW corner has the Gold Key, which unlocks the door in the NW of the
+previous area.
+  Behind the door, there's a 100 GP chest to the W and a 50 GP sack in the NW 
+corner. In the S/central area is a 100 GP chest, and a NE branch leads to a 150
+GP chest and the armor.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#48 The Wastes ~ wilderness
+travel: #45 Rockheart Gorge, #47 Scorpimar, #50 Fenrage
+
+initial enemies: 80   quota: 20
++--------------------------+----------------+---------------------------------+
+| 10 scorpions      line   | 220 hp  110 sk | [A2](+58)  [W0](+28)  [M5](+60) |
+| 10 scorpions      single | 110 hp  120 sk | [A2](+28)  [W0](+43)  [M5](+75) |
+| 10 scorpions      column | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+| 16 scorpions      open   | 110 hp  110 sk | [A2](+28)  [W0](+28)            |
+| 16 scorpions      single | 110 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  8 scorpions      wedge  | 110 hp  110 sk | [A2](+28)  [W0](+28)  [M5](+60) |
+|  6 scorpions      huddle | 110 hp  110 sk | [A2](+110) [W0](+28)            |
+|  4 scorpions      line   | 220 hp  120 sk | [A2](+28)  [W0](+28)  [M5](+90) |
++--------------------------+----------------+---------------------------------+
+
+990 GP available
++------+-------+----------------+------+
+|  600 |   +30 | Sulandir       | [R2] |
+|   64 | (255) | Dragon Steak   |      |
+|   64 | (255) | Dragon Steak   |      |
+|   37 | (150) | Healing Potion |      |
+|   25 | (100) | Healing Potion |      |
+|    7 |  (30) | Carrots        |      |
+|   62 | (250) | Healing Potion |      |
+|   50 | (200) | Healing Potion |      |
+|   11 |  (45) | Melon          |      |
+|   10 |  (40) | Corn           |      |
+|   64 | (255) | Dragon Steak   |      |
+|    5 |  (20) | Apple          |      |
+|   25 | (100) | Large Pie      |      |
+|    3 |  (10) | Tomato         |      |
+|    1 |   (5) | Bottle of Ale  |      |
+|   11 |  (45) | Melon          |      |
++------+-------+----------------+------+
+
+  There's a 135 GP chest to the W of the starting point. There's a healing 
+potion embedded in the rock near the false cave to the S. To the E of the rock 
+is a 255 GP chest. There's a 77 GP sack in the NE and in the NW/central area is
+a 23 GP pile. There are two entrances to the caves, found in the NW and NE.
+  There is a group of six scorpions with extremely high defense inside. It's 
+actually impossible to damage them, even with the best weapons and highest 
+skill available at this point. Their armor is just too strong. Fortunately 
+their weapons are not any stronger than the other groups, and they have no 
+missile. In order to make quota and leave, you'll need to find and kill most of
+the other scorpions.
+  The invincible group starts out N of the the NW entrance of the caves, so you
+want to avoid that area. If you encounter them, you'll need to Rally and run 
+away, but it doesn't work if they are already engaged. Trying to get around 
+them in the narrow tunnels is hard, and coordinating your troops is made even 
+more difficult by the teleport traps.
+  There's a 45 GP pouch to the NE. If you try to walk to the SE room you'll 
+teleport NW, not far S of the invincible scorpions. Continue S and you'll be 
+moved NW again. Going N from here teleports you back to the entrance area, so 
+move S and you'll be moved SE this time. N from here is a teleport that goes 
+back to where you just came from. Go S and W instead to reach a room with a 
+mushroom formation.
+  The green mushrooms teleport you to that SE room where you'll find a 255 GP 
+chest, a healing potion, and Sulandir. The red mushrooms bring you to the NW 
+room with two healing potions and a 200 GP chest. The teleports are one-way so 
+you have to do some backtracking if you want both.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#49 Death Swamp ~ wilderness
+travel: #47 Scorpimar, #51 The Watcher's Tower
+
+initial enemies: 50   quota: 12
++--------------------------+----------------+---------------------------------+
+|  3 scorpions      open   | 120 hp  120 sk | [A2](+50)  [W1](+45)  [M5](+45) |
+|  5 scorpions      wedge  | 240 hp  120 sk | [A2](+30)  [W1](+30)  [M5](+30) |
+|  6 scorpions      open   | 240 hp  120 sk | [A2](+30)  [W1](+45)  [M5](+45) |
+|  3 scorpions      open   | 120 hp  130 sk | [A2](+30)  [W1](+30)  [M5](+60) |
+|  4 fireballs      open   | 120 hp  120 sk | [A3](+50)  [W4](+60)  [M5](+30) |
+|  4 fireballs      open   | 120 hp  120 sk | [A3](+50)  [W4](+30)  [M5](+30) |
+|  5 will-o-wisps   wedge  | 120 hp  120 sk | [A5](+30)  [W4](+60)  [M4](+30) |
+|  4 will-o-wisps   open   | 240 hp  120 sk | [A5](+30)  [W4](+45)  [M4](+45) |
+|  7 chompers       open   | 240 hp  120 sk | [A5](+30)  [W4](+30)  [M4](+60) |
+|  2 giant eyes     line   | 120 hp  120 sk | [A5](+50)  [W4](+60)            |
+|  2 giant eyes     line   | 120 hp  120 sk | [A5](+50)  [W4](+60)            |
+|  3 chompers       open   | 120 hp  120 sk | [A3](+50)  [W4](+30)            |
+|  3 chompers       open   | 120 hp  120 sk | [A3](+50)  [W4](+30)            |
++--------------------------+----------------+---------------------------------+
+
+1080 GP available
++------+-------+----------------+------+
+| 1100 |   +30 | Naugar's Armor | [A6] |
+|   64 | (255) | Dragon Steak   |      |
+|   37 | (150) | Fish           |      |
+|   37 | (150) | Fish           |      |
+|   37 | (150) | Fish           |      |
+|   37 | (150) | Fish           |      |
+|   10 |  (40) | Corn           |      |
+|   10 |  (40) | Corn           |      |
+|   10 |  (40) | Corn           |      |
+|    7 |  (30) | Carrots        |      |
+|    7 |  (30) | Carrots        |      |
+|   15 |  (60) | Fish Pie       |      |
+|   25 | (100) | Large Pie      |      |
+|    5 |  (20) | Apple          |      |
+|    5 |  (20) | Apple          |      |
+|    2 |  (10) | Tomato         |      |
+|    2 |  (10) | Tomato         |      |
+|   11 |  (45) | Melon          |      |
+|   64 | (255) | Dragon Steak   |      |
+|   64 | (255) | Dragon Steak   |      |
+|    2 |  (10) | Tomato         |      |
+|   25 | (100) | Large Pie      |      |
++------+-------+----------------+------+
+
+  In this stage you can pound the scorpions from the safety of the water if you
+have Nendil.
+  There's a 50 GP sack by the starting point. A bit to the N by a false cave is
+a 20 GP pile. There's a 20 GP pile in the S/central area and an 80 GP sack and 
+a 150 GP chest to the SW. In the NW is a 100 GP chest and a 20 GP pile. In the 
+N is a 50 GP sack by a dragon steak. The NE has a 100 GP chest. In the N/
+central area is an arch with a 50 GP sack, and 20 GP piles to the NE and SW.
+  The arch leads to the S/central part a cave system. The room to the E has a 
+20 GP pile. To the S is a 100 GP chest. The W room has a 100 GP chest and a 20 
+GP pile. In the passages to the N there's two 20 GP piles. In the room to the 
+N there's a 100 GP chest, and Naugar's Armor. N of that room is a 20 GP pile.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#50 Fenrage ~ wilderness
+travel: #48 The Wastes, #51 The Watcher's Tower
+
+initial enemies: 55   quota: 13
++--------------------------+----------------+---------------------------------+
+| 10 dragonflies    wedge  | 240 hp  120 sk | [A3](+30)  [W0](+60)            |
+|  8 dragonflies    open   | 120 hp  120 sk | [A3](+30)  [W0](+60)            |
+|  1 fireball       open   | 240 hp  120 sk | [A3](+50)  [W0](+30)  [M3](+30) |
+|  1 fireball       open   | 240 hp  120 sk | [A3](+50)  [W0](+30)  [M3](+30) |
+|  4 will-o-wisps   open   | 240 hp  120 sk | [A5](+30)  [W0](+30)  [M4](+30) |
+|  4 will-o-wisps   open   | 240 hp  120 sk | [A5](+30)  [W0](+30)  [M4](+30) |
+|  8 dragonflies    open   | 240 hp  120 sk | [A3](+30)  [W0](+60)            |
+|  7 dragonflies    open   | 240 hp  120 sk | [A3](+50)  [W0](+30)  [M3](+60) |
+|  4 bats           open   | 120 hp  120 sk | [A5](+30)  [W4](+60)            |
+|  4 bats           open   | 240 hp  120 sk | [A5](+30)  [W4](+30)            |
+|  3 bats           open   | 240 hp  120 sk | [A5](+30)  [W4](+60)            |
+|  1 dragonfly      open   | 240 hp  130 sk | [A7](+50)  [W1](+60)  [M5](+30) |
++--------------------------+----------------+---------------------------------+
+
+1080 GP available
++------+-------+------------------+------+
+|  120 |  +120 | Sulrandir's Fist | [M4] |
+|    2 |   (5) | Wine             |      |
+|    5 |  (20) | Apple            |      |
+|    3 |  (10) | Tomato           |      |
+|   64 | (255) | Dragon Steak     |      |
+|   25 | (100) | Large Pie        |      |
+|   10 |  (40) | Corn             |      |
+|    5 |  (20) | Apple            |      |
+|   38 | (150) | Fish             |      |
+|    2 |   (5) | Bottle of Ale    |      |
+|    2 |   (7) | Water Carrier    |      |
+|   38 | (150) | Pike             |      |
+|    8 |  (30) | Carrots          |      |
+|   15 |  (60) | Fish Pie         |      |
+|   10 |  (40) | Corn             |      |
+|   11 |  (45) | Melon            |      |
+|   11 |  (45) | Melon            |      |
+|    2 |   (7) | Water Carrier    |      |
+|   15 |  (60) | Dragonfly Pie    |      |
+|   25 | (100) | Large Pie        |      |
+|    2 |   (5) | Vinegar          |      |
+|   15 |  (60) | Carrot Cake      |      |
+|    2 |   (7) | Liquid Carrier   |      |
+|   64 | (255) | Dragon Steak     |      |
+|   64 | (255) | Dragon Steak     |      |
+|   10 |  (40) | Corn             |      |
+|   11 |  (45) | Melon            |      |
+|    2 |   (7) | Water Carrier    |      |
+|   15 |  (60) | Small Pie        |      |
+|    8 |  (30) | Carrots          |      |
+|    2 |   (7) | Water Carrier    |      |
++------+-------+------------------+------+
+
+  This stage has some very hard-hitting dragonfly groups on the surface and 
+bat groups in the caves. There's also pit traps on the surface.
+  On the surface level, you'll find in the SE: 20 GP pile, 100 GP chest. SW: 20
+GP pile with the carrots on the little island. NW: 20 GP pile. NW/center: 10 GP
+pile. N/middle: 30 GP pouch. Center: 180 GP and 200 GP chests. NE corner: 100 
+GP. E in some bushes: 20 GP pile.
+  There are two cave networks. The first has two entrances, NW (enter the rock 
+from the N) and W/central (enter from S). In the cave's tunnels is various food,
+two 80 GP sacks, a 50 GP sack, and a 200 GP chest.
+  The second cave has only one entrance, to the NE. The long, winding tunnel 
+has food, a 50 GP sack, and the wand.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#51 The Watcher's Tower ~ wilderness
+travel: #49 Death Swamp, #50 Fenrage
+
+initial enemies: 40   quota: 10
++--------------------------+----------------+---------------------------------+
+|  8 will-o-wisps   line   | 125 hp  125 sk | [A2](+30)  [W0](+80)  [M4](+50) |
+|  5 giant eyes     open   | 225 hp  225 sk | [A2](+30)  [W0](+60)  [M4](+30) |
+|  4 fireballs      open   | 125 hp  125 sk | [A2](+60)  [W0](+60)  [M3](+60) |
+|  4 fireballs      open   | 125 hp  125 sk | [A2](+60)  [W0](+60)  [M3](+60) |
+|  5 ghosts         open   | 125 hp  125 sk | [A2](+60)  [W0](+30)  [M4](+60) |
+|  5 ghosts         open   | 125 hp  125 sk | [A2](+60)  [W0](+30)  [M4](+60) |
+|  5 will-o-wisps   open   | 125 hp  125 sk | [A2](+60)  [W0](+30)  [M3](+60) |
+|  4 will-o-wisps   open   | 125 hp  125 sk | [A2](+60)  [W0](+30)  [M4](+60) |
++--------------------------+----------------+---------------------------------+
+
+999 GP available
+
+  There are two ways to approach the final stage. You can clear it by force and
+even kill enough enemies to travel away and back again, or you can just run for
+the objective. Fighting is only an option for well-prepared Warriors, but it's 
+not going to be easy because the giant eyes sitting right in front of the gate 
+are invincible. Their defense is too strong. But unlike the scorpions in The 
+Wastes, the eyes hit dangerously hard.
+  Either way, you have to get past the guard eyes somehow. You can lure them 
+away but if they lose sight of you they'll quickly return to their position. 
+Try to get them stuck on obstacles in the SE or SW, then run for the gate, 
+which is unlocked and one-way. It's pretty much impossible to get troops into 
+the tower because of the eyes. To do so would require having your men follow 
+you in lockstep for the evasive meneuvers, and never letting the eyes get too 
+close. You might instead use the troops as disposable decoys.
+  On the first floor of the tower there are a bunch of ghosts and will-o-wisps.
+There is a lot of room to run around, except for the stairway area by the 
+entrance, where you'll be mobbed. There's a 999 GP chest by the altar, as if 
+there's anything to spend it on now. The stairs up are in the N/center of the 
+lobby.
+  There are fewer enemies on the second floor, just two groups of fireballs. 
+However, there are pit barriers which can trap you between enemies, so Gondrim 
+is really useful. Approach to the throne at the far N to finish the game.
+
+-------------------------------------------------------------------------------
+V. SAMPLE PASSCODES
+
+  This first set was collected a long time ago, before the current knowledge. 
+No stages were skipped and there's a lot of GP, but the equipment choices 
+aren't very good.
+ ____________________
+/    human wizard    \________________________________________
+|                                                             |
+|   Chapter 2           Chapter 3           Chapter 4         |
+|   W4W3W/3W3V/3KMX     KNM7M/7M7V/3936     M9379/L37V/37KK   |
+|   73WX8/6V85/ZK32     ZK9XV/N9MM/ZKMX     9Z9V2/3ZVM/ZKMX   |
+|   ZWK4L/N83N/6X68     33LVZ/LV9V/X6L6     W2LVZ/LV98/26LM   |
+|   5V7L5/X75V/WLXV     K3V53/LL39/WL25     33VZ2/LL39/6967   |
+|   2MWK8/5KW9/NL6M     V884W/6WZZ/ZX87     V8LWX/5WZK/7M77   |
+|   WWXXN/6KMV/----     W986M/85VW/----     W8VXK/XL76/----   |
+|                                                             |
+|   Chapter 5           Chapter 6           Chapter 7         |
+|   89XLX/LXL7/35ZZ     K7KNK/N5MV/3486     69L3L/3L39/32WV   |
+|   3VN6L/L874/ZVMX     48W8K/27X2/3692     795Z3/W29V/3692   |
+|   6X56N/3V98/2N8N     6X562/8V9L/NN8N     N756V/X6ML/NN8N   |
+|   V5NZ2/449Z/5726     V5VZ2/449Z/M42X     V5VZ2/ZN9Z/N63K   |
+|   V8775/ZWZ2/NKZ7     V8775/ZKL2/NKZ7     K477X/WKL2/N8L7   |
+|   W8VX5/W276/----     W8VX5/W276/----     W8VXK/8276/----   |
+|                                                             |
++-------------------------------------------------------------+
+
+  This set was collected after the v2.0 research and is much better prepared.
+ ____________________
+/    dwarf warrior   \________________________________________
+|                                                             |
+|   Chapter 2           Chapter 3           Chapter 4         |
+|   KLW3W/3W33/4KMK     V4M7M/7M73/493X     V8373/7373/47K4   |
+|   345ZZ/N885/ZK64     NKWXV/97KN/ZK64     5ZWV2/ZNKN/ZKMX   |
+|   Z9XVM/WMV9/NX68     92V8W/Z987/WVX4     92V8W/Z987/WVX6   |
+|   5XN6Z/2MK4/N64M     M25LL/6LKL/ZKV9     525LL/6LK7/4869   |
+|   V7LN8/5WLK/XL68     X2ZZ8/3WLV/WL66     X24X5/3Z22/32LL   |
+|   K38WX/KKX7/----     MMXWX/3938/----     W7667/39XL/----   |
+|                                                             |
+|   Chapter 5           Chapter 6           Chapter 7         |
+|   8KXLX/LXL3/45ZK     7KKNK/NKN3/448W     26L3L/3L33/42W8   |
+|   WW36L/9494/ZVK7     X95K9/W7VX/ZV92     39L64/4VMX/ZV92   |
+|   92V8W/Z487/W777     92V8W/ZKL7/W77M     4VV8W/ZKL7/W779   |
+|   92N44/6L2L/269Z     X2N44/6L36/269Z     V2N8L/536M/269Z   |
+|   X2MX4/3XM5/X4XN     X28M7/WL52/XKNN     9WN67/WL5Z/Z82N   |
+|   87667/VZXL/----     87627/VZXL/----     87627/VZXL/----   |
+|                                                             |
++-------------------------------------------------------------+
+
+-------------------------------------------------------------------------------
+CLOSING
+
+  This document is entirely my own work. Any questions, comments, corrections 
+or complaints should be addressed to the address below, with clear indication 
+in the subject line that the email is concerning this FAQ. 
+  Does anyone actually play this game? If you used this gudie, drop me a line 
+and let me know what you think.
+
+dammit9x at hotmail dot com

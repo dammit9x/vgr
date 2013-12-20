@@ -1,0 +1,513 @@
+Juusou Kihei Valken, aka Assault Suits Valken FAQ/Guide (SNES)
+6/13/2005 v1.1
+dammit9x at hotmail dot com
+
+Copyright 2005
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+
+------------------------------
+Contents
+
+* Introduction
+* Gameplay
+   Controls
+   Gravity
+   Power-Ups
+   Lives
+* Option Mode
+* Weapons List
+* Two Endings
+* Mission Walkthrough
+* Closing
+------------------------------
+
+* Introduction
+
+               #### This guide has NO story-related spoilers. ####
+
+                          | I was 22 years old when  |
+                          | I enlisted in the United |
+                          | Pacific States Marine    |
+                          | Corps. Unluckily for me, |
+                          | around the time I'd      |
+                          | finished my Assault Suit |
+                          | training, the war had    |
+                          | spread to the far        |
+                          | reaches of the Earth-    |
+                          | sphere.                  |
+                          | Nobody remember exacly   |
+                          | what started this war    |
+                          | any more. It continues   |
+                          | because people still     |
+                          | fight over control of    |
+                          | what little fossil fuel  |
+                          | remains on this planet,  |
+                          | and over territorial     |
+                          | rights on the moon.      |
+                          | Our leaders have no      |
+                          | intention of sharing     |
+                          | what little resources    |
+                          | they retain.             |
+                          | I do not fight out of    |
+                          | patriotism, a desire for |
+                          | justice, or any other    |
+                          | sort of silly personal   |
+                          | ideal. I fight because I |
+                          | am a soldier, and the    |
+                          | only way a soldier can   |
+                          | survive is to fight and  |
+                          | defeat his enemies.      |
+
+
+  This game was released, only in Japan, in 1992 by NCS, the same developer 
+that put out Assault Suits Leynos (known as Target Earth in the American 
+release) two years earlier. At some point, the translation group "AGTP" (Gideon 
+Zhi and Ian Kelly)released an English translation for the ROM. The translation 
+makes the story understandable for English speakers. However, you don't need to 
+know how to read to play the game. The only part left undone is the name entry 
+feature in the option screen. As such, I don't know what the main character's 
+name is. The excerpt above is taken from the AGTP translation. 
+  It is unclear to me why NCS failed to port the game to American markets. 
+Compared to Leynos, Assault Suits Valken has tighter controls, more interesting 
+gameplay, character advancement, multiple endings, character design by Satoshi 
+Urushihara, and is overall a classy game.
+
+
+* Gameplay
+
+Controls:
+
+Shoot (default Y)
+  The hero fires the currently selected weapon in whatever direction he's 
+aiming. Except for the punch, all weapons can be fired rapidly or continuously 
+by holding the button.
+
+Jump (default B)
+  The hero jumps. Holding the button while airborne fires the booster pack, 
+resulting in a higher, longer jump or a slower descent. After a few seconds the 
+booster overheats and can only be used to slow the descent, but it can be used 
+again in the next jump. 
+
+Dash (default A)
+  The hero moves at double speed, and his profile is lowered slightly. After a 
+certain distance the dash ends, but you can push the button again. An 
+alternative way to dash is to double tap right or left. You must have your feet 
+on solid ground to dash. Some auto-scroll sequences are in dash mode.
+
+Weapon Select (default X)
+  Cycles through available weapons. You can do this while the game is paused. 
+
+Hold (default L)
+  This causes the hero to hold the direction of the gun constant, regardless of 
+what's going on with the D-pad. So you can do things like fire at the enemy 
+while withdrawing, or hover over the enemy while firing down on them. This is 
+extremely useful and should be learned early.
+
+Shield (default R)
+  The hero actually holds up a shield. This prevents all damage, from any 
+direction, even from behind. Most but not all attacks can be blocked. However, 
+being hit will still cause you to recoil. You must have your feet on solid 
+ground to block. The punch meter does not rise, and the vulcan and laser do not 
+reload while the guard is held.
+
+
+Gravity:
+
+  Some areas have normal gravity, which means you walk and jump around 
+normally. Some areas are lo-grav, so you can move in any direction with the 
+D-pad, and the jump, dash and shield buttons don't do anything. However, if you 
+plant your feet on solid ground in a lo-grav area, you can use those moves.
+
+
+Power-Ups:
+
+"H" Energy chip
+Recovers two bars of health. That's 20%.
+
+"P" Power chip
+Brings your currently selected weapon one step closer to the next level.
+
+"W" Weapon chip
+Adds a new weapon to your arsenal.
+
+
+Lives:
+
+  If you lose all your energy, fall down a pit, get crushed in an auto-scroll 
+segment, or fail a critical objective, it's game over. You can continue from 
+the last checkpoint 3 times. Checkpoints occur where there are area changes. 
+Most levels have a few.
+
+
+* Option Mode
+
+NAME ENTRY
+
+  As mentioned earlier, the name entry feature is still in Japanese. The hero's 
+name never comes up in the game, however.
+
+MESSAGE: FAST
+         SLOW 
+
+  Controls the automatic speed of the pre-mission and in-game messages. You can 
+always make the pre-mission messages go faster by pushing a button.
+
+SOUND: STEREO
+       MONAURAL
+
+  Controls stereo/mono sound.
+
+CONTROL: TYPE A-D
+
+  There are four available control schemes, including two in which the shoot 
+button always holds the aim steady.
+
+
+* Weapons List
+
+  There are four weapons in the game. Two you start with, and two are found in 
+the missions. They all start at level 1 and can be upgraded twice, by 
+collecting power chips. The number in parentheses is the number of power chips 
+required to upgrade. Picking up a power chip when the selected weapon is at max 
+level does nothing. You can pause the game and cycle the weapons to decide 
+before picking it up.
+
+Punch (start with it)
+
+L1 (5): This is a close range weapon that cannot be aimed. It can be extremely 
+powerful, more powerful than the vulcan because it all comes out at once. The 
+power depends on how high the meter is when you release the punch. This means 
+that rapidly pushing the button releases only weak punches and is a bad idea. 
+At level one, the meter goes up to 50%.
+
+L2 (6): The meter now goes up to about 80%. At this power, the range is 
+increased slightly.
+
+L3 (-): The meter goes to 100%. The punch is huge at this power. This weapon is 
+formidable and should not be underestimated.
+
+
+Vulcan (start with it)
+
+L1 (4): Rapid fire gun that fires in a spread pattern. When the clip (19 shots) 
+is empty it reloads itself after about 1 second. When you shoot a solid 
+surface, the shots bounce off and can hit enemies around corners. This is the 
+basic weapon you will use most often.
+
+L2 (8): The shots are bigger and more powerful. Rate of fire is increased and 
+reload time is reduced. (Slightly.)
+
+L3 (-): Further improvement in size, power, rate of fire and reload time.
+
+
+Missile (Found in Mission 2)
+
+L1 (4): You have 39 missiles which can be fired fairly rapidly. This weapon is 
+somewhat more powerful than the vulcan. You don't get any ammo refill until the 
+next mission, so don't waste them.
+
+L2 (6): The missiles are now homing. They're not very good at hitting small 
+targets though, and they get confused when there are a lot of targets. 
+Basically, they should be saved for bosses.
+
+L3 (-): The missiles can be fired at a faster rate.
+
+
+Laser (Found in Mission 5)
+L1 (3): This fires a focused yellow beam. The laser can only be maintained for 
+about 4 seconds but it recharges quickly. It is superior to the vulcan and does 
+more damage, especially against large opponents because it penetrates and 
+damages multiple locations. However, the beam doesn't reflect like the vulcan 
+shots.
+
+L2 (6): The laser is wider and more powerful.
+
+L3 (-): The laser is now enormous.
+
+
+* Two Endings
+
+  There are two endings for the game, a good one and a bad one. Which one you 
+get depends on what happens at the end of level 5, Twilight Pursuit. That's all 
+I will say.
+
+
+* Mission Walkthrough
+
+Note: The placement and contents of the chests in the levels is predetermined, 
+but some items are dropped by enemies. The exact enemy that drops the item 
+varies, but the item will always be found in the same general area.
+
+
+1. Colony Invasion
+  This level is quite easy and you should take the opportunity to get used to 
+the controls: hovering, dashing, blocking, and holding aim steady. Remember 
+that enemies don't come back after you kill them, so you can take your time and 
+explore. The boss is at the far right and clearly marked on the radar.
+  Power chip locations: On the first large gray block to the right of the 
+starting point there is a chest [1]. Not far to the right of the chest some 
+enemy will drop a chip [2]. There's a chest on the floor under some red 
+machinery farther to the right [3]. The second platform past the red machinery 
+has a chest on it [4], and an enemy containing an energy chip is nearby. Past 
+the next gray block there are a bunch of cannons, two energy chips can be found 
+in nearby enemies. Just before the final gray block that leads to the boss 
+there is a chest on a platform that has the final power chip [5].
+  The boss is a huge engine suspended from the ceiling. It starts near the 
+bottom of the room and gradually moves upwards. It has a smaller, lower section 
+which is destroyed first, and a large upper section. You must destroy both 
+before it reaches the top, or it's game over. It attacks by sending down guns 
+from cables on either side. The guns will be replaced if destroyed so try not 
+to waste too much time on them. Whichever weapon you upgraded in this level, 
+you should use that one against the boss.
+
+2. Orbital Hideout
+  This is a lo-grav level, and the first part is autoscrolling. Not a difficult 
+as it looks, just blast away with the vulcan at approaching missiles and red 
+enemies. Small asteroids can be shot up, but don't get caught behind big ones. 
+No power chips to worry about here, but if you're lucky you may find an energy 
+chip. When you reach the end of this area your boosters cut off.
+  In the second part, if you haven't learned how to hold your aim, now is the 
+time; otherwise you will have a hard time hitting your targets. Watch out for 
+proximity mines, which are red discs on the surface of asteroids. They can be 
+safely detonated by approaching until they are triggered (the top part 
+retracts), then backing off to a safe distance. Be certain to pick up the new 
+weapon on this level.
+  Power chip locations: In a chest on the first large rock beneath you, between 
+two mines [1]. In a chest on a small rock above and to the right of the 
+previous one [2]. In this area, somebody should drop another chip [3]. There's 
+a chest on the large rock below that has an energy chip. The new weapon 
+(missile) is in a chest on a rock that houses a cannon shooting purple blasts 
+[W]. A bit to the right of the new weapon blow stuff up to find an energy chip. 
+A bit more to the right is another chest with a power chip [4]. And around this 
+area someone should drop another power chip [5]. Further on, in front of a 
+purple blaster cannon at the bottom of the screen (the third cannon, right 
+before the boss) is a chest with the last chip [6].
+  At the far right you'll meet the boss. In fact it will start shooting 
+missiles at you before you reach the far right. He has a halo of asteroids 
+spinning around him, some with guns implanted. If you destroy the asteroids 
+more will just come later. Since you don't want to get close, avoid using the 
+punch. Aim carefully and blast away with your missiles, which probably aren't 
+homing yet. Try to make them go between the rocks instead of hitting them and 
+the boss will be dead in no time. If for whatever reason you run out of 
+missiles, just finish the job with the vulcan.
+
+3. Fall of Arc Nova
+  The first part of this level is lo-grav. You will be starting at the upper 
+left and navigating fuel platforms while heading to the lower right. A new 
+enemy here is the homing laser cannon. They take a lot of damage while offering 
+a small target. Even worse, they retract into the platform between shots. The 
+safe way to deal with them is to approach with the vulcan blasting and back off 
+when the laser gets close. This will require several tries before the cannon 
+dies. The big circular fuel tanks can be destroyed, and in some places you need 
+to blow them up to get through. At the lower right you will find a door. Blast 
+it and go through.
+  Power chip locations: One of the cannons on the green platform near the start 
+should drop one [1]. A chest at the upper right on a rock wall [2]. A chest at 
+the left tip of the second green platform [3]. A cannon on the underside of the 
+second green platform has another [4], and there's a chest near number four 
+with the last chip [5].
+  In the second part, the interior of the base, there is normal gravity. You 
+will be navigating a lot of narrow corridors, and banking your vulcan shots off 
+the walls is very useful. (Notice how the surface gets dented up when it gets 
+shot.) Keep an eye out for the little people armed with guns. Unlike in Leynos, 
+you can't kill them just by stepping on them. You will find a needed energy 
+chip a few doors into the base. When you reach the hub at the right end, the 
+gravity disappears and you must fight a trap that has two devices rotating 
+around the sides of the room, shooting beams. Occasionally they line up at the 
+top and bottom and shoot a giant beam between them. I recommend you use the 
+punch and keep nailing one of them. When you kill one, the other will die. The 
+gravity returns to normal, and you can proceed. In the next area, heading left, 
+watch out for the floating round things. They are mines and they hurt. They 
+approach relentlessly and can float through walls. Back up when you need to and 
+keep blasting with the vulcan. Or you can use the punch if you prefer. Make 
+your best effort not to fall down through the holes in the floor because if you 
+make it all the way to the left you will find chests with an energy chip and 
+power chip [6]. On the next floor down there are some spider bots and all the 
+way to the right is an energy chip, in the control room. From the control room 
+you must proceed all the way to the left and drop down to proceed.
+  At this point you must choose which path to take to the bottom of the base. 
+(a) You can head to the right, which takes you through a corridor with soldiers 
+and a zig-zag shaft with mines. This leads to the lower right corner of the 
+base, where there is a chest with a power chip [7]. To proceed to the left, you 
+must dash by flame traps that explode when you get near. Or, (b) you can go 
+down through the two doors to the missile tubes. This will put you in the path 
+of the missiles as they are being launched. It is possible to avoid being hurt 
+if you move in after a missile passes and then start dashing. In a nook about 
+halfway across there is a power chip chest [8]. Proceeding down one level and 
+to the right there is another nook with another power chip [9]. On the next 
+level down, in the middle, there is an energy chip. From this point you can 
+drop down on the right side, which leads to the same place the first path did, 
+or drop to the left, which will let you bypass the flame traps entirely. It is 
+possible to get the items from both (a) and (b), but when you enter the part 
+with the flame traps there's no turning back.
+  Now you need to drop down a long wide shaft, and there will be explosions 
+following you. Halfway down (use your radar) there is a shaft leading to the 
+right that has two chests with power chips [10] [11]. To reach it you must fire 
+your boosters a little before passing the opening and float in. It's easy to 
+screw up. If you miss it, just proceed to the right at the bottom, avoiding the 
+flame traps. Both paths lead to the boss.
+  In the next area, you have two minutes to defeat the boss and destroy the 
+engines. To take the boss out, start by unloading your missiles. They should be 
+at level 2 by now, so you won't need to worry too much about aiming. If he's 
+not dead when you run out, finish him with your other weapons. He only has one 
+attack, launching out his arm. It's easy to dodge, and it's a valid target too. 
+You need to take him out fast, so don't worry about finesse. Now you need to 
+head to the right, then all the way up and to the left to reach the engines. 
+There are four in total. Just bash the part at the bottom with the punch to get 
+it done.
+
+4. In the Atmosphere
+  In the first part of the level, you will be dogfighting enemy suits in 
+lo-grav (free-fall, actually). Every one of the enemies you kill during this 
+part drops a power chip! There are two gray suits, and when one dies another 
+will take its place. The red one won't die, so don't bother with him. It lasts 
+about 30 seconds, so make it count. Use your missiles if you want. You should 
+be able to bag about four chips, or more.
+  For the next part, you can't really do anything. There will be some scenes, 
+then the end of the level.
+
+5. Twilight Pursuit
+  The first part is autoscrolling with the boosters, like in level 2, though it 
+doesn't last long. Avoid the little gray missiles. Soon enough, you'll land.
+  Once on the ground, you'll be up against some heavy equipment as you proceed 
+to the right: tanks, bomber aircraft, and mobile cannons. Don't bother with the 
+bombers unless you have a strong punch. Otherwise, just block. I find it easier 
+to use the punch here. Later on, before reaching some buildings, you'll find a 
+chest with a new weapon, the laser which will be your new best friend [W].  
+Watch out for the pit at the bottom of this area. Falling into it will kill 
+you. 
+  Power chip locations: One of the vehicles you meet before reaching the 
+buildings drops a chip [1]. At some point before reaching the pit one of the 
+vehicles on the platforms should give an energy chip. A power chip will be 
+dropped by a vehicle  in the upper left part of the building [2]. A chest is on 
+the upper level near the front of the building with another [3]. Towards the 
+right end of the pit on the highest platform there's a chest with another chip 
+[4]. One floor down there's a chest with an energy chip, and someone close by 
+should give another power chip [5]. There's a little island in the middle of 
+the pit. You can reach it by jumping and hovering from either side. There's a 
+chest on it with a chip [6]. There's another island to the right of this one 
+with another chip, but it can only be approached from the right [7].
+  When you're done exploring, head through the narrow passage at the right and 
+the music will change. This whole next room is for fighting the boss, but you 
+won't need that much space. If you've upgraded the laser once, this will be an 
+easy battle. You don't need to do a lot of jumping around, so you can stand 
+your ground and block more than in the previous battles.
+  In the next room, there's a chest on an island at the bottom with a power 
+chip [8]. Proceed to the lower right to the exit. The level isn't over yet! 
+Time for the real boss.
+  Now it's lo-grav again. This boss has two mounted turrets shooting at you, 
+and there are also booster suits attacking with well aimed lasers. When you 
+kill the suits, they will be replaced. Regarding each pair of suits, one of the 
+two carries a power chip, and each gun has an energy chip, but you need to 
+catch the chips before they fall. You can try holding your aim up and getting 
+underneath the enemies. You can't keep it up forever, tough. Eventually the 
+shuttle will escape if you don't take out its rockets. The laser is the best 
+weapon for this job. If you fail to kill the shuttle, you will still proceed to 
+the next level. It doesn't affect the gameplay but you will get the BAD ENDING 
+after the last level.
+
+6. Summit Firefight
+  You start out in an autoscroll segment. It's not lo-grav, but auto-dash. The 
+machines that attack you are very tough and the grenades they throw hurt a lot. 
+If you get in front they'll fire lasers, which you can't block because of the 
+dash. Try to focus on not getting hit, because you don't get anything for 
+killing them. Eventually this section will end. Kill a few mobile cannons, 
+which are especially annoying because they're hidden, and enter the facility.
+  It's dark in here and your radar doesn't work. Neither does your punch or 
+laser! You have a light though, which is pointed in the direction of your gun. 
+When you reach a room with a waterfall, you'll be attacked by a giant burrowing 
+centipede. The thing likes to burrow up underneath you, and you can't block its 
+attack. Before you get too excited, you may want to grab the power chip in the 
+chest at the far right of the room [1], though your available weapons may 
+already be fully upgraded. The missiles don't work well if fired haphazardly 
+because they detonate on the body and only the head can be damaged. To do it 
+right, get on one side of the room and get him to chase you across. You should 
+be flying backwards, firing missiles at his head. He will die pretty fast this 
+way. When he's gone, a floor will open up on the left side of the room. Down 
+the hole and to the left is another chest with a power chip [2], and to the 
+right is an energy chip. One of the annoying mobile cannons (they like to jump 
+right on top of you now) should drop another power chip [3].
+  Soon there will be a fork. If you take the (a) upper path and follow it to 
+the right you'll find a bridge. Watch out for the glowing brown orbs; those are 
+mines. You can shoot them. Going up and left will take you to a nook with an 
+energy chip. To the right is a hole with some mines and a power chip [4].  
+Proceed to the upper right to the exit. If you go (b) down instead, and explore 
+to the right you'll find a dead end with an energy chip. All the way down and 
+to the left, you'll reach a couple long pits under a low ceiling. Hovering 
+across the pits takes you to chests with two energy chips and a power chip [5]. 
+Don't fall in the pits. Proceed to the lower right corner to reach the exit. Of 
+course you can explore both paths but this place is annoying and your available 
+weapons are probably maxed out by now. If they are, you should head straight 
+for the exit.
+  Both paths meet up in a sideways shaft, where a drilling machine will chase 
+you to the right. Jump up to the platform at the end. To the left is another 
+power chip chest [6]. All the way up and to the right is another [7]. To find 
+the exit head for the lower right.
+  Once out of there you can use all your weapons again. Now you need to take 
+out all the gun emplacements, which are harmless to you unless you jump into 
+the line of fire. Soon a mobile wing will arrive. He attacks by dropping blue 
+stuff on you, and occasionally coming down to the tracks and ramming you. When 
+he does this, he hurts just by touching you. Jump to avoid it. If you take too 
+long to take out the guns, it's game over, but you should have enough time to 
+handle the boss first. Missiles and lasers work well on him. Once you've 
+wreaked havoc all over the whole place, the mission ends.
+
+7. Soldiers' End
+  You get thrown right into the action here. You will be attacked by little 
+people and all kinds of ragtag vehicles, but they are more agressive than 
+before. You may wish to rise above and blast down with the vulcan to start out. 
+They are really much more dangerous than they look, so proceed with caution. 
+Continuing to the right, you should find five power chips, more or less evenly 
+spaced, from killing enemies [1] [2] [3] [4] [5].
+  The next area is more of the same, but now they like to come from behind as 
+well. You'll find two more power chips [6] [7], but no energy chips. There's no 
+reason why all your weapons shouldn't be maxed out by now.
+  Boss time. He shoots bullets from his gun, and has two satellites that also 
+shoot bullets. He also uses an unblockable shoulder rush when on the ground. 
+Each satellite drops an energy chip when killed, so you may want to go for them 
+first. Also, your booster won't overhead for this battle, so you can use the 
+whole room to dogfight. You can use this to your advantage, because he can only 
+fire his gun horizontally. I know of a couple cheap tricks: get him to stand on 
+the stairs facing the middle of the room and fire up at him from ground level, 
+or get him underneath the stairs and fire down from above. Stick to the laser 
+or vulcan here. Once he's done there will be another scene, then more action.
+  In this auto-scroll, auto-dash segment, you will be attacked by hovercraft, 
+some of which conveniently leave energy chips. Stay facing to the right, so you 
+can blast the closing doors instead of crashing through them. Heads up when the 
+explosions start, because you need to jump over all the holes that appear. Now 
+another boss. You're still auto-dashing and you need to avoid the obstacles. He 
+attacks by shooting lightning at your position every couple of seconds. Try to 
+time your jumps so the lightning misses every time. Use the laser for this one 
+and keep it pointed horizontally. Just before the exit, you'll find two energy 
+chips.
+  Last boss. Lo-grav. He has several parts: A cannon near the bottom, a 
+swinging arm, and the jet thruster area at the bottom. That cannon's got to go 
+first. Ignore everything else and watch the cannon's timing. Blast it when it's 
+not firing, and dodge when it is. When it dies it drops an energy chip so try 
+to catch it. Fire UP at the cannon so the chip falls on you. Once the cannon's 
+dead, the chin and forehead will start shooting homing fireballs. But don't go 
+up there yet. You can hit the jets and the arm from complete safety. The arm 
+shoots non-homing fireballs once it breaks, so don't kill it yet if you'd 
+rather deal with the punches. To attack the chin, move up, fire at it, then 
+retreat down before you get hit. Repeat. It'll die. At this point the mouth 
+shoots a big laser periodically, which can reach almost to the bottom. To hit 
+the forehead/mouth, it's better to stay near the top and dodge carefully. Start 
+moving right before the fireballs zoom toward you and you should avoid them. 
+Once he's dead, you've finished the game.
+
+
+* Closing
+
+  This document is my own work. Any questions, comments, corrections or 
+complaints should be addressed to the address below, with clear indication in 
+the subject line that the email is concerning this FAQ. 
+  Given that I prefer to write for obscure titles, I enjoy hearing from people 
+who read my guides. If you've played the game and used the FAQ, feel free to 
+drop me a line and tell me what you think.
+
+dammit9x at hotmail dot com

@@ -1,0 +1,37 @@
+Character responds once per 4 frames.
+ESP selector responds once per frame.
+Max rate of fire is once per 8 frames.
+Screen crash makes the action freeze for 10 frames.
+Some enemies have 16 frames of invulnerability but some don't, including bosses.
+
+Memory addresses
+
+C930  boss HP
+DE02  walking/running flag
+DE03  standing/jumping flag
+DE07  walk till this reaches 0xb to start running
+
+DF10  your HP  (max=80)
+DF12  your ESP (max=80)
+
+Small health or ESP refills 4/16 bar.
+
+ESP power levels (max=5)
+DF14  Restarter (cost=2/16)
+DF15  Ice shot
+DF16  Flight (cost=1/16)
+DF17  Sound shot
+DF18  Regular shot
+DF19  Flame shot
+DF1A  Screen crash (cost=3/16)
+DF1B  Spark shot
+DF1C  Shield (cost=3/16)
+
+Boss starting HP
+Plains boss: 200
+Volcano boss: 160
+Icefield boss: 80
+Ruins minibosses: 50
+Ruins boss: 80
+Fortress dome minibosses: 200
+Fortress stage red minibosses: 128

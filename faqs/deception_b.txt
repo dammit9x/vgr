@@ -1,0 +1,983 @@
+Tecmo's Deception - Invitation To Darkness spoiler-free walkthrough (PSX)
+August 13, 2007 v1.0
+dammit9x at hotmail dot com
+
+Copyright 2007
+
+    This document may be not be reproduced under any circumstances except for 
+personal, private use. It may not be placed on any web site or otherwise 
+distributed publicly without advance written permission. Use of this guide on 
+any unauthorized web site or as a part of any public display is strictly 
+prohibited and a violation of copyright.
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1) WALKTHROUGH
+2) CHARACTER LEVELS
+3) TRAPS
+3.1) CAPTURE TRAPS
+3.2) DESTROY TRAPS
+3.3) CONFUSED TRAPS
+3.4) TRAP DEVELOPMENT
+4) MONSTERS
+4.1) DAMAGE MONSTERS
+4.2) CONFUSE MONSTERS
+4.3) MONSTER DEVELOPMENT
+5) ITEMS
+5.1) USABLE ITEMS
+5.2) TREASURE ITEMS
+5.3) KEY ITEMS
+6) BONUSES
+6.1) AVAILABLE BONUSES
+6.2) KILL OR CAPTURE?
+7) MASKS
+8) BODY COLLECTING
+9) ENDINGS
+--------------------------------------------------------------------------------
+
+1) WALKTHROUGH
+  The objective of each chapter is typically to eliminate the invaders, who 
+appear in one or more battles. As such, the walkthrough is mainly a list of each
+battle and the invaders in each battle. The procedure for defeating invaders is 
+always the same, and usually no discussion is necessary for individual battles. 
+When other objectives must be completed, they are described in the notes section
+afterward.
+  This walkthrough is free of spoilers; thus names that might be spoilers are 
+replaced with ???
+  Some invaders display stereotyped behaviors that are noted beside the 
+invader's name and described below:
+
+Instant escape
+  When these invaders see you, they disappear immediately. It is possible (but 
+difficult and unnecessary) to kill or capture them with traps and monsters while
+remaining out of sight.
+
+Front door escape
+  When these invaders see you, they head to the front doors and leave the 
+castle. These invaders move counterclockwise along the wall of the entrance 
+room, making it somewhat easy to catch them with traps.
+
+Cannot get capture credit
+  If you capture them, you won't get capture credit. However, you can kill them 
+and get kill credit. Thus it is possible to get the genocide bonus but not the 
+capture bonuses.
+
+****************************************
+    Chapter 1: THE MASTER
+
+1 invader:  Ardebaran  Builder
+
+2 invaders: Indorigo   Soldier
+            Doneal     Merchant
+
+Key item:   Skull Key
+            Contract
+Body collecting: no
+
+Notes:
+  Talk to the soldier and go through the doors.
+  Follow the soldier to the dining room. This is optional and causes Ardebaran 
+to disappear and Doneal to appear. Doneal is the only invader in the game who is
+not hostile and doesn't try to escape.
+  Go to the den and activate the traps in the order shown on the door. Go to the
+prison and get the Skull Key. Unlock the door in the entrance hall and go 
+upstairs. Go to the living room and battle Ardebaran. For this battle the traps 
+are unlimited.
+  Go to the Demon Gate (strategy room) and get briefed. For the next battle you 
+can reuse the leftover traps in the living room or lay new ones. From now on you
+may lay traps in Power Rooms also. (For this chapter only, you get free access 
+to Volt Cages.)
+  Go south back toward the elevator to trigger the Indorigo battle. You may also
+battle Doneal downstairs (if he is there).
+  After Indorigo is defeated, going back to the Demon Gate ends the chapter.
+
+****************************************
+    Chapter 2: THE TRIAL
+
+2 invaders: Jin        Soldier
+            Scuba      Archer
+
+1 invader:  Dairos     Soldier
+
+2 invaders: Dan        Pirate
+            Madamia    Pirate
+
+1 invader:  Saizo      Ninja
+
+1 invader:  Henry      Merchant
+
+Key item:   SavePoint
+Body collecting: yes
+
+Notes:
+  The east door in the entrance room gets unlocked before the third battle.
+
+****************************************
+    Chapter 3: SOULS ESSENCE
+
+3 invaders: Jack        Hunter
+            Grand       FateMaker
+            Lou         Gem Guard
+
+Body collecting: yes
+
+****************************************
+    Chapter 4: AN UNHOLY OFFERING
+
+2 invaders: Kain        Soldier         instant escape
+            Pat         Ninja
+
+1 invader:  Coolbou     Gem Guard
+
+Key item:   EvilJewel
+Body collecting: yes
+
+Notes:
+  After the second battle, get the EvilJewel from the fireplace in the 
+downstairs living room.
+
+****************************************
+    Chapter 5: MESSENGER
+
+2 invaders: Karbados    Hunter
+            Haya        Ninja
+
+Body collecting: yes
+
+Notes:
+  Go to the entrance and recieve the letter. Afterwards the battle begins.
+
+****************************************
+    Chapter 6: OLD MAGICIAN
+
+3 invaders: nameless    Magic Doll
+            nameless    Magic Doll
+            nameless    Magic Doll
+
+2 invaders: nameless    White Ant
+            nameless    White Ant
+
+1 invader:  nameless    Queen Ant
+
+1 invader:  Doks        Wizard
+
+Key item:   Mask
+Body collecting: no
+
+Notes:
+  The door to the small upstairs room is now unlocked. After this mission, you 
+may start taking captured victims prisoner.
+
+****************************************
+    Chapter 7: FIANA
+
+1 invader:  Gilbert     General
+
+Key item:   EvilCrown
+
+Body collecting: no
+
+Notes:
+  Go to the entrance and talk. You may take Fiana to various rooms. The battle 
+is triggered by taking her to the upstairs power room. After the battle go back 
+to the upstairs power room.
+
+****************************************
+    Chapter 8: THE RESURRECTION
+
+1 invader:  Wizbone     Wizard
+
+Body collecting: yes
+
+Notes:
+  The dialog choice at the beginning doesn't matter. You must build a bedroom 
+somewhere downstairs to proceed. From now on you can build bedrooms.
+  If you finish the battle within 2:00 of when it begins, go to the downstairs 
+power room to finish the chapter. This puts you on track for the "good" endings.
+  If you take longer than 2:00, the battle starts over. When it's finished, go 
+to the demon gate. Choosing the first dialog option gets you the She-Death 
+monster. Either way you are on track for the "bad" endings.
+
+****************************************
+    Chapter 9: A FRIEND
+
+1 invader:  Erious      Swordsman       cannot get capture credit
+
+Body collecting: yes
+
+Notes:
+  The invader doesn't move from his initial position until he sees you.
+
+****************************************
+    Chapter 10: FINAL SHOWDOWN
+
+3 invaders: Iria        Psychic
+            Jessica     Psychic
+            Sarah       Psychic         front door escape
+
+Body collecting: yes
+
+****************************************
+    Chapter 11: SPIES
+
+3 invaders: Kelvin      Trap Pro
+            Fubuki      Ninja
+            Casta       Ninja           front door escape
+
+Body collecting: yes
+
+****************************************
+    Chapter 12: GHOST
+
+2 invaders: ???         ???
+            ???         ???
+
+Body collecting: yes
+
+****************************************
+    Chapter 13: CAVALRY
+
+4 invaders: Takeshi     Cavalier
+            Baccas      Cavalier
+            Noirart     Cavalier
+            Galic       Cavalier
+
+4 invaders: Regls       Cavalier
+            Wassarf     Cavalier
+            Longe       Cavalier
+            Gaurl       Cavalier
+
+3 invaders: Londo       Cavalier
+            Zone        Cavalier
+            Gaplas      Cavalier
+
+Key item:   EvilSword
+Body collecting: yes
+
+Notes:
+  Londo cannot be captured at all.
+
+****************************************
+    Chapter 14: AGAINST ALL HOPE
+
+4 invaders: Zine        Digger
+            Dogole      FateMaker
+            Asher       Soldier
+            Kyuler      Bomb Pro
+
+Body collecting: yes
+
+****************************************
+    Chapter 15: THE AWAKENING
+
+1 invader:  Alkeny      Cleric          instant escape
+
+1 invader:  Alkeny      Cleric          cannot get capture credit
+
+Body collecting: yes
+
+Notes:
+  It is possible to defeat the invader in the first battle without being seen, 
+but the result is the same.
+
+****************************************
+    Chapter 16: NECKLACE
+
+2 invaders: Bonbon      Pirate
+            Dacca       Merchant
+
+Key item:   Necklace
+Body collecting: yes
+
+Notes:
+  After the battle, check the ceiling of the downstairs hall. Set any trap on 
+the second floor, on the tile directly above the item. Trigger the trap and get 
+the item on the first floor.
+
+****************************************
+    Chapter 17: THE OPPRESSED
+
+1 invader:  Gaza        Ninja
+
+Key item:   Hourglass
+Body collecting: yes
+
+Notes:
+  You may pick up the items dropped in the entrance room at your liesure. 
+Unlike moneybags, they won't disappear.
+
+****************************************
+    Chapter 18: ULTIMATE SACRIFICE
+
+2 invaders: Geraldine   General
+            Ihito       Wizard
+
+Body collecting: yes
+
+****************************************
+    Chapter 19: CRISIS
+
+1 invader:  Shadow      General         instant escape
+
+2 invaders: Godus       General
+            Guile       General
+
+1 invader:  Shadow	General
+
+Key item:   DevilCane
+Body collecting: yes
+
+Notes:
+  Defeating the invader in the first battle without being seen obviates the 
+other two battles, though this is not really worth the trouble.
+
+****************************************
+    Chapter 20: AMBITION
+
+4 invaders: Jim         Soldier
+            Keen        Archer
+            Kufu        Digger
+            Neil        Archer
+
+4 invaders: Max         Cavalier
+            Brown       FateMaker
+            Zanzibal    Ninja
+            Lood        Hunter
+
+Body collecting: yes
+
+****************************************
+    Chapter 21: CONFUSION
+
+2 invaders: Als         Soldier
+            Mimi        Royal Maid      front door escape
+
+Body collecting: yes
+
+Notes:
+  Go to the downstairs jail to begin the battle. To avoid being caught in the 
+cage, you may clear it ahead of time in the trap-laying screen.
+
+****************************************
+    Chapter 22: EVIL DECISION
+
+2 invaders: Erios       Swordsman
+            Alkeny      Cleric
+
+1 invader:  Bangel      Sorcerer
+
+Body collecting: no
+
+Notes:
+  You defeat only one of the first two invaders (your pick). Go to the 
+downstairs prison after the second battle.
+
+****************************************
+    Chapter 23: ETERNAL DARKNESS
+
+1 invader:  Shelling    Swordsman
+
+Key item:   DemonHorn
+Body collecting: no
+
+Notes:
+  Enter the small upstairs room and then the teleport. You have 2:00 from the 
+time you enter the portal to complete the mission.
+  If you run out of time, reenter the portal and resume the battle, with another
+2:00 limit. Repeat as necessary. You may need to visit the strategy crystal in 
+the north part of the castle.
+  Go to the demon gate after the battle.
+
+****************************************
+    Chapter 24: UNCERTAINTY
+
+2 invaders: ???         ???
+            ???         ???             instant escape
+
+Body collecting: no
+
+Notes:
+  Go to the Demon Gate after the battle.
+
+****************************************
+    Chapter 25: TWILIGHT OF THE GODS
+
+1 invader:  ???         ???             instant escape
+
+1 invader:  ???         ???
+
+1 invader:  ???         ???
+
+Body collecting: no
+
+Notes:
+  The second battle ends after you do any damage to the invader.
+  Go to the Demon Gate after the last battle.
+
+****************************************
+    Chapter 26: THE FINALKEY
+
+1 invader:  ???         ???
+
+Body collecting: yes
+
+Notes:
+  Go to the hallway and then the door on the right to begin. This battle only 
+occurs if you choose the "resurrect" dialog option, and affects the end of the 
+game.
+  You may visit the strategy crystal as in chapter 23, but this time there is 
+no time limit.
+
+****************************************
+    Chapter 27: APOCALYPSE
+
+2 invaders: ???         ???
+            ???         ???
+
+1 invader:  ???         ???
+
+Notes:
+  The first battle only occurs if you choose "lock in" at the dialog option. You
+only fight one of the invaders, who can only be defeated by the Banish trap.
+  The second battle only occurs if you choose "resurrect" in this chapter and 
+chose "lock up" in chapter 26.
+--------------------------------------------------------------------------------
+
+2) CHARACTER LEVELS
+  When the character accumulates enough experience from defeating invaders, his 
+level rises and the stats Skill, Def., vsMgc, and Heal each go up 1-3 points 
+randomly. (The most important of these is Skill.) For levels 2-10, new abilities
+are learned as well.
+  The amount of experience required for the level-up is deducted from the total;
+thus the actual required experience is greater than it appears. Defeating 
+invaders with capture or kill traps is the only way for the character to get 
+experience; when an invader is killed by a monster, all of the experience goes 
+to the monster.
+
+Level   Req. exp   New skill
+ 1          0
+ 2         30      Trap: DazingFog
+ 3         40      Trap: Bear Trap
+ 4         50      Trap: Bucket
+ 5         60      Trap: Magnet
+ 6         70      Trap: Stomp
+ 7         85      Monster: Foul
+ 8        100      Monster: Golem
+ 9        115      Monster: Graviton
+10        135      Monster: Red Dragon
+11        155
+12        175
+13        195
+14        215
+15        245
+16        275
+17        305
+18        335
+19        375
+20        415
+--------------------------------------------------------------------------------
+
+3) TRAPS
+  Defeating invaders is the principal objective of the game, and traps are the 
+primary method of defeating invaders. Traps may be laid in the strategy session 
+before every battle, at the crystal in the demon gate, or at power rooms.
+  A latent trap is indicated in the 3D environment by a red arrow pointing 
+toward the ceiling, floor, or wall, depending on where the trap comes from. 
+When an invader approaches the trap, the arrow spins and a beep sounds. The 
+closer the invader is, the faster the spinning and beeping. To activate a trap, 
+point the view of the character to the arrow, with no doors or walls in the way,
+and press circle. (The exception is the Banish trap.) If an invader is in range,
+he will either be caught or escape, depending on the trap's Success%, the 
+invader's defense, and the character's Skill rating. Only one trap or monster 
+animation may be in progress at a time.
+  Traps may have three effects on invaders: Confused traps cause the target to 
+wander dazed for a number of seconds. Destroy traps cause damage to invaders, 
+and also daze them. Capture traps hold invaders for a certain amount of time. 
+Approaching the victim during this time initiates the capture sequence: if the 
+green bar is depleted before the victim breaks free from the trap, he will be 
+captured and his fate will be up to you. The time required to capture is reduced
+by damaging the invader before attempting the capture. The character is immobile
+and defenseless during capture attempts; however, the sequence can be broken off
+by pressing triangle.
+  For the purposes of defending against them, there are two types of traps: Atc.
+and Mgc. The stats under the invader's Trait column pertain to Atc. and those 
+under Magic are for Mgc. traps. The four defense stats, Agil, Def., Evade% and 
+Wisdom range from 1 to 10 and presumably reduce the capture time, damage, chance
+of getting caught, and confusion time of traps and monsters.
+
+Rk (Rank)      overall effectiveness of the trap
+Sz (Size)      space required to lay the trap, where the area is 2 x Sz for wall
+               traps, or Sz x Sz for others
+MP             cost in MP to lay a trap; this is not refunded for canceled traps
+S% (Success%)  determines the chance that the trap will catch the invader and 
+               not be dodged; this is not an actual percentage
+HS (Hold sec.) number of seconds a capture trap holds an invader; this time is 
+               reduced for stronger invaders
+Pw (Power)     determines the damage that a destroy trap deals to the invader
+CS (Conf.sec.) number of seconds a confused trap dazes an invader
+Du (Duration)  number of times the trap can be engaged; when the duration 
+               reaches 0 or the trap succeeds, the trap disappears
+
+3.1) CAPTURE TRAPS
+Rk   Name    Sz    MP  S%  HS Du  In-game description
+Atc. Floor
+C  Bear trap  3   200   2   3  2  Will pinch the legs of its victim.
+B  Vacuum     3   350   4   5  2  Sucks victims into the floor.
+A  Ice Trap   5   550   6   7  2  Yeilds an icy pinch to the legs of victims.
+
+Atc. Ceiling
+C  CopperCge  3   250   2   6  1  Falls from ceiling to trap all victims.
+B  Jail Cell  5   450   3  12  1  The weak can't escape from this cage.
+A  Volt cage  5   650   5  18  1  Zaps any victim that dares to escape.
+
+Mgc. Ceiling
+C  Crane      3   200   2   4  1  It's hooks grasp and lift victims.
+B  FastCrane  3   350   4   6  1  This crane spins a victim at high speed.
+A  Ice Crane  5   500   6   8  1  This crane freezes its victim solid.
+
+Mgc. Wall
+C  Magnet     3   250   3   5  2  Victims are pulled to the Underworld.
+B  Hand       5   450   5   8  2  A hand from beyond this world will grasp prey.
+A  Volt Hand  5   700   7  12  2  Shocks its victim with electricity.
+
+Mgc. Floor
+-  Banisher   7  1500  10  21  1  Magic users are sent to another world.
+
+  The Banish trap is unusual in that it triggers automatically when an invader 
+comes within range. It works only on these invaders: Wizard, Gem Guard, Cleric, 
+Witch, Sorcerer and Trainer. Banish is acquired at the end of chapter 26.
+
+3.2) DESTROY TRAPS
+Rk   Name    Sz    MP  S%  Pw Du  In-game description
+Atc. Wall
+C  Spike      3   100   7  15  2  Comes out of a wall to spear its victim.
+B  PoisonRod  3   150   8  25  3  Poison tips transmit a venemous blow.
+A  FireSpike  5   300  10  40  3  Uses fiery blades to skewer its victim.
+
+Mgc. Floor
+C  Pit        3   200   6  20  1  Floor opens to drop a victim deep below.
+B  FloorLift  5   300   7  35  1  Floor rises up to crush victim on ceiling.
+A  PoisonPit  5   500   9  50  1  Drops prey into some slow acting poison.
+
+Atc. Ceiling
+C  TonWeight  3   200   4  25  1  Crush a victim with this heavy iron block.
+B  MetalBall  5   300   5  40  1  This ball bounces up and down forcefully.
+A  Fire Bomb  5   500   7  60  1  Flames leap from floor to engulf victim.
+
+Mgc. Ceiling/Floor
+C  Stomp      5   250   4  30  1  Giant foot stomps the victim into the ground.
+B  PoisonToe  5   400   5  50  1  Poisons the victim as it stomps on him.
+A  Fire Foot  5   550   6  80  1  Burns the victim with its blazing step.
+
+3.3) CONFUSED TRAPS
+Rk   Name    Sz    MP  S%  CS Du  In-game description
+Atc. Ceiling/Floor
+C  Bucket     3    50   7  10  1  This falls to make one temporarily dizzy.
+B  Gold Tub   3   100   7  16  1  Falls on victim to confuse him.
+A  FloorSpin  5   250   8  32  1  This floor spins to disorient the victim.
+
+Mgc. Ceiling
+C  DazingFog  3    50   7  10  1  Victim is dazed by this magic fog.
+B  InsaneGas  5   100   7  16  1  Victim goes insane when he smells this gas.
+A  Mind Kill  5   250   8  32  1  Flash of Demon light makes one insane.
+
+3.4) TRAP DEVELOPMENT
+  After chapter 13 you may upgrade your traps in the Develop menu. After 
+upgrading you may still use the weaker ranks. Each upgrade costs a certain 
+amount of gold, shown below. It is possible to perform all the upgrades at once 
+if you have the money.
+
+Capture traps        Destroy traps        Confused traps
+
+Vacuum     1500      PoisonRod  1500      Gold Tub   1000
+Ice trap   3000      FireSpike  3500      FloorSpin  2000
+
+Jail Cell  4000      FloorLift  2000      InsaneGas  1500
+Volt Cage  5000      PoisonPit  4500      Mind Kill  2500
+
+FastCrane  3500      MetalBall  3500
+IceCrane   5500      Fire Bomb  5000
+
+Hand       4000      PoisonToe  3500
+Volt Hand  6500      Fire Foot  5500
+--------------------------------------------------------------------------------
+
+4) MONSTERS
+  Monsters serve as a convenient, powerful, and reliable but costly supplement 
+to traps in your arsenal against invaders. Monsters are constructed from the 
+bodies of captured prisoners and require a number of block orbs to be summoned. 
+Available monsters are listed in and called from the monster menu in the 
+subscreen.
+  Once called, they attack nearby enemies, either dealing damage or confusing 
+them. (Unlike destroy traps, damage monsters do not daze their targets.) Monster
+attacks may be either Battle (single target) or Area (all nearby targets). As 
+with traps, monsters are classed as either Atc. or Mgc.
+  Only one trap or monster may be active at once. Furthermore, monsters require 
+a certain amount of space around the character to be summoned. The largest 
+monster, the dragon, is so large that it can effectively be summoned only in the
+entrance room. Monsters will fail to acquire their targets when space is cramped
+or the invaders are too far away.
+  Monsters gain experience whenever they perform a successful attack, and will 
+rank-up when enough is accumulated. If the monster kills an invader, the monster
+gets the experience instead of the character. This should be avoided, as the 
+supply of invaders is limited, and defeating them is the only way for the 
+character to gain experience points. Also beware that if the monster outranks 
+the killed invader, very little experience will be gained.
+
+Rank       overall effectiveness of the monster
+Orbs       number of power orbs required to summon the monster
+Power      determines the damage that a monster deals to the invader
+Conf.sec.  number of seconds a monster dazes an invader
+Spd.       determines the chance that the monster will hit the invader and not 
+           be dodged
+Exp.       experience points required to reach the given rank; as with the 
+           main character, a monster's exp. drops to 0 when leveling-up
+
+4.1) DAMAGE MONSTERS
+Rank   Name    Orbs  Power  Spd.   Exp.    In-game description
+
+Atc. Battle
+C    Zombie      2     20     20      0    Will bite and chew a human's flesh.
+B    Ghoul       3     35     20     15    Mighty zombie eats human flesh.
+A    Dead King   4     50     40     90    Zombie King has a truly cursed power.
+
+Atc. Battle
+C    Werewolf    3     35     60      0    Shreds its prey with his fangs.
+B    Gaze Wolf   4     55     70     20    King of werewolves.
+A    Herker      5     70     90    120    Gores prey with his fiery tusks.
+
+Mgc. Battle
+C    Lami        3     40     40      0    Takes power with his magic tail.
+B    QueenLami   4     60     55     25    She Steals a victim's life.
+A    NagaQueen   5     80     70    130    Sucks the life from her prey.
+
+Mgc. Battle
+C    She-Death   4     45     90      0    Fiana has returned as a Zombie.
+B    She-Devil   5     65     95     25    Zombie of Fiana chops her victims.
+A    Demoness    6     85    100    150    The final mutation of Fiana.
+
+Atc. Battle
+C    Golem       3     60     10      0    Tremendous strength, but slow.
+B    Big Golem   4     80     15     18    Possesses a destructive force.
+A    GigaGolem   5    100     20    100    He crushes anyone in his path.
+
+Mgc. Area
+C    Graviton    3     50     30      0    Alters gravity to crush prey.
+B    Megatron    4     65     40     25    He kills with raw power.
+A    Deathtron   5     80     50    140    Brings ruin to all he encounters.
+
+Atc. Area
+C    RedDragon   5     80     10      0    Blows fire to destroy victims.
+B    ArcDragon   6    110     20     40    King of all the dragons.
+A    GemDragon   7    140     40    200    The most powerful monster.
+
+4.2) CONFUSE MONSTERS
+Rank   Name   Orbs Conf.sec. Spd.  Exp.    In-game description
+
+Mgc. Battle
+C    Phantom     2     20     25      0    Confuses prey with lantern.
+B    DkPhantom   3     25     35     15    A Ghost from the Underworld.
+A    SoulEater   3     30     60     90    He feeds on human's souls.
+
+Mgc. Area
+C    Foul        3     20     50      0    Bad breath sickens victims.
+B    Shadower    3     30     65     25    His breath makes prey insane.
+A    Chaos       4     40    100    130    Blows the devastating Chaos wind.
+
+4.3) MONSTER DEVELOPMENT
+  After chapter 6 you may begin imprisoning invaders and the develop menu 
+becomes available. To imprison an invader, defeat him with a capture trap, 
+choose the third option to keep the body, then drop it off at the upstairs or 
+downstairs prison. Up to three bodies can be toted at once, indicated by coffin 
+symbols, and the mission cannot end until all bodies are deposited.
+  Each monster has the following body requirements:
+
+Zombie      1 Cleric, 1 Soldier, 1 Pirate
+Werewolf    1 Trap Pro, 1 Hunter, 2 Ninjas
+Lami        2 Psychics, 2 Witches, 1 Messenger
+Golem       1 General, 2 Cavaliers, 1 Fate Maker, 2 Merchants
+Graviton    2 Diggers, 1 Alien
+RedDragon   2 Generals, 3 Fate Makers, 2 Bomb Pros, 1 Sorcerer
+Phantom     1 Wizard, 1 Cleric, 1 Archer
+Foul        1 Magic Doll, 1 Pirate, 1 Ninja, 1 Carpenter
+
+She-Death   This monster is not made through the development menu. To get 
+            She-Death, take longer than 2:00 in the chapter 8 battle, then 
+            choose the first dialog option at the end of the chapter.
+--------------------------------------------------------------------------------
+
+5) ITEMS
+  Items do not play a large role in this game. Useful items are sometimes 
+dropped by defeated invaders, and some basic items can be bought from merchants,
+but the only item which you will want to buy in large quantities is the block 
+orb. To trade with a merchant, get close and press the X button. You may have to
+avoid his attacks while doing this.
+
+5.1) USABLE ITEMS
+  The following items are used from the item menu, except for Block Orbs, which 
+are used by summoning monsters. The function of most of them is given by the 
+in-game description.
+
+Item name   Sell price   In-game description     Note
+Herb             70      Recovers 20 HP
+Nectar          420      Recovers 50 HP
+Restore         700      Recovers all HP
+MP Gain         210      Gain 500 MP
+Amulet         2800      Gain 5000 MP
+Antidote        210      Removes poison
+Sanity          280      Cures Insanity
+Cure            630      Cures all ailments
+DarkStone      3500      Recover HP              full heal; reusable; may break
+Skill Gem      1400      Skill raised +5         permanent +5 Skill
+Mantle         1960      Magic guard up          permanent +5 vsMgc
+Armor Gem      2100      Defense raised +5       permanent +5 Def.
+Speed Gem      1050      Agility raised
+Shoes          1750      Agility increased
+Block Orb     -----      Monster releaser        can't be sold; buy price is 300
+
+5.2) TREASURE ITEMS
+  The following items are not used for anything other than selling. The letter, 
+however, can be read.
+
+Item name   Sell price   In-game description
+Old Book       5600      Mystical tome
+Tiara          6300      Priceless treasure
+Talisman       7700      An evil deterrent
+Earring        8400      Of evil legend
+Chalice       10500      From the ruins
+Mirror        10500      Royal relic
+Letter        16800      Fiana's letter
+
+5.3) KEY ITEMS
+  The following items can neither be used or sold. They are required to advance 
+the story and will stay in your inventory until the end of the game.
+
+Item name   Sell price   In-game description     Note
+Skull Key     -----      Opens the Skull Way
+Contract      -----      Castle Deed
+SavePoint     -----      Creates a Save Point    actual purpose unknown
+EvilJewel     -----      Diabolic object
+EvilCrown     -----      Of Dark royalty
+Mask          -----      Control a monster
+EvilSword     -----      Ominous weapon
+Necklace      -----      Mystic jewels
+Hourglass     -----      Effect unknown
+DevilCane     -----      An unholy item
+--------------------------------------------------------------------------------
+
+6) BONUSES
+
+6.1) AVAILABLE BONUSES
+  At the end of every chapter and body collecting session there is a bonus of MP
+based on your performance. The bonuses are detailed below:
+
+END OF INVADERS
+GENOCIDE BONUS          400  x # of invaders, if all killed
+CAPTURE BONUS           600  x # of invaders, if all captured
+DYING CAPTURE BONUS     1000 x # of invaders, if all captured at low health (*1)
+NO BONUS                0, if no invaders defeated or other combination
+
+RESULTS OF PLAYER
+Clear Time:
+CLEAR TIME BONUS        720 x # of invaders - 2 x minutes elapsed (*2)
+
+Trap Success rate:
+NO BONUS                0, if no traps used successfully
+PERCENT BONUS           1500 x trap success rate, if < 100% (*3)
+PERFECT BONUS           3000, if 100%
+
+Damage Point:
+DAMAGE Point BONUS      1000 - 10 x damage taken, if hurt (*4)
+NO DAMAGE BONUS         2500, if unhurt
+
+Unused traps:
+Trap repayment          Half value of unused traps (*5)
+
+*1  If some invaders are captured when they are very weak, but others are 
+captured strong, you still get the regular capture bonus. Consider the dying 
+capture bonus an upgraded capture bonus. Typically it is hard to get with more 
+than one invader.
+
+*2  In order to get a time bonus, you must average less than 6 hours per 
+invader.
+
+*3  A trap is counted as a failure if the invader escapes the trap, or if it 
+misses completely. The failure is still counted even if a subsequent attempt 
+with the same trap succeeds. However, a capture trap that grabs the invader but 
+fails to capture counts as a success.
+
+*4  Damage taken is still counted against this bonus even if it is healed before
+completing the battle.
+
+*5  If an invader is killed by a destroy trap and the death ends the mission, 
+that trap is counted as unused, because the animation was incomplete when the 
+mission ended.
+
+6.2) KILL OR CAPTURE?
+  In every battle you must decide how to dispatch the invaders: either kill them
+with destroy traps and monsters, or capture them with capture traps. By killing 
+all or capturing all the invaders in a mission you recieve the genocide or 
+capture bonus, respectively.
+  The capture bonus is 1.5 times greater, but it is harder to achieve because 
+capture traps have lower success rates and capturing leaves you vulnerable to 
+other nearby invaders. Capturing gives you a choice between MP, gold, or (beyond
+chapter 6) taking the victim prisoner. Most invaders leave about twice as much 
+MP as gold; however, it should never be necessary to choose the MP over gold, 
+because a competently played level should yield far more in MP bonuses than was 
+spent laying traps. Thus there should be no real risk of runnning out of MP, 
+leaving you free to focus on financing expensive monsters, should you choose.
+  A dead invader only leaves gold, in the form of a moneybag. Moneybags must be 
+picked up within 1 game hour; if killing the last invader ends the battle, you 
+will have to seek out the bag at the beginning of the next chapter or body 
+collecting session to get your money.
+  If there are more than one or two invaders, it's better to go for the 
+genocide bonus unless you want to keep the bodies. This is because trying to 
+capture results in more failed traps, more time taken, and more damage taken, 
+thus reducing the benefit of the capture bonus.
+  The following summarizes the benefits of each choice:
+
+Kill all
++ genocide bonus (400 each)
++ faster and easier
+- cannot keep bodies
+- inconvenient to get the last invader's gold
+
+Capture all
++ capture bonus (600 or 1000 each)
++ can keep bodies
+- failure-prone traps and greater risk of damage
+- more time-consuming
+
+Kill some, capture some
++ can keep bodies
++ use the most convenient method for each invader
+- no bonus
+--------------------------------------------------------------------------------
+
+7) MASKS
+  After chapter 1, masks are available to use from the menu. When activated for 
+a nominal MP fee, masks may attract or repel invaders for a few seconds. This 
+can be done to lure invaders into nearby traps, to chase them into traps farther
+away, to clear out invaders that are blocking the path, to separate invaders to
+deal with them singly, or to herd them together to hit them with area-effect 
+monsters.
+  In order for a mask to work, the invader must be close enough to hear it, and 
+must be either alert or wandering dazed. Masks won't work if the invader is 
+reeling from a hit (not moving) or in the process of dealing with a trap or 
+monster. Invaders may break attack animation to react if the mask is used early 
+enough. Even under the correct circumstances, masks often don't work. Simply 
+retry until the effect is achieved.
+  The table below shows the effect of all the masks on all of the standard 
+invaders. A + or - signifies attraction or repulsion, and a . means that there 
+is no effect. A ? means that I have observed both attraction and repulsion in 
+different specimens of the same type. (I have assumed that the effect of the 
+mask depends only on the invader type.)
+  A + in the Default column indicates that invaders of this type tend to run 
+toward the character without any encouragement. These are general cases; some 
+invaders encountered during the chapters display different default behavior from
+their generic counterparts.
+
+Mask       Help Cry   NiceLaugh  MeanLaugh  Death Cry      Howl      Default
+MP cost       30         30         50          30          50
+
+Wizard         .          .          +           -           -           .
+Gem Guard      +          -          +           -           -           .
+Cleric         +          .          +           -           -           .
+Psychic        -          +          -           -           -           +
+Swordsman      +          .          .           +           +           +
+Trap Pro       +          +          +           -           -           .
+MagicDoll      .          +          .           -           -           .
+Witch          +          +          +           -           -           .
+Messenger      .          +          .           .           ?           .
+General        .          .          .           .           +           .
+Cavalier       .          +          .           .           +           .
+Digger         .          +          .           .           -           .
+Hunter         .          .          +           +           +           +
+Fatemaker      .          +          .           .           +           .
+Soldier        +          .          +           +           ?           .
+Alien          +          +          +           -           -           .
+Archer         -          +          +           -           -           +
+Pirate         -          +          -           -           -           .
+Merchant       -          +          -           -           -           .
+Ninja          .          .          .           .           ?           +
+Bomb Pro       .          +          .           -           -           +
+Carpenter      +          +          +           ?           -           +
+Sorcerer       +          -          +           -           -           .
+--------------------------------------------------------------------------------
+
+8) BODY COLLECTING
+  After chapter 2, and after most chapters thereafter, you have the option of 
+body collecting. This is an opportunity to battle more invaders in order to gain
+experience, dropped items, and bodies to develop into monsters. When body 
+collecting, you may attempt to lure up to six invaders. Up to four may arrive. 
+(No more than four invaders may ever be present at once.)
+  Some invaders are less likely to be lured than others, with the rarer types 
+being harder to lure. If you are having trouble getting a particular invader to 
+show up, try luring more than one of them, or change the order of invaders in 
+the list.
+  In order for an invader to be available to lure, at least one specimen of that
+type must have been defeated before. This means that some invaders are not 
+available until late in the game, and a couple (Messenger, Alien) would never be
+available. However, luring certain combinations of two invaders incites a third 
+to arrive:
+
+Wizard    + Witch     = Sorcerer
+Wizard    + Messenger = Sorcerer
+Wizard    + General   = Messenger
+Wizard    + Soldier   = Cleric
+Gem Guard + Swordsman = Witch
+Gem Guard + Witch     = Psychic
+Cleric    + Messenger = Carpenter
+Psychic   + MagicDoll = Alien
+Trap Pro  + Ninja     = Bomb Pro
+MagicDoll + Digger    = Alien
+Soldier   + Archer    = Cavalier
+Archer    + Merchant  = Digger
+Pirate    + Merchant  = Carpenter
+Pirate    + Ninja     = Trap Pro
+
+  Since the maximum number of invaders is four, you must lure the two component 
+invaders and no more than one other for the new invader to arrive. The order in 
+which they are lured is insignificant, but if two valid combinations are present
+among three invaders, you may not get the new invader that you wanted. All pairs
+of invaders were tested, so this is all of them.
+--------------------------------------------------------------------------------
+
+9) ENDINGS
+  There are six endings. The one you see depends on the outcomes of three 
+branching points in the story, one in chapter 8 and two just before the end. 
+Although 2 x 2 x 2 = 8, there are only six endings because two are reused.
+  The following table presents, without spoilers, the outcome of each path and 
+shows the duplicates. The names of the endings were made up by myself.
+
++----------------+---------------+---------------+----------------+
+|   Chapter 8    |   Chapter 26  |   Chapter 27  |     Ending     |
+| Wizbone battle | Dialog option | Dialog option |                |
++----------------+---------------+---------------+----------------+
+|                |               |  "Resurrect"  |   Bad ending   |<-----\
+|                |  "Resurrect"  +---------------+----------------+      |
+|                |               |   "Lock in"   |   Sad ending   |      |
+|     > 2:00     +---------------+---------------+----------------+      |
+|                |               |  "Resurrect"  |  Evil ending   |<--\  |
+|                |   "Lock up"   +---------------+----------------+   |  |
+|                |               |   "Lock in"   | Hopeful ending |   |  |
++----------------+---------------+---------------+----------------+   |  |
+|                |               |  "Resurrect"  |   Bad ending   |<-----/
+|                |  "Resurrect"  +---------------+----------------+   |
+|                |               |   "Lock in"   |  Death ending  |   |
+|     < 2:00     +---------------+---------------+----------------+   |
+|                |               |  "Resurrect"  |  Evil ending   |<--/
+|                |   "Lock up"   +---------------+----------------+
+|                |               |   "Lock in"   |  Good ending   |
++----------------+---------------+---------------+----------------+
+
+--------------------------------------------------------------------------------
+
+  This document is my own work. If you've played the game and used the FAQ, feel
+free to drop me a line and tell me what you think.
+  Any questions, comments, corrections or complaints should be addressed to 
+the address below, with clear indication in the subject line that the email is 
+concerning this FAQ. 
+
+dammit9x at hotmail dot com
