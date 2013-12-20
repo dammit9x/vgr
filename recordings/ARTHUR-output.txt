@@ -1,0 +1,2154 @@
+
+Hot key -- Playback on
+Do you want MORE prompts? (y/n) >n
+
+Continue input...
+
+Would you like to restore a saved position?
+Please press Y or N>n
+You are shivering in the cold night air of an English churchyard, unsure of the forces that are driving you on this night of destiny. Here among the gravestones, the most famous sword in all England grows out of a large, oddly-shaped rock. A shaft of moonlight falls upon the magic runes that shimmer in the polished steel:
+
+WHOSO PULLETH OUT THIS SWORD OF THIS STONE, IS RIGHTWISE KING BORN OF ALL ENGLAND.
+
+The local chieftain, King Lot, has declared a curfew, and you know that even a boy such as yourself would be thrown in prison should you be caught by his soldiers. Yet you have come anyway, irresistibly drawn by this sword of mystery. Noblemen from far and wide have tried and failed to draw the sword from the stone, yet something inside urges you to try.
+
+Slowly you approach the sword. Driven by some inner force, you clasp your hand around the hilt. The two seem made for one another. You pull. Nothing happens. You strain harder. The sword gives a little, and then....
+Merlin appears before you and his voice thunders in your ears, "Listen well, Arthur, for now will the mysteries of your childhood be made clear to you. Your true father was Uther Pendragon, High King of England. Your mother was Ygraine of Cornwall. When you were born, you were given to me to raise and keep safe until such time as England had need of you."
+
+"To you alone belongs the throne of England, Arthur. But the time is not yet when you may take up this sword. Before you gain your birthright, you must prove yourself a king. To rule England, you must be both wise and chivalrous. To lead her armies, you must be strong and courageous. I believe you have these qualities within you, but you must demonstrate them for all to see. In so doing, you will gain the experience you need to claim the sword."
+
+"Come seek me out at my cave beyond the meadow, and I will help you achieve your quest. Be warned, however, that another plots to steal your throne. Go, therefore, son of Uther, to earn and protect that which is yours."
+Merlin disappears as suddenly as he came. In the space where he had been, a torque hangs in mid-air for a second and then falls to the ground.
+
+>WEAR IT
+[You take the torque first.]
+You put on the torque.
+
+>E
+CHURCH
+
+You walk up the steps and into the church. It is a simple, one-room building with only a few rough-hewn wooden benches facing an altar. The only exit is to the west.
+
+>PRAY
+As is your knightly duty, you bow your head in silent prayer and ask for guidance in your quest.
+
+[You have earned ten chivalry points.]
+
+>W
+CHURCHYARD
+
+You return to the churchyard. At the foot of the church steps is a large stone with a jewelled sword protruding from it. The church entrance lies to the east, and just west of you is a large gravestone. A stone wall encircles the churchyard, but there is an ironwork gate in the wall to your south.
+
+>GIVE GLASS TO IDIOT
+"Oooh look! A red piece of glass!" The idiot takes the red piece of glass and gives you the dead mouse.
+
+>THANK IDIOT
+The idiot smiles brightly and says, "OK."
+
+[You have earned ten chivalry points.]
+
+From down the street you hear the sound of approaching voices. It sounds like soldiers. Suddenly, you remember the curfew.
+
+>HIDE BEHIND STONE
+[The gravestone]
+You jump behind the gravestone and cower low to the ground. The churchyard lies to the east.
+
+You hear steps outside the gate and see moonlight glinting off soldiers' helmets. A voice calls out, "Search the church."
+
+>Z
+Time passes...
+
+In the distance, you hear the sound of the bells calling the monks to prayer.
+
+The gate creaks as it swings open. Peering around the base of the stone, you see a group of soldiers enter the churchyard. Two of them disappear briefly into the church. They report back to their captain, who gives the all-clear signal to someone waiting outside the gate.
+
+Suddenly, the evil King Lot strides through the gate, followed by four soldiers wheeling a sturdy cart. "There it is!" Lot snaps, gesturing angrily at the stone. "Load it up. Quickly!" The soldiers gather around the stone and strain against its massive weight. They tilt it up, and then slide the cart beneath it.
+
+"One of you stay here," Lot commands. "Let no one enter until we return in the morning. The rest of you, follow me." Lot turns and marches out of the churchyard, followed at a distance by the men pushing the heavy cart. One soldier remains behind to guard the gate.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>SLEEP
+Despite the excitement of the evening, you soon fall asleep.
+
+Hours later you are awakened by the sound of the church bell ringing. A crowd is gathering in the churchyard, and King Lot is standing on the steps of the church. Above his head, he brandishes a jewelled sword that looks exactly like the sword that was imbedded in the stone.
+
+"See," he shouts, "I have the magic sword! I had a vision that told me to come here at midnight. When I arrived, the stone was surrounded by angels. They told me that Uther's son was dead and that I was to be the new High King. Humbly, I grasped the sword and lo, it came up into my hand. Suddenly there came a beam of bright light and a rush of wind. Despite its great weight, the stone was miraculously drawn up by the beam, and it disappeared into heaven!"
+
+"Three days hence - at noon on Christmas day - I shall be coronated on this very spot. If any man dares to contest my claim, let him come to my hall and challenge me in the traditional manner of knighthood, and I will do battle with him."
+
+At this last pronouncement, the crowd cheers and rushes toward Lot. His guards clear a path for him to the church gate, and he leaves the churchyard in triumph, surrounded by the cheering mob. Soon no one is left nearby, and once again you find yourself alone.
+
+[You have earned five experience points and two quest points.]
+
+>EXIT
+You step out from behind the gravestone.
+
+>S
+TOWN SQUARE
+
+You walk into the town square. The churchyard lies to the north, and the castle to the east. To your south you see the entrance to the town's only tavern, and to the west is the village green.
+
+The village idiot is here, idly playing with a red piece of glass that lies at his feet.
+
+>W
+VILLAGE GREEN
+
+You enter the village green, which is a common area just inside the town's western defenses. The old Roman wall is crumbling into disrepair here, and there is a gaping hole where the west gate used to be. The town square lies to the east, and an ancient oak dominates the center of the green, towering over its roots like an aging druid over a group of prostrated initiates.
+
+>W
+OUTSIDE TOWN GATE
+
+You leave the town and pause outside the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>SW
+MEADOW
+
+You come to a meadow. Paths lead off to the northeast, northwest, and southeast.
+
+You hear the thunder of approaching hooves, but see nothing. Moments later you feel ghostly fingers pluck at your clothing, and everything you were carrying suddenly disappears. You hear a ghostly chuckle, and then the hoofbeats recede once again to the east.
+
+>NW
+PATH
+
+As you leave the meadow, the path begins to wind up a hill that overlooks the town. Hundreds of tiny midges are buzzing around your ankles.
+
+>NW
+OUTSIDE MERLIN'S CAVE
+
+The path ends in the clearing just south of Merlin's cave. An old man is sitting on a rock outside the cave, reading a scroll. A minute passes before you realize that this shabbily-dressed hermit is the same awe-inspiring Merlin who appeared to you in the churchyard.
+
+Merlin looks up and says, "Why hello, Arthur. I was just thinking about you." He strokes his beard meditatively. "I wish to help you, but if I give you magic spells that instantly fulfill your every desire, you will only prove that any man so favoured can accomplish a quest. Instead, I've been pondering the idea of allowing you to assume shapes other than your human form."
+
+"You see, as an animal, you could do things that humans can't. But at least these things would not be done for you by spells. You would still have to demonstrate the qualities which prove your worthiness to rule - and at the same time you would be gaining respect for all forms of life."
+
+His dark eyes bore into you for a second and then he seems to reach a decision. "Yes. That is what we shall do." He glances down at the scroll. "The creatures here should be sufficient for our purpose. The owl, the badger, the salamander, the eel, and the turtle."
+
+Merlin waves his hand over you and mumbles a few words. "There. It is done. The word you will need is 'Cyr,' the ancient word of transformation. When you wish to become another creature, say 'Cyr' and the name of that creature. Remember, however, that the people fear sorcery - if someone is present when you change form, he may kill you. Remember also that you cannot move directly from one foreign shape to another. You must become human first."
+
+>N
+CRYSTAL CAVE
+
+Your heart thumps with anticipation as you edge into the mysterious cave of which you have heard so much. The walls here seem to shimmer with their own light. The ceiling is lost in the darkness overhead. You hear the sound of distant music, as if the earth itself were singing - and then the chord dies away and you are left in silence.
+
+In the center of the room is a perfectly round crystal ball. On the ground near the wall is a bag.
+
+>GET BAG
+You take the bag.
+
+>S
+OUTSIDE MERLIN'S CAVE
+
+You blink your eyes as you emerge from the darkness of the cave into the sunshine.
+
+Merlin is here.
+
+Merlin glances up from his scroll and gives you a look of mild reproval. "Be on your way, Arthur - you have much to do. Even as we speak, a prisoner languishes unjustly in a cell below Lot's castle. If you wish to be England's king, you must help England's people."
+
+>SE
+PATH
+
+The path winds down the hill that overlooks the town. Hundreds of tiny midges are buzzing around your ankles.
+
+>SE
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast.
+
+You hear the thunder of approaching hooves, but see nothing. Moments later you feel ghostly fingers pluck at your clothing, and everything you were carrying suddenly disappears. You hear a ghostly chuckle, and then the hoofbeats recede once again to the east.
+
+>NE
+OUTSIDE TOWN GATE
+
+You walk to the northeast until you come to the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>E
+VILLAGE GREEN
+
+You enter the village green, which is a common area just inside the town's western defenses. The old Roman wall is crumbling into disrepair here, and there is a gaping hole where the west gate used to be. The town square lies to the east, and an ancient oak dominates the center of the green, towering over its roots like an aging druid over a group of prostrated initiates.
+
+>E
+TOWN SQUARE
+
+You walk into the town square. The churchyard lies to the north, and the castle to the east. To your south you see the entrance to the town's only tavern, and to the west is the village green.
+
+The village idiot is here, idly playing with a red piece of glass that lies at his feet. He mumbles, "Beware the Invisible Knight."
+
+Your stomach makes grumbling noises.
+
+>S
+TAVERN
+
+You enter the gloomy, smoke-filled tavern. Despite the early hour, some farmers are hunched around the fire in conspiratorial conversation. They look up in alarm when you come in, then return to their conversation when they see only a boy.
+
+The tavern's kitchen is to the south.
+
+>S
+TAVERN KITCHEN
+
+The kitchen is dominated by a mean-looking cook who is working at a table with his back to a closed cupboard. Above his head is a beautiful caged bird who starts to chatter as soon as you come in. Near the edge of the table is a small, stale piece of cheese.
+
+The cook takes a backhanded swipe at the bird and mutters, "Sharrup."
+
+>Z
+Time passes...
+
+The cook leaves the room in response to a shout from a thirsty customer.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>CYR OWL
+You feel yourself becoming smaller. Your feet become talons, your arms become wings, your eyes are suddenly sharper. You are no longer wearing anything, and your entire body is covered with feathers.
+
+[You have earned three experience points and one quest point.]
+
+The bird watches your transformation without surprise. Its chattering suddenly becomes intelligible to you. "Mon dieu, but you are slow! I know you must 'ate zat man because of ze way ee cooks. In my country we would 'ave 'im killed. But ee 'as some spices 'idden away in ze cupboard, and ze key to ze cupboard ees 'idden in ze thatch. Queekly now, before ze sadist returns. Open ze cage and I weel get ze key for you."
+
+>CYR BOY
+Poof! You regain your human form.
+
+Everything you were wearing magically reappears in its place.
+
+>OPEN CAGE
+The bird flies up and disappears into the thatch of the roof. Moments later, a key falls to the floor. The bird pokes his head out of the thatch, leaves a small present on the table for the cook, and then flies out the door.
+
+[You have earned ten chivalry points.]
+
+>GET ALL
+wooden key: Taken. [You have earned one quest point.]
+piece of cheese: Taken. 
+
+>Z
+Time passes...
+
+You hear footfalls outside. The cook is returning.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+The cook comes into the kitchen and sees that the bird is gone, he cuffs you on the side of the head and boots you out the door, saying, "Get out of here, you mangy brat."
+
+TAVERN
+
+You go back into the gloomy, smoke-filled tavern. Despite the early hour, some farmers are hunched around the fire in conspiratorial conversation. They look up in alarm when you come in, then return to their conversation when they see only a boy.
+
+The tavern's kitchen is to the south.
+
+A large farmer says, "I'll believe in 'is tale of angels when me billy goat stands up on 'is 'ind legs and calls me Chauncey."
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>S
+TAVERN KITCHEN
+
+The kitchen is dominated by a mean-looking cook who is working at a table with his back to a closed cupboard.
+
+On the table you see a bird dropping.
+
+>Z
+Time passes...
+
+The cook leaves the room in response to a shout from a thirsty customer.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>UNLOCK CUPBOARD
+[with the wooden key]
+You unlock the cupboard with the wooden key.
+
+>OPEN IT
+You open the cupboard. Inside you see a bottle.
+
+>GET BOTTLE
+You take the bottle from the cupboard.
+
+[You have earned one quest point.]
+
+>N
+TAVERN
+
+You go back into the gloomy, smoke-filled tavern. Despite the early hour, some farmers are hunched around the fire in conspiratorial conversation. They look up in alarm when you come in, then return to their conversation when they see only a boy.
+
+The cook is here, serving more ale to the farmers.
+
+The tavern's kitchen is to the south.
+
+Another farmer says, "'E's got 'is nerve, 'e 'as. Closin' up the castle so's nary a man can get in excep'n as 'e knows the word."
+
+>N
+TOWN SQUARE
+
+You walk into the town square. The churchyard lies to the north, and the castle to the east. To your south you see the entrance to the town's only tavern, and to the west is the village green.
+
+The village idiot is here, idly playing with a red piece of glass that lies at his feet. He mumbles, "I'm not as dumb as you look. Go ahead. Ask me about anything."
+
+>E
+OUTSIDE CASTLE GATE
+
+You come to the gate to the castle of evil King Lot. A soldier is standing guard. To the south is the village smithy.
+
+>S
+SMITHY
+
+You walk southward alongside the castle wall. Set into the ground is the stone hearth of the village smithy. There is a bush growing next to the wall, and under it appears to be a hole.
+
+>CYR BADGER
+Everything you are carrying falls to the ground. You feel your body get smaller. You are no longer wearing anything, and your entire body is covered with stiff bristles. Your hands and feet turn into powerful claws.
+
+[You have earned three experience points and one quest point.]
+
+>D
+DEN
+
+You burrow down into the cold earth. After a while, the tunnel broadens out into a comfortable badger's den that nestles up against the castle wall to the east. The stones in the wall look very old, and the mortar around one in particular is cracked and crumbling. Some sunlight filters down from the opening over your head, and another tunnel leads away to the south.
+
+>S
+DEN
+
+You are in a den of twisty little passages - all alike. Tunnels exit in all directions. The soft earthen walls of the den are smooth and even.
+
+>NW
+You are in a den of twisty little passages - all alike. Tunnels exit in all directions. The soft earthen walls of the den are smooth and even.
+
+>NE
+You are in a den of twisty little passages - all alike. Tunnels exit in all directions. The soft earthen walls of the den are smooth and even.
+
+>D
+You are in a den of twisty little passages - all alike. Tunnels exit in all directions. The soft earthen walls of the den are smooth and even.
+
+>U
+THORNEY ISLAND
+
+You poke your head out of the badger hole and look around. Seeing no one, you crawl out of the hole and find yourself deep within the confines of a hawthorn bush on a small, foggy island. The thorny branches of the bush form an impenetrable barrier on all sides.
+
+On the ground is a thorny sprig that has fallen from the bush.
+
+[You have earned two quest points.]
+
+>GET SPRIG
+As you brush up against the sprig, the thorn catches on your fur.
+
+>D
+DEN
+
+You are in a den of twisty little passages - all alike. Tunnels exit in all directions. The soft earthen walls of the den are smooth and even.
+
+>N
+You are in a den of twisty little passages - all alike. Tunnels exit in all directions. The soft earthen walls of the den are smooth and even.
+
+>N
+DEN
+
+You emerge into a comfortable badger's den that nestles up against the castle wall to the east. The stones in the wall look very old, and the mortar around one in particular is cracked and crumbling. Some sunlight filters down from the opening over your head, and another tunnel leads away to the south.
+
+>U
+SMITHY
+
+You scamper upwards, and soon find yourself next to the castle wall. Set into the ground is the stone hearth of the village smithy. There is a bush growing next to the wall, and under it appears to be a hole.
+
+You see a wooden key, a piece of cheese and a bottle here.
+
+>CYR BOY
+Poof! You regain your human form.
+
+Everything you were wearing magically reappears in its place.
+
+The sprig of hawthorn falls to the ground.
+
+>CYR BADGER
+Poof! You regain your mustelid form.
+
+>D
+DEN
+
+You burrow down into the cold earth. After a while, the tunnel broadens out into a comfortable badger's den that nestles up against the castle wall to the east. The stones in the wall look very old, and the mortar around one in particular is cracked and crumbling. Some sunlight filters down from the opening over your head, and another tunnel leads away to the south.
+
+>PUSH ROCK
+You push on the stone. It wobbles. You give it another push and it falls into the room beyond!
+
+>E
+CELL
+
+You crawl through the hole in the wall and plop to the ground on the other side. You find yourself in a dank, cramped cell far below Lot's castle. The room was originally used by the Romans for food storage, but someone converted it into a miserable dungeon by bolting chains to the clammy stone walls.
+
+There is a cell door of stout wood to the north, and a hole in the wall to the west where a stone has been pushed out. A prisoner is chained to the wall.
+
+You see a building stone here.
+
+[You have earned two wisdom points and two quest points.]
+
+>CYR BOY
+Poof! You regain your human form.
+
+The prisoner cowers against the wall. One of his hands makes the sign against evil magic, and he says, "Take pity on me, oh enchanted one. I am but a humble craftsman who was commissioned by the King to fashion a sword after the enchanted sword in the stone. No sooner had I complied with his request but he threw me in the dungeon."
+
+>GET ROCK
+You take the building stone.
+
+>YELL
+You call out. Moments later, you hear footsteps in the hall outside the door.
+
+>HIDE BEHIND DOOR
+You flatten yourself up against the cold stone wall.
+
+You hear keys fumbling in the lock, and then the door swings back and a guard steps into the cell. He stands for a moment with his back to you, looking at the prisoner.
+
+>HIT GUARD WITH ROCK
+You step out from behind the cell door and bean the guard with the stone. It puts a dent in his helmet and he slumps to the floor, unconscious. As he falls, you notice a key dangling at his side.
+
+[You have earned three wisdom points, three experience points and two quest points.]
+
+>GET KEY AND HELMET
+cell key: Taken. 
+helmet: Taken. 
+
+>UNLOCK CHAINS
+[with the cell key]
+You unlock the padlock. The prisoner struggles to his feet and looks at you gratefully. "Thank you, kind sir," he says. "Let us escape from here together."
+
+[You have earned ten chivalry points.]
+
+>N
+HALL
+
+You are in an underground corridor that runs east and west. To the south is the door to a cell.
+
+The prisoner follows you.
+
+>GIVE MAN HELMET
+The smith puts on the helmet. It covers enough of his face to make a suitable disguise.
+
+>E
+END OF HALL
+
+You are at the end of an underground corridor that runs east and west. To the east is a small chamber.
+
+The prisoner follows you.
+
+>E
+SMALL CHAMBER
+
+You are in a small chamber that looks oddly out of place in this underground prison. Its rich furnishings include a fine stonework floor, comfortable chairs, and a beautifully woven tapestry on the wall. It looks like a king's secret consultation chamber.
+
+The prisoner follows you.
+
+>MOVE TAPESTRY
+Behind the tapestry is a dark passage.
+
+>E
+DARK PASSAGE
+
+You are in a dark underground passageway whose walls have been carved out of solid rock. You peer into the darkness and discover a secret passage leading upward to both the north and south. To the west is the back of a tapestry.
+
+[You have earned two wisdom points and one quest point.]
+
+The prisoner follows you.
+
+>N
+DARK PASSAGE
+
+You are in a dark passage that continues up to the north and back down behind you to the south.
+
+The prisoner follows you.
+
+>N
+BEHIND THE THRONE
+
+The passage widens out and becomes a small room. A tapestry covers the west wall and a dark passage leads down to the south. You hear someone talking on the other side of the tapestry, and after a few moments you realize you are in a secret room directly behind King Lot's throne in the Great Hall.
+
+The prisoner follows you.
+
+>Z UNTIL SEXT
+Time passes...
+
+You are really getting very hungry.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+In the distance, you hear the sound of the bells calling the monks to prayer.
+
+King Lot calls out to the captain of his guards, "The new password is verse three, line three."
+
+[You have earned two wisdom points and one quest point.]
+
+>S
+DARK PASSAGE
+
+You are in a dark passage that continues down to the south and back up behind you to the north.
+
+The prisoner follows you.
+
+>S
+DARK PASSAGE
+
+You are in a dark underground passageway whose walls have been carved out of solid rock. You peer into the darkness and see a secret passage leading upward to both the north and south. To the west is the back of a tapestry.
+
+The prisoner follows you.
+
+>S
+DARK PASSAGE
+
+You are in a dark passage that continues up to the south and back down behind you to the north.
+
+The prisoner follows you.
+
+>S
+END OF PASSAGE
+
+The passage ends in a small, cramped room that is solid on three sides. The fourth side is a blazing wall of fire whose bright flames leap high into the air. A dark passage leads down on the north. The fire is to the west.
+
+The prisoner follows you.
+
+>CYR SALAMANDER
+Everything you are carrying falls to the floor. You feel yourself shrinking. You are no longer wearing anything, and your skin has become quite leathery. A tail sprouts out behind you, and you find yourself crawling around on all fours.
+
+[You have earned three experience points and one quest point.]
+
+The prisoner once again recoils in shock at your sudden transformation, but makes no comment.
+
+>W
+CASTLE KITCHEN
+
+You scamper through the flames unharmed and are now in the castle's kitchen. It is a huge stone room with a cavernous fireplace along the east wall. There is a door in the northwest corner of the room. On the floor next to a nearby table you see a barrel.
+
+On the kitchen table you see a pumice stone.
+
+[You have earned three wisdom points, three experience points and one quest point.]
+
+>CYR BOY
+Poof! You regain your human form.
+
+Everything you were wearing magically reappears in its place.
+
+>PUSH BARREL
+You strain against the barrel. It teeters for a moment, but then finally crashes over on its side, sending a flood of water directly onto the blaze. The roar of the fire disappears in a loud hiss, and a huge cloud of steam pours out of the fireplace. When the steam clears, you see that the fire has gone out. The prisoner steps through to join you in the kitchen.
+
+[You have earned two wisdom points and one quest point.]
+
+>GET PUMICE
+You take the pumice stone from the kitchen table.
+
+[You have earned one quest point.]
+
+>OPEN DOOR
+You lift the bar and open the kitchen door.
+
+>NW
+PARADE AREA
+
+You come to the parade area of King Lot's castle. The gate in the west wall is guarded by a soldier. The armoury is to the south, the entrance to the Great Hall is to the east, and the kitchen is to the southeast.
+
+The prisoner follows you.
+
+>S
+ARMOURY
+
+You have entered a deserted armoury. A few shields are fixed to the wall, and some pikestaffs are locked up as well. A broken dagger lies on the table awaiting the armourer's attention, but right now it's worthless. The only things not broken or locked down are a tarnished shield and some armour that lie in the corner.
+
+The prisoner follows you.
+
+>POLISH SHIELD WITH PUMICE
+A few minutes' work puts a mirror-like shine on the shield.
+
+[You have earned two wisdom points.]
+
+>DROP PUMICE
+You drop the pumice stone.
+
+>GET ARMOR
+You take the armour.
+
+[You have earned one quest point.]
+
+>WEAR IT
+You slide the chain mail on over your tunic.
+
+>GET SHIELD
+You take the shield.
+
+[You have earned one quest point.]
+
+>N
+PARADE AREA
+
+You come to the parade area of King Lot's castle. The gate in the west wall is guarded by a soldier. The armoury is to the south, the entrance to the Great Hall is to the east, and the kitchen is to the southeast.
+
+The prisoner follows you.
+
+>SAY "NO KING SO FAIR"
+The soldier looks at you with contempt and says, "That password is no longer valid." He continues to block your path.
+
+>SAY "BY MAID BEGOT"
+The soldier looks at you suspiciously and says, "That password is no longer valid either." He continues to block your path.
+
+>SAY "WAS EVER THERE"
+The soldier reluctantly steps aside to let you pass.
+
+OUTSIDE CASTLE GATE
+
+You walk outside the gate to the castle of evil King Lot. A soldier is standing guard. To the south is the village smithy.
+
+The smith pulls you out of earshot of the guard and whispers, "I am grateful to you for freeing me, kind sir. I dare no longer stay in this town for fear of being recaptured by King Lot. But as thanks for freeing me, I will tell you where I have hidden another sword. It is plain, unlike Lot's sword, but it is of the best quality. It is hidden under the roots of the oak tree in the village green. Goodbye, sir. And thank you again."
+
+The smith walks off toward the town gate and quickly disappears from sight.
+
+[You have earned ten chivalry points, two wisdom points, three experience points and four quest points.]
+
+>SAY "THAN GOOD KING LOT"
+The soldier looks at you with contempt and says, "That password is no longer valid." He continues to block your path.
+
+>S
+SMITHY
+
+You walk southward alongside the castle wall. Set into the ground is the stone hearth of the village smithy. There is a bush growing next to the wall, and under it appears to be a hole.
+
+You see a sprig of hawthorn, a wooden key, a piece of cheese and a bottle here.
+
+>GET ALL BUT KEY
+sprig of hawthorn: Taken. [You have earned one quest point.]
+piece of cheese: Taken. 
+bottle: Taken. 
+
+>N
+OUTSIDE CASTLE GATE
+
+You come to the gate to the castle of evil King Lot. A soldier is standing guard. To the south is the village smithy.
+
+>W
+TOWN SQUARE
+
+You walk into the town square. The churchyard lies to the north, and the castle to the east. To your south you see the entrance to the town's only tavern, and to the west is the village green.
+
+The village idiot is here, idly playing with a red piece of glass that lies at his feet. He mumbles, "Wherever I go, there I am."
+
+>W
+VILLAGE GREEN
+
+You enter the village green, which is a common area just inside the town's western defenses. The old Roman wall is crumbling into disrepair here, and there is a gaping hole where the west gate used to be. The town square lies to the east, and an ancient oak dominates the center of the green, towering over its roots like an aging druid over a group of prostrated initiates.
+
+>CYR BADGER
+Everything you are carrying falls to the ground. Poof! You regain your mustelid form.
+
+>DIG
+Dirt starts to fly all around you as your claws dig at a furious pace. Soon you have dug a nice hole between the roots of the tree. You see a sword glinting at the bottom of the hole.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>GET ALL BUT SPRIG AND CHEESE
+sword: Taken. [You have earned two wisdom points and one quest point.]
+shield: Taken. 
+bottle: Taken. 
+
+>W
+OUTSIDE TOWN GATE
+
+You leave the town and pause outside the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>N
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>NW
+ROAD
+
+The road takes you towards the woods, which lie to the north.
+
+You see some weeds here.
+
+>N
+EDGE OF WOODS
+
+You come to the edge of the woods, where you see a knight's pavilion decked out in blue. A curved horn is hanging from the branches of one of the trees, and a large horse is tied to another. The path continues north into the woods, and south towards the town.
+
+>KNOCK ON DOOR
+The door to the pavilion opens and a knight with a bushy white mustache and splendid side-whiskers emerges. "I say, frightfully kind of you to knock. Most people just start to blow away on that beastly horn. I suppose you're here to joust?" He looks you up and down. "Splendid. I see you are a gentleman and prefer to joust without a helmet. Let's have at it then."
+
+The knight disappears into the pavilion for a moment and then emerges carrying two lances that are identical save that one is red and one is green. "Mount up, lad," says the knight, "and I shall give you your choice of lances."
+
+>MOUNT
+You are now on the horse. "Jolly good," says the knight. "Which lance would you like, the red one or the green one?"
+
+>RED
+You take the red lance. The knight keeps the green one and fetches his horse from behind the pavilion. He unties your horse, which canters a little distance away and then turns to face the blue knight. After a moment's hesitation the two well-trained horses start to gallop towards one another.
+
+The knight shields his head and aims his lance at your head.
+
+Do you want to shield your (1) head, (2) body, or (3) leg?
+>1
+Do you want to aim your lance at his (1) head, (2) body, (3) leg, or (4) horse?
+>1
+You shield your head and aim your lance at his head. The two horses thunder toward each other. You are about to clash when you see that the knight shields his body and aims his lance at your horse.
+
+Do you want to shield your (1) head, (2) body, or (3) leg?
+>2
+Do you want to aim your lance at his (1) head, (2) body, (3) leg, or (4) horse?
+>2
+You shield your body and aim your lance at his body. The knight shields his body and aims his lance at your body. The blue knight crashes to the turf. You try to stay upright on the horse, but seconds later you, too, hit the ground. "Well struck, lad!" the knight cries out. "And by virtue of the fact that I was the first to be unseated, you are declared the winner." After a few moments he staggers to his feet and disappears into the pavilion. He emerges moments later with an ivory key, which he hands to you.
+
+"Congratulations, old chap. Spoils of war, what?"
+
+The knight stumbles around the clearing, cleaning up after the joust. He ties the horse to the tree, collects the lances and disappears into the pavilion.
+
+[You have earned ten chivalry points, five wisdom points, seven experience points and four quest points.]
+
+>N
+ENCHANTED FOREST
+
+You follow the road into the gloom of the enchanted forest. It is dark, mysterious and unnaturally quiet. The trees loom up at you as you pass by. Their branches seem to reach out and pluck at you, as if they resent human presence. Paths disappear into the forest to the northeast, northwest, and north. The edge of the forest lies to the south.
+
+>DROP ALL BUT KEY
+bottle: Dropped.
+shield: Dropped.
+sword: Dropped.
+
+>N
+PATH
+
+You are walking along a dark path that runs from north to south.
+
+>N
+CLEARING
+
+The path ends in a clearing. To the east is an amazing tower, built entirely of ivory. There is a wooden door set into the wall nearest you.
+
+>UNLOCK DOOR
+[with the ivory key]
+You put the ivory key in the lock and give it a turn, and hear a click. The wooden door swings open, you step through, and close it behind you.
+
+CIRCULAR ROOM
+
+You enter the circular room. There are stairs that lead up and down from here, and an exit to the west.
+
+[You have earned one quest point.]
+
+>CYR OWL
+Everything you are carrying falls to the floor. Poof! You regain your avian form.
+
+>D
+You flap your wings briefly....
+
+STAIRS
+
+You descend the circular stairs. Below you, the stairs disappear into total darkness. You may either descend, or go return to the safety of the circular room.
+
+>D
+You flap your wings briefly....
+
+CELLAR
+
+This is a small damp room, with two lines of letters written on the wall.
+
+[You have earned four wisdom points and one quest point.]
+
+>U
+You flap your wings briefly....
+
+STAIRS
+
+You climb the circular stairs. Below you, the stairs disappear into total darkness. You may either descend, or go return to the safety of the circular room.
+
+>U
+You flap your wings briefly....
+
+CIRCULAR ROOM
+
+You enter the circular room. There are stairs that lead up and down from here, and an exit to the west.
+
+You see an ivory key here.
+
+>U
+You flap your wings briefly....
+
+STAIRS
+
+You fly up the stairs. They continue up and down from here.
+
+>U
+You flap your wings briefly....
+
+LANDING
+
+The stairs end in a landing at the top of the tower. There is a wooden door set into the northern wall, and a crack in the west wall.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>CYR SALAMANDER
+Poof! You regain your amphibian form.
+
+>W
+ABANDONED ROOM
+
+You crawl up the crack until it widens just enough for you to squirm through. You find yourself in an abandoned room in the tower. On the wall are written the following letters: AMHTIR AMU SMOTUS. The crack through which you entered is in the east wall.
+
+[You have earned two wisdom points and one quest point.]
+
+>E
+LANDING
+
+You crawl back through the crack to the landing at the top of the tower. The crack through which you just crawled is in the west wall. There is a door to your north, and a set of circular stairs leading downwards.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>OPEN DOOR
+You open the wooden door, step through, and close it behind you.
+
+TOWER ROOM
+
+You walk into the sparsely-furnished room at the top of the tower. In it sits a withered old man.
+
+You see a table here.
+
+"Welcome," he says:
+
+"You come in search of gold and loot.
+ I have all that, and more to boot.
+ To get it you must play my game.
+ Just say to me my secret name."
+
+>SAY "THOMAS THE RHYMER"
+The old man jumps up and claps his hands with glee.
+
+"You win! You win! To thee I sing.
+ And give to you this magic ring.
+ When unseen forces you surprise,
+ Just rub this ring to clear your eyes."
+
+He gives you a ring.
+
+[You have earned seven wisdom points and three quest points.]
+
+>WEAR RING
+You put on the magic ring.
+
+>OPEN DOOR
+You open the wooden door, step through, and close it behind you.
+
+LANDING
+
+You leave the company of the strange man for the landing at the top of the tower. The door through which you just came is set into the northern wall. There is a crack in the west wall, and a set of circular stairs leading downwards.
+
+>D
+STAIRS
+
+You descend the stairs. They continue up and down from here.
+
+>D
+CIRCULAR ROOM
+
+You enter the circular room. There are stairs that lead up and down from here, and an exit to the west.
+
+You see an ivory key here.
+
+>OPEN DOOR
+You open the wooden door, step through, and close it behind you.
+
+CLEARING
+
+You emerge from the ivory tower and look around the clearing. The path leads south back into the woods.
+
+>S
+PATH
+
+You are walking along a dark path that runs from north to south.
+
+>S
+ENCHANTED FOREST
+
+You follow the road into the gloom of the enchanted forest. It is dark, mysterious and unnaturally quiet. The trees loom up at you as you pass by. Their branches seem to reach out and pluck at you, as if they resent human presence. Paths disappear into the forest to the northeast, northwest, and north. The edge of the forest lies to the south.
+
+You see a sword, a shield and a bottle here.
+
+>S
+EDGE OF WOODS
+
+You come to the edge of the woods, where you see a knight's pavilion decked out in blue. A curved horn is hanging from the branches of one of the trees, and a large horse is tied to another. The path continues north into the woods, and south towards the town.
+
+>S
+ROAD
+
+The road takes you away from the woods, and curves to the southeast.
+
+You see some weeds here.
+
+>CYR TURTLE
+You feel yourself getting smaller. Your skin becomes wrinkled, and your back hardens into a tough shell. You have become a turtle.
+
+[You have earned three experience points and one quest point.]
+
+>EAT WEEDS
+You munch down the tasty-looking weeds and your hunger disappears.
+
+[You have earned one wisdom point and one experience point.]
+Yum. Almost as good as Purina turtle-chow.
+>CYR BOY
+Poof! You regain your human form.
+
+Everything you were wearing magically reappears in its place.
+
+>SE
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>NE
+MOOR
+
+The road leads you across a desolate moor. After a while, you come to a lonely cottage, which lies to the north. The road disappears off into the moor to the southwest, and to the northeast lies a large peat bog. A slean leans against the side of the house, and a crude crutch is lying on the ground nearby.
+
+>GET ALL
+crutch: Taken. 
+slean: Taken. 
+
+>NE
+EDGE OF BOG
+
+You come to the edge of the peat bog. The peat below your feet here is firm and dry, but to the northeast, the path leads into the soggy, treacherous bog. The house is to the southwest. There is a sign here.
+
+>DIG PEAT
+You cut a brick of peat from the ground. As you pry it loose, the handle of the slean snaps, rendering it useless. You now have the peat.
+
+[You have earned one quest point.]
+
+>SW
+MOOR
+
+You walk back toward the cottage, which lies to the north. The road disappears off into the moor to the southwest, and to the northeast lies a large peat bog.
+
+>OPEN DOOR
+You open the door, step through, and close it behind you.
+
+COTTAGE
+
+You shiver as you enter the cold one-room cottage. On a simple pallet in the corner lies an unconscious peasant. His leg has a crude splint on it. The remains of a small fire smoulder on the stone hearth in the middle of the room. A thin wisp of smoke rises from the ashes.
+
+>PUT PEAT IN FIRE
+You put the peat on the coals. It catches fire quickly, and soon the room is filled with warmth.
+
+After a few moments, the peasant begins to stir. When he is fully conscious he sits up and looks from the fire to you. "Why, God bless you, sir," he says. "There's not many would take pity on a poor man who makes his living in a peat bog."
+
+[You have earned ten chivalry points.]
+
+>GIVE MAN CRUTCH
+The peasant takes the crutch. "Thank you, sir. It's not much, but it helps me move around."
+
+[You have earned ten chivalry points.]
+
+>ASK MAN ABOUT BOG
+"It's a right treacherous bog, it is. There's not many can find their way through it without help. But what you do is go northeast from the edge of the bog, then northeast, northeast, southeast, north and east."
+
+>
+Hot key -- Playback off
+
+Continue input...
+RESTORE
+[Okay.]
+You are standing in a warm and cozy one-room cottage. On a simple pallet in the corner sits a peasant. His leg has a crude splint on it, and there is a crutch next to the pallet. A small fire burns on the stone hearth in the middle of the room.
+
+>
+Hot key -- Playback on
+Do you want MORE prompts? (y/n) >n
+
+Continue input...
+OPEN DOOR
+You open the door, step through, and close it behind you.
+
+MOOR
+
+You leave the cottage. The road disappears off into the moor to the southwest, and to the northeast lies a large peat bog.
+
+>CYR OWL
+Everything you are carrying falls to the ground. Poof! You regain your avian form.
+
+>U
+You launch yourself into the air.
+
+ABOVE MOOR
+
+You are hovering over the moor. To the west lies the edge of the enchanted forest, and to the northwest is the forest proper. Below you to the east is the thick cloud of fog, and south of that you can see the castle. The roofs of the town lie to the south, and the meadow outside the town lies to the southwest.
+
+>E
+ABOVE BOG
+
+You are hovering over a thick patch of fog. Below, you can make out the vague outline of an island with what looks like a large bush or tree on it. The skies are clearer to the west and southwest, where you see the moor and roofs of the town. The castle lies below you to the south, and to the east you can see a road emerge from the fog and come to a ford in the river.
+
+>E
+ABOVE THE FORD
+
+You are hovering over the western edge of a ford. A large patch of fog lies to the west, and to the south of that lies the castle. Below you to the east, you see a road emerge from the ford and lead northeastward towards a desolate looking mountain range.
+
+>E
+As you fly over the river, you feel yourself changing back into your human form. Slowly, you drift to the ground, and when you land you discover you are no longer an owl. Everything you were wearing magically reappears in its place.
+
+EAST OF FORD
+
+You land alongside a river. You see the gnarled and wasted remains of tree here, and from one of its branches hangs a withered old apple. To the northeast, the land looks bleak and barren. The road leading in that direction looks like it ends at the foot of a forbidding mountain range. The ford across the river lies to the west.
+
+>GET APPLE
+You take the apple from the tree.
+
+>W
+FORD
+
+You enter the ford. You are standing in the middle of the river. Looking south, you see that the land along the west bank is rich and lush, while the land along the east bank is wasted and barren.
+
+>W
+WEST OF FORD
+
+You climb up out of the river. To the west is a sign that marks the edge of a treacherous peat bog. Passage across the ford to the east is blocked by a fearsome looking knight in black armour.
+
+The Black Knight whirls around to face you.
+
+>W
+The black knight calls after you as you leave, "Coward! Go on - save your precious skin. I expected nothing less from one of Merlin's whelps."
+
+PEAT BOG
+
+You enter the swirling fog and soon lose sight of the path. Any step you take is likely to propel you into the treacherous bog.
+
+>W
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SW
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+Across the bog to the west, you see the vague outline of an island with what appears to be a large thornbush on it. Unfortunately, the ground between here and there looks too treacherous to walk on.
+
+>NW
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SW
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SW
+EDGE OF BOG
+
+You take a few steps and suddenly emerge from the mists at the edge of the peat bog. The peat below your feet here is firm and dry, but to the northeast, the path leads into the soggy, treacherous bog. The house is to the southwest. There is a sign here.
+
+[You have earned two wisdom points, three experience points and two quest points.]
+
+>SW
+MOOR
+
+You walk back toward the cottage, which lies to the north. The road disappears off into the moor to the southwest, and to the northeast lies a large peat bog.
+
+You see a slean here.
+
+>SW
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>S
+OUTSIDE TOWN GATE
+
+The road takes you southward. Soon you are walking alongside the wall of the town, and you pause outside the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>SW
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast.
+
+You hear the thunder of approaching hooves, but see nothing. Moments later you feel ghostly fingers pluck at your clothing, and everything you were carrying suddenly disappears. You hear a ghostly chuckle, and then the hoofbeats recede once again to the east.
+
+>RUB RING
+As you rub the ring, the air to the east begins to shimmer. Moments later, a knight's pavilion appears where before there had been nothing.
+
+[You have earned three wisdom points and two quest points.]
+
+>E
+PAVILION
+
+You enter the knight's pavilion. It looks like an overcrowded junk shop. Bric-a-brac is piled everywhere.
+
+You see a counter here.
+
+The knight sitting behind the counter looks up suddenly and says, "Oh! Hallo! Got one of those magic rings, have you? Well, I suppose you'll be wanting your things back." He rummages around behind the counter and then dumps the contents of a basket onto the counter. "Here you are."
+
+"I wonder if I could interest you in a solid brass giant raven's egg. It's so real that a giant raven itself can't tell the difference between it and the real thing. Are you interested?"
+
+Please answer YES or NO>Y
+
+"All right then. I'm a sporting man. If you can tell me the next two letters in the following sequence, the egg is yours: ST ND RD TH."
+>TH
+"Yes. That's it. Very good. Here you are." He hands you the brass egg.
+
+[You have earned seven wisdom points and three quest points.]
+
+>GET ALL
+dead mouse: Taken. 
+bag: Taken. 
+apple: Taken. 
+
+>W
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast. To the east you see a knight's pavilion.
+
+>DROP BAG AND MOUSE
+bag: Dropped.
+dead mouse: Dropped.
+
+>NE
+OUTSIDE TOWN GATE
+
+You walk to the northeast until you come to the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>N
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>NW
+ROAD
+
+The road takes you towards the woods, which lie to the north.
+
+>N
+EDGE OF WOODS
+
+You come to the edge of the woods, where you see a knight's pavilion decked out in blue. A curved horn is hanging from the branches of one of the trees, and a large horse is tied to another. The path continues north into the woods, and south towards the town.
+
+>N
+ENCHANTED FOREST
+
+You follow the road into the gloom of the enchanted forest. It is dark, mysterious and unnaturally quiet. The trees loom up at you as you pass by. Their branches seem to reach out and pluck at you, as if they resent human presence. Paths disappear into the forest to the northeast, northwest, and north. The edge of the forest lies to the south.
+
+You see a sword, a shield and a bottle here.
+
+>NE
+TRAIL
+
+The path soon peters out into little more than a trail that continues to run to the northeast.
+
+>NE
+GROVE
+
+The trail ends in a grove of tall trees. One tree in particular seems taller than the rest. A path to the southwest leads back into the forest.
+
+>CYR OWL
+Everything you are carrying falls to the ground. Poof! You regain your avian form.
+
+>U
+You launch yourself into the air.
+
+ABOVE FOREST
+
+You are flying high above the forest. In the distance, you see an ivory tower rising above the trees. Nearby, one tall tree sticks up above the rest. In its uppermost branches is a huge nest, and sitting in the nest is a solid gold giant raven's egg. Looking around, you see the giant raven circling nearby. Far below you, you see a grove.
+
+>LAND IN NEST
+You swoop down and land.
+
+GIANT RAVEN'S NEST
+
+You land in the giant raven's nest.
+Far below you, you see the grove.
+
+You see a gold egg here.
+
+You see the giant raven swoop down towards the grove.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>GET EGG
+You take the gold egg.
+
+>THROW EGG
+You throw the gold egg to the grove below.
+
+You hear the beat of approaching wings.
+
+>CYR OWL
+Poof! You regain your avian form.
+
+The giant raven arrives in the nest, drops the brass egg, and chases you out.
+
+ABOVE FOREST
+
+You are flying high above the forest. In the distance, you see an ivory tower rising above the trees. Nearby, one tall tree sticks up above the rest. In its uppermost branches is a huge nest, and sitting in the nest is the giant raven. Far below you, you see a grove.
+
+>LAND IN GROVE
+You swoop down and land.
+
+GROVE
+
+You descend to the forest floor below.
+
+You see a gold egg and an apple here.
+
+>CYR BOY
+Poof! You regain your human form.
+
+The giant raven leaves the nest and resumes circling the forest.
+
+>GET ALL
+gold egg: Taken. [You have earned four wisdom points, five experience points and two quest points.]
+apple: Taken. 
+
+>SW
+TRAIL
+
+The trail looks like it broadens into a path up ahead.
+
+>SW
+ENCHANTED FOREST
+
+You follow the road into the gloom of the enchanted forest. It is dark, mysterious and unnaturally quiet. The trees loom up at you as you pass by. Their branches seem to reach out and pluck at you, as if they resent human presence. Paths disappear into the forest to the northeast, northwest, and north. The edge of the forest lies to the south.
+
+You see a sword, a shield and a bottle here.
+
+>GET SWORD AND BOTTLE
+sword: Taken. 
+bottle: Taken. 
+
+>NW
+PATH
+
+You are deep within the enchanted forest. A path leads north into the woods, and to the northwest is a stand of horse chestnut trees. To the southeast you see the edge of the forest.
+
+>N
+SOUTH OF CHASM
+
+After a while the trees begin to thin out, and soon you find yourself in a large clearing in the heart of the forest. The clearing is cleft by a narrow chasm which lies directly to the north. A path leading into the forest lies to the south. On the other side of the chasm you see a wild boar pacing back and forth.
+
+>THROW BOAR APPLE
+The apple lands near the boar, who stops pacing long enough to gobble it up in a couple of bites. He resumes pacing - apparently unharmed - until suddenly he leaps several feet straight into the air, flips over on his back, and crashes back to the ground, dead.
+
+[You have earned three wisdom points, seven experience points and four quest points.]
+
+>THROW BOAR SWORD
+The sword slices through the air and the hilt smacks the dead boar right between the eyes.
+
+>CYR OWL
+Everything you are carrying falls to the ground. Poof! You regain your avian form.
+
+>N
+You flap your wings briefly....
+
+NORTH OF CHASM
+
+You are on the northern lip of a narrow chasm in the heart of the forest. A dead boar with a single tusk lies on the ground.
+
+You see a sword here.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>GET SWORD
+You take the sword.
+
+>CUT TUSK WITH SWORD
+You grasp the tusk with one hand and hack it off at the base with the sword. You are now holding the tusk.
+
+[You have earned one quest point.]
+
+>THROW ALL ACROSS CHASM
+tusk: The tusk falls to the ground on the other side of the chasm.
+sword: The sword falls to the ground on the other side of the chasm.
+
+>CYR OWL
+Poof! You regain your avian form.
+
+>S
+You flap your wings briefly....
+
+SOUTH OF CHASM
+
+You are scampering around in a large clearing in the heart of the forest. The clearing is cleft by a narrow chasm which lies directly to the north. A path leading into the forest lies to the south. On the other side of the chasm you see a dead boar.
+
+You see a sword, a tusk, a gold egg and a bottle here.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>GET ALL
+sword: Taken. 
+tusk: Taken. [You have earned two wisdom points.]
+gold egg: Taken. 
+bottle: Taken. 
+
+>S
+PATH
+
+You are deep within the enchanted forest. A path leads north into the woods, and to the northwest is a stand of horse chestnut trees. To the southeast you see the edge of the forest.
+
+>NW
+TRACK
+
+You are standing on a track next to a stand of horse chestnut trees that are loaded with conkers. The track continues to the north and the southeast.
+
+>N
+When you try to pass, the horse chestnut trees suddenly start to pluck conkers from their branches and pelt you with them. You try to move forward into the barrage, but get nowhere. The enchanted conkers hit you with amazing force, then fall to the ground and disappear.
+
+>CYR TURTLE
+Everything you are carrying falls to the ground. Poof! You regain your testudinal form.
+
+The horse chestnut trees are still bombarding you with conkers. Some bounce off your shell but others hit you on the head and legs, causing intense pain. You won't be able to stand much more of this.
+
+>RETRACT HEAD AND LEGS
+head: You pull your head into your shell.
+legs: You pull your legs into your shell.
+
+The conkers bounce harmlessly off your shell.
+
+>Z
+Time passes...
+
+The conkers bounce harmlessly off your shell.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+The conkers continue to rain off your shell, but the barrage seems to be lessening.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+The hailstorm of conkers ceases.
+
+[You have earned three wisdom points, seven experience points and three quest points.]
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>CYR BOY
+Poof! You regain your human form.
+
+>GET ALL
+sword: Taken. 
+tusk: Taken. 
+gold egg: Taken. 
+bottle: Taken. 
+
+>N
+GLADE
+
+The track ends in a leafy glade that is ringed by dense undergrowth. A well-worn path of tiny footprints emerges from the bushes on one side of the clearing and disappears into the undergrowth on the other side, passing near a large rock that sits at the glade's westernmost edge. The track leading back into the forest lies to the south.
+
+>DROP BOTTLE
+You drop the bottle.
+
+>W
+You hide behind the rock. You peer around it and discover that your hiding place affords an excellent view of the clearing.
+
+You hear a strange murmuring coming from beneath the rock.
+
+>LISTEN
+A tiny voice floats up from somewhere below the rock. "'Tis no good t'all. There's no taste to't. 'Tis flat as an Englishman's head. I'll cook it a while longer and then try't again."
+
+>Z
+Time passes...
+
+You see a leprechaun dressed all in green emerge from one side of the glade. In the middle of the glade, the small person sees the bottle. He picks it up and says, "Faith and it's just what I've been lookin' for. A fine bottle of spices from the east." He examines the label intently.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>GET MAN
+You leap out from behind the stone and grab the leprechaun. He struggles to get free, but you hold on tight and after a while he gives up. "Ye caught me fair n' square, laddie," he says. "Now I'm beholden t'give ye something special. I regret t'tell ye that the tales of the leprechaun's crock of gold are truly nought but a crock themselves. But what I can give ye is this jug of home-brewed whisky, which to any drinkin' man is worth more than gold itself." He produces a jug and gives it to you. As you take it from him, he wriggles free and disappears into the undergrowth.
+
+[You have earned three wisdom points and one quest point.]
+
+>S
+TRACK
+
+You are standing on a track next to a stand of horse chestnut trees that are loaded with conkers. The track continues to the north and the southeast.
+
+>SE
+PATH
+
+You are deep within the enchanted forest. A path leads north into the woods, and to the northwest is a stand of horse chestnut trees. To the southeast you see the edge of the forest.
+
+>SE
+ENCHANTED FOREST
+
+You follow the road into the gloom of the enchanted forest. It is dark, mysterious and unnaturally quiet. The trees loom up at you as you pass by. Their branches seem to reach out and pluck at you, as if they resent human presence. Paths disappear into the forest to the northeast, northwest, and north. The edge of the forest lies to the south.
+
+You see a shield here.
+
+>GET SHIELD
+You take the shield.
+
+>S
+EDGE OF WOODS
+
+You come to the edge of the woods, where you see a knight's pavilion decked out in blue. A curved horn is hanging from the branches of one of the trees, and a large horse is tied to another. The path continues north into the woods, and south towards the town.
+
+>S
+ROAD
+
+The road takes you away from the woods, and curves to the southeast.
+
+>SE
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>S
+OUTSIDE TOWN GATE
+
+The road takes you southward. Soon you are walking alongside the wall of the town, and you pause outside the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>SW
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast. To the east you see a knight's pavilion.
+
+You see a dead mouse and a bag here.
+
+>SE
+FIELD OF HONOR
+
+You enter the Field of Honor. To the south is a lake with an island in the middle of it. To the east is a causeway leading to the island. The meadow lies to the northwest.
+
+>E
+END OF CAUSEWAY
+
+You are at the end of a causeway which is guarded by a red knight. The causeway leads south across the lake to an island. The Field of Honor lies to the west.
+
+The red knight stands at attention before you, staring off into the distance. He acknowleges your presence enough to say, "You shall get no further unless you bring me the egg of a giant raven, the hair that grows between the eyes of a dragon, the tusk of the wild boar that stalks the enchanted forest, and the Golden Fleece of the evil demon Nudd."
+
+>GIVE MAN EGG AND TUSK
+gold egg: The red knight takes the gold egg and says, "Now this is a very nice start. But I must have the other items to let you by."
+
+[You have earned one quest point.]
+tusk: The red knight takes the tusk, looks at you with delight and says, "Well done. These aren't easy to come by."
+
+[You have earned one quest point.]
+
+>W
+FIELD OF HONOR
+
+You enter the Field of Honor. To the south is a lake with an island in the middle of it. To the east is a causeway leading to the island. The meadow lies to the northwest.
+
+>S
+SHALLOWS
+
+You wade into the shallow water near the shore of the lake. The bottom drops away sharply to the south.
+
+>CYR EEL
+Everything you are carrying falls to the bottom. Fortunately, it doesn't look as if the water will cause any damage. Your body gets smaller, and your arms and legs disappear. You are no longer wearing anything, and you start breathing through your newly-formed gills instead of your mouth. You find that you are quite comfortable swimming around in the water.
+
+[You have earned three experience points and one quest point.]
+
+>S
+LAKE
+
+You glide to the middle of the lake. To the east, steep rocks that form the island rise out of the water. To the southwest the water is murky with some kind of inky fluid. You feel a current flowing into the lake from the southeast.
+
+>SW
+LAKE
+
+Cautiously, you swim into the murky waters. Suddenly a giant kraken emerges from the depths and floats menacingly in front of you. Below the kraken you can see the dim outline of a sunken rowboat resting on the lake-bed. The middle of the lake lies behind you to the northeast.
+
+>ZAP KRAKEN
+You zap the kraken. He recoils for an instant and then recovers. His tentacles start to reach out for you and he says, "Thou hast made a grievous error, varlet. Now I must needs squeezeth thee until thou art dead."
+
+>NE
+LAKE
+
+You glide to the middle of the lake. To the east, steep rocks that form the island rise out of the water. To the southwest the water is murky with some kind of inky fluid. You feel a current flowing into the lake from the southeast.
+
+The giant kraken follows you.
+
+>N
+SHALLOWS
+
+You swim to the shallow water near the shore of the lake. Light filters down from the surface above, and the bottom drops away sharply to the south.
+
+You see a sword, a whisky jug and a shield here.
+
+The giant kraken follows you.
+
+>CYR BOY
+Poof! You regain your human form.
+
+Everything you were wearing magically reappears in its place.
+
+The giant kraken recoils for a moment, and then reaches out a slimy tentacle towards you. The golden bracelet glistens in the sunlight.
+
+>GET SWORD
+You take the sword. It dries quickly.
+
+A slimy tentacle wraps around you, and the kraken begins to squeeze.
+
+>CUT KRAKEN
+[with the sword]
+You hack at the giant kraken with the sword. The tentacle bearing the golden bracelet flies up into the air and lands with a plop in the deep water. The wounded kraken immediately releases its grip on you and disappears into the murky waters.
+
+[You have earned five wisdom points, seven experience points and four quest points.]
+
+>CYR TURTLE
+Everything you are carrying falls to the bottom. Fortunately, it doesn't look as if the water will cause any damage. Poof! You regain your testudinal form.
+
+>S
+LAKE
+
+You glide to the middle of the lake. To the east, steep rocks that form the island rise out of the water. To the southwest you see the dim outline of a sunken rowboat resting on the lake's bottom. You feel a current flowing into the lake from the southeast.
+
+You see a golden bracelet here.
+
+>PUT HEAD THROUGH BRACELET
+Your head passes through the golden bracelet and it nestles around your neck, up against your shell.
+
+[You have earned three wisdom points and one quest point.]
+
+In the distance, you hear the sound of the bells calling the monks to prayer.
+
+>N
+SHALLOWS
+
+You swim to the shallow water near the shore of the lake. Light filters down from the surface above, and the bottom drops away sharply to the south.
+
+You see a sword, a whisky jug and a shield here.
+
+>RETRACT HEAD
+You pull your head into your shell. The golden bracelet falls to the bottom.
+
+>CYR BOY
+Poof! You regain your human form.
+
+>GET ALL
+golden bracelet: Taken. It dries quickly. [You have earned two quest points.]
+sword: Taken. It dries quickly. 
+whisky jug: Taken. It dries quickly. 
+shield: Taken. It dries quickly. 
+
+>WEAR BRACELET
+You put on the golden bracelet.
+
+>N
+FIELD OF HONOR
+
+You climb up out of the water and are now in the Field of Honor. To the south is a lake with an island in the middle of it. To the east is a causeway leading to the island. The meadow lies to the northwest.
+
+>NW
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast. To the east you see a knight's pavilion.
+
+You see a dead mouse and a bag here.
+
+>NE
+OUTSIDE TOWN GATE
+
+You walk to the northeast until you come to the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>N
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>NE
+MOOR
+
+The road leads you across a desolate moor. After a while, you come to a lonely cottage, which lies to the north. The road disappears off into the moor to the southwest, and to the northeast lies a large peat bog.
+
+You see a slean here.
+
+>NE
+EDGE OF BOG
+
+You come to the edge of the peat bog. The peat below your feet here is firm and dry, but to the northeast, the path leads into the soggy, treacherous bog. The house is to the southwest. There is a sign here.
+
+>NE
+PEAT BOG
+
+You enter the swirling fog and soon lose sight of the path. Any step you take is likely to propel you into the treacherous bog.
+
+>NE
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SE
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+Across the bog to the west, you see the vague outline of an island with what appears to be a large thornbush on it. Unfortunately, the ground between here and there looks too treacherous to walk on.
+
+>NE
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>E
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>E
+WEST OF FORD
+
+You emerge safely from the bog, and come to a ford in a river. To the west lies the path back into the bog. Passage across the ford to the east is blocked by a fearsome looking knight in black armour.
+
+>CUT MEDAL
+[with the sword]
+You lunge at the knight's head. He raises his sword to ward off the blow, but suddenly you drop your aim. He tries to twist aside at the last minute, but you still pierce his armour and graze his ribs.
+
+>G
+[with the sword]
+You deal the knight a stunning blow. He tries to parry, but the sheer force of it knocks him back a few steps.
+
+>G
+[with the sword]
+You whirl the blade with blinding speed, missing the knight by inches!
+
+>G
+[with the sword]
+Your blade slices through the air and knocks the knight's sword from his grasp! It falls to the ground, and he is momentarily disarmed!
+
+>G
+[with the sword]
+You sever the knight's source of power. The medallion and the knight's sword both incandesce into a fiery red, and then they suddenly disappear in a thunderclap and a flash of lightning. The black armour teeters for a moment. Then it crumples to the ground, empty.
+
+[You have earned four wisdom points, seven experience points and four quest points.]
+
+>E
+FORD
+
+You enter the ford. You are standing in the middle of the river. Looking south, you see that the land along the west bank is rich and lush, while the land along the east bank is wasted and barren.
+
+>E
+EAST OF FORD
+
+You climb back up onto dry ground. You see the gnarled and wasted remains of tree here. To the northeast, the land looks bleak and barren. The road leading in that direction looks like it ends at the foot of a forbidding mountain range. The ford across the river lies to the west.
+
+>NE
+FOOT OF MOUNTAIN
+
+You walk along until you come to the foot of an evil-looking mountain. A path winds up the slope to the northeast. The ford lies to the southwest.
+
+>NE
+LEDGE
+
+You inch your way up the treacherous path, until it finally broadens out on a ledge at the entrance to a cave. A fierce-looking dragon is sleeping in the entrance to the cave.
+
+>GIVE DRAGON JUG
+The dragon takes the jug and drains it. He begins to get tipsy.
+
+>Z
+Time passes...
+
+The dragon starts to sing dragon drinking songs.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+The dragon tries to walk a straight line, and fails.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+The dragon gets a lop-sided grin on his face and says, "I'm not so think as you drunk I am." He then crashes to the ground, out cold, smashing the whisky jug in the process.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>CUT HAIR
+[with the sword]
+You now have the dragon hair.
+
+[You have earned three experience points and one quest point.]
+
+>N
+CAVE
+
+You enter the cave. A tunnel at the rear of the cave splits into two branches that appear to go down into the mountain to the northwest and northeast.
+
+Ghostly apparitions rise up in front of you. They appear to block your path.
+
+[You have earned two quest points.]
+
+Ghosts close in around you, shrieking and howling. They stand between you and the interior of the cave.
+
+>NW
+You walk through the apparitions as if they weren't there.
+
+BASILISK'S LAIR
+
+The tunnel widens out into a chamber full of grotesque statues. Upon closer examination, you realize with horror that they are knights who have been turned into stone. The tunnel takes a turn to the northeast, but the passage into the mountain is blocked by a sleeping basilisk.
+
+The noise of your entry awakens the basilisk, who begins to cast around bleary-eyed for the source of the sound.
+
+>HIDE BEHIND SHIELD
+The glint of the highly-polished shield attracts the basilisk's attention. Slowly it turns its head towards you, and then suddenly it catches a glimpse of its own reflection. The life immediately drains out of the creature, and you realize with fascination that it has turned itself into stone.
+
+[You have earned two wisdom points, five experience points and two quest points.]
+
+>SE
+CAVE
+
+You return to the entrance of the cave. A tunnel at the rear of the cave splits into two branches that appear to go down into the mountain to the northwest and northeast.
+
+Ghostly apparitions rise up in front of you. They appear to block your path.
+
+A ghostly boar lowers his head and starts to charge at you!
+
+>NE
+You walk through the apparitions as if they weren't there.
+
+ICE ROOM
+
+The tunnel broadens out to a frigid room whose walls are lined with ice. It is so cold that your breath freezes as soon as it comes out of your mouth - whereupon it falls to the ground and shatters.
+
+The cold begins to creep into your bones.
+
+>SAY "NUDD"
+The words freeze into a block of ice as soon as they come out of your mouth. It hangs in the air for a second before it starts to fall.
+
+Your blood is starting to slow down.
+
+>GET ICE
+You catch the block of ice before it hits the ground.
+
+You won't last much longer in this cold.
+
+>SW
+CAVE
+
+You return to the entrance of the cave. A tunnel at the rear of the cave splits into two branches that appear to go down into the mountain to the northwest and northeast.
+
+Ghostly apparitions rise up in front of you. They appear to block your path.
+
+Suddenly, the spirit of the black knight leaps forward and swings a phantom sword at your head!
+
+You're beginning to thaw out.
+
+The block of ice on your hands begins to melt.
+
+>NW
+You walk through the apparitions as if they weren't there.
+
+BASILISK'S LAIR
+
+The tunnel widens out into a chamber full of grotesque statues. Upon closer examination, you realize with horror that they are knights who have been turned into stone. The tunnel takes a turn to the northeast, and in the middle of the room is a basilisk made of solid stone.
+
+Your blood is warming up.
+
+The block is rapidly shrinking.
+
+>NE
+HOT ROOM
+
+You enter a room that is unbearably hot. There is a closed door directly to the north. The door has a face in it.
+
+The face smiles at you for a moment and then says, "Welcome to the Hall of the Demon. Entry to the hall is simple. All you have to do is tell me the password. I'll even make it simple for you. The password is the name of the demon who rules within. I'll even tell you his name. It's Nudd."
+
+All the while he speaks, you get hotter and hotter. You begin to feel very uncomfortable, and your throat becomes parched and dry.
+
+The heat begins to make you sweat.
+
+The block of ice melts completely, and "Nudd" rings out loud and clear. The face in the door smiles and says, "Yes. That's it. Very good. Now you may enter."
+
+The door swings open and you walk through. It closes behind you with an ominous "clank."
+
+HALL
+
+You have entered a long, narrow banqueting hall that is panelled in dark walnut. High above you, the walls are lined with the shields of vanquished knights. At the far end is a golden throne, upon which sits a beautiful girl. As you walk the length of the hall, you see that the girl's wrists are manacled to the throne, and that she is sitting on a Golden Fleece.
+
+The girl's image seems to shimmer for a second, and then she says, "Oh kind sir, I have been imprisoned by the evil demon who rules this place. But if you release me, I will keep you by my side evermore."
+
+[You have earned five wisdom points and three quest points.]
+
+>KILL GIRL
+[with the sword]
+The girl's shimmering features dissolve into those of a hideously ugly demon who leers at you through obscene, red eyes. "So, Arthur, you have seen through my little disguise. But as I am feeling generous, I shall make you a bargain. We each have something the other wants. I have the Golden Fleece, without which you cannot claim your kingdom. You have the power to free me. I propose a trade."
+
+"Heed closely the words of my offer, for I will fulfill them to the letter. If you agree to unlock my manacles, I will give you the Golden Fleece and allow you to finish your quest unmolested."
+
+"Remember. If you agree, we will each be bound to the terms of the contract. If you accept my offer, and then fail to honor the contract to the letter, you will die a horribly painful death."
+
+"Do you accept my offer?"
+
+Please answer YES or NO>Y
+The demon smiles with pleasure. He allows the fleece to slide onto the floor. "Proceed, then."
+
+Your body temperature returns to normal.
+
+>GET KEY
+You remove the key from the demon's neck.
+
+>UNLOCK RIGHT MANACLE
+[with the gold key]
+You open the right manacle. The demon smiles.
+
+>LOCK RIGHT MANACLE
+[with the gold key]
+You snap the right manacle shut. The smile vanishes from the demon's face.
+
+>UNLOCK LEFT MANACLE
+[with the gold key]
+You open the left manacle. The demon catches on to your plan and screams at you in fury. "Trapped! Trapped by my own words. You have won this round, Arthur, but the final victory shall yet be mine, for I now lay a triple curse upon your head."
+
+"You may gain the throne of England, but you shall gain no solace from it. Your wife shall be barren, you shall be betrayed by your best friend, and you shall die at the hand of your own son. Thus have I thrice cursed you."
+
+"Now BEGONE!"
+The word comes at you in a explosion of incredible force that blasts you out of the hall, through the outer rooms, and dumps you on the ledge next to the slumbering dragon. The force of the blast dislodges the stones on the mountainside above the cave entrance, and they fall down and seal off the mouth of the cave.
+
+LEDGE
+
+You emerge from the cave and find yourself once again on the ledge. A fierce-looking dragon is passed out in the entrance to the cave.
+
+You see a Golden Fleece here.
+
+[You have earned seven wisdom points, ten experience points and five quest points.]
+
+>GET FLEECE
+You take the Golden Fleece.
+
+[You have earned two wisdom points and one quest point.]
+
+>SW
+FOOT OF MOUNTAIN
+
+You descend to the foot of the evil-looking mountain. A path winds up the slope to the northeast. The ford lies to the southwest.
+
+>SW
+EAST OF FORD
+
+You return to the riverside. You see the gnarled and wasted remains of tree here. To the northeast, the land looks bleak and barren. The road leading in that direction looks like it ends at the foot of a forbidding mountain range. The ford across the river lies to the west.
+
+>W
+FORD
+
+You enter the ford. You are standing in the middle of the river. Looking south, you see that the land along the west bank is rich and lush, while the land along the east bank is wasted and barren.
+
+>W
+WEST OF FORD
+
+You climb up out of the river. To the west is a sign that marks the edge of a treacherous peat bog.
+
+You see some black armour here.
+
+>W
+PEAT BOG
+
+You enter the swirling fog and soon lose sight of the path. Any step you take is likely to propel you into the treacherous bog.
+
+>W
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SW
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+Across the bog to the west, you see the vague outline of an island with what appears to be a large thornbush on it. Unfortunately, the ground between here and there looks too treacherous to walk on.
+
+>NW
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SW
+Cautiously, you feel your way through the fog. The ground below your feet seems firm enough, but one false step would be fatal.
+
+>SW
+EDGE OF BOG
+
+You take a few steps and suddenly emerge from the mists at the edge of the peat bog. The peat below your feet here is firm and dry, but to the northeast, the path leads into the soggy, treacherous bog. The house is to the southwest. There is a sign here.
+
+>SW
+MOOR
+
+You walk back toward the cottage, which lies to the north. The road disappears off into the moor to the southwest, and to the northeast lies a large peat bog.
+
+You see a slean here.
+
+>SW
+FORK IN THE ROAD
+
+You come to a fork in the road. One route goes northwest, the other northeast. The road back to the town is to the south.
+
+>S
+OUTSIDE TOWN GATE
+
+The road takes you southward. Soon you are walking alongside the wall of the town, and you pause outside the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>E
+VILLAGE GREEN
+
+You enter the village green, which is a common area just inside the town's western defenses. The old Roman wall is crumbling into disrepair here, and there is a gaping hole where the west gate used to be. The town square lies to the east, and an ancient oak dominates the center of the green, towering over its roots like an aging druid over a group of prostrated initiates.
+
+You see a hole, a sprig of hawthorn and a piece of cheese here.
+
+>GET SPRIG
+You take the sprig of hawthorn.
+
+>W
+OUTSIDE TOWN GATE
+
+You leave the town and pause outside the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>SW
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast. To the east you see a knight's pavilion.
+
+You see a dead mouse and a bag here.
+
+>GET ALL
+dead mouse: Taken. 
+bag: Taken. 
+
+>SE
+FIELD OF HONOR
+
+You enter the Field of Honor. To the south is a lake with an island in the middle of it. To the east is a causeway leading to the island. The meadow lies to the northwest.
+
+>E
+END OF CAUSEWAY
+
+You are at the end of a causeway which is guarded by a red knight. The causeway leads south across the lake to an island. The Field of Honor lies to the west.
+
+The knight removes his stare from the horizon long enough to say, "You have given me the tusk and the gold egg but you still may not pass until you have given me the hair that grows between the eyes of a dragon and the Golden Fleece of the evil demon Nudd."
+
+>GIVE MAN HAIR AND FLEECE
+dragon hair: The red knight takes the dragon hair and says, "You have been busy, haven't you. Still, there is that one other item I mentioned."
+
+[You have earned one quest point.]
+Golden Fleece: The red knight takes the Golden Fleece and looks at you with new-found respect. "Appearances deceive," he says. "The one who has done these things must be more than a mere boy." He steps aside to let you pass.
+
+[You have earned one quest point.]
+
+>S
+The red knight steps aside to let you pass.
+
+CAUSEWAY
+
+You walk past the knight onto the causeway that leads south to the island.
+
+>S
+ISLAND
+
+You walk along the causeway, which ends on the rocky island. In front of you is a silver door set into the rocks. The causeway runs north to the mainland.
+
+>OPEN BAG
+You open the bag. Inside you see a silver key.
+
+>UNLOCK DOOR WITH SILVER KEY
+You put the silver key in the lock and give it a turn, and hear a click. The silver door swings open.
+
+[You have earned one quest point.]
+
+>D
+UNDERGROUND CHAMBER
+
+You walk down the stairs and find yourself in an underground chamber, far below the lake's surface. Lying on a bier in the middle of the chamber is a beautiful woman.
+
+>KISS LADY
+Kissing the beautiful woman fails to break the enchantment.
+But it was worth a shot.
+>Z UNTIL CHRISTMAS
+Time passes...
+
+While you wait, you hear the bells in the distance tolling the hours.
+
+You are starting to get sleepy.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>SLEEP
+
+Exhausted, you slump to the floor and go into a deep, troubled sleep.
+
+You awaken the next morning to the sound of the bells calling the monks to prayer. You feel refreshed from your sleep, but hungry. The air around you seems to echo with Merlin's voice, "Hurry, Arthur! Only one day remains."
+
+>Z UNTIL CHRISTMAS
+Time passes...
+
+Your stomach makes grumbling noises.
+
+Do you want to continue waiting?
+Please answer YES or NO>Y
+Time passes...
+
+You are really getting very hungry.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>CYR BADGER
+Poof! You regain your mustelid form.
+
+>EAT MOUSE
+You munch down the tasty-looking dead mouse and your hunger disappears.
+
+[You have earned one wisdom point and one experience point.]
+Yum. Almost as good as Purina badger-chow.
+>CYR BOY
+Poof! You regain your human form.
+
+>Z UNTIL CHRISTMAS
+Time passes...
+
+While you wait, you hear the bells in the distance tolling the hours.
+
+You are starting to get sleepy.
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>SLEEP
+
+Exhausted, you slump to the floor and go into a deep, troubled sleep.
+
+You awaken the next morning to the sound of the bells calling the monks to prayer. You feel refreshed from your sleep, but hungry. The air around you seems to echo with Merlin's voice, "Hurry, Arthur! Only a few hours remain."
+
+>GET SPRIG
+You take the sprig of hawthorn.
+
+>GIVE LADY SPRIG
+You place the sprig of hawthorn in her hands. The sprig of hawthorn has no effect. Perhaps because it has not yet bloomed.
+
+>Z
+Time passes...
+
+>Z
+Time passes...
+
+The sprig of hawthorn blossoms into a beautiful flower.
+
+The woman's eyelids flutter briefly, and then she awakens. She arises and says "Welcome, Arthur. I am Nimue, the Lady of the Lake. Lo these many years have I languished under the spell of the evil mountain demon. But even in my enchantment have I followed your adventures.
+
+"Because you have freed me, I too shall help you. Take this gauntlet and use it to challenge King Lot. You will have to fight him upon the Field of Honor, but if you keep your wits about you, he will be at your mercy. When you have dealt with him, call my name. Then shall the mighty sword Excalibur become yours."
+
+Before you can thank her she vanishes in a flash of light leaving the gauntlet behind lying on the bier.
+
+[You have earned ten chivalry points and two quest points.]
+
+Do you want to continue waiting?
+Please answer YES or NO>N
+
+>GET GLOVE
+You take the gauntlet from the stone bier.
+
+[You have earned one quest point.]
+
+>U
+ISLAND
+
+You climb the stairs and emerge once again onto the rocky island. Behind you is a silver door set into the rocks. Beyond the open door, a staircase leads down into the rocks. The causeway runs north to the mainland.
+
+>N
+CAUSEWAY
+
+You step onto the causeway that leads north to the mainland.
+
+>N
+END OF CAUSEWAY
+
+You are at the end of a causeway which is guarded by a red knight. The causeway leads south across the lake to an island. The Field of Honor lies to the west.
+
+The red knight acknowledges your arrival with a polite nod and indicates that you are free to pass by.
+
+>W
+FIELD OF HONOR
+
+You enter the Field of Honor. To the south is a lake with an island in the middle of it. To the east is a causeway leading to the island. The meadow lies to the northwest.
+
+>NW
+MEADOW
+
+You are standing in a meadow. Paths lead off to the northeast, northwest, and southeast. To the east you see a knight's pavilion.
+
+>NE
+OUTSIDE TOWN GATE
+
+You walk to the northeast until you come to the town gate, which lies to the east. A road leads to the north, and to the southwest is a meadow.
+
+>E
+VILLAGE GREEN
+
+You enter the village green, which is a common area just inside the town's western defenses. The old Roman wall is crumbling into disrepair here, and there is a gaping hole where the west gate used to be. The town square lies to the east, and an ancient oak dominates the center of the green, towering over its roots like an aging druid over a group of prostrated initiates.
+
+You see a hole and a piece of cheese here.
+
+>GET CHEESE
+You take the piece of cheese.
+
+>EAT IT
+You gobble up the piece of cheese and your hunger disappears.
+
+[You have earned one wisdom point and one experience point.]
+
+>E
+TOWN SQUARE
+
+You walk into the town square. The churchyard lies to the north, and the castle to the east. To your south you see the entrance to the town's only tavern, and to the west is the village green.
+
+The village idiot is here, idly playing with a red piece of glass that lies at his feet. He mumbles, "King Lot is a greedy goat."
+
+>E
+OUTSIDE CASTLE GATE
+
+You come to the gate to the castle of evil King Lot. A soldier is standing guard. To the south is the village smithy.
+
+>E
+The guard sees the gauntlet and says, "Enter." He opens the massive gate and steps aside as you walk through.
+
+PARADE AREA
+
+You walk inside the castle gate and are now in the parade area of King Lot's castle. The gate in the west wall is guarded by a soldier. The armoury is to the south, the entrance to the Great Hall is to the east, and the kitchen is to the southeast.
+
+>E
+GREAT HALL
+
+You trade the bright sunlight for the dark interior of King Lot's Great Hall. It is a large room with a dark, timbered ceiling. King Lot is enthroned on a massive chair in front of an intricately-woven tapestry. He is surrounded by his courtiers.
+
+>THROW GLOVE AT LOT
+As you approach the throne, Lot's soldiers close around you. Suddenly, however, they see the gauntlet and draw back, allowing you to step forward to deliver your challenge.
+
+Anger flashes in the evil king's eyes. "Enough!" he cries. "This stripling has impugned the honor of the king. He must answer for it on the Field of Honor."
+
+He stands up and stalks out of the Great Hall. His guards seize you and strip you of everything you were carrying. They thrust a sword into your hand and then they force-march you along behind Lot. The entourage sweeps out of the Castle, into the town, and south to the Field of Honor. Townspeople follow the procession, and by the time the guards turn you loose, you face King Lot man to man, surrounded by a cheering mob.
+
+[You have earned ten chivalry points and five quest points.]
+
+>DROP BRACELET
+As you handle the golden bracelet, you pretend to let it slip through your fingers and drop it on the ground. Lot's concentration is broken. His eyes widen at the sight of the gold and he stoops to pick it up.
+
+>FIGHT LOT
+[with the sword]
+Your gambit is successful. You knock aside Lot's sword and push him to the ground. You are now standing over him with your sword at his throat.
+
+[You have earned seven wisdom points, seven experience points and four quest points.]
+
+>SPARE LOT
+You remove your sword. King Lot kneels at your feet and thanks you, swearing eternal loyalty.
+
+[You have earned ten chivalry points.]
+
+>CALL LADY
+When you cry out, the winds come up and the sky goes dark. The waters of the lake begin to churn, and suddenly they pull back on either side to reveal a perfectly dry path that leads south to the center of the lake.
+
+[You have earned one experience point and one quest point.]
+
+>S
+LAKE
+
+The cheering mob parts on either side of you to allow you to walk to the water's edge. Slowly, you venture out between the two walls of water that are being held back by some magical, unseen force. After a few moments, you reach the center of the lake. Here, the sunken boat rests on dry ground and a shaft of light illuminates the sword in the stone.
+
+Lot and the crowd follow you.
+
+>GET SWORD
+You grasp the hilt and pull. At first nothing happens, but then...
+The sword slides out easily. You wave it over your head and the crowd cheers, "Long Live King Arthur. The Once and Future King."
+
+THE END
+
+
+[Congratulations on winning the game.]
+
+Merlin appears before you and says "You have done well, Arthur. Your reign will be long and, at times, peaceful. I must leave you now for a long journey. But rest assured my young friend - when you have need of me, I will be there."
+
+"Because you have one hundred and ten chivalry points, one hundred and three wisdom points, one hundred and one experience points, and one hundred quest points, you have proven yourself worthy of the rank of king."
+
+"Before I go, I shall grant you one final wish. Do you want to Undo, Restore, Restart, Quit, or get a Hint?"
+>
